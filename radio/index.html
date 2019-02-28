@@ -1,0 +1,111 @@
+---
+title: Basspistol Libre Radio
+subtitle: Radio
+description: "Basspistol Radio Station! 777% without commercials! RobotDJ-sets and live interventions!"
+keywords: Radio, basspistol, Live, Music, Broadcast, Stream,
+video: radio.mp4
+poster: radio.png
+thumb: radio.png
+---
+<!DOCTYPE html>
+<html>
+  <head>
+
+{% include metahead.html %}
+    <script type='application/ld+json'>
+    {
+      "@context": "http://www.schema.org",
+      "@type": "RadioStation",
+      "name": "Basspistol Libre Radio",
+      "url": "https://basspistol.com/radio",
+      "logo": "https://basspistol.com/assets/img/basspistol_est_2010_square_bluegreen.jpg",
+      "image": "https://basspistol.com/assets/img/basspistol_est_2010_square_bluegreen.jpg",
+      "description": "Unexpected and Impossible Music. Live interventions and special guests. This is Libre music!",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Geneva",
+        "addressRegion": "Geneva",
+        "postalCode": "1201",
+        "addressCountry": "Switzerland"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": "46.204391",
+        "longitude": "6.143158"
+      }
+    }
+     </script>
+
+    <script type="text/javascript">
+      function getData() {
+        $.getJSON('https://radio.basspistol.com/status-json.xsl', function(json) {
+            output = "<p>" + "Now Playing: " + "</p>";
+            output += "<p><strong>" + json.icestats.source[1].title + "</strong> <br />by<br /><strong>" + json.icestats.source[1].artist + "</strong></p>";
+            output += "<p>";
+            output += json.icestats.source[0].listeners + " peers are listening in <a href='https://radio.basspistol.com/radio.mp3.m3u'>MP3</a>";
+            output += "</p>";
+            output += "<p>";
+            output += json.icestats.source[1].listeners + " peers are listening in <a href='https://radio.basspistol.com/radio.ogg.m3u'>OGG</a>";
+            output += "</p>";
+            document.getElementById("radioPlaceholder").innerHTML=output;
+          });
+      }
+      setInterval(getData, 7000);
+
+      $(function() {
+          getData();
+      });
+    </script>
+
+
+  </head>
+  <body>
+{% include navmenu.html %}
+
+  <div id="content">
+{% include videopageheader.html %}      
+    <div class="fitter">
+      <div class="articles" style="text-align:center">
+          <button id="mu_pause">Play Radio</button>
+      </div>
+      <div class="articles">
+        <div id="radioPlaceholder"></div>
+      </div>
+{% include footer.html %}
+    </div>
+  </div>
+    <audio preload="none">
+      <source src="https://radio.basspistol.com/radio.mp3" type="audio/mpeg" />
+      <source src="https://radio.basspistol.com/radio.ogg" type="audio/ogg" />
+      <h1>Your browser isn't ready for so much hotness. Use these links instead: <a href="https://radio.basspistol.com/radio.ogg.m3u">OGG</a> or <a href="https://radio.basspistol.com/radio.mp3.m3u">MP3</a></h1>.
+     </audio>
+  </div>
+  <script type="text/javascript">
+    var mu = document.getElementsByTagName("audio")[0];
+    var pauseButton = document.getElementById("mu_pause");
+    function muFade() {
+    mu.classList.add("stopfade");
+    }
+    mu.addEventListener('ended', function() {
+    // only functional if "loop" is removed
+    mu.pause();
+    mu.currentTime=0;
+
+
+    // qq IE10
+    muFade();
+    });
+    pauseButton.addEventListener("click", function() {
+    mu.classList.toggle("stopfade");
+    if (mu.paused) {
+    mu.play();
+    pauseButton.innerHTML = "Pause Radio";
+    } else {
+    mu.pause();
+     pauseButton.innerHTML = "Resume Radio";
+    }
+    });
+    </script>
+
+  </body>
+</html>

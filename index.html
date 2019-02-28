@@ -1,0 +1,138 @@
+---
+title: 'Outernational Music Syndicate'
+subtitle: 
+description: 'Homepage of Basspistol, The Outernational Music Syndicate established in 2010'
+keywords: Basspistol, Outernational, Music, Syndicate, Homepage, Collective, Free, Culture,
+video: intro_loop_.mp4
+poster: intro_loop_.png
+thumb: intro_loop_.png
+---
+<!DOCTYPE html>
+<html>
+<head>
+{% include metahead.html %}
+<script type="text/javascript">
+  function generateRandomPosts()
+  {
+      $.getJSON("/posts.json", function(data) {
+          console.log("[posts.json loaded for random posts]");
+          var postsCount = data.length;
+          var posts = data;
+          var randomIndexUsed = [];
+          var counter = 0;
+          var numberOfPosts = 1;
+          var divRandomPosts = $("#random_posts");
+          divRandomPosts.append('<h1>Releases</h1>');
+          while (counter < numberOfPosts)
+          {
+              var randomIndex = Math.floor(Math.random() * postsCount);
+              if (randomIndexUsed.indexOf(randomIndex) == "-1")
+              {
+                  var postHREF = posts[randomIndex].href;
+                  var postImg = posts[randomIndex].img;
+                  var postTitle = posts[randomIndex].title;
+                  if (counter == (numberOfPosts - 1))
+                  {
+                      divRandomPosts.append('<a href="' + postHREF + '" title="' + postTitle + '"><div class="highlights" style="background-image: url(' + postImg + ')" alt="' + postTitle + '"></div><h3>' + postTitle+ '</h3></a><p>One of our releases, randomly selected just for you.</p>');
+                  }
+                  else
+                  {
+                      divRandomPosts.append('<a href="' + postHREF + '" title="' + postTitle + '"><div class="highlights" style="background-image: url(' + postImg + ')" alt="' + postTitle + '"></div><h3>' + postTitle + '</h3></a><p>One of our releases, randomly selected just for you.</p>');
+                  }
+                  randomIndexUsed.push(randomIndex);
+                  counter++;
+              }
+          }
+      });
+  }
+  $(document).ready(function() {
+      generateRandomPosts();
+  });
+</script>
+<script type="text/javascript">
+  function getData() {
+    $.getJSON('https://radio.basspistol.com/status-json.xsl', function(json) {
+        output = "<p>" + "Now Playing: " + "</p>";
+        output += "<p><strong>" + json.icestats.source[1].title + "</strong> <br />by<br /><strong>" + json.icestats.source[1].artist + "</strong></p>";
+        output += "<p>";
+        output += json.icestats.source[0].listeners + " peers are listening in <a href='https://radio.basspistol.com/radio.mp3.m3u'>MP3</a>";
+        output += "</p>";
+        output += "<p>";
+        output += json.icestats.source[1].listeners + " peers are listening in <a href='https://radio.basspistol.com/radio.ogg.m3u'>OGG</a>";
+        output += "</p>";
+        document.getElementById("radioPlaceholder").innerHTML=output;
+      });
+  }
+  setInterval(getData, 7000);
+  $(function() {
+      getData();
+  });
+</script>
+</head>
+<body>
+{% include navmenu.html %}
+  <div id="content">
+{% include videopageheader.html %}
+    <div class="fitter">
+        
+      <div class="records" id="random_posts">
+      </div>
+      <div class="records">
+        <h1>Highlights</h1>
+{% for page in site.categories.highlights offset: 0 limit: 1 %}
+      <a href="{{ base }}{{ page.url }}" title="{{ page.title }}"><div class="highlights" style="background-image: url('{{ base }}/assets/img/thumb/{{ page.cover }}')">
+      </div><h3>{{ page.title }} </h3></a>
+      <p>Highlights are things we think you want to discover. Tracks, articles, videos, interviews and reviews, curated but also original content. They are delivered to you daily. Here or via RSS.</p>
+{% endfor %}
+
+    </div>
+
+      <div class="articles">
+        <h1>What the funk?</h1>
+        <p>We are The Outernational Music Syndicate, we believe in music. The Music Industry is healthy and blossoming like never before, there is no crisis in this industry, only greed and midlemen.</p>
+
+        <p>Basspistol is a midlehand slayer but mostly your magic magnifying glass, allowing you to see what happens when the sweet artists get into to the salty ocean of creativity. This is what we work for. Nothing less, nothing more. And if you want to, <a href="/artists/">we</a> will <a href="/radio">share it with you.</a></p>
+
+        <p>We operate this website using inclusively open source tools. We care about you: we do not track what you look at, which article drives traffic or which gender prefers what genre. 
+        <br />
+        <br />We are <strong>NOT</strong> data driven, instead our passion is our engine and the freedom we posses allows  us to navigate time, without having to care about being profitable.</p>
+      </div>
+      <div class="records">
+        <h1>RADIO</h1>
+        <button id="mu_pause">Play</button>
+        <div id="radioPlaceholder"></div>  
+      </div>
+{% include footer.html %}
+    </div>
+</div>
+<audio preload="none">
+  <source src="https://radio.basspistol.com/radio.mp3" type="audio/mpeg" />
+  <source src="https://radio.basspistol.com/radio.ogg" type="audio/ogg" />
+  <h1>Your browser isn't ready for so much hotness. Use these links instead: <a href="https://radio.basspistol.com/radio.ogg.m3u">OGG</a> or <a href="https://radio.basspistol.com/radio.mp3.m3u">MP3</a></h1>.
+</audio>
+<script type="text/javascript">
+  var mu = document.getElementsByTagName("audio")[0];
+  var pauseButton = document.getElementById("mu_pause");
+  function muFade() {
+  mu.classList.add("stopfade");
+  }
+  mu.addEventListener('ended', function() {
+  // only functional if "loop" is removed
+  mu.pause();
+  mu.currentTime=0;
+  // qq IE10
+  muFade();
+  });
+  pauseButton.addEventListener("click", function() {
+  mu.classList.toggle("stopfade");
+  if (mu.paused) {
+  mu.play();
+  pauseButton.innerHTML = "Pause";
+  } else {
+  mu.pause();
+   pauseButton.innerHTML = "Resume";
+  }
+  });
+  </script>
+</body>
+</html>

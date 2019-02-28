@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+{% include metahead.html %}
+</head>
+<body>
+{% include navmenu.html %}
+  <div id="content">
+{% include videopageheader.html %}
+    <div class="fitter">
+      {{ content }}
+      {{ page.tags }}
+    </div>
+{% include footer.html %}
+  </div>
+</body>
+</html>

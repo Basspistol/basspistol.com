@@ -1,0 +1,33 @@
+---
+title: Links
+subtitle: Links
+description: 'Venture outside of your daily web-routine, read about some real projects. These links are way more than just Friends and Resources'
+keywords: Links, music, record, labels, resources, friends
+video: links.mp4
+poster: links.png
+thumb: links.png
+---
+<!DOCTYPE html>
+<html>
+<head>
+{% include metahead.html %}
+</head>
+<body>
+{% include navmenu.html %}
+  <div id="content">
+{% include videopageheader.html %}
+    <div class="fitter">
+
+{% assign sorted = site.data.links | sort: 'title' %}
+
+{% for link in sorted %}
+      <div class="records" style="border-bottom: solid 1px #f4ffe8;">
+        <h2><a href="{{ link.url }}?ref=TheOuternationalMusicSyndicateWasHere" style="text-decoration:none;">{{ link.title }}</a></h2>
+        <p>{{ link.banner }} </p>
+      </div>
+{% endfor %}
+{% include footer.html %}
+    </div>
+  </div>
+</body>
+</html>

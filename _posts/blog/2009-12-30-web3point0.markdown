@@ -1,0 +1,12 @@
+---
+layout: blog
+title: Web 3.0
+category: blog
+---
+We are The Outernational Music Syndicate, we believe in music. The Music Industry is healthy and blossoming like never before, there is no crisis in this industry, only greed and midlemen. 
+
+Basspistol is a midlehand slayer but mostly your magic magnifying glass, allowing you to see what happens when the sweet artists get into to the salty ocean of creativity. This is what we work for. Nothing less, nothing more. <br />
+<br />
+And if you want to, <a href="/artists/">we</a> will <a href="/radio">share it with you.</a>
+
+

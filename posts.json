@@ -1,0 +1,12 @@
+---
+---
+{% include base.html %}
+[
+{% for album in site.albums %}
+{
+    "title": "{{ album.name }}",
+    "img": "{{ base }}{{ album.cover }}",
+    "href": "{{ base }}/albums/{{ album.slug }}"
+}{% unless forloop.last %},{% endunless %}
+{% endfor %}
+]

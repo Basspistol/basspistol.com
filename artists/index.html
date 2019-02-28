@@ -1,0 +1,36 @@
+---
+title: Basspistol Artists
+subtitle: Roster
+description: 'The Basspistol roster, united powerful syndicated Artists'
+keywords: basspistol, artists, rosters, Franky, Fresco, Jokko, Sakrecoer, Max Park, Fraglebay, Sweatsky, Tikov
+video: artists.mp4
+poster: artists.jpg
+thumb: artists.jpg
+---
+<!DOCTYPE html>
+<html>
+<head>
+{% include metahead.html %}
+</head>
+<body>
+{% include navmenu.html %}
+  <div id="content">
+{% include videopageheader.html %}
+    <div class="fitter">
+      <div class="description">
+        <h1>Ordinary people with extraordinary visions</h1>
+        <p>Our Artists are free and independent: We have no exclusivity deals. If you feel you can offer these Geniuses a better deal then <a href="https://github.com/Basspistol/Music-Syndicate" target="_blank" rel="noopener noreferrer">ours,</a> you should contact them ASAP</p>
+      </div>
+{% assign sorted = site.data.artists | sort: 'id' %}      
+{% for artist in sorted %}
+      <div class="articles">
+        <div class="artistimg" style="background-image:url(..{{ artist.avatar }})"></div>
+        <h2><a href="{{ artist.web }}" target="_blank" rel="noopener noreferrer" style="text-decoration:none;">{{ artist.display_name }}</a></h2>
+    </div>
+{% endfor %}
+{% include footer.html %}
+  </div>
+
+  </div>
+</body>
+</html>
