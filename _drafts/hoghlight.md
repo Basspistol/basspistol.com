@@ -2,11 +2,18 @@
 title: hoghlight
 artist:
 author:
-category:
-tags: []
-layout:
+category: highlights
+tags:
+  - albums
+  - chille
+  - coding
+  - december
+  - article
+  - deep
+  - download
+layout: link
 description:
-uid:
+uid: mjh kh kjbk kj k
 cover:
 download:
 link:
@@ -21,3 +28,5 @@ image:
     url:
     title:
 ---
+
+kj&ouml;kj&nbsp; jl h
