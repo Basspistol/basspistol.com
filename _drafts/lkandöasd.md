@@ -2,7 +2,7 @@
 title: lkandöasd
 date:
 artist:
-author:
+author_artists:
 category:
 tags: []
 layout:
