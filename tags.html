@@ -1,0 +1,41 @@
+---
+title: taxonomy page
+subtitle: Tags
+description: 'List of post tags on Basspistol'
+keywords: Basspistol, Outernational, Music, Syndicate, Homepage, Collective, Free, Culture, Tags
+video: intro_loop_.mp4
+poster: intro_loop_.png
+thumb: intro_loop_.png
+permalink: /tags/
+---
+<!DOCTYPE html>
+<html>
+<head>
+{% include metahead.html %}
+</head>
+<body>
+{% include navmenu.html %}
+  <div id="content">
+{% include videopageheader.html %}
+    <div class="fitter">
+{% capture tags %}
+ {% for tag in site.tags %}
+  {{ tag[0] }}
+ {% endfor %}
+{% endcapture %}
+{% assign sortedtags = tags | split:' ' | sort %}  
+{% for tag in sortedtags %}
+      <div class="articles">
+          <h3 id="{{ tag }}">{{ tag }}</h3>
+          <ul>
+ {% for post in site.tags[tag] %}
+            <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+ {% endfor %}
+          </ul>
+      </div>
+{% endfor %}     
+    </div>
+{% include footer.html %}
+  </div>
+</body>
+</html>

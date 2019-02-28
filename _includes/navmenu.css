@@ -1,0 +1,33 @@
+/*******
+NAV MENU
+*******/
+
+#navigation {
+  /* background: linear-gradient(to bottom,  #f4ffe8 400px, #f4ffe8, #60784a); */
+  background: #f4ffe8;
+  flex: 0 0 50px;
+  padding-top: 0px;
+}
+#navigation ul {
+  margin: 0;
+  padding: 0;
+  font-size: 2em;
+
+}
+#navigation li {
+  list-style-type: none;
+  margin-top: 0.8em;
+  text-align: center;
+}
+#navigation a {
+  color:#60784a;
+  transition-property: hover;
+  transition: color 0.3s ease-in-out;
+}
+#navigation a:hover {
+  color: #560784;
+  background-color: transparent;
+}
+#navigation a.current {
+  color: #1b2241;
+}

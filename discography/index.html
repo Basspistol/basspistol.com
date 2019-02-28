@@ -1,0 +1,33 @@
+---
+title: Discography
+subtitle: Discog
+description: 'Our collection of Creative Commons licensed releases. Open culture''s finest'
+keywords: Discography, Releases, Music, Full-length, Albums, EP
+video: discogs.mp4
+poster: discogs.png
+thumb: discogs.png
+---
+<!DOCTYPE html>
+<html>
+<head>
+{% include metahead.html %}
+</head>
+<body>
+{% include navmenu.html %}
+  <div id="content">
+{% include videopageheader.html %}
+    <div class="fitter">
+
+{% assign sorted = site.albums | reverse %}
+{% for album in sorted %}
+      <div class="records">
+        <a href="{{ base }}/albums/{{ album.slug }}/">
+            <img class="recordthumbs" src="{{ base }}{{ album.cover }}" title="{{ album.name }}" alt="{{ album.name }}" />
+        </a>
+      </div>
+{% endfor %}
+{% include footer.html %}
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,63 @@
+---
+title: Highlights
+subtitle: Hi-Lights
+description: 'Links to secret music, infamous articles, forbiden videos, off the record interviews and much more...'
+keywords: Music, News, blog, Interviews, links, promotion,
+video: highlights.mp4
+poster: highlights.png
+thumb: highlights.png
+permalink: /highlights/
+pagination: 
+  enabled: true
+  category: highlights
+  per_page: 14
+  title: 'Highlight page :num of :max'
+  limit: 0
+  sort_field: 'date'
+  sort_reverse: true
+---
+<!DOCTYPE html>
+<html>
+<head>
+{% include highlightmetahead.html %}
+</head>
+<body>
+{% include highlightsnavmenu.html %}
+  <div id="content">
+{% include videopageheader.html %}
+    <div class="fitter">
+      <div class="records">
+        <p>This is a collection of links to material we want to encourage; tracks, articles, videos, music related interviews and reviews... Curated but also original content. Most of the Artists represented here are not affiliated with basspistol in any way and do not necessarily endorse Basspistol. They just happen to have an awesome role within music and it's whereabouts. These links are delivered to you daily. Here or via RSS. <br /><br /><strong>If you are featured in this feed against your will, reach out ASAP to info at basspistol dot com and we will remove it.</strong></p>
+      </div>
+      {% for post in paginator.posts %}
+      <div class="records" style="border-bottom: solid 1px #f4ffe8;">
+        <a href="{{ base }}{{ post.url }}">
+            <img class="recordthumbs" src="{{ base }}/assets/img/thumb/{{ post.cover }}" title="{{ post.title }}" alt="{{ post.title }}" />
+        <h3>{{ post.title}}</h3></a>
+        <p>{{ post.date | date: "%a, %b %d, %Y" }} </p>
+        <p>{{ post.description }} </p>
+      </div>
+      {% endfor %}
+
+    <!-- Pagination links -->
+    {% if paginator.total_pages > 1 %}
+    <div class="articles">
+      <h3>page {{ paginator.page }} of {{ paginator.total_pages }}</h3>
+      {% if paginator.previous_page %}
+        <a href="{{ base }}{{ paginator.previous_page_path }}"><h3>&laquo; Newer</h3></a>
+      {% else %}
+        
+      {% endif %}
+    
+      {% if paginator.next_page %}
+        <a href="{{ base }}{{ paginator.next_page_path }}"><h3>Older &raquo;</h3></a>
+      {% else %}
+        
+      {% endif %}
+    </div>
+    {% endif %}
+{% include footer.html %}
+    </div>
+  </div>
+</body>
+</html>
