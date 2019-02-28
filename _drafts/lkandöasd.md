@@ -1,8 +1,8 @@
 ---
 title: lkandöasd
 date:
-artist:
-author_artists:
+author_artist:
+author_staff_members:
 category:
 tags: []
 layout:
