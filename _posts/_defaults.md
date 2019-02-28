@@ -1,5 +1,6 @@
 ---
 title: ''
+date:
 artist: ''
 author: ''
 category: ''
