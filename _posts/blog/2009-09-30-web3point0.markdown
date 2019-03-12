@@ -2,6 +2,7 @@
 layout: blog
 title: Niche Anyone?
 category: blog
+sitemap: false
 ---
 Most music labels are their own genres. But Basspistol is a syndicate that does not limit its scope by whether or not a certain piece of music information fits within a specific envelope of style. 
 
