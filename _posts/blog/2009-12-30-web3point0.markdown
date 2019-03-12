@@ -2,6 +2,7 @@
 layout: blog
 title: Web 3.0
 category: blog
+sitemap: false
 ---
 We are The Outernational Music Syndicate, we believe in music. The Music Industry is healthy and blossoming like never before, there is no crisis in this industry, only greed and midlemen. 
 
