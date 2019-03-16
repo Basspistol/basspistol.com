@@ -11,5 +11,5 @@ uid: ''
 cover: ''
 download: ''
 link: ''
-image:
+image: ''
 ---

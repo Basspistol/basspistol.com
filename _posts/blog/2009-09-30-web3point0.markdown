@@ -1,9 +1,0 @@
----
-layout: blog
-title: Niche Anyone?
-category: blog
-sitemap: false
----
-Most music labels are their own genres. But Basspistol is a syndicate that does not limit its scope by whether or not a certain piece of music information fits within a specific envelope of style. 
-
-The scope is wide yet focusing on context and content. Digging crates of the digital era is a dirty job, but someone has to do debunk the master pieces that haven't gotten the attention they deserve or those that paved the way for the mainstream. And if it has gotten a lot of attention but is featured anyways, then it probably is a piece that has deeper sociopolitical message, whether it is contextual within the time of publication or simply a forgotten gem.
