@@ -11,7 +11,7 @@
 
   <!-- Standard SEO -->
   <meta name="title" content="{{ page.common.title }}">
-  <meta name="dc.date.modified" scheme="ISO8601" content="{{ site.time | date_to_xmlschema }}" />
+  <!-- Need to filter this one <meta name="dc.date.modified" scheme="ISO8601" content="{{  page.common.date | date_to_xmlschema }}" /> -->
   <meta name='robots' content='index'/>
   <meta charset="utf-8" />
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -35,11 +35,11 @@
   <meta name="dcterms.Publisher" content="{{ site.title }}" />
   <meta name="dcterms.Type" content="text/html" />
   <meta name="dcterms.Coverage" content="{{ site.production_url }}/" />
-  <meta name="dcterms.Rights" content="Copyleft &copy;{{ page.date | date: "%Y" }} {{ site.title }}." />
+  <meta name="dcterms.Rights" content="Copyleft &copy;{{ page.common.date | date: "%Y" }} {{ site.title }}." />
   <meta name="dcterms.Title" content="{{ page.common.title }} by {{ page.common.artists }} | {{ site.title }}" />
   <meta name="dcterms.Subject" content="{{ site.tagline }}" />
   <meta name="dcterms.Contributor" content="{{ site.title }}" />
-  <meta name="dcterms.Date" content="{{ site.time | date: "%Y-%m-%d" }}" />
+  <meta name="dcterms.Date" content="{{  page.common.date | date: "%Y-%m-%d" }}" />
   <meta name="dcterms.Description" content="Release by {{ page.common.artists }} on {{ site.title }}" />
 
   <!-- Facebook OpenGraph -->
