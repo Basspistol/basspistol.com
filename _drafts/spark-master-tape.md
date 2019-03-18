@@ -1,0 +1,17 @@
+---
+title: Spark Master Tape
+artist: 徒 Setto セット
+category: highlights
+tags:
+  - internal
+  - release
+  - EP
+layout: link
+description: >-
+  What if there was another space within cyberspace? What if there was a place
+  the strange could call a home?
+uid: darkweb2019
+cover: coverartDarkweb_setto.jpg
+download:
+link: 'https://setto.basspistol.com/darkweb'
+---
