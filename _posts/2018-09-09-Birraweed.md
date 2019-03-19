@@ -6,7 +6,7 @@ tags: [video, ekipz, rap, chille]
 layout: link
 description: 'Chillean lean, straight out of Valpara&iacute;so'
 uid: 'birraweed'
-cover: 'birraweed.jpg'
+image: 'birraweed.jpg'
 download: ''
 link: 'https://youtu.be/qsxGmA4frLA'
 ---

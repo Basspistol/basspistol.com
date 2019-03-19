@@ -8,7 +8,7 @@ tags: []
 layout: 
 description: ''
 uid: ''
-cover: ''
+image: ''
 download: ''
 link: ''
 image: ''

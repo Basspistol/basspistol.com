@@ -6,7 +6,7 @@ tags: [video, music, internal]
 layout: link
 description: 'Papi Crapy staring in a Sakrecoer video'
 uid: 'kalsongsalong'
-cover: 'kalsongsalong.jpg'
+image: 'kalsongsalong.jpg'
 download: ''
 link: 'https://archive.org/details/BPIST-V002'
 ---

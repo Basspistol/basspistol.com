@@ -7,7 +7,7 @@ tags: [yung, lean, article]
 layout: link
 description: 'Codes, idioms and how the Yungster redefined the notion of a band.'
 uid: 'powerfullylean1unf13r9u1ruvbpeif'
-cover: 'clr.jpg'
+image: 'clr.jpg'
 download: ''
 link: 'https://youtu.be/TmAvt5p6f8g'
 author: set

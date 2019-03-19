@@ -6,7 +6,7 @@ tags: [internal,album]
 layout: link
 description: 'Sakrecoer Sells out!'
 uid: 'waitinggamesakrecoer2019'
-cover: 'waitinggame.jpg'
+image: 'waitinggame.jpg'
 download: ''
 link: 'https://sakrecoer.com/waitinggame/'
 ---

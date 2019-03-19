@@ -6,7 +6,7 @@ tags: [video, internal]
 layout: link
 description: 'In a dystopian future, will The Fraglebay survive on their 2billion project?'
 uid: '2biljonprojekt'
-cover: '2biljon.jpg'
+image: '2biljon.jpg'
 download: ''
 link: 'https://archive.org/details/BPIST-V003'
 ---

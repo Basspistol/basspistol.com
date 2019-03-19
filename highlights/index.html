@@ -32,7 +32,7 @@ pagination:
       {% for post in paginator.posts %}
       <div class="records" style="border-bottom: solid 1px #f4ffe8;">
         <a href="{{ base }}{{ post.url }}">
-            <img class="recordthumbs" src="{{ base }}/assets/img/thumb/{{ post.cover }}" title="{{ post.title }}" alt="{{ post.title }}" />
+            <img class="recordthumbs" src="{{ base }}/assets/img/thumb/{{ post.image }}" title="{{ post.title }}" alt="{{ post.title }}" />
         <h3>{{ post.title}}</h3></a>
         <p>{{ post.date | date: "%a, %b %d, %Y" }} </p>
         <p>{{ post.description }} </p>

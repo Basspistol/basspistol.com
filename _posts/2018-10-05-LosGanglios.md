@@ -7,7 +7,7 @@ tags: [spanish,post-pop,porc,]
 layout: link
 description: 'PORC, or what happens when you conglomerate Punk, Techno, Rock and Cumbia'
 uid: 'losgangliosnomamesguey'
-cover: 'trnx_losganglios.jpg'
+image: 'trnx_losganglios.jpg'
 download: ''
 link: 'http://losganglios.com/videos/'
 ---
