@@ -42,7 +42,7 @@ title : The Basspistol RSS Feed
         <title>{{ post.title }}</title>
         <link>{% if post.layout contains "article" %}{{ site.production_url }}{{ post.url }}{% elsif post.layout contains "link" %}{{ post.link }}{% endif %} </link>
         <guid isPermaLink="false">{{ post.uid }}</guid>
-        <description> &lt;img src=&quot;{{ site.production_url }}/assets/img/thumb/{{ post.cover }}&quot; /&gt; &lt;br /&gt;{{ post.description | xml_escape }} {% if post.layout contains "link" %}&lt;br /&gt;Full article on: &lt;a href=&quot;{{ site.production_url }}{{ post.url }}&quot;&gt;{{ site.production_url }}{{ post.url }}&lt;/a&gt;{% endif %}</description>
+        <description> &lt;img src=&quot;{{ site.production_url }}/assets/img/thumb/{{ post.image }}&quot; /&gt; &lt;br /&gt;{{ post.description | xml_escape }} {% if post.layout contains "link" %}&lt;br /&gt;Full article on: &lt;a href=&quot;{{ site.production_url }}{{ post.url }}&quot;&gt;{{ site.production_url }}{{ post.url }}&lt;/a&gt;{% endif %}</description>
         <category>Podcasts</category>
         <author>{{ post.artist | xml_escape }}</author>
         <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
@@ -51,7 +51,7 @@ title : The Basspistol RSS Feed
         <itunes:subtitle>{{ post.description | strip_html | truncate: 252 | xml_escape  }}</itunes:subtitle>
         <itunes:summary>{{ post.description | xml_escape }}</itunes:summary>
         <itunes:keywords>{% for tags in post.tags %}{{ tags | strip_html | xml_escape }}{% unless forloop.last %}, {% endunless %}{% endfor %}</itunes:keywords>
-        <itunes:image href="{{ site.production_url }}/assets/img/{{ post.cover }}"/>
+        <itunes:image href="{{ site.production_url }}/assets/img/{{ post.image }}"/>
       </item>
   {% endfor %}
   </channel>

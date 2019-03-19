@@ -54,9 +54,9 @@
   <meta property="og:locale" content="en_us" />
   <meta property="og:title" content="{{ page.title }} | {{ site.title }}" />{% if page.description == null %}
   <meta property="og:description" content="{{ site.tagline | strip_html }}" />{% else %}
-  <meta property="og:description" content="{{ page.description | strip_html }}" />{% endif %}{% if page.cover == null %}
+  <meta property="og:description" content="{{ page.description | strip_html }}" />{% endif %}{% if page.image == null %}
   <meta property="og:image" content="{{ site.production_url }}/assets/vid/{{ page.poster }}" />{% elsif page.category == "highlights" %}
-  <meta property="og:image" content="{{ site.production_url }}/assets/img/thumb/{{ page.cover }}" />{% else %}
+  <meta property="og:image" content="{{ site.production_url }}/assets/img/thumb/{{ page.image }}" />{% else %}
   <meta property="og:image" content="{{ site.production_url }}{{ site.banner }}" />
   <meta property="og:image:type" content="image/jpeg" />
   <meta property="og:image:width" content="1024" />
@@ -71,9 +71,9 @@
   <meta name="twitter:site" content="@bpist" />
   <meta name="twitter:title" content="{{ page.title }} | {{ site.title }}" />{% if page.description == null %}
   <meta name="twitter:description" content="{{ site.tagline | strip_html }}" />{% else %}
-  <meta name="twitter:description" content="{{ page.description | strip_html }}" />{% endif %}{% if page.cover == null %}
+  <meta name="twitter:description" content="{{ page.description | strip_html }}" />{% endif %}{% if page.image == null %}
   <meta name="twitter:image" content="{{ site.production_url }}/assets/vid/{{ page.poster }}" />{% elsif page.category == "highlights" %}
-  <meta name="twitter:image" content="{{ site.production_url }}/assets/img/thumb/{{ page.cover }}" />{% else %}
+  <meta name="twitter:image" content="{{ site.production_url }}/assets/img/thumb/{{ page.image }}" />{% else %}
   <meta name="twitter:image" content="{{ site.production_url }}{{ site.banner }}" />{% endif %}
 
 
@@ -168,9 +168,9 @@
       "name": "{{ page.title }} | {{ site.title }}",
       {% if page.description == null %}"description": "{{ site.tagline | strip_html }}",{% else %}"description": "{{ page.description | strip_html }}",{% endif %}
       "image": {
-          "@type": "ImageObject", {% if page.cover == null %}
+          "@type": "ImageObject", {% if page.image == null %}
           "url": "{{ site.production_url }}/assets/vid/{{ page.poster }}"{% elsif page.category == "highlights" %}
-          "url": "{{ site.production_url }}/assets/img/thumb/{{ page.cover }}"{% else %}
+          "url": "{{ site.production_url }}/assets/img/thumb/{{ page.image }}"{% else %}
           "url": "{{ site.production_url }}{{ site.banner }}",
           "width": "1024",
           "height": "1024"{% endif %}

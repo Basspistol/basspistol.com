@@ -6,7 +6,7 @@ tags: [internal,release,EP]
 layout: link
 description: 'Satoshi Mon Ami EP, out now!'
 uid: 'kas tu fais de nous 2019'
-cover: '2018-setto-single-003-reve_de_toi-117bpm_sqaure_FINAL.jpg'
+image: '2018-setto-single-003-reve_de_toi-117bpm_sqaure_FINAL.jpg'
 download: ''
 link: 'https://shop.basspistol.com/album/satoshi-mon-ami'
 ---

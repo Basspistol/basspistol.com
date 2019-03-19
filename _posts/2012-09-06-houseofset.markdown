@@ -6,7 +6,7 @@ tags: [internal, albums, download]
 layout: link
 description: The House Of Set, Recorded in an itinerant studio by Simio Sakrecoer
 uid: BPIST007
-cover: 'templeofSetCoverART_INV.png'
+image: 'templeofSetCoverART_INV.png'
 download: 'https://archive.org/download/BPIST007/BPIST007_archive.torrent'
 link: 'https://basspistol.com/albums/the-house-of-set/'
 permalink: /records/house-set/

@@ -6,7 +6,7 @@ tags: [g-funk, summer, mix]
 layout: link
 description: '100% Vinyl mix of G-Funk'
 uid: 'gmixsummer'
-cover: 'cricket.summer.jpg'
+image: 'cricket.summer.jpg'
 download: ''
 link: 'https://soundcloud.com/alexandrebertrand-1/dj-criket-g-funk-summer-mix-2018-100-vinyl'
 ---

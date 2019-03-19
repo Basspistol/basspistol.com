@@ -6,7 +6,7 @@ category: highlights
 artist: tikov
 uid: BPIST005
 permalink: /records/headcleaner-dr-tikov/
-cover: DrTikov_Headcleaner.jpg
+image: DrTikov_Headcleaner.jpg
 download: https://archive.org/download/BPIST005/BPIST005_archive.torrent
 link: 'https://basspistol.com/albums/headcleaner/'
 description: 'Headcleaner by Dr. Tikov. A tasteful and minimalistic opus of dubish Russian techno, made in Barcelona.'
