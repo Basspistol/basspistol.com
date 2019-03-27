@@ -1,62 +1,465 @@
----
-title: Highlights
-subtitle: Hi-Lights
-description: 'Links to secret music, infamous articles, forbiden videos, off the record interviews and much more...'
-keywords: Music, News, blog, Interviews, links, promotion,
-video: highlights.mp4
-poster: highlights.png
-thumb: highlights.png
-permalink: /highlights/
-pagination: 
-  enabled: true
-  category: highlights
-  per_page: 14
-  title: 'Highlight page :num of :max'
-  limit: 0
-  sort_field: 'date'
-  sort_reverse: true
----
 <!DOCTYPE html>
 <html>
 <head>
-{% include highlightmetahead.html %}
+
+
+
+
+<!-- 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+|..............................................                                                    |
+|..............................................   ▄▄▄▄    ▄▄▄        ██████   ██████               |
+|...........'';,...............................  ▓█████▄ ▒████▄    ▒██    ▒ ▒██    ▒               |
+|.........'',,;:o:,............................  ▒██▒ ▄██▒██  ▀█▄  ░ ▓██▄   ░ ▓██▄                 |
+|.......',;;::::::;;;,.........................  ▒██░█▀  ░██▄▄▄▄██   ▒   ██▒  ▒   ██▒              |
+|.....,;:ooooooooooo;,,''''....................  ░▓█  ▀█▓ ▓█   ▓██▒▒██████▒▒▒██████▒▒              |
+|....,;ooooooooooooooo;,'..'''''...............  ░▒▓███▀▒ ▒▒   ▓▒█░▒ ▒▓▒ ▒ ░▒ ▒▓▒ ▒ ░              |
+|...,:ooooooooooooooooo;''......'''............  ▒░▒   ░   ▒   ▒▒ ░░ ░▒  ░ ░░ ░▒  ░ ░              |
+|..,;:ooooooooooooooooo',,.........,'..........   ░    ░   ░   ▒   ░  ░  ░  ░  ░  ░                |
+|..,,;:,ooooo;;:ooo;o,:;,',.........;,''.......   ░            ░  ░      ░        ░                |
+|..,'..,,;:o,''.,;;'''..'';,,,,,,''',;'''......        ░                                           |
+|..,'......':ooo:.......'';,'''''''',;,,,......   ██▓███   ██▓  ██████ ▄▄▄█████▓ ▒█████   ██▓      |
+|..,,.......,:o:'.......,'oooo:::::;:,.',;,....  ▓██░  ██▒▓██▒▒██    ▒ ▓  ██▒ ▓▒▒██▒  ██▒▓██▒      |
+|..','.................',,..'',,,;;;;;;,.,:....  ▓██░ ██▓▒▒██▒░ ▓██▄   ▒ ▓██░ ▒░▒██░  ██▒▒██░      |
+|...,,'...............',;oooooooooo:;;:,;oo,...  ▒██▄█▓▒ ▒░██░  ▒   ██▒░ ▓██▓ ░ ▒██   ██░▒██░      |
+|....,,'.............,,;ooooooooo;,..'',oooo,..  ▒██▒ ░  ░░██░▒██████▒▒  ▒██▒ ░ ░ ████▓▒░░██████▒  |
+|.....',,'........',,;ooo::;;,'........'oooo;..  ▒▓▒░ ░  ░░▓  ▒ ▒▓▒ ▒ ░  ▒ ░░   ░ ▒░▒░▒░ ░ ▒░▓  ░  |
+|.......'',,'''',,;;;,,'...............';;;'...  ░▒ ░      ▒ ░░ ░▒  ░ ░    ░      ░ ▒ ▒░ ░ ░ ▒  ░  |
+|...........'''''..............................  ░░        ▒ ░░  ░  ░    ░      ░ ░ ░ ▒    ░ ░     |
+|..............................................            ░        ░               ░ ░      ░  ░  |
+|..............................................                                                    |
+|..............................................  All you saw was sound!                            |
+|..............................................                                                    |
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+-->
+  <link rel="shortcut icon" href="../assets/img/basspistolico.png" type="image/png" />
+  <link rel="stylesheet" href="../assets/css/style.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+  <link rel="alternate" type="application/rss+xml" href="https://basspistol.com/rss.xml" />
+
+  <!-- BEGIN rendered SEO Meta -->
+
+  <title>Highlights | Basspistol</title>
+
+  <!-- Standard SEO -->
+  <meta name="title" content="Highlights, Basspistol">
+  <meta name="dc.date.modified" scheme="ISO8601" content="2019-03-27T13:02:28+00:00" />
+  <meta name='robots' content='index'/>
+  <meta charset="utf-8" />
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="referrer" content="no-referrer-when-downgrade" />
+  <meta name="description" content="Links to secret music, infamous articles, forbiden videos, off the record interviews and much more..." />
+  <meta name="generator" content="Jekyll" />
+  <link rel="canonical" href="https://basspistol.com/highlights/index.html" />
+  <link rel="alternate" href="https://basspistol.com/highlights/index.html" hreflang="x-default" />
+  <meta name="geo.region" content="CH-GE" />
+  <meta name="geo.placename" content="Geneva" />
+  <meta name="geo.position" content="46.204391;6.143158" />
+  <meta name="ICBM" content="46.204391, 6.143158" />
+  <meta name="keywords" content="Music, News, blog, Interviews, links, promotion,">
+
+
+  <!-- Dublin Core basic info -->
+
+  <meta name="dcterms.Identifier" content="https://basspistol.com" />
+  <meta name="dcterms.Format" content="text/html" />
+  <meta name="dcterms.Relation" content="Basspistol" />
+  <meta name="dcterms.Language" content="en" />
+  <meta name="dcterms.Publisher" content="Basspistol" />
+  <meta name="dcterms.Type" content="text/html" />
+  <meta name="dcterms.Coverage" content="https://basspistol.com/" />
+  <meta name="dcterms.Rights" content="Copyleft &copy;2019 Basspistol." />
+  <meta name="dcterms.Title" content="Highlights | Basspistol" />
+  <meta name="dcterms.Subject" content="The Outernational Music Syndicate. Established in 2010" />
+  <meta name="dcterms.Contributor" content="Basspistol" />
+  <meta name="dcterms.Date" content="2019-03-27" />
+  <meta name="dcterms.Description" content="Links to secret music, infamous articles, forbiden videos, off the record interviews and much more..." />
+
+  <!-- Facebook OpenGraph -->
+
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="en_us" />
+  <meta property="og:url" content="https://basspistol.com" />
+  <meta property="og:title" content="Highlights | Basspistol" />
+  <meta property="og:description" content="Links to secret music, infamous articles, forbiden videos, off the record interviews and much more..." />
+  <meta property="og:image" content="https://basspistol.com/assets/vid/highlights.png" />
+  <meta property="og:site_name" content="Basspistol" />
+  <meta property="og:see_also" content="https://www.instagram.com/basspistol" />
+  <meta property="og:see_also" content="https://twitter.com/bpist" />
+  <meta property="og:see_also" content="https://www.facebook.com/basspistolQC" />
+  <meta property="og:see_also" content="https://soundcloud.com/basspistol" />
+  <meta property="og:see_also" content="https://basspistol.tumblr.com" />
+  <meta property="og:see_also" content="https://archive.org/details/basspistol" />
+  <meta property="og:see_also" content="https://mastodon.art/@basspistol" />
+  
+
+  <!-- Twitter Card -->
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@bpist" />
+  <meta name="twitter:title" content="Highlights | Basspistol" />
+  <meta name="twitter:description" content="Links to secret music, infamous articles, forbiden videos, off the record interviews and much more..." />
+  <meta name="twitter:image" content="https://basspistol.com/assets/img/basspistol_est_2010_square_bluegreen.jpg" />
+
+
+  <!-- Humans.txt authorship http://humanstxt.org -->
+
+  <link type="text/plain" rel="author" href="https://basspistol.com/humans.txt" />
+
+  <!-- Domain verification -->
+
+
+  <!-- Identity -->
+
+  <script type='application/ld+json'>
+  {
+    "@context": "http://www.schema.org",
+    "@type": "Organization",
+    "name": "Basspistol",
+    "url": "https://basspistol.com",
+    "sameAs": [
+    "https://www.instagram.com/basspistol","https://twitter.com/bpist","https://www.facebook.com/basspistolQC","https://soundcloud.com/basspistol","https://basspistol.tumblr.com","https://archive.org/details/basspistol","https://mastodon.art/@basspistol"
+    ],
+    "logo": "https://basspistol.com/assets/img/basspistol_est_2010_square_bluegreen.jpg",
+    "image": "https://basspistol.com/assets/img/basspistol_est_2010_square_bluegreen.jpg",
+    "description": "The Outernational Music Syndicate. Established in 2010",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Geneva",
+      "addressRegion": "Geneva",
+      "postalCode": "1201",
+      "addressCountry": "Switzerland"
+    }
+  }
+   </script>
+
+  <!-- WebSite -->
+
+  <script type="application/ld+json">
+  {
+      "@context": "http://schema.org",
+      "@type": "WebSite",
+      "name": "Basspistol",
+      "url": "https://basspistol.com",
+      "sameAs": ["https://www.instagram.com/basspistol","https://twitter.com/bpist","https://www.facebook.com/basspistolQC","https://soundcloud.com/basspistol","https://basspistol.tumblr.com","https://archive.org/details/basspistol","https://mastodon.art/@basspistol"],
+      "copyrightHolder": {
+          "@type": "Corporation",
+          "name": "Basspistol",
+          "url": "https://basspistol.com",
+          "sameAs": ["https://www.instagram.com/basspistol","https://twitter.com/bpist","https://www.facebook.com/basspistolQC","https://soundcloud.com/basspistol","https://basspistol.tumblr.com","https://archive.org/details/basspistol","https://mastodon.art/@basspistol"],
+          "location": {
+              "@type": "Place",
+              "name": "Basspistol",
+              "url": "https://basspistol.com",
+              "sameAs": ["https://www.instagram.com/basspistol","https://twitter.com/bpist","https://www.facebook.com/basspistolQC","https://soundcloud.com/basspistol","https://basspistol.tumblr.com","https://archive.org/details/basspistol","https://mastodon.art/@basspistol"]
+          }
+      },
+      "author": {
+          "@type": "Corporation",
+          "name": "Basspistol",
+          "url": "https://basspistol.com",
+          "sameAs": ["https://www.instagram.com/basspistol","https://twitter.com/bpist","https://www.facebook.com/basspistolQC","https://soundcloud.com/basspistol","https://basspistol.tumblr.com","https://archive.org/details/basspistol","https://mastodon.art/@basspistol"],
+          "location": {
+              "@type": "Place",
+              "name": "Basspistol",
+              "url": "https://basspistol.com",
+              "sameAs": ["https://www.instagram.com/basspistol","https://twitter.com/bpist","https://www.facebook.com/basspistolQC","https://soundcloud.com/basspistol","https://basspistol.tumblr.com","https://archive.org/details/basspistol","https://mastodon.art/@basspistol"]
+          }
+      },
+      "creator": {
+          "@type": "Organization"
+      }
+  }
+  </script>
+
+  <!-- Place -->
+
+  <script type="application/ld+json">
+  {
+      "@context": "http://schema.org",
+      "@type": "Place",
+      "name": "Basspistol",
+      "url": "https://basspistol.com",
+      "sameAs": ["https://www.instagram.com/basspistol","https://twitter.com/bpist","https://www.facebook.com/basspistolQC","https://soundcloud.com/basspistol","https://basspistol.tumblr.com","https://archive.org/details/basspistol","https://mastodon.art/@basspistol"]
+  }
+  </script>
+
+  <!-- Main Entity of Page -->
+
+  <script type="application/ld+json">
+  {
+      "@context": "http://schema.org",
+      "@type": "WebPage",
+      "name": "Highlights | Basspistol",
+      "description": "Links to secret music, infamous articles, forbiden videos, off the record interviews and much more...",
+      "image": {
+          "@type": "ImageObject", 
+          "url": "https://basspistol.com/assets/img/basspistol_est_2010_square_bluegreen.jpg",
+          "width": "1024",
+          "height": "1024"
+      },
+      "url": "https://basspistol.com/highlights/index.html",
+      "mainEntityOfPage": "https://basspistol.com",
+      "inLanguage": "en_us",
+      "headline": "The Outernational Music Syndicate. Established in 2010",
+      "dateCreated": "",
+      "dateModified": "2019-03-27T13:02:28+00:00",
+      "datePublished": "",
+      "copyrightYear": "2019",
+      "author": {
+          "@type": "Corporation",
+          "name": "Basspistol",
+          "url": "https://basspistol.com",
+          "sameAs": ["https://www.instagram.com/basspistol","https://twitter.com/bpist","https://www.facebook.com/basspistolQC","https://soundcloud.com/basspistol","https://basspistol.tumblr.com","https://archive.org/details/basspistol","https://mastodon.art/@basspistol"],
+          "location": {
+              "@type": "Place",
+              "name": "Basspistol",
+              "url": "https://basspistol.com",
+              "sameAs": ["https://www.instagram.com/basspistol","https://twitter.com/bpist","https://www.facebook.com/basspistolQC","https://soundcloud.com/basspistol","https://basspistol.tumblr.com","https://archive.org/details/basspistol","https://mastodon.art/@basspistol"]
+          }
+      },
+      "copyrightHolder": {
+          "@type": "Corporation",
+          "name": "Basspistol",
+          "url": "https://basspistol.com",
+          "sameAs": ["https://www.instagram.com/basspistol","https://twitter.com/bpist","https://www.facebook.com/basspistolQC","https://soundcloud.com/basspistol","https://basspistol.tumblr.com","https://archive.org/details/basspistol","https://mastodon.art/@basspistol"],
+          "location": {
+              "@type": "Place",
+              "name": "Basspistol",
+              "url": "https://basspistol.com",
+              "sameAs": ["https://www.instagram.com/basspistol","https://twitter.com/bpist","https://www.facebook.com/basspistolQC","https://soundcloud.com/basspistol","https://basspistol.tumblr.com","https://archive.org/details/basspistol","https://mastodon.art/@basspistol"]
+          }
+      },
+      "publisher": {
+          "@type": "Organization",
+          "name": "Basspistol",
+          "url": "https://basspistol.com",
+          "sameAs": ["https://www.instagram.com/basspistol","https://twitter.com/bpist","https://www.facebook.com/basspistolQC","https://soundcloud.com/basspistol","https://basspistol.tumblr.com","https://archive.org/details/basspistol","https://mastodon.art/@basspistol"],
+          "location": {
+              "@type": "Place",
+              "name": "Basspistol",
+              "url": "https://basspistol.com",
+              "sameAs": ["https://www.instagram.com/basspistol","https://twitter.com/bpist","https://www.facebook.com/basspistolQC","https://soundcloud.com/basspistol","https://basspistol.tumblr.com","https://archive.org/details/basspistol","https://mastodon.art/@basspistol"]
+          }
+      }
+  }
+  </script>
+
+
+  <!-- Google Tag Manager -->
+
+
+  <!-- Google Analytics -->
+
+
+  <!-- END rendered SEO Meta -->
+  <script src="../assets/js/jquery-3.3.1.min.js"></script>
+
+
 </head>
 <body>
-{% include highlightsnavmenu.html %}
+  <div id="navigation">
+    <ul>
+
+      <li class="icofont">
+        <a href="../" title="Home" class="icofont-home"></a>
+      </li>
+
+      <li class="icofont">
+        <a href="../discography/" title="Discography" class="icofont-disc"></a>
+      </li>
+
+      <li class="icofont">
+        <a href="../radio/" title="Radio" class="icofont-radio"></a>
+      </li>
+
+      <li class="icofont">
+        <a href="../highlights/" title="Highlights" class="icofont-newspaper current"></a>
+      </li>
+
+      <li class="icofont">
+        <a href="../artists/" title="Artists" class="icofont-people"></a>
+      </li>
+
+      <li class="icofont">
+        <a href="../about/" title="About" class="icofont-finger-print"></a>
+      </li>
+
+      <li class="icofont">
+        <a href="../links/" title="Links" class="icofont-link"></a>
+      </li>
+
+      <li class="icofont">
+        <a href="https://shop.basspistol.com" class="iconfont-shop" rel="noopener noreferrer nofollow"></a>
+      </li>
+    </ul>
+  </div>
+
+
+
   <div id="content">
-{% include videopageheader.html %}
+    <video poster="../assets/vid/highlights.png" id="bgvid" autoplay playsinline muted loop>
+       <source src="../assets/vid/highlights.mp4" type="video/mp4">
+    </video>
+    <img id="bgpic" src="../assets/vid/highlights.png" alt="Basspistol" />
+    <div id="headline"><h1>~/Hi-Lights</h1></div>
+
     <div class="fitter">
       <div class="records">
         <p>This is a collection of links to material we want to encourage; tracks, articles, videos, music related interviews and reviews... Curated but also original content. Most of the Artists represented here are not affiliated with basspistol in any way and do not necessarily endorse Basspistol. They just happen to have an awesome role within music and it's whereabouts. These links are delivered to you daily. Here or via RSS. <br /><br /><strong>If you are featured in this feed against your will, reach out ASAP to info at basspistol dot com and we will remove it.</strong></p>
       </div>
-      {% for post in paginator.posts %}
+      
       <div class="records" style="border-bottom: solid 1px #f4ffe8;">
-        <a href="{{ base }}{{ post.url }}">
-            <img class="recordthumbs" src="{{ base }}/assets/img/thumb/{{ post.image }}" title="{{ post.title }}" alt="{{ post.title }}" />
-        <h3>{{ post.title}}</h3></a>
-        <p>{{ post.date | date: "%a, %b %d, %Y" }} </p>
-        <p>{{ post.description }} </p>
+        <a href="../highlights/2019/02/09/darkweb/">
+            <img class="recordthumbs" src="../assets/img/thumb/coverartDarkweb_setto.jpg" title="Darkweb" alt="Darkweb" />
+        <h3>Darkweb</h3></a>
+        <p>Sat, Feb 09, 2019 </p>
+        <p>What if there was another space within cyberspace? What if there was a place the strange could call a home? </p>
       </div>
-      {% endfor %}
+      
+      <div class="records" style="border-bottom: solid 1px #f4ffe8;">
+        <a href="../highlights/2019/01/20/kastufesdenous/">
+            <img class="recordthumbs" src="../assets/img/thumb/2018-setto-single-003-reve_de_toi-117bpm_sqaure_FINAL.jpg" title="K'as-tu fait de nous?" alt="K'as-tu fait de nous?" />
+        <h3>K'as-tu fait de nous?</h3></a>
+        <p>Sun, Jan 20, 2019 </p>
+        <p>Satoshi Mon Ami EP, out now! </p>
+      </div>
+      
+      <div class="records" style="border-bottom: solid 1px #f4ffe8;">
+        <a href="../highlights/2019/01/18/waitinggame/">
+            <img class="recordthumbs" src="../assets/img/thumb/waitinggame.jpg" title="Waiting Game" alt="Waiting Game" />
+        <h3>Waiting Game</h3></a>
+        <p>Fri, Jan 18, 2019 </p>
+        <p>Sakrecoer Sells out! </p>
+      </div>
+      
+      <div class="records" style="border-bottom: solid 1px #f4ffe8;">
+        <a href="../highlights/2018/12/05/AcidDecember2018/">
+            <img class="recordthumbs" src="../assets/img/thumb/aciddecember2018.jpg" title="Acid December 2018" alt="Acid December 2018" />
+        <h3>Acid December 2018</h3></a>
+        <p>Wed, Dec 05, 2018 </p>
+        <p>Intergalactic tradition finally back in our dimension. </p>
+      </div>
+      
+      <div class="records" style="border-bottom: solid 1px #f4ffe8;">
+        <a href="../highlights/2018/10/05/LosGanglios/">
+            <img class="recordthumbs" src="../assets/img/thumb/trnx_losganglios.jpg" title="Los Ganglios" alt="Los Ganglios" />
+        <h3>Los Ganglios</h3></a>
+        <p>Fri, Oct 05, 2018 </p>
+        <p>PORC, or what happens when you conglomerate Punk, Techno, Rock and Cumbia </p>
+      </div>
+      
+      <div class="records" style="border-bottom: solid 1px #f4ffe8;">
+        <a href="../highlights/2018/09/11/phenomonalyyung/">
+            <img class="recordthumbs" src="../assets/img/thumb/clr.jpg" title="Ratitude" alt="Ratitude" />
+        <h3>Ratitude</h3></a>
+        <p>Tue, Sep 11, 2018 </p>
+        <p>Codes, idioms and how the Yungster redefined the notion of a band. </p>
+      </div>
+      
+      <div class="records" style="border-bottom: solid 1px #f4ffe8;">
+        <a href="../highlights/2018/09/09/Birraweed/">
+            <img class="recordthumbs" src="../assets/img/thumb/birraweed.jpg" title="BIRRA x WEED (Prod. by Keizen)" alt="BIRRA x WEED (Prod. by Keizen)" />
+        <h3>BIRRA x WEED (Prod. by Keizen)</h3></a>
+        <p>Sun, Sep 09, 2018 </p>
+        <p>Chillean lean, straight out of Valpara&iacute;so </p>
+      </div>
+      
+      <div class="records" style="border-bottom: solid 1px #f4ffe8;">
+        <a href="../highlights/2018/09/07/v4.20/">
+            <img class="recordthumbs" src="../assets/img/thumb/newera.jpg" title="Basspistol v 4.20" alt="Basspistol v 4.20" />
+        <h3>Basspistol v 4.20</h3></a>
+        <p>Fri, Sep 07, 2018 </p>
+        <p>Music is not a number. Software versioning is. It's time to bringing back cultural diversity to the interwebs.  </p>
+      </div>
+      
+      <div class="records" style="border-bottom: solid 1px #f4ffe8;">
+        <a href="../highlights/2018/08/30/A-Wa-habib-galbi/">
+            <img class="recordthumbs" src="../assets/img/thumb/awgalbi.jpg" title="Habib Galbi" alt="Habib Galbi" />
+        <h3>Habib Galbi</h3></a>
+        <p>Thu, Aug 30, 2018 </p>
+        <p>A WA is a band formed by 3 sisters who combine Yemenite folk singing with electronic dance music. </p>
+      </div>
+      
+      <div class="records" style="border-bottom: solid 1px #f4ffe8;">
+        <a href="../highlights/2018/08/29/abitosim/">
+            <img class="recordthumbs" src="../assets/img/thumb/abiotism.jpg" title="Abiotism" alt="Abiotism" />
+        <h3>Abiotism</h3></a>
+        <p>Wed, Aug 29, 2018 </p>
+        <p>An extremly lively piece of music for being an abiotism. </p>
+      </div>
+      
+      <div class="records" style="border-bottom: solid 1px #f4ffe8;">
+        <a href="../highlights/2018/08/27/cricketsummermix/">
+            <img class="recordthumbs" src="../assets/img/thumb/cricket.summer.jpg" title="G-Funk Summer Mix 2018" alt="G-Funk Summer Mix 2018" />
+        <h3>G-Funk Summer Mix 2018</h3></a>
+        <p>Mon, Aug 27, 2018 </p>
+        <p>100% Vinyl mix of G-Funk </p>
+      </div>
+      
+      <div class="records" style="border-bottom: solid 1px #f4ffe8;">
+        <a href="../highlights/2018/08/23/defconradio/">
+            <img class="recordthumbs" src="../assets/img/thumb/dcsite-bg-ret.jpg" title="DefCon Radio" alt="DefCon Radio" />
+        <h3>DefCon Radio</h3></a>
+        <p>Thu, Aug 23, 2018 </p>
+        <p>Music for Hacking. The DEF CON Year-Round Channel. DEF CON is one of the world's largest annual hacker conventions, held every year in Las Vegas, Nevada. Since 2013, SomaFM has provided the music for the DEF CON Chill room. </p>
+      </div>
+      
+      <div class="records" style="border-bottom: solid 1px #f4ffe8;">
+        <a href="../highlights/2016/09/05/pingnu/">
+            <img class="recordthumbs" src="../assets/img/thumb/pingnu.jpg" title="PinGNU" alt="PinGNU" />
+        <h3>PinGNU</h3></a>
+        <p>Mon, Sep 05, 2016 </p>
+        <p>PinGNU is a cybersoul banger of rank; a weird and wonderful mix between autotuned R'n'B, boombass and dope geekery. Blurring the lines of cooldom and cuteness, this track is a triptych love song addressed to all the FLOSS coder out there, in the Name of the GNU, The Pingu, and the Holy User. </p>
+      </div>
+      
+      <div class="records" style="border-bottom: solid 1px #f4ffe8;">
+        <a href="../highlights/2016/05/07/kalsongsalong/">
+            <img class="recordthumbs" src="../assets/img/thumb/kalsongsalong.jpg" title="Kalsong Salong" alt="Kalsong Salong" />
+        <h3>Kalsong Salong</h3></a>
+        <p>Sat, May 07, 2016 </p>
+        <p>Papi Crapy staring in a Sakrecoer video </p>
+      </div>
+      
 
     <!-- Pagination links -->
-    {% if paginator.total_pages > 1 %}
-    <div class="articles">
-      <h3>page {{ paginator.page }} of {{ paginator.total_pages }}</h3>
-      {% if paginator.previous_page %}
-        <a href="{{ base }}{{ paginator.previous_page_path }}"><h3>&laquo; Newer</h3></a>
-      {% else %}
-        
-      {% endif %}
     
-      {% if paginator.next_page %}
-        <a href="{{ base }}{{ paginator.next_page_path }}"><h3>Older &raquo;</h3></a>
-      {% else %}
+    <div class="articles">
+      <h3>page 1 of 2</h3>
+      
         
-      {% endif %}
+      
+    
+      
+        <a href="../highlights/page2/"><h3>Older &raquo;</h3></a>
+      
     </div>
-    {% endif %}
-{% include footer.html %}
+    
+  <div id="footer">
+      <p>
+      Basspistol 2010-&#8224;
+      <br />All Priviledges Reserved
+      <br />
+      <a target="_blank" href="/rss.xml">RSS</a> |
+      <a href="mailto:info@basspistol.com">REAL</a>  |
+      <a href="https://archive.org/details/basspistol">Archive.org</a>  |
+      <a href="https://mastodon.art/@basspistol">GNU Social</a>  |
+      <a target="_blank" rel="noopener noreferrer nofollow" href="https://twitter.com/bpist">Twatter</a>  |
+      <a target="_blank" rel="noopener noreferrer nofollow" href="https://basspistol.tumblr.com">Scumblr</a>  |
+      <a target="_blank" rel="noopener noreferrer nofollow" href="https://youtube.com/thebasspistol">YouLube</a>  |
+      <a target="_blank" rel="noopener noreferrer nofollow" href="https://soundcloud.com/basspistol">CloudSound</a> |
+      <a target="_blank" rel="noopener noreferrer nofollow" href="https://www.facebook.com/basspistolQC">Faceblock</a>
+      <br />
+      <br /><strong>Privacy disclaimer: We do NOT use cookies or trackers. The only information we store is your IP, under legitimate use, to review in case of abuse. IPs are stored for a maximum of 30 days.</strong><br />
+      <br />This website is made in Internet and is licensed with <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="noopener noreferrer nofollow">Creative Commons CC-BY-NC-SA 4.0</a>
+      </p>
+  </div>
+  <script type="text/javascript">
+    $("#content").scroll(function(){
+        $("#headline").css("opacity", 1 - $("#content").scrollTop() / 250);
+    });
+  </script>
     </div>
   </div>
 </body>
