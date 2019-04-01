@@ -84,12 +84,12 @@ poster_image: /assets/vid/intro_loop_.jpg
 {% for page in site.categories.highlights offset: 0 limit: 1 %}
       <a href="{{ base }}{{ page.url }}" title="{{ page.title }}"><div class="highlights" style="background-image: url('{{ base }}{{ page.image }}')">
       </div><h3>{{ page.title }} </h3></a>
-      <p>Highlights are things we think you want to discover. Tracks, articles, videos, interviews and reviews, curated but also original content. They are delivered to you daily. Here or via RSS.</p>
+      <p class="editable">Highlights are things we think you want to discover. Tracks, articles, videos, interviews and reviews, curated but also original content. They are delivered to you daily. Here or via RSS.</p>
 {% endfor %}
 
     </div>
 
-      <div class="articles">
+      <div class="articles editable">
         <h1>What the funk?</h1>
         <p>We are The Outernational Music Syndicate, we believe in music. The Music Industry is healthy and blossoming like never before, there is no crisis in this industry, only greed and midlemen.</p>
 
