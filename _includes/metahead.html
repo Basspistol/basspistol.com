@@ -73,7 +73,7 @@
   <meta name="twitter:description" content="{{ site.tagline | strip_html }}" />{% else %}
   <meta name="twitter:description" content="{{ page.description | strip_html }}" />{% endif %}{% if page.image == null %}
   <meta name="twitter:image" content="{{ site.production_url }}{{ page.poster_image }}" />{% elsif page.category == "highlights" %}
-  <meta name="twitter:image" content="{{ site.production_url }}/assets/img/thumb/{{ page.image }}" />{% else %}
+  <meta name="twitter:image" content="{{ site.production_url }}{{ page.image }}" />{% else %}
   <meta name="twitter:image" content="{{ site.production_url }}{{ site.banner }}" />{% endif %}
 
 
@@ -170,7 +170,7 @@
       "image": {
           "@type": "ImageObject", {% if page.image == null %}
           "url": "{{ site.production_url }}{{ page.poster_image }}"{% elsif page.category == "highlights" %}
-          "url": "{{ site.production_url }}/assets/img/thumb/{{ page.image }}"{% else %}
+          "url": "{{ site.production_url }}{{ page.image }}"{% else %}
           "url": "{{ site.production_url }}{{ site.banner }}",
           "width": "1024",
           "height": "1024"{% endif %}

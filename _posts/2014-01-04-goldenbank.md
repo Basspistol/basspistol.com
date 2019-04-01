@@ -6,7 +6,7 @@ tags: [video, internal]
 layout: link
 description: 'ROM THE ALBUM "DUST AND SODA"'
 uid: 'goldenbank'
-image: 'goldenbank.jpg'
+image: '/assets/img/goldenbank.jpg'
 download: ''
 link: 'https://archive.org/details/BPIST-V001'
 ---

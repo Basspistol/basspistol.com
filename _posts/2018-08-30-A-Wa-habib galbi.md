@@ -6,7 +6,7 @@ tags: [girlpower, video, oriental]
 layout: link
 description: 'A WA is a band formed by 3 sisters who combine Yemenite folk singing with electronic dance music.'
 uid: 'awagalbi'
-image: 'awgalbi.jpg'
+image: '/assets/img/awgalbi.jpg'
 download: ''
 link: 'https://youtu.be/g3bjZlmsb4A'
 ---

@@ -6,7 +6,7 @@ tags: [internal, albums, download]
 layout: link
 description: 'Kick N Base Made In Barcelona by Holyhertz is a collaborative conception between infamous musicians Dr. Tikov and reSet Sakrecoer'
 uid: BPIST003
-image: 'holyhertzcover.jpg'
+image: '/assets/img/holyhertzcover.jpg'
 download: 'https://archive.org/download/BPIST003/BPIST003_archive.torrent'
 link: 'https://basspistol.com/albums/kick-n-base-made-in-barcelona/'
 permalink: /records/kicknbase-made-barcelona/

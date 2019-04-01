@@ -11,5 +11,4 @@ uid: ''
 image: ''
 download: ''
 link: ''
-image: ''
 ---

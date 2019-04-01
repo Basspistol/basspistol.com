@@ -6,7 +6,7 @@ layout: link
 tags: [internal, albums, download]
 description: 'Psykedelisk Pop, by reSet Sakrecoer is the journey of a boyish Piaf on a pounding kick-ride.'
 uid: 'BPIST001'
-image: 'PsykedeliskPopFront.jpg'
+image: '/assets/img/PsykedeliskPopFront.jpg'
 download: 'https://archive.org/download/BPIST001/BPIST001_archive.torrent'
 link: 'https://basspistol.com/albums/psykedelisk-pop/'
 permalink: /records/psykedelisk-pop/

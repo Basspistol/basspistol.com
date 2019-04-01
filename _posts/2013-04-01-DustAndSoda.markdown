@@ -6,7 +6,7 @@ tags: [internal, albums, download]
 layout: link
 description: 'Dust And Soda is radical disco by young Mexican producer, Franky Fresco.'
 uid: BPIST011
-image: 'DustAndSoda.jpg'
+image: '/assets/img/DustAndSoda.jpg'
 download: https://archive.org/download/BPIST011/BPIST011_archive.torrent
 link: 'https://basspistol.com/albums/dust-and-soda/'
 permalink: /records/dust-and-soda/
