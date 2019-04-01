@@ -53,12 +53,12 @@
   <meta property="og:title" content="{{ page.title }} | {{ site.title }}" />{% if page.description == null %}
   <meta property="og:description" content="{{ site.tagline | strip_html }}" />{% else %}
   <meta property="og:description" content="{{ page.description | strip_html }}" />{% endif %}{% if page.image == null %}
-  <meta property="og:image" content="{{ site.production_url }}/assets/vid/{{ page.poster }}" />{% elsif page.poster == null %}
+  <meta property="og:image" content="{{ site.production_url }}{{ page.poster_image }}" />{% elsif page.poster_image == null %}
   <meta property="og:image" content="{{ site.production_url }}{{ site.banner }}" />
   <meta property="og:image:type" content="image/jpeg" />
   <meta property="og:image:width" content="1024" />
   <meta property="og:image:height" content="1024" /> {% else %}
-  <meta property="og:image" content="{{ site.production_url }}/assets/vid/{{ page.image }}" />{% endif %}
+  <meta property="og:image" content="{{ site.production_url }}{{ page.image }}" />{% endif %}
   <meta property="og:site_name" content="{{ site.title }}" />
   {% for social_id in site.social_ids %}{% assign social = site.social[social_id] %}<meta property="og:see_also" content="{{ social }}" />
   {% endfor %}

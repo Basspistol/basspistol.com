@@ -5,5 +5,5 @@ image_path:
 url_staff: 
 email: 
 gpg: 
-blurb:
+blurb_markup:
 ---
