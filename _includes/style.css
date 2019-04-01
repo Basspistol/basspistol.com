@@ -1,0 +1,410 @@
+/*! basspistol sheet */
+{% include base.html %}
+h1,
+h2,
+h3,
+h4 {
+  /* letter-spacing: -0.05em; */
+  font-family: plex;
+  font-weight: normal;
+}
+h2 {
+  font-size: 1.5em;
+}
+a:link,
+a:visited,
+a:hover,
+a:active,
+a:focus {
+  text-decoration: none;
+
+}
+a,
+a:link,
+a:visited {
+  color: #1b2241;
+  transition-property: hover;
+  transition: color 0.3s ease-in-out;
+}
+
+a:hover {
+  color: #fafbff;
+  border-radius: 2px;
+}
+a:active {
+  color: #fafbff;
+}
+p {
+  font-size: 1em;
+}
+
+/*! LAYOUT */
+#content {
+  flex-grow: 1;
+  overflow-x: hidden;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+#content a {
+
+  text-decoration: underline;
+}
+#content a:hover {
+  text-decoration: underline;
+}
+.fitter {
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+#footer {
+  font-size: .6em;
+  text-align: left;
+  line-height: 130%;
+  width: 100%;
+  padding-top: 100px;
+}
+/***********
+RADIO PLAYER
+***********/
+audio{
+  position:fixed;
+  right:0;
+  bottom:0;
+  min-width:100%;
+  min-height:100%;
+  width:100%;
+  height:100%;
+  background-size:cover;
+  opacity:0.7;
+  -webkit-transition:1s opacity;transition:1s opacity;
+  display: block;
+}
+button {
+  line-height: 1em;
+  font-size:0.85em;
+  text-transform: uppercase;
+  padding: 7px;
+  border-radius: 300px;
+  border:none;
+  background:#1b2241;
+  -webkit-transition:.3s background;
+  transition:.3s background;
+  color: #f4ffe8;
+}
+button:hover {
+  background:#560784;
+  color: #f4ffe8;
+}
+#ffwd, #rwd {
+  line-height: 1em;
+  font-size:0.85em;
+  text-transform: uppercase;
+  padding: 3px 5px 3px 5px;
+  border-radius: 50px;
+  border:none;
+  background:#1b2241;
+  -webkit-transition:.3s background;
+  transition:.3s background;
+  color: #f4ffe8;
+  text-decoration: none !important;
+}
+#ffwd:hover, #rwd:hover {
+  background:#560784;
+  color: #f4ffe8;
+  text-decoration: none;
+}
+#mu_pause {
+  width: 100px;
+  height: 100px;
+  font-size: 1.2em;
+  text-align: center;
+}
+button #mu_pause {
+  border-radius: 300px;
+}
+
+/*******
+AL PAGES
+********/
+.description {
+  margin: 0 10px 10px 0;
+  flex: 1 1 100%;
+
+}
+
+/***********
+RECORDS PAGE
+***********/
+.records {
+  margin: 0 10px 10px 0;
+  flex: 1 1 300px;
+  max-width: 500px;
+  border-bottom: solid 1px #f4ffe8;
+}
+
+.recordthumbs {
+  width: 100%;
+  border-radius:3px;
+  filter:sepia(1) hue-rotate(35deg);
+  transition-property: hover;
+  transition: filter 0.3s ease-in-out, opacity 0.3s ease-in-out;
+  opacity: .5;
+}
+img.recordthumbs:hover {
+  width: 100%;
+  border-radius:3px;
+  filter:sepia(0) hue-rotate(0deg);
+  opacity: 1;
+  
+}
+.recordthumbs_mini {
+  width: 100px;
+  border-radius:3px;
+  filter:sepia(1) hue-rotate(35deg);
+  transition-property: hover;
+  transition: filter 0.3s ease-in-out, opacity 0.3s ease-in-out;
+  opacity: .5;
+  float:left;
+  margin-right: 10px;
+}
+img.recordthumbs_mini:hover {
+  width: 100px;
+  border-radius:3px;
+  filter:sepia(0) hue-rotate(0deg);
+  opacity: 1;
+  
+}
+
+
+/*************
+Articles Grid
+**************/
+.articles {
+  margin: 0 10px 10px 0;
+  flex: 1 1 300px;
+  max-width: 500px;
+}
+.articlethumbs {
+  width: 100%;
+  height: 200px;
+  border-radius:3px;
+  filter:sepia(1) hue-rotate(30deg);
+  opacity: 0.75;
+  transition-property: hover;
+  transition: filter 0.3s ease-in-out, opacity 0.3s ease-in-out;
+}
+img.articlethumbs:hover {
+  width: 100%;
+  border-radius:3px;
+  filter:sepia(0) hue-rotate(0deg);
+  opacity: 1;
+}
+.articles-pargraph {
+  margin: 0 10px 10px 0;
+  flex: 1 1 300px;
+  max-width: 800px;
+
+}
+.article-nav-share {
+  margin: 0 10px 10px 0;
+  flex: 1 1 300px;
+  max-width: 300px;
+}
+.square-image {
+	width: 128px;
+	height: 128px;
+	border-radius: 200px;
+	background-size:cover;
+ 	background-repeat:no-repeat;
+  margin: 0 10px 0 0;
+  float: left;
+}
+
+/***********
+VIDEO PLAYER
+***********/
+#bgvid {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+#bgpic {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+}
+@media screen and (max-width: 730px) {
+  video {
+    display: none;
+  }
+}
+@media screen and (min-width: 731px) {
+  #bgpic {
+    display: none;
+  }
+}
+/***********
+ARTIST PAGE
+***********/
+.artistimg {
+
+  background-size: cover;
+  background-position: 50% 50%;
+  padding: 100px;
+  border-radius: 3px;
+  filter:sepia(1) hue-rotate(30deg);
+  transition-property: hover;
+  transition: filter 0.3s ease-in-out, opacity 0.3s ease-in-out;
+}
+.artistimg:hover {
+  filter:sepia(0) hue-rotate(0deg);
+  opacity: 1;
+}
+/***********
+HEADLINERS
+***********/
+#headline {
+  position: fixed;
+  top: 0px;
+  left: 50px;
+  color: #f4ffe8;
+  text-shadow: 0px 0px 10px #313d26;
+  padding: 0 0 0 10px;
+  margin-right:10px;
+  border-radius: 3px; 
+  opacity: 1;
+  font-size: 1em;
+  z-index: 100;
+}
+
+/****************
+HIGHLIGHT LINKS 
+****************/
+#linkhead {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+}
+#linkheadthumb {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+}
+@media screen and (max-width: 730px) {
+  #linkhead {
+    display: none;
+  }
+}
+@media screen and (min-width: 731px) {
+  #linkheadthumb {
+    display: none;
+  }
+}
+.padded {
+  padding: 10px;
+}
+#highlightlink {
+  line-height: 1em;
+  font-size:1em;
+  text-transform: uppercase;
+  padding: 20px;
+  border-radius: 300px;
+  border:none;
+  background:#1b2241;
+  -webkit-transition:.3s background;
+  transition:.3s background;
+  color: #f4ffe8;
+}
+#highlightlink:hover {
+  background:#560784;
+  color: #f4ffe8;
+}
+#commentlink {
+  line-height: 1em;
+  font-size:1em;
+  text-transform: uppercase;
+  padding: 20px;
+  border-radius: 300px;
+  border:none;
+  background:#1b2241;
+  -webkit-transition:.3s background;
+  transition:.3s background;
+  color: #f4ffe8;
+}
+#commentlink:hover {
+  background:#560784;
+  color: #f4ffe8;
+}
+.hilightindex {
+  height: 250px;
+  padding: 0 10px 0 10px;
+  position: relative;
+  border-radius: 3px 3px 0 0;
+  filter:sepia(1) hue-rotate(30deg);
+  transition-property: hover;
+  transition: filter 0.3s ease-in-out, opacity 0.3s ease-in-out;
+  opacity: .5;
+}
+.hilightindex:hover {
+  filter:sepia(0) hue-rotate(0deg);
+  opacity: 1;
+}
+
+.highlights {
+  margin: 0 10px 10px 0;
+  flex: 1 1 300px;
+  max-width: 500px;
+  border-radius: 3px;
+  height: 400px;
+  opacity: .5;
+  padding: 0 10px 0 10px;
+  position: relative;
+  filter:sepia(1) hue-rotate(30deg);
+  transition-property: hover;
+  transition: filter 0.3s ease-in-out, opacity 0.3s ease-in-out;
+  color: #1b2241;
+  text-decoration: 0;
+  background-position: center;
+  background-size: cover;
+}
+.highlights:hover {
+  filter:sepia(0) hue-rotate(0deg);
+  opacity: 1;
+}
+.highlights h1 {
+
+  background-color: #879976d7;;
+  border-radius: 3px;
+  padding: 0 10px 0 10px;
+  text-decoration: none;
+}
+.hicontain {
+  background-color: #f4ffe879;
+  border-radius: 3px;
+  margin-bottom: 10px;
+  padding: 10px;
+  max-height: 500px;
+}
+
+/* TRACK and ALBUM PAGES */
+
+.download {
+
+padding: 20px;
+border-radius: 300px;
+border:none;
+background:#1b2241;
+-webkit-transition:.3s background;
+transition:.3s background;
+color: #f4ffe8;
+}
+.download:hover {
+background:#560784;
+color: #f4ffe8;
+}

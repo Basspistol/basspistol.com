@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+{% include metahead.html %}
+</head>
+<body>
+{% include navmenu.html %}
+  <div id="content">
+{% include videopageheader.html %}
+    <div class="fitter">
+{% for page in site.categories.highlights offset: 0 limit: 15 %}
+      <div class="records">
+        <a href="{{ base }}{{ page.url }}">
+          <img class="recordthumbs" src="{{ base }}{{ page.coverart.art }}" title="{{ page.title }}" alt="{{ page.title }}" />
+        </a>
+      </div>
+{% endfor %}  
+</div>
+{% include footer.html %}
+    </div>
+
+</body>
+</html>

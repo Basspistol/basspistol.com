@@ -1,3 +1,6 @@
+---
+---
+
 /* TEAM */
 	Lead: Set Sakrecoer
 	Twitter: @sakrecoer
@@ -12,7 +15,7 @@
 
 
 /* SITE */
-	Last update: 2019/03/29
+	Last update: {{ site.time | date: "%Y/%m/%d" }}
 	Language: English
 	Doctype: HTML5
 	Standards: HTML5, CSS3

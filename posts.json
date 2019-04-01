@@ -1,49 +1,12 @@
-
-
-
-
+---
+---
+{% include base.html %}
 [
-
+{% for album in site.albums %}
 {
-    "title": "Psykedelisk Pop",
-    "img": "../assets/albums/psykedelisk-pop/1-janne-i-min-hj-rna.jpeg",
-    "href": "../albums/psykedelisk-pop"
-},
-
-{
-    "title": "Musical Tourism",
-    "img": "../assets/albums/musical-tourism/1-travel3.jpeg",
-    "href": "../albums/musical-tourism"
-},
-
-{
-    "title": "Kick-N-Base Made In Barcelona",
-    "img": "../assets/albums/kick-n-base-made-in-barcelona/1-larry.jpeg",
-    "href": "../albums/kick-n-base-made-in-barcelona"
-},
-
-{
-    "title": "Headcleaner",
-    "img": "../assets/albums/headcleaner/1-radius.jpeg",
-    "href": "../albums/headcleaner"
-},
-
-{
-    "title": "The House of Set",
-    "img": "../assets/albums/the-house-of-set/1-subway.jpeg",
-    "href": "../albums/the-house-of-set"
-},
-
-{
-    "title": "Dust And Soda",
-    "img": "../assets/albums/dust-and-soda/1-the-all-new-american-holocaust.jpeg",
-    "href": "../albums/dust-and-soda"
-},
-
-{
-    "title": "TFB-OTK",
-    "img": "../assets/albums/tfb-otk/1-fragleism-you-know.jpeg",
-    "href": "../albums/tfb-otk"
-}
-
+    "title": "{{ album.name }}",
+    "img": "{{ base }}{{ album.cover }}",
+    "href": "{{ base }}/albums/{{ album.slug }}"
+}{% unless forloop.last %},{% endunless %}
+{% endfor %}
 ]

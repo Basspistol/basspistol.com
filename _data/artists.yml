@@ -1,0 +1,77 @@
+# - id: franky
+#   mbrainz: 'de2a996e-513c-4474-b03c-63b9566f1475'
+#   image: /assets/img/thumb/frankyfresco.jpg
+#   display_name: 'Franky Fresco'
+#   web: https://frankyfresco.com
+#   bio: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque bibendum ornare luctus. Nullam a mi risus. Nulla sit amet facilisis neque. In a urna a massa iaculis pharetra. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aenean at semper orci. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. '
+#   email: frankyfresco@basspistol.com
+- id: holyhertz
+  mbrainz: '89d471b5-88a6-4330-a76c-6c3d7ca98e33'
+  image: /assets/img/thumb/holyhertz2019.jpg
+  display_name: 'Holyhertz'
+  web: https://soundcloud.com/holyhertz
+  bio: 'Phasellus quis ex at arcu elementum ornare. Morbi facilisis eu diam semper elementum. Aliquam erat volutpat. Aenean luctus lorem nisl, sit amet interdum libero suscipit eget. Mauris semper lacinia lectus et facilisis. Nulla mollis lacinia ipsum eget suscipit. Nullam hendrerit purus a lacus dapibus fermentum. Ut fermentum leo sed lacinia ultrices.'
+  email: holyhertz@basspistol.com
+# - id: jokko
+#   mb:
+#   image: /assets/img/thumb/jokko.jpg
+#   display_name: 'Jokko'
+#   web: https://soundcloud.com/jokkomusic
+#   bio: 'Aenean nec libero gravida, vestibulum ex eu, fermentum erat. Nulla facilisi. Nam tempus augue vitae vestibulum viverra. Ut eleifend dui semper eros porttitor molestie. Quisque eget blandit justo. Aliquam velit orci, mattis sed justo et, fringilla sagittis tellus. Etiam fermentum ullamcorper dolor at scelerisque. Duis dolor diam, placerat id porttitor placerat, fermentum tempus elit. Nulla lectus libero, tincidunt vitae rhoncus consequat, luctus aliquam dui.'
+#   email: jokko@basspistol.com
+# - id: max
+#   mbrainz: 'd12105e6-ec94-48bd-bbd9-39786208f231'
+#   image: /assets/img/thumb/max.jpg
+#   display_name: 'Max Park'
+#   web: 
+#   bio: 'Phasellus vitae tortor a metus blandit gravida ut ac eros. Nullam eu metus a metus tempor laoreet. Aenean vel eleifend elit. Maecenas massa mi, posuere eu augue quis, finibus sollicitudin ante. Mauris mi dolor, interdum a consectetur id, cursus et neque. Vivamus aliquam augue ac dui pretium scelerisque. Pellentesque pretium magna vel metus vulputate, vitae porta nisl posuere. Ut suscipit urna a ante malesuada tempus. Proin venenatis nisi sit amet elit fermentum porta. Nullam volutpat ultrices purus, a tempus lorem congue a. Sed euismod eleifend nulla, ut porttitor orci efficitur eget. '
+#   email: max@basspistol.com
+# - id: publicservice
+#   mb:
+#   image: /assets/img/thumb/publicservice.jpg
+#   display_name: 'Public Service'
+#   web: 
+#   bio: 'Phasellus a malesuada felis. Nullam maximus libero ac blandit imperdiet. Nulla eget pretium dolor, ac fringilla tortor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Integer vulputate posuere ultricies. Duis commodo lobortis elit, sed tempus nulla euismod tempus. Aenean in tellus ut dui ullamcorper porta sed scelerisque lacus. Mauris quis venenatis nulla. Vivamus non posuere tortor, id euismod augue. Sed eu mollis nunc. '
+#   email: publicservice@basspistol.com
+- id: sakrecoer
+  mbrainz: 'a2899399-d1d5-462f-9d56-ec1ea78cc4b6'
+  image: /assets/img/thumb/sakrecoer.jpg
+  display_name: 'Sakrecoer Fam'
+  web: https://sakrecoer.com
+  bio: 'Aenean nec libero gravida, vestibulum ex eu, fermentum erat. Nulla facilisi. Nam tempus augue vitae vestibulum viverra. Ut eleifend dui semper eros porttitor molestie. Quisque eget blandit justo. Aliquam velit orci, mattis sed justo et, fringilla sagittis tellus. Etiam fermentum ullamcorper dolor at scelerisque. Duis dolor diam, placerat id porttitor placerat, fermentum tempus elit. Nulla lectus libero, tincidunt vitae rhoncus consequat, luctus aliquam dui.'
+  email: sakrecoer@basspistol.com
+- id: synapset
+  mbrainz: 'a0dd2f36-1681-4bc0-970e-06a0450e16ec'
+  image: /assets/img/thumb/synapset.jpg
+  display_name: 'Synapsset'
+  web: https://basspistol.com/albums/musical-tourism
+  bio: 'Mauris semper lacinia lectus et facilisis. Nulla mollis lacinia ipsum eget suscipit. Nullam hendrerit purus a lacus dapibus fermentum. Ut fermentum leo sed lacinia ultrices. Donec facilisis est sit amet facilisis dapibus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Quisque non justo justo. Vivamus varius placerat gravida. '
+  email: synapset@basspistol.com
+# - id: sweatsky
+#   mb:
+#   image: /assets/img/thumb/sweatsky.jpg
+#   display_name: 'Sweatsky'
+#   web: https://soundcloud.com/sweatsky
+#   bio: 'Quisque bibendum ornare luctus. Nullam a mi risus. Nulla sit amet facilisis neque. In a urna a massa iaculis pharetra. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aenean at semper orci.'
+#   email: sweatsky@basspistol.com
+- id: tikov
+  mbrainz: '1313ee01-590c-4fcf-a149-7f4d2a16d550'
+  image: /assets/img/thumb/tikov.jpg
+  display_name: 'Dr. Tikov'
+  web: http://tikov.com
+  bio: 'Duis dolor diam, placerat id porttitor placerat, fermentum tempus elit. Nulla lectus libero, tincidunt vitae rhoncus consequat, luctus aliquam dui. Nullam iaculis, nisi sit amet mattis ullamcorper, ante nisi accumsan nisl, eget varius enim nisi at tortor. Morbi a commodo magna.'
+  email: tikov@basspistol.com
+- id: tfb
+  mbrainz: '3e250a22-ed45-41f7-ab07-ac8f7b4cf1c7'
+  image: /assets/img/thumb/tfb.jpg
+  display_name: 'The FragleBay'
+  web: https://fraglebay.tumblr.com
+  bio: 'Nullam eu metus a metus tempor laoreet. Aenean vel eleifend elit. Maecenas massa mi, posuere eu augue quis, finibus sollicitudin ante. Mauris mi dolor, interdum a consectetur id, cursus et neque. Vivamus aliquam augue ac dui pretium scelerisque. Pellentesque pretium magna vel metus vulputate, vitae porta nisl posuere. Ut suscipit urna a ante malesuada tempus. Proin venenatis nisi sit amet elit fermentum porta.'
+  email: tfb@basspistol.com
+- id: setto
+  mbrainz: '31e8e456-0589-47eb-9334-20872851cd3e'
+  image: /assets/img/thumb/setto.jpg
+  display_name: '徒 Setto セット'
+  web: https://setto.basspistol.com
+  bio: 'Nullam eu metus a metus tempor laoreet. Aenean vel eleifend elit. Maecenas massa mi, posuere eu augue quis, finibus sollicitudin ante. Mauris mi dolor, interdum a consectetur id, cursus et neque. Vivamus aliquam augue ac dui pretium scelerisque. Pellentesque pretium magna vel metus vulputate, vitae porta nisl posuere. Ut suscipit urna a ante malesuada tempus. Proin venenatis nisi sit amet elit fermentum porta.'
+  email: setto@protonmail.ch

@@ -1,2 +1,6 @@
+---
+layout: null
+sitemap: false
+---
 User-agent: *
-Sitemap: https://basspistol.com/sitemap.xml
+Sitemap: {{ site.url }}/sitemap.xml
