@@ -3,9 +3,8 @@ title: Highlights
 subtitle: Hi-Lights
 description: 'Links to secret music, infamous articles, forbiden videos, off the record interviews and much more...'
 keywords: Music, News, blog, Interviews, links, promotion,
-video: highlights.mp4
-poster: highlights.png
-thumb: highlights.png
+video_path: /assets/vid/highlights.mp4
+poster_image: /assets/vid/highlights.jpg
 permalink: /highlights/
 pagination: 
   enabled: true
@@ -40,6 +39,7 @@ pagination:
       {% endfor %}
 
     <!-- Pagination links -->
+    {% if jekyll.environment == 'production' %}
     {% if paginator.total_pages > 1 %}
     <div class="articles">
       <h3>page {{ paginator.page }} of {{ paginator.total_pages }}</h3>
@@ -55,6 +55,7 @@ pagination:
         
       {% endif %}
     </div>
+    {% endif %}
     {% endif %}
 {% include footer.html %}
     </div>

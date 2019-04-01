@@ -2,5 +2,5 @@
 				{% assign author_id = page.author | prepend: "/staff_members/" | append: "/" %}
 				{% assign author_name = site.staff_members | where: "url", author_id | first %}
 				<a href="mailto:info+comment@basspistol.com?subject=Regarding the post &quot;{{ page.title }}&quot;!&body=Hey Set! The post on on your site with the title &quot;{{ page.title }}&quot; is wrong/right/good/bad/weird/peanuts/jelly/crazy/" style="text-decoration:none;"><img class="square-image" src="{{ base }}{{ author_name.image_path }}" /></a>
-				<br /><p class="blurb"><a href="mailto:info+comment@basspistol.com?subject=Regarding the post &quot;{{ page.title }}&quot;!&body=Hey Set! The post on on your site with the title &quot;{{ page.title }}&quot; is wrong/right/good/bad/weird/peanuts/jelly/crazy/" style="text-decoration:none;"><strong>{{ author_name.name }}</strong></a><br />{{ author_name.blurb }}</p>
+				<br /><p class="blurb"><a href="mailto:info+comment@basspistol.com?subject=Regarding the post &quot;{{ page.title }}&quot;!&body=Hey Set! The post on on your site with the title &quot;{{ page.title }}&quot; is wrong/right/good/bad/weird/peanuts/jelly/crazy/" style="text-decoration:none;"><strong>{{ author_name.name }}</strong></a><br />{{ author_name.blurb_markup }}</p>
 {% endif %}
