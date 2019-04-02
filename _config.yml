@@ -48,9 +48,11 @@ defaults:
       path: ""
       type: "pages"
     values:
-        layout: "default"
-    _options:
-    width: 960
-    height: 430
-    uploads_dir: "assets/img"
-    resize_style: "cover"
+      layout: "default"
+      _options:
+        image:
+          width: 960
+          height: 430
+          uploads_dir: "assets/img"
+          resize_style: "cover"
+          
