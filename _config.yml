@@ -46,9 +46,8 @@ plugins:
 defaults:
   - scope:
       path: ""
-      type: "pages"
+      type: "posts"
     values:
-      layout: "default"
       _options:
         image:
           width: 960
