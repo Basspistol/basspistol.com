@@ -1,6 +1,6 @@
 ---
 title: Spark Master Tape
-date: 2019-02-09 00:00:00
+date: 2019-04-02 00:00:00
 artist:
 category: highlights
 tags:
@@ -8,8 +8,11 @@ tags:
 layout: link
 description:
 uid: sparktapeculrywolverine
-image:
+image: /assets/img/Screenshot at 2019-04-02 17-42-40.png
 download: 'https://paperplatoon.in/woodchukk'
 link: dedsec.us
 ---
 
+Quis Custodiet Ipsos Custodes?
+
+The Paperplattune! While
