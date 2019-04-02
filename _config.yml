@@ -6,6 +6,7 @@ highlighter: pygments
 
 title : 'Basspistol'
 tagline: 'The Outernational Music Syndicate. Established in 2010'
+timezone: Europe/Stockholm
 banner: '/assets/img/basspistol_est_2010_square_bluegreen.jpg'
 mblabel: '0f83baf3-4f44-44db-9e30-d5c05d7b77b9'
 
@@ -39,3 +40,18 @@ collections:
 plugins: 
   - jekyll-paginate-v2
   - jekyll-sitemap
+  
+# defaults
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      _options:
+        image:
+          width: 960
+          height: 430
+          uploads_dir: "assets/img"
+          resize_style: "cover"
+          

@@ -1,18 +1,29 @@
 ---
 title: Spark Master Tape
-date: '2019-02-09 00:00'
-artist: 徒 Setto セット
+date: 2019-04-02 19:07:00 +0200
+author: set
+artist:
 category: highlights
 tags:
-  - internal
-  - release
-  - EP
+  - hackers
+  - portofplatoon
+  - SWOUP
 layout: link
 description: >-
-  What if there was another space within cyberspace? What if there was a place
-  the strange could call a home?
-uid: darkweb2019
-image: coverartDarkweb_setto.jpg
+  Paperplattunes and the uncertain future of free publications implicating links
+  to data in a semi-regulated data-market is kinda uncertain #SWOUP
+uid: sparktapeculrywolverine
+image: /assets/img/Screenshot at 2019-04-02 17-42-40.png
 download:
-link: 'https://setto.basspistol.com/darkweb'
+link: 'https://dedsec.us'
 ---
+
+Quis Custodiet Ipsos Custodes?
+
+The Paperplattune!
+
+Since the future of free publications implicating links to data in a semi-regulated data-market is kinda uncertain, i was looking at alternatives for the webzurfs. During my quest, lured by a very cool-looking marketing bot, i chackked the platoon out.
+
+And you should too! Damn, The geeky level of this i feeeel!&nbsp; BUT NOT TOO MUCH! persona with g33k-values, in POWER! Crypto AF. Stupid smart level 7000.
+
+Dirty, yet slick production outlet! The quirks of their web-path is dark and probably scary for the non-techie. But dang you should follow that whole rabbit hole!
