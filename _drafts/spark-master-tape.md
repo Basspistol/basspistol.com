@@ -9,8 +9,8 @@ layout: link
 description:
 uid: sparktapeculrywolverine
 image: /assets/img/Screenshot at 2019-04-02 17-42-40.png
-download: 'https://paperplatoon.in/woodchukk'
-link: dedsec.us
+download:
+link: 'https://dedsec.us'
 ---
 
 Quis Custodiet Ipsos Custodes?
