@@ -1,6 +1,7 @@
 ---
 title: Spark Master Tape
 date: 2019-04-02 00:00:00
+author: 'set'
 artist:
 category: highlights
 tags:
