@@ -1,18 +1,15 @@
 ---
 title: Spark Master Tape
-date: '2019-02-09 00:00'
-artist: 徒 Setto セット
+date: 2019-02-09 00:00:00
+artist:
 category: highlights
 tags:
-  - internal
-  - release
-  - EP
+  - hackers
 layout: link
-description: >-
-  What if there was another space within cyberspace? What if there was a place
-  the strange could call a home?
-uid: darkweb2019
-image: coverartDarkweb_setto.jpg
-download:
-link: 'https://setto.basspistol.com/darkweb'
+description:
+uid: sparktapeculrywolverine
+image:
+download: 'https://paperplatoon.in/woodchukk'
+link: dedsec.us
 ---
+
