@@ -1,7 +1,6 @@
 ---
 title: Dabke Chobi
 description: Oriental music
-date: ''
 artist:
 author:
 category:
