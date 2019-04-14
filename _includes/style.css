@@ -186,6 +186,7 @@ Articles Grid
   margin: 0 10px 10px 0;
   flex: 1 1 300px;
   max-width: 500px;
+  border-bottom: solid 1px #f4ffe8;
 }
 .articlethumbs {
   width: 100%;
