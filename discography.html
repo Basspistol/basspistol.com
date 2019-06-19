@@ -20,8 +20,8 @@ poster_image: /assets/vid/discogs.jpg
 {% assign sorted = site.albums | reverse %}
 {% for album in sorted %}
       <div class="records">
-        <a href="{{ base }}/albums/{{ album.slug }}/">
-            <img class="recordthumbs" src="{{ base }}{{ album.cover }}" title="{{ album.name }}" alt="{{ album.name }}" />
+        <a href="{{ site.baseurl }}/albums/{{ album.slug }}/">
+            <img class="recordthumbs" src="{{ site.baseurl }}{{ album.cover }}" title="{{ album.name }}" alt="{{ album.name }}" />
         </a>
       </div>
 {% endfor %}

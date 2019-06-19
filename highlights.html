@@ -30,8 +30,8 @@ pagination:
       </div>
       {% for post in paginator.posts %}
       <div class="records" style="border-bottom: solid 1px #f4ffe8;">
-        <a href="{{ base }}{{ post.url }}">
-            <img class="recordthumbs" src="{{ base }}{{ post.image }}" title="{{ post.title }}" alt="{{ post.title }}" />
+        <a href="{{ site.baseurl }}{{ post.url }}">
+            <img class="recordthumbs" src="{{ site.baseurl }}{{ post.image }}" title="{{ post.title }}" alt="{{ post.title }}" />
         <h3>{{ post.title}}</h3></a>
         <p>{{ post.date | date: "%a, %b %d, %Y" }} </p>
         <p>{{ post.description }} </p>
@@ -44,13 +44,13 @@ pagination:
     <div class="articles">
       <h3>page {{ paginator.page }} of {{ paginator.total_pages }}</h3>
       {% if paginator.previous_page %}
-        <a href="{{ base }}{{ paginator.previous_page_path }}"><h3>&laquo; Newer</h3></a>
+        <a href="{{ site.baseurl }}{{ paginator.previous_page_path }}"><h3>&laquo; Newer</h3></a>
       {% else %}
         
       {% endif %}
     
       {% if paginator.next_page %}
-        <a href="{{ base }}{{ paginator.next_page_path }}"><h3>Older &raquo;</h3></a>
+        <a href="{{ site.baseurl }}{{ paginator.next_page_path }}"><h3>Older &raquo;</h3></a>
       {% else %}
         
       {% endif %}

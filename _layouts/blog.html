@@ -10,8 +10,8 @@
     <div class="fitter">
 {% for page in site.categories.highlights offset: 0 limit: 15 %}
       <div class="records">
-        <a href="{{ base }}{{ page.url }}">
-          <img class="recordthumbs" src="{{ base }}{{ page.coverart.art }}" title="{{ page.title }}" alt="{{ page.title }}" />
+        <a href="{{ site.baseurl }}{{ page.url }}">
+          <img class="recordthumbs" src="{{ site.baseurl }}{{ page.coverart.art }}" title="{{ page.title }}" alt="{{ page.title }}" />
         </a>
       </div>
 {% endfor %}  

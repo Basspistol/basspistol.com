@@ -17,28 +17,28 @@
         <br /><br /><a id="commentlink" href="mailto:info+comment@basspistol.com?subject=Regarding the post &quot;{{ page.title }}&quot;!&body=Hey! The post on on your site with the title &quot;{{ page.title }}&quot; is wrong/right/good/bad/weird/peanuts/jelly/crazy/" style="text-decoration:none;">Write a comment</a>
         <br /><br /><h2>
 {% if prev_post %}
-        <a href="{{ base }}{{ prev_post }}" style="text-decoration: none;">&laquo; Older</a> {% if next_post %}<span style="color:#313d26;">|</span>{% endif %} 
+        <a href="{{ site.baseurl }}{{ prev_post }}" style="text-decoration: none;">&laquo; Older</a> {% if next_post %}<span style="color:#313d26;">|</span>{% endif %} 
 {% endif %}
 {% if next_post %}
-        <a href="{{ base }}{{ next_post }}" style="text-decoration: none;">Newer&raquo;</a> 
+        <a href="{{ site.baseurl }}{{ next_post }}" style="text-decoration: none;">Newer&raquo;</a> 
 {% endif %}
         </h2>
 
         <p>Tags:</p>
         {% assign sortedtags = page.tags | sort %} {% for tags in sortedtags%}
-        <a href="{{ base }}/tags/#{{ tags }}">{{ tags }}</a> / 
+        <a href="{{ site.baseurl }}/tags/#{{ tags }}">{{ tags }}</a> / 
         {% endfor %}
         <br /><br />
         <a style="text-decoration: none;" href="https://touch.facebook.com/sharer.php?u={{ page.link | xml_escape }}&quote={{ page.description | xml_escape }} via https://basspistol.com" target="_blank" rel="noopener noreferrer nofollow">
-          <img src="{{ base }}/assets/img/facebook.svg" width="22px" height="22px" alt="share on facebook" />
+          <img src="{{ site.baseurl }}/assets/img/facebook.svg" width="22px" height="22px" alt="share on facebook" />
         </a>
         <a style="text-decoration: none;"  href="https://twitter.com/share?url={{ page.link | xml_escape }}&text={{ page.description | xml_escape }}&via=bpist&hashtags=BpistHilights" target="_blank" rel="noopener noreferrer nofollow">
-          <img src="{{ base }}/assets/img/twitter.svg" width="24px" height="24px" alt="share on twitter" />
+          <img src="{{ site.baseurl }}/assets/img/twitter.svg" width="24px" height="24px" alt="share on twitter" />
         </a>
         <a style="text-decoration: none;"  href="https://telegram.me/share/url?url={{ page.link }}&text={{ page.description }} via &#64;basspistolQC" target="_blank" rel="noopener noreferrer nofollow">
-          <img src="{{ base }}/assets/img/telegram.svg" width="24px" height="24px" alt="share on telegram" />
+          <img src="{{ site.baseurl }}/assets/img/telegram.svg" width="24px" height="24px" alt="share on telegram" />
         </a>
         <a style="text-decoration: none;"  href="https://reddit.com/submit/?url={{ page.link }}" target="_blank" rel="noopener noreferrer nofollow">
-          <img src="{{ base }}/assets/img/reddit.svg" width="24px" height="24px" alt="share on reddit" />
+          <img src="{{ site.baseurl }}/assets/img/reddit.svg" width="24px" height="24px" alt="share on reddit" />
         </a>
       </div>

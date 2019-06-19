@@ -5,7 +5,7 @@
  * @copyright Copyright (c) 2018 IcoFont
  * @license - http://icofont.com/license/
 */
-{% include base.html %}
+
 @font-face {
     font-family: 'icofont';
     src: url('../fonts/icofont.eot?v=1.0.0-beta');

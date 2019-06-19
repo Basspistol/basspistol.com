@@ -21,7 +21,7 @@ social:
   mastodon: 'https://mastodon.art/@basspistol'
 
 production_url : https://basspistol.com
-baseurl : '/'
+baseurl : ''
 shop_url: https://shop.basspistol.com/
 
 # excerpt_separator: '<!--more-->'
