@@ -6,9 +6,7 @@
   <link rel="alternate" type="application/rss+xml" href="{{ site.production_url }}/rss.xml" />
   
   <!-- BEGIN rendered SEO Meta -->
-
   <title>{{ page.title }} | {{ site.title }}</title>
-
   <!-- Standard SEO -->
   <meta name="title" content="{{ page.title }}, {{ site.title }}">
   <meta name="dc.date.modified" scheme="ISO8601" content="{{ site.time | date_to_xmlschema }}" />
@@ -26,10 +24,7 @@
   <meta name="geo.position" content="46.204391;6.143158" />
   <meta name="ICBM" content="46.204391, 6.143158" />
   <meta name="keywords" content="{{ page.keywords}}">
-
-
   <!-- Dublin Core basic info -->
-
   <meta name="dcterms.Identifier" content="{{ site.production_url }}" />
   <meta name="dcterms.Format" content="text/html" />
   <meta name="dcterms.Relation" content="{{ site.title }}" />
@@ -44,9 +39,7 @@
   <meta name="dcterms.Date" content="{{ site.time | date: "%Y-%m-%d" }}" />{% if page.description == null %}
   <meta name="dcterms.Description" content="{{ site.tagline | strip_html }}" />{% else %}
   <meta name="dcterms.Description" content="{{ page.description | strip_html }}" />{% endif %}
-
   <!-- Facebook OpenGraph -->
-
   {% if page.category != "highlights" %}<meta property="og:type" content="website" />
   <meta property="og:url" content="{{ site.production_url }}" />{% else %}
   <meta property="og:type" content="article" />
@@ -64,9 +57,7 @@
   <meta property="og:site_name" content="{{ site.title }}" />
   {% for social_id in site.social_ids %}{% assign social = site.social[social_id] %}<meta property="og:see_also" content="{{ social }}" />
   {% endfor %}
-
   <!-- Twitter Card -->
-
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:site" content="@bpist" />
   <meta name="twitter:title" content="{{ page.title }} | {{ site.title }}" />{% if page.description == null %}
