@@ -1,6 +1,6 @@
 ---
 layout: track
-path: /Users/set/Desktop/publikator_test/assets/albums/headcleaner/1-radius.mp3
+path:
 audio: /assets/albums/headcleaner/1-radius.mp3
 albumSlug: headcleaner
 slug: 1-radius
@@ -109,9 +109,45 @@ native:
     - id: TPE1
       value: Dr. Tikov
     - id: UFID
-      value: &ref_0
+      value:
         owner_identifier: 'http://musicbrainz.org'
-        identifier: !<tag:yaml.org,2002:binary> YTdkMmJiZWItM2U0Ni00ZTBmLWE3NTAtNGU3YWU4MDBjYjEy
+        identifier:
+          - 97
+          - 55
+          - 100
+          - 50
+          - 98
+          - 98
+          - 101
+          - 98
+          - 45
+          - 51
+          - 101
+          - 52
+          - 54
+          - 45
+          - 52
+          - 101
+          - 48
+          - 102
+          - 45
+          - 97
+          - 55
+          - 53
+          - 48
+          - 45
+          - 52
+          - 101
+          - 55
+          - 97
+          - 101
+          - 56
+          - 48
+          - 48
+          - 99
+          - 98
+          - 49
+          - 50
     - id: TSOP
       value: 'Tikov, Dr.'
     - id: TRCK
@@ -148,7 +184,7 @@ common:
     - 1313ee01-590c-4fcf-a149-7f4d2a16d550
   musicbrainz_albumid: f4823431-9d09-48d3-81cd-51fbd24a8f3c
   albumartist: Dr. Tikov
-  album: Headcleaner
+  album: headcleaner
   musicbrainz_artistid:
     - 1313ee01-590c-4fcf-a149-7f4d2a16d550
   artists:
@@ -157,7 +193,7 @@ common:
   musicbrainz_recordingid: a7d2bbeb-3e46-4e0f-a750-4e7ae800cb12
   artistsort: 'Tikov, Dr.'
   year: 2011
-  date: '2011-10-01'
+  date: 2011-10-01 00:00:00 +0200
 transformed:
   ID3v2.4:
     c0: basspistol.com - tikov.com
@@ -185,7 +221,45 @@ transformed:
     'TXXX:MusicBrainz Artist Id': 1313ee01-590c-4fcf-a149-7f4d2a16d550
     'TXXX:musicbrainz_artistid': 1313ee01-590c-4fcf-a149-7f4d2a16d550
     TPE1: Dr. Tikov
-    UFID: *ref_0
+    UFID:
+      owner_identifier: 'http://musicbrainz.org'
+      identifier:
+        - 97
+        - 55
+        - 100
+        - 50
+        - 98
+        - 98
+        - 101
+        - 98
+        - 45
+        - 51
+        - 101
+        - 52
+        - 54
+        - 45
+        - 52
+        - 101
+        - 48
+        - 102
+        - 45
+        - 97
+        - 55
+        - 53
+        - 48
+        - 45
+        - 52
+        - 101
+        - 55
+        - 97
+        - 101
+        - 56
+        - 48
+        - 48
+        - 99
+        - 98
+        - 49
+        - 50
     TSOP: 'Tikov, Dr.'
     TRCK: 1/9
     TDRC: '2011-10-01'
@@ -303,9 +377,45 @@ nextTrack:
       - id: TPE1
         value: Dr. Tikov
       - id: UFID
-        value: &ref_1
+        value:
           owner_identifier: 'http://musicbrainz.org'
-          identifier: !<tag:yaml.org,2002:binary> ZjVhMzZmOGUtZDkwNS00MGI3LWFiNzAtMjRlZTliOTE2ZTY3
+          identifier:
+            - 102
+            - 53
+            - 97
+            - 51
+            - 54
+            - 102
+            - 56
+            - 101
+            - 45
+            - 100
+            - 57
+            - 48
+            - 53
+            - 45
+            - 52
+            - 48
+            - 98
+            - 55
+            - 45
+            - 97
+            - 98
+            - 55
+            - 48
+            - 45
+            - 50
+            - 52
+            - 101
+            - 101
+            - 57
+            - 98
+            - 57
+            - 49
+            - 54
+            - 101
+            - 54
+            - 55
       - id: TSOP
         value: 'Tikov, Dr.'
       - id: TRCK
@@ -342,7 +452,7 @@ nextTrack:
       - 1313ee01-590c-4fcf-a149-7f4d2a16d550
     musicbrainz_albumid: f4823431-9d09-48d3-81cd-51fbd24a8f3c
     albumartist: Dr. Tikov
-    album: Headcleaner
+    album: headcleaner
     musicbrainz_artistid:
       - 1313ee01-590c-4fcf-a149-7f4d2a16d550
     artists:
@@ -351,7 +461,7 @@ nextTrack:
     musicbrainz_recordingid: f5a36f8e-d905-40b7-ab70-24ee9b916e67
     artistsort: 'Tikov, Dr.'
     year: 2011
-    date: '2011-10-01'
+    date: 2011-10-01 00:00:00 +0200
   transformed:
     ID3v2.4:
       c0: basspistol.com - tikov.com
@@ -379,7 +489,45 @@ nextTrack:
       'TXXX:MusicBrainz Artist Id': 1313ee01-590c-4fcf-a149-7f4d2a16d550
       'TXXX:musicbrainz_artistid': 1313ee01-590c-4fcf-a149-7f4d2a16d550
       TPE1: Dr. Tikov
-      UFID: *ref_1
+      UFID:
+        owner_identifier: 'http://musicbrainz.org'
+        identifier:
+          - 102
+          - 53
+          - 97
+          - 51
+          - 54
+          - 102
+          - 56
+          - 101
+          - 45
+          - 100
+          - 57
+          - 48
+          - 53
+          - 45
+          - 52
+          - 48
+          - 98
+          - 55
+          - 45
+          - 97
+          - 98
+          - 55
+          - 48
+          - 45
+          - 50
+          - 52
+          - 101
+          - 101
+          - 57
+          - 98
+          - 57
+          - 49
+          - 54
+          - 101
+          - 54
+          - 55
       TSOP: 'Tikov, Dr.'
       TRCK: 2/9
       TDRC: '2011-10-01'
@@ -491,9 +639,45 @@ previousTrack:
       - id: TPE1
         value: Dr. Tikov
       - id: UFID
-        value: &ref_2
+        value:
           owner_identifier: 'http://musicbrainz.org'
-          identifier: !<tag:yaml.org,2002:binary> NDQxMWQxMzgtNjAxNi00MzMxLWIyNWQtZjIyODUwYjgxNDg4
+          identifier:
+            - 52
+            - 52
+            - 49
+            - 49
+            - 100
+            - 49
+            - 51
+            - 56
+            - 45
+            - 54
+            - 48
+            - 49
+            - 54
+            - 45
+            - 52
+            - 51
+            - 51
+            - 49
+            - 45
+            - 98
+            - 50
+            - 53
+            - 100
+            - 45
+            - 102
+            - 50
+            - 50
+            - 56
+            - 53
+            - 48
+            - 98
+            - 56
+            - 49
+            - 52
+            - 56
+            - 56
       - id: TSOP
         value: 'Tikov, Dr.'
       - id: TRCK
@@ -529,7 +713,7 @@ previousTrack:
       - 1313ee01-590c-4fcf-a149-7f4d2a16d550
     musicbrainz_albumid: f4823431-9d09-48d3-81cd-51fbd24a8f3c
     albumartist: Dr. Tikov
-    album: Headcleaner
+    album: headcleaner
     musicbrainz_artistid:
       - 1313ee01-590c-4fcf-a149-7f4d2a16d550
     artists:
@@ -538,7 +722,7 @@ previousTrack:
     musicbrainz_recordingid: 4411d138-6016-4331-b25d-f22850b81488
     artistsort: 'Tikov, Dr.'
     year: 2011
-    date: '2011-10-01'
+    date: 2011-10-01 00:00:00 +0200
   transformed:
     ID3v2.4:
       c0: basspistol.com - tikov.com
@@ -565,9 +749,48 @@ previousTrack:
       'TXXX:MusicBrainz Artist Id': 1313ee01-590c-4fcf-a149-7f4d2a16d550
       'TXXX:musicbrainz_artistid': 1313ee01-590c-4fcf-a149-7f4d2a16d550
       TPE1: Dr. Tikov
-      UFID: *ref_2
+      UFID:
+        owner_identifier: 'http://musicbrainz.org'
+        identifier:
+          - 52
+          - 52
+          - 49
+          - 49
+          - 100
+          - 49
+          - 51
+          - 56
+          - 45
+          - 54
+          - 48
+          - 49
+          - 54
+          - 45
+          - 52
+          - 51
+          - 51
+          - 49
+          - 45
+          - 98
+          - 50
+          - 53
+          - 100
+          - 45
+          - 102
+          - 50
+          - 50
+          - 56
+          - 53
+          - 48
+          - 98
+          - 56
+          - 49
+          - 52
+          - 56
+          - 56
       TSOP: 'Tikov, Dr.'
       TRCK: 9/9
       TDRC: '2011-10-01'
       WOAS: 'https://archive.org/compress/BPIST005'
 ---
+
