@@ -35,7 +35,7 @@
   <meta name="dcterms.Title" content="{{ page.title }} | {{ site.title }}" />
   <meta name="dcterms.Subject" content="{{ site.tagline | strip_html }}" />
   <meta name="dcterms.Contributor" content="{{ site.title }}" />
-  <meta name="dcterms.Date" content="{{ site.time | date: "%Y-%m-%d" }}" />{% if page.description == null %}
+  <meta name="dcterms.Date" content="{{ page.date | date: "%Y-%m-%d" }}" />{% if page.description == null %}
   <meta name="dcterms.Description" content="{{ site.tagline | strip_html }}" />{% else %}
   <meta name="dcterms.Description" content="{{ page.description | strip_html }}" />{% endif %}
   <!-- Facebook OpenGraph -->
@@ -169,9 +169,9 @@
       "mainEntityOfPage": "{{ site.production_url }}",
       "inLanguage": "en_us",
       "headline": "{{ site.tagline }}",
-      "dateCreated": "{{ page.date }}",
+      "dateCreated": "{{ page.date | date_to_xmlschema }}",
       "dateModified": "{{ page.last_modified_at | date_to_xmlschema }}",
-      "datePublished": "{{ page.date }}",
+      "datePublished": "{{ page.date | date_to_xmlschema }}",
       "copyrightYear": "{{ site.time | date: "%Y" }}",
       "author": {
           "@type": "Corporation",
