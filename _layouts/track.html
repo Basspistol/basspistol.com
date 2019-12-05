@@ -38,7 +38,7 @@
 {% include footer.html %}
     </div>
   </div>
-    <audio preload="none" autoplay ontimeupdate="document.getElementById('tracktime').innerHTML = Math.floor(this.currentTime) + ' / ' + Math.floor(this.duration);">
+    <audio preload="none" data-matomo-title="{{ page.common.title }}" autoplay ontimeupdate="document.getElementById('tracktime').innerHTML = Math.floor(this.currentTime) + ' / ' + Math.floor(this.duration);">
       <source src="{{ site.baseurl }}/assets/albums/{{ page.albumSlug }}/{{ page.slug }}.mp3" type="audio/mpeg" />
       <!-- <source src="{{ site.baseurl }}/assets/albums/{{ page.albumSlug }}/{{ page.slug }}.ogg" type="audio/ogg" /> -->
       <h1>Your browser isn't ready for so much hotness. Use these links instead: <a href="{{ site.baseurl }}/assets/albums/{{ page.albumSlug }}/{{ page.slug }}.ogg">OGG</a> or <a href="{{ site.baseurl }}/assets/albums/{{ page.albumSlug }}/{{ page.slug }}.mp3">MP3</a></h1>.
