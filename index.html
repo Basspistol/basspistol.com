@@ -14,6 +14,7 @@ poster_image: /assets/vid/intro_loop_.jpg
 <!DOCTYPE html>
 <html>
 <head>
+{% include relBase.html %}
 {% include metahead.html %}
 {% include matomo.html %}
 <script type="text/javascript">
@@ -85,7 +86,7 @@ poster_image: /assets/vid/intro_loop_.jpg
       <div class="records">
         <h1>Highlights</h1>
 {% for page in site.categories.highlights offset: 0 limit: 1 %}
-      <a href="{{ site.baseurl }}{{ page.url }}" title="{{ page.title }}"><div class="highlights" style="background-image: url('{{ site.baseurl }}{{ page.image }}')">
+      <a href="{{ relBase }}{{ page.url }}" title="{{ page.title }}"><div class="highlights" style="background-image: url('{{ relBase }}{{ page.image }}')">
       </div><h3>{{ page.title }} </h3></a>
       <p class="editable">
         Highlights are music-things we think you want to discover. Tracks, articles, videos, interviews and reviews, curated but also original content. They are delivered to you daily. Here or via RSS.

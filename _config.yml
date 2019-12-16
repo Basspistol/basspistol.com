@@ -22,7 +22,7 @@ social:
 
 production_url : https://basspistol.com
 baseurl : ''
-shop_url: https://shop.basspistol.com/
+shop_url: https://shop.basspistol.com/?ref=basspistol.com
 
 # excerpt_separator: '<!--more-->'
 pagination:

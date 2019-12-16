@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+{% include relBase.html %}
 {% include metahead.html %}
 {% include matomo.html %}
 </head>
@@ -11,8 +12,8 @@
     <div class="fitter">
 {% for page in site.categories.highlights offset: 0 limit: 15 %}
       <div class="records">
-        <a href="{{ site.baseurl }}{{ page.url }}">
-          <img class="recordthumbs" src="{{ site.baseurl }}{{ page.coverart.art }}" title="{{ page.title }}" alt="{{ page.title }}" />
+        <a href="{{ relBase }}{{ page.url }}">
+          <img class="recordthumbs" src="{{ relBase }}{{ page.coverart.art }}" title="{{ page.title }}" alt="{{ page.title }}" />
         </a>
       </div>
 {% endfor %}  

@@ -3,6 +3,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+{% include relBase.html %}
 {% include releasemeta.html %}
 {% include matomo.html %}
 </head>
@@ -10,18 +11,18 @@
 {% include navmenu.html %}
   <div id="content">
     <div id="headline"><h1>~/{{ page.name }} by {{ page.artists }} </h1></div>
-    <div id="linkhead" style="background-image:url('{{ site.baseurl }}{{ page.cover }}');background-size:cover;background-position:center;"></div>
-    <div id="linkheadthumb" style="background-image:url('{{ site.baseurl }}{{ page.cover }}');background-size:cover;background-position:center;"></div>
+    <div id="linkhead" style="background-image:url('{{ relBase }}{{ page.cover }}');background-size:cover;background-position:center;"></div>
+    <div id="linkheadthumb" style="background-image:url('{{ relBase }}{{ page.cover }}');background-size:cover;background-position:center;"></div>
     <div class="padded">
-      <h1>{{ page.title }}</h1>{% for track in page.tracks limit: 1 %}<a href="{{ track.transformed["ID3v2.4"].WOAS }}" target="_blank" rel="noopener noreferrer"><img src="{{ site.baseurl }}/assets/img/cloud-download.svg" width="64px" height="64px" /></a>{% endfor %}
+      <h1>{{ page.title }}</h1>{% for track in page.tracks limit: 1 %}<a href="{{ track.transformed["ID3v2.4"].WOAS }}" target="_blank" rel="noopener noreferrer"><img src="{{ relBase }}/assets/img/cloud-download.svg" width="64px" height="64px" /></a>{% endfor %}
       <p>Released on: <strong>{{ page.date | date: "%a, %b %d, %Y" }}</strong></p><br />
       
     </div>
     <div class="fitter">
 {% for track in page.tracks %}
       <div class="articles">
-        <a href="{{ site.baseurl }}/tracks/{{ page.slug }}/{{ track.slug }}/">
-            <img class="recordthumbs_mini" src="{{ site.baseurl }}{{ track.cover}}" title="{{ track.common.title }}" alt="{{ track.common.title }}" width="100px"/>
+        <a href="{{ relBase }}/tracks/{{ page.slug }}/{{ track.slug }}/">
+            <img class="recordthumbs_mini" src="{{ relBase }}{{ track.cover}}" title="{{ track.common.title }}" alt="{{ track.common.title }}" width="100px"/>
             <br /><h3>{{ track.common.track.no }}. {{ track.common.title }}</h3>
         </a>
         {% if track.common.genre != null %}<p>Genre: <strong>{{ track.common.genre }}</strong></p>{% endif %}

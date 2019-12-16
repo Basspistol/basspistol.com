@@ -9,6 +9,7 @@ poster_image: /assets/vid/discogs.jpg
 <!DOCTYPE html>
 <html>
 <head>
+{% include relBase.html %}
 {% include metahead.html %}
 {% include matomo.html %}
 </head>
@@ -21,8 +22,8 @@ poster_image: /assets/vid/discogs.jpg
 {% assign sorted = site.albums | reverse %}
 {% for album in sorted %}
       <div class="records">
-        <a href="{{ site.baseurl }}/albums/{{ album.slug }}/">
-            <img class="recordthumbs" src="{{ site.baseurl }}{{ album.cover }}" title="{{ album.name }}" alt="{{ album.name }}" />
+        <a href="{{ relBase }}/albums/{{ album.slug }}/">
+            <img class="recordthumbs" src="{{ relBase }}{{ album.cover }}" title="{{ album.name }}" alt="{{ album.name }}" />
         </a>
       </div>
 {% endfor %}
