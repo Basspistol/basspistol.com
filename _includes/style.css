@@ -230,12 +230,12 @@ VIDEO PLAYER
 #bgvid {
   object-fit: cover;
   width: 100%;
-  height: 100%;
+  height: 50%;
 }
 #bgpic {
   object-fit: cover;
   width: 100%;
-  height: 100%;
+  height: 50%;
   display: inline-block;
 }
 @media screen and (max-width: 730px) {
