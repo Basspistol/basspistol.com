@@ -45,10 +45,10 @@ poster_image: /assets/vid/radio.jpg
             output = "<p>" + "Now Playing: " + "</p>";
             output += "<p><strong>" + json.icestats.source[1].title + "</strong> <br />by<br /><strong>" + json.icestats.source[1].artist + "</strong></p>";
             output += "<p>";
-            output += json.icestats.source[0].listeners + " peers are listening in <a href='https://radio.basspistol.com/radio.mp3.m3u'>MP3</a>";
+            output += json.icestats.source[0].listeners + " peers are listening in MP3";
             output += "</p>";
             output += "<p>";
-            output += json.icestats.source[1].listeners + " peers are listening in <a href='https://radio.basspistol.com/radio.ogg.m3u'>OGG</a>";
+            output += json.icestats.source[1].listeners + " peers are listening in OGG";
             output += "</p>";
             document.getElementById("radioPlaceholder").innerHTML=output;
           });
@@ -74,13 +74,22 @@ poster_image: /assets/vid/radio.jpg
       <div class="articles">
         <div id="radioPlaceholder"></div>
       </div>
+      <div class="articles"><p><b>Dislike scripts? Want the M3U? We got you covered!</b>
+        <br /><br />Enjoy the stream withing your browser in 
+        <a target="_blank" rel="noopener noreferrer" href="https://radio.basspistol.com/radio.mp3">MP3</a> 
+        or <a target="_blank" rel="noopener noreferrer" href="https://radio.basspistol.com/radio.ogg">OGG</a> within the browser
+        <br /><br />
+        Enjoy the stream in your favorite player in 
+        <a target="_blank" rel="noopener noreferrer" href='https://radio.basspistol.com/radio.mp3.m3u'>MP3</a> 
+        and <a target="_blank" rel="noopener noreferrer" href='https://radio.basspistol.com/radio.ogg.m3u'>OGG</a></p>
+      </div>
 {% include footer.html %}
     </div>
   </div>
     <audio preload="none" data-matomo-title="Basspistol Radio">
       <source src="https://radio.basspistol.com/radio.mp3" type="audio/mpeg" />
       <source src="https://radio.basspistol.com/radio.ogg" type="audio/ogg" />
-      <h1>Your browser isn't ready for so much hotness. Use these links instead: <a href="https://radio.basspistol.com/radio.ogg.m3u">OGG</a> or <a href="https://radio.basspistol.com/radio.mp3.m3u">MP3</a></h1>.
+      <h1>Your browser isn't ready for so much hotness. Use these links instead: <a target="_blank" rel="noopener noreferrer" href="https://radio.basspistol.com/radio.ogg.m3u">OGG</a> or <a href="https://radio.basspistol.com/radio.mp3.m3u">MP3</a></h1>.
      </audio>
   </div>
   <script type="text/javascript">
