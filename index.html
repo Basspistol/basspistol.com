@@ -61,10 +61,10 @@ poster_image: /assets/vid/intro_loop_.jpg
         output = "<p>" + "Now Playing: " + "</p>";
         output += "<p><strong>" + json.icestats.source[1].title + "</strong> <br />by<br /><strong>" + json.icestats.source[1].artist + "</strong></p>";
         output += "<p>";
-        output += json.icestats.source[0].listeners + " peers are listening in <a href='https://radio.basspistol.com/radio.mp3.m3u'>MP3</a>";
+        output += json.icestats.source[0].listeners + " peers are listening in MP3";
         output += "</p>";
         output += "<p>";
-        output += json.icestats.source[1].listeners + " peers are listening in <a href='https://radio.basspistol.com/radio.ogg.m3u'>OGG</a>";
+        output += json.icestats.source[1].listeners + " peers are listening in OGG";
         output += "</p>";
         document.getElementById("radioPlaceholder").innerHTML=output;
       });
@@ -105,8 +105,7 @@ poster_image: /assets/vid/intro_loop_.jpg
         <h1>RADIO</h1>
         <button id="mu_pause">Play</button>
         <div id="radioPlaceholder"></div>  
-        <h2>Radio under maintenance.</h2>
-        <p>Hopefully back soon.</p> 
+        <p><b>Noscript friendly version and M3U <a href="./radio/">here</a></b></p>
       </div>
 {% include footer.html %}
     </div>
