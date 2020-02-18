@@ -26,7 +26,7 @@ poster_image: /assets/vid/artists.jpg
 {% for artist in sorted %}
       <div class="articles">
         <div class="artistimg" style="background-image:url(..{{ artist.image }})"></div>
-        <h2><a href="{{ artist.web }}" target="_blank" rel="noopener noreferrer" style="text-decoration:none;">{{ artist.display_name }}</a></h2>
+        <h2><a href="{{ artist.web }}?ref=TheOuternationalMusicSyndicate" target="_blank" rel="noopener" style="text-decoration:none;">{{ artist.display_name }}</a></h2>
     </div>
 {% endfor %}
 {% include footer.html %}
