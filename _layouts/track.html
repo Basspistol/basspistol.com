@@ -19,7 +19,7 @@
         <a id="rwd" href="{{ relBase }}/tracks/{{ page.previousTrack.albumSlug }}/{{ page.previousTrack.slug }}/">&lt;&lt; RWD</a> 
         <button id="mu_pause" style="margin:0 5px 0 5px;">Pause</button>
         <a id="ffwd" href="{{ relBase }}/tracks/{{ page.nextTrack.albumSlug }}/{{ page.nextTrack.slug }}/">FWD &gt;&gt;</a>
-        <p style="padding:40px;"><a href="{{ page.transformed["ID3v2.4"].WOAS }}" target="_blank" rel="noopener noreferrer"><img src="{{ relBase }}/assets/img/cloud-download.svg" width="64px" height="64px" /></a></p>
+        <p style="padding:40px;"><a href="{{ page.transformed["ID3v2.4"].WOAS }}" onclick="_paq.push(['trackEvent', 'albumDownload', '{{ page.common.album }}']);" target="_blank" rel="noopener"><img src="{{ relBase }}/assets/img/cloud-download.svg" width="64px" height="64px" /></a></p>
       </div>   
       <div class="articles">
         <h3>{{ page.common.track.no }}. {{ page.common.title }}</h3>
@@ -34,7 +34,7 @@
         <h1>&nbsp;</h1>
         Release Date: <strong>{{ page.common.date }} </strong>
         <br />Genre: <strong>{{ page.common.genre }} </strong>
-        <br />Musicbrainz: <a href="https://musicbrainz.org/recording/{{ page.common.musicbrainz_recordingid }}" target="_blank" rel="noopener noreferrer"><strong>{{ page.common.musicbrainz_recordingid }}</strong></a>
+        <br />Musicbrainz: <a href="https://musicbrainz.org/recording/{{ page.common.musicbrainz_recordingid }}" target="_blank" rel="noopener"><strong>{{ page.common.musicbrainz_recordingid }}</strong></a>
       </div>
 {% include footer.html %}
     </div>
