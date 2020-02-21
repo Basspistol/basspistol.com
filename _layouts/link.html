@@ -11,8 +11,8 @@
 {% include navmenu.html %}
   <div id="content">
     <div id="headline"><h1>~/hi-light</h1></div>
-    <a href="{{ page.link }}?ref=TheOuternationalMusicSyndicateWasHere" target="_blank" rel="noopener noreferrer"><div id="linkhead" style="background-image:url('{{ relBase }}{{ page.image }}');background-size:cover;background-position:center;opacity:0.75;"></div></a>
-    <a href="{{ page.link }}?ref=TheOuternationalMusicSyndicateWasHere" target="_blank" rel="noopener noreferrer"><div id="linkheadthumb" style="background-image:url('{{ relBase }}{{ page.image }}');background-size:cover;background-position:center;opacity:0.75;"></div></a>
+    <a href="{{ page.link }}?ref=TheOuternationalMusicSyndicateWasHere" target="_blank" rel="noopener"><div id="linkhead" style="background-image:url('{{ relBase }}{{ page.image }}');background-size:cover;background-position:center;opacity:0.75;"></div></a>
+    <a href="{{ page.link }}?ref=TheOuternationalMusicSyndicateWasHere" target="_blank" rel="noopener"><div id="linkheadthumb" style="background-image:url('{{ relBase }}{{ page.image }}');background-size:cover;background-position:center;opacity:0.75;"></div></a>
     <div class="fitter">
       <div class="articles-pargraph">
         <h1>{{ page.title }}</h1>
@@ -20,7 +20,7 @@
         {{ content }}
 {% include author.html %} <br /><br /><br /><br />
         
-        <br /><br /><a id="highlightlink" href="{{ page.link }}?ref=TheOuternationalMusicSyndicateWasHere" target="_blank" rel="noopener noreferrer" style="text-decoration:none;">CHECK IT OUT!</a>
+        <br /><br /><a id="highlightlink" href="{{ page.link }}?ref=TheOuternationalMusicSyndicateWasHere" target="_blank" rel="noopener" style="text-decoration:none;">CHECK IT OUT!</a>
         <br /><br /><p style="font-size:0.85em; margin:5px;">Warning, some links might lead you to webshits like google, with aggressive tracking.</p>
       </div>
 {% include highlight_pagination.html %}
