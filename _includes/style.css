@@ -288,7 +288,7 @@ HIGHLIGHT LINKS
 #linkhead {
   object-fit: cover;
   width: 100%;
-  height: 85%;
+  height: 50%;
   display: inline-block;
 }
 #linkheadthumb {
