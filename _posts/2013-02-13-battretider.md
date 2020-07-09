@@ -1,9 +1,8 @@
 ---
 title: 'Bättre tider'
 artist: 'The FragleBay'
-category: highlights
+category: ramblings
 tags: [video, internal]
-layout: link
 description: 'I''m waiting for better times. I''m laying home in the sofa and waiting for better times. Why should i wait here? I can do something better with my life!'
 uid: 'battretider'
 image: '/assets/img/battretider.jpg'

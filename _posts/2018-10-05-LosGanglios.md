@@ -2,9 +2,8 @@
 title: 'Los Ganglios'
 artist: 'Los Ganglios'
 author: 
-category: highlights
+category: ramblings
 tags: [spanish,post-pop,porc,]
-layout: link
 description: 'PORC, or what happens when you conglomerate Punk, Techno, Rock and Cumbia'
 uid: 'losgangliosnomamesguey'
 image: '/assets/img/trnx_losganglios.jpg'

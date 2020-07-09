@@ -1,0 +1,77 @@
+---
+title: 'Basspistol Discog'
+description: 'The Basspistol Catalogue'
+image: /images/guillaume-techer-jm9p0mdpo6a-unsplash.jpg
+---
+
+<!-- Banner -->
+<section class="banner onload-image-fade-in onload-content-fade-right style2 fullscreen content-align-center image-position-center" style="height:100vh;background-color: rgba(13,13,13,0.85);">
+  <div class="content editable">
+    <h1 class="editable">{{ page.title }}</h1>
+    <p>{{ page.description }}</p>
+    <ul class="actions stacked">
+      <li><a href="#moe" class="button small smooth-scroll-middle">cheggit!</a></li>
+    </ul>
+  </div>
+  <div class="image">
+    <img src="{{  page.slug }}/{{ page.tracks[0].trackSlug }}.jpeg" alt="{{ page.title }}" class="editable" />
+  </div>
+</section>
+
+<section class="wrapper style1 align-center">
+
+  <div class="inner">
+    <h2 class="editable">Ready for the output?</h2>
+    <p class="editable">Buckle up it's a long list</p>
+  </div>
+
+</section>
+
+{% assign sorted = site.albums | sort: 'date' | reverse %}
+{% for album in sorted %}
+
+<section class="spotlight style4 orient-{% cycle 'left', 'right' %} content-align-left image-position-center onscroll-image-fade-in" {% if forloop.index == 1 %}style="box-shadow: none;" {% endif %}>
+  <div class="content">
+    <h1>{{ album.title }}</h1>
+
+
+
+    <p>{{ album.date | date: '%Y' }}</p>
+    
+    {% for track in album.tracks %}
+    <p style="margin-bottom: 30px; font-family: monospace;font-size: 14px">
+      <strong>{{ track.common.track.no }}. {{ track.common.title }}</strong><br />
+      <span id="{{ track.common.title | slugify | remove: '-'  }}"></span> | 
+      <span style="font-family: monospace;font-size: 14px">{{ track.common.genre }} </span>
+    </p>
+   
+
+    <script type="text/javascript">
+      var {{ track.common.title | slugify | remove: '-'  }}timestamp = {{ track.format.duration | round }};
+      var {{ track.common.title | slugify | remove: '-'  }}hours = Math.floor({{ track.common.title | slugify | remove: '-'  }}timestamp / 60 / 60);
+      var {{ track.common.title | slugify | remove: '-'  }}minutes = Math.floor({{ track.common.title | slugify | remove: '-'  }}timestamp / 60) - ({{ track.common.title | slugify | remove: '-' }}hours * 60);
+      var {{ track.common.title | slugify | remove: '-'  }}seconds = {{ track.common.title | slugify | remove: '-' }}timestamp % 60;
+      var {{ track.common.title | slugify | remove: '-'  }}formatted = {{ track.common.title | slugify | remove: '-' }}hours.toString().padStart(2, '0') + ':' + {{ track.common.title | slugify | remove: '-' }}minutes.toString().padStart(2, '0') + ':' + {{ track.common.title | slugify | remove: '-' }}seconds.toString().padStart(2, '0');
+      var theSpan = document.getElementById("{{ track.common.title | slugify | remove: '-'  }}");
+      theSpan.innerHTML = {{ track.common.title | slugify | remove: '-' }}formatted;
+    </script>
+    {% endfor %}
+
+<br />
+    <ul class="actions stacked">
+      <li><a href="{{ album.url }}" class="button big wide {% if post.category == 'release' %}icon solid fa-volume-up{% endif %}">Cheggid out</a>
+      </li>
+    </ul>
+  </div>
+
+  <div class="image">
+    <img src="{{ album.slug }}/{{ album.tracks[0].trackSlug }}.jpeg" alt="{{ album.title }}" title="{{ album.title }}" />
+
+  </div>
+</section>
+
+{% endfor %}
+
+{% include streamer.html %}
+
+{% include footer.html %}

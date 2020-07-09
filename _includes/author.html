@@ -1,6 +1,33 @@
-{% if page.author != null %}
-				{% assign author_id = page.author | prepend: "/staff_members/" | append: "/" %}
-				{% assign author_name = site.staff_members | where: "url", author_id | first %}
-				<a href="mailto:info+comment@basspistol.com?subject=Regarding the post &quot;{{ page.title }}&quot;!&body=Hey Set! The post on on your site with the title &quot;{{ page.title }}&quot; is wrong/right/good/bad/weird/peanuts/jelly/crazy/" style="text-decoration:none;"><img class="square-image" src="{{ site.baseurl }}{{ author_name.image_path }}" /></a>
-				<br /><p class="blurb"><a href="mailto:info+comment@basspistol.com?subject=Regarding the post &quot;{{ page.title }}&quot;!&body=Hey Set! The post on on your site with the title &quot;{{ page.title }}&quot; is wrong/right/good/bad/weird/peanuts/jelly/crazy/" style="text-decoration:none;"><strong>{{ author_name.name }}</strong></a><br />{{ author_name.blurb_markup }}</p>
-{% endif %}
+{% assign author_id = page.team_member | prepend: "/team_members/" | append: "/" %}
+{% assign author = site.team_members | where: "url", author_id | first %}
+<header id="author">
+  <div class="bio">
+
+  {% if page.collection == 'posts' %}
+  <div alt="Picture of {{ author.name }}"
+    style="margin-right: 10px;background-image:url({{ site.icon }});background-repeat: no-repeat;background-size:cover; border-radius:150px; width:150px; height:150px;">
+  </div>
+  <br />
+  <p style="font-style: normal;"><strong>{{ site.author.name }}</strong></p>
+
+  <p style="font-size:14px;font-style: normal;">
+    Published the 
+
+{% include dates.html %}
+  </p>
+  
+  {% endif %}
+  <h6>
+
+    Share this page:  
+ </h6>
+  <ul class="icons"> 
+    <li><a target="_blank" rel="nofollow noopener" title="Share to facebook" alt="Share to facebook" href="https://touch.facebook.com/sharer.php?u={{ site.url }}{{ page.url | xml_escape }}&amp;quote={{ page.title | xml_escape }}%20by%20{{ site.title xml_escape }}%20via%20{{ site.url }}" class="icon brands style1 fa-facebook-f"><span class="label">Facebook</span></a></li>
+    <li><a target="_blank" rel="nofollow noopener" title="Share to twitter" alt="Share to twitter" href="https://twitter.com/share?url={{ site.url }}{{ page.url | xml_escape }}&amp;text={{ page.title | xml_escape }}%20by%20{{ site.title xml_escape }}%20&amp;hashtags=paxNion" class="icon brands style1 fa-twitter"><span class="label">Twitter</span></a></li>
+    <li><a target="_blank" rel="nofollow noopener" title="Share to telegram" alt="Share to telgram" href="https://telegram.me/share/url?url={{ site.url }}{{ page.url }}&amp;text={{ page.title | xml_escape }}%20by%20{{ site.title xml_escape }}" class="icon brands style1 fa-telegram"><span class="label">Telegram</span></a></li>
+    <li><a target="_blank" rel="nofollow noopener" title="Share to reddit" alt="Share to reddit" href="https://reddit.com/submit/?url={{ site.url }}{{ page.url }}&amp;title={{ page.title | xml_escape }}%20by%20{{ site.title xml_escape }}" class="icon brands style1 fa-reddit"><span class="label">Reddit</span></a></li>
+  </ul>
+
+
+</div>
+</header>

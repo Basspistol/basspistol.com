@@ -1,21 +1,24 @@
 ---
 layout: track
 path: >-
-  /Users/set/Desktop/publikator_test/assets/albums/the-house-of-set/2-everyday-is-a-life.mp3
+  /home/set/git/basspistol/basspistol.com/assets/albums/the-house-of-set/2-everyday-is-a-life.mp3
 audio: /assets/albums/the-house-of-set/2-everyday-is-a-life.mp3
+slug: the-house-of-set/2-everyday-is-a-life
 albumSlug: the-house-of-set
-slug: 2-everyday-is-a-life
+trackSlug: 2-everyday-is-a-life
 coverPath: >-
-  /Users/set/Desktop/publikator_test/assets/albums/the-house-of-set/2-everyday-is-a-life.jpeg
+  /home/set/git/basspistol/basspistol.com/assets/albums/the-house-of-set/2-everyday-is-a-life.jpeg
 cover: /assets/albums/the-house-of-set/2-everyday-is-a-life.jpeg
 format:
   tagTypes:
     - ID3v2.4
+  trackInfo: []
   lossless: false
-  dataformat: mp3
-  bitrate: 128000
+  container: MPEG
+  codec: MPEG 1 Layer 3
   sampleRate: 44100
   numberOfChannels: 2
+  bitrate: 128000
   codecProfile: CBR
   numberOfSamples: 14553216
   duration: 330.00489795918367
@@ -121,7 +124,9 @@ native:
     - id: TDRC
       value: '2012-09-06'
     - id: WOAS
-      value: 'https://archive.org/compress/BPIST007'
+      value: 'https://archive.org/details/BPIST007'
+quality:
+  warnings: []
 common:
   track:
     'no': 2
@@ -191,24 +196,58 @@ transformed:
     TSOP: Sakrecoer
     TRCK: 2/8
     TDRC: '2012-09-06'
-    WOAS: 'https://archive.org/compress/BPIST007'
+    WOAS: 'https://archive.org/details/BPIST007'
+all:
+  TCON: Electronic
+  c0: basspistol.com sakrecoer.com
+  TIT2: Everyday Is a Life
+  RELEASECOUNTRY: XW
+  LABEL: Basspistol
+  MUSICBRAINZ_RELEASETRACKID: df96e4c5-9555-44cb-8376-fd0416d44f52
+  ORIGINALDATE: '2012-09-06'
+  MUSICBRAINZ_RELEASEGROUPID: 8d268171-8291-4d6f-9c77-a3813b2b4232
+  RELEASESTATUS: official
+  ACOUSTID_ID: 7eaf11c6-918d-4126-a2c4-c67158c73650
+  CATALOGNUMBER: BPIST007
+  MEDIA: Digital Media
+  RELEASETYPE: album
+  ORIGINALYEAR: '2012'
+  ARTISTS: Simio Sakrecoer
+  'TXXX:MusicBrainz Album Artist Id': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
+  'TXXX:musicbrainz_albumartistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
+  TPOS: 1/1
+  'TXXX:MusicBrainz Album Id': 17aea68f-34ed-4abf-83a4-68c28b3ec2da
+  'TXXX:musicbrainz_albumid': 17aea68f-34ed-4abf-83a4-68c28b3ec2da
+  TPE2: Simio Sakrecoer
+  TALB: The House of Set
+  'TXXX:MusicBrainz Artist Id': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
+  'TXXX:musicbrainz_artistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
+  TPE1: Simio Sakrecoer
+  UFID: *ref_0
+  TSOP: Sakrecoer
+  TRCK: 2/8
+  TDRC: '2012-09-06'
+  WOAS: 'https://archive.org/details/BPIST007'
 nextTrack:
   path: >-
-    /Users/set/Desktop/publikator_test/assets/albums/the-house-of-set/3-mossos-de-chicago.mp3
+    /home/set/git/basspistol/basspistol.com/assets/albums/the-house-of-set/3-mossos-de-chicago.mp3
   audio: /assets/albums/the-house-of-set/3-mossos-de-chicago.mp3
+  slug: the-house-of-set/3-mossos-de-chicago
   albumSlug: the-house-of-set
-  slug: 3-mossos-de-chicago
+  trackSlug: 3-mossos-de-chicago
   coverPath: >-
-    /Users/set/Desktop/publikator_test/assets/albums/the-house-of-set/3-mossos-de-chicago.jpeg
+    /home/set/git/basspistol/basspistol.com/assets/albums/the-house-of-set/3-mossos-de-chicago.jpeg
   cover: /assets/albums/the-house-of-set/3-mossos-de-chicago.jpeg
   format:
     tagTypes:
       - ID3v2.4
+    trackInfo: []
     lossless: false
-    dataformat: mp3
-    bitrate: 128000
+    container: MPEG
+    codec: MPEG 1 Layer 3
     sampleRate: 44100
     numberOfChannels: 2
+    bitrate: 128000
     codecProfile: CBR
     numberOfSamples: 15464448
     duration: 350.6677551020408
@@ -314,7 +353,9 @@ nextTrack:
       - id: TDRC
         value: '2012-09-06'
       - id: WOAS
-        value: 'https://archive.org/compress/BPIST007'
+        value: 'https://archive.org/details/BPIST007'
+  quality:
+    warnings: []
   common:
     track:
       'no': 3
@@ -384,24 +425,58 @@ nextTrack:
       TSOP: Sakrecoer
       TRCK: 3/8
       TDRC: '2012-09-06'
-      WOAS: 'https://archive.org/compress/BPIST007'
+      WOAS: 'https://archive.org/details/BPIST007'
+  all:
+    TCON: Electronic
+    c0: basspistol.com sakrecoer.com
+    TIT2: Mossos de Chicago
+    RELEASECOUNTRY: XW
+    LABEL: Basspistol
+    MUSICBRAINZ_RELEASETRACKID: 995055b0-ff28-47a6-bc8c-6da332cf92d8
+    ORIGINALDATE: '2012-09-06'
+    MUSICBRAINZ_RELEASEGROUPID: 8d268171-8291-4d6f-9c77-a3813b2b4232
+    RELEASESTATUS: official
+    ACOUSTID_ID: 599848d9-62e2-4e60-bc13-5e319669fe63
+    CATALOGNUMBER: BPIST007
+    MEDIA: Digital Media
+    RELEASETYPE: album
+    ORIGINALYEAR: '2012'
+    ARTISTS: Simio Sakrecoer
+    'TXXX:MusicBrainz Album Artist Id': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
+    'TXXX:musicbrainz_albumartistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
+    TPOS: 1/1
+    'TXXX:MusicBrainz Album Id': 17aea68f-34ed-4abf-83a4-68c28b3ec2da
+    'TXXX:musicbrainz_albumid': 17aea68f-34ed-4abf-83a4-68c28b3ec2da
+    TPE2: Simio Sakrecoer
+    TALB: The House of Set
+    'TXXX:MusicBrainz Artist Id': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
+    'TXXX:musicbrainz_artistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
+    TPE1: Simio Sakrecoer
+    UFID: *ref_1
+    TSOP: Sakrecoer
+    TRCK: 3/8
+    TDRC: '2012-09-06'
+    WOAS: 'https://archive.org/details/BPIST007'
 previousTrack:
   path: >-
-    /Users/set/Desktop/publikator_test/assets/albums/the-house-of-set/1-subway.mp3
+    /home/set/git/basspistol/basspistol.com/assets/albums/the-house-of-set/1-subway.mp3
   audio: /assets/albums/the-house-of-set/1-subway.mp3
+  slug: the-house-of-set/1-subway
   albumSlug: the-house-of-set
-  slug: 1-subway
+  trackSlug: 1-subway
   coverPath: >-
-    /Users/set/Desktop/publikator_test/assets/albums/the-house-of-set/1-subway.jpeg
+    /home/set/git/basspistol/basspistol.com/assets/albums/the-house-of-set/1-subway.jpeg
   cover: /assets/albums/the-house-of-set/1-subway.jpeg
   format:
     tagTypes:
       - ID3v2.4
+    trackInfo: []
     lossless: false
-    dataformat: mp3
-    bitrate: 128000
+    container: MPEG
+    codec: MPEG 1 Layer 3
     sampleRate: 44100
     numberOfChannels: 2
+    bitrate: 128000
     codecProfile: CBR
     numberOfSamples: 15350400
     duration: 348.0816326530612
@@ -507,7 +582,9 @@ previousTrack:
       - id: TDRC
         value: '2012-09-06'
       - id: WOAS
-        value: 'https://archive.org/compress/BPIST007'
+        value: 'https://archive.org/details/BPIST007'
+  quality:
+    warnings: []
   common:
     track:
       'no': 1
@@ -577,5 +654,36 @@ previousTrack:
       TSOP: Sakrecoer
       TRCK: 1/8
       TDRC: '2012-09-06'
-      WOAS: 'https://archive.org/compress/BPIST007'
+      WOAS: 'https://archive.org/details/BPIST007'
+  all:
+    TCON: Electronic
+    c0: basspistol.com sakrecoer.com
+    TIT2: Subway
+    RELEASECOUNTRY: XW
+    LABEL: Basspistol
+    MUSICBRAINZ_RELEASETRACKID: 7be4dcf5-b3ad-442a-8e3b-b5dd4ba3e08b
+    ORIGINALDATE: '2012-09-06'
+    MUSICBRAINZ_RELEASEGROUPID: 8d268171-8291-4d6f-9c77-a3813b2b4232
+    RELEASESTATUS: official
+    ACOUSTID_ID: 59a04532-6a72-405d-96eb-4c17e7537470
+    CATALOGNUMBER: BPIST007
+    MEDIA: Digital Media
+    RELEASETYPE: album
+    ORIGINALYEAR: '2012'
+    ARTISTS: Simio Sakrecoer
+    'TXXX:MusicBrainz Album Artist Id': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
+    'TXXX:musicbrainz_albumartistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
+    TPOS: 1/1
+    'TXXX:MusicBrainz Album Id': 17aea68f-34ed-4abf-83a4-68c28b3ec2da
+    'TXXX:musicbrainz_albumid': 17aea68f-34ed-4abf-83a4-68c28b3ec2da
+    TPE2: Simio Sakrecoer
+    TALB: The House of Set
+    'TXXX:MusicBrainz Artist Id': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
+    'TXXX:musicbrainz_artistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
+    TPE1: Simio Sakrecoer
+    UFID: *ref_2
+    TSOP: Sakrecoer
+    TRCK: 1/8
+    TDRC: '2012-09-06'
+    WOAS: 'https://archive.org/details/BPIST007'
 ---

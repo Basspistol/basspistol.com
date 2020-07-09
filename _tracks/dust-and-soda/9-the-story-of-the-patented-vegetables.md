@@ -1,21 +1,24 @@
 ---
 layout: track
 path: >-
-  /Users/set/Desktop/publikator_test/assets/albums/dust-and-soda/9-the-story-of-the-patented-vegetables.mp3
+  /home/set/git/basspistol/basspistol.com/assets/albums/dust-and-soda/9-the-story-of-the-patented-vegetables.mp3
 audio: /assets/albums/dust-and-soda/9-the-story-of-the-patented-vegetables.mp3
+slug: dust-and-soda/9-the-story-of-the-patented-vegetables
 albumSlug: dust-and-soda
-slug: 9-the-story-of-the-patented-vegetables
+trackSlug: 9-the-story-of-the-patented-vegetables
 coverPath: >-
-  /Users/set/Desktop/publikator_test/assets/albums/dust-and-soda/9-the-story-of-the-patented-vegetables.jpeg
+  /home/set/git/basspistol/basspistol.com/assets/albums/dust-and-soda/9-the-story-of-the-patented-vegetables.jpeg
 cover: /assets/albums/dust-and-soda/9-the-story-of-the-patented-vegetables.jpeg
 format:
   tagTypes:
     - ID3v2.4
+  trackInfo: []
   lossless: false
-  dataformat: mp3
-  bitrate: 128000
+  container: MPEG
+  codec: MPEG 1 Layer 3
   sampleRate: 44100
   numberOfChannels: 2
+  bitrate: 128000
   codecProfile: CBR
   numberOfSamples: 13623552
   duration: 308.92408163265304
@@ -126,7 +129,9 @@ native:
     - id: TDRC
       value: '2012-11-07'
     - id: WOAS
-      value: 'https://archive.org/compress/BPIST011'
+      value: 'https://archive.org/details/BPIST011'
+quality:
+  warnings: []
 common:
   track:
     'no': 9
@@ -197,24 +202,59 @@ transformed:
     TRCK: 9/12
     USLT: *ref_1
     TDRC: '2012-11-07'
-    WOAS: 'https://archive.org/compress/BPIST011'
+    WOAS: 'https://archive.org/details/BPIST011'
+all:
+  c0: www.basspistol.com
+  TCON: Mexican House
+  TIT2: The Story Of The Patented Vegetables
+  RELEASECOUNTRY: XW
+  LABEL: Basspistol
+  MUSICBRAINZ_RELEASETRACKID: ca107d02-644c-4434-857d-d0b634a06db5
+  ORIGINALDATE: '2012-11-07'
+  MUSICBRAINZ_RELEASEGROUPID: 750b0f83-4ffd-4764-aed5-dde96d66bf22
+  RELEASESTATUS: official
+  ACOUSTID_ID: 1cc5b2d6-d04d-48fb-bbf2-d8ce5193e84c
+  CATALOGNUMBER: BPIST011
+  MEDIA: Digital Media
+  RELEASETYPE: album
+  ORIGINALYEAR: '2012'
+  ARTISTS: Franky Fresco
+  'TXXX:MusicBrainz Album Artist Id': de2a996e-513c-4474-b03c-63b9566f1475
+  'TXXX:musicbrainz_albumartistid': de2a996e-513c-4474-b03c-63b9566f1475
+  TPOS: 1/1
+  'TXXX:MusicBrainz Album Id': 03cdbffb-4dd1-43af-9b8d-5db0924a5bcd
+  'TXXX:musicbrainz_albumid': 03cdbffb-4dd1-43af-9b8d-5db0924a5bcd
+  TPE2: Franky Fresco
+  TALB: Dust And Soda
+  'TXXX:MusicBrainz Artist Id': de2a996e-513c-4474-b03c-63b9566f1475
+  'TXXX:musicbrainz_artistid': de2a996e-513c-4474-b03c-63b9566f1475
+  TPE1: Franky Fresco
+  UFID: *ref_0
+  TSOP: Franky Fresco
+  TRCK: 9/12
+  USLT: *ref_1
+  TDRC: '2012-11-07'
+  WOAS: 'https://archive.org/details/BPIST011'
 nextTrack:
   path: >-
-    /Users/set/Desktop/publikator_test/assets/albums/dust-and-soda/10-mercury-inside-us.mp3
+    /home/set/git/basspistol/basspistol.com/assets/albums/dust-and-soda/10-mercury-inside-us.mp3
   audio: /assets/albums/dust-and-soda/10-mercury-inside-us.mp3
+  slug: dust-and-soda/10-mercury-inside-us
   albumSlug: dust-and-soda
-  slug: 10-mercury-inside-us
+  trackSlug: 10-mercury-inside-us
   coverPath: >-
-    /Users/set/Desktop/publikator_test/assets/albums/dust-and-soda/10-mercury-inside-us.jpeg
+    /home/set/git/basspistol/basspistol.com/assets/albums/dust-and-soda/10-mercury-inside-us.jpeg
   cover: /assets/albums/dust-and-soda/10-mercury-inside-us.jpeg
   format:
     tagTypes:
       - ID3v2.4
+    trackInfo: []
     lossless: false
-    dataformat: mp3
-    bitrate: 128000
+    container: MPEG
+    codec: MPEG 1 Layer 3
     sampleRate: 44100
     numberOfChannels: 2
+    bitrate: 128000
     codecProfile: CBR
     numberOfSamples: 16868736
     duration: 382.5110204081633
@@ -325,7 +365,9 @@ nextTrack:
       - id: TDRC
         value: '2012-11-07'
       - id: WOAS
-        value: 'https://archive.org/compress/BPIST011'
+        value: 'https://archive.org/details/BPIST011'
+  quality:
+    warnings: []
   common:
     track:
       'no': 10
@@ -396,24 +438,59 @@ nextTrack:
       TRCK: 10/12
       USLT: *ref_3
       TDRC: '2012-11-07'
-      WOAS: 'https://archive.org/compress/BPIST011'
+      WOAS: 'https://archive.org/details/BPIST011'
+  all:
+    c0: www.basspistol.com
+    TCON: Mexican House
+    TIT2: Mercury Inside Us
+    RELEASECOUNTRY: XW
+    LABEL: Basspistol
+    MUSICBRAINZ_RELEASETRACKID: 104dbe41-8fbc-45bc-8b8e-dfdc9cd356f6
+    ORIGINALDATE: '2012-11-07'
+    MUSICBRAINZ_RELEASEGROUPID: 750b0f83-4ffd-4764-aed5-dde96d66bf22
+    RELEASESTATUS: official
+    ACOUSTID_ID: c2970d67-637b-478a-9ea9-749d850d5883
+    CATALOGNUMBER: BPIST011
+    MEDIA: Digital Media
+    RELEASETYPE: album
+    ORIGINALYEAR: '2012'
+    ARTISTS: Franky Fresco
+    'TXXX:MusicBrainz Album Artist Id': de2a996e-513c-4474-b03c-63b9566f1475
+    'TXXX:musicbrainz_albumartistid': de2a996e-513c-4474-b03c-63b9566f1475
+    TPOS: 1/1
+    'TXXX:MusicBrainz Album Id': 03cdbffb-4dd1-43af-9b8d-5db0924a5bcd
+    'TXXX:musicbrainz_albumid': 03cdbffb-4dd1-43af-9b8d-5db0924a5bcd
+    TPE2: Franky Fresco
+    TALB: Dust And Soda
+    'TXXX:MusicBrainz Artist Id': de2a996e-513c-4474-b03c-63b9566f1475
+    'TXXX:musicbrainz_artistid': de2a996e-513c-4474-b03c-63b9566f1475
+    TPE1: Franky Fresco
+    UFID: *ref_2
+    TSOP: Franky Fresco
+    TRCK: 10/12
+    USLT: *ref_3
+    TDRC: '2012-11-07'
+    WOAS: 'https://archive.org/details/BPIST011'
 previousTrack:
   path: >-
-    /Users/set/Desktop/publikator_test/assets/albums/dust-and-soda/8-television-makes-you-smarter.mp3
+    /home/set/git/basspistol/basspistol.com/assets/albums/dust-and-soda/8-television-makes-you-smarter.mp3
   audio: /assets/albums/dust-and-soda/8-television-makes-you-smarter.mp3
+  slug: dust-and-soda/8-television-makes-you-smarter
   albumSlug: dust-and-soda
-  slug: 8-television-makes-you-smarter
+  trackSlug: 8-television-makes-you-smarter
   coverPath: >-
-    /Users/set/Desktop/publikator_test/assets/albums/dust-and-soda/8-television-makes-you-smarter.jpeg
+    /home/set/git/basspistol/basspistol.com/assets/albums/dust-and-soda/8-television-makes-you-smarter.jpeg
   cover: /assets/albums/dust-and-soda/8-television-makes-you-smarter.jpeg
   format:
     tagTypes:
       - ID3v2.4
+    trackInfo: []
     lossless: false
-    dataformat: mp3
-    bitrate: 128000
+    container: MPEG
+    codec: MPEG 1 Layer 3
     sampleRate: 44100
     numberOfChannels: 2
+    bitrate: 128000
     codecProfile: CBR
     numberOfSamples: 17157888
     duration: 389.0677551020408
@@ -524,7 +601,9 @@ previousTrack:
       - id: TDRC
         value: '2012-11-07'
       - id: WOAS
-        value: 'https://archive.org/compress/BPIST011'
+        value: 'https://archive.org/details/BPIST011'
+  quality:
+    warnings: []
   common:
     track:
       'no': 8
@@ -595,5 +674,37 @@ previousTrack:
       TRCK: 8/12
       USLT: *ref_5
       TDRC: '2012-11-07'
-      WOAS: 'https://archive.org/compress/BPIST011'
+      WOAS: 'https://archive.org/details/BPIST011'
+  all:
+    c0: www.basspistol.com
+    TCON: Mexican House
+    TIT2: Television Makes You Smarter
+    RELEASECOUNTRY: XW
+    LABEL: Basspistol
+    MUSICBRAINZ_RELEASETRACKID: 6bd4f95d-a20e-4e9e-95ba-3844746f4ea3
+    ORIGINALDATE: '2012-11-07'
+    MUSICBRAINZ_RELEASEGROUPID: 750b0f83-4ffd-4764-aed5-dde96d66bf22
+    RELEASESTATUS: official
+    ACOUSTID_ID: 49bd0f27-d964-4791-b733-4cacdbcf1cad
+    CATALOGNUMBER: BPIST011
+    MEDIA: Digital Media
+    RELEASETYPE: album
+    ORIGINALYEAR: '2012'
+    ARTISTS: Franky Fresco
+    'TXXX:MusicBrainz Album Artist Id': de2a996e-513c-4474-b03c-63b9566f1475
+    'TXXX:musicbrainz_albumartistid': de2a996e-513c-4474-b03c-63b9566f1475
+    TPOS: 1/1
+    'TXXX:MusicBrainz Album Id': 03cdbffb-4dd1-43af-9b8d-5db0924a5bcd
+    'TXXX:musicbrainz_albumid': 03cdbffb-4dd1-43af-9b8d-5db0924a5bcd
+    TPE2: Franky Fresco
+    TALB: Dust And Soda
+    'TXXX:MusicBrainz Artist Id': de2a996e-513c-4474-b03c-63b9566f1475
+    'TXXX:musicbrainz_artistid': de2a996e-513c-4474-b03c-63b9566f1475
+    TPE1: Franky Fresco
+    UFID: *ref_4
+    TSOP: Franky Fresco
+    TRCK: 8/12
+    USLT: *ref_5
+    TDRC: '2012-11-07'
+    WOAS: 'https://archive.org/details/BPIST011'
 ---

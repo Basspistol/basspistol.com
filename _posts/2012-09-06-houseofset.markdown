@@ -1,15 +1,13 @@
 ---
 title: The House Of Set
 artist: Simio Sakrecoer
-category: highlights
+category: releases
+album: the-house-of-set
 tags: [internal, albums, download]
-layout: link
 description: The House Of Set, Recorded in an itinerant studio by Simio Sakrecoer
 uid: BPIST007
 image: '/assets/img/templeofSetCoverART_INV.png'
 download: 'https://archive.org/download/BPIST007/BPIST007_archive.torrent'
-link: 'https://basspistol.com/albums/the-house-of-set/'
-permalink: /records/house-set/
 ---
 With influences from the middle-east mythologies to the western post-modern occult organisations. Too catchy for being IDM, too harsh for the mainstream, it's aim is to make you dance and reflect in the same instant. The title is a homage to his creator.
 

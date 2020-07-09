@@ -1,0 +1,117 @@
+# ----
+# Site
+
+title : pax:nion
+description: PHI, Panix Heavy Industries
+
+url : https://paxnion.basspistol.com
+
+# banner should be 1024x1024
+banner: /siteicon.png
+icon: /siteicon.png
+logo: /siteicon.png
+
+author: 
+  name: pax:nion
+
+publisher:
+  name: Basspistol
+  domain: basspistol.com
+  mail: info@basspistol.com
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-last-modified-at
+
+# GEO 
+
+
+geo: 
+  timezone: "Europe/Stockholm"
+  lat: '59.333759'
+  long: '18.052554'
+  region: 'SE-AB'
+  town: 'Stockholm'
+
+collections:
+  albums:
+    output: true
+    permalink: /albums/:name/
+  tracks:
+    output: true
+    permalink: /albums/:path/
+
+    # Defaults
+permalink: pretty
+
+categories:
+  - release
+  - rambling
+
+exclude:
+  - changelog.md
+  - '*.*~'
+  - '*.xcf'
+  - '*.blend*'
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - LICENCE
+  - '*.mp3'
+
+sass:
+  sass_dir: _sass
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      lang: en  
+  - scope:
+      path: ""
+      type: "tracks"
+    values:
+      layout: "track"
+      lang: en
+      seo:
+        type: "AudioObject"
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+      lang: en
+      _options:
+        image:
+          width: 1024
+          height: 720
+          resize_style: cover
+          uploads_dir: "/images"
+        content:
+          width: 720
+          height: 720
+          resize_style: cover
+          uploads_dir: "/images"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      lang: en
+      permalink: /:title/
+      _options:
+        image:
+          width: 1024
+          height: 720
+          resize_style: cover
+          uploads_dir: "/images"
+        content:
+          width: 720
+          height: 720
+          resize_style: cover
+          uploads_dir: "/images"  
+
+# ---------
+# Translate
+lang: en

@@ -1,21 +1,24 @@
 ---
 layout: track
 path: >-
-  /Users/set/Desktop/publikator_test/assets/albums/musical-tourism/2-techno-session-number-1.mp3
+  /home/set/git/basspistol/basspistol.com/assets/albums/musical-tourism/2-techno-session-number-1.mp3
 audio: /assets/albums/musical-tourism/2-techno-session-number-1.mp3
+slug: musical-tourism/2-techno-session-number-1
 albumSlug: musical-tourism
-slug: 2-techno-session-number-1
+trackSlug: 2-techno-session-number-1
 coverPath: >-
-  /Users/set/Desktop/publikator_test/assets/albums/musical-tourism/2-techno-session-number-1.jpeg
+  /home/set/git/basspistol/basspistol.com/assets/albums/musical-tourism/2-techno-session-number-1.jpeg
 cover: /assets/albums/musical-tourism/2-techno-session-number-1.jpeg
 format:
   tagTypes:
     - ID3v2.4
+  trackInfo: []
   lossless: false
-  dataformat: mp3
-  bitrate: 128000
+  container: MPEG
+  codec: MPEG 1 Layer 3
   sampleRate: 44100
   numberOfChannels: 2
+  bitrate: 128000
   codecProfile: CBR
   numberOfSamples: 8058240
   duration: 182.7265306122449
@@ -121,7 +124,9 @@ native:
     - id: TDRC
       value: '2010-02-01'
     - id: WOAS
-      value: 'https://archive.org/compress/BPIST002'
+      value: 'https://archive.org/details/BPIST002'
+quality:
+  warnings: []
 common:
   track:
     'no': 2
@@ -191,23 +196,58 @@ transformed:
     TSOP: Synapset
     TRCK: 2/9
     TDRC: '2010-02-01'
-    WOAS: 'https://archive.org/compress/BPIST002'
+    WOAS: 'https://archive.org/details/BPIST002'
+all:
+  c0: www.basspistol.com
+  TCON: KickNBase
+  TIT2: Techno Session Number 1
+  RELEASECOUNTRY: XW
+  LABEL: Basspistol
+  MUSICBRAINZ_RELEASETRACKID: aa60115b-1428-4dc2-b9b9-ba2e9e968f70
+  ORIGINALDATE: '2010-02-01'
+  MUSICBRAINZ_RELEASEGROUPID: 9cb26b80-6276-4ede-b477-13658b4857c9
+  RELEASESTATUS: official
+  ACOUSTID_ID: 7a8fb3cc-c852-4cfb-b930-3510deab2f3a
+  CATALOGNUMBER: BPIST002
+  MEDIA: Digital Media
+  RELEASETYPE: album
+  ORIGINALYEAR: '2010'
+  ARTISTS: Synapset
+  'TXXX:MusicBrainz Album Artist Id': a0dd2f36-1681-4bc0-970e-06a0450e16ec
+  'TXXX:musicbrainz_albumartistid': a0dd2f36-1681-4bc0-970e-06a0450e16ec
+  TPOS: 1/1
+  'TXXX:MusicBrainz Album Id': f075c9ac-b741-459e-a0a3-c00fe3004030
+  'TXXX:musicbrainz_albumid': f075c9ac-b741-459e-a0a3-c00fe3004030
+  TPE2: Synapset
+  TALB: Musical Tourism
+  'TXXX:MusicBrainz Artist Id': a0dd2f36-1681-4bc0-970e-06a0450e16ec
+  'TXXX:musicbrainz_artistid': a0dd2f36-1681-4bc0-970e-06a0450e16ec
+  TPE1: Synapset
+  UFID: *ref_0
+  TSOP: Synapset
+  TRCK: 2/9
+  TDRC: '2010-02-01'
+  WOAS: 'https://archive.org/details/BPIST002'
 nextTrack:
-  path: /Users/set/Desktop/publikator_test/assets/albums/musical-tourism/3-fasen.mp3
+  path: >-
+    /home/set/git/basspistol/basspistol.com/assets/albums/musical-tourism/3-fasen.mp3
   audio: /assets/albums/musical-tourism/3-fasen.mp3
+  slug: musical-tourism/3-fasen
   albumSlug: musical-tourism
-  slug: 3-fasen
+  trackSlug: 3-fasen
   coverPath: >-
-    /Users/set/Desktop/publikator_test/assets/albums/musical-tourism/3-fasen.jpeg
+    /home/set/git/basspistol/basspistol.com/assets/albums/musical-tourism/3-fasen.jpeg
   cover: /assets/albums/musical-tourism/3-fasen.jpeg
   format:
     tagTypes:
       - ID3v2.4
+    trackInfo: []
     lossless: false
-    dataformat: mp3
-    bitrate: 128000
+    container: MPEG
+    codec: MPEG 1 Layer 3
     sampleRate: 44100
     numberOfChannels: 2
+    bitrate: 128000
     codecProfile: CBR
     numberOfSamples: 11441664
     duration: 259.4481632653061
@@ -313,7 +353,9 @@ nextTrack:
       - id: TDRC
         value: '2010-02-01'
       - id: WOAS
-        value: 'https://archive.org/compress/BPIST002'
+        value: 'https://archive.org/details/BPIST002'
+  quality:
+    warnings: []
   common:
     track:
       'no': 3
@@ -383,24 +425,58 @@ nextTrack:
       TSOP: Synapset
       TRCK: 3/9
       TDRC: '2010-02-01'
-      WOAS: 'https://archive.org/compress/BPIST002'
+      WOAS: 'https://archive.org/details/BPIST002'
+  all:
+    c0: www.basspistol.com
+    TCON: KickNBase
+    TIT2: Fasen
+    RELEASECOUNTRY: XW
+    LABEL: Basspistol
+    MUSICBRAINZ_RELEASETRACKID: 366f8e3f-f943-4d31-8ef3-22e7099d99d5
+    ORIGINALDATE: '2010-02-01'
+    MUSICBRAINZ_RELEASEGROUPID: 9cb26b80-6276-4ede-b477-13658b4857c9
+    RELEASESTATUS: official
+    ACOUSTID_ID: 967dd570-7ce8-44ff-bc37-94b889eadedd
+    CATALOGNUMBER: BPIST002
+    MEDIA: Digital Media
+    RELEASETYPE: album
+    ORIGINALYEAR: '2010'
+    ARTISTS: Synapset
+    'TXXX:MusicBrainz Album Artist Id': a0dd2f36-1681-4bc0-970e-06a0450e16ec
+    'TXXX:musicbrainz_albumartistid': a0dd2f36-1681-4bc0-970e-06a0450e16ec
+    TPOS: 1/1
+    'TXXX:MusicBrainz Album Id': f075c9ac-b741-459e-a0a3-c00fe3004030
+    'TXXX:musicbrainz_albumid': f075c9ac-b741-459e-a0a3-c00fe3004030
+    TPE2: Synapset
+    TALB: Musical Tourism
+    'TXXX:MusicBrainz Artist Id': a0dd2f36-1681-4bc0-970e-06a0450e16ec
+    'TXXX:musicbrainz_artistid': a0dd2f36-1681-4bc0-970e-06a0450e16ec
+    TPE1: Synapset
+    UFID: *ref_1
+    TSOP: Synapset
+    TRCK: 3/9
+    TDRC: '2010-02-01'
+    WOAS: 'https://archive.org/details/BPIST002'
 previousTrack:
   path: >-
-    /Users/set/Desktop/publikator_test/assets/albums/musical-tourism/1-travel3.mp3
+    /home/set/git/basspistol/basspistol.com/assets/albums/musical-tourism/1-travel3.mp3
   audio: /assets/albums/musical-tourism/1-travel3.mp3
+  slug: musical-tourism/1-travel3
   albumSlug: musical-tourism
-  slug: 1-travel3
+  trackSlug: 1-travel3
   coverPath: >-
-    /Users/set/Desktop/publikator_test/assets/albums/musical-tourism/1-travel3.jpeg
+    /home/set/git/basspistol/basspistol.com/assets/albums/musical-tourism/1-travel3.jpeg
   cover: /assets/albums/musical-tourism/1-travel3.jpeg
   format:
     tagTypes:
       - ID3v2.4
+    trackInfo: []
     lossless: false
-    dataformat: mp3
-    bitrate: 128000
+    container: MPEG
+    codec: MPEG 1 Layer 3
     sampleRate: 44100
     numberOfChannels: 2
+    bitrate: 128000
     codecProfile: CBR
     numberOfSamples: 14928768
     duration: 338.5208163265306
@@ -543,7 +619,9 @@ previousTrack:
       - id: TDRC
         value: '2010-02-01'
       - id: WOAS
-        value: 'https://archive.org/compress/BPIST002'
+        value: 'https://archive.org/details/BPIST002'
+  quality:
+    warnings: []
   common:
     track:
       'no': 1
@@ -647,5 +725,53 @@ previousTrack:
       TSOP: Synapset
       TRCK: 1/9
       TDRC: '2010-02-01'
-      WOAS: 'https://archive.org/compress/BPIST002'
+      WOAS: 'https://archive.org/details/BPIST002'
+  all:
+    c0: www.basspistol.com
+    TCON: KickNBase
+    LYRICS: |-
+      Traveling by plane, traveling by shoe.
+      Traveling by mind, traveling by heart too.
+      Traveling away from you.
+      Welcome aboard spacessip EZJT7,
+      Destination Love
+      You will find the communicator, between your two eyes in your forehead
+      We wish you a pleasant journey,
+      And have sweet dreams.
+      ouu ouu ...
+      Passenger of flight EZJT7, it's time to wake up.
+      You may open the window, to the left of your heart.
+      As you can see, today is a sunny day in dreamland.
+      We hope you've joined the flight.
+      Please remember that in this country you have to love.
+      Wait till the sign shows, and you may leave through the main door.
+      We hope that next time you will fly with us again, back and forth.
+    RELEASECOUNTRY: XW
+    LABEL: Basspistol
+    MUSICBRAINZ_RELEASETRACKID: a161a2a6-4b6d-4b46-a3f4-4cca58ce2fb7
+    ORIGINALDATE: '2010-02-01'
+    MUSICBRAINZ_RELEASEGROUPID: 9cb26b80-6276-4ede-b477-13658b4857c9
+    RELEASESTATUS: official
+    ACOUSTID_ID: 63c214c3-1230-4492-897d-9c5c6c7848d5
+    CATALOGNUMBER: BPIST002
+    MEDIA: Digital Media
+    RELEASETYPE: album
+    ORIGINALYEAR: '2010'
+    ARTISTS: Synapset
+    TIT2: Travel3
+    'TXXX:MusicBrainz Album Artist Id': a0dd2f36-1681-4bc0-970e-06a0450e16ec
+    'TXXX:musicbrainz_albumartistid': a0dd2f36-1681-4bc0-970e-06a0450e16ec
+    TPOS: 1/1
+    'TXXX:MusicBrainz Album Id': f075c9ac-b741-459e-a0a3-c00fe3004030
+    'TXXX:musicbrainz_albumid': f075c9ac-b741-459e-a0a3-c00fe3004030
+    TPE2: Synapset
+    TALB: Musical Tourism
+    'TXXX:MusicBrainz Artist Id': a0dd2f36-1681-4bc0-970e-06a0450e16ec
+    'TXXX:musicbrainz_artistid': a0dd2f36-1681-4bc0-970e-06a0450e16ec
+    TPE1: Synapset
+    UFID: *ref_2
+    TSOP: Synapset
+    TRCK: 1/9
+    TDRC: '2010-02-01'
+    WOAS: 'https://archive.org/details/BPIST002'
 ---

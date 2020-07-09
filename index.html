@@ -8,136 +8,126 @@ keywords: >-
   Basspistol, Outernational, Music, Syndicate, Homepage, Collective, Free,
   Culture,
 video_path: /assets/vid/intro_loop_.mp4
-poster_image: /assets/vid/intro_loop_.jpg
+image: /assets/vid/intro_loop_.jpg
+logo_image: /siteicon.png
 ---
-
-<!DOCTYPE html>
-<html>
-<head>
 {% include relBase.html %}
-{% include metahead.html %}
-{% include matomo.html %}
-<script type="text/javascript">
-  function generateRandomPosts()
-  {
-      $.getJSON("/posts.json", function(data) {
-          console.log("[posts.json loaded for random posts]");
-          var postsCount = data.length;
-          var posts = data;
-          var randomIndexUsed = [];
-          var counter = 0;
-          var numberOfPosts = 1;
-          var divRandomPosts = $("#random_posts");
-          divRandomPosts.append('<h1>Releases</h1>');
-          while (counter < numberOfPosts)
-          {
-              var randomIndex = Math.floor(Math.random() * postsCount);
-              if (randomIndexUsed.indexOf(randomIndex) == "-1")
-              {
-                  var postHREF = posts[randomIndex].href;
-                  var postImg = posts[randomIndex].img;
-                  var postTitle = posts[randomIndex].title;
-                  if (counter == (numberOfPosts - 1))
-                  {
-                      divRandomPosts.append('<a href="' + postHREF + '" title="' + postTitle + '"><div class="highlights" style="background-image: url(' + postImg + ')" alt="' + postTitle + '"></div><h3>' + postTitle+ '</h3></a><p>One of our releases, randomly selected just for you.</p>');
-                  }
-                  else
-                  {
-                      divRandomPosts.append('<a href="' + postHREF + '" title="' + postTitle + '"><div class="highlights" style="background-image: url(' + postImg + ')" alt="' + postTitle + '"></div><h3>' + postTitle + '</h3></a><p>One of our releases, randomly selected just for you.</p>');
-                  }
-                  randomIndexUsed.push(randomIndex);
-                  counter++;
-              }
-          }
-      });
-  }
-  $(document).ready(function() {
-      generateRandomPosts();
-  });
-</script>
-<script type="text/javascript">
-  function getData() {
-    $.getJSON('https://radio.basspistol.com/status-json.xsl', function(json) {
-        output = "<p>" + "Now Playing: " + "</p>";
-        output += "<p><strong>" + json.icestats.source[1].title + "</strong> <br />by<br /><strong>" + json.icestats.source[1].artist + "</strong></p>";
-        output += "<p>";
-        output += json.icestats.source[0].listeners + " peers are listening in MP3";
-        output += "</p>";
-        output += "<p>";
-        output += json.icestats.source[1].listeners + " peers are listening in OGG";
-        output += "</p>";
-        document.getElementById("radioPlaceholder").innerHTML=output;
-      });
-  }
-  setInterval(getData, 7000);
-  $(function() {
-      getData();
-  });
-</script>
-</head>
-<body>
-{% include navmenu.html %}
-  <div id="content">
-{% include videopageheader.html %}
-    <div class="fitter">
-        
-      <div class="records" id="random_posts">
-      </div>
-      <div class="records">
-        <h1>Highlights</h1>
-{% for page in site.categories.highlights offset: 0 limit: 1 %}
-      <a href="{{ relBase }}{{ page.url }}" title="{{ page.title }}"><div class="highlights" style="background-image: url('{{ relBase }}{{ page.image }}')">
-      </div><h3>{{ page.title }} </h3></a>
-      <p class="editable">
-        Highlights are music-things we think you want to discover. Tracks, articles, videos, interviews and reviews, curated but also original content. They are delivered to you daily. Here or via RSS.
-      </p>
+<!-- Banner -->
+<section
+  class="banner onload-image-fade-in onload-content-fade-right style5 fullscreen content-align-center image-position-center;"
+  style="background-image:url('{{ page.image }}');background-size:cover;background-repeat:no-repeat;background-position: center;">
+  <div
+    style="z-index:0;position:absolute; top:0; left:0; width:100%;height:100%;background-color: rgba(13, 13 ,13, 0.75);">
+  </div>
+  <div class="content" style="z-index:1">
+    <h1 style="margin-top:80px">{{ page.title }}</h1>
+
+    <p class="major">{{ page.description }}</p>
+    <ul class="actions stacked">
+      <li><a href="#music" class="button large wide smooth-scroll-middle">Gimme Music!</a></li>
+    </ul>
+  </div>
+
+  <div class="image">
+    <img src="{{ relBase }}{{ page.logo_image }}" alt="{{ site.title }} logo" />
+  </div>
+</section>
+<!-- Posts -->
+
+
+{% for post in site.posts limit: '2' %}
+
+<section id="album{% increment var %}"
+  class="section-shadow banner style1 orient-{% cycle 'left', 'right' %} content-align-{% cycle 'right', 'left' %} image-position-center fullscreen onload-image-fade-in onload-content-fade-right">
+
+  <div class="content">
+    <h1>{{ post.title }}</h1>
+    <p>{{ post.description }}</p>
+    {% if post.category == 'release' %}
+    {% capture album_name -%}
+    {{ post.album }}
+    {%- endcapture %}
+    {% for album in site.albums %}
+    {% capture name -%}
+    {{ album.relative_path | replace_first: album.collection, '' | replace_first: '_/', '' | replace_first: '.md', '' }}
+    {%- endcapture %}
+    {% if name == album_name %}
+    <p>{{ album.date | date: '%Y' }}</p>
+    
+    {% for track in album.tracks %}
+    <p style="margin-bottom: 30px; font-family: monospace;font-size: 14px">
+      <strong>{{ track.common.track.no }}. {{ track.common.title }}</strong><br />
+      <span id="{{ track.common.title | slugify | remove: '-'  }}"></span> | 
+      <span style="font-family: monospace;font-size: 14px">{{ track.common.genre }} </span>
+    </p>
+   
+
+    <script type="text/javascript">
+      var {{ track.common.title | slugify | remove: '-'  }}timestamp = {{ track.format.duration | round }};
+      var {{ track.common.title | slugify | remove: '-'  }}hours = Math.floor({{ track.common.title | slugify | remove: '-'  }}timestamp / 60 / 60);
+      var {{ track.common.title | slugify | remove: '-'  }}minutes = Math.floor({{ track.common.title | slugify | remove: '-'  }}timestamp / 60) - ({{ track.common.title | slugify | remove: '-' }}hours * 60);
+      var {{ track.common.title | slugify | remove: '-'  }}seconds = {{ track.common.title | slugify | remove: '-' }}timestamp % 60;
+      var {{ track.common.title | slugify | remove: '-'  }}formatted = {{ track.common.title | slugify | remove: '-' }}hours.toString().padStart(2, '0') + ':' + {{ track.common.title | slugify | remove: '-' }}minutes.toString().padStart(2, '0') + ':' + {{ track.common.title | slugify | remove: '-' }}seconds.toString().padStart(2, '0');
+      var theSpan = document.getElementById("{{ track.common.title | slugify | remove: '-'  }}");
+      theSpan.innerHTML = {{ track.common.title | slugify | remove: '-' }}formatted;
+    </script>
+    {% endfor %}
+    {% break %} {% endif %} {% endfor %}
+    {% endif %}
+    
+<br />
+    <ul class="actions stacked">
+      
+      <li><a href="{{ relBase }}{{ post.url }}"
+          class="button big wide {% if post.category == 'release' %}icon solid fa-volume-up{% endif %}">Cheggid out</a>
+      </li>
+    </ul>
+  </div>
+
+  <div class="image">
+    <img src="{{ relBase }}{{ post.image }}" alt="{{ post.title }}" title="{{ post.title }}" />
+
+  </div>
+</section>
+
 {% endfor %}
 
-    </div>
+<!-- Insta -->
+<section class="wrapper style1 align-center">
 
-      <div class="articles editable">
-        <h1>What the funk?</h1>
-        <p>We are The Outernational Music Syndicate, we believe in music. The Music Industry is healthy and blossoming like never before, there is no crisis in this industry, only greed and middlemen.</p>
-        <p>Basspistol is a middleman slayer but mostly your magic magnifying glass, allowing you to see what happens when the sweet artists get into to the salty ocean of creativity. This is what we work for. Nothing less, nothing more. And if you want to, <a href="/artists/">we</a> will <a href="/radio">share it with you.</a></p>
-        <p>We operate this website using inclusively open source tools. We care about you: we do not track what you look at, which article drives traffic or which gender prefers what genre.<br /><br />We are <strong>NOT</strong> data driven, instead our passion is our engine and the freedom we posses allows us to navigate time, without having to care about being profitable.</p>
+  <div class="inner">
+    <h2 id="music">Releases</h2>
+    <p>Collection of releases through time</p>
+  </div>
+
+  <div class="gallery style1 small onscroll-fade-in">
+    {% assign sorted = site.albums | sort: 'date' | reverse %}
+    {% for album in sorted %}
+    <article>
+      <a href="{{ album.url }}" class="image">
+        <img src="https://media.basspistol.com/basspistol.com/{{ album.slug }}/{{ album.tracks[0].trackSlug }}.jpeg" alt="" /></a>
+      
+      <div class="caption">
+        <h3>{{ album.title }}</h3>
+        <p>{{ album.date | date: "%Y" }}</p>
+        <ul class="actions fixed">
+          <li><span class="button small">Details</span></li>
+        </ul>
       </div>
-      <div class="records">
-        <h1>RADIO</h1>
-        <button id="mu_pause">Play</button>
-        <div id="radioPlaceholder"></div>  
-        <p><b>Noscript friendly version and M3U <a href="./radio/">here</a></b></p>
-      </div>
+    </article>
+    {% endfor %}
+  </div>
+</section>
+
+<!-- END Insta -->
+
+
+
+
+
+
+
+
+
+
 {% include footer.html %}
-    </div>
-</div>
-<audio preload="none" data-matomo-title="Basspistol Radio">
-  <source src="https://radio.basspistol.com/radio.mp3" type="audio/mpeg" />
-  <source src="https://radio.basspistol.com/radio.ogg" type="audio/ogg" />
-  <h1>Your browser isn't ready for so much hotness. Use these links instead: <a href="https://radio.basspistol.com/radio.ogg.m3u">OGG</a> or <a href="https://radio.basspistol.com/radio.mp3.m3u">MP3</a></h1>.
-</audio>
-<script type="text/javascript">
-  var mu = document.getElementsByTagName("audio")[0];
-  var pauseButton = document.getElementById("mu_pause");
-  function muFade() {
-  mu.classList.add("stopfade");
-  }
-  mu.addEventListener('ended', function() {
-  // only functional if "loop" is removed
-  mu.pause();
-  mu.currentTime=0;
-  // qq IE10
-  muFade();
-  });
-  pauseButton.addEventListener("click", function() {
-  mu.classList.toggle("stopfade");
-  if (mu.paused) {
-  mu.play();
-  pauseButton.innerHTML = "Pause";
-  } else {
-  mu.pause();
-   pauseButton.innerHTML = "Resume";
-  }
-  });
-  </script>
-</body>
-</html>

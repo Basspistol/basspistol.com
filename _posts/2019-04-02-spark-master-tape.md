@@ -3,13 +3,12 @@ title: Spark Master Tape
 date: 2019-04-02 19:07:00 +0200
 author: set
 artist:
-category: highlights
+category: ramblings
 tags:
   - hackers
   - portofplatoon
   - SWOUP
   - cybersoul
-layout: link
 description: >-
   Paperplattunes and the uncertain future of free publications implicating links
   to data in a semi-regulated data-market is kinda uncertain #SWOUP

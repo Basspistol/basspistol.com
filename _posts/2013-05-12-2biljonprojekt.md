@@ -1,9 +1,8 @@
 ---
 title: '2 Billion Projects'
 artist: 'The FragleBay'
-category: highlights
+category: ramblings
 tags: [video, internal]
-layout: link
 description: 'In a dystopian future, will The Fraglebay survive on their 2billion project?'
 uid: '2biljonprojekt'
 image: '/assets/img/2biljon.jpg'

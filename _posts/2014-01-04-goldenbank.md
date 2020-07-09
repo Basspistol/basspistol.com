@@ -1,9 +1,8 @@
 ---
 title: 'Golden Bank'
 artist: 'Franky Fresco'
-category: highlights
+category: ramblings
 tags: [video, internal]
-layout: link
 description: 'ROM THE ALBUM "DUST AND SODA"'
 uid: 'goldenbank'
 image: '/assets/img/goldenbank.jpg'

@@ -1,21 +1,24 @@
 ---
 layout: track
 path: >-
-  /Users/set/Desktop/publikator_test/assets/albums/psykedelisk-pop/4-it-s-all-over.mp3
+  /home/set/git/basspistol/basspistol.com/assets/albums/psykedelisk-pop/4-it-s-all-over.mp3
 audio: /assets/albums/psykedelisk-pop/4-it-s-all-over.mp3
+slug: psykedelisk-pop/4-it-s-all-over
 albumSlug: psykedelisk-pop
-slug: 4-it-s-all-over
+trackSlug: 4-it-s-all-over
 coverPath: >-
-  /Users/set/Desktop/publikator_test/assets/albums/psykedelisk-pop/4-it-s-all-over.jpeg
+  /home/set/git/basspistol/basspistol.com/assets/albums/psykedelisk-pop/4-it-s-all-over.jpeg
 cover: /assets/albums/psykedelisk-pop/4-it-s-all-over.jpeg
 format:
   tagTypes:
     - ID3v2.4
+  trackInfo: []
   lossless: false
-  dataformat: mp3
-  bitrate: 128000
+  container: MPEG
+  codec: MPEG 1 Layer 3
   sampleRate: 44100
   numberOfChannels: 2
+  bitrate: 128000
   codecProfile: CBR
   numberOfSamples: 11698560
   duration: 265.2734693877551
@@ -146,7 +149,9 @@ native:
           Another hopeless night, for ever hopeless now.<br />
           I can see the stars bass me by.<br /></em>
     - id: WOAS
-      value: 'https://archive.org/compress/BPIST001'
+      value: 'https://archive.org/details/BPIST001'
+quality:
+  warnings: []
 common:
   track:
     'no': 4
@@ -237,24 +242,79 @@ transformed:
       I can see the stars, see them pass me by.<br />
       Another hopeless night, for ever hopeless now.<br />
       I can see the stars bass me by.<br /></em>
-    WOAS: 'https://archive.org/compress/BPIST001'
+    WOAS: 'https://archive.org/details/BPIST001'
+all:
+  TCON: Electro Pop
+  c0: www.sakrecoer.com - www.basspistol.com
+  TIT2: It's All Over
+  RELEASECOUNTRY: SE
+  LABEL: Basspistol
+  MUSICBRAINZ_RELEASETRACKID: c4e10b46-4555-458c-a82b-eb87f70d4c21
+  ORIGINALDATE: '2010'
+  MUSICBRAINZ_RELEASEGROUPID: 2ab5cbaa-6818-4604-8070-26b81b860bfa
+  RELEASESTATUS: official
+  ACOUSTID_ID: 16f07a06-8954-4c2e-8c57-3ad97b725ea1
+  CATALOGNUMBER: BPIST001
+  MEDIA: Digital Media
+  RELEASETYPE: album
+  ORIGINALYEAR: '2010'
+  ARTISTS: reSet Sakrecoer
+  'TXXX:MusicBrainz Album Artist Id': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
+  'TXXX:musicbrainz_albumartistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
+  TPOS: 1/1
+  'TXXX:MusicBrainz Album Id': fda0a215-114f-4c4b-9220-3b2157368a3f
+  'TXXX:musicbrainz_albumid': fda0a215-114f-4c4b-9220-3b2157368a3f
+  TPE2: reSet Sakrecoer
+  TALB: Psykedelisk Pop
+  'TXXX:MusicBrainz Artist Id': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
+  'TXXX:musicbrainz_artistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
+  TPE1: reSet Sakrecoer
+  UFID: *ref_0
+  TSOP: Sakrecoer
+  TRCK: 4/10
+  TDRC: '2010-01-01'
+  lyrics: |-
+    <em>It's all too late now,<br />
+    As you are screaming out my name.<br />
+    Too late to change now,<br />
+    Or change my way,<br />
+    As it's time to say good bye.<br />
+    Please won't you stay for just a while?<br />
+    Never been broken hearted before!<br />
+    Go ahead love,<br />
+    Take my heart.<br />
+    Like so many times you've done it before.<br />
+    <br />
+    Shoe box of memories is all that i keep.<br />
+    Can't even look at your face.<br />
+    It's all to late now.<br />
+    Do i have to change my way?<br />
+    As you are screaming out my name...<br />
+    <br />
+    I can see the stars, see them pass me by.<br />
+    Another hopeless night, for ever hopeless now.<br />
+    I can see the stars bass me by.<br /></em>
+  WOAS: 'https://archive.org/details/BPIST001'
 nextTrack:
   path: >-
-    /Users/set/Desktop/publikator_test/assets/albums/psykedelisk-pop/5-luftb-jning.mp3
+    /home/set/git/basspistol/basspistol.com/assets/albums/psykedelisk-pop/5-luftb-jning.mp3
   audio: /assets/albums/psykedelisk-pop/5-luftb-jning.mp3
+  slug: psykedelisk-pop/5-luftb-jning
   albumSlug: psykedelisk-pop
-  slug: 5-luftb-jning
+  trackSlug: 5-luftb-jning
   coverPath: >-
-    /Users/set/Desktop/publikator_test/assets/albums/psykedelisk-pop/5-luftb-jning.jpeg
+    /home/set/git/basspistol/basspistol.com/assets/albums/psykedelisk-pop/5-luftb-jning.jpeg
   cover: /assets/albums/psykedelisk-pop/5-luftb-jning.jpeg
   format:
     tagTypes:
       - ID3v2.4
+    trackInfo: []
     lossless: false
-    dataformat: mp3
-    bitrate: 128000
+    container: MPEG
+    codec: MPEG 1 Layer 3
     sampleRate: 44100
     numberOfChannels: 2
+    bitrate: 128000
     codecProfile: CBR
     numberOfSamples: 19201536
     duration: 435.4089795918367
@@ -421,7 +481,9 @@ nextTrack:
 
             En infra melodie.<br /></em>
       - id: WOAS
-        value: 'https://archive.org/compress/BPIST001'
+        value: 'https://archive.org/details/BPIST001'
+  quality:
+    warnings: []
   common:
     track:
       'no': 5
@@ -520,24 +582,87 @@ nextTrack:
         I ett vackert monster alternativt.<br />
         Oh oui,<br />
         En infra melodie.<br /></em>
-      WOAS: 'https://archive.org/compress/BPIST001'
+      WOAS: 'https://archive.org/details/BPIST001'
+  all:
+    TCON: Electro Pop
+    c0: www.sakrecoer.com - www.basspistol.com
+    TIT2: Luftböjning
+    RELEASECOUNTRY: SE
+    LABEL: Basspistol
+    MUSICBRAINZ_RELEASETRACKID: 1a9c7ee7-a418-4d1f-bcdf-7a9e018a3d07
+    ORIGINALDATE: '2010'
+    MUSICBRAINZ_RELEASEGROUPID: 2ab5cbaa-6818-4604-8070-26b81b860bfa
+    RELEASESTATUS: official
+    ACOUSTID_ID: a7e81db1-42b6-4297-9d1a-d7990e2dd9dc
+    CATALOGNUMBER: BPIST001
+    MEDIA: Digital Media
+    RELEASETYPE: album
+    ORIGINALYEAR: '2010'
+    ARTISTS: reSet Sakrecoer
+    'TXXX:MusicBrainz Album Artist Id': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
+    'TXXX:musicbrainz_albumartistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
+    TPOS: 1/1
+    'TXXX:MusicBrainz Album Id': fda0a215-114f-4c4b-9220-3b2157368a3f
+    'TXXX:musicbrainz_albumid': fda0a215-114f-4c4b-9220-3b2157368a3f
+    TPE2: reSet Sakrecoer
+    TALB: Psykedelisk Pop
+    'TXXX:MusicBrainz Artist Id': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
+    'TXXX:musicbrainz_artistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
+    TPE1: reSet Sakrecoer
+    UFID: *ref_1
+    TSOP: Sakrecoer
+    TRCK: 5/10
+    TDRC: '2010-01-01'
+    lyrics: |
+      <em>Oh oui, vad ar det for melodie?<br />
+      Som glider forbi.<br />
+      Oh oui, vad ar det for melodie<br />
+      Som glider sig i.<br />
+      Oh oui, vad ar denna melodie?<br />
+      Som tranger sig i.<br />
+      Oh oui.<br />
+      <br />
+      Luften bojer sig for sin gang,<br />
+      Och hela kroppen kanns som trang.<br />
+      Ah oui, en inframelodie<br />
+      Fanga traden lyft dig upp<br />
+      Latta sjalen trilla ner<br />
+      Metavagor kommer upp<br />
+      Infrastruktur ar din sjal<br />
+      Oh oui, en bass alegori<br />
+      En bass trotoar.<br />
+      <br />
+      Vara lag frekvens osciliatorer, vacktar over din val var.<br />
+      Vara lag frekvens osciliatorer, vill bara att du ska ha det bra.<br />
+      Ah oui, oh sjung denna melodie.<br />
+      <br />
+      Vagen borjar likna minus,<br />
+      Och allt som forut var minus.<br />
+      Ror sig sakta positivt.<br />
+      I ett vackert monster alternativt.<br />
+      Oh oui,<br />
+      En infra melodie.<br /></em>
+    WOAS: 'https://archive.org/details/BPIST001'
 previousTrack:
   path: >-
-    /Users/set/Desktop/publikator_test/assets/albums/psykedelisk-pop/3-r-vhj-lmen.mp3
+    /home/set/git/basspistol/basspistol.com/assets/albums/psykedelisk-pop/3-r-vhj-lmen.mp3
   audio: /assets/albums/psykedelisk-pop/3-r-vhj-lmen.mp3
+  slug: psykedelisk-pop/3-r-vhj-lmen
   albumSlug: psykedelisk-pop
-  slug: 3-r-vhj-lmen
+  trackSlug: 3-r-vhj-lmen
   coverPath: >-
-    /Users/set/Desktop/publikator_test/assets/albums/psykedelisk-pop/3-r-vhj-lmen.jpeg
+    /home/set/git/basspistol/basspistol.com/assets/albums/psykedelisk-pop/3-r-vhj-lmen.jpeg
   cover: /assets/albums/psykedelisk-pop/3-r-vhj-lmen.jpeg
   format:
     tagTypes:
       - ID3v2.4
+    trackInfo: []
     lossless: false
-    dataformat: mp3
-    bitrate: 128000
+    container: MPEG
+    codec: MPEG 1 Layer 3
     sampleRate: 44100
     numberOfChannels: 2
+    bitrate: 128000
     codecProfile: CBR
     numberOfSamples: 11240064
     duration: 254.87673469387755
@@ -700,7 +825,9 @@ previousTrack:
 
             Ta av dig rovhjalmen.<br /></em>
       - id: WOAS
-        value: 'https://archive.org/compress/BPIST001'
+        value: 'https://archive.org/details/BPIST001'
+  quality:
+    warnings: []
   common:
     track:
       'no': 3
@@ -822,5 +949,88 @@ previousTrack:
         Dar som alla ingen var.<br />
 
         Ta av dig rovhjalmen.<br /></em>
-      WOAS: 'https://archive.org/compress/BPIST001'
+      WOAS: 'https://archive.org/details/BPIST001'
+  all:
+    TCON: Electro Pop
+    c0: www.sakrecoer.com - www.basspistol.com
+    TIT2: Rövhjälmen
+    RELEASECOUNTRY: SE
+    LABEL: Basspistol
+    MUSICBRAINZ_RELEASETRACKID: 09507e35-ba5c-4d3b-8a00-4900a28a28e6
+    ORIGINALDATE: '2010'
+    MUSICBRAINZ_RELEASEGROUPID: 2ab5cbaa-6818-4604-8070-26b81b860bfa
+    RELEASESTATUS: official
+    ACOUSTID_ID: 074712e2-5ccb-4ed6-bc8c-61fa52f8a850
+    CATALOGNUMBER: BPIST001
+    MEDIA: Digital Media
+    RELEASETYPE: album
+    ORIGINALYEAR: '2010'
+    ARTISTS: reSet Sakrecoer
+    'TXXX:MusicBrainz Album Artist Id': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
+    'TXXX:musicbrainz_albumartistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
+    TPOS: 1/1
+    'TXXX:MusicBrainz Album Id': fda0a215-114f-4c4b-9220-3b2157368a3f
+    'TXXX:musicbrainz_albumid': fda0a215-114f-4c4b-9220-3b2157368a3f
+    TPE2: reSet Sakrecoer
+    TALB: Psykedelisk Pop
+    'TXXX:MusicBrainz Artist Id': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
+    'TXXX:musicbrainz_artistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
+    TPE1: reSet Sakrecoer
+    UFID: *ref_2
+    TSOP: Sakrecoer
+    TRCK: 3/10
+    TDRC: '2010-01-01'
+    lyrics: >-
+      <em>Varva ner, satt dig i soffan.<br />
+
+      Morgonen ar ung, atminstande det ar du.<br />
+
+      Vi har sprungit natten.<br />
+
+      Som fisken och katten.<br />
+
+      Vi har fangat tid, och dansat med Fan.<br />
+
+      <br />
+
+      Sa Varva ner med mig<br />
+
+      Varva ner.<br />
+
+      <br />
+
+      Ta en macka, ingen lever pastej..?<br />
+
+      Till Open Core och racka, Till kasorskan saga Hej!<br />
+
+      Vad fin i haret hon var, ah hon sag sa himla gla', hon dansa sa himla
+      bra...<br />
+
+      Oj! Ja, men dar star ju du och jag. He! Ah vad bra, du ser ju annu lika
+      bra, du ser ju forfan annu, annu mer bra, du ser sa himmla bra.<br />
+
+      Ut med dig vill jag ga<br />
+
+      Kom ut med mig, sa kom ut med mig.<br />
+
+      <br />
+
+      Kom och satt dig i soffan.<br />
+
+      Natten har gatt over.<br />
+
+      Vi har ost sa det blir over.<br />
+
+      Ta av dig rovhjalmen nu for fan,<br />
+
+      Det finns inte djavel forfan,<br />
+
+      Det finns inte en djavels hjarta att bullta pa.<br />
+
+      Vi lat dom alla ga, pa efter-for-efterfesten,<br />
+
+      Dar som alla ingen var.<br />
+
+      Ta av dig rovhjalmen.<br /></em>
+    WOAS: 'https://archive.org/details/BPIST001'
 ---

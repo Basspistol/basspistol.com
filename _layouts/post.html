@@ -1,0 +1,398 @@
+---
+---
+{% if page.category == 'releases' %}
+<!DOCTYPE HTML>
+<!--
+  Based on _Story_ by html5up.net | @ajlkn
+  Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+  Remixed and Jekyllified by Setto
+-->
+<html lang="{% if page.lang != site.lang %}{{ page.lang }}{% else %}{{ site.lang }}{% endif %}">
+<head>
+
+<link type="application/atom+xml" rel="alternate" href="{{ site.url }}/feed.xml" title="{{ site.name }}" />
+{% include seo.html %}
+{% include relBase.html %}
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes" />
+<link rel="stylesheet" href="{{ relBase }}/assets/css/main20200519.css" />
+<link rel="apple-touch-icon" href="{{ site.url }}/apple-touch-icon.png">
+<link rel="icon" type="image/png" href="{{ site.url }}/touch-icon.png" sizes="192x192">
+<link rel="shortcut icon" href="{{ site.url }}{{ site.icon }}" type="image/png" />
+<noscript><link rel="stylesheet" href="{{ relBase }}/assets/css/noscript20200518-rev1.css" /></noscript>
+</head>
+<body class="is-preload" id="body">
+<span id="top" style="display: none;"></span>
+<!-- Wrapper -->
+<div id="wrapper" class="divided">
+
+<!-- Banner -->
+<section
+  class="banner onload-image-fade-in onload-content-fade-right style2 fullscreen content-align-center image-position-center"
+  style="height:100vh;background-color: rgba(13,13,13,0.85);">
+  <div class="content editable">
+    <h1 class="editable">{{ page.title }}</h1>
+    <p>{{ page.description }}</p>
+    <ul class="actions stacked">
+      <li><a href="#moe" class="button small smooth-scroll-middle">cheggit!</a></li>
+    </ul>
+  </div>
+  <div class="image">
+    <img src="{{ relBase }}{{ page.image }}" alt="{{ page.title }}" class="editable" />
+  </div>
+</section>
+<!-- Content -->
+<section class="wrapper style1 align-center">
+  <div class="inner" style="padding-top: 40px;">
+    <div class="index align-left">
+      <!-- Author -->
+      <section style="padding-top:40px;" id="moe">
+        {% include author.html %}
+        <!-- Content -->
+        <div class="content">
+
+
+          <!-- HERE BEGINS MADNESS -->
+          {% for album in site.albums %}
+          {% if page.album == album.slug %}
+          <!-- Content -->
+          <div class="content">
+            <div id="mainwrap">
+              <div id="nowPlay">
+                <p class="right" id="npTitle" style="font-weight: bold;"></p>
+                <p class="left" id="npAction">Paused...</p>
+              </div>
+              <div id="audiowrap">
+                <div id="audio0">
+                  <audio id="audio1" controls="controls">Your browser does not support HTML5
+                    Audio!</audio>
+                </div>{% assign onetracker = album.tracks | size %}
+                {% if onetracker > 1 %}
+                <div id="tracks">
+                  <a id="btnPrev"><span class="icon solid fa-fast-backward"></span></a>
+                  <a id="btnNext"><span class="icon solid fa-fast-forward"></span></a>
+                </div>
+                {% endif %}
+              </div>
+              <div id="plwrap">
+                <ul id="plList">
+                  {% for track in album.tracks %}
+                  <li class=""> 
+                    <div class="plItem">
+                      <div class="plNum">{{ track.common.track.no }}.</div>
+                      <div class="plTitle">{{ track.common.title }}</div>
+                      <div class="plLength">{% assign round_seconds = track.format.duration | round %}{% assign minutes = round_seconds | divided_by: 60 %}{% assign leftover_seconds = minutes | times: 60 %}{{ minutes }}:{% assign seconds_without_zero = round_seconds | minus: leftover_seconds %}{% if seconds_without_zero < 10 %}0{% endif %}{{ seconds_without_zero }}</div>
+                    </div>
+                  </li>
+                  {% endfor %}
+                </ul>
+              </div>
+            </div>
+            <div id="noJSalbum">
+
+                {% for track in album.tracks %}
+
+                  <div class="plItem">
+                    <div class="plNum">{{ track.common.track.no }}.</div>
+                    <div class="plTitle"><a href="https://media.basspistol.com/basspistol.com/{{ track.albumSlug }}/{{ track.trackSlug }}.mp3">{{ track.common.title }} </a></div>
+                    <div class="plLength">{% assign round_seconds = track.format.duration | round %}{% assign minutes = round_seconds | divided_by: 60 %}{% assign leftover_seconds = minutes | times: 60 %}{{ minutes }}:{{ round_seconds | minus: leftover_seconds }}</div>
+                  </div>
+
+                {% endfor %}
+
+            </div>
+          </div>
+          <div class="content" style="font-family: monospace;font-size: 16px;margin-top:60px;">
+            {{ content }}
+            <p>{{ page.credits }}</p>
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
+</section>
+<!-- Tracks -->
+{% for track in album.tracks %}
+
+<section
+  class="spotlight style4 orient-{% cycle 'left', 'right' %} content-align-left image-position-center onscroll-image-fade-in"
+  {% if forloop.index == 1 %}style="box-shadow: none;" {% endif %}>
+  <div class="content">
+    <h3>{{ track.common.title }}</h3>
+    <p>
+      {% assign round_seconds = track.format.duration | round %}{% assign minutes = round_seconds | divided_by: 60 %}{% assign leftover_seconds = minutes | times: 60 %}{{ minutes }}:{{ round_seconds | minus: leftover_seconds }}
+      <br /><strong>{{ track.common.genre }}</strong>
+      <br />{{ track.common.year }}</p>
+
+    <ul class="actions stacked">
+      <li><a href="{{ relBase }}/albums/{{ track.slug }}/" class="button">Track</a></li>
+    </ul>
+  </div>
+  <div class="image">
+    <img src="https://media.basspistol.com/basspistol.com/{{ track.albumSlug }}/{{ track.trackSlug }}.jpeg" alt="{{ track.common.title }}" />
+  </div>
+</section>
+
+{% endfor %}
+
+{% include streamer.html %}
+<!-- END Tracks -->
+
+{% break %} {% endif %} {% endfor %}
+<!-- HERE ENDS MADNESS -->
+
+
+<section class="wrapper style1 align-center">
+  <div class="inner">
+    <div class="index align-left">
+      <!-- Author -->
+
+      <section>
+
+        <!-- Content -->
+        <div class="content">
+          <!-- post Naviation -->
+          <div style="text-align: center;">
+            <h3>{{ site.data.translations[page.lang].post-nav}}</h3>
+          </div>
+          <div class="post-nav">
+            <div>
+              {% if page.previous.url and page.lang == page.previous.lang %}
+              <h4><a href="{{page.previous.url}}" alt="Read {{page.previous.title}}" title="Read {{page.previous.title}}"><i class="fas fa-arrow-left"></i></a> <a
+                  href="{{page.previous.url}}">&nbsp;{{page.previous.title}}</a></h4>
+              <p style="margin-right: 20px">{{ page.previous.description }}</p>
+              {% endif %}
+            </div>
+            <div class="post-nav-next">
+              {% if page.next.url and page.lang == page.next.lang  %}
+              <h4><a href="{{page.next.url}}">&nbsp;{{page.next.title}}</a> <a href="{{page.next.url}}" alt="Read {{page.next.title}}" title="Read {{page.next.title}}"><i
+                    class="fas fa-arrow-right"></i></a></h4>
+              <p style="margin-left: 20px">{{ page.next.description }}</p>
+              {% endif %}
+            </div>
+          </div>
+          <!-- End Post Navigation -->
+        </div>
+      </section>
+
+    </div>
+  </div>
+</section>
+
+
+{% include footer.html %}
+</div>
+{% include navigation.html %}
+{% include scripts.html %}
+
+
+<script type="text/javascript">
+  // html5media enables <video> and <audio> tags in all major browsers
+  // External File: http://api.html5media.info/1.1.8/html5media.min.js
+
+
+  // Add user agent as an attribute on the <html> tag...
+  // Inspiration: http://css-tricks.com/ie-10-specific-styles/
+  var b = document.documentElement;
+  b.setAttribute('data-useragent', navigator.userAgent);
+  b.setAttribute('data-platform', navigator.platform);
+
+
+  // HTML5 audio player + playlist controls...
+  // Inspiration: http://jonhall.info/how_to/create_a_playlist_for_html5_audio
+  // Mythium Archive: https://archive.org/details/mythium/
+  jQuery(function ($) {
+    var supportsAudio = !!document.createElement('audio').canPlayType;
+    if (supportsAudio) {
+      var index = 0,
+        playing = false,
+        mediaPath = '',
+        extension = '',
+        tracks = [{% for album in site.albums %}{% if page.album == album.slug %}{% for track in album.tracks %}{ 
+          "track": {{ track.common.track.no }},
+          "name": "{{ track.common.title }}",
+          "length": "{% assign round_seconds = track.format.duration | round %}{% assign minutes = round_seconds | divided_by: 60 %}{% assign leftover_seconds = minutes | times: 60 %}{{ minutes }}:{{ round_seconds | minus: leftover_seconds }}",
+          "file": "https://media.basspistol.com/basspistol.com/{{ track.albumSlug }}/{{ track.trackSlug }}"
+        }{% unless forloop.last %},{% endunless %}{% endfor %}{% break %} {% endif %}{% endfor %}],
+        trackCount = tracks.length,
+        npAction = $('#npAction'),
+        npTitle = $('#npTitle'),
+        audio = $('#audio1').bind('play', function () {
+          playing = true;
+          npAction.text('Playing...');
+        }).bind('pause', function () {
+          playing = false;
+          npAction.text('Paused...');
+        }).bind('ended', function () {
+          npAction.text('Paused...');
+          if ((index + 1) < trackCount) {
+            index++;
+            loadTrack(index);
+            audio.play();
+          } else {
+            audio.pause();
+            index = 0;
+            loadTrack(index);
+          }
+        }).get(0),
+        btnPrev = $('#btnPrev').click(function () {
+          if ((index - 1) > -1) {
+            index--;
+            loadTrack(index);
+            if (playing) {
+              audio.play();
+            }
+          } else {
+            audio.pause();
+            index = 0;
+            loadTrack(index);
+          }
+        }),
+        btnNext = $('#btnNext').click(function () {
+          if ((index + 1) < trackCount) {
+            index++;
+            loadTrack(index);
+            if (playing) {
+              audio.play();
+            }
+          } else {
+            audio.pause();
+            index = 0;
+            loadTrack(index);
+          }
+        }),
+        li = $('#plList li').click(function () {
+          var id = parseInt($(this).index());
+          if (id !== index) {
+            playTrack(id);
+          }
+        }),
+        loadTrack = function (id) {
+          $('.plSel').removeClass('plSel');
+          $('#plList li:eq(' + id + ')').addClass('plSel');
+          npTitle.text(tracks[id].name);
+          index = id;
+          audio.src = mediaPath + tracks[id].file + extension;
+          $('audio').attr("data-matomo-title", tracks[id].name);
+        },
+        playTrack = function (id) {
+          loadTrack(id);
+          audio.play();
+        };
+      extension = audio.canPlayType('audio/mpeg') ? '.mp3' : audio.canPlayType('audio/ogg') ? '.ogg' : '';
+      loadTrack(index);
+    }
+  });
+
+</script>
+
+{% include cookie-consent.html %}
+</body>
+</html>
+{% else %}
+
+<!DOCTYPE HTML>
+<!--
+  Based on _Story_ by html5up.net | @ajlkn
+  Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+  Remixed and Jekyllified by Setto
+-->
+<html lang="{% if page.lang != site.lang %}{{ page.lang }}{% else %}{{ site.lang }}{% endif %}">
+<head>
+
+<link type="application/atom+xml" rel="alternate" href="{{ site.url }}/feed.xml" title="{{ site.name }}" />
+{% include seo.html %}
+{% include relBase.html %}
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes" />
+<link rel="stylesheet" href="{{ relBase }}/assets/css/main20200519.css" />
+
+<link rel="apple-touch-icon" href="{{ site.url }}/apple-touch-icon.png">
+<link rel="icon" type="image/png" href="{{ site.url }}/touch-icon.png" sizes="192x192">
+<link rel="shortcut icon" href="{{ site.url }}{{ site.icon }}" type="image/png" />
+<noscript><link rel="stylesheet" href="{{ relBase }}/assets/css/noscript20200518-rev1.css" /></noscript>
+</head>
+
+<body class="is-preload" id="body">
+  <span id="top" style="display: none;"></span>
+  <!-- Wrapper -->
+  <div id="wrapper" class="divided">
+
+<!-- Banner -->
+<section class="banner onload-image-fade-in onload-content-fade-right style2 fullscreen content-align-center image-position-center" style="height:100vh;background-color: rgba(13,13,13,0.85);">
+
+  <div class="content">
+    <h1>{{ page.title }}</h1>
+    <p>{{ page.description }}</p>
+  </div>
+
+  <div class="image">
+    <img src="{{ page.image }}" alt="unfound page" />
+  </div>
+</section>
+<!-- Content -->
+<section class="wrapper style1 align-center">
+  <div class="inner">
+
+    <div class="index align-left">
+      <!-- Author -->
+      <section>
+        {% if page.url != '/cookies/' %}
+        {% if page.url != '/webcreds/' %}
+        {% include author.html %}
+        {% endif %}{% endif %}
+        <!-- Content -->
+        <div class="content">
+          {{ content }}
+
+        </div>
+      </section>
+    </div>
+  </div>
+</section>
+<section class="wrapper style1 align-center">
+  <div class="inner">
+    <div class="index align-left">
+      <!-- Author -->
+
+      <section>
+
+        <!-- Content -->
+        <div class="content">
+          <!-- post Naviation -->
+          <div style="text-align: center;">
+            <h3>{{ site.data.translations[page.lang].post-nav}}</h3>
+          </div>
+          <div class="post-nav">
+            <div>
+              {% if page.previous.url and page.lang == page.previous.lang %}
+              <h4><a href="{{page.previous.url}}" alt="Read {{page.previous.title}}" title="Read {{page.previous.title}}"><i class="fas fa-arrow-left"></i></a> <a
+                  href="{{page.previous.url}}">&nbsp;{{page.previous.title}}</a></h4>
+              <p style="margin-right: 20px">{{ page.previous.description }}</p>
+              {% endif %}
+            </div>
+            <div class="post-nav-next">
+              {% if page.next.url and page.lang == page.next.lang  %}
+              <h4><a href="{{page.next.url}}">&nbsp;{{page.next.title}}</a> <a href="{{page.next.url}}" alt="Read {{page.next.title}}" title="Read {{page.next.title}}"><i
+                    class="fas fa-arrow-right"></i></a></h4>
+              <p style="margin-left: 20px">{{ page.next.description }}</p>
+              {% endif %}
+            </div>
+          </div>
+          <!-- End Post Navigation -->
+        </div>
+      </section>
+
+    </div>
+  </div>
+</section>
+
+{% include footer.html %}
+
+</div>
+{% include navigation.html %}
+{% include scripts.html %}
+{% include cookie-consent.html %}
+</body>
+</html>
+{% endif %}

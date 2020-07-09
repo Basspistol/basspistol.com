@@ -1,15 +1,13 @@
 ---
 title: TFB - OTK
 artist: The FragleBay
-category: highlights
+category: releases
+album: tfb-otk
 tags: [internal, albums, download]
-layout: link
 description: 'Enter this cybernetic opus of oblivion and computer aided overstanding, grown somewhere beyond the laws of physics.'
 uid: BPIST013
 image: '/assets/img/TFB-OTK.png'
 download: 'https://archive.org/download/BPIST013/BPIST013_archive.torrent'
-link: 'https://basspistol.com/albums/tfb-otk/'
-permalink: /records/tfb-otk/
 ---
 
 A message from The FragleBay:<br />

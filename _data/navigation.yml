@@ -1,22 +1,19 @@
-- text: icofont-home
-  url: /
-  title: Home
-- text: icofont-disc
+- icon: fa-disc
   url: /discography/
-  title: Discography
-- text: icofont-radio
+  name: Discog
+- icon: fa-radio
   url: /radio/
-  title: Radio
-- text: icofont-newspaper
+  name: Radio
+- icon: fa-newspaper
   url: /highlights/
-  title: Highlights
-- text: icofont-people
+  name: Hi-lights
+- icon: fa-people
   url: /artists/
-  title: Artists
-- text: icofont-finger-print
+  name: Artists
+- icon: fa-finger-print
   url: /about/
-  title: About
-- text: icofont-link
+  name: About
+- icon: fa-link
   url: /links/
-  title: Links
+  name: Links
   

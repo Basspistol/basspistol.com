@@ -6,25 +6,28 @@ artists: Holyhertz
 bitrate: 128000
 trackCount: 11
 cover: /assets/albums/kick-n-base-made-in-barcelona/1-larry.jpeg
-date: '2010-03-01'
+date: 2010-3-1
 tracks:
   - path: >-
-      /Users/set/Desktop/publikator_test/assets/albums/kick-n-base-made-in-barcelona/1-larry.mp3
+      /home/set/git/basspistol/basspistol.com/assets/albums/kick-n-base-made-in-barcelona/1-larry.mp3
     audio: /assets/albums/kick-n-base-made-in-barcelona/1-larry.mp3
+    slug: kick-n-base-made-in-barcelona/1-larry
     albumSlug: kick-n-base-made-in-barcelona
-    slug: 1-larry
+    trackSlug: 1-larry
     coverPath: >-
-      /Users/set/Desktop/publikator_test/assets/albums/kick-n-base-made-in-barcelona/1-larry.jpeg
+      /home/set/git/basspistol/basspistol.com/assets/albums/kick-n-base-made-in-barcelona/1-larry.jpeg
     cover: /assets/albums/kick-n-base-made-in-barcelona/1-larry.jpeg
     format:
       tagTypes:
         - ID3v2.4
+      trackInfo: []
       lossless: false
-      dataformat: mp3
-      bitrate: 128000
+      container: MPEG
+      codec: MPEG 1 Layer 3
       sampleRate: 44100
       numberOfChannels: 2
-      encoder: LAME 3.99.5
+      bitrate: 128000
+      tool: LAME 3.99.5
       codecProfile: CBR
       numberOfSamples: 22610304
       duration: 512.705306122449
@@ -130,7 +133,9 @@ tracks:
         - id: TDRC
           value: '2010-03-01'
         - id: WOAS
-          value: 'https://archive.org/compress/BPIST003'
+          value: 'https://archive.org/details/BPIST003'
+    quality:
+      warnings: []
     common:
       track:
         'no': 1
@@ -200,23 +205,57 @@ tracks:
         TSOP: Holyhertz
         TRCK: 1/11
         TDRC: '2010-03-01'
-        WOAS: 'https://archive.org/compress/BPIST003'
+        WOAS: 'https://archive.org/details/BPIST003'
+    all:
+      c0: www.holyhertz.com www.basspistol.com
+      TCON: KickNBase
+      TIT2: Larry
+      RELEASECOUNTRY: XW
+      LABEL: Basspistol
+      MUSICBRAINZ_RELEASETRACKID: 3003b08c-fecf-41e0-923b-d485419a6097
+      ORIGINALDATE: '2010-03-01'
+      MUSICBRAINZ_RELEASEGROUPID: 14de5336-23ea-4f2a-98fb-a5f7b6b8a2bc
+      RELEASESTATUS: official
+      ACOUSTID_ID: 293f825f-d458-478a-9aa7-417bebed2396
+      CATALOGNUMBER: BPIST003
+      MEDIA: Digital Media
+      RELEASETYPE: album
+      ORIGINALYEAR: '2010'
+      ARTISTS: Holyhertz
+      'TXXX:MusicBrainz Album Artist Id': 89d471b5-88a6-4330-a76c-6c3d7ca98e33
+      'TXXX:musicbrainz_albumartistid': 89d471b5-88a6-4330-a76c-6c3d7ca98e33
+      TPOS: 1/1
+      'TXXX:MusicBrainz Album Id': c3b95529-e0b3-400e-a5a7-804c07a11baf
+      'TXXX:musicbrainz_albumid': c3b95529-e0b3-400e-a5a7-804c07a11baf
+      TPE2: Holyhertz
+      TALB: Kick-N-Base Made In Barcelona
+      'TXXX:MusicBrainz Artist Id': 89d471b5-88a6-4330-a76c-6c3d7ca98e33
+      'TXXX:musicbrainz_artistid': 89d471b5-88a6-4330-a76c-6c3d7ca98e33
+      TPE1: Holyhertz
+      UFID: *ref_0
+      TSOP: Holyhertz
+      TRCK: 1/11
+      TDRC: '2010-03-01'
+      WOAS: 'https://archive.org/details/BPIST003'
   - path: >-
-      /Users/set/Desktop/publikator_test/assets/albums/kick-n-base-made-in-barcelona/2-night-ride.mp3
+      /home/set/git/basspistol/basspistol.com/assets/albums/kick-n-base-made-in-barcelona/2-night-ride.mp3
     audio: /assets/albums/kick-n-base-made-in-barcelona/2-night-ride.mp3
+    slug: kick-n-base-made-in-barcelona/2-night-ride
     albumSlug: kick-n-base-made-in-barcelona
-    slug: 2-night-ride
+    trackSlug: 2-night-ride
     coverPath: >-
-      /Users/set/Desktop/publikator_test/assets/albums/kick-n-base-made-in-barcelona/2-night-ride.jpeg
+      /home/set/git/basspistol/basspistol.com/assets/albums/kick-n-base-made-in-barcelona/2-night-ride.jpeg
     cover: /assets/albums/kick-n-base-made-in-barcelona/2-night-ride.jpeg
     format:
       tagTypes:
         - ID3v2.4
+      trackInfo: []
       lossless: false
-      dataformat: mp3
-      bitrate: 128000
+      container: MPEG
+      codec: MPEG 1 Layer 3
       sampleRate: 44100
       numberOfChannels: 2
+      bitrate: 128000
       codecProfile: CBR
       numberOfSamples: 20407680
       duration: 462.7591836734694
@@ -322,7 +361,9 @@ tracks:
         - id: TDRC
           value: '2010-03-01'
         - id: WOAS
-          value: 'https://archive.org/compress/BPIST003'
+          value: 'https://archive.org/details/BPIST003'
+    quality:
+      warnings: []
     common:
       track:
         'no': 2
@@ -392,23 +433,57 @@ tracks:
         TSOP: Holyhertz
         TRCK: 2/11
         TDRC: '2010-03-01'
-        WOAS: 'https://archive.org/compress/BPIST003'
+        WOAS: 'https://archive.org/details/BPIST003'
+    all:
+      c0: www.holyhertz.com www.basspistol.com
+      TCON: KickNBase
+      TIT2: Night Ride
+      RELEASECOUNTRY: XW
+      LABEL: Basspistol
+      MUSICBRAINZ_RELEASETRACKID: f56b007e-379f-4108-8412-edb710ca7d24
+      ORIGINALDATE: '2010-03-01'
+      MUSICBRAINZ_RELEASEGROUPID: 14de5336-23ea-4f2a-98fb-a5f7b6b8a2bc
+      RELEASESTATUS: official
+      ACOUSTID_ID: 2524e2c5-b151-4e53-aed3-532dc1d3adad
+      CATALOGNUMBER: BPIST003
+      MEDIA: Digital Media
+      RELEASETYPE: album
+      ORIGINALYEAR: '2010'
+      ARTISTS: Holyhertz
+      'TXXX:MusicBrainz Album Artist Id': 89d471b5-88a6-4330-a76c-6c3d7ca98e33
+      'TXXX:musicbrainz_albumartistid': 89d471b5-88a6-4330-a76c-6c3d7ca98e33
+      TPOS: 1/1
+      'TXXX:MusicBrainz Album Id': c3b95529-e0b3-400e-a5a7-804c07a11baf
+      'TXXX:musicbrainz_albumid': c3b95529-e0b3-400e-a5a7-804c07a11baf
+      TPE2: Holyhertz
+      TALB: Kick-N-Base Made In Barcelona
+      'TXXX:MusicBrainz Artist Id': 89d471b5-88a6-4330-a76c-6c3d7ca98e33
+      'TXXX:musicbrainz_artistid': 89d471b5-88a6-4330-a76c-6c3d7ca98e33
+      TPE1: Holyhertz
+      UFID: *ref_1
+      TSOP: Holyhertz
+      TRCK: 2/11
+      TDRC: '2010-03-01'
+      WOAS: 'https://archive.org/details/BPIST003'
   - path: >-
-      /Users/set/Desktop/publikator_test/assets/albums/kick-n-base-made-in-barcelona/3-brain-chemistry.mp3
+      /home/set/git/basspistol/basspistol.com/assets/albums/kick-n-base-made-in-barcelona/3-brain-chemistry.mp3
     audio: /assets/albums/kick-n-base-made-in-barcelona/3-brain-chemistry.mp3
+    slug: kick-n-base-made-in-barcelona/3-brain-chemistry
     albumSlug: kick-n-base-made-in-barcelona
-    slug: 3-brain-chemistry
+    trackSlug: 3-brain-chemistry
     coverPath: >-
-      /Users/set/Desktop/publikator_test/assets/albums/kick-n-base-made-in-barcelona/3-brain-chemistry.jpeg
+      /home/set/git/basspistol/basspistol.com/assets/albums/kick-n-base-made-in-barcelona/3-brain-chemistry.jpeg
     cover: /assets/albums/kick-n-base-made-in-barcelona/3-brain-chemistry.jpeg
     format:
       tagTypes:
         - ID3v2.4
+      trackInfo: []
       lossless: false
-      dataformat: mp3
-      bitrate: 128000
+      container: MPEG
+      codec: MPEG 1 Layer 3
       sampleRate: 44100
       numberOfChannels: 2
+      bitrate: 128000
       codecProfile: CBR
       numberOfSamples: 21802752
       duration: 494.3934693877551
@@ -514,7 +589,9 @@ tracks:
         - id: TDRC
           value: '2010-03-01'
         - id: WOAS
-          value: 'https://archive.org/compress/BPIST003'
+          value: 'https://archive.org/details/BPIST003'
+    quality:
+      warnings: []
     common:
       track:
         'no': 3
@@ -584,23 +661,57 @@ tracks:
         TSOP: Holyhertz
         TRCK: 3/11
         TDRC: '2010-03-01'
-        WOAS: 'https://archive.org/compress/BPIST003'
+        WOAS: 'https://archive.org/details/BPIST003'
+    all:
+      c0: www.holyhertz.com www.basspistol.com
+      TCON: KickNBase
+      TIT2: Brain Chemistry
+      RELEASECOUNTRY: XW
+      LABEL: Basspistol
+      MUSICBRAINZ_RELEASETRACKID: 7ba074f9-2eb5-4cbc-ab77-0b1f45826445
+      ORIGINALDATE: '2010-03-01'
+      MUSICBRAINZ_RELEASEGROUPID: 14de5336-23ea-4f2a-98fb-a5f7b6b8a2bc
+      RELEASESTATUS: official
+      ACOUSTID_ID: d54a665c-3a88-4b21-b39f-d6c5e878158f
+      CATALOGNUMBER: BPIST003
+      MEDIA: Digital Media
+      RELEASETYPE: album
+      ORIGINALYEAR: '2010'
+      ARTISTS: Holyhertz
+      'TXXX:MusicBrainz Album Artist Id': 89d471b5-88a6-4330-a76c-6c3d7ca98e33
+      'TXXX:musicbrainz_albumartistid': 89d471b5-88a6-4330-a76c-6c3d7ca98e33
+      TPOS: 1/1
+      'TXXX:MusicBrainz Album Id': c3b95529-e0b3-400e-a5a7-804c07a11baf
+      'TXXX:musicbrainz_albumid': c3b95529-e0b3-400e-a5a7-804c07a11baf
+      TPE2: Holyhertz
+      TALB: Kick-N-Base Made In Barcelona
+      'TXXX:MusicBrainz Artist Id': 89d471b5-88a6-4330-a76c-6c3d7ca98e33
+      'TXXX:musicbrainz_artistid': 89d471b5-88a6-4330-a76c-6c3d7ca98e33
+      TPE1: Holyhertz
+      UFID: *ref_2
+      TSOP: Holyhertz
+      TRCK: 3/11
+      TDRC: '2010-03-01'
+      WOAS: 'https://archive.org/details/BPIST003'
   - path: >-
-      /Users/set/Desktop/publikator_test/assets/albums/kick-n-base-made-in-barcelona/4-jah-carta.mp3
+      /home/set/git/basspistol/basspistol.com/assets/albums/kick-n-base-made-in-barcelona/4-jah-carta.mp3
     audio: /assets/albums/kick-n-base-made-in-barcelona/4-jah-carta.mp3
+    slug: kick-n-base-made-in-barcelona/4-jah-carta
     albumSlug: kick-n-base-made-in-barcelona
-    slug: 4-jah-carta
+    trackSlug: 4-jah-carta
     coverPath: >-
-      /Users/set/Desktop/publikator_test/assets/albums/kick-n-base-made-in-barcelona/4-jah-carta.jpeg
+      /home/set/git/basspistol/basspistol.com/assets/albums/kick-n-base-made-in-barcelona/4-jah-carta.jpeg
     cover: /assets/albums/kick-n-base-made-in-barcelona/4-jah-carta.jpeg
     format:
       tagTypes:
         - ID3v2.4
+      trackInfo: []
       lossless: false
-      dataformat: mp3
-      bitrate: 128000
+      container: MPEG
+      codec: MPEG 1 Layer 3
       sampleRate: 44100
       numberOfChannels: 2
+      bitrate: 128000
       codecProfile: CBR
       numberOfSamples: 15671808
       duration: 355.36979591836734
@@ -706,7 +817,9 @@ tracks:
         - id: TDRC
           value: '2010-03-01'
         - id: WOAS
-          value: 'https://archive.org/compress/BPIST003'
+          value: 'https://archive.org/details/BPIST003'
+    quality:
+      warnings: []
     common:
       track:
         'no': 4
@@ -776,23 +889,57 @@ tracks:
         TSOP: Holyhertz
         TRCK: 4/11
         TDRC: '2010-03-01'
-        WOAS: 'https://archive.org/compress/BPIST003'
+        WOAS: 'https://archive.org/details/BPIST003'
+    all:
+      c0: www.holyhertz.com www.basspistol.com
+      TCON: KickNBase
+      TIT2: Jah Carta
+      RELEASECOUNTRY: XW
+      LABEL: Basspistol
+      MUSICBRAINZ_RELEASETRACKID: f518b9f1-706d-45ce-b103-e2dae5f2c02a
+      ORIGINALDATE: '2010-03-01'
+      MUSICBRAINZ_RELEASEGROUPID: 14de5336-23ea-4f2a-98fb-a5f7b6b8a2bc
+      RELEASESTATUS: official
+      ACOUSTID_ID: df870af6-0fe0-40ba-8077-866079c6da2e
+      CATALOGNUMBER: BPIST003
+      MEDIA: Digital Media
+      RELEASETYPE: album
+      ORIGINALYEAR: '2010'
+      ARTISTS: Holyhertz
+      'TXXX:MusicBrainz Album Artist Id': 89d471b5-88a6-4330-a76c-6c3d7ca98e33
+      'TXXX:musicbrainz_albumartistid': 89d471b5-88a6-4330-a76c-6c3d7ca98e33
+      TPOS: 1/1
+      'TXXX:MusicBrainz Album Id': c3b95529-e0b3-400e-a5a7-804c07a11baf
+      'TXXX:musicbrainz_albumid': c3b95529-e0b3-400e-a5a7-804c07a11baf
+      TPE2: Holyhertz
+      TALB: Kick-N-Base Made In Barcelona
+      'TXXX:MusicBrainz Artist Id': 89d471b5-88a6-4330-a76c-6c3d7ca98e33
+      'TXXX:musicbrainz_artistid': 89d471b5-88a6-4330-a76c-6c3d7ca98e33
+      TPE1: Holyhertz
+      UFID: *ref_3
+      TSOP: Holyhertz
+      TRCK: 4/11
+      TDRC: '2010-03-01'
+      WOAS: 'https://archive.org/details/BPIST003'
   - path: >-
-      /Users/set/Desktop/publikator_test/assets/albums/kick-n-base-made-in-barcelona/5-scarf-ace.mp3
+      /home/set/git/basspistol/basspistol.com/assets/albums/kick-n-base-made-in-barcelona/5-scarf-ace.mp3
     audio: /assets/albums/kick-n-base-made-in-barcelona/5-scarf-ace.mp3
+    slug: kick-n-base-made-in-barcelona/5-scarf-ace
     albumSlug: kick-n-base-made-in-barcelona
-    slug: 5-scarf-ace
+    trackSlug: 5-scarf-ace
     coverPath: >-
-      /Users/set/Desktop/publikator_test/assets/albums/kick-n-base-made-in-barcelona/5-scarf-ace.jpeg
+      /home/set/git/basspistol/basspistol.com/assets/albums/kick-n-base-made-in-barcelona/5-scarf-ace.jpeg
     cover: /assets/albums/kick-n-base-made-in-barcelona/5-scarf-ace.jpeg
     format:
       tagTypes:
         - ID3v2.4
+      trackInfo: []
       lossless: false
-      dataformat: mp3
-      bitrate: 128000
+      container: MPEG
+      codec: MPEG 1 Layer 3
       sampleRate: 44100
       numberOfChannels: 2
+      bitrate: 128000
       codecProfile: CBR
       numberOfSamples: 15086592
       duration: 342.0995918367347
@@ -898,7 +1045,9 @@ tracks:
         - id: TDRC
           value: '2010-03-01'
         - id: WOAS
-          value: 'https://archive.org/compress/BPIST003'
+          value: 'https://archive.org/details/BPIST003'
+    quality:
+      warnings: []
     common:
       track:
         'no': 5
@@ -968,24 +1117,58 @@ tracks:
         TSOP: Holyhertz
         TRCK: 5/11
         TDRC: '2010-03-01'
-        WOAS: 'https://archive.org/compress/BPIST003'
+        WOAS: 'https://archive.org/details/BPIST003'
+    all:
+      c0: www.holyhertz.com www.basspistol.com
+      TCON: KickNBase
+      TIT2: Scarf Ace
+      RELEASECOUNTRY: XW
+      LABEL: Basspistol
+      MUSICBRAINZ_RELEASETRACKID: 987c1a4d-0d90-444d-a151-be958f3c0209
+      ORIGINALDATE: '2010-03-01'
+      MUSICBRAINZ_RELEASEGROUPID: 14de5336-23ea-4f2a-98fb-a5f7b6b8a2bc
+      RELEASESTATUS: official
+      ACOUSTID_ID: abb6423c-b01f-4e4f-8807-29a359461880
+      CATALOGNUMBER: BPIST003
+      MEDIA: Digital Media
+      RELEASETYPE: album
+      ORIGINALYEAR: '2010'
+      ARTISTS: Holyhertz
+      'TXXX:MusicBrainz Album Artist Id': 89d471b5-88a6-4330-a76c-6c3d7ca98e33
+      'TXXX:musicbrainz_albumartistid': 89d471b5-88a6-4330-a76c-6c3d7ca98e33
+      TPOS: 1/1
+      'TXXX:MusicBrainz Album Id': c3b95529-e0b3-400e-a5a7-804c07a11baf
+      'TXXX:musicbrainz_albumid': c3b95529-e0b3-400e-a5a7-804c07a11baf
+      TPE2: Holyhertz
+      TALB: Kick-N-Base Made In Barcelona
+      'TXXX:MusicBrainz Artist Id': 89d471b5-88a6-4330-a76c-6c3d7ca98e33
+      'TXXX:musicbrainz_artistid': 89d471b5-88a6-4330-a76c-6c3d7ca98e33
+      TPE1: Holyhertz
+      UFID: *ref_4
+      TSOP: Holyhertz
+      TRCK: 5/11
+      TDRC: '2010-03-01'
+      WOAS: 'https://archive.org/details/BPIST003'
   - path: >-
-      /Users/set/Desktop/publikator_test/assets/albums/kick-n-base-made-in-barcelona/6-filter.mp3
+      /home/set/git/basspistol/basspistol.com/assets/albums/kick-n-base-made-in-barcelona/6-filter.mp3
     audio: /assets/albums/kick-n-base-made-in-barcelona/6-filter.mp3
+    slug: kick-n-base-made-in-barcelona/6-filter
     albumSlug: kick-n-base-made-in-barcelona
-    slug: 6-filter
+    trackSlug: 6-filter
     coverPath: >-
-      /Users/set/Desktop/publikator_test/assets/albums/kick-n-base-made-in-barcelona/6-filter.jpeg
+      /home/set/git/basspistol/basspistol.com/assets/albums/kick-n-base-made-in-barcelona/6-filter.jpeg
     cover: /assets/albums/kick-n-base-made-in-barcelona/6-filter.jpeg
     format:
       tagTypes:
         - ID3v2.4
+      trackInfo: []
       lossless: false
-      dataformat: mp3
-      bitrate: 128000
+      container: MPEG
+      codec: MPEG 1 Layer 3
       sampleRate: 44100
       numberOfChannels: 2
-      encoder: LAME 3.99.5
+      bitrate: 128000
+      tool: LAME 3.99.5
       codecProfile: CBR
       numberOfSamples: 18375552
       duration: 416.67918367346937
@@ -1091,7 +1274,9 @@ tracks:
         - id: TDRC
           value: '2010-03-01'
         - id: WOAS
-          value: 'https://archive.org/compress/BPIST003'
+          value: 'https://archive.org/details/BPIST003'
+    quality:
+      warnings: []
     common:
       track:
         'no': 6
@@ -1161,23 +1346,57 @@ tracks:
         TSOP: Holyhertz
         TRCK: 6/11
         TDRC: '2010-03-01'
-        WOAS: 'https://archive.org/compress/BPIST003'
+        WOAS: 'https://archive.org/details/BPIST003'
+    all:
+      c0: www.holyhertz.com www.basspistol.com
+      TCON: KickNBase
+      TIT2: Filter
+      RELEASECOUNTRY: XW
+      LABEL: Basspistol
+      MUSICBRAINZ_RELEASETRACKID: fc25654a-1fd7-44fa-abb2-b1360019cf31
+      ORIGINALDATE: '2010-03-01'
+      MUSICBRAINZ_RELEASEGROUPID: 14de5336-23ea-4f2a-98fb-a5f7b6b8a2bc
+      RELEASESTATUS: official
+      ACOUSTID_ID: b02edbbc-0146-4134-aeef-b544351992da
+      CATALOGNUMBER: BPIST003
+      MEDIA: Digital Media
+      RELEASETYPE: album
+      ORIGINALYEAR: '2010'
+      ARTISTS: Holyhertz
+      'TXXX:MusicBrainz Album Artist Id': 89d471b5-88a6-4330-a76c-6c3d7ca98e33
+      'TXXX:musicbrainz_albumartistid': 89d471b5-88a6-4330-a76c-6c3d7ca98e33
+      TPOS: 1/1
+      'TXXX:MusicBrainz Album Id': c3b95529-e0b3-400e-a5a7-804c07a11baf
+      'TXXX:musicbrainz_albumid': c3b95529-e0b3-400e-a5a7-804c07a11baf
+      TPE2: Holyhertz
+      TALB: Kick-N-Base Made In Barcelona
+      'TXXX:MusicBrainz Artist Id': 89d471b5-88a6-4330-a76c-6c3d7ca98e33
+      'TXXX:musicbrainz_artistid': 89d471b5-88a6-4330-a76c-6c3d7ca98e33
+      TPE1: Holyhertz
+      UFID: *ref_5
+      TSOP: Holyhertz
+      TRCK: 6/11
+      TDRC: '2010-03-01'
+      WOAS: 'https://archive.org/details/BPIST003'
   - path: >-
-      /Users/set/Desktop/publikator_test/assets/albums/kick-n-base-made-in-barcelona/7-radio-satisfaction.mp3
+      /home/set/git/basspistol/basspistol.com/assets/albums/kick-n-base-made-in-barcelona/7-radio-satisfaction.mp3
     audio: /assets/albums/kick-n-base-made-in-barcelona/7-radio-satisfaction.mp3
+    slug: kick-n-base-made-in-barcelona/7-radio-satisfaction
     albumSlug: kick-n-base-made-in-barcelona
-    slug: 7-radio-satisfaction
+    trackSlug: 7-radio-satisfaction
     coverPath: >-
-      /Users/set/Desktop/publikator_test/assets/albums/kick-n-base-made-in-barcelona/7-radio-satisfaction.jpeg
+      /home/set/git/basspistol/basspistol.com/assets/albums/kick-n-base-made-in-barcelona/7-radio-satisfaction.jpeg
     cover: /assets/albums/kick-n-base-made-in-barcelona/7-radio-satisfaction.jpeg
     format:
       tagTypes:
         - ID3v2.4
+      trackInfo: []
       lossless: false
-      dataformat: mp3
-      bitrate: 128000
+      container: MPEG
+      codec: MPEG 1 Layer 3
       sampleRate: 44100
       numberOfChannels: 2
+      bitrate: 128000
       codecProfile: CBR
       numberOfSamples: 13015296
       duration: 295.13142857142856
@@ -1283,7 +1502,9 @@ tracks:
         - id: TDRC
           value: '2010-03-01'
         - id: WOAS
-          value: 'https://archive.org/compress/BPIST003'
+          value: 'https://archive.org/details/BPIST003'
+    quality:
+      warnings: []
     common:
       track:
         'no': 7
@@ -1353,23 +1574,57 @@ tracks:
         TSOP: Holyhertz
         TRCK: 7/11
         TDRC: '2010-03-01'
-        WOAS: 'https://archive.org/compress/BPIST003'
+        WOAS: 'https://archive.org/details/BPIST003'
+    all:
+      c0: www.holyhertz.com www.basspistol.com
+      TCON: KickNBase
+      TIT2: Radio Satisfaction
+      RELEASECOUNTRY: XW
+      LABEL: Basspistol
+      MUSICBRAINZ_RELEASETRACKID: 4df87339-66cc-4b3b-ac35-528e63c0399a
+      ORIGINALDATE: '2010-03-01'
+      MUSICBRAINZ_RELEASEGROUPID: 14de5336-23ea-4f2a-98fb-a5f7b6b8a2bc
+      RELEASESTATUS: official
+      ACOUSTID_ID: 939dc008-3842-445f-bbb1-39cf75052bbe
+      CATALOGNUMBER: BPIST003
+      MEDIA: Digital Media
+      RELEASETYPE: album
+      ORIGINALYEAR: '2010'
+      ARTISTS: Holyhertz
+      'TXXX:MusicBrainz Album Artist Id': 89d471b5-88a6-4330-a76c-6c3d7ca98e33
+      'TXXX:musicbrainz_albumartistid': 89d471b5-88a6-4330-a76c-6c3d7ca98e33
+      TPOS: 1/1
+      'TXXX:MusicBrainz Album Id': c3b95529-e0b3-400e-a5a7-804c07a11baf
+      'TXXX:musicbrainz_albumid': c3b95529-e0b3-400e-a5a7-804c07a11baf
+      TPE2: Holyhertz
+      TALB: Kick-N-Base Made In Barcelona
+      'TXXX:MusicBrainz Artist Id': 89d471b5-88a6-4330-a76c-6c3d7ca98e33
+      'TXXX:musicbrainz_artistid': 89d471b5-88a6-4330-a76c-6c3d7ca98e33
+      TPE1: Holyhertz
+      UFID: *ref_6
+      TSOP: Holyhertz
+      TRCK: 7/11
+      TDRC: '2010-03-01'
+      WOAS: 'https://archive.org/details/BPIST003'
   - path: >-
-      /Users/set/Desktop/publikator_test/assets/albums/kick-n-base-made-in-barcelona/8-samurais-perfect-night.mp3
+      /home/set/git/basspistol/basspistol.com/assets/albums/kick-n-base-made-in-barcelona/8-samurais-perfect-night.mp3
     audio: /assets/albums/kick-n-base-made-in-barcelona/8-samurais-perfect-night.mp3
+    slug: kick-n-base-made-in-barcelona/8-samurais-perfect-night
     albumSlug: kick-n-base-made-in-barcelona
-    slug: 8-samurais-perfect-night
+    trackSlug: 8-samurais-perfect-night
     coverPath: >-
-      /Users/set/Desktop/publikator_test/assets/albums/kick-n-base-made-in-barcelona/8-samurais-perfect-night.jpeg
+      /home/set/git/basspistol/basspistol.com/assets/albums/kick-n-base-made-in-barcelona/8-samurais-perfect-night.jpeg
     cover: /assets/albums/kick-n-base-made-in-barcelona/8-samurais-perfect-night.jpeg
     format:
       tagTypes:
         - ID3v2.4
+      trackInfo: []
       lossless: false
-      dataformat: mp3
-      bitrate: 128000
+      container: MPEG
+      codec: MPEG 1 Layer 3
       sampleRate: 44100
       numberOfChannels: 2
+      bitrate: 128000
       codecProfile: CBR
       numberOfSamples: 22674816
       duration: 514.1681632653061
@@ -1475,7 +1730,9 @@ tracks:
         - id: TDRC
           value: '2010-03-01'
         - id: WOAS
-          value: 'https://archive.org/compress/BPIST003'
+          value: 'https://archive.org/details/BPIST003'
+    quality:
+      warnings: []
     common:
       track:
         'no': 8
@@ -1545,23 +1802,57 @@ tracks:
         TSOP: Holyhertz
         TRCK: 8/11
         TDRC: '2010-03-01'
-        WOAS: 'https://archive.org/compress/BPIST003'
+        WOAS: 'https://archive.org/details/BPIST003'
+    all:
+      c0: www.holyhertz.com www.basspistol.com
+      TCON: KickNBase
+      TIT2: Samurais Perfect Night
+      RELEASECOUNTRY: XW
+      LABEL: Basspistol
+      MUSICBRAINZ_RELEASETRACKID: fc4aeb4e-089c-4283-b83c-3ee384e1db2d
+      ORIGINALDATE: '2010-03-01'
+      MUSICBRAINZ_RELEASEGROUPID: 14de5336-23ea-4f2a-98fb-a5f7b6b8a2bc
+      RELEASESTATUS: official
+      ACOUSTID_ID: 61ff841d-a3c2-406f-bb2b-acfeb7dc81e4
+      CATALOGNUMBER: BPIST003
+      MEDIA: Digital Media
+      RELEASETYPE: album
+      ORIGINALYEAR: '2010'
+      ARTISTS: Holyhertz
+      'TXXX:MusicBrainz Album Artist Id': 89d471b5-88a6-4330-a76c-6c3d7ca98e33
+      'TXXX:musicbrainz_albumartistid': 89d471b5-88a6-4330-a76c-6c3d7ca98e33
+      TPOS: 1/1
+      'TXXX:MusicBrainz Album Id': c3b95529-e0b3-400e-a5a7-804c07a11baf
+      'TXXX:musicbrainz_albumid': c3b95529-e0b3-400e-a5a7-804c07a11baf
+      TPE2: Holyhertz
+      TALB: Kick-N-Base Made In Barcelona
+      'TXXX:MusicBrainz Artist Id': 89d471b5-88a6-4330-a76c-6c3d7ca98e33
+      'TXXX:musicbrainz_artistid': 89d471b5-88a6-4330-a76c-6c3d7ca98e33
+      TPE1: Holyhertz
+      UFID: *ref_7
+      TSOP: Holyhertz
+      TRCK: 8/11
+      TDRC: '2010-03-01'
+      WOAS: 'https://archive.org/details/BPIST003'
   - path: >-
-      /Users/set/Desktop/publikator_test/assets/albums/kick-n-base-made-in-barcelona/9-digital-capoeira.mp3
+      /home/set/git/basspistol/basspistol.com/assets/albums/kick-n-base-made-in-barcelona/9-digital-capoeira.mp3
     audio: /assets/albums/kick-n-base-made-in-barcelona/9-digital-capoeira.mp3
+    slug: kick-n-base-made-in-barcelona/9-digital-capoeira
     albumSlug: kick-n-base-made-in-barcelona
-    slug: 9-digital-capoeira
+    trackSlug: 9-digital-capoeira
     coverPath: >-
-      /Users/set/Desktop/publikator_test/assets/albums/kick-n-base-made-in-barcelona/9-digital-capoeira.jpeg
+      /home/set/git/basspistol/basspistol.com/assets/albums/kick-n-base-made-in-barcelona/9-digital-capoeira.jpeg
     cover: /assets/albums/kick-n-base-made-in-barcelona/9-digital-capoeira.jpeg
     format:
       tagTypes:
         - ID3v2.4
+      trackInfo: []
       lossless: false
-      dataformat: mp3
-      bitrate: 128000
+      container: MPEG
+      codec: MPEG 1 Layer 3
       sampleRate: 44100
       numberOfChannels: 2
+      bitrate: 128000
       codecProfile: CBR
       numberOfSamples: 12246912
       duration: 277.70775510204084
@@ -1667,7 +1958,9 @@ tracks:
         - id: TDRC
           value: '2010-03-01'
         - id: WOAS
-          value: 'https://archive.org/compress/BPIST003'
+          value: 'https://archive.org/details/BPIST003'
+    quality:
+      warnings: []
     common:
       track:
         'no': 9
@@ -1737,24 +2030,58 @@ tracks:
         TSOP: Holyhertz
         TRCK: 9/11
         TDRC: '2010-03-01'
-        WOAS: 'https://archive.org/compress/BPIST003'
+        WOAS: 'https://archive.org/details/BPIST003'
+    all:
+      c0: www.holyhertz.com www.basspistol.com
+      TCON: KickNBase
+      TIT2: Digital Capoeira
+      RELEASECOUNTRY: XW
+      LABEL: Basspistol
+      MUSICBRAINZ_RELEASETRACKID: 1a78ad2a-eb30-459c-876c-3f0c1fc90c87
+      ORIGINALDATE: '2010-03-01'
+      MUSICBRAINZ_RELEASEGROUPID: 14de5336-23ea-4f2a-98fb-a5f7b6b8a2bc
+      RELEASESTATUS: official
+      ACOUSTID_ID: a81fea7b-9696-4785-aff1-1b051798b95c
+      CATALOGNUMBER: BPIST003
+      MEDIA: Digital Media
+      RELEASETYPE: album
+      ORIGINALYEAR: '2010'
+      ARTISTS: Holyhertz
+      'TXXX:MusicBrainz Album Artist Id': 89d471b5-88a6-4330-a76c-6c3d7ca98e33
+      'TXXX:musicbrainz_albumartistid': 89d471b5-88a6-4330-a76c-6c3d7ca98e33
+      TPOS: 1/1
+      'TXXX:MusicBrainz Album Id': c3b95529-e0b3-400e-a5a7-804c07a11baf
+      'TXXX:musicbrainz_albumid': c3b95529-e0b3-400e-a5a7-804c07a11baf
+      TPE2: Holyhertz
+      TALB: Kick-N-Base Made In Barcelona
+      'TXXX:MusicBrainz Artist Id': 89d471b5-88a6-4330-a76c-6c3d7ca98e33
+      'TXXX:musicbrainz_artistid': 89d471b5-88a6-4330-a76c-6c3d7ca98e33
+      TPE1: Holyhertz
+      UFID: *ref_8
+      TSOP: Holyhertz
+      TRCK: 9/11
+      TDRC: '2010-03-01'
+      WOAS: 'https://archive.org/details/BPIST003'
   - path: >-
-      /Users/set/Desktop/publikator_test/assets/albums/kick-n-base-made-in-barcelona/10-raver-sequence.mp3
+      /home/set/git/basspistol/basspistol.com/assets/albums/kick-n-base-made-in-barcelona/10-raver-sequence.mp3
     audio: /assets/albums/kick-n-base-made-in-barcelona/10-raver-sequence.mp3
+    slug: kick-n-base-made-in-barcelona/10-raver-sequence
     albumSlug: kick-n-base-made-in-barcelona
-    slug: 10-raver-sequence
+    trackSlug: 10-raver-sequence
     coverPath: >-
-      /Users/set/Desktop/publikator_test/assets/albums/kick-n-base-made-in-barcelona/10-raver-sequence.jpeg
+      /home/set/git/basspistol/basspistol.com/assets/albums/kick-n-base-made-in-barcelona/10-raver-sequence.jpeg
     cover: /assets/albums/kick-n-base-made-in-barcelona/10-raver-sequence.jpeg
     format:
       tagTypes:
         - ID3v2.4
+      trackInfo: []
       lossless: false
-      dataformat: mp3
-      bitrate: 128000
+      container: MPEG
+      codec: MPEG 1 Layer 3
       sampleRate: 44100
       numberOfChannels: 2
-      encoder: LAME 3.99.5
+      bitrate: 128000
+      tool: LAME 3.99.5
       codecProfile: CBR
       numberOfSamples: 19177344
       duration: 434.86040816326533
@@ -1860,7 +2187,9 @@ tracks:
         - id: TDRC
           value: '2010-03-01'
         - id: WOAS
-          value: 'https://archive.org/compress/BPIST003'
+          value: 'https://archive.org/details/BPIST003'
+    quality:
+      warnings: []
     common:
       track:
         'no': 10
@@ -1930,24 +2259,58 @@ tracks:
         TSOP: Holyhertz
         TRCK: 10/11
         TDRC: '2010-03-01'
-        WOAS: 'https://archive.org/compress/BPIST003'
+        WOAS: 'https://archive.org/details/BPIST003'
+    all:
+      c0: www.holyhertz.com www.basspistol.com
+      TCON: KickNBase
+      TIT2: Raver Sequence
+      RELEASECOUNTRY: XW
+      LABEL: Basspistol
+      MUSICBRAINZ_RELEASETRACKID: a696cf2d-dc6b-40a3-9765-c496d2bf3f68
+      ORIGINALDATE: '2010-03-01'
+      MUSICBRAINZ_RELEASEGROUPID: 14de5336-23ea-4f2a-98fb-a5f7b6b8a2bc
+      RELEASESTATUS: official
+      ACOUSTID_ID: a11eb61d-1ec7-4056-a222-b28bcec7d552
+      CATALOGNUMBER: BPIST003
+      MEDIA: Digital Media
+      RELEASETYPE: album
+      ORIGINALYEAR: '2010'
+      ARTISTS: Holyhertz
+      'TXXX:MusicBrainz Album Artist Id': 89d471b5-88a6-4330-a76c-6c3d7ca98e33
+      'TXXX:musicbrainz_albumartistid': 89d471b5-88a6-4330-a76c-6c3d7ca98e33
+      TPOS: 1/1
+      'TXXX:MusicBrainz Album Id': c3b95529-e0b3-400e-a5a7-804c07a11baf
+      'TXXX:musicbrainz_albumid': c3b95529-e0b3-400e-a5a7-804c07a11baf
+      TPE2: Holyhertz
+      TALB: Kick-N-Base Made In Barcelona
+      'TXXX:MusicBrainz Artist Id': 89d471b5-88a6-4330-a76c-6c3d7ca98e33
+      'TXXX:musicbrainz_artistid': 89d471b5-88a6-4330-a76c-6c3d7ca98e33
+      TPE1: Holyhertz
+      UFID: *ref_9
+      TSOP: Holyhertz
+      TRCK: 10/11
+      TDRC: '2010-03-01'
+      WOAS: 'https://archive.org/details/BPIST003'
   - path: >-
-      /Users/set/Desktop/publikator_test/assets/albums/kick-n-base-made-in-barcelona/11-butterfly.mp3
+      /home/set/git/basspistol/basspistol.com/assets/albums/kick-n-base-made-in-barcelona/11-butterfly.mp3
     audio: /assets/albums/kick-n-base-made-in-barcelona/11-butterfly.mp3
+    slug: kick-n-base-made-in-barcelona/11-butterfly
     albumSlug: kick-n-base-made-in-barcelona
-    slug: 11-butterfly
+    trackSlug: 11-butterfly
     coverPath: >-
-      /Users/set/Desktop/publikator_test/assets/albums/kick-n-base-made-in-barcelona/11-butterfly.jpeg
+      /home/set/git/basspistol/basspistol.com/assets/albums/kick-n-base-made-in-barcelona/11-butterfly.jpeg
     cover: /assets/albums/kick-n-base-made-in-barcelona/11-butterfly.jpeg
     format:
       tagTypes:
         - ID3v2.4
+      trackInfo: []
       lossless: false
-      dataformat: mp3
-      bitrate: 128000
+      container: MPEG
+      codec: MPEG 1 Layer 3
       sampleRate: 44100
       numberOfChannels: 2
-      encoder: LAME 3.99.5
+      bitrate: 128000
+      tool: LAME 3.99.5
       codecProfile: CBR
       numberOfSamples: 13411584
       duration: 304.11755102040814
@@ -2058,7 +2421,9 @@ tracks:
             description: ''
             text: feat. David Aphel
         - id: WOAS
-          value: 'https://archive.org/compress/BPIST003'
+          value: 'https://archive.org/details/BPIST003'
+    quality:
+      warnings: []
     common:
       track:
         'no': 11
@@ -2130,5 +2495,37 @@ tracks:
         TRCK: 11/11
         TDRC: '2010-03-01'
         COMM: *ref_11
-        WOAS: 'https://archive.org/compress/BPIST003'
+        WOAS: 'https://archive.org/details/BPIST003'
+    all:
+      c0: www.holyhertz.com www.basspistol.com
+      TCON: KickNBase
+      TIT2: Butterfly
+      RELEASECOUNTRY: XW
+      LABEL: Basspistol
+      MUSICBRAINZ_RELEASETRACKID: 8348bc42-5999-4118-a523-4bb2d350b298
+      ORIGINALDATE: '2010-03-01'
+      MUSICBRAINZ_RELEASEGROUPID: 14de5336-23ea-4f2a-98fb-a5f7b6b8a2bc
+      RELEASESTATUS: official
+      ACOUSTID_ID: 50fa14a3-1b1b-4e16-92d1-4bd390fa4ed6
+      CATALOGNUMBER: BPIST003
+      MEDIA: Digital Media
+      RELEASETYPE: album
+      ORIGINALYEAR: '2010'
+      ARTISTS: Holyhertz Feat. David Aphel
+      'TXXX:MusicBrainz Album Artist Id': 89d471b5-88a6-4330-a76c-6c3d7ca98e33
+      'TXXX:musicbrainz_albumartistid': 89d471b5-88a6-4330-a76c-6c3d7ca98e33
+      TPOS: 1/1
+      'TXXX:MusicBrainz Album Id': c3b95529-e0b3-400e-a5a7-804c07a11baf
+      'TXXX:musicbrainz_albumid': c3b95529-e0b3-400e-a5a7-804c07a11baf
+      TPE2: Holyhertz
+      TALB: Kick-N-Base Made In Barcelona
+      'TXXX:MusicBrainz Artist Id': 89d471b5-88a6-4330-a76c-6c3d7ca98e33
+      'TXXX:musicbrainz_artistid': 89d471b5-88a6-4330-a76c-6c3d7ca98e33
+      TPE1: Holyhertz
+      UFID: *ref_10
+      TSOP: 'Holyhertz feat. Aphel, David'
+      TRCK: 11/11
+      TDRC: '2010-03-01'
+      COMM: *ref_11
+      WOAS: 'https://archive.org/details/BPIST003'
 ---

@@ -1,21 +1,24 @@
 ---
 layout: track
 path: >-
-  /Users/set/Desktop/publikator_test/assets/albums/the-house-of-set/8-saint-fragle-day.mp3
+  /home/set/git/basspistol/basspistol.com/assets/albums/the-house-of-set/8-saint-fragle-day.mp3
 audio: /assets/albums/the-house-of-set/8-saint-fragle-day.mp3
+slug: the-house-of-set/8-saint-fragle-day
 albumSlug: the-house-of-set
-slug: 8-saint-fragle-day
+trackSlug: 8-saint-fragle-day
 coverPath: >-
-  /Users/set/Desktop/publikator_test/assets/albums/the-house-of-set/8-saint-fragle-day.jpeg
+  /home/set/git/basspistol/basspistol.com/assets/albums/the-house-of-set/8-saint-fragle-day.jpeg
 cover: /assets/albums/the-house-of-set/8-saint-fragle-day.jpeg
 format:
   tagTypes:
     - ID3v2.4
+  trackInfo: []
   lossless: false
-  dataformat: mp3
-  bitrate: 128000
+  container: MPEG
+  codec: MPEG 1 Layer 3
   sampleRate: 44100
   numberOfChannels: 2
+  bitrate: 128000
   codecProfile: CBR
   numberOfSamples: 14335488
   duration: 325.0677551020408
@@ -121,7 +124,9 @@ native:
     - id: TDRC
       value: '2012-09-06'
     - id: WOAS
-      value: 'https://archive.org/compress/BPIST007'
+      value: 'https://archive.org/details/BPIST007'
+quality:
+  warnings: []
 common:
   track:
     'no': 8
@@ -191,24 +196,58 @@ transformed:
     TSOP: Sakrecoer
     TRCK: 8/8
     TDRC: '2012-09-06'
-    WOAS: 'https://archive.org/compress/BPIST007'
+    WOAS: 'https://archive.org/details/BPIST007'
+all:
+  TCON: Electronic
+  c0: basspistol.com sakrecoer.com
+  TIT2: Saint Fragle Day
+  RELEASECOUNTRY: XW
+  LABEL: Basspistol
+  MUSICBRAINZ_RELEASETRACKID: 8c4810a2-25f1-4dd4-9f85-c1e4769ded1e
+  ORIGINALDATE: '2012-09-06'
+  MUSICBRAINZ_RELEASEGROUPID: 8d268171-8291-4d6f-9c77-a3813b2b4232
+  RELEASESTATUS: official
+  ACOUSTID_ID: 0ba544f4-a878-4f95-aa6d-a96ba191c660
+  CATALOGNUMBER: BPIST007
+  MEDIA: Digital Media
+  RELEASETYPE: album
+  ORIGINALYEAR: '2012'
+  ARTISTS: Simio Sakrecoer
+  'TXXX:MusicBrainz Album Artist Id': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
+  'TXXX:musicbrainz_albumartistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
+  TPOS: 1/1
+  'TXXX:MusicBrainz Album Id': 17aea68f-34ed-4abf-83a4-68c28b3ec2da
+  'TXXX:musicbrainz_albumid': 17aea68f-34ed-4abf-83a4-68c28b3ec2da
+  TPE2: Simio Sakrecoer
+  TALB: The House of Set
+  'TXXX:MusicBrainz Artist Id': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
+  'TXXX:musicbrainz_artistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
+  TPE1: Simio Sakrecoer
+  UFID: *ref_0
+  TSOP: Sakrecoer
+  TRCK: 8/8
+  TDRC: '2012-09-06'
+  WOAS: 'https://archive.org/details/BPIST007'
 nextTrack:
   path: >-
-    /Users/set/Desktop/publikator_test/assets/albums/the-house-of-set/1-subway.mp3
+    /home/set/git/basspistol/basspistol.com/assets/albums/the-house-of-set/1-subway.mp3
   audio: /assets/albums/the-house-of-set/1-subway.mp3
+  slug: the-house-of-set/1-subway
   albumSlug: the-house-of-set
-  slug: 1-subway
+  trackSlug: 1-subway
   coverPath: >-
-    /Users/set/Desktop/publikator_test/assets/albums/the-house-of-set/1-subway.jpeg
+    /home/set/git/basspistol/basspistol.com/assets/albums/the-house-of-set/1-subway.jpeg
   cover: /assets/albums/the-house-of-set/1-subway.jpeg
   format:
     tagTypes:
       - ID3v2.4
+    trackInfo: []
     lossless: false
-    dataformat: mp3
-    bitrate: 128000
+    container: MPEG
+    codec: MPEG 1 Layer 3
     sampleRate: 44100
     numberOfChannels: 2
+    bitrate: 128000
     codecProfile: CBR
     numberOfSamples: 15350400
     duration: 348.0816326530612
@@ -314,7 +353,9 @@ nextTrack:
       - id: TDRC
         value: '2012-09-06'
       - id: WOAS
-        value: 'https://archive.org/compress/BPIST007'
+        value: 'https://archive.org/details/BPIST007'
+  quality:
+    warnings: []
   common:
     track:
       'no': 1
@@ -384,24 +425,58 @@ nextTrack:
       TSOP: Sakrecoer
       TRCK: 1/8
       TDRC: '2012-09-06'
-      WOAS: 'https://archive.org/compress/BPIST007'
+      WOAS: 'https://archive.org/details/BPIST007'
+  all:
+    TCON: Electronic
+    c0: basspistol.com sakrecoer.com
+    TIT2: Subway
+    RELEASECOUNTRY: XW
+    LABEL: Basspistol
+    MUSICBRAINZ_RELEASETRACKID: 7be4dcf5-b3ad-442a-8e3b-b5dd4ba3e08b
+    ORIGINALDATE: '2012-09-06'
+    MUSICBRAINZ_RELEASEGROUPID: 8d268171-8291-4d6f-9c77-a3813b2b4232
+    RELEASESTATUS: official
+    ACOUSTID_ID: 59a04532-6a72-405d-96eb-4c17e7537470
+    CATALOGNUMBER: BPIST007
+    MEDIA: Digital Media
+    RELEASETYPE: album
+    ORIGINALYEAR: '2012'
+    ARTISTS: Simio Sakrecoer
+    'TXXX:MusicBrainz Album Artist Id': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
+    'TXXX:musicbrainz_albumartistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
+    TPOS: 1/1
+    'TXXX:MusicBrainz Album Id': 17aea68f-34ed-4abf-83a4-68c28b3ec2da
+    'TXXX:musicbrainz_albumid': 17aea68f-34ed-4abf-83a4-68c28b3ec2da
+    TPE2: Simio Sakrecoer
+    TALB: The House of Set
+    'TXXX:MusicBrainz Artist Id': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
+    'TXXX:musicbrainz_artistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
+    TPE1: Simio Sakrecoer
+    UFID: *ref_1
+    TSOP: Sakrecoer
+    TRCK: 1/8
+    TDRC: '2012-09-06'
+    WOAS: 'https://archive.org/details/BPIST007'
 previousTrack:
   path: >-
-    /Users/set/Desktop/publikator_test/assets/albums/the-house-of-set/7-transcend-hip-hop.mp3
+    /home/set/git/basspistol/basspistol.com/assets/albums/the-house-of-set/7-transcend-hip-hop.mp3
   audio: /assets/albums/the-house-of-set/7-transcend-hip-hop.mp3
+  slug: the-house-of-set/7-transcend-hip-hop
   albumSlug: the-house-of-set
-  slug: 7-transcend-hip-hop
+  trackSlug: 7-transcend-hip-hop
   coverPath: >-
-    /Users/set/Desktop/publikator_test/assets/albums/the-house-of-set/7-transcend-hip-hop.jpeg
+    /home/set/git/basspistol/basspistol.com/assets/albums/the-house-of-set/7-transcend-hip-hop.jpeg
   cover: /assets/albums/the-house-of-set/7-transcend-hip-hop.jpeg
   format:
     tagTypes:
       - ID3v2.4
+    trackInfo: []
     lossless: false
-    dataformat: mp3
-    bitrate: 128000
+    container: MPEG
+    codec: MPEG 1 Layer 3
     sampleRate: 44100
     numberOfChannels: 2
+    bitrate: 128000
     codecProfile: CBR
     numberOfSamples: 14909184
     duration: 338.07673469387754
@@ -507,7 +582,9 @@ previousTrack:
       - id: TDRC
         value: '2012-09-06'
       - id: WOAS
-        value: 'https://archive.org/compress/BPIST007'
+        value: 'https://archive.org/details/BPIST007'
+  quality:
+    warnings: []
   common:
     track:
       'no': 7
@@ -577,5 +654,36 @@ previousTrack:
       TSOP: Sakrecoer
       TRCK: 7/8
       TDRC: '2012-09-06'
-      WOAS: 'https://archive.org/compress/BPIST007'
+      WOAS: 'https://archive.org/details/BPIST007'
+  all:
+    TCON: Electronic
+    c0: basspistol.com sakrecoer.com
+    TIT2: Transcend Hip Hop
+    RELEASECOUNTRY: XW
+    LABEL: Basspistol
+    MUSICBRAINZ_RELEASETRACKID: 480e3ad8-de18-42f7-9fc1-cc305b870274
+    ORIGINALDATE: '2012-09-06'
+    MUSICBRAINZ_RELEASEGROUPID: 8d268171-8291-4d6f-9c77-a3813b2b4232
+    RELEASESTATUS: official
+    ACOUSTID_ID: dfaa86bd-e0c8-42ac-9825-5a396bbb1096
+    CATALOGNUMBER: BPIST007
+    MEDIA: Digital Media
+    RELEASETYPE: album
+    ORIGINALYEAR: '2012'
+    ARTISTS: Simio Sakrecoer
+    'TXXX:MusicBrainz Album Artist Id': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
+    'TXXX:musicbrainz_albumartistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
+    TPOS: 1/1
+    'TXXX:MusicBrainz Album Id': 17aea68f-34ed-4abf-83a4-68c28b3ec2da
+    'TXXX:musicbrainz_albumid': 17aea68f-34ed-4abf-83a4-68c28b3ec2da
+    TPE2: Simio Sakrecoer
+    TALB: The House of Set
+    'TXXX:MusicBrainz Artist Id': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
+    'TXXX:musicbrainz_artistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
+    TPE1: Simio Sakrecoer
+    UFID: *ref_2
+    TSOP: Sakrecoer
+    TRCK: 7/8
+    TDRC: '2012-09-06'
+    WOAS: 'https://archive.org/details/BPIST007'
 ---

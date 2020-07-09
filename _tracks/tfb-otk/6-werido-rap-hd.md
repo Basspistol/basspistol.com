@@ -1,19 +1,24 @@
 ---
 layout: track
-path: /Users/set/Desktop/publikator_test/assets/albums/tfb-otk/6-werido-rap-hd.mp3
+path: >-
+  /home/set/git/basspistol/basspistol.com/assets/albums/tfb-otk/6-werido-rap-hd.mp3
 audio: /assets/albums/tfb-otk/6-werido-rap-hd.mp3
+slug: tfb-otk/6-werido-rap-hd
 albumSlug: tfb-otk
-slug: 6-werido-rap-hd
-coverPath: /Users/set/Desktop/publikator_test/assets/albums/tfb-otk/6-werido-rap-hd.jpeg
+trackSlug: 6-werido-rap-hd
+coverPath: >-
+  /home/set/git/basspistol/basspistol.com/assets/albums/tfb-otk/6-werido-rap-hd.jpeg
 cover: /assets/albums/tfb-otk/6-werido-rap-hd.jpeg
 format:
   tagTypes:
     - ID3v2.4
+  trackInfo: []
   lossless: false
-  dataformat: mp3
-  bitrate: 128000
+  container: MPEG
+  codec: MPEG 1 Layer 3
   sampleRate: 44100
   numberOfChannels: 2
+  bitrate: 128000
   codecProfile: CBR
   numberOfSamples: 7849728
   duration: 177.99836734693878
@@ -117,7 +122,9 @@ native:
     - id: TDRC
       value: '2013-01-01'
     - id: WOAS
-      value: 'https://archive.org/compress/BPIST013'
+      value: 'https://archive.org/details/BPIST013'
+quality:
+  warnings: []
 common:
   track:
     'no': 6
@@ -184,22 +191,57 @@ transformed:
     TSOP: 'Fraglebay, The'
     TRCK: 6/10
     TDRC: '2013-01-01'
-    WOAS: 'https://archive.org/compress/BPIST013'
+    WOAS: 'https://archive.org/details/BPIST013'
+all:
+  c0: basspistol.com
+  TIT2: Werido Rap HD
+  RELEASECOUNTRY: XW
+  LABEL: Basspistol
+  MUSICBRAINZ_RELEASETRACKID: 47c6d61e-969f-4de2-9d20-da3afa85032f
+  ORIGINALDATE: '2013-01-01'
+  MUSICBRAINZ_RELEASEGROUPID: c43a1bb8-d141-4dc0-aa55-6f6e66952f09
+  RELEASESTATUS: official
+  ACOUSTID_ID: 58d5a026-f089-45c2-892f-4f8afa914b84
+  CATALOGNUMBER: BPIST013
+  MEDIA: Digital Media
+  RELEASETYPE: album
+  ORIGINALYEAR: '2013'
+  ARTISTS: The Fraglebay
+  'TXXX:MusicBrainz Album Artist Id': 3e250a22-ed45-41f7-ab07-ac8f7b4cf1c7
+  'TXXX:musicbrainz_albumartistid': 3e250a22-ed45-41f7-ab07-ac8f7b4cf1c7
+  TPOS: 1/1
+  'TXXX:MusicBrainz Album Id': 077bef9a-b91e-4f48-a5f7-8e8089287392
+  'TXXX:musicbrainz_albumid': 077bef9a-b91e-4f48-a5f7-8e8089287392
+  TPE2: The Fraglebay
+  TALB: TFB-OTK
+  'TXXX:MusicBrainz Artist Id': 3e250a22-ed45-41f7-ab07-ac8f7b4cf1c7
+  'TXXX:musicbrainz_artistid': 3e250a22-ed45-41f7-ab07-ac8f7b4cf1c7
+  TPE1: The Fraglebay
+  UFID: *ref_0
+  TSOP: 'Fraglebay, The'
+  TRCK: 6/10
+  TDRC: '2013-01-01'
+  WOAS: 'https://archive.org/details/BPIST013'
 nextTrack:
-  path: /Users/set/Desktop/publikator_test/assets/albums/tfb-otk/7-about-cherry.mp3
+  path: >-
+    /home/set/git/basspistol/basspistol.com/assets/albums/tfb-otk/7-about-cherry.mp3
   audio: /assets/albums/tfb-otk/7-about-cherry.mp3
+  slug: tfb-otk/7-about-cherry
   albumSlug: tfb-otk
-  slug: 7-about-cherry
-  coverPath: /Users/set/Desktop/publikator_test/assets/albums/tfb-otk/7-about-cherry.jpeg
+  trackSlug: 7-about-cherry
+  coverPath: >-
+    /home/set/git/basspistol/basspistol.com/assets/albums/tfb-otk/7-about-cherry.jpeg
   cover: /assets/albums/tfb-otk/7-about-cherry.jpeg
   format:
     tagTypes:
       - ID3v2.4
+    trackInfo: []
     lossless: false
-    dataformat: mp3
-    bitrate: 128000
+    container: MPEG
+    codec: MPEG 1 Layer 3
     sampleRate: 44100
     numberOfChannels: 2
+    bitrate: 128000
     codecProfile: CBR
     numberOfSamples: 12818304
     duration: 290.66448979591837
@@ -303,7 +345,9 @@ nextTrack:
       - id: TDRC
         value: '2013-01-01'
       - id: WOAS
-        value: 'https://archive.org/compress/BPIST013'
+        value: 'https://archive.org/details/BPIST013'
+  quality:
+    warnings: []
   common:
     track:
       'no': 7
@@ -370,24 +414,57 @@ nextTrack:
       TSOP: 'Fraglebay, The'
       TRCK: 7/10
       TDRC: '2013-01-01'
-      WOAS: 'https://archive.org/compress/BPIST013'
+      WOAS: 'https://archive.org/details/BPIST013'
+  all:
+    c0: basspistol.com
+    TIT2: About Cherry
+    RELEASECOUNTRY: XW
+    LABEL: Basspistol
+    MUSICBRAINZ_RELEASETRACKID: 9dbd434c-84c2-47f3-aa01-d2fb51058443
+    ORIGINALDATE: '2013-01-01'
+    MUSICBRAINZ_RELEASEGROUPID: c43a1bb8-d141-4dc0-aa55-6f6e66952f09
+    RELEASESTATUS: official
+    ACOUSTID_ID: 6a97b82e-162e-4fff-9cba-7633e06af6da
+    CATALOGNUMBER: BPIST013
+    MEDIA: Digital Media
+    RELEASETYPE: album
+    ORIGINALYEAR: '2013'
+    ARTISTS: The Fraglebay
+    'TXXX:MusicBrainz Album Artist Id': 3e250a22-ed45-41f7-ab07-ac8f7b4cf1c7
+    'TXXX:musicbrainz_albumartistid': 3e250a22-ed45-41f7-ab07-ac8f7b4cf1c7
+    TPOS: 1/1
+    'TXXX:MusicBrainz Album Id': 077bef9a-b91e-4f48-a5f7-8e8089287392
+    'TXXX:musicbrainz_albumid': 077bef9a-b91e-4f48-a5f7-8e8089287392
+    TPE2: The Fraglebay
+    TALB: TFB-OTK
+    'TXXX:MusicBrainz Artist Id': 3e250a22-ed45-41f7-ab07-ac8f7b4cf1c7
+    'TXXX:musicbrainz_artistid': 3e250a22-ed45-41f7-ab07-ac8f7b4cf1c7
+    TPE1: The Fraglebay
+    UFID: *ref_1
+    TSOP: 'Fraglebay, The'
+    TRCK: 7/10
+    TDRC: '2013-01-01'
+    WOAS: 'https://archive.org/details/BPIST013'
 previousTrack:
   path: >-
-    /Users/set/Desktop/publikator_test/assets/albums/tfb-otk/5-robot-is-a-computer.mp3
+    /home/set/git/basspistol/basspistol.com/assets/albums/tfb-otk/5-robot-is-a-computer.mp3
   audio: /assets/albums/tfb-otk/5-robot-is-a-computer.mp3
+  slug: tfb-otk/5-robot-is-a-computer
   albumSlug: tfb-otk
-  slug: 5-robot-is-a-computer
+  trackSlug: 5-robot-is-a-computer
   coverPath: >-
-    /Users/set/Desktop/publikator_test/assets/albums/tfb-otk/5-robot-is-a-computer.jpeg
+    /home/set/git/basspistol/basspistol.com/assets/albums/tfb-otk/5-robot-is-a-computer.jpeg
   cover: /assets/albums/tfb-otk/5-robot-is-a-computer.jpeg
   format:
     tagTypes:
       - ID3v2.4
+    trackInfo: []
     lossless: false
-    dataformat: mp3
-    bitrate: 128000
+    container: MPEG
+    codec: MPEG 1 Layer 3
     sampleRate: 44100
     numberOfChannels: 2
+    bitrate: 128000
     codecProfile: CBR
     numberOfSamples: 8066304
     duration: 182.90938775510205
@@ -491,7 +568,9 @@ previousTrack:
       - id: TDRC
         value: '2013-01-01'
       - id: WOAS
-        value: 'https://archive.org/compress/BPIST013'
+        value: 'https://archive.org/details/BPIST013'
+  quality:
+    warnings: []
   common:
     track:
       'no': 5
@@ -558,5 +637,35 @@ previousTrack:
       TSOP: 'Fraglebay, The'
       TRCK: 5/10
       TDRC: '2013-01-01'
-      WOAS: 'https://archive.org/compress/BPIST013'
+      WOAS: 'https://archive.org/details/BPIST013'
+  all:
+    c0: basspistol.com
+    TIT2: Robot Is A Computer
+    RELEASECOUNTRY: XW
+    LABEL: Basspistol
+    MUSICBRAINZ_RELEASETRACKID: 0a7a1982-2eee-443f-a250-33a6423423ff
+    ORIGINALDATE: '2013-01-01'
+    MUSICBRAINZ_RELEASEGROUPID: c43a1bb8-d141-4dc0-aa55-6f6e66952f09
+    RELEASESTATUS: official
+    ACOUSTID_ID: 94b7f826-745e-4753-b04f-7721e42a75f1
+    CATALOGNUMBER: BPIST013
+    MEDIA: Digital Media
+    RELEASETYPE: album
+    ORIGINALYEAR: '2013'
+    ARTISTS: The Fraglebay
+    'TXXX:MusicBrainz Album Artist Id': 3e250a22-ed45-41f7-ab07-ac8f7b4cf1c7
+    'TXXX:musicbrainz_albumartistid': 3e250a22-ed45-41f7-ab07-ac8f7b4cf1c7
+    TPOS: 1/1
+    'TXXX:MusicBrainz Album Id': 077bef9a-b91e-4f48-a5f7-8e8089287392
+    'TXXX:musicbrainz_albumid': 077bef9a-b91e-4f48-a5f7-8e8089287392
+    TPE2: The Fraglebay
+    TALB: TFB-OTK
+    'TXXX:MusicBrainz Artist Id': 3e250a22-ed45-41f7-ab07-ac8f7b4cf1c7
+    'TXXX:musicbrainz_artistid': 3e250a22-ed45-41f7-ab07-ac8f7b4cf1c7
+    TPE1: The Fraglebay
+    UFID: *ref_2
+    TSOP: 'Fraglebay, The'
+    TRCK: 5/10
+    TDRC: '2013-01-01'
+    WOAS: 'https://archive.org/details/BPIST013'
 ---

@@ -1,20 +1,25 @@
 ---
 layout: track
-path: /Users/set/Desktop/publikator_test/assets/albums/musical-tourism/6-ninza.mp3
+path: >-
+  /home/set/git/basspistol/basspistol.com/assets/albums/musical-tourism/6-ninza.mp3
 audio: /assets/albums/musical-tourism/6-ninza.mp3
+slug: musical-tourism/6-ninza
 albumSlug: musical-tourism
-slug: 6-ninza
-coverPath: /Users/set/Desktop/publikator_test/assets/albums/musical-tourism/6-ninza.jpeg
+trackSlug: 6-ninza
+coverPath: >-
+  /home/set/git/basspistol/basspistol.com/assets/albums/musical-tourism/6-ninza.jpeg
 cover: /assets/albums/musical-tourism/6-ninza.jpeg
 format:
   tagTypes:
     - ID3v2.4
+  trackInfo: []
   lossless: false
-  dataformat: mp3
-  bitrate: 128000
+  container: MPEG
+  codec: MPEG 1 Layer 3
   sampleRate: 44100
   numberOfChannels: 2
-  encoder: LAME 3.99.5
+  bitrate: 128000
+  tool: LAME 3.99.5
   codecProfile: CBR
   numberOfSamples: 13999104
   duration: 317.44
@@ -120,7 +125,9 @@ native:
     - id: TDRC
       value: '2010-02-01'
     - id: WOAS
-      value: 'https://archive.org/compress/BPIST002'
+      value: 'https://archive.org/details/BPIST002'
+quality:
+  warnings: []
 common:
   track:
     'no': 6
@@ -190,24 +197,58 @@ transformed:
     TSOP: Synapset
     TRCK: 6/9
     TDRC: '2010-02-01'
-    WOAS: 'https://archive.org/compress/BPIST002'
+    WOAS: 'https://archive.org/details/BPIST002'
+all:
+  c0: www.basspistol.com
+  TCON: KickNBase
+  TIT2: Ninza
+  RELEASECOUNTRY: XW
+  LABEL: Basspistol
+  MUSICBRAINZ_RELEASETRACKID: e6806459-5709-4620-b4fe-802d55150aba
+  ORIGINALDATE: '2010-02-01'
+  MUSICBRAINZ_RELEASEGROUPID: 9cb26b80-6276-4ede-b477-13658b4857c9
+  RELEASESTATUS: official
+  ACOUSTID_ID: 6a923b2f-8ad2-4733-a47b-c47a9195ebd9
+  CATALOGNUMBER: BPIST002
+  MEDIA: Digital Media
+  RELEASETYPE: album
+  ORIGINALYEAR: '2010'
+  ARTISTS: Synapset
+  'TXXX:MusicBrainz Album Artist Id': a0dd2f36-1681-4bc0-970e-06a0450e16ec
+  'TXXX:musicbrainz_albumartistid': a0dd2f36-1681-4bc0-970e-06a0450e16ec
+  TPOS: 1/1
+  'TXXX:MusicBrainz Album Id': f075c9ac-b741-459e-a0a3-c00fe3004030
+  'TXXX:musicbrainz_albumid': f075c9ac-b741-459e-a0a3-c00fe3004030
+  TPE2: Synapset
+  TALB: Musical Tourism
+  'TXXX:MusicBrainz Artist Id': a0dd2f36-1681-4bc0-970e-06a0450e16ec
+  'TXXX:musicbrainz_artistid': a0dd2f36-1681-4bc0-970e-06a0450e16ec
+  TPE1: Synapset
+  UFID: *ref_0
+  TSOP: Synapset
+  TRCK: 6/9
+  TDRC: '2010-02-01'
+  WOAS: 'https://archive.org/details/BPIST002'
 nextTrack:
   path: >-
-    /Users/set/Desktop/publikator_test/assets/albums/musical-tourism/7-afro-kraut-techno.mp3
+    /home/set/git/basspistol/basspistol.com/assets/albums/musical-tourism/7-afro-kraut-techno.mp3
   audio: /assets/albums/musical-tourism/7-afro-kraut-techno.mp3
+  slug: musical-tourism/7-afro-kraut-techno
   albumSlug: musical-tourism
-  slug: 7-afro-kraut-techno
+  trackSlug: 7-afro-kraut-techno
   coverPath: >-
-    /Users/set/Desktop/publikator_test/assets/albums/musical-tourism/7-afro-kraut-techno.jpeg
+    /home/set/git/basspistol/basspistol.com/assets/albums/musical-tourism/7-afro-kraut-techno.jpeg
   cover: /assets/albums/musical-tourism/7-afro-kraut-techno.jpeg
   format:
     tagTypes:
       - ID3v2.4
+    trackInfo: []
     lossless: false
-    dataformat: mp3
-    bitrate: 128000
+    container: MPEG
+    codec: MPEG 1 Layer 3
     sampleRate: 44100
     numberOfChannels: 2
+    bitrate: 128000
     codecProfile: CBR
     numberOfSamples: 11984256
     duration: 271.7518367346939
@@ -313,7 +354,9 @@ nextTrack:
       - id: TDRC
         value: '2010-02-01'
       - id: WOAS
-        value: 'https://archive.org/compress/BPIST002'
+        value: 'https://archive.org/details/BPIST002'
+  quality:
+    warnings: []
   common:
     track:
       'no': 7
@@ -383,24 +426,58 @@ nextTrack:
       TSOP: Synapset
       TRCK: 7/9
       TDRC: '2010-02-01'
-      WOAS: 'https://archive.org/compress/BPIST002'
+      WOAS: 'https://archive.org/details/BPIST002'
+  all:
+    c0: www.basspistol.com
+    TCON: KickNBase
+    TIT2: Afro Kraut Techno
+    RELEASECOUNTRY: XW
+    LABEL: Basspistol
+    MUSICBRAINZ_RELEASETRACKID: 042180ac-c968-473f-897e-362f652fdbd9
+    ORIGINALDATE: '2010-02-01'
+    MUSICBRAINZ_RELEASEGROUPID: 9cb26b80-6276-4ede-b477-13658b4857c9
+    RELEASESTATUS: official
+    ACOUSTID_ID: 061a59b4-cdda-4864-90ef-15044b3bf32f
+    CATALOGNUMBER: BPIST002
+    MEDIA: Digital Media
+    RELEASETYPE: album
+    ORIGINALYEAR: '2010'
+    ARTISTS: Synapset
+    'TXXX:MusicBrainz Album Artist Id': a0dd2f36-1681-4bc0-970e-06a0450e16ec
+    'TXXX:musicbrainz_albumartistid': a0dd2f36-1681-4bc0-970e-06a0450e16ec
+    TPOS: 1/1
+    'TXXX:MusicBrainz Album Id': f075c9ac-b741-459e-a0a3-c00fe3004030
+    'TXXX:musicbrainz_albumid': f075c9ac-b741-459e-a0a3-c00fe3004030
+    TPE2: Synapset
+    TALB: Musical Tourism
+    'TXXX:MusicBrainz Artist Id': a0dd2f36-1681-4bc0-970e-06a0450e16ec
+    'TXXX:musicbrainz_artistid': a0dd2f36-1681-4bc0-970e-06a0450e16ec
+    TPE1: Synapset
+    UFID: *ref_1
+    TSOP: Synapset
+    TRCK: 7/9
+    TDRC: '2010-02-01'
+    WOAS: 'https://archive.org/details/BPIST002'
 previousTrack:
   path: >-
-    /Users/set/Desktop/publikator_test/assets/albums/musical-tourism/5-zapoj-of-the-exotic-viking.mp3
+    /home/set/git/basspistol/basspistol.com/assets/albums/musical-tourism/5-zapoj-of-the-exotic-viking.mp3
   audio: /assets/albums/musical-tourism/5-zapoj-of-the-exotic-viking.mp3
+  slug: musical-tourism/5-zapoj-of-the-exotic-viking
   albumSlug: musical-tourism
-  slug: 5-zapoj-of-the-exotic-viking
+  trackSlug: 5-zapoj-of-the-exotic-viking
   coverPath: >-
-    /Users/set/Desktop/publikator_test/assets/albums/musical-tourism/5-zapoj-of-the-exotic-viking.jpeg
+    /home/set/git/basspistol/basspistol.com/assets/albums/musical-tourism/5-zapoj-of-the-exotic-viking.jpeg
   cover: /assets/albums/musical-tourism/5-zapoj-of-the-exotic-viking.jpeg
   format:
     tagTypes:
       - ID3v2.4
+    trackInfo: []
     lossless: false
-    dataformat: mp3
-    bitrate: 128000
+    container: MPEG
+    codec: MPEG 1 Layer 3
     sampleRate: 44100
     numberOfChannels: 2
+    bitrate: 128000
     codecProfile: CBR
     numberOfSamples: 11473920
     duration: 260.1795918367347
@@ -506,7 +583,9 @@ previousTrack:
       - id: TDRC
         value: '2010-02-01'
       - id: WOAS
-        value: 'https://archive.org/compress/BPIST002'
+        value: 'https://archive.org/details/BPIST002'
+  quality:
+    warnings: []
   common:
     track:
       'no': 5
@@ -576,5 +655,36 @@ previousTrack:
       TSOP: Synapset
       TRCK: 5/9
       TDRC: '2010-02-01'
-      WOAS: 'https://archive.org/compress/BPIST002'
+      WOAS: 'https://archive.org/details/BPIST002'
+  all:
+    c0: www.basspistol.com
+    TCON: KickNBase
+    TIT2: Zapoj Of The Exotic Viking
+    RELEASECOUNTRY: XW
+    LABEL: Basspistol
+    MUSICBRAINZ_RELEASETRACKID: 22f2a9e3-2be2-45ca-9270-93db7806e97b
+    ORIGINALDATE: '2010-02-01'
+    MUSICBRAINZ_RELEASEGROUPID: 9cb26b80-6276-4ede-b477-13658b4857c9
+    RELEASESTATUS: official
+    ACOUSTID_ID: 3c7e8b8a-e85d-4fe5-bfb9-16b32c810c83
+    CATALOGNUMBER: BPIST002
+    MEDIA: Digital Media
+    RELEASETYPE: album
+    ORIGINALYEAR: '2010'
+    ARTISTS: Synapset
+    'TXXX:MusicBrainz Album Artist Id': a0dd2f36-1681-4bc0-970e-06a0450e16ec
+    'TXXX:musicbrainz_albumartistid': a0dd2f36-1681-4bc0-970e-06a0450e16ec
+    TPOS: 1/1
+    'TXXX:MusicBrainz Album Id': f075c9ac-b741-459e-a0a3-c00fe3004030
+    'TXXX:musicbrainz_albumid': f075c9ac-b741-459e-a0a3-c00fe3004030
+    TPE2: Synapset
+    TALB: Musical Tourism
+    'TXXX:MusicBrainz Artist Id': a0dd2f36-1681-4bc0-970e-06a0450e16ec
+    'TXXX:musicbrainz_artistid': a0dd2f36-1681-4bc0-970e-06a0450e16ec
+    TPE1: Synapset
+    UFID: *ref_2
+    TSOP: Synapset
+    TRCK: 5/9
+    TDRC: '2010-02-01'
+    WOAS: 'https://archive.org/details/BPIST002'
 ---

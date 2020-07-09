@@ -1,21 +1,24 @@
 ---
 layout: track
 path: >-
-  /Users/set/Desktop/publikator_test/assets/albums/musical-tourism/8-off-course-noise.mp3
+  /home/set/git/basspistol/basspistol.com/assets/albums/musical-tourism/8-off-course-noise.mp3
 audio: /assets/albums/musical-tourism/8-off-course-noise.mp3
+slug: musical-tourism/8-off-course-noise
 albumSlug: musical-tourism
-slug: 8-off-course-noise
+trackSlug: 8-off-course-noise
 coverPath: >-
-  /Users/set/Desktop/publikator_test/assets/albums/musical-tourism/8-off-course-noise.jpeg
+  /home/set/git/basspistol/basspistol.com/assets/albums/musical-tourism/8-off-course-noise.jpeg
 cover: /assets/albums/musical-tourism/8-off-course-noise.jpeg
 format:
   tagTypes:
     - ID3v2.4
+  trackInfo: []
   lossless: false
-  dataformat: mp3
-  bitrate: 128000
+  container: MPEG
+  codec: MPEG 1 Layer 3
   sampleRate: 44100
   numberOfChannels: 2
+  bitrate: 128000
   codecProfile: CBR
   numberOfSamples: 12737664
   duration: 288.83591836734695
@@ -121,7 +124,9 @@ native:
     - id: TDRC
       value: '2010-02-01'
     - id: WOAS
-      value: 'https://archive.org/compress/BPIST002'
+      value: 'https://archive.org/details/BPIST002'
+quality:
+  warnings: []
 common:
   track:
     'no': 8
@@ -191,24 +196,58 @@ transformed:
     TSOP: Synapset
     TRCK: 8/9
     TDRC: '2010-02-01'
-    WOAS: 'https://archive.org/compress/BPIST002'
+    WOAS: 'https://archive.org/details/BPIST002'
+all:
+  c0: www.basspistol.com
+  TCON: KickNBase
+  TIT2: Off Course Noise
+  RELEASECOUNTRY: XW
+  LABEL: Basspistol
+  MUSICBRAINZ_RELEASETRACKID: 6de10409-e905-43f9-ab67-657705cbd312
+  ORIGINALDATE: '2010-02-01'
+  MUSICBRAINZ_RELEASEGROUPID: 9cb26b80-6276-4ede-b477-13658b4857c9
+  RELEASESTATUS: official
+  ACOUSTID_ID: d221fb13-d6d4-44d9-8643-398756ce1e10
+  CATALOGNUMBER: BPIST002
+  MEDIA: Digital Media
+  RELEASETYPE: album
+  ORIGINALYEAR: '2010'
+  ARTISTS: Synapset
+  'TXXX:MusicBrainz Album Artist Id': a0dd2f36-1681-4bc0-970e-06a0450e16ec
+  'TXXX:musicbrainz_albumartistid': a0dd2f36-1681-4bc0-970e-06a0450e16ec
+  TPOS: 1/1
+  'TXXX:MusicBrainz Album Id': f075c9ac-b741-459e-a0a3-c00fe3004030
+  'TXXX:musicbrainz_albumid': f075c9ac-b741-459e-a0a3-c00fe3004030
+  TPE2: Synapset
+  TALB: Musical Tourism
+  'TXXX:MusicBrainz Artist Id': a0dd2f36-1681-4bc0-970e-06a0450e16ec
+  'TXXX:musicbrainz_artistid': a0dd2f36-1681-4bc0-970e-06a0450e16ec
+  TPE1: Synapset
+  UFID: *ref_0
+  TSOP: Synapset
+  TRCK: 8/9
+  TDRC: '2010-02-01'
+  WOAS: 'https://archive.org/details/BPIST002'
 nextTrack:
   path: >-
-    /Users/set/Desktop/publikator_test/assets/albums/musical-tourism/9-goodmorning.mp3
+    /home/set/git/basspistol/basspistol.com/assets/albums/musical-tourism/9-goodmorning.mp3
   audio: /assets/albums/musical-tourism/9-goodmorning.mp3
+  slug: musical-tourism/9-goodmorning
   albumSlug: musical-tourism
-  slug: 9-goodmorning
+  trackSlug: 9-goodmorning
   coverPath: >-
-    /Users/set/Desktop/publikator_test/assets/albums/musical-tourism/9-goodmorning.jpeg
+    /home/set/git/basspistol/basspistol.com/assets/albums/musical-tourism/9-goodmorning.jpeg
   cover: /assets/albums/musical-tourism/9-goodmorning.jpeg
   format:
     tagTypes:
       - ID3v2.4
+    trackInfo: []
     lossless: false
-    dataformat: mp3
-    bitrate: 128000
+    container: MPEG
+    codec: MPEG 1 Layer 3
     sampleRate: 44100
     numberOfChannels: 2
+    bitrate: 128000
     codecProfile: CBR
     numberOfSamples: 10832256
     duration: 245.62938775510204
@@ -314,7 +353,9 @@ nextTrack:
       - id: TDRC
         value: '2010-02-01'
       - id: WOAS
-        value: 'https://archive.org/compress/BPIST002'
+        value: 'https://archive.org/details/BPIST002'
+  quality:
+    warnings: []
   common:
     track:
       'no': 9
@@ -384,24 +425,58 @@ nextTrack:
       TSOP: Synapset
       TRCK: 9/9
       TDRC: '2010-02-01'
-      WOAS: 'https://archive.org/compress/BPIST002'
+      WOAS: 'https://archive.org/details/BPIST002'
+  all:
+    c0: www.basspistol.com
+    TCON: KickNBase
+    TIT2: Goodmorning
+    RELEASECOUNTRY: XW
+    LABEL: Basspistol
+    MUSICBRAINZ_RELEASETRACKID: 8d508488-04fa-42fd-bca8-e844a2ba7b78
+    ORIGINALDATE: '2010-02-01'
+    MUSICBRAINZ_RELEASEGROUPID: 9cb26b80-6276-4ede-b477-13658b4857c9
+    RELEASESTATUS: official
+    ACOUSTID_ID: f8ca49b4-ed97-4f49-9da2-ce9f779a2508
+    CATALOGNUMBER: BPIST002
+    MEDIA: Digital Media
+    RELEASETYPE: album
+    ORIGINALYEAR: '2010'
+    ARTISTS: Synapset
+    'TXXX:MusicBrainz Album Artist Id': a0dd2f36-1681-4bc0-970e-06a0450e16ec
+    'TXXX:musicbrainz_albumartistid': a0dd2f36-1681-4bc0-970e-06a0450e16ec
+    TPOS: 1/1
+    'TXXX:MusicBrainz Album Id': f075c9ac-b741-459e-a0a3-c00fe3004030
+    'TXXX:musicbrainz_albumid': f075c9ac-b741-459e-a0a3-c00fe3004030
+    TPE2: Synapset
+    TALB: Musical Tourism
+    'TXXX:MusicBrainz Artist Id': a0dd2f36-1681-4bc0-970e-06a0450e16ec
+    'TXXX:musicbrainz_artistid': a0dd2f36-1681-4bc0-970e-06a0450e16ec
+    TPE1: Synapset
+    UFID: *ref_1
+    TSOP: Synapset
+    TRCK: 9/9
+    TDRC: '2010-02-01'
+    WOAS: 'https://archive.org/details/BPIST002'
 previousTrack:
   path: >-
-    /Users/set/Desktop/publikator_test/assets/albums/musical-tourism/7-afro-kraut-techno.mp3
+    /home/set/git/basspistol/basspistol.com/assets/albums/musical-tourism/7-afro-kraut-techno.mp3
   audio: /assets/albums/musical-tourism/7-afro-kraut-techno.mp3
+  slug: musical-tourism/7-afro-kraut-techno
   albumSlug: musical-tourism
-  slug: 7-afro-kraut-techno
+  trackSlug: 7-afro-kraut-techno
   coverPath: >-
-    /Users/set/Desktop/publikator_test/assets/albums/musical-tourism/7-afro-kraut-techno.jpeg
+    /home/set/git/basspistol/basspistol.com/assets/albums/musical-tourism/7-afro-kraut-techno.jpeg
   cover: /assets/albums/musical-tourism/7-afro-kraut-techno.jpeg
   format:
     tagTypes:
       - ID3v2.4
+    trackInfo: []
     lossless: false
-    dataformat: mp3
-    bitrate: 128000
+    container: MPEG
+    codec: MPEG 1 Layer 3
     sampleRate: 44100
     numberOfChannels: 2
+    bitrate: 128000
     codecProfile: CBR
     numberOfSamples: 11984256
     duration: 271.7518367346939
@@ -507,7 +582,9 @@ previousTrack:
       - id: TDRC
         value: '2010-02-01'
       - id: WOAS
-        value: 'https://archive.org/compress/BPIST002'
+        value: 'https://archive.org/details/BPIST002'
+  quality:
+    warnings: []
   common:
     track:
       'no': 7
@@ -577,5 +654,36 @@ previousTrack:
       TSOP: Synapset
       TRCK: 7/9
       TDRC: '2010-02-01'
-      WOAS: 'https://archive.org/compress/BPIST002'
+      WOAS: 'https://archive.org/details/BPIST002'
+  all:
+    c0: www.basspistol.com
+    TCON: KickNBase
+    TIT2: Afro Kraut Techno
+    RELEASECOUNTRY: XW
+    LABEL: Basspistol
+    MUSICBRAINZ_RELEASETRACKID: 042180ac-c968-473f-897e-362f652fdbd9
+    ORIGINALDATE: '2010-02-01'
+    MUSICBRAINZ_RELEASEGROUPID: 9cb26b80-6276-4ede-b477-13658b4857c9
+    RELEASESTATUS: official
+    ACOUSTID_ID: 061a59b4-cdda-4864-90ef-15044b3bf32f
+    CATALOGNUMBER: BPIST002
+    MEDIA: Digital Media
+    RELEASETYPE: album
+    ORIGINALYEAR: '2010'
+    ARTISTS: Synapset
+    'TXXX:MusicBrainz Album Artist Id': a0dd2f36-1681-4bc0-970e-06a0450e16ec
+    'TXXX:musicbrainz_albumartistid': a0dd2f36-1681-4bc0-970e-06a0450e16ec
+    TPOS: 1/1
+    'TXXX:MusicBrainz Album Id': f075c9ac-b741-459e-a0a3-c00fe3004030
+    'TXXX:musicbrainz_albumid': f075c9ac-b741-459e-a0a3-c00fe3004030
+    TPE2: Synapset
+    TALB: Musical Tourism
+    'TXXX:MusicBrainz Artist Id': a0dd2f36-1681-4bc0-970e-06a0450e16ec
+    'TXXX:musicbrainz_artistid': a0dd2f36-1681-4bc0-970e-06a0450e16ec
+    TPE1: Synapset
+    UFID: *ref_2
+    TSOP: Synapset
+    TRCK: 7/9
+    TDRC: '2010-02-01'
+    WOAS: 'https://archive.org/details/BPIST002'
 ---

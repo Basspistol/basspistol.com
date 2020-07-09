@@ -1,19 +1,22 @@
 ---
 layout: track
-path: /Users/set/Desktop/publikator_test/assets/albums/tfb-otk/10-tfb-otk.mp3
+path: /home/set/git/basspistol/basspistol.com/assets/albums/tfb-otk/10-tfb-otk.mp3
 audio: /assets/albums/tfb-otk/10-tfb-otk.mp3
+slug: tfb-otk/10-tfb-otk
 albumSlug: tfb-otk
-slug: 10-tfb-otk
-coverPath: /Users/set/Desktop/publikator_test/assets/albums/tfb-otk/10-tfb-otk.jpeg
+trackSlug: 10-tfb-otk
+coverPath: /home/set/git/basspistol/basspistol.com/assets/albums/tfb-otk/10-tfb-otk.jpeg
 cover: /assets/albums/tfb-otk/10-tfb-otk.jpeg
 format:
   tagTypes:
     - ID3v2.4
+  trackInfo: []
   lossless: false
-  dataformat: mp3
-  bitrate: 128000
+  container: MPEG
+  codec: MPEG 1 Layer 3
   sampleRate: 44100
   numberOfChannels: 2
+  bitrate: 128000
   codecProfile: CBR
   numberOfSamples: 10278144
   duration: 233.06448979591838
@@ -119,7 +122,9 @@ native:
     - id: TDRC
       value: '2013-01-01'
     - id: WOAS
-      value: 'https://archive.org/compress/BPIST013'
+      value: 'https://archive.org/details/BPIST013'
+quality:
+  warnings: []
 common:
   track:
     'no': 10
@@ -189,24 +194,58 @@ transformed:
     TSOP: 'Fraglebay, The'
     TRCK: 10/10
     TDRC: '2013-01-01'
-    WOAS: 'https://archive.org/compress/BPIST013'
+    WOAS: 'https://archive.org/details/BPIST013'
+all:
+  c0: basspistol.com
+  TCON: electronic
+  TIT2: TFB OTK
+  RELEASECOUNTRY: XW
+  LABEL: Basspistol
+  MUSICBRAINZ_RELEASETRACKID: fa19ba7c-8815-4f4f-9d72-9ed12351406e
+  ORIGINALDATE: '2013-01-01'
+  MUSICBRAINZ_RELEASEGROUPID: c43a1bb8-d141-4dc0-aa55-6f6e66952f09
+  RELEASESTATUS: official
+  ACOUSTID_ID: eb7840a6-bf50-43f4-9135-c049ced337a8
+  CATALOGNUMBER: BPIST013
+  MEDIA: Digital Media
+  RELEASETYPE: album
+  ORIGINALYEAR: '2013'
+  ARTISTS: The Fraglebay
+  'TXXX:MusicBrainz Album Artist Id': 3e250a22-ed45-41f7-ab07-ac8f7b4cf1c7
+  'TXXX:musicbrainz_albumartistid': 3e250a22-ed45-41f7-ab07-ac8f7b4cf1c7
+  TPOS: 1/1
+  'TXXX:MusicBrainz Album Id': 077bef9a-b91e-4f48-a5f7-8e8089287392
+  'TXXX:musicbrainz_albumid': 077bef9a-b91e-4f48-a5f7-8e8089287392
+  TPE2: The Fraglebay
+  TALB: TFB-OTK
+  'TXXX:MusicBrainz Artist Id': 3e250a22-ed45-41f7-ab07-ac8f7b4cf1c7
+  'TXXX:musicbrainz_artistid': 3e250a22-ed45-41f7-ab07-ac8f7b4cf1c7
+  TPE1: The Fraglebay
+  UFID: *ref_0
+  TSOP: 'Fraglebay, The'
+  TRCK: 10/10
+  TDRC: '2013-01-01'
+  WOAS: 'https://archive.org/details/BPIST013'
 nextTrack:
   path: >-
-    /Users/set/Desktop/publikator_test/assets/albums/tfb-otk/1-fragleism-you-know.mp3
+    /home/set/git/basspistol/basspistol.com/assets/albums/tfb-otk/1-fragleism-you-know.mp3
   audio: /assets/albums/tfb-otk/1-fragleism-you-know.mp3
+  slug: tfb-otk/1-fragleism-you-know
   albumSlug: tfb-otk
-  slug: 1-fragleism-you-know
+  trackSlug: 1-fragleism-you-know
   coverPath: >-
-    /Users/set/Desktop/publikator_test/assets/albums/tfb-otk/1-fragleism-you-know.jpeg
+    /home/set/git/basspistol/basspistol.com/assets/albums/tfb-otk/1-fragleism-you-know.jpeg
   cover: /assets/albums/tfb-otk/1-fragleism-you-know.jpeg
   format:
     tagTypes:
       - ID3v2.4
+    trackInfo: []
     lossless: false
-    dataformat: mp3
-    bitrate: 128000
+    container: MPEG
+    codec: MPEG 1 Layer 3
     sampleRate: 44100
     numberOfChannels: 2
+    bitrate: 128000
     codecProfile: CBR
     numberOfSamples: 1496448
     duration: 33.9330612244898
@@ -307,7 +346,9 @@ nextTrack:
       - id: TDRC
         value: '2013-01-01'
       - id: WOAS
-        value: 'https://archive.org/compress/BPIST013'
+        value: 'https://archive.org/details/BPIST013'
+  quality:
+    warnings: []
   common:
     track:
       'no': 1
@@ -375,24 +416,57 @@ nextTrack:
       TSOP: 'Fraglebay, The'
       TRCK: 1/10
       TDRC: '2013-01-01'
-      WOAS: 'https://archive.org/compress/BPIST013'
+      WOAS: 'https://archive.org/details/BPIST013'
+  all:
+    TCON: Electronic
+    TIT2: Fragleism You Know
+    RELEASECOUNTRY: XW
+    LABEL: Basspistol
+    MUSICBRAINZ_RELEASETRACKID: e4cb8b33-d592-4e80-bdf8-1a344af557fa
+    ORIGINALDATE: '2013-01-01'
+    MUSICBRAINZ_RELEASEGROUPID: c43a1bb8-d141-4dc0-aa55-6f6e66952f09
+    RELEASESTATUS: official
+    ACOUSTID_ID: f54b8d76-cc48-49ff-804e-5ab2a60bb9ad
+    CATALOGNUMBER: BPIST013
+    MEDIA: Digital Media
+    RELEASETYPE: album
+    ORIGINALYEAR: '2013'
+    ARTISTS: The Fraglebay
+    'TXXX:MusicBrainz Album Artist Id': 3e250a22-ed45-41f7-ab07-ac8f7b4cf1c7
+    'TXXX:musicbrainz_albumartistid': 3e250a22-ed45-41f7-ab07-ac8f7b4cf1c7
+    TPOS: 1/1
+    'TXXX:MusicBrainz Album Id': 077bef9a-b91e-4f48-a5f7-8e8089287392
+    'TXXX:musicbrainz_albumid': 077bef9a-b91e-4f48-a5f7-8e8089287392
+    TPE2: The Fraglebay
+    TALB: TFB-OTK
+    'TXXX:MusicBrainz Artist Id': 3e250a22-ed45-41f7-ab07-ac8f7b4cf1c7
+    'TXXX:musicbrainz_artistid': 3e250a22-ed45-41f7-ab07-ac8f7b4cf1c7
+    TPE1: The Fraglebay
+    UFID: *ref_1
+    TSOP: 'Fraglebay, The'
+    TRCK: 1/10
+    TDRC: '2013-01-01'
+    WOAS: 'https://archive.org/details/BPIST013'
 previousTrack:
   path: >-
-    /Users/set/Desktop/publikator_test/assets/albums/tfb-otk/9-computer-voodoo.mp3
+    /home/set/git/basspistol/basspistol.com/assets/albums/tfb-otk/9-computer-voodoo.mp3
   audio: /assets/albums/tfb-otk/9-computer-voodoo.mp3
+  slug: tfb-otk/9-computer-voodoo
   albumSlug: tfb-otk
-  slug: 9-computer-voodoo
+  trackSlug: 9-computer-voodoo
   coverPath: >-
-    /Users/set/Desktop/publikator_test/assets/albums/tfb-otk/9-computer-voodoo.jpeg
+    /home/set/git/basspistol/basspistol.com/assets/albums/tfb-otk/9-computer-voodoo.jpeg
   cover: /assets/albums/tfb-otk/9-computer-voodoo.jpeg
   format:
     tagTypes:
       - ID3v2.4
+    trackInfo: []
     lossless: false
-    dataformat: mp3
-    bitrate: 128000
+    container: MPEG
+    codec: MPEG 1 Layer 3
     sampleRate: 44100
     numberOfChannels: 2
+    bitrate: 128000
     codecProfile: CBR
     numberOfSamples: 15151104
     duration: 343.56244897959186
@@ -498,7 +572,9 @@ previousTrack:
       - id: TDRC
         value: '2013-01-01'
       - id: WOAS
-        value: 'https://archive.org/compress/BPIST013'
+        value: 'https://archive.org/details/BPIST013'
+  quality:
+    warnings: []
   common:
     track:
       'no': 9
@@ -568,5 +644,36 @@ previousTrack:
       TSOP: 'Fraglebay, The'
       TRCK: 9/10
       TDRC: '2013-01-01'
-      WOAS: 'https://archive.org/compress/BPIST013'
+      WOAS: 'https://archive.org/details/BPIST013'
+  all:
+    TCON: ≠Electronic
+    c0: basspistol.com
+    TIT2: Computer Voodoo
+    RELEASECOUNTRY: XW
+    LABEL: Basspistol
+    MUSICBRAINZ_RELEASETRACKID: 4fa0903b-dcc4-4d14-8d7c-75d27edf931d
+    ORIGINALDATE: '2013-01-01'
+    MUSICBRAINZ_RELEASEGROUPID: c43a1bb8-d141-4dc0-aa55-6f6e66952f09
+    RELEASESTATUS: official
+    ACOUSTID_ID: 0aa7f9c3-7e4e-4373-9b8a-9dc0750a1b60
+    CATALOGNUMBER: BPIST013
+    MEDIA: Digital Media
+    RELEASETYPE: album
+    ORIGINALYEAR: '2013'
+    ARTISTS: The Fraglebay
+    'TXXX:MusicBrainz Album Artist Id': 3e250a22-ed45-41f7-ab07-ac8f7b4cf1c7
+    'TXXX:musicbrainz_albumartistid': 3e250a22-ed45-41f7-ab07-ac8f7b4cf1c7
+    TPOS: 1/1
+    'TXXX:MusicBrainz Album Id': 077bef9a-b91e-4f48-a5f7-8e8089287392
+    'TXXX:musicbrainz_albumid': 077bef9a-b91e-4f48-a5f7-8e8089287392
+    TPE2: The Fraglebay
+    TALB: TFB-OTK
+    'TXXX:MusicBrainz Artist Id': 3e250a22-ed45-41f7-ab07-ac8f7b4cf1c7
+    'TXXX:musicbrainz_artistid': 3e250a22-ed45-41f7-ab07-ac8f7b4cf1c7
+    TPE1: The Fraglebay
+    UFID: *ref_2
+    TSOP: 'Fraglebay, The'
+    TRCK: 9/10
+    TDRC: '2013-01-01'
+    WOAS: 'https://archive.org/details/BPIST013'
 ---

@@ -6,22 +6,27 @@ artists: Dr. Tikov
 bitrate: 128000
 trackCount: 9
 cover: /assets/albums/headcleaner/1-radius.jpeg
-date: '2011-10-01'
+date: 2011-10-1
 tracks:
-  - path: /Users/set/Desktop/publikator_test/assets/albums/headcleaner/1-radius.mp3
+  - path: >-
+      /home/set/git/basspistol/basspistol.com/assets/albums/headcleaner/1-radius.mp3
     audio: /assets/albums/headcleaner/1-radius.mp3
+    slug: headcleaner/1-radius
     albumSlug: headcleaner
-    slug: 1-radius
-    coverPath: /Users/set/Desktop/publikator_test/assets/albums/headcleaner/1-radius.jpeg
+    trackSlug: 1-radius
+    coverPath: >-
+      /home/set/git/basspistol/basspistol.com/assets/albums/headcleaner/1-radius.jpeg
     cover: /assets/albums/headcleaner/1-radius.jpeg
     format:
       tagTypes:
         - ID3v2.4
+      trackInfo: []
       lossless: false
-      dataformat: mp3
-      bitrate: 128000
+      container: MPEG
+      codec: MPEG 1 Layer 3
       sampleRate: 44100
       numberOfChannels: 2
+      bitrate: 128000
       codecProfile: CBR
       numberOfSamples: 21492864
       duration: 487.3665306122449
@@ -127,7 +132,9 @@ tracks:
         - id: TDRC
           value: '2011-10-01'
         - id: WOAS
-          value: 'https://archive.org/compress/BPIST005'
+          value: 'https://archive.org/details/BPIST005'
+    quality:
+      warnings: []
     common:
       track:
         'no': 1
@@ -197,24 +204,58 @@ tracks:
         TSOP: 'Tikov, Dr.'
         TRCK: 1/9
         TDRC: '2011-10-01'
-        WOAS: 'https://archive.org/compress/BPIST005'
+        WOAS: 'https://archive.org/details/BPIST005'
+    all:
+      c0: basspistol.com - tikov.com
+      TCON: House
+      TIT2: Radius
+      RELEASECOUNTRY: XW
+      LABEL: Basspistol
+      MUSICBRAINZ_RELEASETRACKID: 0b32b730-88f6-48d1-959e-9fac203c8a54
+      ORIGINALDATE: '2011-10-01'
+      MUSICBRAINZ_RELEASEGROUPID: cd559315-3a81-4430-b4f3-a58bf1e346a4
+      RELEASESTATUS: official
+      ACOUSTID_ID: 5f9d1ac8-312b-4f02-a6d6-5154fb00be57
+      CATALOGNUMBER: BPIST005
+      MEDIA: Digital Media
+      RELEASETYPE: album
+      ORIGINALYEAR: '2011'
+      ARTISTS: Dr. Tikov
+      'TXXX:MusicBrainz Album Artist Id': 1313ee01-590c-4fcf-a149-7f4d2a16d550
+      'TXXX:musicbrainz_albumartistid': 1313ee01-590c-4fcf-a149-7f4d2a16d550
+      TPOS: 1/1
+      'TXXX:MusicBrainz Album Id': f4823431-9d09-48d3-81cd-51fbd24a8f3c
+      'TXXX:musicbrainz_albumid': f4823431-9d09-48d3-81cd-51fbd24a8f3c
+      TPE2: Dr. Tikov
+      TALB: Headcleaner
+      'TXXX:MusicBrainz Artist Id': 1313ee01-590c-4fcf-a149-7f4d2a16d550
+      'TXXX:musicbrainz_artistid': 1313ee01-590c-4fcf-a149-7f4d2a16d550
+      TPE1: Dr. Tikov
+      UFID: *ref_0
+      TSOP: 'Tikov, Dr.'
+      TRCK: 1/9
+      TDRC: '2011-10-01'
+      WOAS: 'https://archive.org/details/BPIST005'
   - path: >-
-      /Users/set/Desktop/publikator_test/assets/albums/headcleaner/2-headcleaner.mp3
+      /home/set/git/basspistol/basspistol.com/assets/albums/headcleaner/2-headcleaner.mp3
     audio: /assets/albums/headcleaner/2-headcleaner.mp3
+    slug: headcleaner/2-headcleaner
     albumSlug: headcleaner
-    slug: 2-headcleaner
+    trackSlug: 2-headcleaner
     coverPath: >-
-      /Users/set/Desktop/publikator_test/assets/albums/headcleaner/2-headcleaner.jpeg
+      /home/set/git/basspistol/basspistol.com/assets/albums/headcleaner/2-headcleaner.jpeg
     cover: /assets/albums/headcleaner/2-headcleaner.jpeg
     format:
       tagTypes:
         - ID3v2.4
+      trackInfo: []
       lossless: false
-      dataformat: mp3
-      bitrate: 128000
+      container: MPEG
+      codec: MPEG 1 Layer 3
       sampleRate: 44100
       numberOfChannels: 2
-      encoder: LAME 3.99.5
+      bitrate: 128000
+      tool: LAME 3.99.5
       codecProfile: CBR
       numberOfSamples: 25477632
       duration: 577.7240816326531
@@ -320,7 +361,9 @@ tracks:
         - id: TDRC
           value: '2011-10-01'
         - id: WOAS
-          value: 'https://archive.org/compress/BPIST005'
+          value: 'https://archive.org/details/BPIST005'
+    quality:
+      warnings: []
     common:
       track:
         'no': 2
@@ -390,24 +433,58 @@ tracks:
         TSOP: 'Tikov, Dr.'
         TRCK: 2/9
         TDRC: '2011-10-01'
-        WOAS: 'https://archive.org/compress/BPIST005'
+        WOAS: 'https://archive.org/details/BPIST005'
+    all:
+      c0: basspistol.com - tikov.com
+      TCON: House
+      TIT2: Headcleaner
+      RELEASECOUNTRY: XW
+      LABEL: Basspistol
+      MUSICBRAINZ_RELEASETRACKID: a89bb976-ebf3-45f8-9ba0-5b264ee0ddfd
+      ORIGINALDATE: '2011-10-01'
+      MUSICBRAINZ_RELEASEGROUPID: cd559315-3a81-4430-b4f3-a58bf1e346a4
+      RELEASESTATUS: official
+      ACOUSTID_ID: 966cc857-3f58-4fcf-b5e4-d92cc854c8b8
+      CATALOGNUMBER: BPIST005
+      MEDIA: Digital Media
+      RELEASETYPE: album
+      ORIGINALYEAR: '2011'
+      ARTISTS: Dr. Tikov
+      'TXXX:MusicBrainz Album Artist Id': 1313ee01-590c-4fcf-a149-7f4d2a16d550
+      'TXXX:musicbrainz_albumartistid': 1313ee01-590c-4fcf-a149-7f4d2a16d550
+      TPOS: 1/1
+      'TXXX:MusicBrainz Album Id': f4823431-9d09-48d3-81cd-51fbd24a8f3c
+      'TXXX:musicbrainz_albumid': f4823431-9d09-48d3-81cd-51fbd24a8f3c
+      TPE2: Dr. Tikov
+      TALB: Headcleaner
+      'TXXX:MusicBrainz Artist Id': 1313ee01-590c-4fcf-a149-7f4d2a16d550
+      'TXXX:musicbrainz_artistid': 1313ee01-590c-4fcf-a149-7f4d2a16d550
+      TPE1: Dr. Tikov
+      UFID: *ref_1
+      TSOP: 'Tikov, Dr.'
+      TRCK: 2/9
+      TDRC: '2011-10-01'
+      WOAS: 'https://archive.org/details/BPIST005'
   - path: >-
-      /Users/set/Desktop/publikator_test/assets/albums/headcleaner/3-ravers-dream.mp3
+      /home/set/git/basspistol/basspistol.com/assets/albums/headcleaner/3-ravers-dream.mp3
     audio: /assets/albums/headcleaner/3-ravers-dream.mp3
+    slug: headcleaner/3-ravers-dream
     albumSlug: headcleaner
-    slug: 3-ravers-dream
+    trackSlug: 3-ravers-dream
     coverPath: >-
-      /Users/set/Desktop/publikator_test/assets/albums/headcleaner/3-ravers-dream.jpeg
+      /home/set/git/basspistol/basspistol.com/assets/albums/headcleaner/3-ravers-dream.jpeg
     cover: /assets/albums/headcleaner/3-ravers-dream.jpeg
     format:
       tagTypes:
         - ID3v2.4
+      trackInfo: []
       lossless: false
-      dataformat: mp3
-      bitrate: 128000
+      container: MPEG
+      codec: MPEG 1 Layer 3
       sampleRate: 44100
       numberOfChannels: 2
-      encoder: LAME 3.99.5
+      bitrate: 128000
+      tool: LAME 3.99.5
       codecProfile: CBR
       numberOfSamples: 25008768
       duration: 567.0922448979592
@@ -513,7 +590,9 @@ tracks:
         - id: TDRC
           value: '2011-10-01'
         - id: WOAS
-          value: 'https://archive.org/compress/BPIST005'
+          value: 'https://archive.org/details/BPIST005'
+    quality:
+      warnings: []
     common:
       track:
         'no': 3
@@ -583,24 +662,58 @@ tracks:
         TSOP: 'Tikov, Dr.'
         TRCK: 3/9
         TDRC: '2011-10-01'
-        WOAS: 'https://archive.org/compress/BPIST005'
+        WOAS: 'https://archive.org/details/BPIST005'
+    all:
+      c0: basspistol.com - tikov.com
+      TCON: House
+      TIT2: Ravers Dream
+      RELEASECOUNTRY: XW
+      LABEL: Basspistol
+      MUSICBRAINZ_RELEASETRACKID: c0c0e43b-169a-407a-8744-51cb10adcc72
+      ORIGINALDATE: '2011-10-01'
+      MUSICBRAINZ_RELEASEGROUPID: cd559315-3a81-4430-b4f3-a58bf1e346a4
+      RELEASESTATUS: official
+      ACOUSTID_ID: 2dc58c72-46d5-48b1-ba00-d9d355a60a8b
+      CATALOGNUMBER: BPIST005
+      MEDIA: Digital Media
+      RELEASETYPE: album
+      ORIGINALYEAR: '2011'
+      ARTISTS: Dr. Tikov
+      'TXXX:MusicBrainz Album Artist Id': 1313ee01-590c-4fcf-a149-7f4d2a16d550
+      'TXXX:musicbrainz_albumartistid': 1313ee01-590c-4fcf-a149-7f4d2a16d550
+      TPOS: 1/1
+      'TXXX:MusicBrainz Album Id': f4823431-9d09-48d3-81cd-51fbd24a8f3c
+      'TXXX:musicbrainz_albumid': f4823431-9d09-48d3-81cd-51fbd24a8f3c
+      TPE2: Dr. Tikov
+      TALB: Headcleaner
+      'TXXX:MusicBrainz Artist Id': 1313ee01-590c-4fcf-a149-7f4d2a16d550
+      'TXXX:musicbrainz_artistid': 1313ee01-590c-4fcf-a149-7f4d2a16d550
+      TPE1: Dr. Tikov
+      UFID: *ref_2
+      TSOP: 'Tikov, Dr.'
+      TRCK: 3/9
+      TDRC: '2011-10-01'
+      WOAS: 'https://archive.org/details/BPIST005'
   - path: >-
-      /Users/set/Desktop/publikator_test/assets/albums/headcleaner/4-gerlinas.mp3
+      /home/set/git/basspistol/basspistol.com/assets/albums/headcleaner/4-gerlinas.mp3
     audio: /assets/albums/headcleaner/4-gerlinas.mp3
+    slug: headcleaner/4-gerlinas
     albumSlug: headcleaner
-    slug: 4-gerlinas
+    trackSlug: 4-gerlinas
     coverPath: >-
-      /Users/set/Desktop/publikator_test/assets/albums/headcleaner/4-gerlinas.jpeg
+      /home/set/git/basspistol/basspistol.com/assets/albums/headcleaner/4-gerlinas.jpeg
     cover: /assets/albums/headcleaner/4-gerlinas.jpeg
     format:
       tagTypes:
         - ID3v2.4
+      trackInfo: []
       lossless: false
-      dataformat: mp3
-      bitrate: 128000
+      container: MPEG
+      codec: MPEG 1 Layer 3
       sampleRate: 44100
       numberOfChannels: 2
-      encoder: LAME 3.99.5
+      bitrate: 128000
+      tool: LAME 3.99.5
       codecProfile: CBR
       numberOfSamples: 16759296
       duration: 380.02938775510205
@@ -706,7 +819,9 @@ tracks:
         - id: TDRC
           value: '2011-10-01'
         - id: WOAS
-          value: 'https://archive.org/compress/BPIST005'
+          value: 'https://archive.org/details/BPIST005'
+    quality:
+      warnings: []
     common:
       track:
         'no': 4
@@ -776,24 +891,58 @@ tracks:
         TSOP: 'Tikov, Dr.'
         TRCK: 4/9
         TDRC: '2011-10-01'
-        WOAS: 'https://archive.org/compress/BPIST005'
+        WOAS: 'https://archive.org/details/BPIST005'
+    all:
+      c0: basspistol.com - tikov.com
+      TCON: House
+      TIT2: Gerlinas
+      RELEASECOUNTRY: XW
+      LABEL: Basspistol
+      MUSICBRAINZ_RELEASETRACKID: b9ab5aa9-b3e9-44fe-8b00-89e6438db7c2
+      ORIGINALDATE: '2011-10-01'
+      MUSICBRAINZ_RELEASEGROUPID: cd559315-3a81-4430-b4f3-a58bf1e346a4
+      RELEASESTATUS: official
+      ACOUSTID_ID: 8f7cd4a8-5a3d-4cfe-a347-1a0e87a65925
+      CATALOGNUMBER: BPIST005
+      MEDIA: Digital Media
+      RELEASETYPE: album
+      ORIGINALYEAR: '2011'
+      ARTISTS: Dr. Tikov
+      'TXXX:MusicBrainz Album Artist Id': 1313ee01-590c-4fcf-a149-7f4d2a16d550
+      'TXXX:musicbrainz_albumartistid': 1313ee01-590c-4fcf-a149-7f4d2a16d550
+      TPOS: 1/1
+      'TXXX:MusicBrainz Album Id': f4823431-9d09-48d3-81cd-51fbd24a8f3c
+      'TXXX:musicbrainz_albumid': f4823431-9d09-48d3-81cd-51fbd24a8f3c
+      TPE2: Dr. Tikov
+      TALB: Headcleaner
+      'TXXX:MusicBrainz Artist Id': 1313ee01-590c-4fcf-a149-7f4d2a16d550
+      'TXXX:musicbrainz_artistid': 1313ee01-590c-4fcf-a149-7f4d2a16d550
+      TPE1: Dr. Tikov
+      UFID: *ref_3
+      TSOP: 'Tikov, Dr.'
+      TRCK: 4/9
+      TDRC: '2011-10-01'
+      WOAS: 'https://archive.org/details/BPIST005'
   - path: >-
-      /Users/set/Desktop/publikator_test/assets/albums/headcleaner/5-land-of-joy.mp3
+      /home/set/git/basspistol/basspistol.com/assets/albums/headcleaner/5-land-of-joy.mp3
     audio: /assets/albums/headcleaner/5-land-of-joy.mp3
+    slug: headcleaner/5-land-of-joy
     albumSlug: headcleaner
-    slug: 5-land-of-joy
+    trackSlug: 5-land-of-joy
     coverPath: >-
-      /Users/set/Desktop/publikator_test/assets/albums/headcleaner/5-land-of-joy.jpeg
+      /home/set/git/basspistol/basspistol.com/assets/albums/headcleaner/5-land-of-joy.jpeg
     cover: /assets/albums/headcleaner/5-land-of-joy.jpeg
     format:
       tagTypes:
         - ID3v2.4
+      trackInfo: []
       lossless: false
-      dataformat: mp3
-      bitrate: 128000
+      container: MPEG
+      codec: MPEG 1 Layer 3
       sampleRate: 44100
       numberOfChannels: 2
-      encoder: LAME 3.99.5
+      bitrate: 128000
+      tool: LAME 3.99.5
       codecProfile: CBR
       numberOfSamples: 18274176
       duration: 414.3804081632653
@@ -899,7 +1048,9 @@ tracks:
         - id: TDRC
           value: '2011-10-01'
         - id: WOAS
-          value: 'https://archive.org/compress/BPIST005'
+          value: 'https://archive.org/details/BPIST005'
+    quality:
+      warnings: []
     common:
       track:
         'no': 5
@@ -969,24 +1120,58 @@ tracks:
         TSOP: 'Tikov, Dr.'
         TRCK: 5/9
         TDRC: '2011-10-01'
-        WOAS: 'https://archive.org/compress/BPIST005'
+        WOAS: 'https://archive.org/details/BPIST005'
+    all:
+      c0: basspistol.com - tikov.com
+      TCON: House
+      TIT2: Land Of Joy
+      RELEASECOUNTRY: XW
+      LABEL: Basspistol
+      MUSICBRAINZ_RELEASETRACKID: 4757d66a-98d4-4e8a-801e-3ec7f873f9a7
+      ORIGINALDATE: '2011-10-01'
+      MUSICBRAINZ_RELEASEGROUPID: cd559315-3a81-4430-b4f3-a58bf1e346a4
+      RELEASESTATUS: official
+      ACOUSTID_ID: 1e5adfc4-3b5d-4624-b0d0-bebe2fd34e7d
+      CATALOGNUMBER: BPIST005
+      MEDIA: Digital Media
+      RELEASETYPE: album
+      ORIGINALYEAR: '2011'
+      ARTISTS: Dr. Tikov
+      'TXXX:MusicBrainz Album Artist Id': 1313ee01-590c-4fcf-a149-7f4d2a16d550
+      'TXXX:musicbrainz_albumartistid': 1313ee01-590c-4fcf-a149-7f4d2a16d550
+      TPOS: 1/1
+      'TXXX:MusicBrainz Album Id': f4823431-9d09-48d3-81cd-51fbd24a8f3c
+      'TXXX:musicbrainz_albumid': f4823431-9d09-48d3-81cd-51fbd24a8f3c
+      TPE2: Dr. Tikov
+      TALB: Headcleaner
+      'TXXX:MusicBrainz Artist Id': 1313ee01-590c-4fcf-a149-7f4d2a16d550
+      'TXXX:musicbrainz_artistid': 1313ee01-590c-4fcf-a149-7f4d2a16d550
+      TPE1: Dr. Tikov
+      UFID: *ref_4
+      TSOP: 'Tikov, Dr.'
+      TRCK: 5/9
+      TDRC: '2011-10-01'
+      WOAS: 'https://archive.org/details/BPIST005'
   - path: >-
-      /Users/set/Desktop/publikator_test/assets/albums/headcleaner/6-tropical-minimal.mp3
+      /home/set/git/basspistol/basspistol.com/assets/albums/headcleaner/6-tropical-minimal.mp3
     audio: /assets/albums/headcleaner/6-tropical-minimal.mp3
+    slug: headcleaner/6-tropical-minimal
     albumSlug: headcleaner
-    slug: 6-tropical-minimal
+    trackSlug: 6-tropical-minimal
     coverPath: >-
-      /Users/set/Desktop/publikator_test/assets/albums/headcleaner/6-tropical-minimal.jpeg
+      /home/set/git/basspistol/basspistol.com/assets/albums/headcleaner/6-tropical-minimal.jpeg
     cover: /assets/albums/headcleaner/6-tropical-minimal.jpeg
     format:
       tagTypes:
         - ID3v2.4
+      trackInfo: []
       lossless: false
-      dataformat: mp3
-      bitrate: 128000
+      container: MPEG
+      codec: MPEG 1 Layer 3
       sampleRate: 44100
       numberOfChannels: 2
-      encoder: LAME 3.99.5
+      bitrate: 128000
+      tool: LAME 3.99.5
       codecProfile: CBR
       numberOfSamples: 23824512
       duration: 540.2383673469387
@@ -1092,7 +1277,9 @@ tracks:
         - id: TDRC
           value: '2011-10-01'
         - id: WOAS
-          value: 'https://archive.org/compress/BPIST005'
+          value: 'https://archive.org/details/BPIST005'
+    quality:
+      warnings: []
     common:
       track:
         'no': 6
@@ -1162,24 +1349,58 @@ tracks:
         TSOP: 'Tikov, Dr.'
         TRCK: 6/9
         TDRC: '2011-10-01'
-        WOAS: 'https://archive.org/compress/BPIST005'
+        WOAS: 'https://archive.org/details/BPIST005'
+    all:
+      c0: basspistol.com - tikov.com
+      TCON: House
+      TIT2: Tropical Minimal
+      RELEASECOUNTRY: XW
+      LABEL: Basspistol
+      MUSICBRAINZ_RELEASETRACKID: 049af7ed-da93-4eac-b4fd-f258b99365b6
+      ORIGINALDATE: '2011-10-01'
+      MUSICBRAINZ_RELEASEGROUPID: cd559315-3a81-4430-b4f3-a58bf1e346a4
+      RELEASESTATUS: official
+      ACOUSTID_ID: 6853f34f-10c4-4c3c-85d8-a85354bfdd82
+      CATALOGNUMBER: BPIST005
+      MEDIA: Digital Media
+      RELEASETYPE: album
+      ORIGINALYEAR: '2011'
+      ARTISTS: Dr. Tikov
+      'TXXX:MusicBrainz Album Artist Id': 1313ee01-590c-4fcf-a149-7f4d2a16d550
+      'TXXX:musicbrainz_albumartistid': 1313ee01-590c-4fcf-a149-7f4d2a16d550
+      TPOS: 1/1
+      'TXXX:MusicBrainz Album Id': f4823431-9d09-48d3-81cd-51fbd24a8f3c
+      'TXXX:musicbrainz_albumid': f4823431-9d09-48d3-81cd-51fbd24a8f3c
+      TPE2: Dr. Tikov
+      TALB: Headcleaner
+      'TXXX:MusicBrainz Artist Id': 1313ee01-590c-4fcf-a149-7f4d2a16d550
+      'TXXX:musicbrainz_artistid': 1313ee01-590c-4fcf-a149-7f4d2a16d550
+      TPE1: Dr. Tikov
+      UFID: *ref_5
+      TSOP: 'Tikov, Dr.'
+      TRCK: 6/9
+      TDRC: '2011-10-01'
+      WOAS: 'https://archive.org/details/BPIST005'
   - path: >-
-      /Users/set/Desktop/publikator_test/assets/albums/headcleaner/7-function-111.mp3
+      /home/set/git/basspistol/basspistol.com/assets/albums/headcleaner/7-function-111.mp3
     audio: /assets/albums/headcleaner/7-function-111.mp3
+    slug: headcleaner/7-function-111
     albumSlug: headcleaner
-    slug: 7-function-111
+    trackSlug: 7-function-111
     coverPath: >-
-      /Users/set/Desktop/publikator_test/assets/albums/headcleaner/7-function-111.jpeg
+      /home/set/git/basspistol/basspistol.com/assets/albums/headcleaner/7-function-111.jpeg
     cover: /assets/albums/headcleaner/7-function-111.jpeg
     format:
       tagTypes:
         - ID3v2.4
+      trackInfo: []
       lossless: false
-      dataformat: mp3
-      bitrate: 128000
+      container: MPEG
+      codec: MPEG 1 Layer 3
       sampleRate: 44100
       numberOfChannels: 2
-      encoder: LAME 3.99.5
+      bitrate: 128000
+      tool: LAME 3.99.5
       codecProfile: CBR
       numberOfSamples: 23624064
       duration: 535.6930612244898
@@ -1285,7 +1506,9 @@ tracks:
         - id: TDRC
           value: '2011-10-01'
         - id: WOAS
-          value: 'https://archive.org/compress/BPIST005'
+          value: 'https://archive.org/details/BPIST005'
+    quality:
+      warnings: []
     common:
       track:
         'no': 7
@@ -1355,24 +1578,58 @@ tracks:
         TSOP: 'Tikov, Dr.'
         TRCK: 7/9
         TDRC: '2011-10-01'
-        WOAS: 'https://archive.org/compress/BPIST005'
+        WOAS: 'https://archive.org/details/BPIST005'
+    all:
+      c0: basspistol.com - tikov.com
+      TCON: House
+      TIT2: Function 111
+      RELEASECOUNTRY: XW
+      LABEL: Basspistol
+      MUSICBRAINZ_RELEASETRACKID: 650e0ebc-65d8-4add-85b2-3b7c22d4bc78
+      ORIGINALDATE: '2011-10-01'
+      MUSICBRAINZ_RELEASEGROUPID: cd559315-3a81-4430-b4f3-a58bf1e346a4
+      RELEASESTATUS: official
+      ACOUSTID_ID: 5432b723-b5bd-4775-88c9-7c6b894c79d6
+      CATALOGNUMBER: BPIST005
+      MEDIA: Digital Media
+      RELEASETYPE: album
+      ORIGINALYEAR: '2011'
+      ARTISTS: Dr. Tikov
+      'TXXX:MusicBrainz Album Artist Id': 1313ee01-590c-4fcf-a149-7f4d2a16d550
+      'TXXX:musicbrainz_albumartistid': 1313ee01-590c-4fcf-a149-7f4d2a16d550
+      TPOS: 1/1
+      'TXXX:MusicBrainz Album Id': f4823431-9d09-48d3-81cd-51fbd24a8f3c
+      'TXXX:musicbrainz_albumid': f4823431-9d09-48d3-81cd-51fbd24a8f3c
+      TPE2: Dr. Tikov
+      TALB: Headcleaner
+      'TXXX:MusicBrainz Artist Id': 1313ee01-590c-4fcf-a149-7f4d2a16d550
+      'TXXX:musicbrainz_artistid': 1313ee01-590c-4fcf-a149-7f4d2a16d550
+      TPE1: Dr. Tikov
+      UFID: *ref_6
+      TSOP: 'Tikov, Dr.'
+      TRCK: 7/9
+      TDRC: '2011-10-01'
+      WOAS: 'https://archive.org/details/BPIST005'
   - path: >-
-      /Users/set/Desktop/publikator_test/assets/albums/headcleaner/8-concept-0.mp3
+      /home/set/git/basspistol/basspistol.com/assets/albums/headcleaner/8-concept-0.mp3
     audio: /assets/albums/headcleaner/8-concept-0.mp3
+    slug: headcleaner/8-concept-0
     albumSlug: headcleaner
-    slug: 8-concept-0
+    trackSlug: 8-concept-0
     coverPath: >-
-      /Users/set/Desktop/publikator_test/assets/albums/headcleaner/8-concept-0.jpeg
+      /home/set/git/basspistol/basspistol.com/assets/albums/headcleaner/8-concept-0.jpeg
     cover: /assets/albums/headcleaner/8-concept-0.jpeg
     format:
       tagTypes:
         - ID3v2.4
+      trackInfo: []
       lossless: false
-      dataformat: mp3
-      bitrate: 128000
+      container: MPEG
+      codec: MPEG 1 Layer 3
       sampleRate: 44100
       numberOfChannels: 2
-      encoder: LAME 3.99.5
+      bitrate: 128000
+      tool: LAME 3.99.5
       codecProfile: CBR
       numberOfSamples: 22372992
       duration: 507.3240816326531
@@ -1478,7 +1735,9 @@ tracks:
         - id: TDRC
           value: '2011-10-01'
         - id: WOAS
-          value: 'https://archive.org/compress/BPIST005'
+          value: 'https://archive.org/details/BPIST005'
+    quality:
+      warnings: []
     common:
       track:
         'no': 8
@@ -1548,23 +1807,57 @@ tracks:
         TSOP: 'Tikov, Dr.'
         TRCK: 8/9
         TDRC: '2011-10-01'
-        WOAS: 'https://archive.org/compress/BPIST005'
+        WOAS: 'https://archive.org/details/BPIST005'
+    all:
+      c0: basspistol.com - tikov.com
+      TCON: House
+      TIT2: Concept 0
+      RELEASECOUNTRY: XW
+      LABEL: Basspistol
+      MUSICBRAINZ_RELEASETRACKID: d4a8636c-98b3-40bd-bc85-48abe712da3b
+      ORIGINALDATE: '2011-10-01'
+      MUSICBRAINZ_RELEASEGROUPID: cd559315-3a81-4430-b4f3-a58bf1e346a4
+      RELEASESTATUS: official
+      ACOUSTID_ID: 3edca791-c0c1-410a-b679-1c6dc7cd4334
+      CATALOGNUMBER: BPIST005
+      MEDIA: Digital Media
+      RELEASETYPE: album
+      ORIGINALYEAR: '2011'
+      ARTISTS: Dr. Tikov
+      'TXXX:MusicBrainz Album Artist Id': 1313ee01-590c-4fcf-a149-7f4d2a16d550
+      'TXXX:musicbrainz_albumartistid': 1313ee01-590c-4fcf-a149-7f4d2a16d550
+      TPOS: 1/1
+      'TXXX:MusicBrainz Album Id': f4823431-9d09-48d3-81cd-51fbd24a8f3c
+      'TXXX:musicbrainz_albumid': f4823431-9d09-48d3-81cd-51fbd24a8f3c
+      TPE2: Dr. Tikov
+      TALB: Headcleaner
+      'TXXX:MusicBrainz Artist Id': 1313ee01-590c-4fcf-a149-7f4d2a16d550
+      'TXXX:musicbrainz_artistid': 1313ee01-590c-4fcf-a149-7f4d2a16d550
+      TPE1: Dr. Tikov
+      UFID: *ref_7
+      TSOP: 'Tikov, Dr.'
+      TRCK: 8/9
+      TDRC: '2011-10-01'
+      WOAS: 'https://archive.org/details/BPIST005'
   - path: >-
-      /Users/set/Desktop/publikator_test/assets/albums/headcleaner/9-final-cleaning.mp3
+      /home/set/git/basspistol/basspistol.com/assets/albums/headcleaner/9-final-cleaning.mp3
     audio: /assets/albums/headcleaner/9-final-cleaning.mp3
+    slug: headcleaner/9-final-cleaning
     albumSlug: headcleaner
-    slug: 9-final-cleaning
+    trackSlug: 9-final-cleaning
     coverPath: >-
-      /Users/set/Desktop/publikator_test/assets/albums/headcleaner/9-final-cleaning.jpeg
+      /home/set/git/basspistol/basspistol.com/assets/albums/headcleaner/9-final-cleaning.jpeg
     cover: /assets/albums/headcleaner/9-final-cleaning.jpeg
     format:
       tagTypes:
         - ID3v2.4
+      trackInfo: []
       lossless: false
-      dataformat: mp3
-      bitrate: 128000
+      container: MPEG
+      codec: MPEG 1 Layer 3
       sampleRate: 44100
       numberOfChannels: 2
+      bitrate: 128000
       codecProfile: CBR
       numberOfSamples: 17442432
       duration: 395.52
@@ -1665,7 +1958,9 @@ tracks:
         - id: TDRC
           value: '2011-10-01'
         - id: WOAS
-          value: 'https://archive.org/compress/BPIST005'
+          value: 'https://archive.org/details/BPIST005'
+    quality:
+      warnings: []
     common:
       track:
         'no': 9
@@ -1733,5 +2028,35 @@ tracks:
         TSOP: 'Tikov, Dr.'
         TRCK: 9/9
         TDRC: '2011-10-01'
-        WOAS: 'https://archive.org/compress/BPIST005'
+        WOAS: 'https://archive.org/details/BPIST005'
+    all:
+      c0: basspistol.com - tikov.com
+      TCON: House
+      TIT2: Final Cleaning
+      RELEASECOUNTRY: XW
+      LABEL: Basspistol
+      MUSICBRAINZ_RELEASETRACKID: 638b4bb5-1532-4238-a5f4-a6c07c19fb0a
+      ORIGINALDATE: '2011-10-01'
+      MUSICBRAINZ_RELEASEGROUPID: cd559315-3a81-4430-b4f3-a58bf1e346a4
+      RELEASESTATUS: official
+      CATALOGNUMBER: BPIST005
+      MEDIA: Digital Media
+      RELEASETYPE: album
+      ORIGINALYEAR: '2011'
+      ARTISTS: Dr. Tikov
+      'TXXX:MusicBrainz Album Artist Id': 1313ee01-590c-4fcf-a149-7f4d2a16d550
+      'TXXX:musicbrainz_albumartistid': 1313ee01-590c-4fcf-a149-7f4d2a16d550
+      TPOS: 1/1
+      'TXXX:MusicBrainz Album Id': f4823431-9d09-48d3-81cd-51fbd24a8f3c
+      'TXXX:musicbrainz_albumid': f4823431-9d09-48d3-81cd-51fbd24a8f3c
+      TPE2: Dr. Tikov
+      TALB: Headcleaner
+      'TXXX:MusicBrainz Artist Id': 1313ee01-590c-4fcf-a149-7f4d2a16d550
+      'TXXX:musicbrainz_artistid': 1313ee01-590c-4fcf-a149-7f4d2a16d550
+      TPE1: Dr. Tikov
+      UFID: *ref_8
+      TSOP: 'Tikov, Dr.'
+      TRCK: 9/9
+      TDRC: '2011-10-01'
+      WOAS: 'https://archive.org/details/BPIST005'
 ---

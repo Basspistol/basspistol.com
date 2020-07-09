@@ -1,21 +1,24 @@
 ---
 layout: track
 path: >-
-  /Users/set/Desktop/publikator_test/assets/albums/psykedelisk-pop/10-hidden-track.mp3
+  /home/set/git/basspistol/basspistol.com/assets/albums/psykedelisk-pop/10-hidden-track.mp3
 audio: /assets/albums/psykedelisk-pop/10-hidden-track.mp3
+slug: psykedelisk-pop/10-hidden-track
 albumSlug: psykedelisk-pop
-slug: 10-hidden-track
+trackSlug: 10-hidden-track
 coverPath: >-
-  /Users/set/Desktop/publikator_test/assets/albums/psykedelisk-pop/10-hidden-track.jpeg
+  /home/set/git/basspistol/basspistol.com/assets/albums/psykedelisk-pop/10-hidden-track.jpeg
 cover: /assets/albums/psykedelisk-pop/10-hidden-track.jpeg
 format:
   tagTypes:
     - ID3v2.4
+  trackInfo: []
   lossless: false
-  dataformat: mp3
-  bitrate: 128000
+  container: MPEG
+  codec: MPEG 1 Layer 3
   sampleRate: 44100
   numberOfChannels: 2
+  bitrate: 128000
   codecProfile: CBR
   numberOfSamples: 6982272
   duration: 158.32816326530613
@@ -121,7 +124,9 @@ native:
     - id: TDRC
       value: '2010-01-01'
     - id: WOAS
-      value: 'https://archive.org/compress/BPIST001'
+      value: 'https://archive.org/details/BPIST001'
+quality:
+  warnings: []
 common:
   track:
     'no': 10
@@ -191,24 +196,58 @@ transformed:
     TSOP: Sakrecoer
     TRCK: 10/10
     TDRC: '2010-01-01'
-    WOAS: 'https://archive.org/compress/BPIST001'
+    WOAS: 'https://archive.org/details/BPIST001'
+all:
+  TCON: Electro Pop
+  c0: www.sakrecoer.com - www.basspistol.com
+  TIT2: Hidden Track
+  RELEASECOUNTRY: SE
+  LABEL: Basspistol
+  MUSICBRAINZ_RELEASETRACKID: df3d5088-da8b-439b-93a9-a1e51b66cc04
+  ORIGINALDATE: '2010'
+  MUSICBRAINZ_RELEASEGROUPID: 2ab5cbaa-6818-4604-8070-26b81b860bfa
+  RELEASESTATUS: official
+  ACOUSTID_ID: 4ce7e511-c5d5-45a9-bd64-15b9f123bef9
+  CATALOGNUMBER: BPIST001
+  MEDIA: Digital Media
+  RELEASETYPE: album
+  ORIGINALYEAR: '2010'
+  ARTISTS: reSet Sakrecoer
+  'TXXX:MusicBrainz Album Artist Id': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
+  'TXXX:musicbrainz_albumartistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
+  TPOS: 1/1
+  'TXXX:MusicBrainz Album Id': fda0a215-114f-4c4b-9220-3b2157368a3f
+  'TXXX:musicbrainz_albumid': fda0a215-114f-4c4b-9220-3b2157368a3f
+  TPE2: reSet Sakrecoer
+  TALB: Psykedelisk Pop
+  'TXXX:MusicBrainz Artist Id': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
+  'TXXX:musicbrainz_artistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
+  TPE1: reSet Sakrecoer
+  UFID: *ref_0
+  TSOP: Sakrecoer
+  TRCK: 10/10
+  TDRC: '2010-01-01'
+  WOAS: 'https://archive.org/details/BPIST001'
 nextTrack:
   path: >-
-    /Users/set/Desktop/publikator_test/assets/albums/psykedelisk-pop/1-janne-i-min-hj-rna.mp3
+    /home/set/git/basspistol/basspistol.com/assets/albums/psykedelisk-pop/1-janne-i-min-hj-rna.mp3
   audio: /assets/albums/psykedelisk-pop/1-janne-i-min-hj-rna.mp3
+  slug: psykedelisk-pop/1-janne-i-min-hj-rna
   albumSlug: psykedelisk-pop
-  slug: 1-janne-i-min-hj-rna
+  trackSlug: 1-janne-i-min-hj-rna
   coverPath: >-
-    /Users/set/Desktop/publikator_test/assets/albums/psykedelisk-pop/1-janne-i-min-hj-rna.jpeg
+    /home/set/git/basspistol/basspistol.com/assets/albums/psykedelisk-pop/1-janne-i-min-hj-rna.jpeg
   cover: /assets/albums/psykedelisk-pop/1-janne-i-min-hj-rna.jpeg
   format:
     tagTypes:
       - ID3v2.4
+    trackInfo: []
     lossless: false
-    dataformat: mp3
-    bitrate: 128000
+    container: MPEG
+    codec: MPEG 1 Layer 3
     sampleRate: 44100
     numberOfChannels: 2
+    bitrate: 128000
     codecProfile: CBR
     numberOfSamples: 9077760
     duration: 205.84489795918367
@@ -327,7 +366,9 @@ nextTrack:
             Jag svavar upp i det bla,<br />
             Tack vare det grona...<br /></em>
       - id: WOAS
-        value: 'https://archive.org/compress/BPIST001'
+        value: 'https://archive.org/details/BPIST001'
+  quality:
+    warnings: []
   common:
     track:
       'no': 1
@@ -406,23 +447,67 @@ nextTrack:
         Min sjal i levitation.<br />
         Jag svavar upp i det bla,<br />
         Tack vare det grona...<br /></em>
-      WOAS: 'https://archive.org/compress/BPIST001'
+      WOAS: 'https://archive.org/details/BPIST001'
+  all:
+    TCON: Electro Pop
+    c0: www.sakrecoer.com - www.basspistol.com
+    TIT2: Janne I Min Hjärna
+    RELEASECOUNTRY: SE
+    LABEL: Basspistol
+    MUSICBRAINZ_RELEASETRACKID: a9d8a4ea-8ac5-47a2-a05f-c9e6e8fb3974
+    ORIGINALDATE: '2010'
+    MUSICBRAINZ_RELEASEGROUPID: 2ab5cbaa-6818-4604-8070-26b81b860bfa
+    RELEASESTATUS: official
+    ACOUSTID_ID: d233834c-cfb4-4598-93ae-a308eb774dec
+    CATALOGNUMBER: BPIST001
+    MEDIA: Digital Media
+    RELEASETYPE: album
+    ORIGINALYEAR: '2010'
+    ARTISTS: reSet Sakrecoer
+    'TXXX:MusicBrainz Album Artist Id': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
+    'TXXX:musicbrainz_albumartistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
+    TPOS: 1/1
+    'TXXX:MusicBrainz Album Id': fda0a215-114f-4c4b-9220-3b2157368a3f
+    'TXXX:musicbrainz_albumid': fda0a215-114f-4c4b-9220-3b2157368a3f
+    TPE2: reSet Sakrecoer
+    TALB: Psykedelisk Pop
+    'TXXX:MusicBrainz Artist Id': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
+    'TXXX:musicbrainz_artistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
+    TPE1: reSet Sakrecoer
+    UFID: *ref_1
+    TSOP: Sakrecoer
+    TRCK: 1/10
+    TDRC: '2010-01-01'
+    lyrics: |-
+      <em>Oh Marie,<br />
+      Janne ar pa min hjarna.<br />
+      Han vet precis,<br />
+      Hur allting ska fungera.<br />
+      Han satter mig i meditation.<br />
+      Min sjal i levitation.<br />
+      Jag svavar upp i det bla,<br />
+      Tack vare det grona...<br /></em>
+    WOAS: 'https://archive.org/details/BPIST001'
 previousTrack:
-  path: /Users/set/Desktop/publikator_test/assets/albums/psykedelisk-pop/9-drugs.mp3
+  path: >-
+    /home/set/git/basspistol/basspistol.com/assets/albums/psykedelisk-pop/9-drugs.mp3
   audio: /assets/albums/psykedelisk-pop/9-drugs.mp3
+  slug: psykedelisk-pop/9-drugs
   albumSlug: psykedelisk-pop
-  slug: 9-drugs
+  trackSlug: 9-drugs
   coverPath: >-
-    /Users/set/Desktop/publikator_test/assets/albums/psykedelisk-pop/9-drugs.jpeg
+    /home/set/git/basspistol/basspistol.com/assets/albums/psykedelisk-pop/9-drugs.jpeg
   cover: /assets/albums/psykedelisk-pop/9-drugs.jpeg
   format:
     tagTypes:
       - ID3v2.4
+    trackInfo: []
     lossless: false
-    dataformat: mp3
-    bitrate: 128000
+    container: MPEG
+    codec: MPEG 1 Layer 3
     sampleRate: 44100
     numberOfChannels: 2
+    bitrate: 128000
     codecProfile: CBR
     numberOfSamples: 10164096
     duration: 230.47836734693877
@@ -543,7 +628,9 @@ previousTrack:
             Och ha dig har brevid.<br />
             At minstande narmare i mitt revir.<br /></em>
       - id: WOAS
-        value: 'https://archive.org/compress/BPIST001'
+        value: 'https://archive.org/details/BPIST001'
+  quality:
+    warnings: []
   common:
     track:
       'no': 9
@@ -624,5 +711,47 @@ previousTrack:
         Sluta upp med allt,<br />
         Och ha dig har brevid.<br />
         At minstande narmare i mitt revir.<br /></em>
-      WOAS: 'https://archive.org/compress/BPIST001'
+      WOAS: 'https://archive.org/details/BPIST001'
+  all:
+    TCON: Electro Pop
+    c0: www.sakrecoer.com - www.basspistol.com
+    TIT2: Drugs
+    RELEASECOUNTRY: SE
+    LABEL: Basspistol
+    MUSICBRAINZ_RELEASETRACKID: 343a487a-76a1-43ea-8bbd-999cee74266b
+    ORIGINALDATE: '2010'
+    MUSICBRAINZ_RELEASEGROUPID: 2ab5cbaa-6818-4604-8070-26b81b860bfa
+    RELEASESTATUS: official
+    ACOUSTID_ID: a5f96c79-5ec6-48fb-a9df-30f713514f73
+    CATALOGNUMBER: BPIST001
+    MEDIA: Digital Media
+    RELEASETYPE: album
+    ORIGINALYEAR: '2010'
+    ARTISTS: reSet Sakrecoer
+    'TXXX:MusicBrainz Album Artist Id': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
+    'TXXX:musicbrainz_albumartistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
+    TPOS: 1/1
+    'TXXX:MusicBrainz Album Id': fda0a215-114f-4c4b-9220-3b2157368a3f
+    'TXXX:musicbrainz_albumid': fda0a215-114f-4c4b-9220-3b2157368a3f
+    TPE2: reSet Sakrecoer
+    TALB: Psykedelisk Pop
+    'TXXX:MusicBrainz Artist Id': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
+    'TXXX:musicbrainz_artistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
+    TPE1: reSet Sakrecoer
+    UFID: *ref_2
+    TSOP: Sakrecoer
+    TRCK: 9/10
+    TDRC: '2010-01-01'
+    lyrics: |-
+      <em>Och jag vill garna trippa,<br />
+      Och slappa sjalen fri.<br />
+      Och jag vill garna flippa,<br />
+      Och sluta lata bli.<br />
+      Och jag vill garna resa,<br />
+      Med sjalens luft som fri.<br />
+      <br />
+      Sluta upp med allt,<br />
+      Och ha dig har brevid.<br />
+      At minstande narmare i mitt revir.<br /></em>
+    WOAS: 'https://archive.org/details/BPIST001'
 ---

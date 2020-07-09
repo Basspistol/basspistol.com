@@ -5,28 +5,44 @@ exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", "
 highlighter: pygments
 
 title : 'Basspistol'
-tagline: 'The Outernational Music Syndicate. Established in 2010'
-timezone: Europe/Stockholm
+description: 'The Outernational Music Syndicate. Established in 2010'
+geo: 
+  timezone: "Europe/Stockholm"
+  lat: '59.333759'
+  long: '18.052554'
+  region: 'SE-AB'
+  town: 'Stockholm'
+
 banner: '/assets/img/basspistol_est_2010_square_bluegreen.jpg'
+icon: /siteicon.png
+logo: /siteicon.png
 mblabel: '0f83baf3-4f44-44db-9e30-d5c05d7b77b9'
 
-social_ids: [insta, twitter, facebook, soundcloud, tumblr, archive, mastodon]
+author: 
+  name: Basspistol
+
+publisher:
+  name: Basspistol
+  domain: basspistol.com
+  mail: info@basspistol.com
+
 social:
-  insta: 'https://www.instagram.com/basspistol'
-  twitter: 'https://twitter.com/bpist'
-  facebook: 'https://www.facebook.com/basspistolQC'
-  soundcloud: 'https://soundcloud.com/basspistol'
-  tumblr: 'https://basspistol.tumblr.com'
-  archive: 'https://archive.org/details/basspistol'
-  mastodon: 'https://mastodon.art/@basspistol'
+  name: 徒 Setto セット
+  links:
+    - https://www.instagram.com/basspistol
+    - https://twitter.com/bpist
+    - https://www.facebook.com/basspistolQC
+    - https://soundcloud.com/basspistol
+    - https://basspistol.tumblr.com
+    - https://archive.org/details/basspistol
+    - https://mastodon.art/@basspistol
 
 production_url : https://basspistol.com
-baseurl : ''
 shop_url: https://shop.basspistol.com/?ref=basspistol.com
 
-# excerpt_separator: '<!--more-->'
-pagination:
-  enabled: true
+categories:
+  - releases
+  - ramblings
 
 collections:
   albums:
@@ -34,25 +50,60 @@ collections:
     permalink: /albums/:name/
   tracks:
     output: true
+    permalink: /albums/:path/
   staff_members:
     _hide_content: 
       
-plugins: 
-  - jekyll-paginate-v2
-  - jekyll-sitemap
-  - jekyll-last-modified-at
-  
 # defaults
+
+sass:
+  sass_dir: _sass
 
 defaults:
   - scope:
       path: ""
-      type: "posts"
     values:
+      lang: en  
+  - scope:
+      path: ""
+      type: "tracks"
+    values:
+      layout: "track"
+      lang: en
+      seo:
+        type: "AudioObject"
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+      lang: en
       _options:
         image:
-          width: 960
-          height: 430
-          uploads_dir: "assets/img"
-          resize_style: "cover"
-          
+          width: 1024
+          height: 720
+          resize_style: cover
+          uploads_dir: "/images"
+        content:
+          width: 720
+          height: 720
+          resize_style: cover
+          uploads_dir: "/images"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      lang: en
+      permalink: /:title/
+      _options:
+        image:
+          width: 1024
+          height: 720
+          resize_style: cover
+          uploads_dir: "/images"
+        content:
+          width: 720
+          height: 720
+          resize_style: cover
+          uploads_dir: "/images"  

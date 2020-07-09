@@ -1,0 +1,42 @@
+<!-- Contact -->
+<section id="contact" class="wrapper style1 align-center">
+  <div class="inner medium">
+    <h2 class="editable">
+      
+    </h2>
+    <form action="{{ site.baseurl }}/contact-success/" method="post">
+      <input type="hidden" name="_to" value="setto@basspistol.com" /><br />
+      <input type="text" name="_gotcha" style="display: none;" />
+      <div class="fields">
+        <div class="field half">
+          <label for="name">{{ site.data.translations[page.lang].name }}</label>
+          <input type="text" name="name" id="name" placeholder="{{ site.data.translations[page.lang].name }} {{ site.data.translations[page.lang].lastname }}" />
+        </div>
+        <div class="field half">
+          <label for="email">{{ site.data.translations[page.lang].email }}</label>
+          <input type="email" name="email" placeholder="{{ site.data.translations[page.lang].required }}" required />
+        </div>
+        <div class="field">
+          <label for="message">{{ site.data.translations[page.lang].message }}</label>
+          <textarea name="message" id="message" rows="6" placeholder="{{ site.data.translations[page.lang].write-msg }}"></textarea>
+        </div>
+      </div>
+      <div style="text-align: left;">
+        <input type="checkbox" name="consent" id="consent" required />
+        <label for="consent">{{ site.data.translations[page.lang].privacy }}
+        </label>
+        <br /><br />
+
+        <input type="checkbox" name="newsletter" id="newsletter" />
+        <label for="newsletter">{{ site.data.translations[page.lang].newsletter }}
+        </label>
+      </div>
+<br />
+      <ul class="actions special">
+        <li><input type="submit" name="submit" id="submit" value="{{ site.data.translations[page.lang].send }}" /></li>
+      </ul>
+    </form>
+
+  </div>
+</section>
+<!-- END Contact -->

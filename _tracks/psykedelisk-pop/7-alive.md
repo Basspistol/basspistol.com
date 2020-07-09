@@ -1,19 +1,24 @@
 ---
 layout: track
-path: /Users/set/Desktop/publikator_test/assets/albums/psykedelisk-pop/7-alive.mp3
+path: >-
+  /home/set/git/basspistol/basspistol.com/assets/albums/psykedelisk-pop/7-alive.mp3
 audio: /assets/albums/psykedelisk-pop/7-alive.mp3
+slug: psykedelisk-pop/7-alive
 albumSlug: psykedelisk-pop
-slug: 7-alive
-coverPath: /Users/set/Desktop/publikator_test/assets/albums/psykedelisk-pop/7-alive.jpeg
+trackSlug: 7-alive
+coverPath: >-
+  /home/set/git/basspistol/basspistol.com/assets/albums/psykedelisk-pop/7-alive.jpeg
 cover: /assets/albums/psykedelisk-pop/7-alive.jpeg
 format:
   tagTypes:
     - ID3v2.4
+  trackInfo: []
   lossless: false
-  dataformat: mp3
-  bitrate: 128000
+  container: MPEG
+  codec: MPEG 1 Layer 3
   sampleRate: 44100
   numberOfChannels: 2
+  bitrate: 128000
   codecProfile: CBR
   numberOfSamples: 8667648
   duration: 196.54530612244898
@@ -181,7 +186,9 @@ native:
 
           Si senior, hola!<br /></em>
     - id: WOAS
-      value: 'https://archive.org/compress/BPIST001'
+      value: 'https://archive.org/details/BPIST001'
+quality:
+  warnings: []
 common:
   track:
     'no': 7
@@ -309,24 +316,116 @@ transformed:
       <br />
 
       Si senior, hola!<br /></em>
-    WOAS: 'https://archive.org/compress/BPIST001'
+    WOAS: 'https://archive.org/details/BPIST001'
+all:
+  TCON: Electro Pop
+  c0: www.sakrecoer.com - www.basspistol.com
+  TIT2: Alive
+  RELEASECOUNTRY: SE
+  LABEL: Basspistol
+  MUSICBRAINZ_RELEASETRACKID: b38c1443-878c-40c4-a298-f7fb620c2c7c
+  ORIGINALDATE: '2010'
+  MUSICBRAINZ_RELEASEGROUPID: 2ab5cbaa-6818-4604-8070-26b81b860bfa
+  RELEASESTATUS: official
+  ACOUSTID_ID: 92126bfa-4b34-4f05-a2ec-254f45ad822b
+  CATALOGNUMBER: BPIST001
+  MEDIA: Digital Media
+  RELEASETYPE: album
+  ORIGINALYEAR: '2010'
+  ARTISTS: reSet Sakrecoer
+  'TXXX:MusicBrainz Album Artist Id': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
+  'TXXX:musicbrainz_albumartistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
+  TPOS: 1/1
+  'TXXX:MusicBrainz Album Id': fda0a215-114f-4c4b-9220-3b2157368a3f
+  'TXXX:musicbrainz_albumid': fda0a215-114f-4c4b-9220-3b2157368a3f
+  TPE2: reSet Sakrecoer
+  TALB: Psykedelisk Pop
+  'TXXX:MusicBrainz Artist Id': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
+  'TXXX:musicbrainz_artistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
+  TPE1: reSet Sakrecoer
+  UFID: *ref_0
+  TSOP: Sakrecoer
+  TRCK: 7/10
+  TDRC: '2010-01-01'
+  lyrics: >
+    <em>Si seior, si.<br />
+
+    See, it has come to my attention, that a lot of people, don't believe in
+    dreams. <br />
+
+    And see, it's like every morning, when they wake up, they step out of bed
+    empty. <br />
+
+    This phenomenon is rather sad. <br />
+
+    But coming to think of it, it has maybe always been like that.<br />
+
+    <br />
+
+    Coming to think about my last dream<br />
+
+    how blurry it seems.<br />
+
+    A lot of unknown shapes and feelings.<br />
+
+    Me and you dressed in jeans.<br />
+
+    <br />
+
+    Stop!<br />
+
+    <br />
+
+    If i had to define to perfect dream, <br />
+
+    it would be the one featuring you, you, yes you and you, <br />
+
+    and you, and you and you, and you and you and you and me! <br />
+
+    The dream of the perfect unity. <br />
+
+    The dream of interplanetary harmony.<br />
+
+    <br />
+
+    Coming to think about my last dream.<br />
+
+    I realize how clear and clean.<br />
+
+    The souvenir taste like sugar and cream,<br />
+
+    My dream.<br />
+
+    <br />
+
+    I know kid, i know: these ain't easy goals. <br />
+
+    But there is no use, to loose your hope!<br />
+
+    <br />
+
+    Si senior, hola!<br /></em>
+  WOAS: 'https://archive.org/details/BPIST001'
 nextTrack:
   path: >-
-    /Users/set/Desktop/publikator_test/assets/albums/psykedelisk-pop/8-invitation-to-dance.mp3
+    /home/set/git/basspistol/basspistol.com/assets/albums/psykedelisk-pop/8-invitation-to-dance.mp3
   audio: /assets/albums/psykedelisk-pop/8-invitation-to-dance.mp3
+  slug: psykedelisk-pop/8-invitation-to-dance
   albumSlug: psykedelisk-pop
-  slug: 8-invitation-to-dance
+  trackSlug: 8-invitation-to-dance
   coverPath: >-
-    /Users/set/Desktop/publikator_test/assets/albums/psykedelisk-pop/8-invitation-to-dance.jpeg
+    /home/set/git/basspistol/basspistol.com/assets/albums/psykedelisk-pop/8-invitation-to-dance.jpeg
   cover: /assets/albums/psykedelisk-pop/8-invitation-to-dance.jpeg
   format:
     tagTypes:
       - ID3v2.4
+    trackInfo: []
     lossless: false
-    dataformat: mp3
-    bitrate: 128000
+    container: MPEG
+    codec: MPEG 1 Layer 3
     sampleRate: 44100
     numberOfChannels: 2
+    bitrate: 128000
     codecProfile: CBR
     numberOfSamples: 22281984
     duration: 505.2604081632653
@@ -432,7 +531,9 @@ nextTrack:
       - id: TDRC
         value: '2010-01-01'
       - id: WOAS
-        value: 'https://archive.org/compress/BPIST001'
+        value: 'https://archive.org/details/BPIST001'
+  quality:
+    warnings: []
   common:
     track:
       'no': 8
@@ -502,24 +603,58 @@ nextTrack:
       TSOP: Sakrecoer
       TRCK: 8/10
       TDRC: '2010-01-01'
-      WOAS: 'https://archive.org/compress/BPIST001'
+      WOAS: 'https://archive.org/details/BPIST001'
+  all:
+    TCON: Electro Pop
+    c0: www.sakrecoer.com - www.basspistol.com
+    TIT2: Invitation To Dance
+    RELEASECOUNTRY: SE
+    LABEL: Basspistol
+    MUSICBRAINZ_RELEASETRACKID: dbc92478-98d4-423a-8356-0be2295cc6ca
+    ORIGINALDATE: '2010'
+    MUSICBRAINZ_RELEASEGROUPID: 2ab5cbaa-6818-4604-8070-26b81b860bfa
+    RELEASESTATUS: official
+    ACOUSTID_ID: 2685bca1-3f7c-40ba-b72c-0e705fa7eb93
+    CATALOGNUMBER: BPIST001
+    MEDIA: Digital Media
+    RELEASETYPE: album
+    ORIGINALYEAR: '2010'
+    ARTISTS: reSet Sakrecoer
+    'TXXX:MusicBrainz Album Artist Id': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
+    'TXXX:musicbrainz_albumartistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
+    TPOS: 1/1
+    'TXXX:MusicBrainz Album Id': fda0a215-114f-4c4b-9220-3b2157368a3f
+    'TXXX:musicbrainz_albumid': fda0a215-114f-4c4b-9220-3b2157368a3f
+    TPE2: reSet Sakrecoer
+    TALB: Psykedelisk Pop
+    'TXXX:MusicBrainz Artist Id': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
+    'TXXX:musicbrainz_artistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
+    TPE1: reSet Sakrecoer
+    UFID: *ref_1
+    TSOP: Sakrecoer
+    TRCK: 8/10
+    TDRC: '2010-01-01'
+    WOAS: 'https://archive.org/details/BPIST001'
 previousTrack:
   path: >-
-    /Users/set/Desktop/publikator_test/assets/albums/psykedelisk-pop/6-intelligent-music.mp3
+    /home/set/git/basspistol/basspistol.com/assets/albums/psykedelisk-pop/6-intelligent-music.mp3
   audio: /assets/albums/psykedelisk-pop/6-intelligent-music.mp3
+  slug: psykedelisk-pop/6-intelligent-music
   albumSlug: psykedelisk-pop
-  slug: 6-intelligent-music
+  trackSlug: 6-intelligent-music
   coverPath: >-
-    /Users/set/Desktop/publikator_test/assets/albums/psykedelisk-pop/6-intelligent-music.jpeg
+    /home/set/git/basspistol/basspistol.com/assets/albums/psykedelisk-pop/6-intelligent-music.jpeg
   cover: /assets/albums/psykedelisk-pop/6-intelligent-music.jpeg
   format:
     tagTypes:
       - ID3v2.4
+    trackInfo: []
     lossless: false
-    dataformat: mp3
-    bitrate: 128000
+    container: MPEG
+    codec: MPEG 1 Layer 3
     sampleRate: 44100
     numberOfChannels: 2
+    bitrate: 128000
     codecProfile: CBR
     numberOfSamples: 10060416
     duration: 228.1273469387755
@@ -657,7 +792,9 @@ previousTrack:
             Mig att kanna, mig att uppleva,<br />
             Mig att dela, med mig till alla dom andra.<br /></em>
       - id: WOAS
-        value: 'https://archive.org/compress/BPIST001'
+        value: 'https://archive.org/details/BPIST001'
+  quality:
+    warnings: []
   common:
     track:
       'no': 6
@@ -755,5 +892,64 @@ previousTrack:
         sa ar det kanslan du kann fa,<br />
         Mig att kanna, mig att uppleva,<br />
         Mig att dela, med mig till alla dom andra.<br /></em>
-      WOAS: 'https://archive.org/compress/BPIST001'
+      WOAS: 'https://archive.org/details/BPIST001'
+  all:
+    TCON: Electro Pop
+    c0: www.sakrecoer.com - www.basspistol.com
+    TIT2: Intelligent Music
+    RELEASECOUNTRY: SE
+    LABEL: Basspistol
+    MUSICBRAINZ_RELEASETRACKID: 8fda5685-1857-4aeb-b96e-015699d71610
+    ORIGINALDATE: '2010'
+    MUSICBRAINZ_RELEASEGROUPID: 2ab5cbaa-6818-4604-8070-26b81b860bfa
+    RELEASESTATUS: official
+    ACOUSTID_ID: bfd5f944-9808-468a-adb4-34344b268204
+    CATALOGNUMBER: BPIST001
+    MEDIA: Digital Media
+    RELEASETYPE: album
+    ORIGINALYEAR: '2010'
+    ARTISTS: reSet Sakrecoer
+    'TXXX:MusicBrainz Album Artist Id': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
+    'TXXX:musicbrainz_albumartistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
+    TPOS: 1/1
+    'TXXX:MusicBrainz Album Id': fda0a215-114f-4c4b-9220-3b2157368a3f
+    'TXXX:musicbrainz_albumid': fda0a215-114f-4c4b-9220-3b2157368a3f
+    TPE2: reSet Sakrecoer
+    TALB: Psykedelisk Pop
+    'TXXX:MusicBrainz Artist Id': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
+    'TXXX:musicbrainz_artistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
+    TPE1: reSet Sakrecoer
+    UFID: *ref_2
+    TSOP: Sakrecoer
+    TRCK: 6/10
+    TDRC: '2010-01-01'
+    lyrics: |
+      <em>REF:<br />
+      Kadnamn Intelligent musik!<br />
+      Greppar i dig hjartat, med hjarn gymnastik!<br />
+      Kadnamn Intelligent musik!<br />
+      Du vet precis som jag, vad du vill ha!<br />
+      Kadnamn Intelligent musik!<br />
+      Du vill att det svanger, du vill att det tanker!<br />
+      Kadnamn Intelligent musik!<br />
+      Sa att livslusten hojs, mot ett billigt projs!<br />
+      Kadnamn Intelligent musik!<br />
+      Du och jag bajby, vi vet vart vi ska!<br />
+      Kadnamn Intelligent musik!<br />
+      Vi tanker oss for och vi vet vad vi gor!<br />
+      <br />
+      Det ar nagonting som saknas i mina alster,<br />
+      Som ett for tidigt foster.<br />
+      Problemet ater upp mig som ett monster.<br />
+      Lyssna pa ditt hjarta, du vet vad du gor.<br />
+      Unga mann sin framtid hor.<br />
+      E-E-E-E-ar D D D#-det-du C# BBBBB BEJBY?<br />
+      <br />
+      REF<br />
+      <br />
+      Om det ar nagonting som jag litar pa,<br />
+      sa ar det kanslan du kann fa,<br />
+      Mig att kanna, mig att uppleva,<br />
+      Mig att dela, med mig till alla dom andra.<br /></em>
+    WOAS: 'https://archive.org/details/BPIST001'
 ---

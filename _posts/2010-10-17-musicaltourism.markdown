@@ -3,13 +3,11 @@ description: 'Musical Tourism by SYNAPSET was recorded over a week in April 2010
 image: '/assets/img/Synapset-MusicalTourism_Fro.jpg'
 title: Musical Tourism
 artist: synapset
-category: highlights
+category: releases
+album: musical-tourism
 tags: [internal, albums, download]
-layout: link
 uid: BPIST002
 download: 'https://archive.org/download/BPIST002/BPIST002_archive.torrent'
-link: https://basspistol.com/albums/musical-tourism/
-permalink: /records/musical-tourism/
 ---
 
 Synapset is a blitz-collective. Their album questions the space existing between people and how music interconnects them. It is based on experimenting with the risk of taking opportunities in life and reproduce them with machines. It's core formation is Synapskollaps and reSet Sakrecoer, with special appearance by Dr.Tikov.

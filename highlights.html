@@ -4,63 +4,72 @@ subtitle: Hi-Lights
 description: 'Links to secret music, infamous articles, forbiden videos, off the record interviews and much more...'
 keywords: Music, News, blog, Interviews, links, promotion,
 video_path: /assets/vid/highlights.mp4
-poster_image: /assets/vid/highlights.jpg
+image: /assets/vid/highlights.jpg
 permalink: /highlights/
-pagination: 
-  enabled: true
-  category: highlights
-  per_page: 3
-  title: 'Highlight page :num of :max'
-  limit: 0
-  sort_field: 'date'
-  sort_reverse: true
 ---
-<!DOCTYPE html>
-<html>
-<head>
+
 {% include relBase.html %}
-{% include highlightmetahead.html %}
-{% include matomo.html %}
-</head>
-<body>
-{% include highlightsnavmenu.html %}
-  <div id="content">
-{% include videopageheader.html %}
-    <div class="fitter">
-      <div class="records">
-        <p>This is a collection of links to material we want to encourage; tracks, articles, videos, music related interviews and reviews... Curated but also original content. Most of the Artists represented here are not affiliated with basspistol in any way and do not necessarily endorse Basspistol. They just happen to have an awesome role within music and it's whereabouts. These links are delivered to you daily. Here or via RSS. <br /><br /><strong>If you are featured in this feed against your will, reach out ASAP to info at basspistol dot com and we will remove it.</strong></p>
-      </div>
-      {% for post in paginator.posts %}
-      <div class="records" style="border-bottom: solid 1px #f4ffe8;">
-        <a href="{{ relBase }}{{ post.url }}">
-            <img class="recordthumbs" src="{{ relBase }}{{ post.image }}" title="{{ post.title }}" alt="{{ post.title }}" />
-        <h3>{{ post.title}}</h3></a>
-        <p>{{ post.date | date: "%a, %b %d, %Y" }} </p>
-        <p>{{ post.description }} </p>
-      </div>
-      {% endfor %}
+<!-- Banner -->
+<section class="banner onload-image-fade-in onload-content-fade-right style2 fullscreen content-align-center image-position-center">
 
-    <!-- Pagination links -->
-
-    {% if paginator.total_pages > 1 %}
-    <div class="articles">
-      <h3>page {{ paginator.page }} of {{ paginator.total_pages }}</h3>
-      {% if paginator.previous_page %}
-        <a href="{{ relBase }}{{ paginator.previous_page_path }}"><h3>&laquo; Newer</h3></a>
-      {% else %}
-        
-      {% endif %}
-    
-      {% if paginator.next_page %}
-        <a href="{{ relBase }}{{ paginator.next_page_path }}"><h3>Older &raquo;</h3></a>
-      {% else %}
-        
-      {% endif %}
-    </div>
-    {% endif %}
-
-{% include footer.html %}
-    </div>
+  <div class="image">
+    <img src="{{ relBase }}{{ page.image }}" alt="{{ page.title | smartify }}" class="editable" />
   </div>
-</body>
-</html>
+</section>
+<!-- NEWS -->
+<section id="news" class="wrapper style1 align-center">
+  <div class="inner" style="padding-top: 40px;">
+    <h1>{{ page.title }}</h1>
+    <p>{{ page.description }}</p>
+  </div>
+</section>
+{% for post in site.posts %}
+
+<section id="second" class="spotlight style1 orient-{% cycle 'left', 'right' %} content-align-{% cycle 'right', 'left' %} image-position-center onscroll-image-fade-in" {% if forloop.index == 1 %}style="box-shadow: none;" {% endif %}>
+  <div class="content">
+    <h2>{{ post.title }}</h2>
+    <p>{{ post.description }}</p>
+    <p class="editor-link"><a class="btn" rel="nofollow" href="cloudcannon:collections/{{ post.path }}">
+      <strong>&#9998;</strong> Edit Post
+    </a></p>
+    <ul class="actions stacked">
+      <li><a href="{{ relBase }}{{ post.url }}" class="button">{{ site.data.translations[page.lang].read-post }}</a></li>
+    </ul>
+  </div>
+  <div class="image">
+    <img src="{{ relBase }}{{ post.image }}" alt="{{ page.title | smartify }}" />
+  </div>
+</section>
+
+{% endfor %}
+
+<!-- Archive -->
+<!-- <section id="news" class="wrapper style1 align-center">
+
+    <div class="inner editable">
+      <h2>Archive</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi id ante sed ex pharetra lacinia sit amet vel
+        massa. Donec facilisis laoreet nulla eu bibendum. Donec ut ex risus. Fusce lorem lectus, pharetra pretium
+        massa et, hendrerit vestibulum odio lorem ipsum.</p>
+    </div>
+  
+    <div class="gallery style1 medium lightbox onscroll-fade-in">
+      {% for post in site.posts %}
+      <article>
+        <a href="{{ relBase }}{{ post.url }}" class="image">
+          <img src="{{ relBase }}{{ post.image }}" alt="" />
+        </a>
+        <div class="caption">
+          <h3>{{ post.title }}</h3>
+          <p>{{ post.description }}</p>
+          <ul class="actions fixed">
+            <li><span class="button small">Read Article</span></li>
+          </ul>
+        </div>
+      </article>
+      {% endfor %}
+    
+ 
+
+   -->
+{% include footer.html %}

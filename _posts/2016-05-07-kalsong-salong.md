@@ -1,13 +1,12 @@
 ---
 title: Kalsong Salong
 artist: Sakrecoer
-category: highlights
+category: ramblings
 tags:
   - video
   - music
   - internal
   - cybersoul
-layout: link
 description: Papi Crapy staring in a Sakrecoer video
 uid: kalsongsalong
 image: /assets/img/kalsongsalong.jpg

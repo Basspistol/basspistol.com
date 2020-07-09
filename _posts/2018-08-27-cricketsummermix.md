@@ -1,9 +1,8 @@
 ---
 title: 'G-Funk Summer Mix 2018'
 artist: 'Dj Criket'
-category: highlights
+category: ramblings
 tags: [g-funk, summer, mix]
-layout: link
 description: '100% Vinyl mix of G-Funk'
 uid: 'gmixsummer'
 image: '/assets/img/cricket.summer.jpg'

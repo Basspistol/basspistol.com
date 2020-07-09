@@ -1,13 +1,12 @@
 ---
 title: K'as-tu fait de nous?
 artist: 徒 Setto セット
-category: highlights
+category: ramblings
 tags:
   - internal
   - release
   - EP
   - cybersoul
-layout: link
 description: 'Satoshi Mon Ami EP, out now!'
 uid: kas tu fais de nous 2019
 image: /assets/img/2018-setto-single-003-reve_de_toi-117bpm_sqaure_FINAL.jpg

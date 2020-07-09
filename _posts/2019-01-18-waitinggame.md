@@ -1,9 +1,8 @@
 ---
 title: 'Waiting Game'
 artist: 'Sakrecoer'
-category: highlights
+category: ramblings
 tags: [internal,album]
-layout: link
 description: 'Sakrecoer Sells out!'
 uid: 'waitinggamesakrecoer2019'
 image: '/assets/img/waitinggame.jpg'

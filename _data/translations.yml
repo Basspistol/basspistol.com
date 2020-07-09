@@ -1,0 +1,26 @@
+en:
+  navigation:
+    -   
+  read-post: 'Read post'
+  name: Name
+  lastname: Last name
+  email: E-mail
+  message: Message
+  privacy: 'I agree with the <a href=''/cookies/#privacythingy''>privacy policy.</a>'
+  newsletter: I want the newsletter!
+  required: Required field
+  contact-us: Get in touch
+  contact: Contact
+  write-msg: Write your message...
+  send: Send Message
+  news: News
+  top: Back to top
+  cookies: >- 
+    <p>We only use cookies if you consent to it. They don't contain any identifiable info: they just let us know if you enjoyed this enough to come back.
+    <br />Click <a href="#" id="cookie-notice-decline">here</a> if you want this shit to go away without cookies. 
+    <br />Read more about how Basspistol <a href="/cookies/">use cookies</a>
+    </p>
+  cookie-agree: I'm in!
+  back: Take me back!
+  home: Home
+  post-nav: Read more posts

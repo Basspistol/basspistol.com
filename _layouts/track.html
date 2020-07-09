@@ -1,80 +1,149 @@
 ---
+layout: default
 ---
-<!DOCTYPE html>
-<html>
-  <head>
+
 {% include relBase.html %}
-{% include trackmeta.html %}
-{% include matomo.html %}
-  </head>
-  <body>
-{% include navmenu.html %}
-  <div id="content">
-     <div id="headline"><h1>~/{{ page.common.title }}</h1></div>
-    <div id="linkhead" style="background-image:url('{{ relBase }}{{ page.cover }}');background-size:cover;background-position:center;"></div>
-    <div id="linkheadthumb" style="background-image:url('{{ relBase }}{{ page.cover }}');background-size:cover;background-position:center;"></div>   
-    <div class="fitter">
-      <div class="articles" style="text-align: center">
-        <p>&nbsp;</p>
-        <a id="rwd" href="{{ relBase }}/tracks/{{ page.previousTrack.albumSlug }}/{{ page.previousTrack.slug }}/">&lt;&lt; RWD</a> 
-        <button id="mu_pause" style="margin:0 5px 0 5px;">Pause</button>
-        <a id="ffwd" href="{{ relBase }}/tracks/{{ page.nextTrack.albumSlug }}/{{ page.nextTrack.slug }}/">FWD &gt;&gt;</a>
-        <p style="padding:40px;"><a href="{{ page.transformed["ID3v2.4"].WOAS }}" onclick="_paq.push(['trackEvent', 'albumDownload', '{{ page.common.album }}']);" target="_blank" rel="noopener"><img src="{{ relBase }}/assets/img/cloud-download.svg" width="64px" height="64px" /></a></p>
-      </div>   
-      <div class="articles">
-        <h3>{{ page.common.track.no }}. {{ page.common.title }}</h3>
-        Artists: <strong>{{ page.common.artists }}</strong>
-        <br />Album: <strong>{{ page.common.album }}</strong>
-        <br />Duration: <span id="tracktime"><strong>{{ page.format.duration }}</strong></span> Seconds
-        <br />
-        {% if page.transformed["ID3v2.4"].lyrics != null %}Lyrics:<br /> {{ page.transformed["ID3v2.4"].lyrics }}
-        {% endif %}
-      </div>
-      <div class="articles">
-        <h1>&nbsp;</h1>
-        Release Date: <strong>{{ page.common.date }} </strong>
-        <br />Genre: <strong>{{ page.common.genre }} </strong>
-        <br />Musicbrainz: <a href="https://musicbrainz.org/recording/{{ page.common.musicbrainz_recordingid }}" target="_blank" rel="noopener"><strong>{{ page.common.musicbrainz_recordingid }}</strong></a>
-      </div>
-{% include footer.html %}
+<!-- Banner -->
+<section
+  class="banner onload-image-fade-in onload-content-fade-right style3 fullscreen content-align-center image-position-center" style="background-image:url('https://media.basspistol.com/basspistol.com/{{ page.slug }}.jpeg');background-size: cover; background-repeat: no-repeat;">
+  <div style="z-index:0;position:absolute; top:0; left:0; width:100%;height:100%;background-color: rgba(13, 13 ,13, 0.85);"></div>
+  <div class="content" style="z-index:1">
+    <h1 style="margin-top:80px">{{ page.common.title }}</h1>
+
+    <p><strong><span id="tracktime"></span></strong><span id="{{ page.common.title | slugify | remove: '-'  }}"></span></strong> <br />
+      Style: <strong>{% for style in page.common.genre %}{{ style }}{% endfor %}</strong>   
+    </p>
+      <script type="text/javascript">
+        var {{ page.common.title | slugify | remove: '-'  }}timestamp = {{ page.format.duration | round }};
+        var {{ page.common.title | slugify | remove: '-'  }}hours = Math.floor({{ page.common.title | slugify | remove: '-'  }}timestamp / 60 / 60);
+        var {{ page.common.title | slugify | remove: '-'  }}minutes = Math.floor({{ page.common.title | slugify | remove: '-'  }}timestamp / 60) - ({{ page.common.title | slugify | remove: '-' }}hours * 60);
+        var {{ page.common.title | slugify | remove: '-'  }}seconds = {{ page.common.title | slugify | remove: '-' }}timestamp % 60;
+        var {{ page.common.title | slugify | remove: '-'  }}formatted = {{ page.common.title | slugify | remove: '-' }}hours.toString().padStart(2, '0') + ':' + {{ page.common.title | slugify | remove: '-' }}minutes.toString().padStart(2, '0') + ':' + {{ page.common.title | slugify | remove: '-' }}seconds.toString().padStart(2, '0');
+        var theSpan = document.getElementById("{{ page.common.title | slugify | remove: '-'  }}");
+        theSpan.innerHTML = {{ page.common.title | slugify | remove: '-' }}formatted;
+      </script>
+
+ 
+    <ul class="actions stacked">
+      <li><button id="mu_pause" class="smooth-scroll-middle button icon solid fa-play">Play dat!</button></li>
+    </ul>
+  </div>
+
+  <div class="image">
+    <img src="https://media.basspistol.com/basspistol.com/{{ page.slug }}.jpeg" alt="{{ page.title }} logo" id="coverart" />
+  </div>
+</section>
+{% if page.all.UNSYNCEDLYRICS != nil %}
+<!-- Content -->
+<section class="wrapper style1 align-center">
+  <div class="inner" style="padding-top:40px">
+    <div class="index align-left">
+      <section style="padding-top:40px">
+        {% include author.html %}
+        <!-- Content -->
+        <div class="content">
+          {% unless page.all.UNSYNCEDLYRICS == '' %}<h2>Lyrics</h2>{% endunless %}
+          <p style="font-family: monospace;font-size:16px;">
+            {{ page.all.UNSYNCEDLYRICS | newline_to_br }}
+          </p>
+          <p>credits:
+            {{ page.all.Comment }}
+          </p>
+        </div>
+      </section>
     </div>
   </div>
-    <audio preload="none" data-matomo-title="{{ page.common.artists }} - {{ page.common.title }}" autoplay ontimeupdate="document.getElementById('tracktime').innerHTML = Math.floor(this.currentTime) + ' / ' + Math.floor(this.duration);">
-      <source src="{{ relBase }}/assets/albums/{{ page.albumSlug }}/{{ page.slug }}.mp3" type="audio/mpeg" />
-      <!-- <source src="{{ relBase }}/assets/albums/{{ page.albumSlug }}/{{ page.slug }}.ogg" type="audio/ogg" /> -->
-      <h1>Your browser isn't ready for so much hotness. Use these links instead: <a href="{{ relBase }}/assets/albums/{{ page.albumSlug }}/{{ page.slug }}.ogg">OGG</a> or <a href="{{ relBase }}/assets/albums/{{ page.albumSlug }}/{{ page.slug }}.mp3">MP3</a></h1>.
-    </audio>
-  <script type="text/javascript">
-    function loadUrl(newLocation) {
+</section>
+{% endif %}
+{% include streamer.html %}
+<!-- Page navigation -->
+<section class="wrapper style1 align-center">
+  <div class="inner">
+    <div class="index align-left">
+      <!-- Author -->
+
+      <section>
+        <!-- Content -->
+        <div class="content">
+          <!-- post Naviation -->
+          <div style="text-align: center;">
+            <h3>Play more songs grom this release</h3>
+          </div>
+          <div class="post-nav">
+            <div>
+              {% if page.previous.url and page.lang == page.previous.lang %}
+              <h4><a href="{{ relBase }}/albums/{{ page.previousTrack.slug }}/" alt="Read {{ page.previousTrack.common.title }}" title="Read {{ page.previousTrack.common.title }}"><i class="fas fa-arrow-left"></i></a> <a
+                  href="{{ relBase }}/albums/{{ page.previousTrack.slug }}/">&nbsp;{{ page.previousTrack.common.title }}</a>
+              </h4>
+              {% endif %}
+            </div>
+            <div class="post-nav-next">
+              {% if page.next.url and page.lang == page.next.lang  %}
+              <h4><a href="{{ relBase }}/albums/{{ page.nextTrack.slug }}/">&nbsp;{{ page.nextTrack.common.title }}</a> <a
+                  href="{{ relBase }}/albums/{{ page.nextTrack.slug }}/" alt="Read {{ page.nextTrack.common.title }}" title="Read {{ page.nextTrack.common.title }}"><i class="fas fa-arrow-right"></i></a></h4>
+              {% endif %}
+            </div>
+          </div>
+          <!-- End Post Navigation -->
+        </div>
+      </section>
+    </div>
+  </div>
+</section>
+
+<!-- Audio player-->
+<audio autoplay preload="true" data-matomo-title="{{ page.common.title }}">
+  <source src="https://media.basspistol.com/basspistol.com/{{ page.slug }}.mp3" type="audio/mpeg" ontimeupdate='updateTrackTime(this);' />
+  <h1>Your browser isn't ready for so much hotness. Use the download-link instead.</h1>.
+</audio>
+{% include footer.html %}
+
+<script type="text/javascript">
+  function loadUrl(newLocation) {
     window.location = newLocation;
     return false;
-    }
-    var mu = document.getElementsByTagName("audio")[0];
-    var pauseButton = document.getElementById("mu_pause");
-    function muFade() {
-    mu.classList.add("stopfade");
-    }
-    mu.addEventListener('ended', function() {
+  }
+
+  var mu = document.getElementsByTagName("audio")[0];
+  var pauseButton = document.getElementById("mu_pause");
+  var spincover = document.getElementById("coverart");
+
+  mu.addEventListener('ended', function () {
     // only functional if "loop" is removed
     mu.pause();
-    mu.currentTime=0;
-    
-    loadUrl("{{ relBase }}/tracks/{{ page.nextTrack.albumSlug }}/{{ page.nextTrack.slug }}/"); return false;
-
-    // qq IE10
-    muFade();
-    });
-    pauseButton.addEventListener("click", function() {
-    mu.classList.toggle("stopfade");
-    if (mu.paused) {
-    mu.play();
+    mu.currentTime = 0;
+    loadUrl("{{ relBase }}/{{ page.nextTrack.slug }}/"); return false;
+  });
+  mu.onplaying = function() {
     pauseButton.innerHTML = "Pause";
-    } else {
-    mu.pause();
-     pauseButton.innerHTML = "Resume";
-    }
-    });
-    </script>
+    pauseButton.classList.remove("fa-play");
+    pauseButton.classList.add("fa-pause");
+    spincover.classList.add("spinnit");
+    spincover.classList.remove("paused");
+  }; 
 
-  </body>
-</html>
+  pauseButton.addEventListener("click", function () {
+    if (mu.paused) {
+      mu.play();
+
+    }
+    else {
+      mu.pause();
+      pauseButton.innerHTML = "Resume";
+      pauseButton.classList.add("fa-play");
+      pauseButton.classList.remove("fa-pause");
+      spincover.classList.add("paused");
+    }
+  });
+
+  mu.addEventListener('timeupdate', function () {
+    var timestamp = Math.floor(mu.currentTime);
+    var hours = Math.floor(timestamp / 60 / 60);
+    var minutes = Math.floor(timestamp / 60) - (hours * 60);
+    var seconds = timestamp % 60;
+    var formatted = hours.toString().padStart(2, '0') + ':' + minutes.toString().padStart(2, '0') + ':' + seconds.toString().padStart(2, '0');
+    var thecurrentSpan = document.getElementById("tracktime");
+    thecurrentSpan.innerHTML = formatted + ' / ';
+  });
+
+</script>
