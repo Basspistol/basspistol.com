@@ -1,19 +1,25 @@
 - icon: fa-disc
   url: /discography/
   name: Discog
+  external_site: false
 - icon: fa-radio
   url: /radio/
   name: Radio
+  external_site: false
 - icon: fa-newspaper
   url: /highlights/
   name: Hi-lights
+  external_site: false
 - icon: fa-people
   url: /artists/
   name: Artists
+  external_site: false
 - icon: fa-finger-print
   url: /about/
   name: About
+  external_site: false
 - icon: fa-link
   url: /links/
   name: Links
+  external_site: false
   

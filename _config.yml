@@ -50,7 +50,7 @@ collections:
     permalink: /albums/:name/
   tracks:
     output: true
-    permalink: /albums/:path/
+    permalink: /tracks/:path/
   staff_members:
     _hide_content: 
       

@@ -10,13 +10,13 @@
       <a href="#close" title="Close" onclick="removeBlur()" class="close-button close" style="margin: 0 auto;">X</a>
       <ul> 
         {% if page.url != '/' %}
-        <li><a href="{{ relBase }}/" class="button small">{{ site.data.translations[page.lang].home }}</a></li>
+        <li><a href="{{ relBase }}/" class="button smaller">{{ site.data.translations[page.lang].home }}</a></li>
         {% endif %}
         {% for entry in site.data.navigation %}
         {% if entry.external_site == false %}
-        <li><a href="{{ relBase }}{{ entry.url }}" class="button small">{{ entry.name }}</a></li>
+        <li><a href="{{ relBase }}{{ entry.url }}" class="button smaller">{{ entry.name }}</a></li>
         {% else %}
-        <li><a href="{{ entry.url }}" target="_blank" rel="noopener" class="button small">{{ entry.name }}</a></li>
+        <li><a href="{{ entry.url }}" target="_blank" rel="noopener" class="button smaller">{{ entry.name }}</a></li>
         {% endif %}
         {% endfor %}
 

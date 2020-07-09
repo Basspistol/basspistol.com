@@ -68,6 +68,9 @@
 
 /* NAVIGATION */
 /* Style the navbar */
+#navbar {
+  z-index: 100000;
+}
 #logo {
   padding:10px;
   z-index: 10000;
@@ -81,6 +84,7 @@
   -webkit-transition: filter 400ms ease-in;
   -moz-transition: filter 400ms ease-in;
   transition: filter 400ms ease-in;
+
 }
 .logo {
   filter: blur(2px);
@@ -125,7 +129,7 @@
 nav {
   position: absolute;
   width: 300px;
-  height: 450px;
+
   max-height: 90vh;
   max-width: 90vw;
   top: 50%;
@@ -136,6 +140,7 @@ nav {
   padding: 20px;
   display: flex;
   flex-wrap: wrap;
+
 
   ul {
     margin: auto;
@@ -229,7 +234,7 @@ nav {
 }
 
 .close-button:hover { 
-  background-color: _palette(accen-dark); 
+  background-color: _palette(accent-dark); 
   color: #FFFFFF;
 }
 
