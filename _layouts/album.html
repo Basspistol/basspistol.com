@@ -95,7 +95,7 @@ lang: en
                   <div class="plItem">
                     <div class="plNum">{{ track.common.track.no }}.</div>
                     <div class="plTitle"><a href="{{ track.audio }}">{{ track.common.title }} </a></div>
-                    <div class="plLength">{% assign round_seconds = track.format.duration | round %}{% assign minutes = round_seconds | divided_by: 60 %}{% assign leftover_seconds = minutes | times: 60 %}{{ minutes }}:{{ round_seconds | minus: leftover_seconds }}</div>
+                    <div class="plLength">{% assign round_seconds = track.format.duration | round %}{% assign minutes = round_seconds | divided_by: 60 %}{% assign leftover_seconds = minutes | times: 60 %}{{ minutes }}:{% assign seconds_without_zero = round_seconds | minus: leftover_seconds %}{% if seconds_without_zero < 10 %}0{% endif %}{{ seconds_without_zero }}</div>
                   </div>
 
                 {% endfor %}
@@ -132,7 +132,7 @@ lang: en
   <div class="content">
     <h3>{{ track.common.title }}</h3>
     <p>
-      {% assign round_seconds = track.format.duration | round %}{% assign minutes = round_seconds | divided_by: 60 %}{% assign leftover_seconds = minutes | times: 60 %}{{ minutes }}:{{ round_seconds | minus: leftover_seconds }}
+      {% assign round_seconds = track.format.duration | round %}{% assign minutes = round_seconds | divided_by: 60 %}{% assign leftover_seconds = minutes | times: 60 %}{{ minutes }}:{% assign seconds_without_zero = round_seconds | minus: leftover_seconds %}{% if seconds_without_zero < 10 %}0{% endif %}{{ seconds_without_zero }}
       <br /><strong>{{ track.common.genre }}</strong>
       <br />{{ track.common.year }}</p>
 
