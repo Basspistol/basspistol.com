@@ -390,7 +390,7 @@
 		@include vendor('align-items', 'center');
 		@include vendor('display', 'flex');
 		@include vendor('justify-content', 'center');
-		background-color: inherit;
+		background-color: _palette(border-darken);
 		position: relative;
 		text-align: center;
 		overflow-x: hidden;
