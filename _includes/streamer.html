@@ -1,7 +1,7 @@
 <section class="streambox" style="padding: 40px;">
 {% if page.collection == 'posts' %}
   {% if page.category == 'releases' %}
-  {% if page.stores[0].name != nil %}
+  {% if page.stores[0].name != '' %}
 
   <h3 style="text-align: center;display: block;">Buy this release</h3>
   <div class="streamer">
@@ -46,13 +46,14 @@
   {% endif %}
   {% endif %}
   
-{% elsif page.collection == 'tracks' %}
+  {% elsif page.collection == 'tracks' %}
+
 
   {% for post in site.posts %}
   {% if post.album == page.albumSlug %}
-  {% if post.stores[0].name != nil %}
-
-  <h3 style="text-align: center;display: block;">Buy this Track</h3>
+  {% if post.stores[0].name != '' %}
+  
+  <h3 style="text-align: center;display: block;">Buy this track</h3>
   <div class="streamer">
     {% for shop in post.stores %}
     {% if shop.download == true %}
@@ -60,10 +61,10 @@
     {% endif %}
     {% endfor %}
   </div>
-
+  
   <h3 style="text-align: center;display: block;margin-top:40px;">&nbsp;</h3>
   <div class="streamer">
-
+  
     {% for shop in post.stores %}
     {% if shop.download != true %}
     
@@ -71,12 +72,8 @@
     {% endif %}
     {% endfor %}
   </div>
-
-
-
-  {% endif %}
   {% else %}
-
+  
   <h3 style="text-align: center;display: block;">This track can't be bought</h3>
   <p>But you can find others here:</p>
   <div class="streamer">
@@ -87,7 +84,7 @@
     {% endfor %}
   </div>
   <h3 style="text-align: center;display: block;">&nbsp;</h3>
-
+  
   <div class="streamer">
     {% for shop in site.data.stores %}
     {% if shop.download != true %}
@@ -95,14 +92,38 @@
     {% endif %}
     {% endfor %}
   </div>
-  {% endif %}{% break %}
+  {% break %}
+  
+  {% endif %}
+  {% endif %}
   {% endfor %}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 {% elsif page.collection == 'albums' %}
 
-  {% for post in site.posts %}
-  {% if post.album == page.slug %}
-  {% if post.stores[0].name != nil %}
+
+{% for post in site.posts %}
+{% if post.album == page.slug %}
+{% if post.stores[0].name != '' %}
 
 <h3 style="text-align: center;display: block;">Buy this album</h3>
 <div class="streamer">
@@ -123,11 +144,7 @@
   {% endif %}
   {% endfor %}
 </div>
-
-
-
-  {% endif %}
-  {% else %}
+{% else %}
 
 <h3 style="text-align: center;display: block;">This album can't be bought</h3>
 <p>But you can find others here:</p>
@@ -147,11 +164,15 @@
   {% endif %}
   {% endfor %}
 </div>
-  {% endif %}{% break %}
-  {% endfor %}
+{% break %}
+
+{% endif %}
+{% endif %}
+{% endfor %}
+
+
 
 {% else %}
-
 <h3 style="text-align: center;display: block;">Support {{ site.name }}</h3>
 <p>Pay for music here:</p>
 <div class="streamer">
@@ -170,7 +191,5 @@
   {% endif %}
   {% endfor %}
 </div>
-
 {% endif %}
-
 </section>
