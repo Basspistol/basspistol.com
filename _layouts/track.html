@@ -72,15 +72,15 @@ layout: default
           <div class="post-nav">
             <div>
               {% if page.previous.url and page.lang == page.previous.lang %}
-              <h4><a href="{{ relBase }}/albums/{{ page.previousTrack.slug }}/" alt="Read {{ page.previousTrack.common.title }}" title="Read {{ page.previousTrack.common.title }}"><i class="fas fa-arrow-left"></i></a> <a
-                  href="{{ relBase }}/albums/{{ page.previousTrack.slug }}/">&nbsp;{{ page.previousTrack.common.title }}</a>
+              <h4><a href="{{ relBase }}/tracks/{{ page.previousTrack.slug }}/" alt="Read {{ page.previousTrack.common.title }}" title="Read {{ page.previousTrack.common.title }}"><i class="fas fa-arrow-left"></i></a> <a
+                  href="{{ relBase }}/tracks/{{ page.previousTrack.slug }}/">&nbsp;{{ page.previousTrack.common.title }}</a>
               </h4>
               {% endif %}
             </div>
             <div class="post-nav-next">
               {% if page.next.url and page.lang == page.next.lang  %}
-              <h4><a href="{{ relBase }}/albums/{{ page.nextTrack.slug }}/">&nbsp;{{ page.nextTrack.common.title }}</a> <a
-                  href="{{ relBase }}/albums/{{ page.nextTrack.slug }}/" alt="Read {{ page.nextTrack.common.title }}" title="Read {{ page.nextTrack.common.title }}"><i class="fas fa-arrow-right"></i></a></h4>
+              <h4><a href="{{ relBase }}/tracks/{{ page.nextTrack.slug }}/">&nbsp;{{ page.nextTrack.common.title }}</a> <a
+                  href="{{ relBase }}/tracks/{{ page.nextTrack.slug }}/" alt="Read {{ page.nextTrack.common.title }}" title="Read {{ page.nextTrack.common.title }}"><i class="fas fa-arrow-right"></i></a></h4>
               {% endif %}
             </div>
           </div>
@@ -112,7 +112,7 @@ layout: default
     // only functional if "loop" is removed
     mu.pause();
     mu.currentTime = 0;
-    loadUrl("{{ relBase }}/{{ page.nextTrack.slug }}/"); return false;
+    loadUrl("{{ relBase }}/tracks/{{ page.nextTrack.slug }}/"); return false;
   });
   mu.onplaying = function() {
     pauseButton.innerHTML = "Pause";
