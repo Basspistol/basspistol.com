@@ -9,7 +9,7 @@
   </div>
   <br />
   <p style="font-style: normal;"><a href="mailto:{{ author.email }}"><strong>{{ author.name }}</strong></a></p>
-  <p style="font-style: normal;">{{ author.position }} | {% if author.gpg != 'nil' %}<a target="_blank" rel="noopener" href="{{ author.gpg }}">GPG</a>{% endif %}</p>
+  <p style="font-style: normal;">{{ author.position }}{% if author.gpg != nil %} | <a target="_blank" rel="noopener" href="{{ author.gpg }}">GPG</a>{% endif %}</p>
   <p style="font-size:14px;font-style: normal;">
     Published the 
 
