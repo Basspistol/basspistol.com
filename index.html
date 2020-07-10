@@ -197,8 +197,8 @@ logo_image: /siteicon.png
 
 
 
-<section id="second" class="spotlight style2 orient-{% cycle 'left', 'right' %} content-align-{% cycle 'right', 'left' %} image-position-center onscroll-image-fade-in" {% if forloop.index == 1 %}style="box-shadow: none;" {% endif %}>
-  <div class="inner">
+<section class="wrapper style1 align-center">
+  <div class="inner" style="padding-top: 40px;">
     <h2 id="music">Releases</h2>
     <p>Collection of releases through time</p>
   </div>
@@ -212,7 +212,7 @@ logo_image: /siteicon.png
 {% assign sorted = site.albums | sort: 'date' | reverse %}
 {% for album in sorted %}
 
-<section id="second" class="spotlight style2 orient-{% cycle 'left', 'right' %} content-align-{% cycle 'right', 'left' %} image-position-center onscroll-image-fade-in" {% if forloop.index == 1 %}style="box-shadow: none;" {% endif %}>
+<section class="spotlight style5 orient-{% cycle 'left', 'right' %} content-align-{% cycle 'right', 'left' %} image-position-center onscroll-image-fade-in" {% if forloop.index == 1 %}style="box-shadow: none;" {% endif %}>
 
 
   <div class="content">
@@ -221,7 +221,7 @@ logo_image: /siteicon.png
     <!-- <p>{{ artist.bio }}</p> -->
 
     <ul class="actions stacked">
-      <li><a href="{{ album.url }}" target="_blank" rel="noopener" style="text-decoration:none;" class="button">Visit</a></li>
+      <li><a href="{{ album.url }}" target="_blank" rel="noopener" style="text-decoration:none;" class="button">Listen</a></li>
     </ul>
   </div>
   <div class="image">
