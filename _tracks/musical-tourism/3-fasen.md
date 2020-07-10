@@ -11,7 +11,8 @@ coverPath: >-
 cover: /assets/albums/musical-tourism/3-fasen.jpeg
 format:
   tagTypes:
-    - ID3v2.4
+    - ID3v2.3
+    - ID3v1
   trackInfo: []
   lossless: false
   container: MPEG
@@ -23,21 +24,46 @@ format:
   numberOfSamples: 11441664
   duration: 259.4481632653061
 native:
-  ID3v2.4:
-    - id: COMM
-      value:
-        language: XXX
-        description: c0
-        text: www.basspistol.com
-    - id: TCON
-      value: KickNBase
+  ID3v2.3:
     - id: TIT2
       value: Fasen
+    - id: TPE1
+      value: Synapset
+    - id: TRCK
+      value: 3/9
+    - id: TALB
+      value: Musical Tourism
+    - id: TPOS
+      value: 1/1
+    - id: TCON
+      value: KickNBase
+    - id: TDAT
+      value: '0102'
+    - id: TORY
+      value: '2010'
+    - id: TYER
+      value: '2010'
+    - id: TPE2
+      value: Synapset
+    - id: TSO2
+      value: Synapset
+    - id: TSOP
+      value: Synapset
+    - id: TPUB
+      value: Basspistol
+    - id: TMED
+      value: Digital Media
+    - id: WOAS
+      value: "https://archive.org/details/BPIST002\0"
+    - id: 'TXXX:ARTISTS'
+      value: Synapset
+    - id: 'TXXX:originalyear'
+      value: '2010'
     - id: COMM
       value:
         language: XXX
-        description: RELEASECOUNTRY
-        text: XW
+        description: ARTISTS
+        text: Synapset
     - id: COMM
       value:
         language: XXX
@@ -46,38 +72,13 @@ native:
     - id: COMM
       value:
         language: XXX
-        description: MUSICBRAINZ_RELEASETRACKID
-        text: 366f8e3f-f943-4d31-8ef3-22e7099d99d5
+        description: ORIGINALYEAR
+        text: '2010'
     - id: COMM
       value:
         language: XXX
-        description: ORIGINALDATE
-        text: '2010-02-01'
-    - id: COMM
-      value:
-        language: XXX
-        description: MUSICBRAINZ_RELEASEGROUPID
-        text: 9cb26b80-6276-4ede-b477-13658b4857c9
-    - id: COMM
-      value:
-        language: XXX
-        description: RELEASESTATUS
-        text: official
-    - id: COMM
-      value:
-        language: XXX
-        description: ACOUSTID_ID
-        text: 967dd570-7ce8-44ff-bc37-94b889eadedd
-    - id: COMM
-      value:
-        language: XXX
-        description: CATALOGNUMBER
-        text: BPIST002
-    - id: COMM
-      value:
-        language: XXX
-        description: MEDIA
-        text: Digital Media
+        description: RELEASECOUNTRY
+        text: XW
     - id: COMM
       value:
         language: XXX
@@ -86,45 +87,82 @@ native:
     - id: COMM
       value:
         language: XXX
-        description: ORIGINALYEAR
-        text: '2010'
+        description: MEDIA
+        text: Digital Media
+    - id: 'TXXX:CATALOGNUMBER'
+      value: BPIST002
     - id: COMM
       value:
         language: XXX
-        description: ARTISTS
-        text: Synapset
-    - id: 'TXXX:MusicBrainz Album Artist Id'
-      value: a0dd2f36-1681-4bc0-970e-06a0450e16ec
-    - id: 'TXXX:musicbrainz_albumartistid'
-      value: a0dd2f36-1681-4bc0-970e-06a0450e16ec
-    - id: TPOS
-      value: 1/1
-    - id: 'TXXX:MusicBrainz Album Id'
-      value: f075c9ac-b741-459e-a0a3-c00fe3004030
+        description: c0
+        text: www.basspistol.com
+    - id: COMM
+      value:
+        language: XXX
+        description: CATALOGNUMBER
+        text: BPIST002
+    - id: COMM
+      value:
+        language: XXX
+        description: RELEASESTATUS
+        text: official
+    - id: COMM
+      value:
+        language: XXX
+        description: ORIGINALDATE
+        text: '2010-02-01'
     - id: 'TXXX:musicbrainz_albumid'
       value: f075c9ac-b741-459e-a0a3-c00fe3004030
-    - id: TPE2
-      value: Synapset
-    - id: TALB
-      value: Musical Tourism
-    - id: 'TXXX:MusicBrainz Artist Id'
-      value: a0dd2f36-1681-4bc0-970e-06a0450e16ec
     - id: 'TXXX:musicbrainz_artistid'
       value: a0dd2f36-1681-4bc0-970e-06a0450e16ec
-    - id: TPE1
-      value: Synapset
     - id: UFID
       value: &ref_0
         owner_identifier: 'http://musicbrainz.org'
         identifier: !<tag:yaml.org,2002:binary> NDQ1ODM3NTUtMTYwNS00NjcwLWJmYWYtNWQzZDM1YzUwNmRi
-    - id: TSOP
+    - id: 'TXXX:MusicBrainz Album Type'
+      value: album
+    - id: 'TXXX:musicbrainz_albumartistid'
+      value: a0dd2f36-1681-4bc0-970e-06a0450e16ec
+    - id: 'TXXX:MusicBrainz Album Status'
+      value: official
+    - id: 'TXXX:MusicBrainz Album Release Country'
+      value: XW
+    - id: COMM
+      value:
+        language: XXX
+        description: ACOUSTID_ID
+        text: 967dd570-7ce8-44ff-bc37-94b889eadedd
+    - id: 'TXXX:MusicBrainz Album Id'
+      value: f075c9ac-b741-459e-a0a3-c00fe3004030
+    - id: 'TXXX:MusicBrainz Artist Id'
+      value: a0dd2f36-1681-4bc0-970e-06a0450e16ec
+    - id: 'TXXX:MusicBrainz Album Artist Id'
+      value: a0dd2f36-1681-4bc0-970e-06a0450e16ec
+    - id: COMM
+      value:
+        language: XXX
+        description: MUSICBRAINZ_RELEASEGROUPID
+        text: 9cb26b80-6276-4ede-b477-13658b4857c9
+    - id: COMM
+      value:
+        language: XXX
+        description: MUSICBRAINZ_RELEASETRACKID
+        text: 366f8e3f-f943-4d31-8ef3-22e7099d99d5
+    - id: 'TXXX:MusicBrainz Release Group Id'
+      value: 9cb26b80-6276-4ede-b477-13658b4857c9
+    - id: 'TXXX:MusicBrainz Release Track Id'
+      value: 366f8e3f-f943-4d31-8ef3-22e7099d99d5
+  ID3v1:
+    - id: title
+      value: Fasen
+    - id: artist
       value: Synapset
-    - id: TRCK
-      value: 3/9
-    - id: TDRC
-      value: '2010-02-01'
-    - id: WOAS
-      value: 'https://archive.org/details/BPIST002'
+    - id: album
+      value: Musical Tourism
+    - id: track
+      value: 3
+    - id: year
+      value: '2010'
 quality:
   warnings: []
 common:
@@ -134,100 +172,149 @@ common:
   disk:
     'no': 1
     of: 1
-  comment:
-    - www.basspistol.com
-    - XW
-    - Basspistol
-    - 366f8e3f-f943-4d31-8ef3-22e7099d99d5
-    - '2010-02-01'
-    - 9cb26b80-6276-4ede-b477-13658b4857c9
-    - official
-    - 967dd570-7ce8-44ff-bc37-94b889eadedd
-    - BPIST002
-    - Digital Media
-    - album
-    - '2010'
-    - Synapset
-  genre:
-    - KickNBase
   title: Fasen
-  musicbrainz_albumartistid:
-    - a0dd2f36-1681-4bc0-970e-06a0450e16ec
-  musicbrainz_albumid: f075c9ac-b741-459e-a0a3-c00fe3004030
-  albumartist: Synapset
-  album: Musical Tourism
-  musicbrainz_artistid:
-    - a0dd2f36-1681-4bc0-970e-06a0450e16ec
   artists:
     - Synapset
   artist: Synapset
-  musicbrainz_recordingid: 44583755-1605-4670-bfaf-5d3d35c506db
-  artistsort: Synapset
+  album: Musical Tourism
+  genre:
+    - KickNBase
+  originalyear: 2010
   year: 2010
-  date: '2010-02-01'
+  albumartist: Synapset
+  albumartistsort: Synapset
+  artistsort: Synapset
+  label:
+    - Basspistol
+  media: Digital Media
+  comment:
+    - Synapset
+    - Basspistol
+    - '2010'
+    - XW
+    - album
+    - Digital Media
+    - www.basspistol.com
+    - BPIST002
+    - official
+    - '2010-02-01'
+    - 967dd570-7ce8-44ff-bc37-94b889eadedd
+    - 9cb26b80-6276-4ede-b477-13658b4857c9
+    - 366f8e3f-f943-4d31-8ef3-22e7099d99d5
+  catalognumber:
+    - BPIST002
+  musicbrainz_recordingid: 44583755-1605-4670-bfaf-5d3d35c506db
+  releasetype:
+    - album
+  releasestatus: official
+  releasecountry: XW
+  musicbrainz_albumid: f075c9ac-b741-459e-a0a3-c00fe3004030
+  musicbrainz_artistid:
+    - a0dd2f36-1681-4bc0-970e-06a0450e16ec
+  musicbrainz_albumartistid:
+    - a0dd2f36-1681-4bc0-970e-06a0450e16ec
+  musicbrainz_releasegroupid: 9cb26b80-6276-4ede-b477-13658b4857c9
+  musicbrainz_trackid: 366f8e3f-f943-4d31-8ef3-22e7099d99d5
 transformed:
-  ID3v2.4:
-    c0: www.basspistol.com
-    TCON: KickNBase
+  ID3v2.3:
     TIT2: Fasen
-    RELEASECOUNTRY: XW
-    LABEL: Basspistol
-    MUSICBRAINZ_RELEASETRACKID: 366f8e3f-f943-4d31-8ef3-22e7099d99d5
-    ORIGINALDATE: '2010-02-01'
-    MUSICBRAINZ_RELEASEGROUPID: 9cb26b80-6276-4ede-b477-13658b4857c9
-    RELEASESTATUS: official
-    ACOUSTID_ID: 967dd570-7ce8-44ff-bc37-94b889eadedd
-    CATALOGNUMBER: BPIST002
-    MEDIA: Digital Media
-    RELEASETYPE: album
-    ORIGINALYEAR: '2010'
-    ARTISTS: Synapset
-    'TXXX:MusicBrainz Album Artist Id': a0dd2f36-1681-4bc0-970e-06a0450e16ec
-    'TXXX:musicbrainz_albumartistid': a0dd2f36-1681-4bc0-970e-06a0450e16ec
-    TPOS: 1/1
-    'TXXX:MusicBrainz Album Id': f075c9ac-b741-459e-a0a3-c00fe3004030
-    'TXXX:musicbrainz_albumid': f075c9ac-b741-459e-a0a3-c00fe3004030
-    TPE2: Synapset
-    TALB: Musical Tourism
-    'TXXX:MusicBrainz Artist Id': a0dd2f36-1681-4bc0-970e-06a0450e16ec
-    'TXXX:musicbrainz_artistid': a0dd2f36-1681-4bc0-970e-06a0450e16ec
     TPE1: Synapset
-    UFID: *ref_0
-    TSOP: Synapset
     TRCK: 3/9
-    TDRC: '2010-02-01'
-    WOAS: 'https://archive.org/details/BPIST002'
+    TALB: Musical Tourism
+    TPOS: 1/1
+    TCON: KickNBase
+    TDAT: '0102'
+    TORY: '2010'
+    TYER: '2010'
+    TPE2: Synapset
+    TSO2: Synapset
+    TSOP: Synapset
+    TPUB: Basspistol
+    TMED: Digital Media
+    WOAS: "https://archive.org/details/BPIST002\0"
+    'TXXX:ARTISTS': Synapset
+    'TXXX:originalyear': '2010'
+    ARTISTS: Synapset
+    LABEL: Basspistol
+    ORIGINALYEAR: '2010'
+    RELEASECOUNTRY: XW
+    RELEASETYPE: album
+    MEDIA: Digital Media
+    'TXXX:CATALOGNUMBER': BPIST002
+    c0: www.basspistol.com
+    CATALOGNUMBER: BPIST002
+    RELEASESTATUS: official
+    ORIGINALDATE: '2010-02-01'
+    'TXXX:musicbrainz_albumid': f075c9ac-b741-459e-a0a3-c00fe3004030
+    'TXXX:musicbrainz_artistid': a0dd2f36-1681-4bc0-970e-06a0450e16ec
+    UFID: *ref_0
+    'TXXX:MusicBrainz Album Type': album
+    'TXXX:musicbrainz_albumartistid': a0dd2f36-1681-4bc0-970e-06a0450e16ec
+    'TXXX:MusicBrainz Album Status': official
+    'TXXX:MusicBrainz Album Release Country': XW
+    ACOUSTID_ID: 967dd570-7ce8-44ff-bc37-94b889eadedd
+    'TXXX:MusicBrainz Album Id': f075c9ac-b741-459e-a0a3-c00fe3004030
+    'TXXX:MusicBrainz Artist Id': a0dd2f36-1681-4bc0-970e-06a0450e16ec
+    'TXXX:MusicBrainz Album Artist Id': a0dd2f36-1681-4bc0-970e-06a0450e16ec
+    MUSICBRAINZ_RELEASEGROUPID: 9cb26b80-6276-4ede-b477-13658b4857c9
+    MUSICBRAINZ_RELEASETRACKID: 366f8e3f-f943-4d31-8ef3-22e7099d99d5
+    'TXXX:MusicBrainz Release Group Id': 9cb26b80-6276-4ede-b477-13658b4857c9
+    'TXXX:MusicBrainz Release Track Id': 366f8e3f-f943-4d31-8ef3-22e7099d99d5
+  ID3v1:
+    title: Fasen
+    artist: Synapset
+    album: Musical Tourism
+    track: 3
+    year: '2010'
 all:
-  c0: www.basspistol.com
-  TCON: KickNBase
   TIT2: Fasen
-  RELEASECOUNTRY: XW
-  LABEL: Basspistol
-  MUSICBRAINZ_RELEASETRACKID: 366f8e3f-f943-4d31-8ef3-22e7099d99d5
-  ORIGINALDATE: '2010-02-01'
-  MUSICBRAINZ_RELEASEGROUPID: 9cb26b80-6276-4ede-b477-13658b4857c9
-  RELEASESTATUS: official
-  ACOUSTID_ID: 967dd570-7ce8-44ff-bc37-94b889eadedd
-  CATALOGNUMBER: BPIST002
-  MEDIA: Digital Media
-  RELEASETYPE: album
-  ORIGINALYEAR: '2010'
-  ARTISTS: Synapset
-  'TXXX:MusicBrainz Album Artist Id': a0dd2f36-1681-4bc0-970e-06a0450e16ec
-  'TXXX:musicbrainz_albumartistid': a0dd2f36-1681-4bc0-970e-06a0450e16ec
-  TPOS: 1/1
-  'TXXX:MusicBrainz Album Id': f075c9ac-b741-459e-a0a3-c00fe3004030
-  'TXXX:musicbrainz_albumid': f075c9ac-b741-459e-a0a3-c00fe3004030
-  TPE2: Synapset
-  TALB: Musical Tourism
-  'TXXX:MusicBrainz Artist Id': a0dd2f36-1681-4bc0-970e-06a0450e16ec
-  'TXXX:musicbrainz_artistid': a0dd2f36-1681-4bc0-970e-06a0450e16ec
   TPE1: Synapset
-  UFID: *ref_0
-  TSOP: Synapset
   TRCK: 3/9
-  TDRC: '2010-02-01'
-  WOAS: 'https://archive.org/details/BPIST002'
+  TALB: Musical Tourism
+  TPOS: 1/1
+  TCON: KickNBase
+  TDAT: '0102'
+  TORY: '2010'
+  TYER: '2010'
+  TPE2: Synapset
+  TSO2: Synapset
+  TSOP: Synapset
+  TPUB: Basspistol
+  TMED: Digital Media
+  WOAS: "https://archive.org/details/BPIST002\0"
+  'TXXX:ARTISTS': Synapset
+  'TXXX:originalyear': '2010'
+  ARTISTS: Synapset
+  LABEL: Basspistol
+  ORIGINALYEAR: '2010'
+  RELEASECOUNTRY: XW
+  RELEASETYPE: album
+  MEDIA: Digital Media
+  'TXXX:CATALOGNUMBER': BPIST002
+  c0: www.basspistol.com
+  CATALOGNUMBER: BPIST002
+  RELEASESTATUS: official
+  ORIGINALDATE: '2010-02-01'
+  'TXXX:musicbrainz_albumid': f075c9ac-b741-459e-a0a3-c00fe3004030
+  'TXXX:musicbrainz_artistid': a0dd2f36-1681-4bc0-970e-06a0450e16ec
+  UFID: *ref_0
+  'TXXX:MusicBrainz Album Type': album
+  'TXXX:musicbrainz_albumartistid': a0dd2f36-1681-4bc0-970e-06a0450e16ec
+  'TXXX:MusicBrainz Album Status': official
+  'TXXX:MusicBrainz Album Release Country': XW
+  ACOUSTID_ID: 967dd570-7ce8-44ff-bc37-94b889eadedd
+  'TXXX:MusicBrainz Album Id': f075c9ac-b741-459e-a0a3-c00fe3004030
+  'TXXX:MusicBrainz Artist Id': a0dd2f36-1681-4bc0-970e-06a0450e16ec
+  'TXXX:MusicBrainz Album Artist Id': a0dd2f36-1681-4bc0-970e-06a0450e16ec
+  MUSICBRAINZ_RELEASEGROUPID: 9cb26b80-6276-4ede-b477-13658b4857c9
+  MUSICBRAINZ_RELEASETRACKID: 366f8e3f-f943-4d31-8ef3-22e7099d99d5
+  'TXXX:MusicBrainz Release Group Id': 9cb26b80-6276-4ede-b477-13658b4857c9
+  'TXXX:MusicBrainz Release Track Id': 366f8e3f-f943-4d31-8ef3-22e7099d99d5
+  title: Fasen
+  artist: Synapset
+  album: Musical Tourism
+  track: 3
+  year: '2010'
 nextTrack:
   path: >-
     /home/set/git/basspistol/basspistol.com/assets/albums/musical-tourism/4-vengo.mp3
@@ -240,7 +327,8 @@ nextTrack:
   cover: /assets/albums/musical-tourism/4-vengo.jpeg
   format:
     tagTypes:
-      - ID3v2.4
+      - ID3v2.3
+      - ID3v1
     trackInfo: []
     lossless: false
     container: MPEG
@@ -253,21 +341,46 @@ nextTrack:
     numberOfSamples: 9718272
     duration: 220.36897959183673
   native:
-    ID3v2.4:
-      - id: COMM
-        value:
-          language: XXX
-          description: c0
-          text: www.basspistol.com
-      - id: TCON
-        value: KickNBase
+    ID3v2.3:
       - id: TIT2
         value: Vengo
+      - id: TPE1
+        value: Synapset
+      - id: TRCK
+        value: 4/9
+      - id: TALB
+        value: Musical Tourism
+      - id: TPOS
+        value: 1/1
+      - id: TCON
+        value: KickNBase
+      - id: TDAT
+        value: '0102'
+      - id: TORY
+        value: '2010'
+      - id: TYER
+        value: '2010'
+      - id: TPE2
+        value: Synapset
+      - id: TSO2
+        value: Synapset
+      - id: TSOP
+        value: Synapset
+      - id: TPUB
+        value: Basspistol
+      - id: TMED
+        value: Digital Media
+      - id: WOAS
+        value: "https://archive.org/details/BPIST002\0"
+      - id: 'TXXX:ARTISTS'
+        value: Synapset
+      - id: 'TXXX:originalyear'
+        value: '2010'
       - id: COMM
         value:
           language: XXX
-          description: RELEASECOUNTRY
-          text: XW
+          description: ARTISTS
+          text: Synapset
       - id: COMM
         value:
           language: XXX
@@ -276,38 +389,13 @@ nextTrack:
       - id: COMM
         value:
           language: XXX
-          description: MUSICBRAINZ_RELEASETRACKID
-          text: fe680d57-c391-432e-8542-4b5cc4fd57c9
+          description: ORIGINALYEAR
+          text: '2010'
       - id: COMM
         value:
           language: XXX
-          description: ORIGINALDATE
-          text: '2010-02-01'
-      - id: COMM
-        value:
-          language: XXX
-          description: MUSICBRAINZ_RELEASEGROUPID
-          text: 9cb26b80-6276-4ede-b477-13658b4857c9
-      - id: COMM
-        value:
-          language: XXX
-          description: RELEASESTATUS
-          text: official
-      - id: COMM
-        value:
-          language: XXX
-          description: ACOUSTID_ID
-          text: 060455b7-8e5a-4bd9-af40-d875cedba600
-      - id: COMM
-        value:
-          language: XXX
-          description: CATALOGNUMBER
-          text: BPIST002
-      - id: COMM
-        value:
-          language: XXX
-          description: MEDIA
-          text: Digital Media
+          description: RELEASECOUNTRY
+          text: XW
       - id: COMM
         value:
           language: XXX
@@ -316,45 +404,82 @@ nextTrack:
       - id: COMM
         value:
           language: XXX
-          description: ORIGINALYEAR
-          text: '2010'
+          description: MEDIA
+          text: Digital Media
+      - id: 'TXXX:CATALOGNUMBER'
+        value: BPIST002
       - id: COMM
         value:
           language: XXX
-          description: ARTISTS
-          text: Synapset
-      - id: 'TXXX:MusicBrainz Album Artist Id'
-        value: a0dd2f36-1681-4bc0-970e-06a0450e16ec
-      - id: 'TXXX:musicbrainz_albumartistid'
-        value: a0dd2f36-1681-4bc0-970e-06a0450e16ec
-      - id: TPOS
-        value: 1/1
-      - id: 'TXXX:MusicBrainz Album Id'
-        value: f075c9ac-b741-459e-a0a3-c00fe3004030
+          description: c0
+          text: www.basspistol.com
+      - id: COMM
+        value:
+          language: XXX
+          description: CATALOGNUMBER
+          text: BPIST002
+      - id: COMM
+        value:
+          language: XXX
+          description: RELEASESTATUS
+          text: official
+      - id: COMM
+        value:
+          language: XXX
+          description: ORIGINALDATE
+          text: '2010-02-01'
       - id: 'TXXX:musicbrainz_albumid'
         value: f075c9ac-b741-459e-a0a3-c00fe3004030
-      - id: TPE2
-        value: Synapset
-      - id: TALB
-        value: Musical Tourism
-      - id: 'TXXX:MusicBrainz Artist Id'
-        value: a0dd2f36-1681-4bc0-970e-06a0450e16ec
       - id: 'TXXX:musicbrainz_artistid'
         value: a0dd2f36-1681-4bc0-970e-06a0450e16ec
-      - id: TPE1
-        value: Synapset
       - id: UFID
         value: &ref_1
           owner_identifier: 'http://musicbrainz.org'
           identifier: !<tag:yaml.org,2002:binary> NTYyNjIwYjctODJmZi00ZmYyLThjZjctYmE1ZTBkYmU3NTg4
-      - id: TSOP
+      - id: 'TXXX:MusicBrainz Album Type'
+        value: album
+      - id: 'TXXX:musicbrainz_albumartistid'
+        value: a0dd2f36-1681-4bc0-970e-06a0450e16ec
+      - id: 'TXXX:MusicBrainz Album Status'
+        value: official
+      - id: 'TXXX:MusicBrainz Album Release Country'
+        value: XW
+      - id: COMM
+        value:
+          language: XXX
+          description: ACOUSTID_ID
+          text: 060455b7-8e5a-4bd9-af40-d875cedba600
+      - id: 'TXXX:MusicBrainz Album Id'
+        value: f075c9ac-b741-459e-a0a3-c00fe3004030
+      - id: 'TXXX:MusicBrainz Artist Id'
+        value: a0dd2f36-1681-4bc0-970e-06a0450e16ec
+      - id: 'TXXX:MusicBrainz Album Artist Id'
+        value: a0dd2f36-1681-4bc0-970e-06a0450e16ec
+      - id: COMM
+        value:
+          language: XXX
+          description: MUSICBRAINZ_RELEASEGROUPID
+          text: 9cb26b80-6276-4ede-b477-13658b4857c9
+      - id: COMM
+        value:
+          language: XXX
+          description: MUSICBRAINZ_RELEASETRACKID
+          text: fe680d57-c391-432e-8542-4b5cc4fd57c9
+      - id: 'TXXX:MusicBrainz Release Group Id'
+        value: 9cb26b80-6276-4ede-b477-13658b4857c9
+      - id: 'TXXX:MusicBrainz Release Track Id'
+        value: fe680d57-c391-432e-8542-4b5cc4fd57c9
+    ID3v1:
+      - id: title
+        value: Vengo
+      - id: artist
         value: Synapset
-      - id: TRCK
-        value: 4/9
-      - id: TDRC
-        value: '2010-02-01'
-      - id: WOAS
-        value: 'https://archive.org/details/BPIST002'
+      - id: album
+        value: Musical Tourism
+      - id: track
+        value: 4
+      - id: year
+        value: '2010'
   quality:
     warnings: []
   common:
@@ -364,113 +489,163 @@ nextTrack:
     disk:
       'no': 1
       of: 1
-    comment:
-      - www.basspistol.com
-      - XW
-      - Basspistol
-      - fe680d57-c391-432e-8542-4b5cc4fd57c9
-      - '2010-02-01'
-      - 9cb26b80-6276-4ede-b477-13658b4857c9
-      - official
-      - 060455b7-8e5a-4bd9-af40-d875cedba600
-      - BPIST002
-      - Digital Media
-      - album
-      - '2010'
-      - Synapset
-    genre:
-      - KickNBase
     title: Vengo
-    musicbrainz_albumartistid:
-      - a0dd2f36-1681-4bc0-970e-06a0450e16ec
-    musicbrainz_albumid: f075c9ac-b741-459e-a0a3-c00fe3004030
-    albumartist: Synapset
-    album: Musical Tourism
-    musicbrainz_artistid:
-      - a0dd2f36-1681-4bc0-970e-06a0450e16ec
     artists:
       - Synapset
     artist: Synapset
-    musicbrainz_recordingid: 562620b7-82ff-4ff2-8cf7-ba5e0dbe7588
-    artistsort: Synapset
+    album: Musical Tourism
+    genre:
+      - KickNBase
+    originalyear: 2010
     year: 2010
-    date: '2010-02-01'
+    albumartist: Synapset
+    albumartistsort: Synapset
+    artistsort: Synapset
+    label:
+      - Basspistol
+    media: Digital Media
+    comment:
+      - Synapset
+      - Basspistol
+      - '2010'
+      - XW
+      - album
+      - Digital Media
+      - www.basspistol.com
+      - BPIST002
+      - official
+      - '2010-02-01'
+      - 060455b7-8e5a-4bd9-af40-d875cedba600
+      - 9cb26b80-6276-4ede-b477-13658b4857c9
+      - fe680d57-c391-432e-8542-4b5cc4fd57c9
+    catalognumber:
+      - BPIST002
+    musicbrainz_recordingid: 562620b7-82ff-4ff2-8cf7-ba5e0dbe7588
+    releasetype:
+      - album
+    releasestatus: official
+    releasecountry: XW
+    musicbrainz_albumid: f075c9ac-b741-459e-a0a3-c00fe3004030
+    musicbrainz_artistid:
+      - a0dd2f36-1681-4bc0-970e-06a0450e16ec
+    musicbrainz_albumartistid:
+      - a0dd2f36-1681-4bc0-970e-06a0450e16ec
+    musicbrainz_releasegroupid: 9cb26b80-6276-4ede-b477-13658b4857c9
+    musicbrainz_trackid: fe680d57-c391-432e-8542-4b5cc4fd57c9
   transformed:
-    ID3v2.4:
-      c0: www.basspistol.com
-      TCON: KickNBase
+    ID3v2.3:
       TIT2: Vengo
-      RELEASECOUNTRY: XW
-      LABEL: Basspistol
-      MUSICBRAINZ_RELEASETRACKID: fe680d57-c391-432e-8542-4b5cc4fd57c9
-      ORIGINALDATE: '2010-02-01'
-      MUSICBRAINZ_RELEASEGROUPID: 9cb26b80-6276-4ede-b477-13658b4857c9
-      RELEASESTATUS: official
-      ACOUSTID_ID: 060455b7-8e5a-4bd9-af40-d875cedba600
-      CATALOGNUMBER: BPIST002
-      MEDIA: Digital Media
-      RELEASETYPE: album
-      ORIGINALYEAR: '2010'
-      ARTISTS: Synapset
-      'TXXX:MusicBrainz Album Artist Id': a0dd2f36-1681-4bc0-970e-06a0450e16ec
-      'TXXX:musicbrainz_albumartistid': a0dd2f36-1681-4bc0-970e-06a0450e16ec
-      TPOS: 1/1
-      'TXXX:MusicBrainz Album Id': f075c9ac-b741-459e-a0a3-c00fe3004030
-      'TXXX:musicbrainz_albumid': f075c9ac-b741-459e-a0a3-c00fe3004030
-      TPE2: Synapset
-      TALB: Musical Tourism
-      'TXXX:MusicBrainz Artist Id': a0dd2f36-1681-4bc0-970e-06a0450e16ec
-      'TXXX:musicbrainz_artistid': a0dd2f36-1681-4bc0-970e-06a0450e16ec
       TPE1: Synapset
-      UFID: *ref_1
-      TSOP: Synapset
       TRCK: 4/9
-      TDRC: '2010-02-01'
-      WOAS: 'https://archive.org/details/BPIST002'
+      TALB: Musical Tourism
+      TPOS: 1/1
+      TCON: KickNBase
+      TDAT: '0102'
+      TORY: '2010'
+      TYER: '2010'
+      TPE2: Synapset
+      TSO2: Synapset
+      TSOP: Synapset
+      TPUB: Basspistol
+      TMED: Digital Media
+      WOAS: "https://archive.org/details/BPIST002\0"
+      'TXXX:ARTISTS': Synapset
+      'TXXX:originalyear': '2010'
+      ARTISTS: Synapset
+      LABEL: Basspistol
+      ORIGINALYEAR: '2010'
+      RELEASECOUNTRY: XW
+      RELEASETYPE: album
+      MEDIA: Digital Media
+      'TXXX:CATALOGNUMBER': BPIST002
+      c0: www.basspistol.com
+      CATALOGNUMBER: BPIST002
+      RELEASESTATUS: official
+      ORIGINALDATE: '2010-02-01'
+      'TXXX:musicbrainz_albumid': f075c9ac-b741-459e-a0a3-c00fe3004030
+      'TXXX:musicbrainz_artistid': a0dd2f36-1681-4bc0-970e-06a0450e16ec
+      UFID: *ref_1
+      'TXXX:MusicBrainz Album Type': album
+      'TXXX:musicbrainz_albumartistid': a0dd2f36-1681-4bc0-970e-06a0450e16ec
+      'TXXX:MusicBrainz Album Status': official
+      'TXXX:MusicBrainz Album Release Country': XW
+      ACOUSTID_ID: 060455b7-8e5a-4bd9-af40-d875cedba600
+      'TXXX:MusicBrainz Album Id': f075c9ac-b741-459e-a0a3-c00fe3004030
+      'TXXX:MusicBrainz Artist Id': a0dd2f36-1681-4bc0-970e-06a0450e16ec
+      'TXXX:MusicBrainz Album Artist Id': a0dd2f36-1681-4bc0-970e-06a0450e16ec
+      MUSICBRAINZ_RELEASEGROUPID: 9cb26b80-6276-4ede-b477-13658b4857c9
+      MUSICBRAINZ_RELEASETRACKID: fe680d57-c391-432e-8542-4b5cc4fd57c9
+      'TXXX:MusicBrainz Release Group Id': 9cb26b80-6276-4ede-b477-13658b4857c9
+      'TXXX:MusicBrainz Release Track Id': fe680d57-c391-432e-8542-4b5cc4fd57c9
+    ID3v1:
+      title: Vengo
+      artist: Synapset
+      album: Musical Tourism
+      track: 4
+      year: '2010'
   all:
-    c0: www.basspistol.com
-    TCON: KickNBase
     TIT2: Vengo
-    RELEASECOUNTRY: XW
-    LABEL: Basspistol
-    MUSICBRAINZ_RELEASETRACKID: fe680d57-c391-432e-8542-4b5cc4fd57c9
-    ORIGINALDATE: '2010-02-01'
-    MUSICBRAINZ_RELEASEGROUPID: 9cb26b80-6276-4ede-b477-13658b4857c9
-    RELEASESTATUS: official
-    ACOUSTID_ID: 060455b7-8e5a-4bd9-af40-d875cedba600
-    CATALOGNUMBER: BPIST002
-    MEDIA: Digital Media
-    RELEASETYPE: album
-    ORIGINALYEAR: '2010'
-    ARTISTS: Synapset
-    'TXXX:MusicBrainz Album Artist Id': a0dd2f36-1681-4bc0-970e-06a0450e16ec
-    'TXXX:musicbrainz_albumartistid': a0dd2f36-1681-4bc0-970e-06a0450e16ec
-    TPOS: 1/1
-    'TXXX:MusicBrainz Album Id': f075c9ac-b741-459e-a0a3-c00fe3004030
-    'TXXX:musicbrainz_albumid': f075c9ac-b741-459e-a0a3-c00fe3004030
-    TPE2: Synapset
-    TALB: Musical Tourism
-    'TXXX:MusicBrainz Artist Id': a0dd2f36-1681-4bc0-970e-06a0450e16ec
-    'TXXX:musicbrainz_artistid': a0dd2f36-1681-4bc0-970e-06a0450e16ec
     TPE1: Synapset
-    UFID: *ref_1
-    TSOP: Synapset
     TRCK: 4/9
-    TDRC: '2010-02-01'
-    WOAS: 'https://archive.org/details/BPIST002'
+    TALB: Musical Tourism
+    TPOS: 1/1
+    TCON: KickNBase
+    TDAT: '0102'
+    TORY: '2010'
+    TYER: '2010'
+    TPE2: Synapset
+    TSO2: Synapset
+    TSOP: Synapset
+    TPUB: Basspistol
+    TMED: Digital Media
+    WOAS: "https://archive.org/details/BPIST002\0"
+    'TXXX:ARTISTS': Synapset
+    'TXXX:originalyear': '2010'
+    ARTISTS: Synapset
+    LABEL: Basspistol
+    ORIGINALYEAR: '2010'
+    RELEASECOUNTRY: XW
+    RELEASETYPE: album
+    MEDIA: Digital Media
+    'TXXX:CATALOGNUMBER': BPIST002
+    c0: www.basspistol.com
+    CATALOGNUMBER: BPIST002
+    RELEASESTATUS: official
+    ORIGINALDATE: '2010-02-01'
+    'TXXX:musicbrainz_albumid': f075c9ac-b741-459e-a0a3-c00fe3004030
+    'TXXX:musicbrainz_artistid': a0dd2f36-1681-4bc0-970e-06a0450e16ec
+    UFID: *ref_1
+    'TXXX:MusicBrainz Album Type': album
+    'TXXX:musicbrainz_albumartistid': a0dd2f36-1681-4bc0-970e-06a0450e16ec
+    'TXXX:MusicBrainz Album Status': official
+    'TXXX:MusicBrainz Album Release Country': XW
+    ACOUSTID_ID: 060455b7-8e5a-4bd9-af40-d875cedba600
+    'TXXX:MusicBrainz Album Id': f075c9ac-b741-459e-a0a3-c00fe3004030
+    'TXXX:MusicBrainz Artist Id': a0dd2f36-1681-4bc0-970e-06a0450e16ec
+    'TXXX:MusicBrainz Album Artist Id': a0dd2f36-1681-4bc0-970e-06a0450e16ec
+    MUSICBRAINZ_RELEASEGROUPID: 9cb26b80-6276-4ede-b477-13658b4857c9
+    MUSICBRAINZ_RELEASETRACKID: fe680d57-c391-432e-8542-4b5cc4fd57c9
+    'TXXX:MusicBrainz Release Group Id': 9cb26b80-6276-4ede-b477-13658b4857c9
+    'TXXX:MusicBrainz Release Track Id': fe680d57-c391-432e-8542-4b5cc4fd57c9
+    title: Vengo
+    artist: Synapset
+    album: Musical Tourism
+    track: 4
+    year: '2010'
 previousTrack:
   path: >-
-    /home/set/git/basspistol/basspistol.com/assets/albums/musical-tourism/2-techno-session-number-1.mp3
-  audio: /assets/albums/musical-tourism/2-techno-session-number-1.mp3
-  slug: musical-tourism/2-techno-session-number-1
+    /home/set/git/basspistol/basspistol.com/assets/albums/musical-tourism/2-techno-session-number-1-.mp3
+  audio: /assets/albums/musical-tourism/2-techno-session-number-1-.mp3
+  slug: musical-tourism/2-techno-session-number-1-
   albumSlug: musical-tourism
-  trackSlug: 2-techno-session-number-1
+  trackSlug: 2-techno-session-number-1-
   coverPath: >-
-    /home/set/git/basspistol/basspistol.com/assets/albums/musical-tourism/2-techno-session-number-1.jpeg
-  cover: /assets/albums/musical-tourism/2-techno-session-number-1.jpeg
+    /home/set/git/basspistol/basspistol.com/assets/albums/musical-tourism/2-techno-session-number-1-.jpeg
+  cover: /assets/albums/musical-tourism/2-techno-session-number-1-.jpeg
   format:
     tagTypes:
-      - ID3v2.4
+      - ID3v2.3
+      - ID3v1
     trackInfo: []
     lossless: false
     container: MPEG
@@ -482,21 +657,46 @@ previousTrack:
     numberOfSamples: 8058240
     duration: 182.7265306122449
   native:
-    ID3v2.4:
-      - id: COMM
-        value:
-          language: XXX
-          description: c0
-          text: www.basspistol.com
+    ID3v2.3:
+      - id: TIT2
+        value: Techno Session Number 1.
+      - id: TPE1
+        value: Synapset
+      - id: TRCK
+        value: 2/9
+      - id: TALB
+        value: Musical Tourism
+      - id: TPOS
+        value: 1/1
       - id: TCON
         value: KickNBase
-      - id: TIT2
-        value: Techno Session Number 1
+      - id: TDAT
+        value: '0102'
+      - id: TORY
+        value: '2010'
+      - id: TYER
+        value: '2010'
+      - id: TPE2
+        value: Synapset
+      - id: TSO2
+        value: Synapset
+      - id: TSOP
+        value: Synapset
+      - id: TPUB
+        value: Basspistol
+      - id: TMED
+        value: Digital Media
+      - id: WOAS
+        value: "https://archive.org/details/BPIST002\0"
+      - id: 'TXXX:ARTISTS'
+        value: Synapset
+      - id: 'TXXX:originalyear'
+        value: '2010'
       - id: COMM
         value:
           language: XXX
-          description: RELEASECOUNTRY
-          text: XW
+          description: ARTISTS
+          text: Synapset
       - id: COMM
         value:
           language: XXX
@@ -505,38 +705,13 @@ previousTrack:
       - id: COMM
         value:
           language: XXX
-          description: MUSICBRAINZ_RELEASETRACKID
-          text: aa60115b-1428-4dc2-b9b9-ba2e9e968f70
+          description: ORIGINALYEAR
+          text: '2010'
       - id: COMM
         value:
           language: XXX
-          description: ORIGINALDATE
-          text: '2010-02-01'
-      - id: COMM
-        value:
-          language: XXX
-          description: MUSICBRAINZ_RELEASEGROUPID
-          text: 9cb26b80-6276-4ede-b477-13658b4857c9
-      - id: COMM
-        value:
-          language: XXX
-          description: RELEASESTATUS
-          text: official
-      - id: COMM
-        value:
-          language: XXX
-          description: ACOUSTID_ID
-          text: 7a8fb3cc-c852-4cfb-b930-3510deab2f3a
-      - id: COMM
-        value:
-          language: XXX
-          description: CATALOGNUMBER
-          text: BPIST002
-      - id: COMM
-        value:
-          language: XXX
-          description: MEDIA
-          text: Digital Media
+          description: RELEASECOUNTRY
+          text: XW
       - id: COMM
         value:
           language: XXX
@@ -545,45 +720,82 @@ previousTrack:
       - id: COMM
         value:
           language: XXX
-          description: ORIGINALYEAR
-          text: '2010'
+          description: MEDIA
+          text: Digital Media
+      - id: 'TXXX:CATALOGNUMBER'
+        value: BPIST002
       - id: COMM
         value:
           language: XXX
-          description: ARTISTS
-          text: Synapset
-      - id: 'TXXX:MusicBrainz Album Artist Id'
-        value: a0dd2f36-1681-4bc0-970e-06a0450e16ec
-      - id: 'TXXX:musicbrainz_albumartistid'
-        value: a0dd2f36-1681-4bc0-970e-06a0450e16ec
-      - id: TPOS
-        value: 1/1
-      - id: 'TXXX:MusicBrainz Album Id'
-        value: f075c9ac-b741-459e-a0a3-c00fe3004030
+          description: c0
+          text: www.basspistol.com
+      - id: COMM
+        value:
+          language: XXX
+          description: CATALOGNUMBER
+          text: BPIST002
+      - id: COMM
+        value:
+          language: XXX
+          description: RELEASESTATUS
+          text: official
+      - id: COMM
+        value:
+          language: XXX
+          description: ORIGINALDATE
+          text: '2010-02-01'
       - id: 'TXXX:musicbrainz_albumid'
         value: f075c9ac-b741-459e-a0a3-c00fe3004030
-      - id: TPE2
-        value: Synapset
-      - id: TALB
-        value: Musical Tourism
-      - id: 'TXXX:MusicBrainz Artist Id'
-        value: a0dd2f36-1681-4bc0-970e-06a0450e16ec
       - id: 'TXXX:musicbrainz_artistid'
         value: a0dd2f36-1681-4bc0-970e-06a0450e16ec
-      - id: TPE1
-        value: Synapset
       - id: UFID
         value: &ref_2
           owner_identifier: 'http://musicbrainz.org'
           identifier: !<tag:yaml.org,2002:binary> YTUwNDhmNWQtMmE3OS00MGYwLThhN2QtMjdiYTdlYzliOWRl
-      - id: TSOP
+      - id: 'TXXX:MusicBrainz Album Type'
+        value: album
+      - id: 'TXXX:musicbrainz_albumartistid'
+        value: a0dd2f36-1681-4bc0-970e-06a0450e16ec
+      - id: 'TXXX:MusicBrainz Album Status'
+        value: official
+      - id: 'TXXX:MusicBrainz Album Release Country'
+        value: XW
+      - id: COMM
+        value:
+          language: XXX
+          description: ACOUSTID_ID
+          text: 7a8fb3cc-c852-4cfb-b930-3510deab2f3a
+      - id: 'TXXX:MusicBrainz Album Id'
+        value: f075c9ac-b741-459e-a0a3-c00fe3004030
+      - id: 'TXXX:MusicBrainz Artist Id'
+        value: a0dd2f36-1681-4bc0-970e-06a0450e16ec
+      - id: 'TXXX:MusicBrainz Album Artist Id'
+        value: a0dd2f36-1681-4bc0-970e-06a0450e16ec
+      - id: COMM
+        value:
+          language: XXX
+          description: MUSICBRAINZ_RELEASEGROUPID
+          text: 9cb26b80-6276-4ede-b477-13658b4857c9
+      - id: COMM
+        value:
+          language: XXX
+          description: MUSICBRAINZ_RELEASETRACKID
+          text: aa60115b-1428-4dc2-b9b9-ba2e9e968f70
+      - id: 'TXXX:MusicBrainz Release Group Id'
+        value: 9cb26b80-6276-4ede-b477-13658b4857c9
+      - id: 'TXXX:MusicBrainz Release Track Id'
+        value: aa60115b-1428-4dc2-b9b9-ba2e9e968f70
+    ID3v1:
+      - id: title
+        value: Techno Session Number 1.
+      - id: artist
         value: Synapset
-      - id: TRCK
-        value: 2/9
-      - id: TDRC
-        value: '2010-02-01'
-      - id: WOAS
-        value: 'https://archive.org/details/BPIST002'
+      - id: album
+        value: Musical Tourism
+      - id: track
+        value: 2
+      - id: year
+        value: '2010'
   quality:
     warnings: []
   common:
@@ -593,98 +805,147 @@ previousTrack:
     disk:
       'no': 1
       of: 1
-    comment:
-      - www.basspistol.com
-      - XW
-      - Basspistol
-      - aa60115b-1428-4dc2-b9b9-ba2e9e968f70
-      - '2010-02-01'
-      - 9cb26b80-6276-4ede-b477-13658b4857c9
-      - official
-      - 7a8fb3cc-c852-4cfb-b930-3510deab2f3a
-      - BPIST002
-      - Digital Media
-      - album
-      - '2010'
-      - Synapset
-    genre:
-      - KickNBase
-    title: Techno Session Number 1
-    musicbrainz_albumartistid:
-      - a0dd2f36-1681-4bc0-970e-06a0450e16ec
-    musicbrainz_albumid: f075c9ac-b741-459e-a0a3-c00fe3004030
-    albumartist: Synapset
-    album: Musical Tourism
-    musicbrainz_artistid:
-      - a0dd2f36-1681-4bc0-970e-06a0450e16ec
+    title: Techno Session Number 1.
     artists:
       - Synapset
     artist: Synapset
-    musicbrainz_recordingid: a5048f5d-2a79-40f0-8a7d-27ba7ec9b9de
-    artistsort: Synapset
+    album: Musical Tourism
+    genre:
+      - KickNBase
+    originalyear: 2010
     year: 2010
-    date: '2010-02-01'
+    albumartist: Synapset
+    albumartistsort: Synapset
+    artistsort: Synapset
+    label:
+      - Basspistol
+    media: Digital Media
+    comment:
+      - Synapset
+      - Basspistol
+      - '2010'
+      - XW
+      - album
+      - Digital Media
+      - www.basspistol.com
+      - BPIST002
+      - official
+      - '2010-02-01'
+      - 7a8fb3cc-c852-4cfb-b930-3510deab2f3a
+      - 9cb26b80-6276-4ede-b477-13658b4857c9
+      - aa60115b-1428-4dc2-b9b9-ba2e9e968f70
+    catalognumber:
+      - BPIST002
+    musicbrainz_recordingid: a5048f5d-2a79-40f0-8a7d-27ba7ec9b9de
+    releasetype:
+      - album
+    releasestatus: official
+    releasecountry: XW
+    musicbrainz_albumid: f075c9ac-b741-459e-a0a3-c00fe3004030
+    musicbrainz_artistid:
+      - a0dd2f36-1681-4bc0-970e-06a0450e16ec
+    musicbrainz_albumartistid:
+      - a0dd2f36-1681-4bc0-970e-06a0450e16ec
+    musicbrainz_releasegroupid: 9cb26b80-6276-4ede-b477-13658b4857c9
+    musicbrainz_trackid: aa60115b-1428-4dc2-b9b9-ba2e9e968f70
   transformed:
-    ID3v2.4:
-      c0: www.basspistol.com
-      TCON: KickNBase
-      TIT2: Techno Session Number 1
-      RELEASECOUNTRY: XW
-      LABEL: Basspistol
-      MUSICBRAINZ_RELEASETRACKID: aa60115b-1428-4dc2-b9b9-ba2e9e968f70
-      ORIGINALDATE: '2010-02-01'
-      MUSICBRAINZ_RELEASEGROUPID: 9cb26b80-6276-4ede-b477-13658b4857c9
-      RELEASESTATUS: official
-      ACOUSTID_ID: 7a8fb3cc-c852-4cfb-b930-3510deab2f3a
-      CATALOGNUMBER: BPIST002
-      MEDIA: Digital Media
-      RELEASETYPE: album
-      ORIGINALYEAR: '2010'
-      ARTISTS: Synapset
-      'TXXX:MusicBrainz Album Artist Id': a0dd2f36-1681-4bc0-970e-06a0450e16ec
-      'TXXX:musicbrainz_albumartistid': a0dd2f36-1681-4bc0-970e-06a0450e16ec
-      TPOS: 1/1
-      'TXXX:MusicBrainz Album Id': f075c9ac-b741-459e-a0a3-c00fe3004030
-      'TXXX:musicbrainz_albumid': f075c9ac-b741-459e-a0a3-c00fe3004030
-      TPE2: Synapset
-      TALB: Musical Tourism
-      'TXXX:MusicBrainz Artist Id': a0dd2f36-1681-4bc0-970e-06a0450e16ec
-      'TXXX:musicbrainz_artistid': a0dd2f36-1681-4bc0-970e-06a0450e16ec
+    ID3v2.3:
+      TIT2: Techno Session Number 1.
       TPE1: Synapset
-      UFID: *ref_2
-      TSOP: Synapset
       TRCK: 2/9
-      TDRC: '2010-02-01'
-      WOAS: 'https://archive.org/details/BPIST002'
+      TALB: Musical Tourism
+      TPOS: 1/1
+      TCON: KickNBase
+      TDAT: '0102'
+      TORY: '2010'
+      TYER: '2010'
+      TPE2: Synapset
+      TSO2: Synapset
+      TSOP: Synapset
+      TPUB: Basspistol
+      TMED: Digital Media
+      WOAS: "https://archive.org/details/BPIST002\0"
+      'TXXX:ARTISTS': Synapset
+      'TXXX:originalyear': '2010'
+      ARTISTS: Synapset
+      LABEL: Basspistol
+      ORIGINALYEAR: '2010'
+      RELEASECOUNTRY: XW
+      RELEASETYPE: album
+      MEDIA: Digital Media
+      'TXXX:CATALOGNUMBER': BPIST002
+      c0: www.basspistol.com
+      CATALOGNUMBER: BPIST002
+      RELEASESTATUS: official
+      ORIGINALDATE: '2010-02-01'
+      'TXXX:musicbrainz_albumid': f075c9ac-b741-459e-a0a3-c00fe3004030
+      'TXXX:musicbrainz_artistid': a0dd2f36-1681-4bc0-970e-06a0450e16ec
+      UFID: *ref_2
+      'TXXX:MusicBrainz Album Type': album
+      'TXXX:musicbrainz_albumartistid': a0dd2f36-1681-4bc0-970e-06a0450e16ec
+      'TXXX:MusicBrainz Album Status': official
+      'TXXX:MusicBrainz Album Release Country': XW
+      ACOUSTID_ID: 7a8fb3cc-c852-4cfb-b930-3510deab2f3a
+      'TXXX:MusicBrainz Album Id': f075c9ac-b741-459e-a0a3-c00fe3004030
+      'TXXX:MusicBrainz Artist Id': a0dd2f36-1681-4bc0-970e-06a0450e16ec
+      'TXXX:MusicBrainz Album Artist Id': a0dd2f36-1681-4bc0-970e-06a0450e16ec
+      MUSICBRAINZ_RELEASEGROUPID: 9cb26b80-6276-4ede-b477-13658b4857c9
+      MUSICBRAINZ_RELEASETRACKID: aa60115b-1428-4dc2-b9b9-ba2e9e968f70
+      'TXXX:MusicBrainz Release Group Id': 9cb26b80-6276-4ede-b477-13658b4857c9
+      'TXXX:MusicBrainz Release Track Id': aa60115b-1428-4dc2-b9b9-ba2e9e968f70
+    ID3v1:
+      title: Techno Session Number 1.
+      artist: Synapset
+      album: Musical Tourism
+      track: 2
+      year: '2010'
   all:
-    c0: www.basspistol.com
-    TCON: KickNBase
-    TIT2: Techno Session Number 1
-    RELEASECOUNTRY: XW
-    LABEL: Basspistol
-    MUSICBRAINZ_RELEASETRACKID: aa60115b-1428-4dc2-b9b9-ba2e9e968f70
-    ORIGINALDATE: '2010-02-01'
-    MUSICBRAINZ_RELEASEGROUPID: 9cb26b80-6276-4ede-b477-13658b4857c9
-    RELEASESTATUS: official
-    ACOUSTID_ID: 7a8fb3cc-c852-4cfb-b930-3510deab2f3a
-    CATALOGNUMBER: BPIST002
-    MEDIA: Digital Media
-    RELEASETYPE: album
-    ORIGINALYEAR: '2010'
-    ARTISTS: Synapset
-    'TXXX:MusicBrainz Album Artist Id': a0dd2f36-1681-4bc0-970e-06a0450e16ec
-    'TXXX:musicbrainz_albumartistid': a0dd2f36-1681-4bc0-970e-06a0450e16ec
-    TPOS: 1/1
-    'TXXX:MusicBrainz Album Id': f075c9ac-b741-459e-a0a3-c00fe3004030
-    'TXXX:musicbrainz_albumid': f075c9ac-b741-459e-a0a3-c00fe3004030
-    TPE2: Synapset
-    TALB: Musical Tourism
-    'TXXX:MusicBrainz Artist Id': a0dd2f36-1681-4bc0-970e-06a0450e16ec
-    'TXXX:musicbrainz_artistid': a0dd2f36-1681-4bc0-970e-06a0450e16ec
+    TIT2: Techno Session Number 1.
     TPE1: Synapset
-    UFID: *ref_2
-    TSOP: Synapset
     TRCK: 2/9
-    TDRC: '2010-02-01'
-    WOAS: 'https://archive.org/details/BPIST002'
+    TALB: Musical Tourism
+    TPOS: 1/1
+    TCON: KickNBase
+    TDAT: '0102'
+    TORY: '2010'
+    TYER: '2010'
+    TPE2: Synapset
+    TSO2: Synapset
+    TSOP: Synapset
+    TPUB: Basspistol
+    TMED: Digital Media
+    WOAS: "https://archive.org/details/BPIST002\0"
+    'TXXX:ARTISTS': Synapset
+    'TXXX:originalyear': '2010'
+    ARTISTS: Synapset
+    LABEL: Basspistol
+    ORIGINALYEAR: '2010'
+    RELEASECOUNTRY: XW
+    RELEASETYPE: album
+    MEDIA: Digital Media
+    'TXXX:CATALOGNUMBER': BPIST002
+    c0: www.basspistol.com
+    CATALOGNUMBER: BPIST002
+    RELEASESTATUS: official
+    ORIGINALDATE: '2010-02-01'
+    'TXXX:musicbrainz_albumid': f075c9ac-b741-459e-a0a3-c00fe3004030
+    'TXXX:musicbrainz_artistid': a0dd2f36-1681-4bc0-970e-06a0450e16ec
+    UFID: *ref_2
+    'TXXX:MusicBrainz Album Type': album
+    'TXXX:musicbrainz_albumartistid': a0dd2f36-1681-4bc0-970e-06a0450e16ec
+    'TXXX:MusicBrainz Album Status': official
+    'TXXX:MusicBrainz Album Release Country': XW
+    ACOUSTID_ID: 7a8fb3cc-c852-4cfb-b930-3510deab2f3a
+    'TXXX:MusicBrainz Album Id': f075c9ac-b741-459e-a0a3-c00fe3004030
+    'TXXX:MusicBrainz Artist Id': a0dd2f36-1681-4bc0-970e-06a0450e16ec
+    'TXXX:MusicBrainz Album Artist Id': a0dd2f36-1681-4bc0-970e-06a0450e16ec
+    MUSICBRAINZ_RELEASEGROUPID: 9cb26b80-6276-4ede-b477-13658b4857c9
+    MUSICBRAINZ_RELEASETRACKID: aa60115b-1428-4dc2-b9b9-ba2e9e968f70
+    'TXXX:MusicBrainz Release Group Id': 9cb26b80-6276-4ede-b477-13658b4857c9
+    'TXXX:MusicBrainz Release Track Id': aa60115b-1428-4dc2-b9b9-ba2e9e968f70
+    title: Techno Session Number 1.
+    artist: Synapset
+    album: Musical Tourism
+    track: 2
+    year: '2010'
 ---

@@ -1,6 +1,7 @@
 ---
 title: '2 Billion Projects'
 artist: 'The FragleBay'
+date: 2013-05-12 19:07:00 +0200
 category: ramblings
 author: bassBot
 tags: [video, internal]

@@ -1,6 +1,7 @@
 ---
 title: The House Of Set
 artist: Simio Sakrecoer
+date: 2012-09-06 19:07:00 +0200
 category: releases
 album: the-house-of-set
 author: bassBot

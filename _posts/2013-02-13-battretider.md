@@ -1,6 +1,7 @@
 ---
 title: 'Bättre tider'
 artist: 'The FragleBay'
+date: 2013-02-13 19:07:00 +0200
 category: ramblings
 author: bassBot
 tags: [video, internal]

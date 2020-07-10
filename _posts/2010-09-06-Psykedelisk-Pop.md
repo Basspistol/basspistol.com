@@ -1,5 +1,6 @@
 ---
 title: 'Psykedelisk Pop'
+date: 2010-09-06 19:07:00 +0200
 artist: 'Sakrecoer'
 author: 'bassBot'
 album: 'psykedelisk-pop'

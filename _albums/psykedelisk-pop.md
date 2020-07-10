@@ -3,7 +3,7 @@ layout: album
 slug: psykedelisk-pop
 name: Psykedelisk Pop
 artists: reSet Sakrecoer
-bitrate: 128000
+bitrate: 192000
 trackCount: 10
 cover: /assets/albums/psykedelisk-pop/1-janne-i-min-hj-rna.jpeg
 date: 2010-1-1
@@ -19,254 +19,79 @@ tracks:
     cover: /assets/albums/psykedelisk-pop/1-janne-i-min-hj-rna.jpeg
     format:
       tagTypes:
-        - ID3v2.4
+        - ID3v2.3
       trackInfo: []
       lossless: false
       container: MPEG
       codec: MPEG 1 Layer 3
       sampleRate: 44100
       numberOfChannels: 2
-      bitrate: 128000
+      bitrate: 192000
       codecProfile: CBR
       numberOfSamples: 9077760
       duration: 205.84489795918367
     native:
-      ID3v2.4:
-        - id: TCON
-          value: Electro Pop
-        - id: COMM
-          value:
-            language: XXX
-            description: c0
-            text: www.sakrecoer.com - www.basspistol.com
+      ID3v2.3:
         - id: TIT2
           value: Janne I Min Hjärna
-        - id: COMM
-          value:
-            language: XXX
-            description: RELEASECOUNTRY
-            text: SE
-        - id: COMM
-          value:
-            language: XXX
-            description: LABEL
-            text: Basspistol
-        - id: COMM
-          value:
-            language: XXX
-            description: MUSICBRAINZ_RELEASETRACKID
-            text: a9d8a4ea-8ac5-47a2-a05f-c9e6e8fb3974
-        - id: COMM
-          value:
-            language: XXX
-            description: ORIGINALDATE
-            text: '2010'
-        - id: COMM
-          value:
-            language: XXX
-            description: MUSICBRAINZ_RELEASEGROUPID
-            text: 2ab5cbaa-6818-4604-8070-26b81b860bfa
-        - id: COMM
-          value:
-            language: XXX
-            description: RELEASESTATUS
-            text: official
-        - id: COMM
-          value:
-            language: XXX
-            description: ACOUSTID_ID
-            text: d233834c-cfb4-4598-93ae-a308eb774dec
-        - id: COMM
-          value:
-            language: XXX
-            description: CATALOGNUMBER
-            text: BPIST001
-        - id: COMM
-          value:
-            language: XXX
-            description: MEDIA
-            text: Digital Media
-        - id: COMM
-          value:
-            language: XXX
-            description: RELEASETYPE
-            text: album
-        - id: COMM
-          value:
-            language: XXX
-            description: ORIGINALYEAR
-            text: '2010'
-        - id: COMM
-          value:
-            language: XXX
-            description: ARTISTS
-            text: reSet Sakrecoer
-        - id: 'TXXX:MusicBrainz Album Artist Id'
-          value: a2899399-d1d5-462f-9d56-ec1ea78cc4b6
-        - id: 'TXXX:musicbrainz_albumartistid'
-          value: a2899399-d1d5-462f-9d56-ec1ea78cc4b6
-        - id: TPOS
-          value: 1/1
-        - id: 'TXXX:MusicBrainz Album Id'
-          value: fda0a215-114f-4c4b-9220-3b2157368a3f
-        - id: 'TXXX:musicbrainz_albumid'
-          value: fda0a215-114f-4c4b-9220-3b2157368a3f
-        - id: TPE2
-          value: reSet Sakrecoer
-        - id: TALB
-          value: Psykedelisk Pop
-        - id: 'TXXX:MusicBrainz Artist Id'
-          value: a2899399-d1d5-462f-9d56-ec1ea78cc4b6
-        - id: 'TXXX:musicbrainz_artistid'
-          value: a2899399-d1d5-462f-9d56-ec1ea78cc4b6
         - id: TPE1
           value: reSet Sakrecoer
-        - id: UFID
-          value: &ref_0
-            owner_identifier: 'http://musicbrainz.org'
-            identifier: !<tag:yaml.org,2002:binary> OWRjMjY0NWEtYjBlYi00ODk3LTg2NTktZTY5MmE2OWM4NGI3
-        - id: TSOP
-          value: Sakrecoer
-        - id: TRCK
-          value: 1/10
-        - id: TDRC
-          value: '2010-01-01'
-        - id: USLT
+        - id: TYER
+          value: '2010'
+        - id: COMM
           value:
-            language: eng
-            description: lyrics
-            text: |-
-              <em>Oh Marie,<br />
-              Janne ar pa min hjarna.<br />
-              Han vet precis,<br />
-              Hur allting ska fungera.<br />
-              Han satter mig i meditation.<br />
-              Min sjal i levitation.<br />
-              Jag svavar upp i det bla,<br />
-              Tack vare det grona...<br /></em>
-        - id: WOAS
-          value: 'https://archive.org/details/BPIST001'
+            language: XXX
+            description: Comment
+            text: 'Visit http://shop.basspistol.com'
+        - id: TALB
+          value: Psykedelisk Pop
+        - id: TRCK
+          value: '1'
+        - id: TPE2
+          value: reSet Sakrecoer
+        - id: COMM
+          value:
+            language: XXX
+            description: UNSYNCEDLYRICS
+            text: "Oh Marie,\r\nJanne är på min hjärna.\r\nHan vet precis,\r\nHur allting ska fungera.\r\nHan sätter mig i meditation.\r\nMin själ i levitation.\r\nJag svävar upp i det blå,\r\nTack vare det gröna..."
     quality:
       warnings: []
     common:
       track:
         'no': 1
-        of: 10
+        of: null
       disk:
-        'no': 1
-        of: 1
-      genre:
-        - Electro Pop
-      comment:
-        - www.sakrecoer.com - www.basspistol.com
-        - SE
-        - Basspistol
-        - a9d8a4ea-8ac5-47a2-a05f-c9e6e8fb3974
-        - '2010'
-        - 2ab5cbaa-6818-4604-8070-26b81b860bfa
-        - official
-        - d233834c-cfb4-4598-93ae-a308eb774dec
-        - BPIST001
-        - Digital Media
-        - album
-        - '2010'
-        - reSet Sakrecoer
+        'no': null
+        of: null
       title: Janne I Min Hjärna
-      musicbrainz_albumartistid:
-        - a2899399-d1d5-462f-9d56-ec1ea78cc4b6
-      musicbrainz_albumid: fda0a215-114f-4c4b-9220-3b2157368a3f
-      albumartist: reSet Sakrecoer
-      album: Psykedelisk Pop
-      musicbrainz_artistid:
-        - a2899399-d1d5-462f-9d56-ec1ea78cc4b6
       artists:
         - reSet Sakrecoer
       artist: reSet Sakrecoer
-      musicbrainz_recordingid: 9dc2645a-b0eb-4897-8659-e692a69c84b7
-      artistsort: Sakrecoer
       year: 2010
-      date: '2010-01-01'
+      comment:
+        - 'Visit http://shop.basspistol.com'
+        - "Oh Marie,\r\nJanne är på min hjärna.\r\nHan vet precis,\r\nHur allting ska fungera.\r\nHan sätter mig i meditation.\r\nMin själ i levitation.\r\nJag svävar upp i det blå,\r\nTack vare det gröna..."
+      album: Psykedelisk Pop
+      albumartist: reSet Sakrecoer
     transformed:
-      ID3v2.4:
-        TCON: Electro Pop
-        c0: www.sakrecoer.com - www.basspistol.com
+      ID3v2.3:
         TIT2: Janne I Min Hjärna
-        RELEASECOUNTRY: SE
-        LABEL: Basspistol
-        MUSICBRAINZ_RELEASETRACKID: a9d8a4ea-8ac5-47a2-a05f-c9e6e8fb3974
-        ORIGINALDATE: '2010'
-        MUSICBRAINZ_RELEASEGROUPID: 2ab5cbaa-6818-4604-8070-26b81b860bfa
-        RELEASESTATUS: official
-        ACOUSTID_ID: d233834c-cfb4-4598-93ae-a308eb774dec
-        CATALOGNUMBER: BPIST001
-        MEDIA: Digital Media
-        RELEASETYPE: album
-        ORIGINALYEAR: '2010'
-        ARTISTS: reSet Sakrecoer
-        'TXXX:MusicBrainz Album Artist Id': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
-        'TXXX:musicbrainz_albumartistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
-        TPOS: 1/1
-        'TXXX:MusicBrainz Album Id': fda0a215-114f-4c4b-9220-3b2157368a3f
-        'TXXX:musicbrainz_albumid': fda0a215-114f-4c4b-9220-3b2157368a3f
-        TPE2: reSet Sakrecoer
-        TALB: Psykedelisk Pop
-        'TXXX:MusicBrainz Artist Id': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
-        'TXXX:musicbrainz_artistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
         TPE1: reSet Sakrecoer
-        UFID: *ref_0
-        TSOP: Sakrecoer
-        TRCK: 1/10
-        TDRC: '2010-01-01'
-        lyrics: |-
-          <em>Oh Marie,<br />
-          Janne ar pa min hjarna.<br />
-          Han vet precis,<br />
-          Hur allting ska fungera.<br />
-          Han satter mig i meditation.<br />
-          Min sjal i levitation.<br />
-          Jag svavar upp i det bla,<br />
-          Tack vare det grona...<br /></em>
-        WOAS: 'https://archive.org/details/BPIST001'
+        TYER: '2010'
+        Comment: 'Visit http://shop.basspistol.com'
+        TALB: Psykedelisk Pop
+        TRCK: '1'
+        TPE2: reSet Sakrecoer
+        UNSYNCEDLYRICS: "Oh Marie,\r\nJanne är på min hjärna.\r\nHan vet precis,\r\nHur allting ska fungera.\r\nHan sätter mig i meditation.\r\nMin själ i levitation.\r\nJag svävar upp i det blå,\r\nTack vare det gröna..."
     all:
-      TCON: Electro Pop
-      c0: www.sakrecoer.com - www.basspistol.com
       TIT2: Janne I Min Hjärna
-      RELEASECOUNTRY: SE
-      LABEL: Basspistol
-      MUSICBRAINZ_RELEASETRACKID: a9d8a4ea-8ac5-47a2-a05f-c9e6e8fb3974
-      ORIGINALDATE: '2010'
-      MUSICBRAINZ_RELEASEGROUPID: 2ab5cbaa-6818-4604-8070-26b81b860bfa
-      RELEASESTATUS: official
-      ACOUSTID_ID: d233834c-cfb4-4598-93ae-a308eb774dec
-      CATALOGNUMBER: BPIST001
-      MEDIA: Digital Media
-      RELEASETYPE: album
-      ORIGINALYEAR: '2010'
-      ARTISTS: reSet Sakrecoer
-      'TXXX:MusicBrainz Album Artist Id': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
-      'TXXX:musicbrainz_albumartistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
-      TPOS: 1/1
-      'TXXX:MusicBrainz Album Id': fda0a215-114f-4c4b-9220-3b2157368a3f
-      'TXXX:musicbrainz_albumid': fda0a215-114f-4c4b-9220-3b2157368a3f
-      TPE2: reSet Sakrecoer
-      TALB: Psykedelisk Pop
-      'TXXX:MusicBrainz Artist Id': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
-      'TXXX:musicbrainz_artistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
       TPE1: reSet Sakrecoer
-      UFID: *ref_0
-      TSOP: Sakrecoer
-      TRCK: 1/10
-      TDRC: '2010-01-01'
-      lyrics: |-
-        <em>Oh Marie,<br />
-        Janne ar pa min hjarna.<br />
-        Han vet precis,<br />
-        Hur allting ska fungera.<br />
-        Han satter mig i meditation.<br />
-        Min sjal i levitation.<br />
-        Jag svavar upp i det bla,<br />
-        Tack vare det grona...<br /></em>
-      WOAS: 'https://archive.org/details/BPIST001'
+      TYER: '2010'
+      Comment: 'Visit http://shop.basspistol.com'
+      TALB: Psykedelisk Pop
+      TRCK: '1'
+      TPE2: reSet Sakrecoer
+      UNSYNCEDLYRICS: "Oh Marie,\r\nJanne är på min hjärna.\r\nHan vet precis,\r\nHur allting ska fungera.\r\nHan sätter mig i meditation.\r\nMin själ i levitation.\r\nJag svävar upp i det blå,\r\nTack vare det gröna..."
   - path: >-
       /home/set/git/basspistol/basspistol.com/assets/albums/psykedelisk-pop/2-step-up.mp3
     audio: /assets/albums/psykedelisk-pop/2-step-up.mp3
@@ -278,365 +103,79 @@ tracks:
     cover: /assets/albums/psykedelisk-pop/2-step-up.jpeg
     format:
       tagTypes:
-        - ID3v2.4
+        - ID3v2.3
       trackInfo: []
       lossless: false
       container: MPEG
       codec: MPEG 1 Layer 3
       sampleRate: 44100
       numberOfChannels: 2
-      bitrate: 128000
+      bitrate: 192000
       codecProfile: CBR
       numberOfSamples: 8174592
       duration: 185.36489795918368
     native:
-      ID3v2.4:
-        - id: TCON
-          value: Electro Pop
-        - id: COMM
-          value:
-            language: XXX
-            description: c0
-            text: www.sakrecoer.com - www.basspistol.com
+      ID3v2.3:
         - id: TIT2
           value: Step Up
-        - id: COMM
-          value:
-            language: XXX
-            description: RELEASECOUNTRY
-            text: SE
-        - id: COMM
-          value:
-            language: XXX
-            description: LABEL
-            text: Basspistol
-        - id: COMM
-          value:
-            language: XXX
-            description: MUSICBRAINZ_RELEASETRACKID
-            text: 6842fa39-a904-4d7d-b8f2-2bc46ac06293
-        - id: COMM
-          value:
-            language: XXX
-            description: ORIGINALDATE
-            text: '2010'
-        - id: COMM
-          value:
-            language: XXX
-            description: MUSICBRAINZ_RELEASEGROUPID
-            text: 2ab5cbaa-6818-4604-8070-26b81b860bfa
-        - id: COMM
-          value:
-            language: XXX
-            description: RELEASESTATUS
-            text: official
-        - id: COMM
-          value:
-            language: XXX
-            description: ACOUSTID_ID
-            text: 7bd461de-9e05-4ee7-b71d-4bbf51d23ed2
-        - id: COMM
-          value:
-            language: XXX
-            description: CATALOGNUMBER
-            text: BPIST001
-        - id: COMM
-          value:
-            language: XXX
-            description: MEDIA
-            text: Digital Media
-        - id: COMM
-          value:
-            language: XXX
-            description: RELEASETYPE
-            text: album
-        - id: COMM
-          value:
-            language: XXX
-            description: ORIGINALYEAR
-            text: '2010'
-        - id: COMM
-          value:
-            language: XXX
-            description: ARTISTS
-            text: reSet Sakrecoer
-        - id: 'TXXX:MusicBrainz Album Artist Id'
-          value: a2899399-d1d5-462f-9d56-ec1ea78cc4b6
-        - id: 'TXXX:musicbrainz_albumartistid'
-          value: a2899399-d1d5-462f-9d56-ec1ea78cc4b6
-        - id: TPOS
-          value: 1/1
-        - id: 'TXXX:MusicBrainz Album Id'
-          value: fda0a215-114f-4c4b-9220-3b2157368a3f
-        - id: 'TXXX:musicbrainz_albumid'
-          value: fda0a215-114f-4c4b-9220-3b2157368a3f
-        - id: TPE2
-          value: reSet Sakrecoer
-        - id: TALB
-          value: Psykedelisk Pop
-        - id: 'TXXX:MusicBrainz Artist Id'
-          value: a2899399-d1d5-462f-9d56-ec1ea78cc4b6
-        - id: 'TXXX:musicbrainz_artistid'
-          value: a2899399-d1d5-462f-9d56-ec1ea78cc4b6
         - id: TPE1
           value: reSet Sakrecoer
-        - id: UFID
-          value: &ref_1
-            owner_identifier: 'http://musicbrainz.org'
-            identifier: !<tag:yaml.org,2002:binary> NjFlOGExODctZTZmMC00ODE5LTgyNDItNmI0NzEzMTRkZmZl
-        - id: TSOP
-          value: Sakrecoer
-        - id: TRCK
-          value: 2/10
-        - id: TDRC
-          value: '2010-01-01'
-        - id: USLT
+        - id: TYER
+          value: '2010'
+        - id: COMM
           value:
-            language: eng
-            description: lyrics
-            text: |-
-              <em>get down<br />
-              it's now or never<br />
-              are you like me do you feel the fever?<br />
-              do you also dream of the words all together?<br />
-              of colors , love and of happy for ever?<br />
-              <br />
-              it can't be that hard we just have to work<br />
-              the politicians are all an obvious set of jerks<br />
-              lets challange the nonsense just for a while<br />
-              and later you'll tell me it was worth to try<br />
-              <br />
-              step up<br />
-              take your time<br />
-              but don't be too long you don't want to waste mine<br />
-              and if you don't want to, to me its fine<br />
-              but the present situation wont be that kind<br />
-              <br />
-              they say to let you live they should produce your car<br />
-              but if you ask me i think they go too far<br />
-              if you need ten they'll make 4000 jars<br />
-              and this is the message of the following bars<br />
-              <br />
-              BRIDGE<br />
-              it's all about the money<br />
-              it's all about the flooz<br />
-              it's not about love<br />
-              and it's not about yous<br />
-              it'as all about mass production<br />
-              hyper corruption where your the one to lose<br />
-              so get down stand up<br />
-              lets fight them back<br />
-              we could blow them to hell in a heavy attack<br />
-              push them real hard out of their track<br />
-              brothers and sisters it's of you we lack<br />
-              <br />
-              stand up<br />
-              no time to loose<br />
-              the people of the world is having the blues<br />
-              they tired of being ruled by the everlasting fools<br />
-              it's time we get together on our own set of rules<br />
-
-              they say we have to bow to get allong with our lifes<br />
-              but that my brother is the fatest of lies<br />
-              they give us some shit and you play the fly<br />
-              do realy like that game of selling and buy?<br /></em>
-        - id: WOAS
-          value: 'https://archive.org/details/BPIST001'
+            language: XXX
+            description: Comment
+            text: 'Visit http://shop.basspistol.com'
+        - id: TALB
+          value: Psykedelisk Pop
+        - id: TRCK
+          value: '2'
+        - id: TPE2
+          value: reSet Sakrecoer
+        - id: COMM
+          value:
+            language: XXX
+            description: UNSYNCEDLYRICS
+            text: "Get down!\r\nIt's now or never!\r\nAre you like me do you feel the fever?\r\nDo you also dream of the words all together?\r\nOf colors, of love and of happy for ever?\r\n\r\nIt can't be that hard we just have to work,\r\nThe politicians are all obvious jerks,\r\nLets challenge the nonsense just for a while,\r\nAnd later you'll tell me it was worth to try.\r\n\r\nStep up!\r\nAnd take your time,\r\nBut don't be too long you don't want to waste mine,\r\nAnd if you don't want to, to me its fine,\r\nBut the present situation wont be that kind.\r\n\r\nThey say to let you live they should produce your car,\r\nBut if you ask me i think they go too far,\r\nIf you need ten they'll make 4000 jars.\r\nAnd this is the message of the following bars.\r\n\r\nBRIDGE\r\n\r\nIt's all about the money,\r\nIt's all about the flooz,\r\nIt's not about love,\r\nAnd it's not about yous.\r\nIt's all about mass production.\r\nHyper corruption where your the one to lose.\r\nSo get down and stand up,\r\nLets fight them back!\r\nWe could blow them to hell in a heavy attack!\r\nPush them real hard out of their track,\r\nBrothers and sisters it's of you we lack!\r\n\r\nStand up!\r\nNo time to loose!\r\nThe people of the world is having the blues,\r\nThey tired of being ruled by these fools,\r\nIt's time we get together on our own set of rules!\r\n\r\nThey say we have to bow to get along with our lives,\r\nBut that my brother is the fattest of lies!\r\nThey give us some shit and you play the fly!\r\nDo really like that game of selling and buy?"
     quality:
       warnings: []
     common:
       track:
         'no': 2
-        of: 10
+        of: null
       disk:
-        'no': 1
-        of: 1
-      genre:
-        - Electro Pop
-      comment:
-        - www.sakrecoer.com - www.basspistol.com
-        - SE
-        - Basspistol
-        - 6842fa39-a904-4d7d-b8f2-2bc46ac06293
-        - '2010'
-        - 2ab5cbaa-6818-4604-8070-26b81b860bfa
-        - official
-        - 7bd461de-9e05-4ee7-b71d-4bbf51d23ed2
-        - BPIST001
-        - Digital Media
-        - album
-        - '2010'
-        - reSet Sakrecoer
+        'no': null
+        of: null
       title: Step Up
-      musicbrainz_albumartistid:
-        - a2899399-d1d5-462f-9d56-ec1ea78cc4b6
-      musicbrainz_albumid: fda0a215-114f-4c4b-9220-3b2157368a3f
-      albumartist: reSet Sakrecoer
-      album: Psykedelisk Pop
-      musicbrainz_artistid:
-        - a2899399-d1d5-462f-9d56-ec1ea78cc4b6
       artists:
         - reSet Sakrecoer
       artist: reSet Sakrecoer
-      musicbrainz_recordingid: 61e8a187-e6f0-4819-8242-6b471314dffe
-      artistsort: Sakrecoer
       year: 2010
-      date: '2010-01-01'
+      comment:
+        - 'Visit http://shop.basspistol.com'
+        - "Get down!\r\nIt's now or never!\r\nAre you like me do you feel the fever?\r\nDo you also dream of the words all together?\r\nOf colors, of love and of happy for ever?\r\n\r\nIt can't be that hard we just have to work,\r\nThe politicians are all obvious jerks,\r\nLets challenge the nonsense just for a while,\r\nAnd later you'll tell me it was worth to try.\r\n\r\nStep up!\r\nAnd take your time,\r\nBut don't be too long you don't want to waste mine,\r\nAnd if you don't want to, to me its fine,\r\nBut the present situation wont be that kind.\r\n\r\nThey say to let you live they should produce your car,\r\nBut if you ask me i think they go too far,\r\nIf you need ten they'll make 4000 jars.\r\nAnd this is the message of the following bars.\r\n\r\nBRIDGE\r\n\r\nIt's all about the money,\r\nIt's all about the flooz,\r\nIt's not about love,\r\nAnd it's not about yous.\r\nIt's all about mass production.\r\nHyper corruption where your the one to lose.\r\nSo get down and stand up,\r\nLets fight them back!\r\nWe could blow them to hell in a heavy attack!\r\nPush them real hard out of their track,\r\nBrothers and sisters it's of you we lack!\r\n\r\nStand up!\r\nNo time to loose!\r\nThe people of the world is having the blues,\r\nThey tired of being ruled by these fools,\r\nIt's time we get together on our own set of rules!\r\n\r\nThey say we have to bow to get along with our lives,\r\nBut that my brother is the fattest of lies!\r\nThey give us some shit and you play the fly!\r\nDo really like that game of selling and buy?"
+      album: Psykedelisk Pop
+      albumartist: reSet Sakrecoer
     transformed:
-      ID3v2.4:
-        TCON: Electro Pop
-        c0: www.sakrecoer.com - www.basspistol.com
+      ID3v2.3:
         TIT2: Step Up
-        RELEASECOUNTRY: SE
-        LABEL: Basspistol
-        MUSICBRAINZ_RELEASETRACKID: 6842fa39-a904-4d7d-b8f2-2bc46ac06293
-        ORIGINALDATE: '2010'
-        MUSICBRAINZ_RELEASEGROUPID: 2ab5cbaa-6818-4604-8070-26b81b860bfa
-        RELEASESTATUS: official
-        ACOUSTID_ID: 7bd461de-9e05-4ee7-b71d-4bbf51d23ed2
-        CATALOGNUMBER: BPIST001
-        MEDIA: Digital Media
-        RELEASETYPE: album
-        ORIGINALYEAR: '2010'
-        ARTISTS: reSet Sakrecoer
-        'TXXX:MusicBrainz Album Artist Id': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
-        'TXXX:musicbrainz_albumartistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
-        TPOS: 1/1
-        'TXXX:MusicBrainz Album Id': fda0a215-114f-4c4b-9220-3b2157368a3f
-        'TXXX:musicbrainz_albumid': fda0a215-114f-4c4b-9220-3b2157368a3f
-        TPE2: reSet Sakrecoer
-        TALB: Psykedelisk Pop
-        'TXXX:MusicBrainz Artist Id': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
-        'TXXX:musicbrainz_artistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
         TPE1: reSet Sakrecoer
-        UFID: *ref_1
-        TSOP: Sakrecoer
-        TRCK: 2/10
-        TDRC: '2010-01-01'
-        lyrics: |-
-          <em>get down<br />
-          it's now or never<br />
-          are you like me do you feel the fever?<br />
-          do you also dream of the words all together?<br />
-          of colors , love and of happy for ever?<br />
-          <br />
-          it can't be that hard we just have to work<br />
-          the politicians are all an obvious set of jerks<br />
-          lets challange the nonsense just for a while<br />
-          and later you'll tell me it was worth to try<br />
-          <br />
-          step up<br />
-          take your time<br />
-          but don't be too long you don't want to waste mine<br />
-          and if you don't want to, to me its fine<br />
-          but the present situation wont be that kind<br />
-          <br />
-          they say to let you live they should produce your car<br />
-          but if you ask me i think they go too far<br />
-          if you need ten they'll make 4000 jars<br />
-          and this is the message of the following bars<br />
-          <br />
-          BRIDGE<br />
-          it's all about the money<br />
-          it's all about the flooz<br />
-          it's not about love<br />
-          and it's not about yous<br />
-          it'as all about mass production<br />
-          hyper corruption where your the one to lose<br />
-          so get down stand up<br />
-          lets fight them back<br />
-          we could blow them to hell in a heavy attack<br />
-          push them real hard out of their track<br />
-          brothers and sisters it's of you we lack<br />
-          <br />
-          stand up<br />
-          no time to loose<br />
-          the people of the world is having the blues<br />
-          they tired of being ruled by the everlasting fools<br />
-          it's time we get together on our own set of rules<br />
-
-          they say we have to bow to get allong with our lifes<br />
-          but that my brother is the fatest of lies<br />
-          they give us some shit and you play the fly<br />
-          do realy like that game of selling and buy?<br /></em>
-        WOAS: 'https://archive.org/details/BPIST001'
+        TYER: '2010'
+        Comment: 'Visit http://shop.basspistol.com'
+        TALB: Psykedelisk Pop
+        TRCK: '2'
+        TPE2: reSet Sakrecoer
+        UNSYNCEDLYRICS: "Get down!\r\nIt's now or never!\r\nAre you like me do you feel the fever?\r\nDo you also dream of the words all together?\r\nOf colors, of love and of happy for ever?\r\n\r\nIt can't be that hard we just have to work,\r\nThe politicians are all obvious jerks,\r\nLets challenge the nonsense just for a while,\r\nAnd later you'll tell me it was worth to try.\r\n\r\nStep up!\r\nAnd take your time,\r\nBut don't be too long you don't want to waste mine,\r\nAnd if you don't want to, to me its fine,\r\nBut the present situation wont be that kind.\r\n\r\nThey say to let you live they should produce your car,\r\nBut if you ask me i think they go too far,\r\nIf you need ten they'll make 4000 jars.\r\nAnd this is the message of the following bars.\r\n\r\nBRIDGE\r\n\r\nIt's all about the money,\r\nIt's all about the flooz,\r\nIt's not about love,\r\nAnd it's not about yous.\r\nIt's all about mass production.\r\nHyper corruption where your the one to lose.\r\nSo get down and stand up,\r\nLets fight them back!\r\nWe could blow them to hell in a heavy attack!\r\nPush them real hard out of their track,\r\nBrothers and sisters it's of you we lack!\r\n\r\nStand up!\r\nNo time to loose!\r\nThe people of the world is having the blues,\r\nThey tired of being ruled by these fools,\r\nIt's time we get together on our own set of rules!\r\n\r\nThey say we have to bow to get along with our lives,\r\nBut that my brother is the fattest of lies!\r\nThey give us some shit and you play the fly!\r\nDo really like that game of selling and buy?"
     all:
-      TCON: Electro Pop
-      c0: www.sakrecoer.com - www.basspistol.com
       TIT2: Step Up
-      RELEASECOUNTRY: SE
-      LABEL: Basspistol
-      MUSICBRAINZ_RELEASETRACKID: 6842fa39-a904-4d7d-b8f2-2bc46ac06293
-      ORIGINALDATE: '2010'
-      MUSICBRAINZ_RELEASEGROUPID: 2ab5cbaa-6818-4604-8070-26b81b860bfa
-      RELEASESTATUS: official
-      ACOUSTID_ID: 7bd461de-9e05-4ee7-b71d-4bbf51d23ed2
-      CATALOGNUMBER: BPIST001
-      MEDIA: Digital Media
-      RELEASETYPE: album
-      ORIGINALYEAR: '2010'
-      ARTISTS: reSet Sakrecoer
-      'TXXX:MusicBrainz Album Artist Id': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
-      'TXXX:musicbrainz_albumartistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
-      TPOS: 1/1
-      'TXXX:MusicBrainz Album Id': fda0a215-114f-4c4b-9220-3b2157368a3f
-      'TXXX:musicbrainz_albumid': fda0a215-114f-4c4b-9220-3b2157368a3f
-      TPE2: reSet Sakrecoer
-      TALB: Psykedelisk Pop
-      'TXXX:MusicBrainz Artist Id': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
-      'TXXX:musicbrainz_artistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
       TPE1: reSet Sakrecoer
-      UFID: *ref_1
-      TSOP: Sakrecoer
-      TRCK: 2/10
-      TDRC: '2010-01-01'
-      lyrics: |-
-        <em>get down<br />
-        it's now or never<br />
-        are you like me do you feel the fever?<br />
-        do you also dream of the words all together?<br />
-        of colors , love and of happy for ever?<br />
-        <br />
-        it can't be that hard we just have to work<br />
-        the politicians are all an obvious set of jerks<br />
-        lets challange the nonsense just for a while<br />
-        and later you'll tell me it was worth to try<br />
-        <br />
-        step up<br />
-        take your time<br />
-        but don't be too long you don't want to waste mine<br />
-        and if you don't want to, to me its fine<br />
-        but the present situation wont be that kind<br />
-        <br />
-        they say to let you live they should produce your car<br />
-        but if you ask me i think they go too far<br />
-        if you need ten they'll make 4000 jars<br />
-        and this is the message of the following bars<br />
-        <br />
-        BRIDGE<br />
-        it's all about the money<br />
-        it's all about the flooz<br />
-        it's not about love<br />
-        and it's not about yous<br />
-        it'as all about mass production<br />
-        hyper corruption where your the one to lose<br />
-        so get down stand up<br />
-        lets fight them back<br />
-        we could blow them to hell in a heavy attack<br />
-        push them real hard out of their track<br />
-        brothers and sisters it's of you we lack<br />
-        <br />
-        stand up<br />
-        no time to loose<br />
-        the people of the world is having the blues<br />
-        they tired of being ruled by the everlasting fools<br />
-        it's time we get together on our own set of rules<br />
-
-        they say we have to bow to get allong with our lifes<br />
-        but that my brother is the fatest of lies<br />
-        they give us some shit and you play the fly<br />
-        do realy like that game of selling and buy?<br /></em>
-      WOAS: 'https://archive.org/details/BPIST001'
+      TYER: '2010'
+      Comment: 'Visit http://shop.basspistol.com'
+      TALB: Psykedelisk Pop
+      TRCK: '2'
+      TPE2: reSet Sakrecoer
+      UNSYNCEDLYRICS: "Get down!\r\nIt's now or never!\r\nAre you like me do you feel the fever?\r\nDo you also dream of the words all together?\r\nOf colors, of love and of happy for ever?\r\n\r\nIt can't be that hard we just have to work,\r\nThe politicians are all obvious jerks,\r\nLets challenge the nonsense just for a while,\r\nAnd later you'll tell me it was worth to try.\r\n\r\nStep up!\r\nAnd take your time,\r\nBut don't be too long you don't want to waste mine,\r\nAnd if you don't want to, to me its fine,\r\nBut the present situation wont be that kind.\r\n\r\nThey say to let you live they should produce your car,\r\nBut if you ask me i think they go too far,\r\nIf you need ten they'll make 4000 jars.\r\nAnd this is the message of the following bars.\r\n\r\nBRIDGE\r\n\r\nIt's all about the money,\r\nIt's all about the flooz,\r\nIt's not about love,\r\nAnd it's not about yous.\r\nIt's all about mass production.\r\nHyper corruption where your the one to lose.\r\nSo get down and stand up,\r\nLets fight them back!\r\nWe could blow them to hell in a heavy attack!\r\nPush them real hard out of their track,\r\nBrothers and sisters it's of you we lack!\r\n\r\nStand up!\r\nNo time to loose!\r\nThe people of the world is having the blues,\r\nThey tired of being ruled by these fools,\r\nIt's time we get together on our own set of rules!\r\n\r\nThey say we have to bow to get along with our lives,\r\nBut that my brother is the fattest of lies!\r\nThey give us some shit and you play the fly!\r\nDo really like that game of selling and buy?"
   - path: >-
       /home/set/git/basspistol/basspistol.com/assets/albums/psykedelisk-pop/3-r-vhj-lmen.mp3
     audio: /assets/albums/psykedelisk-pop/3-r-vhj-lmen.mp3
@@ -648,385 +187,79 @@ tracks:
     cover: /assets/albums/psykedelisk-pop/3-r-vhj-lmen.jpeg
     format:
       tagTypes:
-        - ID3v2.4
+        - ID3v2.3
       trackInfo: []
       lossless: false
       container: MPEG
       codec: MPEG 1 Layer 3
       sampleRate: 44100
       numberOfChannels: 2
-      bitrate: 128000
+      bitrate: 192000
       codecProfile: CBR
       numberOfSamples: 11240064
       duration: 254.87673469387755
     native:
-      ID3v2.4:
-        - id: TCON
-          value: Electro Pop
-        - id: COMM
-          value:
-            language: XXX
-            description: c0
-            text: www.sakrecoer.com - www.basspistol.com
+      ID3v2.3:
         - id: TIT2
           value: Rövhjälmen
-        - id: COMM
-          value:
-            language: XXX
-            description: RELEASECOUNTRY
-            text: SE
-        - id: COMM
-          value:
-            language: XXX
-            description: LABEL
-            text: Basspistol
-        - id: COMM
-          value:
-            language: XXX
-            description: MUSICBRAINZ_RELEASETRACKID
-            text: 09507e35-ba5c-4d3b-8a00-4900a28a28e6
-        - id: COMM
-          value:
-            language: XXX
-            description: ORIGINALDATE
-            text: '2010'
-        - id: COMM
-          value:
-            language: XXX
-            description: MUSICBRAINZ_RELEASEGROUPID
-            text: 2ab5cbaa-6818-4604-8070-26b81b860bfa
-        - id: COMM
-          value:
-            language: XXX
-            description: RELEASESTATUS
-            text: official
-        - id: COMM
-          value:
-            language: XXX
-            description: ACOUSTID_ID
-            text: 074712e2-5ccb-4ed6-bc8c-61fa52f8a850
-        - id: COMM
-          value:
-            language: XXX
-            description: CATALOGNUMBER
-            text: BPIST001
-        - id: COMM
-          value:
-            language: XXX
-            description: MEDIA
-            text: Digital Media
-        - id: COMM
-          value:
-            language: XXX
-            description: RELEASETYPE
-            text: album
-        - id: COMM
-          value:
-            language: XXX
-            description: ORIGINALYEAR
-            text: '2010'
-        - id: COMM
-          value:
-            language: XXX
-            description: ARTISTS
-            text: reSet Sakrecoer
-        - id: 'TXXX:MusicBrainz Album Artist Id'
-          value: a2899399-d1d5-462f-9d56-ec1ea78cc4b6
-        - id: 'TXXX:musicbrainz_albumartistid'
-          value: a2899399-d1d5-462f-9d56-ec1ea78cc4b6
-        - id: TPOS
-          value: 1/1
-        - id: 'TXXX:MusicBrainz Album Id'
-          value: fda0a215-114f-4c4b-9220-3b2157368a3f
-        - id: 'TXXX:musicbrainz_albumid'
-          value: fda0a215-114f-4c4b-9220-3b2157368a3f
-        - id: TPE2
-          value: reSet Sakrecoer
-        - id: TALB
-          value: Psykedelisk Pop
-        - id: 'TXXX:MusicBrainz Artist Id'
-          value: a2899399-d1d5-462f-9d56-ec1ea78cc4b6
-        - id: 'TXXX:musicbrainz_artistid'
-          value: a2899399-d1d5-462f-9d56-ec1ea78cc4b6
         - id: TPE1
           value: reSet Sakrecoer
-        - id: UFID
-          value: &ref_2
-            owner_identifier: 'http://musicbrainz.org'
-            identifier: !<tag:yaml.org,2002:binary> OGI1ZDFjOTUtNDRhZC00YzQ1LTkxODMtNzg0ODhjMmU0NTA3
-        - id: TSOP
-          value: Sakrecoer
-        - id: TRCK
-          value: 3/10
-        - id: TDRC
-          value: '2010-01-01'
-        - id: USLT
+        - id: TYER
+          value: '2010'
+        - id: COMM
           value:
-            language: eng
-            description: lyrics
-            text: >-
-              <em>Varva ner, satt dig i soffan.<br />
-
-              Morgonen ar ung, atminstande det ar du.<br />
-
-              Vi har sprungit natten.<br />
-
-              Som fisken och katten.<br />
-
-              Vi har fangat tid, och dansat med Fan.<br />
-
-              <br />
-
-              Sa Varva ner med mig<br />
-
-              Varva ner.<br />
-
-              <br />
-
-              Ta en macka, ingen lever pastej..?<br />
-
-              Till Open Core och racka, Till kasorskan saga Hej!<br />
-
-              Vad fin i haret hon var, ah hon sag sa himla gla', hon dansa sa
-              himla bra...<br />
-
-              Oj! Ja, men dar star ju du och jag. He! Ah vad bra, du ser ju annu
-              lika bra, du ser ju forfan annu, annu mer bra, du ser sa himmla
-              bra.<br />
-
-              Ut med dig vill jag ga<br />
-
-              Kom ut med mig, sa kom ut med mig.<br />
-
-              <br />
-
-              Kom och satt dig i soffan.<br />
-
-              Natten har gatt over.<br />
-
-              Vi har ost sa det blir over.<br />
-
-              Ta av dig rovhjalmen nu for fan,<br />
-
-              Det finns inte djavel forfan,<br />
-
-              Det finns inte en djavels hjarta att bullta pa.<br />
-
-              Vi lat dom alla ga, pa efter-for-efterfesten,<br />
-
-              Dar som alla ingen var.<br />
-
-              Ta av dig rovhjalmen.<br /></em>
-        - id: WOAS
-          value: 'https://archive.org/details/BPIST001'
+            language: XXX
+            description: Comment
+            text: 'Visit http://shop.basspistol.com'
+        - id: TALB
+          value: Psykedelisk Pop
+        - id: TRCK
+          value: '3'
+        - id: TPE2
+          value: reSet Sakrecoer
+        - id: COMM
+          value:
+            language: XXX
+            description: UNSYNCEDLYRICS
+            text: "Varva ner, sätt dig i soffan.\r\nMorgonen är ung, åtminstone det är du.\r\nVi har sprungit natten.\r\nSom fisken och katten.\r\nVi har fångat tid, och dansat med Fan.\r\n\r\nSå varva ner med mig\r\nVarva ner.\r\n\r\nTa en macka, ingen leverpastej..?\r\nTill Open Core och racka, Till kassörskan säga Hej!\r\nVad fin i håret hon var, ah hon såg sa himla gla', hon dansa sa himla bra...\r\nOj! Ja, men där står ju du och jag. He! Ah vad bra, du ser ju ännu lika bra, du ser ju för fan ännu, ännu mer bra, du ser sa himla bra.\r\nUt med dig vill jag gå!\r\nKom ut med mig, så kom ut med mig.\r\n\r\nKom och sätt dig i soffan.\r\nNatten har gått över.\r\nVi har ost så det blir över.\r\nTa av dig rövhjälmen nu för fan,\r\nDet finns inte djävel för fan,\r\nDet finns inte en djävels hjärta att bulta på.\r\nVi lät dom alla gå, på efter-för-efterfesten,\r\nDär som alla ingen var.\r\nTa av dig rövhjälmen."
     quality:
       warnings: []
     common:
       track:
         'no': 3
-        of: 10
+        of: null
       disk:
-        'no': 1
-        of: 1
-      genre:
-        - Electro Pop
-      comment:
-        - www.sakrecoer.com - www.basspistol.com
-        - SE
-        - Basspistol
-        - 09507e35-ba5c-4d3b-8a00-4900a28a28e6
-        - '2010'
-        - 2ab5cbaa-6818-4604-8070-26b81b860bfa
-        - official
-        - 074712e2-5ccb-4ed6-bc8c-61fa52f8a850
-        - BPIST001
-        - Digital Media
-        - album
-        - '2010'
-        - reSet Sakrecoer
+        'no': null
+        of: null
       title: Rövhjälmen
-      musicbrainz_albumartistid:
-        - a2899399-d1d5-462f-9d56-ec1ea78cc4b6
-      musicbrainz_albumid: fda0a215-114f-4c4b-9220-3b2157368a3f
-      albumartist: reSet Sakrecoer
-      album: Psykedelisk Pop
-      musicbrainz_artistid:
-        - a2899399-d1d5-462f-9d56-ec1ea78cc4b6
       artists:
         - reSet Sakrecoer
       artist: reSet Sakrecoer
-      musicbrainz_recordingid: 8b5d1c95-44ad-4c45-9183-78488c2e4507
-      artistsort: Sakrecoer
       year: 2010
-      date: '2010-01-01'
+      comment:
+        - 'Visit http://shop.basspistol.com'
+        - "Varva ner, sätt dig i soffan.\r\nMorgonen är ung, åtminstone det är du.\r\nVi har sprungit natten.\r\nSom fisken och katten.\r\nVi har fångat tid, och dansat med Fan.\r\n\r\nSå varva ner med mig\r\nVarva ner.\r\n\r\nTa en macka, ingen leverpastej..?\r\nTill Open Core och racka, Till kassörskan säga Hej!\r\nVad fin i håret hon var, ah hon såg sa himla gla', hon dansa sa himla bra...\r\nOj! Ja, men där står ju du och jag. He! Ah vad bra, du ser ju ännu lika bra, du ser ju för fan ännu, ännu mer bra, du ser sa himla bra.\r\nUt med dig vill jag gå!\r\nKom ut med mig, så kom ut med mig.\r\n\r\nKom och sätt dig i soffan.\r\nNatten har gått över.\r\nVi har ost så det blir över.\r\nTa av dig rövhjälmen nu för fan,\r\nDet finns inte djävel för fan,\r\nDet finns inte en djävels hjärta att bulta på.\r\nVi lät dom alla gå, på efter-för-efterfesten,\r\nDär som alla ingen var.\r\nTa av dig rövhjälmen."
+      album: Psykedelisk Pop
+      albumartist: reSet Sakrecoer
     transformed:
-      ID3v2.4:
-        TCON: Electro Pop
-        c0: www.sakrecoer.com - www.basspistol.com
+      ID3v2.3:
         TIT2: Rövhjälmen
-        RELEASECOUNTRY: SE
-        LABEL: Basspistol
-        MUSICBRAINZ_RELEASETRACKID: 09507e35-ba5c-4d3b-8a00-4900a28a28e6
-        ORIGINALDATE: '2010'
-        MUSICBRAINZ_RELEASEGROUPID: 2ab5cbaa-6818-4604-8070-26b81b860bfa
-        RELEASESTATUS: official
-        ACOUSTID_ID: 074712e2-5ccb-4ed6-bc8c-61fa52f8a850
-        CATALOGNUMBER: BPIST001
-        MEDIA: Digital Media
-        RELEASETYPE: album
-        ORIGINALYEAR: '2010'
-        ARTISTS: reSet Sakrecoer
-        'TXXX:MusicBrainz Album Artist Id': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
-        'TXXX:musicbrainz_albumartistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
-        TPOS: 1/1
-        'TXXX:MusicBrainz Album Id': fda0a215-114f-4c4b-9220-3b2157368a3f
-        'TXXX:musicbrainz_albumid': fda0a215-114f-4c4b-9220-3b2157368a3f
-        TPE2: reSet Sakrecoer
-        TALB: Psykedelisk Pop
-        'TXXX:MusicBrainz Artist Id': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
-        'TXXX:musicbrainz_artistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
         TPE1: reSet Sakrecoer
-        UFID: *ref_2
-        TSOP: Sakrecoer
-        TRCK: 3/10
-        TDRC: '2010-01-01'
-        lyrics: >-
-          <em>Varva ner, satt dig i soffan.<br />
-
-          Morgonen ar ung, atminstande det ar du.<br />
-
-          Vi har sprungit natten.<br />
-
-          Som fisken och katten.<br />
-
-          Vi har fangat tid, och dansat med Fan.<br />
-
-          <br />
-
-          Sa Varva ner med mig<br />
-
-          Varva ner.<br />
-
-          <br />
-
-          Ta en macka, ingen lever pastej..?<br />
-
-          Till Open Core och racka, Till kasorskan saga Hej!<br />
-
-          Vad fin i haret hon var, ah hon sag sa himla gla', hon dansa sa himla
-          bra...<br />
-
-          Oj! Ja, men dar star ju du och jag. He! Ah vad bra, du ser ju annu
-          lika bra, du ser ju forfan annu, annu mer bra, du ser sa himmla
-          bra.<br />
-
-          Ut med dig vill jag ga<br />
-
-          Kom ut med mig, sa kom ut med mig.<br />
-
-          <br />
-
-          Kom och satt dig i soffan.<br />
-
-          Natten har gatt over.<br />
-
-          Vi har ost sa det blir over.<br />
-
-          Ta av dig rovhjalmen nu for fan,<br />
-
-          Det finns inte djavel forfan,<br />
-
-          Det finns inte en djavels hjarta att bullta pa.<br />
-
-          Vi lat dom alla ga, pa efter-for-efterfesten,<br />
-
-          Dar som alla ingen var.<br />
-
-          Ta av dig rovhjalmen.<br /></em>
-        WOAS: 'https://archive.org/details/BPIST001'
+        TYER: '2010'
+        Comment: 'Visit http://shop.basspistol.com'
+        TALB: Psykedelisk Pop
+        TRCK: '3'
+        TPE2: reSet Sakrecoer
+        UNSYNCEDLYRICS: "Varva ner, sätt dig i soffan.\r\nMorgonen är ung, åtminstone det är du.\r\nVi har sprungit natten.\r\nSom fisken och katten.\r\nVi har fångat tid, och dansat med Fan.\r\n\r\nSå varva ner med mig\r\nVarva ner.\r\n\r\nTa en macka, ingen leverpastej..?\r\nTill Open Core och racka, Till kassörskan säga Hej!\r\nVad fin i håret hon var, ah hon såg sa himla gla', hon dansa sa himla bra...\r\nOj! Ja, men där står ju du och jag. He! Ah vad bra, du ser ju ännu lika bra, du ser ju för fan ännu, ännu mer bra, du ser sa himla bra.\r\nUt med dig vill jag gå!\r\nKom ut med mig, så kom ut med mig.\r\n\r\nKom och sätt dig i soffan.\r\nNatten har gått över.\r\nVi har ost så det blir över.\r\nTa av dig rövhjälmen nu för fan,\r\nDet finns inte djävel för fan,\r\nDet finns inte en djävels hjärta att bulta på.\r\nVi lät dom alla gå, på efter-för-efterfesten,\r\nDär som alla ingen var.\r\nTa av dig rövhjälmen."
     all:
-      TCON: Electro Pop
-      c0: www.sakrecoer.com - www.basspistol.com
       TIT2: Rövhjälmen
-      RELEASECOUNTRY: SE
-      LABEL: Basspistol
-      MUSICBRAINZ_RELEASETRACKID: 09507e35-ba5c-4d3b-8a00-4900a28a28e6
-      ORIGINALDATE: '2010'
-      MUSICBRAINZ_RELEASEGROUPID: 2ab5cbaa-6818-4604-8070-26b81b860bfa
-      RELEASESTATUS: official
-      ACOUSTID_ID: 074712e2-5ccb-4ed6-bc8c-61fa52f8a850
-      CATALOGNUMBER: BPIST001
-      MEDIA: Digital Media
-      RELEASETYPE: album
-      ORIGINALYEAR: '2010'
-      ARTISTS: reSet Sakrecoer
-      'TXXX:MusicBrainz Album Artist Id': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
-      'TXXX:musicbrainz_albumartistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
-      TPOS: 1/1
-      'TXXX:MusicBrainz Album Id': fda0a215-114f-4c4b-9220-3b2157368a3f
-      'TXXX:musicbrainz_albumid': fda0a215-114f-4c4b-9220-3b2157368a3f
-      TPE2: reSet Sakrecoer
-      TALB: Psykedelisk Pop
-      'TXXX:MusicBrainz Artist Id': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
-      'TXXX:musicbrainz_artistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
       TPE1: reSet Sakrecoer
-      UFID: *ref_2
-      TSOP: Sakrecoer
-      TRCK: 3/10
-      TDRC: '2010-01-01'
-      lyrics: >-
-        <em>Varva ner, satt dig i soffan.<br />
-
-        Morgonen ar ung, atminstande det ar du.<br />
-
-        Vi har sprungit natten.<br />
-
-        Som fisken och katten.<br />
-
-        Vi har fangat tid, och dansat med Fan.<br />
-
-        <br />
-
-        Sa Varva ner med mig<br />
-
-        Varva ner.<br />
-
-        <br />
-
-        Ta en macka, ingen lever pastej..?<br />
-
-        Till Open Core och racka, Till kasorskan saga Hej!<br />
-
-        Vad fin i haret hon var, ah hon sag sa himla gla', hon dansa sa himla
-        bra...<br />
-
-        Oj! Ja, men dar star ju du och jag. He! Ah vad bra, du ser ju annu lika
-        bra, du ser ju forfan annu, annu mer bra, du ser sa himmla bra.<br />
-
-        Ut med dig vill jag ga<br />
-
-        Kom ut med mig, sa kom ut med mig.<br />
-
-        <br />
-
-        Kom och satt dig i soffan.<br />
-
-        Natten har gatt over.<br />
-
-        Vi har ost sa det blir over.<br />
-
-        Ta av dig rovhjalmen nu for fan,<br />
-
-        Det finns inte djavel forfan,<br />
-
-        Det finns inte en djavels hjarta att bullta pa.<br />
-
-        Vi lat dom alla ga, pa efter-for-efterfesten,<br />
-
-        Dar som alla ingen var.<br />
-
-        Ta av dig rovhjalmen.<br /></em>
-      WOAS: 'https://archive.org/details/BPIST001'
+      TYER: '2010'
+      Comment: 'Visit http://shop.basspistol.com'
+      TALB: Psykedelisk Pop
+      TRCK: '3'
+      TPE2: reSet Sakrecoer
+      UNSYNCEDLYRICS: "Varva ner, sätt dig i soffan.\r\nMorgonen är ung, åtminstone det är du.\r\nVi har sprungit natten.\r\nSom fisken och katten.\r\nVi har fångat tid, och dansat med Fan.\r\n\r\nSå varva ner med mig\r\nVarva ner.\r\n\r\nTa en macka, ingen leverpastej..?\r\nTill Open Core och racka, Till kassörskan säga Hej!\r\nVad fin i håret hon var, ah hon såg sa himla gla', hon dansa sa himla bra...\r\nOj! Ja, men där står ju du och jag. He! Ah vad bra, du ser ju ännu lika bra, du ser ju för fan ännu, ännu mer bra, du ser sa himla bra.\r\nUt med dig vill jag gå!\r\nKom ut med mig, så kom ut med mig.\r\n\r\nKom och sätt dig i soffan.\r\nNatten har gått över.\r\nVi har ost så det blir över.\r\nTa av dig rövhjälmen nu för fan,\r\nDet finns inte djävel för fan,\r\nDet finns inte en djävels hjärta att bulta på.\r\nVi lät dom alla gå, på efter-för-efterfesten,\r\nDär som alla ingen var.\r\nTa av dig rövhjälmen."
   - path: >-
       /home/set/git/basspistol/basspistol.com/assets/albums/psykedelisk-pop/4-it-s-all-over.mp3
     audio: /assets/albums/psykedelisk-pop/4-it-s-all-over.mp3
@@ -1038,290 +271,79 @@ tracks:
     cover: /assets/albums/psykedelisk-pop/4-it-s-all-over.jpeg
     format:
       tagTypes:
-        - ID3v2.4
+        - ID3v2.3
       trackInfo: []
       lossless: false
       container: MPEG
       codec: MPEG 1 Layer 3
       sampleRate: 44100
       numberOfChannels: 2
-      bitrate: 128000
+      bitrate: 192000
       codecProfile: CBR
       numberOfSamples: 11698560
       duration: 265.2734693877551
     native:
-      ID3v2.4:
-        - id: TCON
-          value: Electro Pop
-        - id: COMM
-          value:
-            language: XXX
-            description: c0
-            text: www.sakrecoer.com - www.basspistol.com
+      ID3v2.3:
         - id: TIT2
           value: It's All Over
-        - id: COMM
-          value:
-            language: XXX
-            description: RELEASECOUNTRY
-            text: SE
-        - id: COMM
-          value:
-            language: XXX
-            description: LABEL
-            text: Basspistol
-        - id: COMM
-          value:
-            language: XXX
-            description: MUSICBRAINZ_RELEASETRACKID
-            text: c4e10b46-4555-458c-a82b-eb87f70d4c21
-        - id: COMM
-          value:
-            language: XXX
-            description: ORIGINALDATE
-            text: '2010'
-        - id: COMM
-          value:
-            language: XXX
-            description: MUSICBRAINZ_RELEASEGROUPID
-            text: 2ab5cbaa-6818-4604-8070-26b81b860bfa
-        - id: COMM
-          value:
-            language: XXX
-            description: RELEASESTATUS
-            text: official
-        - id: COMM
-          value:
-            language: XXX
-            description: ACOUSTID_ID
-            text: 16f07a06-8954-4c2e-8c57-3ad97b725ea1
-        - id: COMM
-          value:
-            language: XXX
-            description: CATALOGNUMBER
-            text: BPIST001
-        - id: COMM
-          value:
-            language: XXX
-            description: MEDIA
-            text: Digital Media
-        - id: COMM
-          value:
-            language: XXX
-            description: RELEASETYPE
-            text: album
-        - id: COMM
-          value:
-            language: XXX
-            description: ORIGINALYEAR
-            text: '2010'
-        - id: COMM
-          value:
-            language: XXX
-            description: ARTISTS
-            text: reSet Sakrecoer
-        - id: 'TXXX:MusicBrainz Album Artist Id'
-          value: a2899399-d1d5-462f-9d56-ec1ea78cc4b6
-        - id: 'TXXX:musicbrainz_albumartistid'
-          value: a2899399-d1d5-462f-9d56-ec1ea78cc4b6
-        - id: TPOS
-          value: 1/1
-        - id: 'TXXX:MusicBrainz Album Id'
-          value: fda0a215-114f-4c4b-9220-3b2157368a3f
-        - id: 'TXXX:musicbrainz_albumid'
-          value: fda0a215-114f-4c4b-9220-3b2157368a3f
-        - id: TPE2
-          value: reSet Sakrecoer
-        - id: TALB
-          value: Psykedelisk Pop
-        - id: 'TXXX:MusicBrainz Artist Id'
-          value: a2899399-d1d5-462f-9d56-ec1ea78cc4b6
-        - id: 'TXXX:musicbrainz_artistid'
-          value: a2899399-d1d5-462f-9d56-ec1ea78cc4b6
         - id: TPE1
           value: reSet Sakrecoer
-        - id: UFID
-          value: &ref_3
-            owner_identifier: 'http://musicbrainz.org'
-            identifier: !<tag:yaml.org,2002:binary> MjMxMGM4OWYtZTM5Mi00Mjg3LThkYTYtMmI3YjU5MmUzZWFi
-        - id: TSOP
-          value: Sakrecoer
-        - id: TRCK
-          value: 4/10
-        - id: TDRC
-          value: '2010-01-01'
-        - id: USLT
+        - id: TYER
+          value: '2010'
+        - id: COMM
           value:
-            language: eng
-            description: lyrics
-            text: |-
-              <em>It's all too late now,<br />
-              As you are screaming out my name.<br />
-              Too late to change now,<br />
-              Or change my way,<br />
-              As it's time to say good bye.<br />
-              Please won't you stay for just a while?<br />
-              Never been broken hearted before!<br />
-              Go ahead love,<br />
-              Take my heart.<br />
-              Like so many times you've done it before.<br />
-              <br />
-              Shoe box of memories is all that i keep.<br />
-              Can't even look at your face.<br />
-              It's all to late now.<br />
-              Do i have to change my way?<br />
-              As you are screaming out my name...<br />
-              <br />
-              I can see the stars, see them pass me by.<br />
-              Another hopeless night, for ever hopeless now.<br />
-              I can see the stars bass me by.<br /></em>
-        - id: WOAS
-          value: 'https://archive.org/details/BPIST001'
+            language: XXX
+            description: Comment
+            text: 'Visit http://shop.basspistol.com'
+        - id: TALB
+          value: Psykedelisk Pop
+        - id: TRCK
+          value: '4'
+        - id: TPE2
+          value: reSet Sakrecoer
+        - id: COMM
+          value:
+            language: XXX
+            description: UNSYNCEDLYRICS
+            text: "It's all too late now,\r\nAs you are screaming out my name.\r\nToo late to change now, \r\nOr change my way,\r\nAs it's time to say good bye.\r\nPlease won't you stay for just a while?\r\nNever been broken hearted before!\r\nGo ahead love, \r\nTake my heart.\r\nLike so many times you've done it before.\r\n\r\nShoe box of memories is all that i keep.\r\nCan't even look at your face.\r\nIt's all to late now.\r\nDo i have to change my way?\r\nAs you are screaming out my name...\r\n\r\nI can see the stars, see them pass me by.\r\nAnother hopeless night, for ever hopeless now.\r\nI can see the stars bass me by."
     quality:
       warnings: []
     common:
       track:
         'no': 4
-        of: 10
+        of: null
       disk:
-        'no': 1
-        of: 1
-      genre:
-        - Electro Pop
-      comment:
-        - www.sakrecoer.com - www.basspistol.com
-        - SE
-        - Basspistol
-        - c4e10b46-4555-458c-a82b-eb87f70d4c21
-        - '2010'
-        - 2ab5cbaa-6818-4604-8070-26b81b860bfa
-        - official
-        - 16f07a06-8954-4c2e-8c57-3ad97b725ea1
-        - BPIST001
-        - Digital Media
-        - album
-        - '2010'
-        - reSet Sakrecoer
+        'no': null
+        of: null
       title: It's All Over
-      musicbrainz_albumartistid:
-        - a2899399-d1d5-462f-9d56-ec1ea78cc4b6
-      musicbrainz_albumid: fda0a215-114f-4c4b-9220-3b2157368a3f
-      albumartist: reSet Sakrecoer
-      album: Psykedelisk Pop
-      musicbrainz_artistid:
-        - a2899399-d1d5-462f-9d56-ec1ea78cc4b6
       artists:
         - reSet Sakrecoer
       artist: reSet Sakrecoer
-      musicbrainz_recordingid: 2310c89f-e392-4287-8da6-2b7b592e3eab
-      artistsort: Sakrecoer
       year: 2010
-      date: '2010-01-01'
+      comment:
+        - 'Visit http://shop.basspistol.com'
+        - "It's all too late now,\r\nAs you are screaming out my name.\r\nToo late to change now, \r\nOr change my way,\r\nAs it's time to say good bye.\r\nPlease won't you stay for just a while?\r\nNever been broken hearted before!\r\nGo ahead love, \r\nTake my heart.\r\nLike so many times you've done it before.\r\n\r\nShoe box of memories is all that i keep.\r\nCan't even look at your face.\r\nIt's all to late now.\r\nDo i have to change my way?\r\nAs you are screaming out my name...\r\n\r\nI can see the stars, see them pass me by.\r\nAnother hopeless night, for ever hopeless now.\r\nI can see the stars bass me by."
+      album: Psykedelisk Pop
+      albumartist: reSet Sakrecoer
     transformed:
-      ID3v2.4:
-        TCON: Electro Pop
-        c0: www.sakrecoer.com - www.basspistol.com
+      ID3v2.3:
         TIT2: It's All Over
-        RELEASECOUNTRY: SE
-        LABEL: Basspistol
-        MUSICBRAINZ_RELEASETRACKID: c4e10b46-4555-458c-a82b-eb87f70d4c21
-        ORIGINALDATE: '2010'
-        MUSICBRAINZ_RELEASEGROUPID: 2ab5cbaa-6818-4604-8070-26b81b860bfa
-        RELEASESTATUS: official
-        ACOUSTID_ID: 16f07a06-8954-4c2e-8c57-3ad97b725ea1
-        CATALOGNUMBER: BPIST001
-        MEDIA: Digital Media
-        RELEASETYPE: album
-        ORIGINALYEAR: '2010'
-        ARTISTS: reSet Sakrecoer
-        'TXXX:MusicBrainz Album Artist Id': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
-        'TXXX:musicbrainz_albumartistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
-        TPOS: 1/1
-        'TXXX:MusicBrainz Album Id': fda0a215-114f-4c4b-9220-3b2157368a3f
-        'TXXX:musicbrainz_albumid': fda0a215-114f-4c4b-9220-3b2157368a3f
-        TPE2: reSet Sakrecoer
-        TALB: Psykedelisk Pop
-        'TXXX:MusicBrainz Artist Id': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
-        'TXXX:musicbrainz_artistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
         TPE1: reSet Sakrecoer
-        UFID: *ref_3
-        TSOP: Sakrecoer
-        TRCK: 4/10
-        TDRC: '2010-01-01'
-        lyrics: |-
-          <em>It's all too late now,<br />
-          As you are screaming out my name.<br />
-          Too late to change now,<br />
-          Or change my way,<br />
-          As it's time to say good bye.<br />
-          Please won't you stay for just a while?<br />
-          Never been broken hearted before!<br />
-          Go ahead love,<br />
-          Take my heart.<br />
-          Like so many times you've done it before.<br />
-          <br />
-          Shoe box of memories is all that i keep.<br />
-          Can't even look at your face.<br />
-          It's all to late now.<br />
-          Do i have to change my way?<br />
-          As you are screaming out my name...<br />
-          <br />
-          I can see the stars, see them pass me by.<br />
-          Another hopeless night, for ever hopeless now.<br />
-          I can see the stars bass me by.<br /></em>
-        WOAS: 'https://archive.org/details/BPIST001'
+        TYER: '2010'
+        Comment: 'Visit http://shop.basspistol.com'
+        TALB: Psykedelisk Pop
+        TRCK: '4'
+        TPE2: reSet Sakrecoer
+        UNSYNCEDLYRICS: "It's all too late now,\r\nAs you are screaming out my name.\r\nToo late to change now, \r\nOr change my way,\r\nAs it's time to say good bye.\r\nPlease won't you stay for just a while?\r\nNever been broken hearted before!\r\nGo ahead love, \r\nTake my heart.\r\nLike so many times you've done it before.\r\n\r\nShoe box of memories is all that i keep.\r\nCan't even look at your face.\r\nIt's all to late now.\r\nDo i have to change my way?\r\nAs you are screaming out my name...\r\n\r\nI can see the stars, see them pass me by.\r\nAnother hopeless night, for ever hopeless now.\r\nI can see the stars bass me by."
     all:
-      TCON: Electro Pop
-      c0: www.sakrecoer.com - www.basspistol.com
       TIT2: It's All Over
-      RELEASECOUNTRY: SE
-      LABEL: Basspistol
-      MUSICBRAINZ_RELEASETRACKID: c4e10b46-4555-458c-a82b-eb87f70d4c21
-      ORIGINALDATE: '2010'
-      MUSICBRAINZ_RELEASEGROUPID: 2ab5cbaa-6818-4604-8070-26b81b860bfa
-      RELEASESTATUS: official
-      ACOUSTID_ID: 16f07a06-8954-4c2e-8c57-3ad97b725ea1
-      CATALOGNUMBER: BPIST001
-      MEDIA: Digital Media
-      RELEASETYPE: album
-      ORIGINALYEAR: '2010'
-      ARTISTS: reSet Sakrecoer
-      'TXXX:MusicBrainz Album Artist Id': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
-      'TXXX:musicbrainz_albumartistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
-      TPOS: 1/1
-      'TXXX:MusicBrainz Album Id': fda0a215-114f-4c4b-9220-3b2157368a3f
-      'TXXX:musicbrainz_albumid': fda0a215-114f-4c4b-9220-3b2157368a3f
-      TPE2: reSet Sakrecoer
-      TALB: Psykedelisk Pop
-      'TXXX:MusicBrainz Artist Id': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
-      'TXXX:musicbrainz_artistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
       TPE1: reSet Sakrecoer
-      UFID: *ref_3
-      TSOP: Sakrecoer
-      TRCK: 4/10
-      TDRC: '2010-01-01'
-      lyrics: |-
-        <em>It's all too late now,<br />
-        As you are screaming out my name.<br />
-        Too late to change now,<br />
-        Or change my way,<br />
-        As it's time to say good bye.<br />
-        Please won't you stay for just a while?<br />
-        Never been broken hearted before!<br />
-        Go ahead love,<br />
-        Take my heart.<br />
-        Like so many times you've done it before.<br />
-        <br />
-        Shoe box of memories is all that i keep.<br />
-        Can't even look at your face.<br />
-        It's all to late now.<br />
-        Do i have to change my way?<br />
-        As you are screaming out my name...<br />
-        <br />
-        I can see the stars, see them pass me by.<br />
-        Another hopeless night, for ever hopeless now.<br />
-        I can see the stars bass me by.<br /></em>
-      WOAS: 'https://archive.org/details/BPIST001'
+      TYER: '2010'
+      Comment: 'Visit http://shop.basspistol.com'
+      TALB: Psykedelisk Pop
+      TRCK: '4'
+      TPE2: reSet Sakrecoer
+      UNSYNCEDLYRICS: "It's all too late now,\r\nAs you are screaming out my name.\r\nToo late to change now, \r\nOr change my way,\r\nAs it's time to say good bye.\r\nPlease won't you stay for just a while?\r\nNever been broken hearted before!\r\nGo ahead love, \r\nTake my heart.\r\nLike so many times you've done it before.\r\n\r\nShoe box of memories is all that i keep.\r\nCan't even look at your face.\r\nIt's all to late now.\r\nDo i have to change my way?\r\nAs you are screaming out my name...\r\n\r\nI can see the stars, see them pass me by.\r\nAnother hopeless night, for ever hopeless now.\r\nI can see the stars bass me by."
   - path: >-
       /home/set/git/basspistol/basspistol.com/assets/albums/psykedelisk-pop/5-luftb-jning.mp3
     audio: /assets/albums/psykedelisk-pop/5-luftb-jning.mp3
@@ -1333,342 +355,79 @@ tracks:
     cover: /assets/albums/psykedelisk-pop/5-luftb-jning.jpeg
     format:
       tagTypes:
-        - ID3v2.4
+        - ID3v2.3
       trackInfo: []
       lossless: false
       container: MPEG
       codec: MPEG 1 Layer 3
       sampleRate: 44100
       numberOfChannels: 2
-      bitrate: 128000
+      bitrate: 192000
       codecProfile: CBR
       numberOfSamples: 19201536
       duration: 435.4089795918367
     native:
-      ID3v2.4:
-        - id: TCON
-          value: Electro Pop
-        - id: COMM
-          value:
-            language: XXX
-            description: c0
-            text: www.sakrecoer.com - www.basspistol.com
+      ID3v2.3:
         - id: TIT2
           value: Luftböjning
-        - id: COMM
-          value:
-            language: XXX
-            description: RELEASECOUNTRY
-            text: SE
-        - id: COMM
-          value:
-            language: XXX
-            description: LABEL
-            text: Basspistol
-        - id: COMM
-          value:
-            language: XXX
-            description: MUSICBRAINZ_RELEASETRACKID
-            text: 1a9c7ee7-a418-4d1f-bcdf-7a9e018a3d07
-        - id: COMM
-          value:
-            language: XXX
-            description: ORIGINALDATE
-            text: '2010'
-        - id: COMM
-          value:
-            language: XXX
-            description: MUSICBRAINZ_RELEASEGROUPID
-            text: 2ab5cbaa-6818-4604-8070-26b81b860bfa
-        - id: COMM
-          value:
-            language: XXX
-            description: RELEASESTATUS
-            text: official
-        - id: COMM
-          value:
-            language: XXX
-            description: ACOUSTID_ID
-            text: a7e81db1-42b6-4297-9d1a-d7990e2dd9dc
-        - id: COMM
-          value:
-            language: XXX
-            description: CATALOGNUMBER
-            text: BPIST001
-        - id: COMM
-          value:
-            language: XXX
-            description: MEDIA
-            text: Digital Media
-        - id: COMM
-          value:
-            language: XXX
-            description: RELEASETYPE
-            text: album
-        - id: COMM
-          value:
-            language: XXX
-            description: ORIGINALYEAR
-            text: '2010'
-        - id: COMM
-          value:
-            language: XXX
-            description: ARTISTS
-            text: reSet Sakrecoer
-        - id: 'TXXX:MusicBrainz Album Artist Id'
-          value: a2899399-d1d5-462f-9d56-ec1ea78cc4b6
-        - id: 'TXXX:musicbrainz_albumartistid'
-          value: a2899399-d1d5-462f-9d56-ec1ea78cc4b6
-        - id: TPOS
-          value: 1/1
-        - id: 'TXXX:MusicBrainz Album Id'
-          value: fda0a215-114f-4c4b-9220-3b2157368a3f
-        - id: 'TXXX:musicbrainz_albumid'
-          value: fda0a215-114f-4c4b-9220-3b2157368a3f
-        - id: TPE2
-          value: reSet Sakrecoer
-        - id: TALB
-          value: Psykedelisk Pop
-        - id: 'TXXX:MusicBrainz Artist Id'
-          value: a2899399-d1d5-462f-9d56-ec1ea78cc4b6
-        - id: 'TXXX:musicbrainz_artistid'
-          value: a2899399-d1d5-462f-9d56-ec1ea78cc4b6
         - id: TPE1
           value: reSet Sakrecoer
-        - id: UFID
-          value: &ref_4
-            owner_identifier: 'http://musicbrainz.org'
-            identifier: !<tag:yaml.org,2002:binary> OWI0ODIxMTItNWQ5OC00ZGViLTlmMGUtN2NmYWZjZjQxYTk2
-        - id: TSOP
-          value: Sakrecoer
-        - id: TRCK
-          value: 5/10
-        - id: TDRC
-          value: '2010-01-01'
-        - id: USLT
+        - id: TYER
+          value: '2010'
+        - id: COMM
           value:
-            language: eng
-            description: lyrics
-            text: >
-              <em>Oh oui, vad ar det for melodie?<br />
-
-              Som glider forbi.<br />
-
-              Oh oui, vad ar det for melodie<br />
-
-              Som glider sig i.<br />
-
-              Oh oui, vad ar denna melodie?<br />
-
-              Som tranger sig i.<br />
-
-              Oh oui.<br />
-
-              <br />
-
-              Luften bojer sig for sin gang,<br />
-
-              Och hela kroppen kanns som trang.<br />
-
-              Ah oui, en inframelodie<br />
-
-              Fanga traden lyft dig upp<br />
-
-              Latta sjalen trilla ner<br />
-
-              Metavagor kommer upp<br />
-
-              Infrastruktur ar din sjal<br />
-
-              Oh oui, en bass alegori<br />
-
-              En bass trotoar.<br />
-
-              <br />
-
-              Vara lag frekvens osciliatorer, vacktar over din val var.<br />
-
-              Vara lag frekvens osciliatorer, vill bara att du ska ha det
-              bra.<br />
-
-              Ah oui, oh sjung denna melodie.<br />
-
-              <br />
-
-              Vagen borjar likna minus,<br />
-
-              Och allt som forut var minus.<br />
-
-              Ror sig sakta positivt.<br />
-
-              I ett vackert monster alternativt.<br />
-
-              Oh oui,<br />
-
-              En infra melodie.<br /></em>
-        - id: WOAS
-          value: 'https://archive.org/details/BPIST001'
+            language: XXX
+            description: Comment
+            text: 'Visit http://shop.basspistol.com'
+        - id: TALB
+          value: Psykedelisk Pop
+        - id: TRCK
+          value: '5'
+        - id: TPE2
+          value: reSet Sakrecoer
+        - id: COMM
+          value:
+            language: XXX
+            description: UNSYNCEDLYRICS
+            text: "Oh oui, vad är det for melodi?\r\nSom glider förbi.\r\nOh oui, vad är det for melodi\r\nSom glider sig i.\r\nOh oui, vad är denna melodi?\r\nSom tränger sig i.\r\nOh oui.\r\n\r\nLuften böjer sig for sin gång,\r\nOch hela kroppen känns som trång.\r\nAh oui, en inframelodie\r\nFånga tråden lyft dig upp\r\nLätta själen trilla ner\r\nMetavågor kommer upp\r\nInfrastruktur är din själ\r\nOh oui, en basallegori\r\nEn bastrottoar.\r\n\r\n\r\nVåra låg frekvens oscillatorer, väktar över din val var.\r\nVåra låg frekvens oscillatorer, vill bara att du ska ha det bra.\r\nAh oui, oh sjung denna melodi.\r\n\r\nVågen börjar likna minus,\r\nOch allt som förut var minus.\r\nRör sig sakta positivt.\r\nI ett vackert mönster alternativt.\r\nOh oui,\r\nEn inframelodi."
     quality:
       warnings: []
     common:
       track:
         'no': 5
-        of: 10
+        of: null
       disk:
-        'no': 1
-        of: 1
-      genre:
-        - Electro Pop
-      comment:
-        - www.sakrecoer.com - www.basspistol.com
-        - SE
-        - Basspistol
-        - 1a9c7ee7-a418-4d1f-bcdf-7a9e018a3d07
-        - '2010'
-        - 2ab5cbaa-6818-4604-8070-26b81b860bfa
-        - official
-        - a7e81db1-42b6-4297-9d1a-d7990e2dd9dc
-        - BPIST001
-        - Digital Media
-        - album
-        - '2010'
-        - reSet Sakrecoer
+        'no': null
+        of: null
       title: Luftböjning
-      musicbrainz_albumartistid:
-        - a2899399-d1d5-462f-9d56-ec1ea78cc4b6
-      musicbrainz_albumid: fda0a215-114f-4c4b-9220-3b2157368a3f
-      albumartist: reSet Sakrecoer
-      album: Psykedelisk Pop
-      musicbrainz_artistid:
-        - a2899399-d1d5-462f-9d56-ec1ea78cc4b6
       artists:
         - reSet Sakrecoer
       artist: reSet Sakrecoer
-      musicbrainz_recordingid: 9b482112-5d98-4deb-9f0e-7cfafcf41a96
-      artistsort: Sakrecoer
       year: 2010
-      date: '2010-01-01'
+      comment:
+        - 'Visit http://shop.basspistol.com'
+        - "Oh oui, vad är det for melodi?\r\nSom glider förbi.\r\nOh oui, vad är det for melodi\r\nSom glider sig i.\r\nOh oui, vad är denna melodi?\r\nSom tränger sig i.\r\nOh oui.\r\n\r\nLuften böjer sig for sin gång,\r\nOch hela kroppen känns som trång.\r\nAh oui, en inframelodie\r\nFånga tråden lyft dig upp\r\nLätta själen trilla ner\r\nMetavågor kommer upp\r\nInfrastruktur är din själ\r\nOh oui, en basallegori\r\nEn bastrottoar.\r\n\r\n\r\nVåra låg frekvens oscillatorer, väktar över din val var.\r\nVåra låg frekvens oscillatorer, vill bara att du ska ha det bra.\r\nAh oui, oh sjung denna melodi.\r\n\r\nVågen börjar likna minus,\r\nOch allt som förut var minus.\r\nRör sig sakta positivt.\r\nI ett vackert mönster alternativt.\r\nOh oui,\r\nEn inframelodi."
+      album: Psykedelisk Pop
+      albumartist: reSet Sakrecoer
     transformed:
-      ID3v2.4:
-        TCON: Electro Pop
-        c0: www.sakrecoer.com - www.basspistol.com
+      ID3v2.3:
         TIT2: Luftböjning
-        RELEASECOUNTRY: SE
-        LABEL: Basspistol
-        MUSICBRAINZ_RELEASETRACKID: 1a9c7ee7-a418-4d1f-bcdf-7a9e018a3d07
-        ORIGINALDATE: '2010'
-        MUSICBRAINZ_RELEASEGROUPID: 2ab5cbaa-6818-4604-8070-26b81b860bfa
-        RELEASESTATUS: official
-        ACOUSTID_ID: a7e81db1-42b6-4297-9d1a-d7990e2dd9dc
-        CATALOGNUMBER: BPIST001
-        MEDIA: Digital Media
-        RELEASETYPE: album
-        ORIGINALYEAR: '2010'
-        ARTISTS: reSet Sakrecoer
-        'TXXX:MusicBrainz Album Artist Id': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
-        'TXXX:musicbrainz_albumartistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
-        TPOS: 1/1
-        'TXXX:MusicBrainz Album Id': fda0a215-114f-4c4b-9220-3b2157368a3f
-        'TXXX:musicbrainz_albumid': fda0a215-114f-4c4b-9220-3b2157368a3f
-        TPE2: reSet Sakrecoer
-        TALB: Psykedelisk Pop
-        'TXXX:MusicBrainz Artist Id': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
-        'TXXX:musicbrainz_artistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
         TPE1: reSet Sakrecoer
-        UFID: *ref_4
-        TSOP: Sakrecoer
-        TRCK: 5/10
-        TDRC: '2010-01-01'
-        lyrics: |
-          <em>Oh oui, vad ar det for melodie?<br />
-          Som glider forbi.<br />
-          Oh oui, vad ar det for melodie<br />
-          Som glider sig i.<br />
-          Oh oui, vad ar denna melodie?<br />
-          Som tranger sig i.<br />
-          Oh oui.<br />
-          <br />
-          Luften bojer sig for sin gang,<br />
-          Och hela kroppen kanns som trang.<br />
-          Ah oui, en inframelodie<br />
-          Fanga traden lyft dig upp<br />
-          Latta sjalen trilla ner<br />
-          Metavagor kommer upp<br />
-          Infrastruktur ar din sjal<br />
-          Oh oui, en bass alegori<br />
-          En bass trotoar.<br />
-          <br />
-          Vara lag frekvens osciliatorer, vacktar over din val var.<br />
-          Vara lag frekvens osciliatorer, vill bara att du ska ha det bra.<br />
-          Ah oui, oh sjung denna melodie.<br />
-          <br />
-          Vagen borjar likna minus,<br />
-          Och allt som forut var minus.<br />
-          Ror sig sakta positivt.<br />
-          I ett vackert monster alternativt.<br />
-          Oh oui,<br />
-          En infra melodie.<br /></em>
-        WOAS: 'https://archive.org/details/BPIST001'
+        TYER: '2010'
+        Comment: 'Visit http://shop.basspistol.com'
+        TALB: Psykedelisk Pop
+        TRCK: '5'
+        TPE2: reSet Sakrecoer
+        UNSYNCEDLYRICS: "Oh oui, vad är det for melodi?\r\nSom glider förbi.\r\nOh oui, vad är det for melodi\r\nSom glider sig i.\r\nOh oui, vad är denna melodi?\r\nSom tränger sig i.\r\nOh oui.\r\n\r\nLuften böjer sig for sin gång,\r\nOch hela kroppen känns som trång.\r\nAh oui, en inframelodie\r\nFånga tråden lyft dig upp\r\nLätta själen trilla ner\r\nMetavågor kommer upp\r\nInfrastruktur är din själ\r\nOh oui, en basallegori\r\nEn bastrottoar.\r\n\r\n\r\nVåra låg frekvens oscillatorer, väktar över din val var.\r\nVåra låg frekvens oscillatorer, vill bara att du ska ha det bra.\r\nAh oui, oh sjung denna melodi.\r\n\r\nVågen börjar likna minus,\r\nOch allt som förut var minus.\r\nRör sig sakta positivt.\r\nI ett vackert mönster alternativt.\r\nOh oui,\r\nEn inframelodi."
     all:
-      TCON: Electro Pop
-      c0: www.sakrecoer.com - www.basspistol.com
       TIT2: Luftböjning
-      RELEASECOUNTRY: SE
-      LABEL: Basspistol
-      MUSICBRAINZ_RELEASETRACKID: 1a9c7ee7-a418-4d1f-bcdf-7a9e018a3d07
-      ORIGINALDATE: '2010'
-      MUSICBRAINZ_RELEASEGROUPID: 2ab5cbaa-6818-4604-8070-26b81b860bfa
-      RELEASESTATUS: official
-      ACOUSTID_ID: a7e81db1-42b6-4297-9d1a-d7990e2dd9dc
-      CATALOGNUMBER: BPIST001
-      MEDIA: Digital Media
-      RELEASETYPE: album
-      ORIGINALYEAR: '2010'
-      ARTISTS: reSet Sakrecoer
-      'TXXX:MusicBrainz Album Artist Id': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
-      'TXXX:musicbrainz_albumartistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
-      TPOS: 1/1
-      'TXXX:MusicBrainz Album Id': fda0a215-114f-4c4b-9220-3b2157368a3f
-      'TXXX:musicbrainz_albumid': fda0a215-114f-4c4b-9220-3b2157368a3f
-      TPE2: reSet Sakrecoer
-      TALB: Psykedelisk Pop
-      'TXXX:MusicBrainz Artist Id': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
-      'TXXX:musicbrainz_artistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
       TPE1: reSet Sakrecoer
-      UFID: *ref_4
-      TSOP: Sakrecoer
-      TRCK: 5/10
-      TDRC: '2010-01-01'
-      lyrics: |
-        <em>Oh oui, vad ar det for melodie?<br />
-        Som glider forbi.<br />
-        Oh oui, vad ar det for melodie<br />
-        Som glider sig i.<br />
-        Oh oui, vad ar denna melodie?<br />
-        Som tranger sig i.<br />
-        Oh oui.<br />
-        <br />
-        Luften bojer sig for sin gang,<br />
-        Och hela kroppen kanns som trang.<br />
-        Ah oui, en inframelodie<br />
-        Fanga traden lyft dig upp<br />
-        Latta sjalen trilla ner<br />
-        Metavagor kommer upp<br />
-        Infrastruktur ar din sjal<br />
-        Oh oui, en bass alegori<br />
-        En bass trotoar.<br />
-        <br />
-        Vara lag frekvens osciliatorer, vacktar over din val var.<br />
-        Vara lag frekvens osciliatorer, vill bara att du ska ha det bra.<br />
-        Ah oui, oh sjung denna melodie.<br />
-        <br />
-        Vagen borjar likna minus,<br />
-        Och allt som forut var minus.<br />
-        Ror sig sakta positivt.<br />
-        I ett vackert monster alternativt.<br />
-        Oh oui,<br />
-        En infra melodie.<br /></em>
-      WOAS: 'https://archive.org/details/BPIST001'
+      TYER: '2010'
+      Comment: 'Visit http://shop.basspistol.com'
+      TALB: Psykedelisk Pop
+      TRCK: '5'
+      TPE2: reSet Sakrecoer
+      UNSYNCEDLYRICS: "Oh oui, vad är det for melodi?\r\nSom glider förbi.\r\nOh oui, vad är det for melodi\r\nSom glider sig i.\r\nOh oui, vad är denna melodi?\r\nSom tränger sig i.\r\nOh oui.\r\n\r\nLuften böjer sig for sin gång,\r\nOch hela kroppen känns som trång.\r\nAh oui, en inframelodie\r\nFånga tråden lyft dig upp\r\nLätta själen trilla ner\r\nMetavågor kommer upp\r\nInfrastruktur är din själ\r\nOh oui, en basallegori\r\nEn bastrottoar.\r\n\r\n\r\nVåra låg frekvens oscillatorer, väktar över din val var.\r\nVåra låg frekvens oscillatorer, vill bara att du ska ha det bra.\r\nAh oui, oh sjung denna melodi.\r\n\r\nVågen börjar likna minus,\r\nOch allt som förut var minus.\r\nRör sig sakta positivt.\r\nI ett vackert mönster alternativt.\r\nOh oui,\r\nEn inframelodi."
   - path: >-
       /home/set/git/basspistol/basspistol.com/assets/albums/psykedelisk-pop/6-intelligent-music.mp3
     audio: /assets/albums/psykedelisk-pop/6-intelligent-music.mp3
@@ -1680,311 +439,79 @@ tracks:
     cover: /assets/albums/psykedelisk-pop/6-intelligent-music.jpeg
     format:
       tagTypes:
-        - ID3v2.4
+        - ID3v2.3
       trackInfo: []
       lossless: false
       container: MPEG
       codec: MPEG 1 Layer 3
       sampleRate: 44100
       numberOfChannels: 2
-      bitrate: 128000
+      bitrate: 192000
       codecProfile: CBR
       numberOfSamples: 10060416
       duration: 228.1273469387755
     native:
-      ID3v2.4:
-        - id: TCON
-          value: Electro Pop
-        - id: COMM
-          value:
-            language: XXX
-            description: c0
-            text: www.sakrecoer.com - www.basspistol.com
+      ID3v2.3:
         - id: TIT2
           value: Intelligent Music
-        - id: COMM
-          value:
-            language: XXX
-            description: RELEASECOUNTRY
-            text: SE
-        - id: COMM
-          value:
-            language: XXX
-            description: LABEL
-            text: Basspistol
-        - id: COMM
-          value:
-            language: XXX
-            description: MUSICBRAINZ_RELEASETRACKID
-            text: 8fda5685-1857-4aeb-b96e-015699d71610
-        - id: COMM
-          value:
-            language: XXX
-            description: ORIGINALDATE
-            text: '2010'
-        - id: COMM
-          value:
-            language: XXX
-            description: MUSICBRAINZ_RELEASEGROUPID
-            text: 2ab5cbaa-6818-4604-8070-26b81b860bfa
-        - id: COMM
-          value:
-            language: XXX
-            description: RELEASESTATUS
-            text: official
-        - id: COMM
-          value:
-            language: XXX
-            description: ACOUSTID_ID
-            text: bfd5f944-9808-468a-adb4-34344b268204
-        - id: COMM
-          value:
-            language: XXX
-            description: CATALOGNUMBER
-            text: BPIST001
-        - id: COMM
-          value:
-            language: XXX
-            description: MEDIA
-            text: Digital Media
-        - id: COMM
-          value:
-            language: XXX
-            description: RELEASETYPE
-            text: album
-        - id: COMM
-          value:
-            language: XXX
-            description: ORIGINALYEAR
-            text: '2010'
-        - id: COMM
-          value:
-            language: XXX
-            description: ARTISTS
-            text: reSet Sakrecoer
-        - id: 'TXXX:MusicBrainz Album Artist Id'
-          value: a2899399-d1d5-462f-9d56-ec1ea78cc4b6
-        - id: 'TXXX:musicbrainz_albumartistid'
-          value: a2899399-d1d5-462f-9d56-ec1ea78cc4b6
-        - id: TPOS
-          value: 1/1
-        - id: 'TXXX:MusicBrainz Album Id'
-          value: fda0a215-114f-4c4b-9220-3b2157368a3f
-        - id: 'TXXX:musicbrainz_albumid'
-          value: fda0a215-114f-4c4b-9220-3b2157368a3f
-        - id: TPE2
-          value: reSet Sakrecoer
-        - id: TALB
-          value: Psykedelisk Pop
-        - id: 'TXXX:MusicBrainz Artist Id'
-          value: a2899399-d1d5-462f-9d56-ec1ea78cc4b6
-        - id: 'TXXX:musicbrainz_artistid'
-          value: a2899399-d1d5-462f-9d56-ec1ea78cc4b6
         - id: TPE1
           value: reSet Sakrecoer
-        - id: UFID
-          value: &ref_5
-            owner_identifier: 'http://musicbrainz.org'
-            identifier: !<tag:yaml.org,2002:binary> ZDY2ZmQ3MzItZjQ1MC00NWE0LThiYjMtMzc2ZTQwYzIzYjNj
-        - id: TSOP
-          value: Sakrecoer
-        - id: TRCK
-          value: 6/10
-        - id: TDRC
-          value: '2010-01-01'
-        - id: USLT
+        - id: TYER
+          value: '2010'
+        - id: COMM
           value:
-            language: eng
-            description: lyrics
-            text: |
-              <em>REF:<br />
-              Kadnamn Intelligent musik!<br />
-              Greppar i dig hjartat, med hjarn gymnastik!<br />
-              Kadnamn Intelligent musik!<br />
-              Du vet precis som jag, vad du vill ha!<br />
-              Kadnamn Intelligent musik!<br />
-              Du vill att det svanger, du vill att det tanker!<br />
-              Kadnamn Intelligent musik!<br />
-              Sa att livslusten hojs, mot ett billigt projs!<br />
-              Kadnamn Intelligent musik!<br />
-              Du och jag bajby, vi vet vart vi ska!<br />
-              Kadnamn Intelligent musik!<br />
-              Vi tanker oss for och vi vet vad vi gor!<br />
-              <br />
-              Det ar nagonting som saknas i mina alster,<br />
-              Som ett for tidigt foster.<br />
-              Problemet ater upp mig som ett monster.<br />
-              Lyssna pa ditt hjarta, du vet vad du gor.<br />
-              Unga mann sin framtid hor.<br />
-              E-E-E-E-ar D D D#-det-du C# BBBBB BEJBY?<br />
-              <br />
-              REF<br />
-              <br />
-              Om det ar nagonting som jag litar pa,<br />
-              sa ar det kanslan du kann fa,<br />
-              Mig att kanna, mig att uppleva,<br />
-              Mig att dela, med mig till alla dom andra.<br /></em>
-        - id: WOAS
-          value: 'https://archive.org/details/BPIST001'
+            language: XXX
+            description: Comment
+            text: 'Visit http://shop.basspistol.com'
+        - id: TALB
+          value: Psykedelisk Pop
+        - id: TRCK
+          value: '6'
+        - id: TPE2
+          value: reSet Sakrecoer
+        - id: COMM
+          value:
+            language: XXX
+            description: UNSYNCEDLYRICS
+            text: "REF:\r\nKodnamn Intelligent musik!\r\nGreppar i dig hjärtat, med hjärngymnastik!\r\nKodnamn Intelligent musik!\r\nDu vet precis som jag, vad du vill ha!\r\nKodnamn Intelligent musik!\r\nDu vill att det svänger, du vill att det tanker!\r\nKodnamn Intelligent musik!\r\nSå att livslusten höjs, mot ett billigt pröjs!\r\nKodnamn Intelligent musik!\r\nDu och jag bejbi, vi vet vart vi ska!\r\nKodnamn Intelligent musik!\r\nVi tänker oss fär och vi vet vad vi gör!\r\n\r\nDet är någonting som saknas i mina alster,\r\nSom ett för tidigt foster.\r\nProblemet äter upp mig som ett monster.\r\nLyssna på ditt hjärta, du vet vad du gör.\r\nUnga män sin framtid hor.\r\nE-E-E-E-ar D D D#-det-du C# BBBBB BEJBY?\r\n\r\nREF\r\n\r\nOm det är någonting som jag litar på,\r\nSå ar det nog känslan du kan få,\r\nMig att känna, mig att uppleva, \r\nMig att dela, med mig till alla dom andra."
     quality:
       warnings: []
     common:
       track:
         'no': 6
-        of: 10
+        of: null
       disk:
-        'no': 1
-        of: 1
-      genre:
-        - Electro Pop
-      comment:
-        - www.sakrecoer.com - www.basspistol.com
-        - SE
-        - Basspistol
-        - 8fda5685-1857-4aeb-b96e-015699d71610
-        - '2010'
-        - 2ab5cbaa-6818-4604-8070-26b81b860bfa
-        - official
-        - bfd5f944-9808-468a-adb4-34344b268204
-        - BPIST001
-        - Digital Media
-        - album
-        - '2010'
-        - reSet Sakrecoer
+        'no': null
+        of: null
       title: Intelligent Music
-      musicbrainz_albumartistid:
-        - a2899399-d1d5-462f-9d56-ec1ea78cc4b6
-      musicbrainz_albumid: fda0a215-114f-4c4b-9220-3b2157368a3f
-      albumartist: reSet Sakrecoer
-      album: Psykedelisk Pop
-      musicbrainz_artistid:
-        - a2899399-d1d5-462f-9d56-ec1ea78cc4b6
       artists:
         - reSet Sakrecoer
       artist: reSet Sakrecoer
-      musicbrainz_recordingid: d66fd732-f450-45a4-8bb3-376e40c23b3c
-      artistsort: Sakrecoer
       year: 2010
-      date: '2010-01-01'
+      comment:
+        - 'Visit http://shop.basspistol.com'
+        - "REF:\r\nKodnamn Intelligent musik!\r\nGreppar i dig hjärtat, med hjärngymnastik!\r\nKodnamn Intelligent musik!\r\nDu vet precis som jag, vad du vill ha!\r\nKodnamn Intelligent musik!\r\nDu vill att det svänger, du vill att det tanker!\r\nKodnamn Intelligent musik!\r\nSå att livslusten höjs, mot ett billigt pröjs!\r\nKodnamn Intelligent musik!\r\nDu och jag bejbi, vi vet vart vi ska!\r\nKodnamn Intelligent musik!\r\nVi tänker oss fär och vi vet vad vi gör!\r\n\r\nDet är någonting som saknas i mina alster,\r\nSom ett för tidigt foster.\r\nProblemet äter upp mig som ett monster.\r\nLyssna på ditt hjärta, du vet vad du gör.\r\nUnga män sin framtid hor.\r\nE-E-E-E-ar D D D#-det-du C# BBBBB BEJBY?\r\n\r\nREF\r\n\r\nOm det är någonting som jag litar på,\r\nSå ar det nog känslan du kan få,\r\nMig att känna, mig att uppleva, \r\nMig att dela, med mig till alla dom andra."
+      album: Psykedelisk Pop
+      albumartist: reSet Sakrecoer
     transformed:
-      ID3v2.4:
-        TCON: Electro Pop
-        c0: www.sakrecoer.com - www.basspistol.com
+      ID3v2.3:
         TIT2: Intelligent Music
-        RELEASECOUNTRY: SE
-        LABEL: Basspistol
-        MUSICBRAINZ_RELEASETRACKID: 8fda5685-1857-4aeb-b96e-015699d71610
-        ORIGINALDATE: '2010'
-        MUSICBRAINZ_RELEASEGROUPID: 2ab5cbaa-6818-4604-8070-26b81b860bfa
-        RELEASESTATUS: official
-        ACOUSTID_ID: bfd5f944-9808-468a-adb4-34344b268204
-        CATALOGNUMBER: BPIST001
-        MEDIA: Digital Media
-        RELEASETYPE: album
-        ORIGINALYEAR: '2010'
-        ARTISTS: reSet Sakrecoer
-        'TXXX:MusicBrainz Album Artist Id': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
-        'TXXX:musicbrainz_albumartistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
-        TPOS: 1/1
-        'TXXX:MusicBrainz Album Id': fda0a215-114f-4c4b-9220-3b2157368a3f
-        'TXXX:musicbrainz_albumid': fda0a215-114f-4c4b-9220-3b2157368a3f
-        TPE2: reSet Sakrecoer
-        TALB: Psykedelisk Pop
-        'TXXX:MusicBrainz Artist Id': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
-        'TXXX:musicbrainz_artistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
         TPE1: reSet Sakrecoer
-        UFID: *ref_5
-        TSOP: Sakrecoer
-        TRCK: 6/10
-        TDRC: '2010-01-01'
-        lyrics: |
-          <em>REF:<br />
-          Kadnamn Intelligent musik!<br />
-          Greppar i dig hjartat, med hjarn gymnastik!<br />
-          Kadnamn Intelligent musik!<br />
-          Du vet precis som jag, vad du vill ha!<br />
-          Kadnamn Intelligent musik!<br />
-          Du vill att det svanger, du vill att det tanker!<br />
-          Kadnamn Intelligent musik!<br />
-          Sa att livslusten hojs, mot ett billigt projs!<br />
-          Kadnamn Intelligent musik!<br />
-          Du och jag bajby, vi vet vart vi ska!<br />
-          Kadnamn Intelligent musik!<br />
-          Vi tanker oss for och vi vet vad vi gor!<br />
-          <br />
-          Det ar nagonting som saknas i mina alster,<br />
-          Som ett for tidigt foster.<br />
-          Problemet ater upp mig som ett monster.<br />
-          Lyssna pa ditt hjarta, du vet vad du gor.<br />
-          Unga mann sin framtid hor.<br />
-          E-E-E-E-ar D D D#-det-du C# BBBBB BEJBY?<br />
-          <br />
-          REF<br />
-          <br />
-          Om det ar nagonting som jag litar pa,<br />
-          sa ar det kanslan du kann fa,<br />
-          Mig att kanna, mig att uppleva,<br />
-          Mig att dela, med mig till alla dom andra.<br /></em>
-        WOAS: 'https://archive.org/details/BPIST001'
+        TYER: '2010'
+        Comment: 'Visit http://shop.basspistol.com'
+        TALB: Psykedelisk Pop
+        TRCK: '6'
+        TPE2: reSet Sakrecoer
+        UNSYNCEDLYRICS: "REF:\r\nKodnamn Intelligent musik!\r\nGreppar i dig hjärtat, med hjärngymnastik!\r\nKodnamn Intelligent musik!\r\nDu vet precis som jag, vad du vill ha!\r\nKodnamn Intelligent musik!\r\nDu vill att det svänger, du vill att det tanker!\r\nKodnamn Intelligent musik!\r\nSå att livslusten höjs, mot ett billigt pröjs!\r\nKodnamn Intelligent musik!\r\nDu och jag bejbi, vi vet vart vi ska!\r\nKodnamn Intelligent musik!\r\nVi tänker oss fär och vi vet vad vi gör!\r\n\r\nDet är någonting som saknas i mina alster,\r\nSom ett för tidigt foster.\r\nProblemet äter upp mig som ett monster.\r\nLyssna på ditt hjärta, du vet vad du gör.\r\nUnga män sin framtid hor.\r\nE-E-E-E-ar D D D#-det-du C# BBBBB BEJBY?\r\n\r\nREF\r\n\r\nOm det är någonting som jag litar på,\r\nSå ar det nog känslan du kan få,\r\nMig att känna, mig att uppleva, \r\nMig att dela, med mig till alla dom andra."
     all:
-      TCON: Electro Pop
-      c0: www.sakrecoer.com - www.basspistol.com
       TIT2: Intelligent Music
-      RELEASECOUNTRY: SE
-      LABEL: Basspistol
-      MUSICBRAINZ_RELEASETRACKID: 8fda5685-1857-4aeb-b96e-015699d71610
-      ORIGINALDATE: '2010'
-      MUSICBRAINZ_RELEASEGROUPID: 2ab5cbaa-6818-4604-8070-26b81b860bfa
-      RELEASESTATUS: official
-      ACOUSTID_ID: bfd5f944-9808-468a-adb4-34344b268204
-      CATALOGNUMBER: BPIST001
-      MEDIA: Digital Media
-      RELEASETYPE: album
-      ORIGINALYEAR: '2010'
-      ARTISTS: reSet Sakrecoer
-      'TXXX:MusicBrainz Album Artist Id': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
-      'TXXX:musicbrainz_albumartistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
-      TPOS: 1/1
-      'TXXX:MusicBrainz Album Id': fda0a215-114f-4c4b-9220-3b2157368a3f
-      'TXXX:musicbrainz_albumid': fda0a215-114f-4c4b-9220-3b2157368a3f
-      TPE2: reSet Sakrecoer
-      TALB: Psykedelisk Pop
-      'TXXX:MusicBrainz Artist Id': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
-      'TXXX:musicbrainz_artistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
       TPE1: reSet Sakrecoer
-      UFID: *ref_5
-      TSOP: Sakrecoer
-      TRCK: 6/10
-      TDRC: '2010-01-01'
-      lyrics: |
-        <em>REF:<br />
-        Kadnamn Intelligent musik!<br />
-        Greppar i dig hjartat, med hjarn gymnastik!<br />
-        Kadnamn Intelligent musik!<br />
-        Du vet precis som jag, vad du vill ha!<br />
-        Kadnamn Intelligent musik!<br />
-        Du vill att det svanger, du vill att det tanker!<br />
-        Kadnamn Intelligent musik!<br />
-        Sa att livslusten hojs, mot ett billigt projs!<br />
-        Kadnamn Intelligent musik!<br />
-        Du och jag bajby, vi vet vart vi ska!<br />
-        Kadnamn Intelligent musik!<br />
-        Vi tanker oss for och vi vet vad vi gor!<br />
-        <br />
-        Det ar nagonting som saknas i mina alster,<br />
-        Som ett for tidigt foster.<br />
-        Problemet ater upp mig som ett monster.<br />
-        Lyssna pa ditt hjarta, du vet vad du gor.<br />
-        Unga mann sin framtid hor.<br />
-        E-E-E-E-ar D D D#-det-du C# BBBBB BEJBY?<br />
-        <br />
-        REF<br />
-        <br />
-        Om det ar nagonting som jag litar pa,<br />
-        sa ar det kanslan du kann fa,<br />
-        Mig att kanna, mig att uppleva,<br />
-        Mig att dela, med mig till alla dom andra.<br /></em>
-      WOAS: 'https://archive.org/details/BPIST001'
+      TYER: '2010'
+      Comment: 'Visit http://shop.basspistol.com'
+      TALB: Psykedelisk Pop
+      TRCK: '6'
+      TPE2: reSet Sakrecoer
+      UNSYNCEDLYRICS: "REF:\r\nKodnamn Intelligent musik!\r\nGreppar i dig hjärtat, med hjärngymnastik!\r\nKodnamn Intelligent musik!\r\nDu vet precis som jag, vad du vill ha!\r\nKodnamn Intelligent musik!\r\nDu vill att det svänger, du vill att det tanker!\r\nKodnamn Intelligent musik!\r\nSå att livslusten höjs, mot ett billigt pröjs!\r\nKodnamn Intelligent musik!\r\nDu och jag bejbi, vi vet vart vi ska!\r\nKodnamn Intelligent musik!\r\nVi tänker oss fär och vi vet vad vi gör!\r\n\r\nDet är någonting som saknas i mina alster,\r\nSom ett för tidigt foster.\r\nProblemet äter upp mig som ett monster.\r\nLyssna på ditt hjärta, du vet vad du gör.\r\nUnga män sin framtid hor.\r\nE-E-E-E-ar D D D#-det-du C# BBBBB BEJBY?\r\n\r\nREF\r\n\r\nOm det är någonting som jag litar på,\r\nSå ar det nog känslan du kan få,\r\nMig att känna, mig att uppleva, \r\nMig att dela, med mig till alla dom andra."
   - path: >-
       /home/set/git/basspistol/basspistol.com/assets/albums/psykedelisk-pop/7-alive.mp3
     audio: /assets/albums/psykedelisk-pop/7-alive.mp3
@@ -1996,402 +523,79 @@ tracks:
     cover: /assets/albums/psykedelisk-pop/7-alive.jpeg
     format:
       tagTypes:
-        - ID3v2.4
+        - ID3v2.3
       trackInfo: []
       lossless: false
       container: MPEG
       codec: MPEG 1 Layer 3
       sampleRate: 44100
       numberOfChannels: 2
-      bitrate: 128000
+      bitrate: 192000
       codecProfile: CBR
       numberOfSamples: 8667648
       duration: 196.54530612244898
     native:
-      ID3v2.4:
-        - id: TCON
-          value: Electro Pop
-        - id: COMM
-          value:
-            language: XXX
-            description: c0
-            text: www.sakrecoer.com - www.basspistol.com
+      ID3v2.3:
         - id: TIT2
           value: Alive
-        - id: COMM
-          value:
-            language: XXX
-            description: RELEASECOUNTRY
-            text: SE
-        - id: COMM
-          value:
-            language: XXX
-            description: LABEL
-            text: Basspistol
-        - id: COMM
-          value:
-            language: XXX
-            description: MUSICBRAINZ_RELEASETRACKID
-            text: b38c1443-878c-40c4-a298-f7fb620c2c7c
-        - id: COMM
-          value:
-            language: XXX
-            description: ORIGINALDATE
-            text: '2010'
-        - id: COMM
-          value:
-            language: XXX
-            description: MUSICBRAINZ_RELEASEGROUPID
-            text: 2ab5cbaa-6818-4604-8070-26b81b860bfa
-        - id: COMM
-          value:
-            language: XXX
-            description: RELEASESTATUS
-            text: official
-        - id: COMM
-          value:
-            language: XXX
-            description: ACOUSTID_ID
-            text: 92126bfa-4b34-4f05-a2ec-254f45ad822b
-        - id: COMM
-          value:
-            language: XXX
-            description: CATALOGNUMBER
-            text: BPIST001
-        - id: COMM
-          value:
-            language: XXX
-            description: MEDIA
-            text: Digital Media
-        - id: COMM
-          value:
-            language: XXX
-            description: RELEASETYPE
-            text: album
-        - id: COMM
-          value:
-            language: XXX
-            description: ORIGINALYEAR
-            text: '2010'
-        - id: COMM
-          value:
-            language: XXX
-            description: ARTISTS
-            text: reSet Sakrecoer
-        - id: 'TXXX:MusicBrainz Album Artist Id'
-          value: a2899399-d1d5-462f-9d56-ec1ea78cc4b6
-        - id: 'TXXX:musicbrainz_albumartistid'
-          value: a2899399-d1d5-462f-9d56-ec1ea78cc4b6
-        - id: TPOS
-          value: 1/1
-        - id: 'TXXX:MusicBrainz Album Id'
-          value: fda0a215-114f-4c4b-9220-3b2157368a3f
-        - id: 'TXXX:musicbrainz_albumid'
-          value: fda0a215-114f-4c4b-9220-3b2157368a3f
-        - id: TPE2
-          value: reSet Sakrecoer
-        - id: TALB
-          value: Psykedelisk Pop
-        - id: 'TXXX:MusicBrainz Artist Id'
-          value: a2899399-d1d5-462f-9d56-ec1ea78cc4b6
-        - id: 'TXXX:musicbrainz_artistid'
-          value: a2899399-d1d5-462f-9d56-ec1ea78cc4b6
         - id: TPE1
           value: reSet Sakrecoer
-        - id: UFID
-          value: &ref_6
-            owner_identifier: 'http://musicbrainz.org'
-            identifier: !<tag:yaml.org,2002:binary> MDQ3YTc0OWItZTNkZC00NWI5LTg4YjQtN2UxZGU3NzAxNzBl
-        - id: TSOP
-          value: Sakrecoer
-        - id: TRCK
-          value: 7/10
-        - id: TDRC
-          value: '2010-01-01'
-        - id: USLT
+        - id: TYER
+          value: '2010'
+        - id: COMM
           value:
-            language: eng
-            description: lyrics
-            text: >
-              <em>Si seior, si.<br />
-
-              See, it has come to my attention, that a lot of people, don't
-              believe in dreams. <br />
-
-              And see, it's like every morning, when they wake up, they step out
-              of bed empty. <br />
-
-              This phenomenon is rather sad. <br />
-
-              But coming to think of it, it has maybe always been like that.<br
-              />
-
-              <br />
-
-              Coming to think about my last dream<br />
-
-              how blurry it seems.<br />
-
-              A lot of unknown shapes and feelings.<br />
-
-              Me and you dressed in jeans.<br />
-
-              <br />
-
-              Stop!<br />
-
-              <br />
-
-              If i had to define to perfect dream, <br />
-
-              it would be the one featuring you, you, yes you and you, <br />
-
-              and you, and you and you, and you and you and you and me! <br />
-
-              The dream of the perfect unity. <br />
-
-              The dream of interplanetary harmony.<br />
-
-              <br />
-
-              Coming to think about my last dream.<br />
-
-              I realize how clear and clean.<br />
-
-              The souvenir taste like sugar and cream,<br />
-
-              My dream.<br />
-
-              <br />
-
-              I know kid, i know: these ain't easy goals. <br />
-
-              But there is no use, to loose your hope!<br />
-
-              <br />
-
-              Si senior, hola!<br /></em>
-        - id: WOAS
-          value: 'https://archive.org/details/BPIST001'
+            language: XXX
+            description: Comment
+            text: 'Visit http://shop.basspistol.com'
+        - id: TALB
+          value: Psykedelisk Pop
+        - id: TRCK
+          value: '7'
+        - id: TPE2
+          value: reSet Sakrecoer
+        - id: COMM
+          value:
+            language: XXX
+            description: UNSYNCEDLYRICS
+            text: "Si señior, si.\r\nSee, it has come to my attention, that a lot of people, don't believe in dreams. And see, it's like every morning, when they wake up, they step out of bed empty. This phenomenon is rather sad. But coming to think of it, it has maybe always been like that.\r\n\r\nComing to think about my last dream\r\nhow blurry it seems.\r\nA lot of unknown shapes and feelings.\r\nMe and you dressed in jeans.\r\n\r\nStop!\r\n\r\nIf i had to define to perfect dream, it would be the one featuring you, you, yes you and you, and you, and you and you, and you and you and you and me! The dream of the perfect unity. The dream of interplanetary harmony.\r\n\r\nComing to think about my last dream.\r\nI realize how clear and clean.\r\nThe souvenir taste like sugar and cream,\r\nMy dream.\r\n\r\nI know kid, i know: these ain't easy goals. But there is no use, to loose your hope!\r\n\r\nSi señior, hola!"
     quality:
       warnings: []
     common:
       track:
         'no': 7
-        of: 10
+        of: null
       disk:
-        'no': 1
-        of: 1
-      genre:
-        - Electro Pop
-      comment:
-        - www.sakrecoer.com - www.basspistol.com
-        - SE
-        - Basspistol
-        - b38c1443-878c-40c4-a298-f7fb620c2c7c
-        - '2010'
-        - 2ab5cbaa-6818-4604-8070-26b81b860bfa
-        - official
-        - 92126bfa-4b34-4f05-a2ec-254f45ad822b
-        - BPIST001
-        - Digital Media
-        - album
-        - '2010'
-        - reSet Sakrecoer
+        'no': null
+        of: null
       title: Alive
-      musicbrainz_albumartistid:
-        - a2899399-d1d5-462f-9d56-ec1ea78cc4b6
-      musicbrainz_albumid: fda0a215-114f-4c4b-9220-3b2157368a3f
-      albumartist: reSet Sakrecoer
-      album: Psykedelisk Pop
-      musicbrainz_artistid:
-        - a2899399-d1d5-462f-9d56-ec1ea78cc4b6
       artists:
         - reSet Sakrecoer
       artist: reSet Sakrecoer
-      musicbrainz_recordingid: 047a749b-e3dd-45b9-88b4-7e1de770170e
-      artistsort: Sakrecoer
       year: 2010
-      date: '2010-01-01'
+      comment:
+        - 'Visit http://shop.basspistol.com'
+        - "Si señior, si.\r\nSee, it has come to my attention, that a lot of people, don't believe in dreams. And see, it's like every morning, when they wake up, they step out of bed empty. This phenomenon is rather sad. But coming to think of it, it has maybe always been like that.\r\n\r\nComing to think about my last dream\r\nhow blurry it seems.\r\nA lot of unknown shapes and feelings.\r\nMe and you dressed in jeans.\r\n\r\nStop!\r\n\r\nIf i had to define to perfect dream, it would be the one featuring you, you, yes you and you, and you, and you and you, and you and you and you and me! The dream of the perfect unity. The dream of interplanetary harmony.\r\n\r\nComing to think about my last dream.\r\nI realize how clear and clean.\r\nThe souvenir taste like sugar and cream,\r\nMy dream.\r\n\r\nI know kid, i know: these ain't easy goals. But there is no use, to loose your hope!\r\n\r\nSi señior, hola!"
+      album: Psykedelisk Pop
+      albumartist: reSet Sakrecoer
     transformed:
-      ID3v2.4:
-        TCON: Electro Pop
-        c0: www.sakrecoer.com - www.basspistol.com
+      ID3v2.3:
         TIT2: Alive
-        RELEASECOUNTRY: SE
-        LABEL: Basspistol
-        MUSICBRAINZ_RELEASETRACKID: b38c1443-878c-40c4-a298-f7fb620c2c7c
-        ORIGINALDATE: '2010'
-        MUSICBRAINZ_RELEASEGROUPID: 2ab5cbaa-6818-4604-8070-26b81b860bfa
-        RELEASESTATUS: official
-        ACOUSTID_ID: 92126bfa-4b34-4f05-a2ec-254f45ad822b
-        CATALOGNUMBER: BPIST001
-        MEDIA: Digital Media
-        RELEASETYPE: album
-        ORIGINALYEAR: '2010'
-        ARTISTS: reSet Sakrecoer
-        'TXXX:MusicBrainz Album Artist Id': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
-        'TXXX:musicbrainz_albumartistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
-        TPOS: 1/1
-        'TXXX:MusicBrainz Album Id': fda0a215-114f-4c4b-9220-3b2157368a3f
-        'TXXX:musicbrainz_albumid': fda0a215-114f-4c4b-9220-3b2157368a3f
-        TPE2: reSet Sakrecoer
-        TALB: Psykedelisk Pop
-        'TXXX:MusicBrainz Artist Id': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
-        'TXXX:musicbrainz_artistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
         TPE1: reSet Sakrecoer
-        UFID: *ref_6
-        TSOP: Sakrecoer
-        TRCK: 7/10
-        TDRC: '2010-01-01'
-        lyrics: >
-          <em>Si seior, si.<br />
-
-          See, it has come to my attention, that a lot of people, don't believe
-          in dreams. <br />
-
-          And see, it's like every morning, when they wake up, they step out of
-          bed empty. <br />
-
-          This phenomenon is rather sad. <br />
-
-          But coming to think of it, it has maybe always been like that.<br />
-
-          <br />
-
-          Coming to think about my last dream<br />
-
-          how blurry it seems.<br />
-
-          A lot of unknown shapes and feelings.<br />
-
-          Me and you dressed in jeans.<br />
-
-          <br />
-
-          Stop!<br />
-
-          <br />
-
-          If i had to define to perfect dream, <br />
-
-          it would be the one featuring you, you, yes you and you, <br />
-
-          and you, and you and you, and you and you and you and me! <br />
-
-          The dream of the perfect unity. <br />
-
-          The dream of interplanetary harmony.<br />
-
-          <br />
-
-          Coming to think about my last dream.<br />
-
-          I realize how clear and clean.<br />
-
-          The souvenir taste like sugar and cream,<br />
-
-          My dream.<br />
-
-          <br />
-
-          I know kid, i know: these ain't easy goals. <br />
-
-          But there is no use, to loose your hope!<br />
-
-          <br />
-
-          Si senior, hola!<br /></em>
-        WOAS: 'https://archive.org/details/BPIST001'
+        TYER: '2010'
+        Comment: 'Visit http://shop.basspistol.com'
+        TALB: Psykedelisk Pop
+        TRCK: '7'
+        TPE2: reSet Sakrecoer
+        UNSYNCEDLYRICS: "Si señior, si.\r\nSee, it has come to my attention, that a lot of people, don't believe in dreams. And see, it's like every morning, when they wake up, they step out of bed empty. This phenomenon is rather sad. But coming to think of it, it has maybe always been like that.\r\n\r\nComing to think about my last dream\r\nhow blurry it seems.\r\nA lot of unknown shapes and feelings.\r\nMe and you dressed in jeans.\r\n\r\nStop!\r\n\r\nIf i had to define to perfect dream, it would be the one featuring you, you, yes you and you, and you, and you and you, and you and you and you and me! The dream of the perfect unity. The dream of interplanetary harmony.\r\n\r\nComing to think about my last dream.\r\nI realize how clear and clean.\r\nThe souvenir taste like sugar and cream,\r\nMy dream.\r\n\r\nI know kid, i know: these ain't easy goals. But there is no use, to loose your hope!\r\n\r\nSi señior, hola!"
     all:
-      TCON: Electro Pop
-      c0: www.sakrecoer.com - www.basspistol.com
       TIT2: Alive
-      RELEASECOUNTRY: SE
-      LABEL: Basspistol
-      MUSICBRAINZ_RELEASETRACKID: b38c1443-878c-40c4-a298-f7fb620c2c7c
-      ORIGINALDATE: '2010'
-      MUSICBRAINZ_RELEASEGROUPID: 2ab5cbaa-6818-4604-8070-26b81b860bfa
-      RELEASESTATUS: official
-      ACOUSTID_ID: 92126bfa-4b34-4f05-a2ec-254f45ad822b
-      CATALOGNUMBER: BPIST001
-      MEDIA: Digital Media
-      RELEASETYPE: album
-      ORIGINALYEAR: '2010'
-      ARTISTS: reSet Sakrecoer
-      'TXXX:MusicBrainz Album Artist Id': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
-      'TXXX:musicbrainz_albumartistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
-      TPOS: 1/1
-      'TXXX:MusicBrainz Album Id': fda0a215-114f-4c4b-9220-3b2157368a3f
-      'TXXX:musicbrainz_albumid': fda0a215-114f-4c4b-9220-3b2157368a3f
-      TPE2: reSet Sakrecoer
-      TALB: Psykedelisk Pop
-      'TXXX:MusicBrainz Artist Id': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
-      'TXXX:musicbrainz_artistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
       TPE1: reSet Sakrecoer
-      UFID: *ref_6
-      TSOP: Sakrecoer
-      TRCK: 7/10
-      TDRC: '2010-01-01'
-      lyrics: >
-        <em>Si seior, si.<br />
-
-        See, it has come to my attention, that a lot of people, don't believe in
-        dreams. <br />
-
-        And see, it's like every morning, when they wake up, they step out of
-        bed empty. <br />
-
-        This phenomenon is rather sad. <br />
-
-        But coming to think of it, it has maybe always been like that.<br />
-
-        <br />
-
-        Coming to think about my last dream<br />
-
-        how blurry it seems.<br />
-
-        A lot of unknown shapes and feelings.<br />
-
-        Me and you dressed in jeans.<br />
-
-        <br />
-
-        Stop!<br />
-
-        <br />
-
-        If i had to define to perfect dream, <br />
-
-        it would be the one featuring you, you, yes you and you, <br />
-
-        and you, and you and you, and you and you and you and me! <br />
-
-        The dream of the perfect unity. <br />
-
-        The dream of interplanetary harmony.<br />
-
-        <br />
-
-        Coming to think about my last dream.<br />
-
-        I realize how clear and clean.<br />
-
-        The souvenir taste like sugar and cream,<br />
-
-        My dream.<br />
-
-        <br />
-
-        I know kid, i know: these ain't easy goals. <br />
-
-        But there is no use, to loose your hope!<br />
-
-        <br />
-
-        Si senior, hola!<br /></em>
-      WOAS: 'https://archive.org/details/BPIST001'
+      TYER: '2010'
+      Comment: 'Visit http://shop.basspistol.com'
+      TALB: Psykedelisk Pop
+      TRCK: '7'
+      TPE2: reSet Sakrecoer
+      UNSYNCEDLYRICS: "Si señior, si.\r\nSee, it has come to my attention, that a lot of people, don't believe in dreams. And see, it's like every morning, when they wake up, they step out of bed empty. This phenomenon is rather sad. But coming to think of it, it has maybe always been like that.\r\n\r\nComing to think about my last dream\r\nhow blurry it seems.\r\nA lot of unknown shapes and feelings.\r\nMe and you dressed in jeans.\r\n\r\nStop!\r\n\r\nIf i had to define to perfect dream, it would be the one featuring you, you, yes you and you, and you, and you and you, and you and you and you and me! The dream of the perfect unity. The dream of interplanetary harmony.\r\n\r\nComing to think about my last dream.\r\nI realize how clear and clean.\r\nThe souvenir taste like sugar and cream,\r\nMy dream.\r\n\r\nI know kid, i know: these ain't easy goals. But there is no use, to loose your hope!\r\n\r\nSi señior, hola!"
   - path: >-
       /home/set/git/basspistol/basspistol.com/assets/albums/psykedelisk-pop/8-invitation-to-dance.mp3
     audio: /assets/albums/psykedelisk-pop/8-invitation-to-dance.mp3
@@ -2403,223 +607,71 @@ tracks:
     cover: /assets/albums/psykedelisk-pop/8-invitation-to-dance.jpeg
     format:
       tagTypes:
-        - ID3v2.4
+        - ID3v2.3
       trackInfo: []
       lossless: false
       container: MPEG
       codec: MPEG 1 Layer 3
       sampleRate: 44100
       numberOfChannels: 2
-      bitrate: 128000
+      bitrate: 192000
       codecProfile: CBR
       numberOfSamples: 22281984
       duration: 505.2604081632653
     native:
-      ID3v2.4:
-        - id: TCON
-          value: Electro Pop
-        - id: COMM
-          value:
-            language: XXX
-            description: c0
-            text: www.sakrecoer.com - www.basspistol.com
+      ID3v2.3:
         - id: TIT2
           value: Invitation To Dance
-        - id: COMM
-          value:
-            language: XXX
-            description: RELEASECOUNTRY
-            text: SE
-        - id: COMM
-          value:
-            language: XXX
-            description: LABEL
-            text: Basspistol
-        - id: COMM
-          value:
-            language: XXX
-            description: MUSICBRAINZ_RELEASETRACKID
-            text: dbc92478-98d4-423a-8356-0be2295cc6ca
-        - id: COMM
-          value:
-            language: XXX
-            description: ORIGINALDATE
-            text: '2010'
-        - id: COMM
-          value:
-            language: XXX
-            description: MUSICBRAINZ_RELEASEGROUPID
-            text: 2ab5cbaa-6818-4604-8070-26b81b860bfa
-        - id: COMM
-          value:
-            language: XXX
-            description: RELEASESTATUS
-            text: official
-        - id: COMM
-          value:
-            language: XXX
-            description: ACOUSTID_ID
-            text: 2685bca1-3f7c-40ba-b72c-0e705fa7eb93
-        - id: COMM
-          value:
-            language: XXX
-            description: CATALOGNUMBER
-            text: BPIST001
-        - id: COMM
-          value:
-            language: XXX
-            description: MEDIA
-            text: Digital Media
-        - id: COMM
-          value:
-            language: XXX
-            description: RELEASETYPE
-            text: album
-        - id: COMM
-          value:
-            language: XXX
-            description: ORIGINALYEAR
-            text: '2010'
-        - id: COMM
-          value:
-            language: XXX
-            description: ARTISTS
-            text: reSet Sakrecoer
-        - id: 'TXXX:MusicBrainz Album Artist Id'
-          value: a2899399-d1d5-462f-9d56-ec1ea78cc4b6
-        - id: 'TXXX:musicbrainz_albumartistid'
-          value: a2899399-d1d5-462f-9d56-ec1ea78cc4b6
-        - id: TPOS
-          value: 1/1
-        - id: 'TXXX:MusicBrainz Album Id'
-          value: fda0a215-114f-4c4b-9220-3b2157368a3f
-        - id: 'TXXX:musicbrainz_albumid'
-          value: fda0a215-114f-4c4b-9220-3b2157368a3f
-        - id: TPE2
-          value: reSet Sakrecoer
-        - id: TALB
-          value: Psykedelisk Pop
-        - id: 'TXXX:MusicBrainz Artist Id'
-          value: a2899399-d1d5-462f-9d56-ec1ea78cc4b6
-        - id: 'TXXX:musicbrainz_artistid'
-          value: a2899399-d1d5-462f-9d56-ec1ea78cc4b6
         - id: TPE1
           value: reSet Sakrecoer
-        - id: UFID
-          value: &ref_7
-            owner_identifier: 'http://musicbrainz.org'
-            identifier: !<tag:yaml.org,2002:binary> MmE5YWE4ZDktODY0YS00YzE0LWIwZDEtNGY4NmQ1NjBmNjA2
-        - id: TSOP
-          value: Sakrecoer
+        - id: TYER
+          value: '2010'
+        - id: COMM
+          value:
+            language: XXX
+            description: Comment
+            text: 'Visit http://shop.basspistol.com'
+        - id: TALB
+          value: Psykedelisk Pop
         - id: TRCK
-          value: 8/10
-        - id: TDRC
-          value: '2010-01-01'
-        - id: WOAS
-          value: 'https://archive.org/details/BPIST001'
+          value: '8'
+        - id: TPE2
+          value: reSet Sakrecoer
     quality:
       warnings: []
     common:
       track:
         'no': 8
-        of: 10
+        of: null
       disk:
-        'no': 1
-        of: 1
-      genre:
-        - Electro Pop
-      comment:
-        - www.sakrecoer.com - www.basspistol.com
-        - SE
-        - Basspistol
-        - dbc92478-98d4-423a-8356-0be2295cc6ca
-        - '2010'
-        - 2ab5cbaa-6818-4604-8070-26b81b860bfa
-        - official
-        - 2685bca1-3f7c-40ba-b72c-0e705fa7eb93
-        - BPIST001
-        - Digital Media
-        - album
-        - '2010'
-        - reSet Sakrecoer
+        'no': null
+        of: null
       title: Invitation To Dance
-      musicbrainz_albumartistid:
-        - a2899399-d1d5-462f-9d56-ec1ea78cc4b6
-      musicbrainz_albumid: fda0a215-114f-4c4b-9220-3b2157368a3f
-      albumartist: reSet Sakrecoer
-      album: Psykedelisk Pop
-      musicbrainz_artistid:
-        - a2899399-d1d5-462f-9d56-ec1ea78cc4b6
       artists:
         - reSet Sakrecoer
       artist: reSet Sakrecoer
-      musicbrainz_recordingid: 2a9aa8d9-864a-4c14-b0d1-4f86d560f606
-      artistsort: Sakrecoer
       year: 2010
-      date: '2010-01-01'
+      comment:
+        - 'Visit http://shop.basspistol.com'
+      album: Psykedelisk Pop
+      albumartist: reSet Sakrecoer
     transformed:
-      ID3v2.4:
-        TCON: Electro Pop
-        c0: www.sakrecoer.com - www.basspistol.com
+      ID3v2.3:
         TIT2: Invitation To Dance
-        RELEASECOUNTRY: SE
-        LABEL: Basspistol
-        MUSICBRAINZ_RELEASETRACKID: dbc92478-98d4-423a-8356-0be2295cc6ca
-        ORIGINALDATE: '2010'
-        MUSICBRAINZ_RELEASEGROUPID: 2ab5cbaa-6818-4604-8070-26b81b860bfa
-        RELEASESTATUS: official
-        ACOUSTID_ID: 2685bca1-3f7c-40ba-b72c-0e705fa7eb93
-        CATALOGNUMBER: BPIST001
-        MEDIA: Digital Media
-        RELEASETYPE: album
-        ORIGINALYEAR: '2010'
-        ARTISTS: reSet Sakrecoer
-        'TXXX:MusicBrainz Album Artist Id': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
-        'TXXX:musicbrainz_albumartistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
-        TPOS: 1/1
-        'TXXX:MusicBrainz Album Id': fda0a215-114f-4c4b-9220-3b2157368a3f
-        'TXXX:musicbrainz_albumid': fda0a215-114f-4c4b-9220-3b2157368a3f
-        TPE2: reSet Sakrecoer
-        TALB: Psykedelisk Pop
-        'TXXX:MusicBrainz Artist Id': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
-        'TXXX:musicbrainz_artistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
         TPE1: reSet Sakrecoer
-        UFID: *ref_7
-        TSOP: Sakrecoer
-        TRCK: 8/10
-        TDRC: '2010-01-01'
-        WOAS: 'https://archive.org/details/BPIST001'
+        TYER: '2010'
+        Comment: 'Visit http://shop.basspistol.com'
+        TALB: Psykedelisk Pop
+        TRCK: '8'
+        TPE2: reSet Sakrecoer
     all:
-      TCON: Electro Pop
-      c0: www.sakrecoer.com - www.basspistol.com
       TIT2: Invitation To Dance
-      RELEASECOUNTRY: SE
-      LABEL: Basspistol
-      MUSICBRAINZ_RELEASETRACKID: dbc92478-98d4-423a-8356-0be2295cc6ca
-      ORIGINALDATE: '2010'
-      MUSICBRAINZ_RELEASEGROUPID: 2ab5cbaa-6818-4604-8070-26b81b860bfa
-      RELEASESTATUS: official
-      ACOUSTID_ID: 2685bca1-3f7c-40ba-b72c-0e705fa7eb93
-      CATALOGNUMBER: BPIST001
-      MEDIA: Digital Media
-      RELEASETYPE: album
-      ORIGINALYEAR: '2010'
-      ARTISTS: reSet Sakrecoer
-      'TXXX:MusicBrainz Album Artist Id': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
-      'TXXX:musicbrainz_albumartistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
-      TPOS: 1/1
-      'TXXX:MusicBrainz Album Id': fda0a215-114f-4c4b-9220-3b2157368a3f
-      'TXXX:musicbrainz_albumid': fda0a215-114f-4c4b-9220-3b2157368a3f
-      TPE2: reSet Sakrecoer
-      TALB: Psykedelisk Pop
-      'TXXX:MusicBrainz Artist Id': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
-      'TXXX:musicbrainz_artistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
       TPE1: reSet Sakrecoer
-      UFID: *ref_7
-      TSOP: Sakrecoer
-      TRCK: 8/10
-      TDRC: '2010-01-01'
-      WOAS: 'https://archive.org/details/BPIST001'
+      TYER: '2010'
+      Comment: 'Visit http://shop.basspistol.com'
+      TALB: Psykedelisk Pop
+      TRCK: '8'
+      TPE2: reSet Sakrecoer
   - path: >-
       /home/set/git/basspistol/basspistol.com/assets/albums/psykedelisk-pop/9-drugs.mp3
     audio: /assets/albums/psykedelisk-pop/9-drugs.mp3
@@ -2631,260 +683,79 @@ tracks:
     cover: /assets/albums/psykedelisk-pop/9-drugs.jpeg
     format:
       tagTypes:
-        - ID3v2.4
+        - ID3v2.3
       trackInfo: []
       lossless: false
       container: MPEG
       codec: MPEG 1 Layer 3
       sampleRate: 44100
       numberOfChannels: 2
-      bitrate: 128000
+      bitrate: 192000
       codecProfile: CBR
       numberOfSamples: 10164096
       duration: 230.47836734693877
     native:
-      ID3v2.4:
-        - id: TCON
-          value: Electro Pop
-        - id: COMM
-          value:
-            language: XXX
-            description: c0
-            text: www.sakrecoer.com - www.basspistol.com
+      ID3v2.3:
         - id: TIT2
           value: Drugs
-        - id: COMM
-          value:
-            language: XXX
-            description: RELEASECOUNTRY
-            text: SE
-        - id: COMM
-          value:
-            language: XXX
-            description: LABEL
-            text: Basspistol
-        - id: COMM
-          value:
-            language: XXX
-            description: MUSICBRAINZ_RELEASETRACKID
-            text: 343a487a-76a1-43ea-8bbd-999cee74266b
-        - id: COMM
-          value:
-            language: XXX
-            description: ORIGINALDATE
-            text: '2010'
-        - id: COMM
-          value:
-            language: XXX
-            description: MUSICBRAINZ_RELEASEGROUPID
-            text: 2ab5cbaa-6818-4604-8070-26b81b860bfa
-        - id: COMM
-          value:
-            language: XXX
-            description: RELEASESTATUS
-            text: official
-        - id: COMM
-          value:
-            language: XXX
-            description: ACOUSTID_ID
-            text: a5f96c79-5ec6-48fb-a9df-30f713514f73
-        - id: COMM
-          value:
-            language: XXX
-            description: CATALOGNUMBER
-            text: BPIST001
-        - id: COMM
-          value:
-            language: XXX
-            description: MEDIA
-            text: Digital Media
-        - id: COMM
-          value:
-            language: XXX
-            description: RELEASETYPE
-            text: album
-        - id: COMM
-          value:
-            language: XXX
-            description: ORIGINALYEAR
-            text: '2010'
-        - id: COMM
-          value:
-            language: XXX
-            description: ARTISTS
-            text: reSet Sakrecoer
-        - id: 'TXXX:MusicBrainz Album Artist Id'
-          value: a2899399-d1d5-462f-9d56-ec1ea78cc4b6
-        - id: 'TXXX:musicbrainz_albumartistid'
-          value: a2899399-d1d5-462f-9d56-ec1ea78cc4b6
-        - id: TPOS
-          value: 1/1
-        - id: 'TXXX:MusicBrainz Album Id'
-          value: fda0a215-114f-4c4b-9220-3b2157368a3f
-        - id: 'TXXX:musicbrainz_albumid'
-          value: fda0a215-114f-4c4b-9220-3b2157368a3f
-        - id: TPE2
-          value: reSet Sakrecoer
-        - id: TALB
-          value: Psykedelisk Pop
-        - id: 'TXXX:MusicBrainz Artist Id'
-          value: a2899399-d1d5-462f-9d56-ec1ea78cc4b6
-        - id: 'TXXX:musicbrainz_artistid'
-          value: a2899399-d1d5-462f-9d56-ec1ea78cc4b6
         - id: TPE1
           value: reSet Sakrecoer
-        - id: UFID
-          value: &ref_8
-            owner_identifier: 'http://musicbrainz.org'
-            identifier: !<tag:yaml.org,2002:binary> YzY5ZGQ1NGMtOTg0Mi00YTY4LTlhMTctZmE4MDYyNTY0YTUw
-        - id: TSOP
-          value: Sakrecoer
-        - id: TRCK
-          value: 9/10
-        - id: TDRC
-          value: '2010-01-01'
-        - id: USLT
+        - id: TYER
+          value: '2010'
+        - id: COMM
           value:
-            language: eng
-            description: lyrics
-            text: |-
-              <em>Och jag vill garna trippa,<br />
-              Och slappa sjalen fri.<br />
-              Och jag vill garna flippa,<br />
-              Och sluta lata bli.<br />
-              Och jag vill garna resa,<br />
-              Med sjalens luft som fri.<br />
-              <br />
-              Sluta upp med allt,<br />
-              Och ha dig har brevid.<br />
-              At minstande narmare i mitt revir.<br /></em>
-        - id: WOAS
-          value: 'https://archive.org/details/BPIST001'
+            language: XXX
+            description: Comment
+            text: 'Visit http://shop.basspistol.com'
+        - id: TALB
+          value: Psykedelisk Pop
+        - id: TRCK
+          value: '9'
+        - id: TPE2
+          value: reSet Sakrecoer
+        - id: COMM
+          value:
+            language: XXX
+            description: UNSYNCEDLYRICS
+            text: "Och jag vill gärna trippa,\r\nOch släppa själen fri.\r\nOch jag vill gärna flippa,\r\nOch sluta låta bli.\r\nOch jag vill gärna resa,\r\nMed själens luft som fri.\r\n\r\nSluta upp med allt,\r\nOch ha dig här bredvid.\r\nÅtminstone närmare i mitt revir."
     quality:
       warnings: []
     common:
       track:
         'no': 9
-        of: 10
+        of: null
       disk:
-        'no': 1
-        of: 1
-      genre:
-        - Electro Pop
-      comment:
-        - www.sakrecoer.com - www.basspistol.com
-        - SE
-        - Basspistol
-        - 343a487a-76a1-43ea-8bbd-999cee74266b
-        - '2010'
-        - 2ab5cbaa-6818-4604-8070-26b81b860bfa
-        - official
-        - a5f96c79-5ec6-48fb-a9df-30f713514f73
-        - BPIST001
-        - Digital Media
-        - album
-        - '2010'
-        - reSet Sakrecoer
+        'no': null
+        of: null
       title: Drugs
-      musicbrainz_albumartistid:
-        - a2899399-d1d5-462f-9d56-ec1ea78cc4b6
-      musicbrainz_albumid: fda0a215-114f-4c4b-9220-3b2157368a3f
-      albumartist: reSet Sakrecoer
-      album: Psykedelisk Pop
-      musicbrainz_artistid:
-        - a2899399-d1d5-462f-9d56-ec1ea78cc4b6
       artists:
         - reSet Sakrecoer
       artist: reSet Sakrecoer
-      musicbrainz_recordingid: c69dd54c-9842-4a68-9a17-fa8062564a50
-      artistsort: Sakrecoer
       year: 2010
-      date: '2010-01-01'
+      comment:
+        - 'Visit http://shop.basspistol.com'
+        - "Och jag vill gärna trippa,\r\nOch släppa själen fri.\r\nOch jag vill gärna flippa,\r\nOch sluta låta bli.\r\nOch jag vill gärna resa,\r\nMed själens luft som fri.\r\n\r\nSluta upp med allt,\r\nOch ha dig här bredvid.\r\nÅtminstone närmare i mitt revir."
+      album: Psykedelisk Pop
+      albumartist: reSet Sakrecoer
     transformed:
-      ID3v2.4:
-        TCON: Electro Pop
-        c0: www.sakrecoer.com - www.basspistol.com
+      ID3v2.3:
         TIT2: Drugs
-        RELEASECOUNTRY: SE
-        LABEL: Basspistol
-        MUSICBRAINZ_RELEASETRACKID: 343a487a-76a1-43ea-8bbd-999cee74266b
-        ORIGINALDATE: '2010'
-        MUSICBRAINZ_RELEASEGROUPID: 2ab5cbaa-6818-4604-8070-26b81b860bfa
-        RELEASESTATUS: official
-        ACOUSTID_ID: a5f96c79-5ec6-48fb-a9df-30f713514f73
-        CATALOGNUMBER: BPIST001
-        MEDIA: Digital Media
-        RELEASETYPE: album
-        ORIGINALYEAR: '2010'
-        ARTISTS: reSet Sakrecoer
-        'TXXX:MusicBrainz Album Artist Id': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
-        'TXXX:musicbrainz_albumartistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
-        TPOS: 1/1
-        'TXXX:MusicBrainz Album Id': fda0a215-114f-4c4b-9220-3b2157368a3f
-        'TXXX:musicbrainz_albumid': fda0a215-114f-4c4b-9220-3b2157368a3f
-        TPE2: reSet Sakrecoer
-        TALB: Psykedelisk Pop
-        'TXXX:MusicBrainz Artist Id': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
-        'TXXX:musicbrainz_artistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
         TPE1: reSet Sakrecoer
-        UFID: *ref_8
-        TSOP: Sakrecoer
-        TRCK: 9/10
-        TDRC: '2010-01-01'
-        lyrics: |-
-          <em>Och jag vill garna trippa,<br />
-          Och slappa sjalen fri.<br />
-          Och jag vill garna flippa,<br />
-          Och sluta lata bli.<br />
-          Och jag vill garna resa,<br />
-          Med sjalens luft som fri.<br />
-          <br />
-          Sluta upp med allt,<br />
-          Och ha dig har brevid.<br />
-          At minstande narmare i mitt revir.<br /></em>
-        WOAS: 'https://archive.org/details/BPIST001'
+        TYER: '2010'
+        Comment: 'Visit http://shop.basspistol.com'
+        TALB: Psykedelisk Pop
+        TRCK: '9'
+        TPE2: reSet Sakrecoer
+        UNSYNCEDLYRICS: "Och jag vill gärna trippa,\r\nOch släppa själen fri.\r\nOch jag vill gärna flippa,\r\nOch sluta låta bli.\r\nOch jag vill gärna resa,\r\nMed själens luft som fri.\r\n\r\nSluta upp med allt,\r\nOch ha dig här bredvid.\r\nÅtminstone närmare i mitt revir."
     all:
-      TCON: Electro Pop
-      c0: www.sakrecoer.com - www.basspistol.com
       TIT2: Drugs
-      RELEASECOUNTRY: SE
-      LABEL: Basspistol
-      MUSICBRAINZ_RELEASETRACKID: 343a487a-76a1-43ea-8bbd-999cee74266b
-      ORIGINALDATE: '2010'
-      MUSICBRAINZ_RELEASEGROUPID: 2ab5cbaa-6818-4604-8070-26b81b860bfa
-      RELEASESTATUS: official
-      ACOUSTID_ID: a5f96c79-5ec6-48fb-a9df-30f713514f73
-      CATALOGNUMBER: BPIST001
-      MEDIA: Digital Media
-      RELEASETYPE: album
-      ORIGINALYEAR: '2010'
-      ARTISTS: reSet Sakrecoer
-      'TXXX:MusicBrainz Album Artist Id': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
-      'TXXX:musicbrainz_albumartistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
-      TPOS: 1/1
-      'TXXX:MusicBrainz Album Id': fda0a215-114f-4c4b-9220-3b2157368a3f
-      'TXXX:musicbrainz_albumid': fda0a215-114f-4c4b-9220-3b2157368a3f
-      TPE2: reSet Sakrecoer
-      TALB: Psykedelisk Pop
-      'TXXX:MusicBrainz Artist Id': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
-      'TXXX:musicbrainz_artistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
       TPE1: reSet Sakrecoer
-      UFID: *ref_8
-      TSOP: Sakrecoer
-      TRCK: 9/10
-      TDRC: '2010-01-01'
-      lyrics: |-
-        <em>Och jag vill garna trippa,<br />
-        Och slappa sjalen fri.<br />
-        Och jag vill garna flippa,<br />
-        Och sluta lata bli.<br />
-        Och jag vill garna resa,<br />
-        Med sjalens luft som fri.<br />
-        <br />
-        Sluta upp med allt,<br />
-        Och ha dig har brevid.<br />
-        At minstande narmare i mitt revir.<br /></em>
-      WOAS: 'https://archive.org/details/BPIST001'
+      TYER: '2010'
+      Comment: 'Visit http://shop.basspistol.com'
+      TALB: Psykedelisk Pop
+      TRCK: '9'
+      TPE2: reSet Sakrecoer
+      UNSYNCEDLYRICS: "Och jag vill gärna trippa,\r\nOch släppa själen fri.\r\nOch jag vill gärna flippa,\r\nOch sluta låta bli.\r\nOch jag vill gärna resa,\r\nMed själens luft som fri.\r\n\r\nSluta upp med allt,\r\nOch ha dig här bredvid.\r\nÅtminstone närmare i mitt revir."
   - path: >-
       /home/set/git/basspistol/basspistol.com/assets/albums/psykedelisk-pop/10-hidden-track.mp3
     audio: /assets/albums/psykedelisk-pop/10-hidden-track.mp3
@@ -2896,221 +767,69 @@ tracks:
     cover: /assets/albums/psykedelisk-pop/10-hidden-track.jpeg
     format:
       tagTypes:
-        - ID3v2.4
+        - ID3v2.3
       trackInfo: []
       lossless: false
       container: MPEG
       codec: MPEG 1 Layer 3
       sampleRate: 44100
       numberOfChannels: 2
-      bitrate: 128000
+      bitrate: 192000
       codecProfile: CBR
       numberOfSamples: 6982272
       duration: 158.32816326530613
     native:
-      ID3v2.4:
-        - id: TCON
-          value: Electro Pop
-        - id: COMM
-          value:
-            language: XXX
-            description: c0
-            text: www.sakrecoer.com - www.basspistol.com
+      ID3v2.3:
         - id: TIT2
           value: Hidden Track
-        - id: COMM
-          value:
-            language: XXX
-            description: RELEASECOUNTRY
-            text: SE
-        - id: COMM
-          value:
-            language: XXX
-            description: LABEL
-            text: Basspistol
-        - id: COMM
-          value:
-            language: XXX
-            description: MUSICBRAINZ_RELEASETRACKID
-            text: df3d5088-da8b-439b-93a9-a1e51b66cc04
-        - id: COMM
-          value:
-            language: XXX
-            description: ORIGINALDATE
-            text: '2010'
-        - id: COMM
-          value:
-            language: XXX
-            description: MUSICBRAINZ_RELEASEGROUPID
-            text: 2ab5cbaa-6818-4604-8070-26b81b860bfa
-        - id: COMM
-          value:
-            language: XXX
-            description: RELEASESTATUS
-            text: official
-        - id: COMM
-          value:
-            language: XXX
-            description: ACOUSTID_ID
-            text: 4ce7e511-c5d5-45a9-bd64-15b9f123bef9
-        - id: COMM
-          value:
-            language: XXX
-            description: CATALOGNUMBER
-            text: BPIST001
-        - id: COMM
-          value:
-            language: XXX
-            description: MEDIA
-            text: Digital Media
-        - id: COMM
-          value:
-            language: XXX
-            description: RELEASETYPE
-            text: album
-        - id: COMM
-          value:
-            language: XXX
-            description: ORIGINALYEAR
-            text: '2010'
-        - id: COMM
-          value:
-            language: XXX
-            description: ARTISTS
-            text: reSet Sakrecoer
-        - id: 'TXXX:MusicBrainz Album Artist Id'
-          value: a2899399-d1d5-462f-9d56-ec1ea78cc4b6
-        - id: 'TXXX:musicbrainz_albumartistid'
-          value: a2899399-d1d5-462f-9d56-ec1ea78cc4b6
-        - id: TPOS
-          value: 1/1
-        - id: 'TXXX:MusicBrainz Album Id'
-          value: fda0a215-114f-4c4b-9220-3b2157368a3f
-        - id: 'TXXX:musicbrainz_albumid'
-          value: fda0a215-114f-4c4b-9220-3b2157368a3f
-        - id: TPE2
-          value: reSet Sakrecoer
-        - id: TALB
-          value: Psykedelisk Pop
-        - id: 'TXXX:MusicBrainz Artist Id'
-          value: a2899399-d1d5-462f-9d56-ec1ea78cc4b6
-        - id: 'TXXX:musicbrainz_artistid'
-          value: a2899399-d1d5-462f-9d56-ec1ea78cc4b6
         - id: TPE1
           value: reSet Sakrecoer
-        - id: UFID
-          value: &ref_9
-            owner_identifier: 'http://musicbrainz.org'
-            identifier: !<tag:yaml.org,2002:binary> NDU4NTA0NjgtZjMxZC00OTUxLTk0NTgtOTJjNTJmZmM4N2Zl
-        - id: TSOP
-          value: Sakrecoer
+        - id: TYER
+          value: '2010'
+        - id: COMM
+          value:
+            language: XXX
+            description: Comment
+            text: 'Visit http://shop.basspistol.com'
+        - id: TALB
+          value: Psykedelisk Pop
         - id: TRCK
-          value: 10/10
-        - id: TDRC
-          value: '2010-01-01'
-        - id: WOAS
-          value: 'https://archive.org/details/BPIST001'
+          value: '10'
+        - id: TPE2
+          value: reSet Sakrecoer
     quality:
       warnings: []
     common:
       track:
         'no': 10
-        of: 10
+        of: null
       disk:
-        'no': 1
-        of: 1
-      genre:
-        - Electro Pop
-      comment:
-        - www.sakrecoer.com - www.basspistol.com
-        - SE
-        - Basspistol
-        - df3d5088-da8b-439b-93a9-a1e51b66cc04
-        - '2010'
-        - 2ab5cbaa-6818-4604-8070-26b81b860bfa
-        - official
-        - 4ce7e511-c5d5-45a9-bd64-15b9f123bef9
-        - BPIST001
-        - Digital Media
-        - album
-        - '2010'
-        - reSet Sakrecoer
+        'no': null
+        of: null
       title: Hidden Track
-      musicbrainz_albumartistid:
-        - a2899399-d1d5-462f-9d56-ec1ea78cc4b6
-      musicbrainz_albumid: fda0a215-114f-4c4b-9220-3b2157368a3f
-      albumartist: reSet Sakrecoer
-      album: Psykedelisk Pop
-      musicbrainz_artistid:
-        - a2899399-d1d5-462f-9d56-ec1ea78cc4b6
       artists:
         - reSet Sakrecoer
       artist: reSet Sakrecoer
-      musicbrainz_recordingid: 45850468-f31d-4951-9458-92c52ffc87fe
-      artistsort: Sakrecoer
       year: 2010
-      date: '2010-01-01'
+      comment:
+        - 'Visit http://shop.basspistol.com'
+      album: Psykedelisk Pop
+      albumartist: reSet Sakrecoer
     transformed:
-      ID3v2.4:
-        TCON: Electro Pop
-        c0: www.sakrecoer.com - www.basspistol.com
+      ID3v2.3:
         TIT2: Hidden Track
-        RELEASECOUNTRY: SE
-        LABEL: Basspistol
-        MUSICBRAINZ_RELEASETRACKID: df3d5088-da8b-439b-93a9-a1e51b66cc04
-        ORIGINALDATE: '2010'
-        MUSICBRAINZ_RELEASEGROUPID: 2ab5cbaa-6818-4604-8070-26b81b860bfa
-        RELEASESTATUS: official
-        ACOUSTID_ID: 4ce7e511-c5d5-45a9-bd64-15b9f123bef9
-        CATALOGNUMBER: BPIST001
-        MEDIA: Digital Media
-        RELEASETYPE: album
-        ORIGINALYEAR: '2010'
-        ARTISTS: reSet Sakrecoer
-        'TXXX:MusicBrainz Album Artist Id': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
-        'TXXX:musicbrainz_albumartistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
-        TPOS: 1/1
-        'TXXX:MusicBrainz Album Id': fda0a215-114f-4c4b-9220-3b2157368a3f
-        'TXXX:musicbrainz_albumid': fda0a215-114f-4c4b-9220-3b2157368a3f
-        TPE2: reSet Sakrecoer
-        TALB: Psykedelisk Pop
-        'TXXX:MusicBrainz Artist Id': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
-        'TXXX:musicbrainz_artistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
         TPE1: reSet Sakrecoer
-        UFID: *ref_9
-        TSOP: Sakrecoer
-        TRCK: 10/10
-        TDRC: '2010-01-01'
-        WOAS: 'https://archive.org/details/BPIST001'
+        TYER: '2010'
+        Comment: 'Visit http://shop.basspistol.com'
+        TALB: Psykedelisk Pop
+        TRCK: '10'
+        TPE2: reSet Sakrecoer
     all:
-      TCON: Electro Pop
-      c0: www.sakrecoer.com - www.basspistol.com
       TIT2: Hidden Track
-      RELEASECOUNTRY: SE
-      LABEL: Basspistol
-      MUSICBRAINZ_RELEASETRACKID: df3d5088-da8b-439b-93a9-a1e51b66cc04
-      ORIGINALDATE: '2010'
-      MUSICBRAINZ_RELEASEGROUPID: 2ab5cbaa-6818-4604-8070-26b81b860bfa
-      RELEASESTATUS: official
-      ACOUSTID_ID: 4ce7e511-c5d5-45a9-bd64-15b9f123bef9
-      CATALOGNUMBER: BPIST001
-      MEDIA: Digital Media
-      RELEASETYPE: album
-      ORIGINALYEAR: '2010'
-      ARTISTS: reSet Sakrecoer
-      'TXXX:MusicBrainz Album Artist Id': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
-      'TXXX:musicbrainz_albumartistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
-      TPOS: 1/1
-      'TXXX:MusicBrainz Album Id': fda0a215-114f-4c4b-9220-3b2157368a3f
-      'TXXX:musicbrainz_albumid': fda0a215-114f-4c4b-9220-3b2157368a3f
-      TPE2: reSet Sakrecoer
-      TALB: Psykedelisk Pop
-      'TXXX:MusicBrainz Artist Id': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
-      'TXXX:musicbrainz_artistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
       TPE1: reSet Sakrecoer
-      UFID: *ref_9
-      TSOP: Sakrecoer
-      TRCK: 10/10
-      TDRC: '2010-01-01'
-      WOAS: 'https://archive.org/details/BPIST001'
+      TYER: '2010'
+      Comment: 'Visit http://shop.basspistol.com'
+      TALB: Psykedelisk Pop
+      TRCK: '10'
+      TPE2: reSet Sakrecoer
 ---

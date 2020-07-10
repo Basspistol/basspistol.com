@@ -1,5 +1,6 @@
 ---
 title: Kick'N'Base Made In Barcelona
+date: 2011-01-07 19:07:00 +0200
 artist: Holyhertz
 category: releases
 author: bassBot
@@ -10,7 +11,7 @@ uid: BPIST003
 image: '/assets/img/holyhertzcover.jpg'
 download: 'https://archive.org/download/BPIST003/BPIST003_archive.torrent'
 stores:
-  - name:
+  - name: ''
     url: 
     icon: 
     download: false

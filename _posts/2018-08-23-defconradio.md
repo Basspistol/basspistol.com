@@ -1,6 +1,7 @@
 ---
 title: 'DefCon Radio'
 artist: 'Soma.FM'
+date: 2018-08-23 19:07:00 +0200
 category: ramblings
 author: bassBot
 tags: [hackers, coding, nerdcore]

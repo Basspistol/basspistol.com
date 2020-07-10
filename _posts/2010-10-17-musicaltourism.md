@@ -2,6 +2,7 @@
 description: 'Musical Tourism by SYNAPSET was recorded over a week in April 2010 by Synapskollaps and reSet Sakrecoer.'
 image: '/assets/img/Synapset-MusicalTourism_Fro.jpg'
 title: Musical Tourism
+date: 2010-10-17 19:07:00 +0200
 author: bassBot
 artist: synapset
 category: releases
@@ -10,9 +11,9 @@ tags: [internal, albums, download]
 uid: BPIST002
 download: 'https://archive.org/download/BPIST002/BPIST002_archive.torrent'
 stores:
-  - name:
-    url: 
-    icon: 
+  - name: Spotify
+    url: https://open.spotify.com/album/4fKDV5CxK6M0JADpRfgTvM
+    icon: fa-spotify
     download: false
 ---
 

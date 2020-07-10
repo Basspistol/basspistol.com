@@ -33,7 +33,7 @@ layout: default
     <img src="https://media.basspistol.com/basspistol.com/{{ page.slug }}.jpeg" alt="{{ page.title }} logo" id="coverart" />
   </div>
 </section>
-{% if page.all.UNSYNCEDLYRICS != nil %}
+
 <!-- Content -->
 <section class="wrapper style1 align-center">
   <div class="inner" style="padding-top:40px">
@@ -41,6 +41,7 @@ layout: default
       <section style="padding-top:40px">
         {% include author.html %}
         <!-- Content -->
+        {% if page.all.UNSYNCEDLYRICS != nil %}
         <div class="content">
           {% unless page.all.UNSYNCEDLYRICS == '' %}<h2>Lyrics</h2>{% endunless %}
           <p style="font-family: monospace;font-size:16px;">
@@ -50,11 +51,12 @@ layout: default
             {{ page.all.Comment }}
           </p>
         </div>
+        {% endif %}
       </section>
     </div>
   </div>
 </section>
-{% endif %}
+
 {% include streamer.html %}
 <!-- Page navigation -->
 <section class="wrapper style1 align-center">

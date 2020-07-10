@@ -3,6 +3,7 @@ title: 'Ratitude'
 artist: 'ABI2SPEE, CLR Production'
 category: ramblings
 tags: [yung, lean, article]
+date: 2018-09-11 19:07:00 +0200
 description: 'Codes, idioms and how the Yungster redefined the notion of a band.'
 uid: 'powerfullylean1unf13r9u1ruvbpeif'
 image: '/assets/img/clr.jpg'

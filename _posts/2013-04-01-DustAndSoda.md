@@ -1,6 +1,7 @@
 ---
 title: Dust And Soda
 artist: Franky Fresco
+date: 2013-04-01 19:07:00 +0200
 category: releases
 author: bassBot
 tags: [internal, albums, download]
