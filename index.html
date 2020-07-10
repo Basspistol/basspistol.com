@@ -92,42 +92,146 @@ logo_image: /siteicon.png
 
 {% endfor %}
 
-<!-- Insta -->
-<section class="wrapper style1 align-center">
+<!-- Radio -->
+<section
+  class="banner onload-image-fade-in onload-content-fade-right style3 fullscreen content-align-left image-position-center" style="background-image:url('{{ relBase }}/assets/vid/radio.jpg');background-size: cover; background-repeat: no-repeat;">
+  <div style="z-index:0;position:absolute; top:0; left:0; width:100%;height:100%;background-color: rgba(13, 13 ,13, 0.85);"></div>
+  
+  <div id="mainwrap" class="content" style="z-index:1">
+    <h1 style="margin-top:80px">Radio</h1>
+    <div id="radioPlaceholder"></div> 
+    <p><strong><span id="tracktime"></span></strong><br /></p>
 
+
+ 
+    <ul class="actions stacked">
+      <li><button id="mu_pause" class="smooth-scroll-middle button icon solid fa-play">Play dat!</button></li>
+    </ul>
+  </div>
+
+  <div id="noJSalbum" style="z-index:1000;">
+    <h1 style="margin-top:80px">Radio</h1>
+    <div id="radioPlaceholder"></div> 
+    <p><strong><span id="tracktime"></span></strong><br /></p>
+
+
+ 
+  <a href="https://radio.basspistol.com/radio.mp3" id="mu_pause" class="button icon solid fa-play">MP3</a> <a href="https://radio.basspistol.com/radio.ogg" id="mu_pause" class="button icon solid fa-play">OGG</a>
+
+
+
+
+  </div>
+
+  <div class="image">
+    <img src="{{ relBase }}/assets/vid/radio.jpg" alt="{{ page.title }} logo" id="coverart" />
+  </div>
+</section>
+
+
+
+<!-- Audio player-->
+
+<audio autoplay preload="true" data-matomo-title="Basspistol Radio">
+  <source src="https://radio.basspistol.com/radio.mp3" type="audio/mpeg" ontimeupdate='updateTrackTime(this);' />
+  <source src="https://radio.basspistol.com/radio.ogg" type="audio/ogg" ontimeupdate='updateTrackTime(this);' />
+  <h1>Your browser isn't ready for so much hotness. Use the download-link instead.</h1>.
+</audio>
+
+
+<script type="text/javascript">
+  function loadUrl(newLocation) {
+    window.location = newLocation;
+    return false;
+  }
+
+  var mu = document.getElementsByTagName("audio")[0];
+  var pauseButton = document.getElementById("mu_pause");
+  var spincover = document.getElementById("coverart");
+
+  mu.addEventListener('ended', function () {
+    // only functional if "loop" is removed
+    mu.pause();
+    mu.currentTime = 0;
+    loadUrl("{{ relBase }}/{{ page.nextTrack.slug }}/"); return false;
+  });
+  mu.onplaying = function() {
+    pauseButton.innerHTML = "Pause";
+    pauseButton.classList.remove("fa-play");
+    pauseButton.classList.add("fa-pause");
+    spincover.classList.add("spinnit");
+    spincover.classList.remove("paused");
+  }; 
+
+  pauseButton.addEventListener("click", function () {
+    if (mu.paused) {
+      mu.play();
+
+    }
+    else {
+      mu.pause();
+      pauseButton.innerHTML = "Resume";
+      pauseButton.classList.add("fa-play");
+      pauseButton.classList.remove("fa-pause");
+      spincover.classList.add("paused");
+    }
+  });
+
+  mu.addEventListener('timeupdate', function () {
+    var timestamp = Math.floor(mu.currentTime);
+    var hours = Math.floor(timestamp / 60 / 60);
+    var minutes = Math.floor(timestamp / 60) - (hours * 60);
+    var seconds = timestamp % 60;
+    var formatted = hours.toString().padStart(2, '0') + ':' + minutes.toString().padStart(2, '0') + ':' + seconds.toString().padStart(2, '0');
+    var thecurrentSpan = document.getElementById("tracktime");
+    thecurrentSpan.innerHTML = formatted;
+  });
+
+</script>
+<!-- End Radio -->
+
+<!-- Releases -->
+
+
+
+
+
+
+<section id="second" class="spotlight style2 orient-{% cycle 'left', 'right' %} content-align-{% cycle 'right', 'left' %} image-position-center onscroll-image-fade-in" {% if forloop.index == 1 %}style="box-shadow: none;" {% endif %}>
   <div class="inner">
     <h2 id="music">Releases</h2>
     <p>Collection of releases through time</p>
   </div>
-
-  <div class="gallery style1 small onscroll-fade-in">
-    {% assign sorted = site.albums | sort: 'date' | reverse %}
-    {% for album in sorted %}
-    <article>
-      <a href="{{ album.url }}" class="image">
-        <img src="https://media.basspistol.com/basspistol.com/{{ album.slug }}/{{ album.tracks[0].trackSlug }}.jpeg" alt="" /></a>
-      
-      <div class="caption">
-        <h3>{{ album.title }}</h3>
-        <p>{{ album.date | date: "%Y" }}</p>
-        <ul class="actions fixed">
-          <li><span class="button small">Details</span></li>
-        </ul>
-      </div>
-    </article>
-    {% endfor %}
-  </div>
 </section>
 
+
+
+
+
+
+{% assign sorted = site.albums | sort: 'date' | reverse %}
+{% for album in sorted %}
+
+<section id="second" class="spotlight style2 orient-{% cycle 'left', 'right' %} content-align-{% cycle 'right', 'left' %} image-position-center onscroll-image-fade-in" {% if forloop.index == 1 %}style="box-shadow: none;" {% endif %}>
+
+
+  <div class="content">
+            <h3>{{ album.title }}</h3>
+        <p>{{ album.date | date: "%Y" }}</p>
+    <!-- <p>{{ artist.bio }}</p> -->
+
+    <ul class="actions stacked">
+      <li><a href="{{ album.url }}" target="_blank" rel="noopener" style="text-decoration:none;" class="button">Visit</a></li>
+    </ul>
+  </div>
+  <div class="image">
+    <img src="https://media.basspistol.com/basspistol.com/{{ album.slug }}/{{ album.tracks[0].trackSlug }}.jpeg" alt="{{ album.title | smartify }}" />
+  </div>
+
+</section>
+
+{% endfor %}
+
 <!-- END Insta -->
-
-
-
-
-
-
-
-
-
 
 {% include footer.html %}
