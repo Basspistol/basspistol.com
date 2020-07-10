@@ -16,6 +16,12 @@ uid: sparktapeculrywolverine
 image: /assets/img/Screenshot at 2019-04-02 17-42-40.png
 download:
 link: 'https://dedsec.us'
+album: 
+stores:
+  - name:
+    url: 
+    icon: 
+    download: false
 ---
 
 ## Quis Custodiet Ipsos Custodes?

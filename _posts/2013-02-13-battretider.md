@@ -8,6 +8,12 @@ description: 'I''m waiting for better times. I''m laying home in the sofa and wa
 uid: 'battretider'
 image: '/assets/img/battretider.jpg'
 link: 'https://archive.org/details/BPIST-V004'
+album: 
+stores:
+  - name:
+    url: 
+    icon: 
+    download: false
 ---
 I'm waiting for better times
 I'm laying home in the sofa and waiting for better times.

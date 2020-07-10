@@ -1,6 +1,6 @@
 <section class="streambox" style="padding: 40px;">
 {% if page.collection == 'posts' %}
-  {% if page.category == 'release' %}
+  {% if page.category == 'releases' %}
   {% if page.stores[0].name != nil %}
 
   <h3 style="text-align: center;display: block;">Buy this release</h3>
@@ -100,10 +100,9 @@
 
 {% elsif page.collection == 'albums' %}
 
-
-{% for post in site.posts %}
-{% if post.album == page.slug %}
-{% if post.stores[0].name != nil %}
+  {% for post in site.posts %}
+  {% if post.album == page.slug %}
+  {% if post.stores[0].name != nil %}
 
 <h3 style="text-align: center;display: block;">Buy this album</h3>
 <div class="streamer">
@@ -127,8 +126,8 @@
 
 
 
-{% endif %}
-{% else %}
+  {% endif %}
+  {% else %}
 
 <h3 style="text-align: center;display: block;">This album can't be bought</h3>
 <p>But you can find others here:</p>
@@ -148,9 +147,11 @@
   {% endif %}
   {% endfor %}
 </div>
-{% endif %}{% break %}
-{% endfor %}
+  {% endif %}{% break %}
+  {% endfor %}
+
 {% else %}
+
 <h3 style="text-align: center;display: block;">Support {{ site.name }}</h3>
 <p>Pay for music here:</p>
 <div class="streamer">
@@ -169,5 +170,7 @@
   {% endif %}
   {% endfor %}
 </div>
+
 {% endif %}
+
 </section>

@@ -9,6 +9,12 @@ uid: 'birraweed'
 image: '/assets/img/birraweed.jpg'
 download: ''
 link: 'https://youtu.be/qsxGmA4frLA'
+album: 
+stores:
+  - name:
+    url: 
+    icon: 
+    download: false
 ---
 Delights from Chille, Valpara&iacute;so City. Bill Kraneos is a rare and lean trap-constelation of Chille's finest MCs. 
 

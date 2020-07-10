@@ -1,18 +1,34 @@
 ---
 title: 'Psykedelisk Pop'
 artist: 'Sakrecoer'
-author: bassBot
-category: releases
-album: psykedelisk-pop
+author: 'bassBot'
+album: 'psykedelisk-pop'
+category: 'releases'
 tags: [internal, albums, download]
 description: 'Psykedelisk Pop, by reSet Sakrecoer is the journey of a boyish Piaf on a pounding kick-ride.'
 uid: 'BPIST001'
 image: '/assets/img/PsykedeliskPopFront.jpg'
 download: 'https://archive.org/download/BPIST001/BPIST001_archive.torrent'
 stores:
-  - name:
-    url: 
-    icon: 
+  - name: Bandcamp
+    url: 'https://shop.basspistol.com/album/psykedelisk-pop'
+    icon: fa-bandcamp
+    download: true
+  - name: Spotify
+    url: 'https://open.spotify.com/album/4E3qH53ckzrDzyuGCF8GhZ'
+    icon: fa-spotify
+    download: false
+  - name: Apple Music
+    url: 'https://music.apple.com/album/psykedelisk-pop-album/417962741'
+    icon: fa-apple
+    download: false
+  - name: Google Play
+    url: 'https://play.google.com/store/music/album/reSet_Sakrecoer_Psykedelisk_Pop?id=Bf5t6hsyrerf3m7vnuon3yae2ry'
+    icon: fa-google-play
+    download: false
+  - name: Deezer
+    url: 'https://www.deezer.com/us/album/898513'
+    icon: fa-creative-commons-sampling
     download: false
 ---
 In colourful soundscapes and lyrics, Sakrecoer narrates more than music.

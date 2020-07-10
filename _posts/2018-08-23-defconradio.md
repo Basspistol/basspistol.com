@@ -9,6 +9,12 @@ uid: 'defconradio'
 image: '/assets/img/dcsite-bg-ret.jpg'
 download: ''
 link: 'https://somafm.com/defcon/index.html'
+album: 
+stores:
+  - name:
+    url: 
+    icon: 
+    download: false
 ---
 DEF CON is one of the world's largest annual hacker conventions, held every year in Las Vegas, Nevada. Since 2013, SomaFM has provided the music for the DEF CON Chill room. That theme continues with SomaFM broadcasting this special year-round stream from San Francisco, hosted by the DJs who entertain the DEF CON 26 chill room this year in Vegas. 
 

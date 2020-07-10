@@ -16,6 +16,7 @@ Thumbs.db
 _site
 _site/*
 _data/.~lock.*.csv#
+.jekyll-cache
 
 # no heavy files in here
 *.mp3

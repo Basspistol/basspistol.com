@@ -5,6 +5,7 @@ date: ''
 artist: ''
 author: ''
 category: ''
+album:
 tags: []
 layout: 
 uid: ''

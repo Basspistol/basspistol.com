@@ -9,6 +9,12 @@ uid: 'awagalbi'
 image: '/assets/img/awgalbi.jpg'
 download: ''
 link: 'https://youtu.be/g3bjZlmsb4A'
+album: 
+stores:
+  - name:
+    url: 
+    icon: 
+    download: false
 ---
 A-WA is a band formed by 3 sisters who combine Yemenite folk singing with electronic dance music.
 

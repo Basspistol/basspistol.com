@@ -9,6 +9,12 @@ uid: '2biljonprojekt'
 image: '/assets/img/2biljon.jpg'
 download: ''
 link: 'https://archive.org/details/BPIST-V003'
+album: 
+stores:
+  - name:
+    url: 
+    icon: 
+    download: false
 ---
 In a dystopian future, will The Fraglebay survive on their 2billion project? Hiding in the bush, lurking in a rush, the 2 fragles fight together with ancient forest gods to reestablish the right to Kick'N'Base!
 

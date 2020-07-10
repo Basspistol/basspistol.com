@@ -9,6 +9,12 @@ uid: 'losgangliosnomamesguey'
 image: '/assets/img/trnx_losganglios.jpg'
 download: ''
 link: 'http://losganglios.com/videos/'
+album: 
+stores:
+  - name:
+    url: 
+    icon: 
+    download: false
 ---
 Los Ganglios is a Spanish PORC band (a conglomerate Punk Techno Rock and Cumbia) with a really strong and peculiar vibe. To some extend many of their tracks will feel plain weird to the non-Spanish speaking audience. But the videos they put out should appeal to anyone with a bit of humor and a taste for anti-aestethics and retro-computing. 
 

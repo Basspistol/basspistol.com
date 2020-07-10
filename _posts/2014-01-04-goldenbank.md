@@ -9,6 +9,12 @@ uid: 'goldenbank'
 image: '/assets/img/goldenbank.jpg'
 download: ''
 link: 'https://archive.org/details/BPIST-V001'
+album: 
+stores:
+  - name:
+    url: 
+    icon: 
+    download: false
 ---
 http://www.frankyfresco.com
 FROM THE ALBUM "DUST AND SODA"

@@ -13,6 +13,12 @@ uid: kas tu fais de nous 2019
 image: /assets/img/2018-setto-single-003-reve_de_toi-117bpm_sqaure_FINAL.jpg
 download:
 link: 'https://shop.basspistol.com/album/satoshi-mon-ami'
+album: 
+stores:
+  - name:
+    url: 
+    icon: 
+    download: false
 ---
 
 徒 Setto セット is releasing on basspistol in 2019! First out is the 2 track EP "Satoshi Mon Ami".

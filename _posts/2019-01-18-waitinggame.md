@@ -9,6 +9,12 @@ uid: 'waitinggamesakrecoer2019'
 image: '/assets/img/waitinggame.jpg'
 download: ''
 link: 'https://sakrecoer.com/waitinggame/'
+album: 
+stores:
+  - name:
+    url: 
+    icon: 
+    download: false
 ---
 The shocking news this morning that Sakrecoer puts a record out on Spotofy and iFumes! 
 

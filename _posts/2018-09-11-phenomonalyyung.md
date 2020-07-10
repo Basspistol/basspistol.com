@@ -1,9 +1,7 @@
 ---
 title: 'Ratitude'
 artist: 'ABI2SPEE, CLR Production'
-author: 'set'
 category: ramblings
-author: bassBot
 tags: [yung, lean, article]
 description: 'Codes, idioms and how the Yungster redefined the notion of a band.'
 uid: 'powerfullylean1unf13r9u1ruvbpeif'
@@ -11,6 +9,12 @@ image: '/assets/img/clr.jpg'
 download: ''
 link: 'https://youtu.be/TmAvt5p6f8g'
 author: set
+album: 
+stores:
+  - name:
+    url: 
+    icon: 
+    download: false
 ---
 Recently, a [good friend](https://soundcloud.com/gabbaboy?ref=TheOuternationalMusicSyndicateWasHere "Gabba Boy Soundlcoud") of mine snitched a link to me. A crew of yungsters from my home town. I'm no stranger to the leaners and their music. But listening to this I had to reflect a little around the movement that's been here for a while now.
 

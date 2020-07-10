@@ -13,6 +13,12 @@ uid: kalsongsalong
 image: /assets/img/kalsongsalong.jpg
 download:
 link: 'https://archive.org/details/BPIST-V002'
+album:
+stores:
+  - name:
+    url: 
+    icon: 
+    download: false
 ---
 
 Jag Tippidi-tapade tagetBigidi-Botten och TaketKom och häng i mitt hus,Vi gör musik och sex-bus

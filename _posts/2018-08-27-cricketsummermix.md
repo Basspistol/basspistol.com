@@ -9,6 +9,12 @@ uid: 'gmixsummer'
 image: '/assets/img/cricket.summer.jpg'
 download: ''
 link: 'https://soundcloud.com/alexandrebertrand-1/dj-criket-g-funk-summer-mix-2018-100-vinyl'
+album: 
+stores:
+  - name:
+    url: 
+    icon: 
+    download: false
 ---
 Dj Criket makes his debut in 2003 alongside Rude Music Selection with Agent N and Mista B. Together they host numerous Reggae, Ragga and Dancehall parties in Geneva. From 2006 to 2007, Dj Criket is the official selector of the "Rude Boy Connection" crew composed of 3 MCs; Bingy, Myai & Mista B. In 2009, he joins LTS Production where he produces the mixtape "Part One Old School Ragga Hip-Hop Style". Appreciated for his good mood and his overflowing energy, he travels the clubs of the city and collaborates with many local artists, including Unity Sound, Postman, X-IT Crew, Lil' George, Majesty Sound, GC Sound and Little Lion Sound, Joka Sound, Skorseize, Dasstereo. Since 2010, Dj Criket has been moving towards old school hip-hop and continues to mix "strictly vinyl" Boom-Bap, Gangsta Rap and G-Funk, bringing together East Coast as well as West Coast sounds.
 
