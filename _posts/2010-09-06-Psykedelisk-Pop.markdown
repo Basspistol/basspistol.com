@@ -9,6 +9,11 @@ description: 'Psykedelisk Pop, by reSet Sakrecoer is the journey of a boyish Pia
 uid: 'BPIST001'
 image: '/assets/img/PsykedeliskPopFront.jpg'
 download: 'https://archive.org/download/BPIST001/BPIST001_archive.torrent'
+stores:
+  - name:
+    url: 
+    icon: 
+    download: false
 ---
 In colourful soundscapes and lyrics, Sakrecoer narrates more than music.
 

@@ -9,6 +9,11 @@ uid: BPIST005
 image: /assets/img/DrTikov_Headcleaner.jpg
 download: https://archive.org/download/BPIST005/BPIST005_archive.torrent
 description: 'Headcleaner by Dr. Tikov. A minimalistic opus of dubish Russian techno, made in Barcelona.'
+stores:
+  - name:
+    url: 
+    icon: 
+    download: false
 ---
 Inspired by the Spanish city's hectic nightlife, its legendary night-clubs and house venues such as The Moog, our infamously talented Doctor produced his own approach to the rich jungle of Catalan minimal tehcno. Homeopathic and vital, this LP is a journey into the self, a trip into your own body and a healthy neurotic cleansing.
 

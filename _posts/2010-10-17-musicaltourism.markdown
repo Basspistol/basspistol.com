@@ -9,6 +9,11 @@ album: musical-tourism
 tags: [internal, albums, download]
 uid: BPIST002
 download: 'https://archive.org/download/BPIST002/BPIST002_archive.torrent'
+stores:
+  - name:
+    url: 
+    icon: 
+    download: false
 ---
 
 Synapset is a blitz-collective. Their album questions the space existing between people and how music interconnects them. It is based on experimenting with the risk of taking opportunities in life and reproduce them with machines. It's core formation is Synapskollaps and reSet Sakrecoer, with special appearance by Dr.Tikov.

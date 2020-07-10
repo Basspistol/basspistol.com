@@ -11,4 +11,9 @@ uid: ''
 image: ''
 download: ''
 link: ''
+stores:
+  - name:
+    url: 
+    icon: 
+    download: false
 ---

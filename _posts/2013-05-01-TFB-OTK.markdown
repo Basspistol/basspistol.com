@@ -9,6 +9,11 @@ description: 'Enter this cybernetic opus of oblivion and computer aided overstan
 uid: BPIST013
 image: '/assets/img/TFB-OTK.png'
 download: 'https://archive.org/download/BPIST013/BPIST013_archive.torrent'
+stores:
+  - name:
+    url: 
+    icon: 
+    download: false
 ---
 
 A message from The FragleBay:<br />

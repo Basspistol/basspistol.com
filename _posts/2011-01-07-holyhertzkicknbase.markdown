@@ -9,6 +9,11 @@ description: 'Kick N Base Made In Barcelona by Holyhertz is a collaborative conc
 uid: BPIST003
 image: '/assets/img/holyhertzcover.jpg'
 download: 'https://archive.org/download/BPIST003/BPIST003_archive.torrent'
+stores:
+  - name:
+    url: 
+    icon: 
+    download: false
 ---
 This record got tremendous attention in the middle east capital cities.A journey from one end of the Kick'N'Base musical genre spectrum to the other, this record was produced during 2010 and was intended for kangaroos and happy ravers.
 

@@ -9,6 +9,11 @@ uid: BPIST011
 album: dust-and-soda
 image: /assets/img/DustAndSoda.jpg
 download: https://archive.org/download/BPIST011/BPIST011_archive.torrent
+stores:
+  - name:
+    url: 
+    icon: 
+    download: false
 ---
 An instrumental master piece! This record is of the kind that grows into you. Franky lives in Mexico and belongs to it's active and conscious youth, taking position in his music. Something you can not only read in the titles of his tracks but also feel in the complexity of his arrangements. Like hymns to a Dusty Soda brand from a future far further west!
 
