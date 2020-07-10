@@ -30,14 +30,14 @@ image: /assets/vid/artists.jpg
 <section id="second" class="spotlight style2 orient-{% cycle 'left', 'right' %} content-align-{% cycle 'right', 'left' %} image-position-center onscroll-image-fade-in" {% if forloop.index == 1 %}style="box-shadow: none;" {% endif %}>
   <div class="content">
     <h2>{{ artist.display_name }}</h2>
-    <p>{{ artist.bio }}</p>
+    <!-- <p>{{ artist.bio }}</p> -->
 
     <ul class="actions stacked">
       <li><a href="{{ artist.web }}?ref=TheOuternationalMusicSyndicate" target="_blank" rel="noopener" style="text-decoration:none;" class="button">Visit</a></li>
     </ul>
   </div>
   <div class="image">
-    <img src="{{ relBase }}{{ artist.image }}" alt="{{ page.title | smartify }}" />
+    <img src="{{ relBase }}{{ artist.image }}" alt="{{ artist.display_name | smartify }}" />
   </div>
 </section>
 
