@@ -2,6 +2,7 @@
 description: 'Musical Tourism by SYNAPSET was recorded over a week in April 2010 by Synapskollaps and reSet Sakrecoer.'
 image: '/assets/img/Synapset-MusicalTourism_Fro.jpg'
 title: Musical Tourism
+author: bassBot
 artist: synapset
 category: releases
 album: musical-tourism

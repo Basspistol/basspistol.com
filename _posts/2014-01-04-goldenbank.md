@@ -2,6 +2,7 @@
 title: 'Golden Bank'
 artist: 'Franky Fresco'
 category: ramblings
+author: bassBot
 tags: [video, internal]
 description: 'ROM THE ALBUM "DUST AND SODA"'
 uid: 'goldenbank'

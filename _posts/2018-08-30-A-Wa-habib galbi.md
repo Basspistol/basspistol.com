@@ -2,6 +2,7 @@
 title: 'Habib Galbi'
 artist: 'A-Wa'
 category: ramblings
+author: bassBot
 tags: [girlpower, video, oriental]
 description: 'A WA is a band formed by 3 sisters who combine Yemenite folk singing with electronic dance music.'
 uid: 'awagalbi'

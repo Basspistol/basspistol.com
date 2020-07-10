@@ -4,6 +4,7 @@ title: Headcleaner
 category: releases
 album: headcleaner
 artist: tikov
+author: bassBot
 uid: BPIST005
 image: /assets/img/DrTikov_Headcleaner.jpg
 download: https://archive.org/download/BPIST005/BPIST005_archive.torrent

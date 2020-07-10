@@ -2,6 +2,7 @@
 title: 'Waiting Game'
 artist: 'Sakrecoer'
 category: ramblings
+author: bassBot
 tags: [internal,album]
 description: 'Sakrecoer Sells out!'
 uid: 'waitinggamesakrecoer2019'

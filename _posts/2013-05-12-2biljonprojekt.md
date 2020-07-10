@@ -2,6 +2,7 @@
 title: '2 Billion Projects'
 artist: 'The FragleBay'
 category: ramblings
+author: bassBot
 tags: [video, internal]
 description: 'In a dystopian future, will The Fraglebay survive on their 2billion project?'
 uid: '2biljonprojekt'

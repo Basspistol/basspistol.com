@@ -2,6 +2,7 @@
 title: 'BIRRA x WEED (Prod. by Keizen)'
 artist: 'Bill Kraneos'
 category: ramblings
+author: bassBot
 tags: [video, ekipz, rap, chille]
 description: 'Chillean lean, straight out of Valpara&iacute;so'
 uid: 'birraweed'

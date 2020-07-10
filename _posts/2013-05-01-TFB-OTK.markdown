@@ -3,6 +3,7 @@ title: TFB - OTK
 artist: The FragleBay
 category: releases
 album: tfb-otk
+author: bassBot
 tags: [internal, albums, download]
 description: 'Enter this cybernetic opus of oblivion and computer aided overstanding, grown somewhere beyond the laws of physics.'
 uid: BPIST013

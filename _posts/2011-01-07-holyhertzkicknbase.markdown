@@ -2,6 +2,7 @@
 title: Kick'N'Base Made In Barcelona
 artist: Holyhertz
 category: releases
+author: bassBot
 album: kick-n-base-made-in-barcelona
 tags: [internal, albums, download]
 description: 'Kick N Base Made In Barcelona by Holyhertz is a collaborative conception between infamous musicians Dr. Tikov and reSet Sakrecoer'

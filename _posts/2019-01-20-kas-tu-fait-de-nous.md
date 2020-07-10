@@ -2,6 +2,7 @@
 title: K'as-tu fait de nous?
 artist: 徒 Setto セット
 category: ramblings
+author: bassBot
 tags:
   - internal
   - release

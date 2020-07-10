@@ -1,6 +1,7 @@
 ---
 title: 'Psykedelisk Pop'
 artist: 'Sakrecoer'
+author: bassBot
 category: releases
 album: psykedelisk-pop
 tags: [internal, albums, download]

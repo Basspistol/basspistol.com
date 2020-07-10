@@ -3,6 +3,7 @@ title: The House Of Set
 artist: Simio Sakrecoer
 category: releases
 album: the-house-of-set
+author: bassBot
 tags: [internal, albums, download]
 description: The House Of Set, Recorded in an itinerant studio by Simio Sakrecoer
 uid: BPIST007

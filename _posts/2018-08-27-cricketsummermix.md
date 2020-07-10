@@ -2,6 +2,7 @@
 title: 'G-Funk Summer Mix 2018'
 artist: 'Dj Criket'
 category: ramblings
+author: bassBot
 tags: [g-funk, summer, mix]
 description: '100% Vinyl mix of G-Funk'
 uid: 'gmixsummer'

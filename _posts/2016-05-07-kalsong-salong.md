@@ -2,6 +2,7 @@
 title: Kalsong Salong
 artist: Sakrecoer
 category: ramblings
+author: bassBot
 tags:
   - video
   - music
