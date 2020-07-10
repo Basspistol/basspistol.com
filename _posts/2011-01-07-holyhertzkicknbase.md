@@ -11,10 +11,27 @@ uid: BPIST003
 image: '/assets/img/holyhertzcover.jpg'
 download: 'https://archive.org/download/BPIST003/BPIST003_archive.torrent'
 stores:
-  - name: ''
-    url: 
-    icon: 
+  - name: Spotify
+    url: 'https://open.spotify.com/album/7v8toNpRj6DiAddtavpMvS'
+    icon: fa-spotify
     download: false
+  - name: Deezer
+    url: 'https://www.deezer.com/us/album/908338'
+    icon: fa-creative-commons-sampling
+    download: false
+  - name: Google Play
+    url: >-
+      https://play.google.com/store/music/album/Holyhertz_Kick_N_Base_Made_In_Barcelona?id=Bguxraj2mmovgnn4somlnc3d4hq
+    icon: fa-google-play
+    download: false
+  - name: Apple Music
+    url: 'https://music.apple.com/us/album/kick-n-base-made-in-barcelona-album/419091332'
+    icon: fa-apple
+    download: false
+  - name: Beatport
+    url: https://www.beatport.com/release/kick-n-base-made-in-barcelona-album/346486
+    icon: fa-creative-commons-sampling
+    download: true
 ---
 This record got tremendous attention in the middle east capital cities.A journey from one end of the Kick'N'Base musical genre spectrum to the other, this record was produced during 2010 and was intended for kangaroos and happy ravers.
 

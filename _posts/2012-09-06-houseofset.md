@@ -11,10 +11,10 @@ uid: BPIST007
 image: '/assets/img/templeofSetCoverART_INV.png'
 download: 'https://archive.org/download/BPIST007/BPIST007_archive.torrent'
 stores:
-  - name:
-    url: 
-    icon: 
-    download: false
+  - name: Archive
+    url: https://archive.org/details/BPIST007
+    icon: fa-creative-commons-sampling
+    download: true
 ---
 With influences from the middle-east mythologies to the western post-modern occult organisations. Too catchy for being IDM, too harsh for the mainstream, it's aim is to make you dance and reflect in the same instant. The title is a homage to his creator.
 
