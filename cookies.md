@@ -1,6 +1,6 @@
 ---
 title: Cookies & Privacy policy
-image: /images/nebula-bw.jpg
+image: /assets/vid/intro_loop_.jpg
 description: >-
   Privacy is important, therefor we respect it!
 sitemap: false

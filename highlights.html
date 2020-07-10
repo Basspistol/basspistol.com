@@ -25,7 +25,7 @@ permalink: /highlights/
 </section>
 {% for post in site.posts %}
 
-<section id="second" class="spotlight style1 orient-{% cycle 'left', 'right' %} content-align-{% cycle 'right', 'left' %} image-position-center onscroll-image-fade-in" {% if forloop.index == 1 %}style="box-shadow: none;" {% endif %}>
+<section id="second" class="spotlight style4 orient-{% cycle 'left', 'right' %} content-align-left image-position-center onscroll-image-fade-in" {% if forloop.index == 1 %}style="box-shadow: none;" {% endif %}>
   <div class="content">
     <h2>{{ post.title }}</h2>
     <p>{{ post.description }}</p>
@@ -42,34 +42,4 @@ permalink: /highlights/
 </section>
 
 {% endfor %}
-
-<!-- Archive -->
-<!-- <section id="news" class="wrapper style1 align-center">
-
-    <div class="inner editable">
-      <h2>Archive</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi id ante sed ex pharetra lacinia sit amet vel
-        massa. Donec facilisis laoreet nulla eu bibendum. Donec ut ex risus. Fusce lorem lectus, pharetra pretium
-        massa et, hendrerit vestibulum odio lorem ipsum.</p>
-    </div>
-  
-    <div class="gallery style1 medium lightbox onscroll-fade-in">
-      {% for post in site.posts %}
-      <article>
-        <a href="{{ relBase }}{{ post.url }}" class="image">
-          <img src="{{ relBase }}{{ post.image }}" alt="" />
-        </a>
-        <div class="caption">
-          <h3>{{ post.title }}</h3>
-          <p>{{ post.description }}</p>
-          <ul class="actions fixed">
-            <li><span class="button small">Read Article</span></li>
-          </ul>
-        </div>
-      </article>
-      {% endfor %}
-    
- 
-
-   -->
 {% include footer.html %}

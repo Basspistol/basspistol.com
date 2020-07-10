@@ -7,117 +7,128 @@ description: >-
 keywords: 'Radio, basspistol, Live, Music, Broadcast, Stream,'
 video_path: /assets/vid/radio.mp4
 image: /assets/vid/radio.jpg
+layout: default
 ---
 
-<!DOCTYPE html>
-<html>
-  <head>
+
+
+
 {% include relBase.html %}
-
-{% include matomo.html %}
-    <script type='application/ld+json'>
-    {
-      "@context": "http://www.schema.org",
-      "@type": "RadioStation",
-      "name": "Basspistol Libre Radio",
-      "url": "https://basspistol.com/radio",
-      "logo": "https://basspistol.com/assets/img/basspistol_est_2010_square_bluegreen.jpg",
-      "image": "https://basspistol.com/assets/img/basspistol_est_2010_square_bluegreen.jpg",
-      "description": "Unexpected and Impossible Music. Live interventions and special guests. This is Libre music!",
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "Geneva",
-        "addressRegion": "Geneva",
-        "postalCode": "1201",
-        "addressCountry": "Switzerland"
-      },
-      "geo": {
-        "@type": "GeoCoordinates",
-        "latitude": "46.204391",
-        "longitude": "6.143158"
-      }
-    }
-     </script>
-
-    <script type="text/javascript">
-      function getData() {
-        $.getJSON('https://radio.basspistol.com/status-json.xsl', function(json) {
-            output = "<p>" + "Now Playing: " + "</p>";
-            output += "<p><strong>" + json.icestats.source[1].title + "</strong> <br />by<br /><strong>" + json.icestats.source[1].artist + "</strong></p>";
-            output += "<p>";
-            output += json.icestats.source[0].listeners + " peers are listening in MP3";
-            output += "</p>";
-            output += "<p>";
-            output += json.icestats.source[1].listeners + " peers are listening in OGG";
-            output += "</p>";
-            document.getElementById("radioPlaceholder").innerHTML=output;
-          });
-      }
-      setInterval(getData, 7000);
-
-      $(function() {
-          getData();
-      });
-    </script>
+<!-- Banner -->
+<section
+  class="banner onload-image-fade-in onload-content-fade-right style3 fullscreen content-align-left image-position-center" style="background-image:url('{{ page.image }}');background-size: cover; background-repeat: no-repeat;">
+  <div style="z-index:0;position:absolute; top:0; left:0; width:100%;height:100%;background-color: rgba(13, 13 ,13, 0.85);"></div>
+  
+  <div id="mainwrap" class="content" style="z-index:1">
+    <h1 style="margin-top:80px">{{ page.title }}</h1>
+    <div id="radioPlaceholder"></div> 
+    <p><strong><span id="tracktime"></span></strong><br /></p>
 
 
-  </head>
-  <body>
+ 
+    <ul class="actions stacked">
+      <li><button id="mu_pause" class="smooth-scroll-middle button icon solid fa-play">Play dat!</button></li>
+    </ul>
+  </div>
+
+  <div id="noJSalbum" style="z-index:1000;">
+    <h1 style="margin-top:80px">{{ page.title }}</h1>
+    <div id="radioPlaceholder"></div> 
+    <p><strong><span id="tracktime"></span></strong><br /></p>
 
 
-  <div id="content">
-      
-    <div class="fitter">
-      <div class="articles" style="text-align:center">
-          <button id="mu_pause">Play Radio</button>
-      </div>
-      <div class="articles">
-        <div id="radioPlaceholder"></div>
-      </div>
-      <div class="articles"><p><b>Dislike scripts? Want the M3U? We got you covered!</b>
-        <br /><br />Enjoy the stream in your <b>browser</b> in 
-        <a target="_blank" rel="noopener noreferrer" href="https://radio.basspistol.com/radio.mp3">MP3</a> 
-        or <a target="_blank" rel="noopener noreferrer" href="https://radio.basspistol.com/radio.ogg">OGG</a>
-        <br /><br />
-        Enjoy the stream in your favorite <b>player</b> in 
-        <a target="_blank" rel="noopener noreferrer" href='https://radio.basspistol.com/radio.mp3.m3u'>MP3</a> 
-        and <a target="_blank" rel="noopener noreferrer" href='https://radio.basspistol.com/radio.ogg.m3u'>OGG</a></p>
-      </div>
-{% include footer.html %}
+ 
+  <a href="https://radio.basspistol.com/radio.mp3" id="mu_pause" class="button icon solid fa-play">MP3</a> <a href="https://radio.basspistol.com/radio.ogg" id="mu_pause" class="button icon solid fa-play">OGG</a>
+
+
+
+
+  </div>
+
+  <div class="image">
+    <img src="{{ page.image }}" alt="{{ page.title }} logo" id="coverart" />
+  </div>
+</section>
+
+<!-- Content -->
+<section class="wrapper style1 align-center">
+  <div class="inner" style="padding-top:40px">
+    <div class="index align-left">
+      <section style="padding-top:40px">
+        <!-- Content -->
+        <div class="content">
+          <p><b>Dislike scripts? Want the M3U? We got you covered!</b>
+            <br /><br />Enjoy the stream in your <b>browser</b> in 
+            <a target="_blank" rel="noopener" href="https://radio.basspistol.com/radio.mp3">MP3</a> 
+            or <a target="_blank" rel="noopener" href="https://radio.basspistol.com/radio.ogg">OGG</a>
+            <br /><br />
+            Enjoy the stream in your favorite <b>player</b> in 
+            <a target="_blank" rel="noopener" href='https://radio.basspistol.com/radio.mp3.m3u'>MP3</a> 
+            and <a target="_blank" rel="noopener" href='https://radio.basspistol.com/radio.ogg.m3u'>OGG</a>
+          </p>
+        </div>
+      </section>
     </div>
   </div>
-    <audio preload="none" data-matomo-title="Basspistol Radio">
-      <source src="https://radio.basspistol.com/radio.mp3" type="audio/mpeg" />
-      <source src="https://radio.basspistol.com/radio.ogg" type="audio/ogg" />
-      <h1>Your browser isn't ready for so much hotness. Use these links instead: <a target="_blank" rel="noopener noreferrer" href="https://radio.basspistol.com/radio.ogg.m3u">OGG</a> or <a href="https://radio.basspistol.com/radio.mp3.m3u">MP3</a></h1>.
-     </audio>
-  </div>
-  <script type="text/javascript">
-    var mu = document.getElementsByTagName("audio")[0];
-    var pauseButton = document.getElementById("mu_pause");
-    function muFade() {
-    mu.classList.add("stopfade");
-    }
-    mu.addEventListener('ended', function() {
+</section>
+
+
+<!-- Audio player-->
+
+<audio autoplay preload="true" data-matomo-title="{{ page.common.title }}">
+  <source src="https://radio.basspistol.com/radio.mp3" type="audio/mpeg" ontimeupdate='updateTrackTime(this);' />
+  <source src="https://radio.basspistol.com/radio.ogg" type="audio/ogg" ontimeupdate='updateTrackTime(this);' />
+  <h1>Your browser isn't ready for so much hotness. Use the download-link instead.</h1>.
+</audio>
+{% include footer.html %}
+
+<script type="text/javascript">
+  function loadUrl(newLocation) {
+    window.location = newLocation;
+    return false;
+  }
+
+  var mu = document.getElementsByTagName("audio")[0];
+  var pauseButton = document.getElementById("mu_pause");
+  var spincover = document.getElementById("coverart");
+
+  mu.addEventListener('ended', function () {
     // only functional if "loop" is removed
     mu.pause();
-    mu.currentTime=0;
+    mu.currentTime = 0;
+    loadUrl("{{ relBase }}/{{ page.nextTrack.slug }}/"); return false;
+  });
+  mu.onplaying = function() {
+    pauseButton.innerHTML = "Pause";
+    pauseButton.classList.remove("fa-play");
+    pauseButton.classList.add("fa-pause");
+    spincover.classList.add("spinnit");
+    spincover.classList.remove("paused");
+  }; 
 
-
-    // qq IE10
-    muFade();
-    });
-    pauseButton.addEventListener("click", function() {
-    mu.classList.toggle("stopfade");
+  pauseButton.addEventListener("click", function () {
     if (mu.paused) {
-    mu.play();
-    pauseButton.innerHTML = "Pause Radio";
-    } else {
-    mu.pause();
-     pauseButton.innerHTML = "Resume Radio";
-    }
-    });
-    </script>
+      mu.play();
 
-  </body>
-</html>
+    }
+    else {
+      mu.pause();
+      pauseButton.innerHTML = "Resume";
+      pauseButton.classList.add("fa-play");
+      pauseButton.classList.remove("fa-pause");
+      spincover.classList.add("paused");
+    }
+  });
+
+  mu.addEventListener('timeupdate', function () {
+    var timestamp = Math.floor(mu.currentTime);
+    var hours = Math.floor(timestamp / 60 / 60);
+    var minutes = Math.floor(timestamp / 60) - (hours * 60);
+    var seconds = timestamp % 60;
+    var formatted = hours.toString().padStart(2, '0') + ':' + minutes.toString().padStart(2, '0') + ':' + seconds.toString().padStart(2, '0');
+    var thecurrentSpan = document.getElementById("tracktime");
+    thecurrentSpan.innerHTML = formatted;
+  });
+
+</script>
+  

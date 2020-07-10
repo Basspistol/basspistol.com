@@ -8,17 +8,45 @@ image: /assets/vid/links.jpg
 ---
 
 
-    <div class="fitter">
+{% include relBase.html %}
+<!-- Banner -->
+<section class="banner onload-image-fade-in onload-content-fade-right style2 fullscreen content-align-center image-position-center">
 
+  <div class="image">
+    <img src="{{ relBase }}{{ page.image }}" alt="{{ page.title | smartify }}" class="editable" />
+  </div>
+</section>
+<!-- NEWS -->
+<section id="news" class="wrapper style1 align-center">
+  <div class="inner" style="padding-top: 40px;">
+    <h1>{{ page.title }}</h1>
+    <p>{{ page.description }}</p>
+    </div>
+</section>
 {% assign sorted = site.data.links | sort: 'title' %}
-
 {% for link in sorted %}
-      <div class="records" style="border-bottom: solid 1px #f4ffe8;">
-        <h2><a href="{{ link.url }}?ref=TheOuternationalMusicSyndicateWasHere" style="text-decoration:none;">{{ link.title }}</a></h2>
-        <p>{{ link.banner }} </p>
-      </div>
+
+<section id="second" class="spotlight style2 orient-{% cycle 'left', 'right' %} content-align-{% cycle 'right', 'left' %} image-position-center onscroll-image-fade-in" {% if forloop.index == 1 %}style="box-shadow: none;" {% endif %}>
+  <div class="content">
+    <h2>{{ link.title }}</h2>
+    <p>{{ link.banner }}</p>
+
+    <ul class="actions stacked">
+      <li><a href="{{ link.url }}?ref=TheOuternationalMusicSyndicateWasHere" target="_blank" rel="noopener" style="text-decoration:none;" class="button">Visit</a></li>
+    </ul>
+  </div>
+  <div class="image">
+    <img src="{{ relBase }}/images/emptypixel.png" alt="{{ page.title | smartify }}" />
+  </div>
+</section>
+
 {% endfor %}
 {% include footer.html %}
-    </div>
+
+
+
+
+</body>
+</html>
 
 

@@ -1,7 +1,7 @@
 ---
 name: 
 position: 
-image_path:
+image:
 url_staff: 
 email: 
 gpg: 

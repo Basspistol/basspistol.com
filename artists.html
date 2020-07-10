@@ -1,27 +1,50 @@
 ---
 title: Basspistol Artists
 subtitle: Roster
-description: 'The Basspistol roster, united powerful syndicated Artists'
+description: 'The Basspistol roster, united powerful syndicated Artists. Ordinary people with extraordinary visions'
 keywords: basspistol, artists, rosters, Franky, Fresco, Jokko, Sakrecoer, Max Park, Fraglebay, Sweatsky, Tikov
 video_path: /assets/vid/artists.mp4
 image: /assets/vid/artists.jpg
 ---
 
 
-    <div class="fitter">
-      <div class="description">
-        <h1>Ordinary people with extraordinary visions</h1>
-        <p>Our Artists are free and independent: We have no exclusivity deals. If you feel you can offer these Geniuses a better deal then <a href="https://github.com/Basspistol/Music-Syndicate" target="_blank" rel="noopener">ours,</a> you should contact them ASAP</p>
-      </div>
+{% include relBase.html %}
+<!-- Banner -->
+<section class="banner onload-image-fade-in onload-content-fade-right style2 fullscreen content-align-center image-position-center">
+
+  <div class="image">
+    <img src="{{ relBase }}{{ page.image }}" alt="{{ page.title | smartify }}" class="editable" />
+  </div>
+</section>
+<!-- NEWS -->
+<section id="news" class="wrapper style1 align-center">
+  <div class="inner" style="padding-top: 40px;">
+    <h1>{{ page.title }}</h1>
+    <p>{{ page.description }}</p>
+    <p>Our Artists are free and independent: We have no exclusivity deals. If you feel you can offer these Geniuses a better deal then <a href="https://github.com/Basspistol/Music-Syndicate" target="_blank" rel="noopener">ours,</a> you should contact them ASAP</p>
+  </div>
+</section>
 {% assign sorted = site.data.artists | sort: 'id' %}      
 {% for artist in sorted %}
-      <div class="articles">
-        <div class="artistimg" style="background-image:url(..{{ artist.image }})"></div>
-        <h2><a href="{{ artist.web }}?ref=TheOuternationalMusicSyndicate" target="_blank" rel="noopener" style="text-decoration:none;">{{ artist.display_name }}</a></h2>
-    </div>
+
+<section id="second" class="spotlight style2 orient-{% cycle 'left', 'right' %} content-align-{% cycle 'right', 'left' %} image-position-center onscroll-image-fade-in" {% if forloop.index == 1 %}style="box-shadow: none;" {% endif %}>
+  <div class="content">
+    <h2>{{ artist.display_name }}</h2>
+    <p>{{ artist.bio }}</p>
+
+    <ul class="actions stacked">
+      <li><a href="{{ artist.web }}?ref=TheOuternationalMusicSyndicate" target="_blank" rel="noopener" style="text-decoration:none;" class="button">Visit</a></li>
+    </ul>
+  </div>
+  <div class="image">
+    <img src="{{ relBase }}{{ artist.image }}" alt="{{ page.title | smartify }}" />
+  </div>
+</section>
+
 {% endfor %}
 {% include footer.html %}
-  </div>
+
+
 
 
 </body>
