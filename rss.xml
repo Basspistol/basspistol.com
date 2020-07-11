@@ -1,14 +1,15 @@
 ---
+layout: nil
 title : The Basspistol RSS Feed
 ---
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:slash="http://purl.org/rss/1.0/modules/slash/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/" xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0" xmlns:georss="http://www.georss.org/georss" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" >
 
   <channel>
-    <title>{{ site.title }}</title>
-    <atom:link href="{{ site.production_url }}/rss.xml" rel="self" type="application/rss+xml" />
-    <link>{{ site.production_url }}</link>
-    <description>{{ site.tagline | xml_escape }}</description>
+    <title>{{ site.title | xml_escape  }}</title>
+    <atom:link href="{{ site.url }}/rss.xml" rel="self" type="application/rss+xml" />
+    <link>{{ site.url }}</link>
+    <description>{{ site.description | xml_escape }}</description>
     <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
     <language>en-US</language>
     <sy:updatePeriod>hourly</sy:updatePeriod>
@@ -16,18 +17,18 @@ title : The Basspistol RSS Feed
     <generator>https://jekyllrb.com/</generator>
 
     <image>
-      <url>{{ site.production_url }}{{ site.banner }}</url>
-      <title>{{ site.title }}</title>
-      <link>{{ site.production_url }}</link>
+      <url>{{ site.url }}{{ site.banner }}</url>
+      <title>{{ site.title | xml_escape }}</title>
+      <link>{{ site.url }}</link>
       <width>1024</width>
       <height>1024</height>
     </image> 
     <itunes:summary><![CDATA[Rare contemporary music, Founded in 2010, Basspistol is the Outernational Music Syndicate]]></itunes:summary>
     <itunes:author>{{ site.title }}</itunes:author>
     <itunes:explicit>yes</itunes:explicit>
-    <itunes:image href="{{ site.production_url }}{{ site.banner }}" />
+    <itunes:image href="{{ site.url }}{{ site.banner }}" />
     <itunes:owner>
-      <itunes:name>{{ site.title }}</itunes:name>
+      <itunes:name>{{ site.title | xml_escape }}</itunes:name>
       <itunes:email>info@basspitol.com</itunes:email>
     </itunes:owner>
     <managingEditor>set@basspistol.com (Basspistol)</managingEditor>
@@ -37,21 +38,21 @@ title : The Basspistol RSS Feed
     </itunes:category>
     <rawvoice:rating>TV-14</rawvoice:rating>
     <rawvoice:frequency>Daily</rawvoice:frequency>
-  {% for post in site.categories.highlights %}
+  {% for post in site.posts %}
       <item>
-        <title>{{ post.title }}</title>
-        <link>{% if post.layout contains "article" %}{{ site.production_url }}{{ post.url }}{% elsif post.layout contains "link" %}{{ post.link }}{% endif %} </link>
-        <guid isPermaLink="false">{{ post.uid }}</guid>
-        <description> &lt;img src=&quot;{{ site.production_url }}{{ post.image }}&quot; /&gt; &lt;br /&gt;{{ post.description | xml_escape }} {% if post.layout contains "link" %}&lt;br /&gt;Full article on: &lt;a href=&quot;{{ site.production_url }}{{ post.url }}&quot;&gt;{{ site.production_url }}{{ post.url }}&lt;/a&gt;{% endif %}</description>
-        <category>Podcasts</category>
-        <author>{{ post.artist | xml_escape }}</author>
+        <title>{{ post.title | xml_escape }}</title>
+        <link>{% if post.link != '' %}{{ post.link }}{% else %}{{ site.url }}{{ post.url }}{% endif %}</link>
+        <guid isPermaLink="true">{{ site.url }}{{ post.url }}</guid>
+        <description> &lt;img src=&quot;{{ site.url }}{{ post.image }}&quot; /&gt; &lt;br /&gt;{{ post.description | truncate: 150 | xml_escape }} {% if post.link != '' %}&lt;br /&gt;Full article on: &lt;a href=&quot;{{ site.url }}{{ post.url }}&quot;&gt;{{ site.url }}{{ post.url }}&lt;/a&gt;{% endif %}</description>
+        <category>Hi-Lights</category>
+        <author>{{ post.author | xml_escape }}</author>
         <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
         <itunes:author>{{ post.artist | xml_escape }}</itunes:author>
         <itunes:explicit>No</itunes:explicit>
         <itunes:subtitle>{{ post.description | strip_html | truncate: 252 | xml_escape  }}</itunes:subtitle>
         <itunes:summary>{{ post.description | xml_escape }}</itunes:summary>
         <itunes:keywords>{% for tags in post.tags %}{{ tags | strip_html | xml_escape }}{% unless forloop.last %}, {% endunless %}{% endfor %}</itunes:keywords>
-        <itunes:image href="{{ site.production_url }}{{ post.image }}"/>
+        <itunes:image href="{{ site.url }}{{ post.image }}"/>
       </item>
   {% endfor %}
   </channel>
