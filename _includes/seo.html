@@ -200,10 +200,10 @@
     "description": "{{ site.description | strip_html }}",
     "address": {
       "@type": "PostalAddress",
-      "addressLocality": "Geneva",
-      "addressRegion": "Geneva",
-      "postalCode": "1201",
-      "addressCountry": "Switzerland"
+      "addressLocality": "{{ site.geo.town }}",
+      "addressRegion": "{{ site.geo.region }}",
+      "postalCode": "{{ site.geo.postalcode }}",
+      "addressCountry": "{{ site.geo.country }}"
     }
   }
 </script>
