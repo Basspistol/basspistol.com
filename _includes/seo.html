@@ -74,7 +74,7 @@
 <meta name="twitter:description" content="Listen and to a track by {{ page.common.artist | strip_html }} from the release &quot;{{ page.common.album | strip_html }}&quot; and support your remote artist!" />
 <meta name="twitter:image" content="https://media.basspistol.com/basspistol.com/{{ page.slug }}.jpeg" />
 
-<!-- END seo.html -->
+
 {% elsif page.collection == 'albums' %}
 
 <!-- BEGIN seo.html -->
@@ -130,7 +130,7 @@
 <meta name="twitter:description" content="Listen and to a release by {{ artist | uniq }} named &quot;{{ page.name | strip_html }}&quot; and support your remote artist!" />
 <meta name="twitter:image" content="https://media.basspistol.com/basspistol.com/{{ page.tracks[0].slug }}.jpeg" />
 
-<!-- END seo.html -->
+
 
 {% else %}
 <!-- BEGIN seo.html -->
@@ -182,8 +182,33 @@
 <meta name="twitter:description" content="{{ page.description }}" />
 <meta name="twitter:image" content="{{ site.url }}{{ page.image }}" />
 
-<!-- END seo.html -->
+
 {% endif %}
+
+
+<script type='application/ld+json'>
+  {
+    "@context": "http://www.schema.org",
+    "@type": "Organization",
+    "name": "{{ site.title }}",
+    "url": "{{ site.url }}",
+    "sameAs": [
+    {% for social in site.social.links %}"{{ social }}"{% unless forloop.last %},{% endunless %}{% endfor %}
+    ],
+    "logo": "{{ site.url }}{{ site.banner }}",
+    "image": "{{ site.url }}{{ site.banner }}",
+    "description": "{{ site.description | strip_html }}",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Geneva",
+      "addressRegion": "Geneva",
+      "postalCode": "1201",
+      "addressCountry": "Switzerland"
+    }
+  }
+</script>
+
+
 
 {% if page.url == '/radio/' or page.url == '/' %}
 <script type='application/ld+json'>
@@ -191,38 +216,40 @@
     "@context": "http://www.schema.org",
     "@type": "RadioStation",
     "name": "Basspistol Libre Radio",
-    "url": "https://basspistol.com/radio",
-    "logo": "https://basspistol.com/assets/img/basspistol_est_2010_square_bluegreen.jpg",
-    "image": "https://basspistol.com/assets/img/basspistol_est_2010_square_bluegreen.jpg",
+    "url": "{{ site.url }}/radio",
+    "logo": "{{ site.url }}{{ site.logo }}",
+    "image": "{{ site.url }}{{ site.logo }}",
     "description": "Unexpected and Impossible Music. Live interventions and special guests. This is Libre music!",
     "address": {
       "@type": "PostalAddress",
-      "addressLocality": "Geneva",
-      "addressRegion": "Geneva",
-      "postalCode": "1201",
-      "addressCountry": "Switzerland"
+      "addressLocality": "{{ site.geo.town }}",
+      "addressRegion": "{{ site.geo.region }}",
+      "postalCode": "{{ site.geo.postalcode }}",
+      "addressCountry": "{{ site.geo.country }}"
     },
     "geo": {
       "@type": "GeoCoordinates",
-      "latitude": "46.204391",
-      "longitude": "6.143158"
+      "latitude": "{{ site.geo.lat }}",
+      "longitude": "{{ site.geo.long }}"
     }
   }
-   </script>
-   <script type="text/javascript">
-    function getData() {
-      $.getJSON('https://radio.basspistol.com/status-json.xsl', function(json) {
-          output = "<p>" + "<span style='font-size:14px;'>Now Playing:</span> " + "<br/>";
-          output += "<strong>" + json.icestats.source[1].title + "</strong> by <strong>" + json.icestats.source[1].artist + "</strong></p>";
-          output += "<p style='font-size:14px;'>" + json.icestats.source[0].listeners + " peers are listening in MP3 <br />";
-          output += json.icestats.source[1].listeners + " peers are listening in OGG</p>";
-          document.getElementById("radioPlaceholder").innerHTML=output;
-        });
-    }
-    setInterval(getData, 7000);
-
-    $(function() {
-        getData();
-    });
   </script>
+  <script type="text/javascript">
+  function getData() {
+    $.getJSON('https://radio.basspistol.com/status-json.xsl', function(json) {
+        output = "<p>" + "<span style='font-size:14px;'>Now Playing:</span> " + "<br/>";
+        output += "<strong>" + json.icestats.source[1].title + "</strong> by <strong>" + json.icestats.source[1].artist + "</strong></p>";
+        output += "<p style='font-size:14px;'>" + json.icestats.source[0].listeners + " peers are listening in MP3 <br />";
+        output += json.icestats.source[1].listeners + " peers are listening in OGG</p>";
+        document.getElementById("radioPlaceholder").innerHTML=output;
+      });
+  }
+  setInterval(getData, 7000);
+
+  $(function() {
+      getData();
+  });
+</script>
    {% endif %}
+
+   <!-- END seo.html -->

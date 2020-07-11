@@ -11,6 +11,8 @@ geo:
   long: '6.133011'
   region: 'CH-GE'
   town: 'Geneva'
+  country: 'Switzerland'
+  postalcode: '1201'
 
 banner: '/assets/img/basspistol_est_2010_square_bluegreen.jpg'
 icon: /siteicon.png
