@@ -32,7 +32,9 @@ lang: en
   style="height:100vh;">
   <div class="content editable">
     <h1 class="editable">{{ page.title }}</h1>
-    <p>{{ page.description }}</p>
+    <p>by <strong>{{ page.artists }}</strong>
+      <br />{{ page.date | date: '%Y' }}
+    </p>
     <ul class="actions stacked">
       <li><a href="#moe" class="button small smooth-scroll-middle">cheggit!</a></li>
     </ul>
