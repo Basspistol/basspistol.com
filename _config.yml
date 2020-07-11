@@ -6,11 +6,11 @@ exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", "
 title : 'Basspistol'
 description: 'The Outernational Music Syndicate. Established in 2010'
 geo: 
-  timezone: "Europe/Stockholm"
-  lat: '59.333759'
-  long: '18.052554'
-  region: 'SE-AB'
-  town: 'Stockholm'
+  timezone: "Europe/Switzerland"
+  lat: '46.203918'
+  long: '6.133011'
+  region: 'CH-GE'
+  town: 'Geneva'
 
 banner: '/assets/img/basspistol_est_2010_square_bluegreen.jpg'
 icon: /siteicon.png
@@ -35,8 +35,8 @@ social:
     - https://basspistol.tumblr.com
     - https://archive.org/details/basspistol
     - https://mastodon.art/@basspistol
+    - https://shop.basspistol.com/
 
-production_url : https://basspistol.com
 shop_url: https://shop.basspistol.com/?ref=basspistol.com
 
 categories:
