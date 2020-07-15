@@ -38,65 +38,6 @@ logo_image: /siteicon.png
     <img src="{{ relBase }}{{ page.logo_image }}" alt="{{ site.title }} logo" />
   </div>
 </section>
-<!-- Posts -->
-
-
-{% for post in site.posts limit: '2' %}
-
-<section id="album{% increment var %}"
-  class="section-shadow banner style1 orient-{% cycle 'left', 'right' %} content-align-{% cycle 'right', 'left' %} image-position-center fullscreen onload-image-fade-in onload-content-fade-right">
-
-  <div class="content">
-    <h1>{{ post.title }}</h1>
-    <p>{{ post.description }}</p>
-    {% if post.category == 'release' %}
-    {% capture album_name -%}
-    {{ post.album }}
-    {%- endcapture %}
-    {% for album in site.albums %}
-    {% capture name -%}
-    {{ album.relative_path | replace_first: album.collection, '' | replace_first: '_/', '' | replace_first: '.md', '' }}
-    {%- endcapture %}
-    {% if name == album_name %}
-    <p>{{ album.date | date: '%Y' }}</p>
-    
-    {% for track in album.tracks %}
-    <p style="margin-bottom: 30px; font-family: monospace;font-size: 14px">
-      <strong>{{ track.common.track.no }}. {{ track.common.title }}</strong><br />
-      <span id="{{ track.common.title | slugify | remove: '-'  }}"></span> | 
-      <span style="font-family: monospace;font-size: 14px">{{ track.common.genre }} </span>
-    </p>
-   
-
-    <script type="text/javascript">
-      var {{ track.common.title | slugify | remove: '-'  }}timestamp = {{ track.format.duration | round }};
-      var {{ track.common.title | slugify | remove: '-'  }}hours = Math.floor({{ track.common.title | slugify | remove: '-'  }}timestamp / 60 / 60);
-      var {{ track.common.title | slugify | remove: '-'  }}minutes = Math.floor({{ track.common.title | slugify | remove: '-'  }}timestamp / 60) - ({{ track.common.title | slugify | remove: '-' }}hours * 60);
-      var {{ track.common.title | slugify | remove: '-'  }}seconds = {{ track.common.title | slugify | remove: '-' }}timestamp % 60;
-      var {{ track.common.title | slugify | remove: '-'  }}formatted = {{ track.common.title | slugify | remove: '-' }}hours.toString().padStart(2, '0') + ':' + {{ track.common.title | slugify | remove: '-' }}minutes.toString().padStart(2, '0') + ':' + {{ track.common.title | slugify | remove: '-' }}seconds.toString().padStart(2, '0');
-      var theSpan = document.getElementById("{{ track.common.title | slugify | remove: '-'  }}");
-      theSpan.innerHTML = {{ track.common.title | slugify | remove: '-' }}formatted;
-    </script>
-    {% endfor %}
-    {% break %} {% endif %} {% endfor %}
-    {% endif %}
-    
-<br />
-    <ul class="actions stacked">
-      
-      <li><a href="{{ relBase }}{{ post.url }}"
-          class="button big wide {% if post.category == 'release' %}icon solid fa-volume-up{% endif %}">Cheggid out</a>
-      </li>
-    </ul>
-  </div>
-
-  <div class="image">
-    <img src="{{ relBase }}{{ post.image }}" alt="{{ post.title }}" title="{{ post.title }}" />
-
-  </div>
-</section>
-
-{% endfor %}
 
 <!-- Radio -->
 <section
@@ -195,6 +136,67 @@ logo_image: /siteicon.png
 
 </script>
 <!-- End Radio -->
+<!-- Posts -->
+
+
+{% for post in site.posts limit: '2' %}
+
+<section id="album{% increment var %}"
+  class="section-shadow banner style1 orient-{% cycle 'left', 'right' %} content-align-{% cycle 'right', 'left' %} image-position-center fullscreen onload-image-fade-in onload-content-fade-right">
+
+  <div class="content">
+    <h1>{{ post.title }}</h1>
+    <p>{{ post.description }}</p>
+    {% if post.category == 'release' %}
+    {% capture album_name -%}
+    {{ post.album }}
+    {%- endcapture %}
+    {% for album in site.albums %}
+    {% capture name -%}
+    {{ album.relative_path | replace_first: album.collection, '' | replace_first: '_/', '' | replace_first: '.md', '' }}
+    {%- endcapture %}
+    {% if name == album_name %}
+    <p>{{ album.date | date: '%Y' }}</p>
+    
+    {% for track in album.tracks %}
+    <p style="margin-bottom: 30px; font-family: monospace;font-size: 14px">
+      <strong>{{ track.common.track.no }}. {{ track.common.title }}</strong><br />
+      <span id="{{ track.common.title | slugify | remove: '-'  }}"></span> | 
+      <span style="font-family: monospace;font-size: 14px">{{ track.common.genre }} </span>
+    </p>
+   
+
+    <script type="text/javascript">
+      var {{ track.common.title | slugify | remove: '-'  }}timestamp = {{ track.format.duration | round }};
+      var {{ track.common.title | slugify | remove: '-'  }}hours = Math.floor({{ track.common.title | slugify | remove: '-'  }}timestamp / 60 / 60);
+      var {{ track.common.title | slugify | remove: '-'  }}minutes = Math.floor({{ track.common.title | slugify | remove: '-'  }}timestamp / 60) - ({{ track.common.title | slugify | remove: '-' }}hours * 60);
+      var {{ track.common.title | slugify | remove: '-'  }}seconds = {{ track.common.title | slugify | remove: '-' }}timestamp % 60;
+      var {{ track.common.title | slugify | remove: '-'  }}formatted = {{ track.common.title | slugify | remove: '-' }}hours.toString().padStart(2, '0') + ':' + {{ track.common.title | slugify | remove: '-' }}minutes.toString().padStart(2, '0') + ':' + {{ track.common.title | slugify | remove: '-' }}seconds.toString().padStart(2, '0');
+      var theSpan = document.getElementById("{{ track.common.title | slugify | remove: '-'  }}");
+      theSpan.innerHTML = {{ track.common.title | slugify | remove: '-' }}formatted;
+    </script>
+    {% endfor %}
+    {% break %} {% endif %} {% endfor %}
+    {% endif %}
+    
+<br />
+    <ul class="actions stacked">
+      
+      <li><a href="{{ relBase }}{{ post.url }}"
+          class="button big wide {% if post.category == 'release' %}icon solid fa-volume-up{% endif %}">Cheggid out</a>
+      </li>
+    </ul>
+  </div>
+
+  <div class="image">
+    <img src="{{ relBase }}{{ post.image }}" alt="{{ post.title }}" title="{{ post.title }}" />
+
+  </div>
+</section>
+
+{% endfor %}
+
+
 
 <!-- Releases -->
 
