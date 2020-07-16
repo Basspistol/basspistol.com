@@ -95,6 +95,7 @@ logo_image: /siteicon.png
   var mu = document.getElementsByTagName("audio")[0];
   var pauseButton = document.getElementById("mu_pause");
   var spincover = document.getElementById("coverart");
+  var links = document.getElementsByTagName('a');
 
   mu.addEventListener('ended', function () {
     // only functional if "loop" is removed
@@ -108,6 +109,9 @@ logo_image: /siteicon.png
     pauseButton.classList.add("fa-pause");
     spincover.classList.add("spinnit");
     spincover.classList.remove("paused");
+    for (var i=0, len=links.length; i < len; i++) {
+      links[i].target = '_blank';
+    }
   }; 
 
   pauseButton.addEventListener("click", function () {
@@ -121,6 +125,7 @@ logo_image: /siteicon.png
       pauseButton.classList.add("fa-play");
       pauseButton.classList.remove("fa-pause");
       spincover.classList.add("paused");
+
     }
   });
 
@@ -229,7 +234,7 @@ logo_image: /siteicon.png
     <!-- <p>{{ artist.bio }}</p> -->
 
     <ul class="actions stacked">
-      <li><a href="{{ album.url }}" target="_blank" rel="noopener" style="text-decoration:none;" class="button">Listen</a></li>
+      <li><a href="{{ album.url }}" style="text-decoration:none;" class="button">Listen</a></li>
     </ul>
   </div>
   <div class="image">

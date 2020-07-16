@@ -97,6 +97,7 @@ layout: default
   var mu = document.getElementsByTagName("audio")[0];
   var pauseButton = document.getElementById("mu_pause");
   var spincover = document.getElementById("coverart");
+  var links = document.getElementsByTagName('a');
 
   mu.addEventListener('ended', function () {
     // only functional if "loop" is removed
@@ -110,6 +111,9 @@ layout: default
     pauseButton.classList.add("fa-pause");
     spincover.classList.add("spinnit");
     spincover.classList.remove("paused");
+    for (var i=0, len=links.length; i < len; i++) {
+      links[i].target = '_blank';
+    }
   }; 
 
   pauseButton.addEventListener("click", function () {
