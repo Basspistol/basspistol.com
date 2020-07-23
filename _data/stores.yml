@@ -2,22 +2,22 @@
   url: https://shop.basspistol.com
   icon: fa-bandcamp
   download: true
-# - name: Spotify
-#   url: https://open.spotify.com/artist/0gus2IdSkfrvFDBPqeiksM/
-#   icon: fa-spotify
-#   download: false
-# - name: Apple Music
-#   url: https://itunes.apple.com/us/artist/%E5%BE%92-setto-%E3%82%BB%E3%83%83%E3%83%88/1447055514
-#   icon: fa-apple
-#   download: false
-# - name: Google Play
-#   url: https://play.google.com/store/music/artist/%E5%BE%92_setto_%E3%82%BB%E3%83%83%E3%83%88?id=Ayi4avjpfyinbrepzebpsvpjc5a
-#   icon: fa-google-play
-#   download: false
-# - name: Deezer
-#   url: https://www.deezer.com/fr/artist/56004012
-#   icon: fa-creative-commons-sampling
-#   download: false
+- name: Spotify
+  url: https://open.spotify.com/playlist/5daDKmJZ2aG54MzKO2FxLc
+  icon: fa-spotify
+  download: false
+- name: YouTube
+  url: https://www.youtube.com/TheBasspistol
+  icon: fa-youtube
+  download: false
+- name: Soundcloud
+  url: https://soundcloud.com/basspistol
+  icon: fa-soundcloud
+  download: false
+- name: Archive.org
+  url: https://archive.org/details/basspistol
+  icon: fa-creative-commons-sampling
+  download: true
 # - name: Napster
 #   url: https://us.napster.com/artist/-setto-
 #   icon: fa-napster
