@@ -96,17 +96,17 @@ layout: default
           </div>
           <div class="post-nav">
             <div>
-              {% if page.previous.url and page.lang == page.previous.lang %}
+
               <h4><a href="{{ relBase }}/albums/{{ page.previousTrack.slug }}/" alt="Read {{ page.previousTrack.common.title }}" title="Read {{ page.previousTrack.common.title }}"><i class="fas fa-arrow-left"></i></a> <a
                   href="{{ relBase }}/albums/{{ page.previousTrack.slug }}/">&nbsp;{{ page.previousTrack.common.title }}</a>
               </h4>
-              {% endif %}
+
             </div>
             <div class="post-nav-next">
-              {% if page.next.url and page.lang == page.next.lang  %}
+
               <h4><a href="{{ relBase }}/albums/{{ page.nextTrack.slug }}/">&nbsp;{{ page.nextTrack.common.title }}</a> <a
                   href="{{ relBase }}/albums/{{ page.nextTrack.slug }}/" alt="Read {{ page.nextTrack.common.title }}" title="Read {{ page.nextTrack.common.title }}"><i class="fas fa-arrow-right"></i></a></h4>
-              {% endif %}
+
             </div>
           </div>
           <!-- End Post Navigation -->
