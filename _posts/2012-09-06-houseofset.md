@@ -10,6 +10,7 @@ description: The House Of Set, Recorded in an itinerant studio by Simio Sakrecoe
 uid: BPIST007
 image: '/assets/img/templeofSetCoverART_INV.png'
 download: 'https://archive.org/download/BPIST007/BPIST007_archive.torrent'
+check_this_if_cannot_be_bought: false
 stores:
   - name: Archive
     url: https://archive.org/details/BPIST007

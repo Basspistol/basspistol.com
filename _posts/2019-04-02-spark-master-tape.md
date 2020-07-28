@@ -17,6 +17,7 @@ image: /assets/img/Screenshot at 2019-04-02 17-42-40.png
 download:
 link: 'https://dedsec.us'
 album: 
+check_this_if_cannot_be_bought: true
 stores:
   - name:
     url: 

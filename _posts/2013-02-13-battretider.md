@@ -10,6 +10,7 @@ uid: 'battretider'
 image: '/assets/img/battretider.jpg'
 link: 'https://archive.org/details/BPIST-V004'
 album: 
+check_this_if_cannot_be_bought: true
 stores:
   - name:
     url: 

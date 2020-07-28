@@ -11,6 +11,7 @@ download: ''
 link: 'https://youtu.be/TmAvt5p6f8g'
 author: set
 album: 
+check_this_if_cannot_be_bought: true
 stores:
   - name:
     url: 

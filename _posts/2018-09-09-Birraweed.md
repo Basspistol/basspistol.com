@@ -11,6 +11,7 @@ image: '/assets/img/birraweed.jpg'
 download: ''
 link: 'https://youtu.be/qsxGmA4frLA'
 album: 
+check_this_if_cannot_be_bought: true
 stores:
   - name:
     url: 

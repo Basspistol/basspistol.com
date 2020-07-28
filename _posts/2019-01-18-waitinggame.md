@@ -11,6 +11,7 @@ image: '/assets/img/waitinggame.jpg'
 download: ''
 link: 'https://sakrecoer.com/waitinggame/'
 album: 
+check_this_if_cannot_be_bought: true
 stores:
   - name:
     url: 

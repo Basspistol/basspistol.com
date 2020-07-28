@@ -11,6 +11,7 @@ image: '/assets/img/dcsite-bg-ret.jpg'
 download: ''
 link: 'https://somafm.com/defcon/index.html'
 album: 
+check_this_if_cannot_be_bought: true
 stores:
   - name:
     url: 

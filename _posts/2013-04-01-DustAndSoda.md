@@ -10,6 +10,7 @@ uid: BPIST011
 album: dust-and-soda
 image: /assets/img/DustAndSoda.jpg
 download: https://archive.org/download/BPIST011/BPIST011_archive.torrent
+check_this_if_cannot_be_bought: false
 stores:
   - name: Archive
     url: https://archive.org/details/BPIST011

@@ -10,6 +10,7 @@ description: 'Kick N Base Made In Barcelona by Holyhertz is a collaborative conc
 uid: BPIST003
 image: '/assets/img/holyhertzcover.jpg'
 download: 'https://archive.org/download/BPIST003/BPIST003_archive.torrent'
+check_this_if_cannot_be_bought: false
 stores:
   - name: Spotify
     url: 'https://open.spotify.com/album/7v8toNpRj6DiAddtavpMvS'

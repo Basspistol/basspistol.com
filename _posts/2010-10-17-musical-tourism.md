@@ -9,6 +9,7 @@ author:
 artist: synapset
 category: releases
 album: musical-tourism
+check_this_if_cannot_be_bought: false
 tags:
   - internal
   - albums

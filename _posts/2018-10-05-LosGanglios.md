@@ -11,6 +11,7 @@ image: '/assets/img/trnx_losganglios.jpg'
 download: ''
 link: 'http://losganglios.com/videos/'
 album: 
+check_this_if_cannot_be_bought: true
 stores:
   - name:
     url: 

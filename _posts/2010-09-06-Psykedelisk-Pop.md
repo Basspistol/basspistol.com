@@ -10,6 +10,7 @@ description: 'Psykedelisk Pop, by reSet Sakrecoer is the journey of a boyish Pia
 uid: 'BPIST001'
 image: '/assets/img/PsykedeliskPopFront.jpg'
 download: 'https://archive.org/download/BPIST001/BPIST001_archive.torrent'
+check_this_if_cannot_be_bought: false
 stores:
   - name: Bandcamp
     url: 'https://shop.basspistol.com/album/psykedelisk-pop'

@@ -11,6 +11,7 @@ image: '/assets/img/awgalbi.jpg'
 download: ''
 link: 'https://youtu.be/g3bjZlmsb4A'
 album: 
+check_this_if_cannot_be_bought: true
 stores:
   - name:
     url: 

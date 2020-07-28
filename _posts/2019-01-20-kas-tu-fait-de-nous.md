@@ -15,10 +15,34 @@ image: /assets/img/2018-setto-single-003-reve_de_toi-117bpm_sqaure_FINAL.jpg
 download:
 link: 'https://shop.basspistol.com/album/satoshi-mon-ami'
 album: 
+check_this_if_cannot_be_bought: false
 stores:
-  - name:
-    url: 
-    icon: 
+  - name: Bandcamp
+    url: 'https://shop.basspistol.com/album/satoshi-mon-ami'
+    icon: fa-bandcamp
+    download: true
+  - name: Spotify
+    url: 'https://open.spotify.com/album/116YJCcI5T9Iw9UBQCvJWF'
+    icon: fa-spotify
+    download: false
+  - name: Apple Music
+    url: >-
+      https://itunes.apple.com/us/album/satoshi-mon-ami-single/1447055511?uo=4&app=music&at=1001lry3&ct=dashboard
+    img:
+    icon: fa-apple
+    download: false
+  - name: Google Play
+    url: >-
+      https://play.google.com/store/music/album/%E5%BE%92_setto_%E3%82%BB%E3%83%83%E3%83%88_Satoshi_mon_ami?id=Bygwvidl75kflmclmchl6wc5uba
+    icon: fa-google-play
+    download: false
+  - name: Deezer
+    url: 'https://www.deezer.com/album/82118382'
+    icon: fa-creative-commons-sampling
+    download: false
+  - name: Napster
+    url: 'https://us.napster.com/artist/-setto-/album/satoshi-mon-ami'
+    icon: fa-napster
     download: false
 ---
 

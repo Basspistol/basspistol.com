@@ -10,7 +10,7 @@ uid: BPIST005
 image: /assets/img/DrTikov_Headcleaner.jpg
 download: https://archive.org/download/BPIST005/BPIST005_archive.torrent
 description: 'Headcleaner by Dr. Tikov. A minimalistic opus of dubish Russian techno, made in Barcelona.'
-stores:
+check_this_if_cannot_be_bought: false
 stores:
   - name: Spotify
     url: 'https://play.google.com/store/music/album/Dr_Tikov_Headcleaner?id=B6ydbpvz5oflyh67rnbdeoqgkna'
