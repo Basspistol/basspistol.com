@@ -221,7 +221,7 @@ lang: en
           "track": {{ track.common.track.no }},
           "name": "{{ track.common.title }}",
           "length": "{% assign round_seconds = track.format.duration | round %}{% assign minutes = round_seconds | divided_by: 60 %}{% assign leftover_seconds = minutes | times: 60 %}{{ minutes }}:{{ round_seconds | minus: leftover_seconds }}",
-          "file": "https://media.basspistol.com/basspistol.com/{{ track.albumSlug }}/{{ track.trackSlug }}"
+          "file": "{{ site.mediaurl }}/{{ track.albumSlug }}/{{ track.trackSlug }}"
         }{% unless forloop.last %},{% endunless %}{% endfor %}],
         trackCount = tracks.length,
         npAction = $('#npAction'),

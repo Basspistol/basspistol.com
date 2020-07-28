@@ -64,15 +64,15 @@
 <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
 <meta property="og:site_name" content="{{ site.title }}" />
 <meta property="og:type" content="music:album:track" />
-<meta property="og:audio" content="https://media.basspistol.com/basspistol.com/{{ page.slug }}.mp3" />
+<meta property="og:audio" content="{{ site.mediaurl }}/{{ page.slug }}.mp3" />
 <meta property="article:published_time" content="{{ page.last_modified_at | date_to_xmlschema }}" />
-<meta property="og:image" content="https://media.basspistol.com/basspistol.com/{{ page.slug }}.jpeg" />
+<meta property="og:image" content="{{ site.mediaurl }}/{{ page.slug }}.jpeg" />
 <!-- Twitter Card -->
 
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:title" content="{{ page.common.title }} | {{ site.title }}" />
 <meta name="twitter:description" content="Listen and to a track by {{ page.common.artist | strip_html }} from the release &quot;{{ page.common.album | strip_html }}&quot; and support your remote artist!" />
-<meta name="twitter:image" content="https://media.basspistol.com/basspistol.com/{{ page.slug }}.jpeg" />
+<meta name="twitter:image" content="{{ site.mediaurl }}/{{ page.slug }}.jpeg" />
 
 
 {% elsif page.collection == 'albums' %}
@@ -119,16 +119,16 @@
 <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
 <meta property="og:site_name" content="{{ site.title }}" />
 <meta property="og:type" content="music:album" />
-{% for track in page.tracks %}<meta property="og:audio" content="https://media.basspistol.com/basspistol.com/{{ track.albumSlug }}/{{ track.trackSlug }}.mp3" />
+{% for track in page.tracks %}<meta property="og:audio" content="{{ site.mediaurl }}/{{ track.albumSlug }}/{{ track.trackSlug }}.mp3" />
 {% endfor %}
 <meta property="article:published_time" content="{{ page.last_modified_at | date_to_xmlschema }}" />
-<meta property="og:image" content="https://media.basspistol.com/basspistol.com/{{ page.tracks[0].slug }}.jpeg" />
+<meta property="og:image" content="{{ site.mediaurl }}/{{ page.tracks[0].slug }}.jpeg" />
 <!-- Twitter Card -->
 
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:title" content="{{ page.name }} | {{ site.title }}" />
 <meta name="twitter:description" content="Listen and to a release by {{ artist | uniq }} named &quot;{{ page.name | strip_html }}&quot; and support your remote artist!" />
-<meta name="twitter:image" content="https://media.basspistol.com/basspistol.com/{{ page.tracks[0].slug }}.jpeg" />
+<meta name="twitter:image" content="{{ site.mediaurl }}/{{ page.tracks[0].slug }}.jpeg" />
 
 
 

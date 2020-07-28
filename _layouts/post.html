@@ -94,7 +94,7 @@
 
                   <div class="plItem">
                     <div class="plNum">{{ track.common.track.no }}.</div>
-                    <div class="plTitle"><a href="https://media.basspistol.com/basspistol.com/{{ track.albumSlug }}/{{ track.trackSlug }}.mp3">{{ track.common.title }} </a></div>
+                    <div class="plTitle"><a href="{{ site.mediaurl }}/{{ track.albumSlug }}/{{ track.trackSlug }}.mp3">{{ track.common.title }} </a></div>
                     <div class="plLength">{% assign round_seconds = track.format.duration | round %}{% assign minutes = round_seconds | divided_by: 60 %}{% assign leftover_seconds = minutes | times: 60 %}{{ minutes }}:{{ round_seconds | minus: leftover_seconds }}</div>
                   </div>
 
@@ -131,7 +131,7 @@
     </ul>
   </div>
   <div class="image">
-    <img src="https://media.basspistol.com/basspistol.com/{{ track.albumSlug }}/{{ track.trackSlug }}.jpeg" alt="{{ track.common.title }}" />
+    <img src="{{ site.mediaurl }}/{{ track.albumSlug }}/{{ track.trackSlug }}.jpeg" alt="{{ track.common.title }}" />
   </div>
 </section>
 
@@ -213,7 +213,7 @@
           "track": {{ track.common.track.no }},
           "name": "{{ track.common.title }}",
           "length": "{% assign round_seconds = track.format.duration | round %}{% assign minutes = round_seconds | divided_by: 60 %}{% assign leftover_seconds = minutes | times: 60 %}{{ minutes }}:{{ round_seconds | minus: leftover_seconds }}",
-          "file": "https://media.basspistol.com/basspistol.com/{{ track.albumSlug }}/{{ track.trackSlug }}"
+          "file": "{{ site.mediaurl }}/{{ track.albumSlug }}/{{ track.trackSlug }}"
         }{% unless forloop.last %},{% endunless %}{% endfor %}{% break %} {% endif %}{% endfor %}],
         trackCount = tracks.length,
         npAction = $('#npAction'),
