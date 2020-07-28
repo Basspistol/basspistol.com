@@ -39,10 +39,10 @@ image: /images/guillaume-techer-jm9p0mdpo6a-unsplash.jpg
     <p>{{ album.date | date: '%Y' }}</p>
     
     {% for track in album.tracks %}
-    <p style="margin-bottom: 30px; font-family: monospace;font-size: 14px">
+    <p style="margin-bottom: 30px;font-size: 14px">
       <strong>{{ track.common.track.no }}. {{ track.common.title }}</strong><br />
       <span id="{{ track.common.title | slugify | remove: '-'  }}"></span> | 
-      <span style="font-family: monospace;font-size: 14px">{{ track.common.genre }} </span>
+      <span style="font-size: 14px">{{ track.common.genre }} </span>
     </p>
    
 

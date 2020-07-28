@@ -369,7 +369,7 @@ div.content {
     flex: 1 0 250px;
     margin: 0;
     font-size: 12px;
-    font-family: monospace;
+    font-family: _font(family-fixed);
   }
   @media only screen and (max-width: 569px) {
     p {
