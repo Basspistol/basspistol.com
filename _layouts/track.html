@@ -26,7 +26,7 @@ layout: default
       </script>
  
     <ul class="actions stacked">
-      <li><button id="mu_pause" class="button icon solid fa-play">Play dat!</button></li>
+      <li><button id="mu_pause" class="button small icon solid fa-play">Play!</button></li>
     </ul>
   </div>
   <div id="noJSalbum" class="content" style="z-index:1">
@@ -38,7 +38,7 @@ layout: default
     <p><strong>{% assign round_seconds = page.format.duration | round %}{% assign minutes = round_seconds | divided_by: 60 %}{% assign leftover_seconds = minutes | times: 60 %}{{ minutes }}:{% assign seconds_without_zero = round_seconds | minus: leftover_seconds %}{% if seconds_without_zero < 10 %}0{% endif %}{{ seconds_without_zero }}</strong></p> 
         
     <ul class="actions stacked">
-      <li><a class="button icon solid fa-play" target="_blank" rel="noopener" href="{{ site.mediaurl }}/{{ page.albumSlug }}/{{ page.trackSlug }}.mp3">Play dat!</a></li>
+      <li><a class="button small icon solid fa-play" target="_blank" rel="noopener" href="{{ site.mediaurl }}/{{ page.albumSlug }}/{{ page.trackSlug }}.mp3">Play dat!</a></li>
     </ul>
   </div>
 

@@ -30,7 +30,7 @@ logo_image: /siteicon.png
 
     <p>{{ page.description }}</p>
     <ul class="actions stacked">
-      <li><a href="#music" class="button large wide smooth-scroll">Gimme Music!</a></li>
+      <li><a href="#music" class="button small smooth-scroll">Gimme Music!</a></li>
     </ul>
   </div>
 
@@ -53,7 +53,7 @@ logo_image: /siteicon.png
 
  
     <ul class="actions stacked">
-      <li><button id="mu_pause" class="button icon solid fa-play">Play!</button></li>
+      <li><button id="mu_pause" class="button small icon solid fa-play">Play!</button></li>
     </ul>
   </div>
 
@@ -64,7 +64,7 @@ logo_image: /siteicon.png
 
 
  
-  <a href="https://radio.basspistol.com/radio.mp3" id="mu_pause" class="button icon solid fa-play">MP3</a> <a href="https://radio.basspistol.com/radio.ogg" id="mu_pause" class="button icon solid fa-play">OGG</a>
+  <a href="https://radio.basspistol.com/radio.mp3" id="mu_pause" class="button small icon solid fa-play">MP3</a> <a href="https://radio.basspistol.com/radio.ogg" id="mu_pause" class="button small icon solid fa-play">OGG</a>
 
 
 
@@ -189,7 +189,7 @@ logo_image: /siteicon.png
     <ul class="actions stacked">
       
       <li><a href="{{ relBase }}{{ post.url }}"
-          class="button big wide {% if post.category == 'release' %}icon solid fa-volume-up{% endif %}">Cheggid out</a>
+          class="button small {% if post.category == 'releases' %}icon solid fa-volume-up{% endif %}">{% if post.category == 'releases' %}Listen{% else %}Read more{% endif %}</a>
       </li>
     </ul>
   </div>
