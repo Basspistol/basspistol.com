@@ -27,7 +27,8 @@
     <li><a target="_blank" rel="nofollow noopener" title="Share to telegram" alt="Share to telgram" href="https://telegram.me/share/url?url={{ site.url }}{{ page.url }}&amp;text={{ page.title | xml_escape }}%20by%20{{ site.title xml_escape }}" class="icon brands style1 fa-telegram"><span class="label">Telegram</span></a></li>
     <li><a target="_blank" rel="nofollow noopener" title="Share to reddit" alt="Share to reddit" href="https://reddit.com/submit/?url={{ site.url }}{{ page.url }}&amp;title={{ page.title | xml_escape }}%20by%20{{ site.title xml_escape }}" class="icon brands style1 fa-reddit"><span class="label">Reddit</span></a></li>
   </ul>
-
-
+{% if page.collection == 'tracks' %}
+<a href="{{ relBase }}/albums/{{ page.albumSlug }}" class="button smaller"> Back to Album</a><br /><br />
+{% endif %}
 </div>
 </header>
