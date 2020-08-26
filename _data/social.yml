@@ -1,4 +1,8 @@
-
+- name: Mastodon
+  url: https://mastodon.art/@basspistol
+  icon: fa-mastodon
+  share_link: 
+  we_have_account: true
 - name: Twitter
   url: https://twitter.com/bpist
   icon: fa-twitter

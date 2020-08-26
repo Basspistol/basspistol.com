@@ -23,7 +23,7 @@
     <ul class="icons">
       {% for nw in site.data.social %}
 
-      <li><a target="_blank" alt="{{ site.title }} on {{ nw.name }}" title="{{ site.title }} on {{ nw.name }}" rel="noopener" href="{{ nw.url }}" class="icon brands style2 {{ nw.icon }}"><span class="label">{{ nw.name }}</span></a></li>
+      <li><a target="_blank" alt="{{ site.title }} on {{ nw.name }}" title="{{ site.title }} on {{ nw.name }}" rel="{% if nw.url contains 'mastodon.art' %}me {% endif %}noopener" href="{{ nw.url }}" class="icon brands style2 {{ nw.icon }}"><span class="label">{{ nw.name }}</span></a></li>
 
       {% endfor %}
       <!-- <li><a href="mailto:{{ site.author.email }}" class="icon style2 fa-envelope"><span class="label">Email</span></a></li> -->
