@@ -80,6 +80,18 @@ body {
     background-repeat: repeat-x;
     background-position: bottom;
     z-index: 1;
+    h4 {
+      width: 100%;
+      height: auto; 
+      min-height: 100px; 
+      line-height: .85em;
+      letter-spacing: -8.1px;
+      color: var(--bg-alt);
+      font-size: 12vw; 
+      display: inline;
+      opacity: 1;
+      border-radius: var(--border-radius);
+    }
   }
 }
 
