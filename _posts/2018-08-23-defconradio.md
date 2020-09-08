@@ -2,7 +2,7 @@
 title: 'DefCon Radio'
 artist: 'Soma.FM'
 date: 2018-08-23 19:07:00 +0200
-category: ramblings
+category: highlights
 author: bassBot
 tags: [hackers, coding, nerdcore]
 description: 'Music for Hacking. The DEF CON Year-Round Channel. DEF CON is one of the world''s largest annual hacker conventions, held every year in Las Vegas, Nevada. Since 2013, SomaFM has provided the music for the DEF CON Chill room.'

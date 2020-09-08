@@ -1,7 +1,7 @@
 ---
 title: 'Habib Galbi'
 artist: 'A-Wa'
-category: ramblings
+category: highlights
 date: 2018-08-30 19:07:00 +0200
 author: bassBot
 tags: [girlpower, video, oriental]

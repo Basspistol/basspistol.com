@@ -2,7 +2,7 @@
 title: 'Golden Bank'
 artist: 'Franky Fresco'
 date: 2014-01-04 19:07:00 +0200
-category: ramblings
+category: highlights
 author: bassBot
 tags: [video, internal]
 description: 'ROM THE ALBUM "DUST AND SODA"'

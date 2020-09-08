@@ -2,7 +2,7 @@
 title: 'Los Ganglios'
 artist: 'Los Ganglios'
 author: bassBot
-category: ramblings
+category: highlights
 date: 2018-10-05 19:07:00 +0200
 tags: [spanish,post-pop,porc,]
 description: 'PORC, or what happens when you conglomerate Punk, Techno, Rock and Cumbia'

@@ -18,7 +18,7 @@ layout: default
   <div class="playbutton hideWhenNoJS">
   <a id="mu_pause" class="button">Play!</a>
   </div>
-  <h1>{{ page.common.title }}</h1>
+
 
   
 </p>
@@ -28,6 +28,7 @@ layout: default
 <!-- Content -->
 <div id="trackInfo">
 <section>
+  <h1 style="margin-top:80px;">{{ page.common.title }}</h1>
   <p>{% for style in page.common.genre %}{{ style }}{% endfor %} by <strong>{{ page.common.artist }}</strong></p>
   {% for post in site.posts %}
   {% if post.album == page.albumSlug %}

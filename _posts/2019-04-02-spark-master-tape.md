@@ -3,7 +3,7 @@ title: Spark Master Tape
 date: 2019-04-02 17:07:00
 author:
 artist:
-category: ramblings
+category: highlights
 tags:
   - hackers
   - portofplatoon

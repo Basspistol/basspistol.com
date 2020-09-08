@@ -1,7 +1,7 @@
 ---
 title: 'BIRRA x WEED (Prod. by Keizen)'
 artist: 'Bill Kraneos'
-category: ramblings
+category: highlights
 author: bassBot
 date: 2018-09-09 19:07:00 +0200
 tags: [video, ekipz, rap, chille]

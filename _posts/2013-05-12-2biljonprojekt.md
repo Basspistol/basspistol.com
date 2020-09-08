@@ -2,7 +2,7 @@
 title: '2 Billion Projects'
 artist: 'The FragleBay'
 date: 2013-05-12 19:07:00 +0200
-category: ramblings
+category: highlights
 author: bassBot
 tags: [video, internal]
 description: 'In a dystopian future, will The Fraglebay survive on their 2billion project?'
