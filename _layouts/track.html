@@ -38,7 +38,7 @@ layout: default
 
   <p><strong>{% assign round_seconds = page.format.duration | round %}{% assign minutes = round_seconds | divided_by: 60 %}{% assign leftover_seconds = minutes | times: 60 %}{{ minutes }}:{% assign seconds_without_zero = round_seconds | minus: leftover_seconds %}{% if seconds_without_zero < 10 %}0{% endif %}{{ seconds_without_zero }}</strong></p> 
    
-
+  {% include streamer.html %}
   {% include author.html %}
 
 
@@ -89,20 +89,20 @@ layout: default
 
   {% if page.previous.url or page.next.url %}
 
-  <h2>Track Navigation</h2>
+
 
   <div class="post-nav">
 
       {% if page.previous.url %}
       <h4><a href="{{ relBase }}{{ page.previous.url }}" alt="Read {{ page.previous.title }}" title="Read {{ page.previous.title }}"><span
-            class="fas fa-arrow-left"></span>&nbsp;Previous</a></h4>
+            class="fas fa-arrow-left" style="font-size:3em;text-decoration: none;"></span></a></h4>
       <h3>{{ page.previous.common.title }}</h3>
       <p>{{ page.previous.description }}</p>
       {% endif %}
     </div>
     <div class="post-nav-next">
       {% if page.next.url%}
-      <h4><a href="{{ page.next.url }}">Next&nbsp;<span class="fas fa-arrow-right"></span></a></h4>
+      <h4><a href="{{ page.next.url }}"><span class="fas fa-arrow-right" style="font-size:3em;"></span></a></h4>
       <h3>{{ page.next.common.title }}</h3>
       <p>{{ page.next.description }}</p>
       {% endif %}

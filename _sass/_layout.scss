@@ -81,20 +81,19 @@ body {
     background-position: bottom;
     z-index: 1;
     h4 {
-      width: 100%;
+      width: 95%;
       height: auto; 
       min-height: 100px; 
       line-height: .85em;
       letter-spacing: -0.08em;
-      color: var(--bg-alt);
+      color: var(--bg);
       font-size: 12vw; 
       display: inline;
       opacity: 1;
       border-radius: var(--border-radius);
       position: absolute;
-      top: 0;
-      left: 0;
-
+      bottom: 0;
+      transform: rotate(-3deg);
     }
   }
 }
@@ -187,12 +186,13 @@ footer {
 }
 
 .post-navigation {
-  padding: 80px 0 160px 0;
+  padding: 80px 40px 80px 40px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   max-width: var(--max-width);
   margin: 0 auto;
+  
   h2 {
     flex: 0 0 100%;
     margin-top: 40px;
@@ -200,7 +200,7 @@ footer {
   }
   .post-nav, .post-nav-next {
 
-    flex: 1 0 250px;
+    flex: 1 0 200px;
     
     h4 {
       font-size: 2em;
@@ -209,9 +209,11 @@ footer {
   }
   .post-nav {
     margin: 0 40px 0 0;
+    text-align: left;
   }
   .post-nav-next {
     margin: 0 0 0 40px;
+    text-align: right;
   }
 
 }

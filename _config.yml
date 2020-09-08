@@ -42,6 +42,10 @@ social:
 
 shop_url: https://shop.basspistol.com/?ref=basspistol.com
 
+## Matomo
+matomo_site_id: '3'
+matomo_container: 'fHO88MfH'
+
 categories:
   - releases
   - highlights
