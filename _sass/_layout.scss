@@ -81,19 +81,20 @@ body {
     background-position: bottom;
     z-index: 1;
     h4 {
-      width: 95%;
+      width: 90vw;
       height: auto; 
       min-height: 100px; 
       line-height: .85em;
       letter-spacing: -0.08em;
       color: var(--bg);
-      font-size: 12vw; 
+      font-size: 15vw; 
       display: inline;
       opacity: 1;
       border-radius: var(--border-radius);
       position: absolute;
       bottom: 0;
       transform: rotate(-3deg);
+      overflow: hidden;
     }
   }
 }
