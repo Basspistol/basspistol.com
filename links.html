@@ -13,46 +13,27 @@ video_path: /assets/vid/links.mp4
 image: /assets/vid/links.jpg
 ---
 
-
 {% include relBase.html %}
-<!-- Banner -->
-<section class="banner onload-image-fade-in onload-content-fade-right style2 fullscreen content-align-center image-position-center">
+{% include header.html %}
 
-  <div class="image">
-    <img src="{{ relBase }}{{ page.image }}" alt="{{ page.title | smartify }}" class="editable" />
-  </div>
-</section>
-<!-- NEWS -->
-<section id="news" class="wrapper style1 align-center">
-  <div class="inner" style="padding-top: 40px;">
-    <h1>{{ page.title }}</h1>
-    <p>{{ page.description }}</p>
-    </div>
-</section>
 {% assign sorted = site.data.links | sort: 'title' %}
-{% for link in sorted %}
+{% for post in sorted %}
+<section class="links" style="margin:0;">
 
-<section id="second" class="spotlight style2 orient-{% cycle 'left', 'right' %} content-align-{% cycle 'right', 'left' %} image-position-center onscroll-image-fade-in" {% if forloop.index == 1 %}style="box-shadow: none;" {% endif %}>
-  <div class="content">
-    <h2>{{ link.title }}</h2>
-    <p>{{ link.banner }}</p>
+<!-- <div class=linksbg></div> -->
+<div class="description">
+  <h2>{{ post.title }}</h2>
 
-    <ul class="actions stacked">
-      <li><a href="{{ link.url }}?ref=TheOuternationalMusicSyndicateWasHere" target="_blank" rel="noopener" style="text-decoration:none;" class="button icon solid fa-external-link-alt small">Visit</a></li>
-    </ul>
-  </div>
-  <div class="image">
-    <img src="{{ relBase }}/images/emptypixel.png" alt="{{ page.title | smartify }}" />
-  </div>
+  <p>{{ post.description }}</p>
+<p><a href="{{ post.url }}?ref=ToSettoSetto" class="button" rel="noopener" target="_blank">Visit</a></p>
+</div>
+
+  
 </section>
 
 {% endfor %}
-{% include footer.html %}
 
 
 
-
-</body>
-</html>
 
 

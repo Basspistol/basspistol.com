@@ -1,85 +1,162 @@
-// Misc.
-	$misc: (
-		z-index-base:		10000,
-		overlay-opacity:	0.75,
-		lightbox-opacity:	0.75,
-		gallery-limit:		32,
-		items-limit:		16
-	);
+/// Removes a specific item from a list.
+/// @author Hugo Giraudel
+/// @param {list} $list List.
+/// @param {integer} $index Index.
+/// @return {list} Updated list.
+@function remove-nth($list, $index) {
 
-// Duration.
-	$duration: (
-		menu:				0.5s,
-		transition:			0.2s,
-		gallery-lightbox:	0.5s,
-		gallery-delay:		0.15s,
-		items-delay:		0.15s,
-		on-load:			0.75s,
-		on-scroll:			0.75s
-	);
+	$result: null;
 
-// Size.
-	$size: (
-		border-radius:		4px,
-		border-radius-alt:	0.5rem,
-		border-width:		1px,
-		element-height:		2.75rem,
-		element-margin:		2rem,
-		gutter:				3.5rem,
-		inner:				64rem,
-		padding:			(
-			default:		7rem,
-			xlarge:			5rem,
-			large:			4rem,
-			medium:			3rem,
-			small:			2rem
-		)
-	);
+	@if type-of($index) != number {
+		@warn "$index: #{quote($index)} is not a number for `remove-nth`.";
+	}
+	@else if $index == 0 {
+		@warn "List index 0 must be a non-zero integer for `remove-nth`.";
+	}
+	@else if abs($index) > length($list) {
+		@warn "List index is #{$index} but list is only #{length($list)} item long for `remove-nth`.";
+	}
+	@else {
 
-// Font.
-	$font: (
-		family:				('Astloch', Helvetica, sans-serif),
-		family-fixed:    ('Lucida Console', Monaco, monospace),
-		weight:				400,
-		weight-bold:		700,
-		kerning:			-0.025em,
-		kerning-alt:		0.125em
-	);
+		$result: ();
+		$index: if($index < 0, length($list) + $index + 1, $index);
 
-// Palette.
-	$palette: (
-		color1:				#30363d,
-		color2:				#db8992,
-		color3:				#ab7aad,
-		color4:				#897cad,
-		color5:				#7794ce,
-		color6:				#64abb4,
-		color7:				#6ba78c,
+		@for $i from 1 through length($list) {
+
+			@if $i != $index {
+				$result: append($result, nth($list, $i));
+			}
+
+		}
+
+	}
+
+	@return $result;
+
+}
+
+/// Gets a value from a map.
+/// @author Hugo Giraudel
+/// @param {map} $map Map.
+/// @param {string} $keys Key(s).
+/// @return {string} Value.
+@function val($map, $keys...) {
+
+	@if nth($keys, 1) == null {
+		$keys: remove-nth($keys, 1);
+	}
+
+	@each $key in $keys {
+		$map: map-get($map, $key);
+	}
+
+	@return $map;
+
+}
+
+/// Gets a font value.
+/// @param {string} $keys Key(s).
+/// @return {string} Value.
+@function _font($keys...) {
+	@return val($font, $keys...);
+}
+
+// /// Gets a palette value.
+// /// @param {string} $keys Key(s).
+// /// @return {string} Value.
+// @function _palette($keys...) {
+// 	@return val($palette, $keys...);
+// }
 
 
-		bg:					rgb(49, 61, 38),
-    bg-alt:				rgb(168, 255, 238),
-    bg-transparent: rgba(135, 153, 118, 0.5),
-		fg:					rgb(254, 236, 237),
-		fg-bold:			rgb(254, 236, 237),
-		fg-light:			rgba(135, 153, 118, 0.75),
-		border:				rgba(44, 55, 104, 0.2),
-		border-alt:			rgba(44, 55, 104, 0.075),
-    border-bg:			rgba(44, 55, 104, 0.05),
-    border-darken:  rgba(29, 36, 22, 0.85),
-    border-dark:    rgba(44, 55, 104, 0.85),
-    accent:				rgba(244, 91, 105, 1),
-    accent-dark: rgb(31, 39, 24),
 
-		invert: (
-			bg:				rgb(49, 61, 38),
-			bg-alt:			#222222,
-			fg:				#ffffff,
-			fg-bold:		#ffffff,
-			fg-light:		#ffffff,
-			border:			rgb(27, 34, 65),
-			border-alt:		rgba(238, 238, 238, 0.25),
-			border-bg:		rgba(44, 55, 104, 0.125),
-			accent:			#47D3E5,
-		),
-	);
+@font-face {
+  font-family: 'Jetbrain-regular';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Jetbrain Regular'), local('Jetbrain-Regular'), url(/assets/fonts/jetBrainsMono/JetBrainsMono_Regular.ttf) format('truetype'), url(/assets/fonts/jetBrainsMono/JetBrainsMono-Regular.woff) format('woff'), url(/assets/fonts/jetBrainsMono/JetBrainsMono-Regular.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: 'Jetbrain-regular';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Jetbrain Regular'), local('Jetbrain-Regular'), url(/assets/fonts/jetBrainsMono/JetBrainsMono_Italic.ttf) format('truetype'), url(/assets/fonts/jetBrainsMono/JetBrainsMono-Italic.woff) format('woff'), url(/assets/fonts/jetBrainsMono/JetBrainsMono-Italic.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: 'Jetbrain-Extrabold';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Jetbrain ExtraBold'), local('Jetbrain-ExtraBold'), url(/assets/fonts/jetBrainsMono/JetBrainsMono_ExtraBold.ttf) format('truetype'), url(/assets/fonts/jetBrainsMono/JetBrainsMono-ExtraBold.woff) format('woff'), url(/assets/fonts/jetBrainsMono/JetBrainsMono-ExtraBold.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: 'Jetbrain-Extrabold';
+  font-style: italic;
+  font-weight: 700;
+  src: local('Jetbrain ExtraBold'), local('Jetbrain-ExtraBold'), url(/assets/fonts/JetBrainsMono_ExtraBold_Italic.ttf) format('truetype'), url(/assets/fonts/jetBrainsMono/JetBrainsMono-ExtraBold-Italic.woff) format('woff'), url(/assets/fonts/jetBrainsMono/JetBrainsMono-ExtraBold-Italic.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Poppins Light'), local('Poppins-Light'), url(/assets/fonts/poppins/Poppins-Light.ttf) format('truetype'), url(/assets/fonts/poppins/popin-light.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: 'Poppins';
+  font-style: italic;
+  font-weight: 300;
+  src: local('Poppins Light'), local('Poppins-Light'), url(/assets/fonts/poppins/Poppins-LightItalic.ttf) format('truetype'), url(/assets/fonts/poppins/popin-light-italic.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  src: local('Poppins Medium'), local('Poppins-Medium'), url(/assets/fonts/poppins/Poppins-Medium.ttf) format('truetype'), url(/assets/fonts/poppins/popin-medium.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: 'Poppins';
+  font-style: italic;
+  font-weight: 500;
+  src: local('Poppins Medium'), local('Poppins-Medium'), url(/assets/fonts/poppins/Poppins-MediumItalic.ttf) format('truetype'), url(/assets/fonts/poppins/popin-medium-italic.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+
+
+$font: (
+  title:         ('Jetbrain-Extrabold', 'Lucida Console', Monaco, monospace),
+  family:        ('Poppins', 'Arial', 'Helvetica', sans-serif),
+  family-fixed:  ('Jetbrain-Regular', 'Lucida Console', Monaco, monospace),
+  weight:       400,
+  weight-bold:  700,
+  kerning:      0em,
+  kerning-alt:  0.125em
+);
+:root {
+  --border-radius: 3px;
+  --max-width: 1000px;
+  --anim-speed: 200ms;
+
+}
+
+// // Palette.
+// $palette: (
+
+//   bg:         #0C0F0A, 
+//   bg-alt:     rgba(12, 15, 10, 0.5), 
+//   fg:         #FFFFFF,
+//   fg-alt:     rgba(255, 255, 255, 0.5),
+//   border:     #000000,
+//   border-alt: rgba(0, 0, 0, 0.75),
+//   accent1:    #41EAD4,
+//   accent1-alt:rgba(65, 234, 212, 0.75),
+//   accent2:    #FF206E,
+//   accent2-alt:rgba(255, 32, 110, 0.75),
+
+// );

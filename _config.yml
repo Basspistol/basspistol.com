@@ -48,7 +48,7 @@ categories:
 
 collections:
   albums:
-    output: true
+    output: false
     permalink: /albums/:name/
   tracks:
     output: true
@@ -105,7 +105,7 @@ defaults:
     values:
       layout: "post"
       lang: en
-      permalink: /:title/
+      permalink: /:categories/:slug/
       _options:
         image:
           width: 1024
@@ -116,4 +116,6 @@ defaults:
           width: 720
           height: 720
           resize_style: cover
-          uploads_dir: "/images"  
+          uploads_dir: "/images"
+
+

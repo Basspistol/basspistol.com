@@ -1,7 +1,13 @@
 
 <div id="cookie-notice">
-  {{ site.data.translations[page.lang].cookies }}
-    <a class="button small yes" href="#" id="cookie-notice-accept">{{ site.data.translations[page.lang].cookie-agree }}</a>
+
+  <p>Vi använder bara cookies om du går med på det. Hjälp oss förbättra våran marknadsföring!  
+    <br />Klicka <a href="#" id="cookie-notice-decline">här</a> om du inte vill hjälpa till.
+    <br />Läs mer om <a href="/cookies/">hur vi använder cookies,</a>
+  </p>
+  <a class="button yes" href="#"
+    id="cookie-notice-accept">Jag hjälper gärna!</a>
+
 </div>
 
 <script>
@@ -12,7 +18,7 @@
       date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
       expires = "; expires=" + date.toUTCString();
     }
-    document.cookie = name + "=" + value + expires + "; path=/";
+    document.cookie = name + "=" + value + expires + "; path=/;SameSite=Strict";
   }
   function readCookie(name) {
     var nameEQ = name + "=";

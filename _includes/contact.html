@@ -1,42 +1,47 @@
-<!-- Contact -->
-<section id="contact" class="wrapper style1 align-center">
-  <div class="inner medium">
-    <h2 class="editable">
-      
-    </h2>
-    <form action="{{ site.baseurl }}/contact-success/" method="post">
-      <input type="hidden" name="_to" value="setto@basspistol.com" /><br />
-      <input type="text" name="_gotcha" style="display: none;" />
-      <div class="fields">
-        <div class="field half">
-          <label for="name">{{ site.data.translations[page.lang].name }}</label>
-          <input type="text" name="name" id="name" placeholder="{{ site.data.translations[page.lang].name }} {{ site.data.translations[page.lang].lastname }}" />
-        </div>
-        <div class="field half">
-          <label for="email">{{ site.data.translations[page.lang].email }}</label>
-          <input type="email" name="email" placeholder="{{ site.data.translations[page.lang].required }}" required />
-        </div>
-        <div class="field">
-          <label for="message">{{ site.data.translations[page.lang].message }}</label>
-          <textarea name="message" id="message" rows="6" placeholder="{{ site.data.translations[page.lang].write-msg }}"></textarea>
-        </div>
+<!-- BEGIN contact.html -->
+<section id="contact">
+  <div>
+    <form action="{{ relBase }}/contact-success/" method="post" class="contact-form">
+      <div>
+        <h2>Kontakta oss!</h2>
+        <input type="hidden" name="_to" value="{{ site.publisher.mail }}" /><br />
+        <input type="text" name="_gotcha" style="display: none;" />
       </div>
-      <div style="text-align: left;">
-        <input type="checkbox" name="consent" id="consent" required />
-        <label for="consent">{{ site.data.translations[page.lang].privacy }}
-        </label>
-        <br /><br />
-
-        <input type="checkbox" name="newsletter" id="newsletter" />
-        <label for="newsletter">{{ site.data.translations[page.lang].newsletter }}
+      <div class="contact-info">
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" placeholder="Email..." required class="contact" />
+        {% if page.url == '/fr-fretag/' %}
+        <label for="phone">Phone</label>
+        <input type="tel" name="telephone" id="telephone" placeholder="Telefonnumer..." required
+          class="contact" />
+        <label for="name">Name</label>
+        <input type="name" name="name" id="name" placeholder="Namn och efternamn..." required class="contact" />
+        <label for="company">Företag</label>
+        <input type="company" name="company" id="company" placeholder="Företag..." required
+          class="contact" />
+        {% endif %}
+      </div>
+      <div>
+        <label for="message">Meddelande</label><br />
+        <textarea name="message" id="message" placeholder="Skriv ditt meddelande här..." required
+          class="contact textspace"></textarea>
+      </div>
+      <br />
+      <div>
+        <input type="checkbox" name="consent" id="consent" required class="css-checkbox lrg klaus" /><label
+          for="consent" class="css-label lrg klaus">Jag godkänner <a href="/cookies/">integritets policyn</a>
         </label>
       </div>
-<br />
-      <ul class="actions special">
-        <li><input type="submit" name="submit" id="submit" value="{{ site.data.translations[page.lang].send }}" /></li>
-      </ul>
+      <br />
+      <div>
+        <input type="checkbox" name="news" id="news" class="css-checkbox lrg klaus" /><label for="news"
+          class="css-label lrg klaus">Jag vill ha nyheter</label>
+      </div>
+      <br />
+      <div>
+        <input type="submit" class="button" value="Send Message" />
+      </div>
     </form>
-
   </div>
 </section>
-<!-- END Contact -->
+<!-- END contact.html -->

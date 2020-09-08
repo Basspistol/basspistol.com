@@ -11,68 +11,57 @@ tags:
   - EP
 video_path: /assets/vid/discogs.mp4
 image: /assets/vid/discogs.jpg
+layout: default
 ---
+{% include relBase.html %}
+{% include header.html %}
 
-<!-- Banner -->
-<section class="banner onload-image-fade-in onload-content-fade-right style2 fullscreen content-align-center image-position-center" style="min-height:100vh;">
-  <div class="content editable">
-    <h1 class="editable">{{ page.subtitle }}</h1>
-    <p>{{ page.description }}</p>
-    <ul class="actions stacked">
-      <li><a href="#moe" class="button small smooth-scroll">cheggit!</a></li>
-    </ul>
-  </div>
-  <div class="image">
-    <img src="{{ relBase }}{{ page.image }}" alt="{{ page.title }}" class="editable" />
-  </div>
-</section>
-
-<section class="wrapper style1 align-center" id="moe">
-
-  <div class="inner">
-    <h2 class="editable">Records that we distribute</h2>
-    <p class="editable">All these bases are belong to the Artists. Basspistol is merly the messenger. We're proud of this list, even if it was just lended to us by the authors of each entry. Support them, buy there records and merch.</p>
-  </div>
-
-</section>
 
 {% assign sorted = site.albums | sort: 'date' | reverse %}
 {% for album in sorted %}
+{% for post in site.posts %}
+{% if album.slug == post.album %}
 
-<section class="spotlight style4 orient-{% cycle 'left', 'right' %} content-align-left image-position-center onscroll-image-fade-in" {% if forloop.index == 1 %}style="box-shadow: none;" {% endif %}>
-  <div class="content">
-    <h1>{{ album.title }}</h1>
+<section class="front-section">
+
+  <div style="background-image:url({{ site.mediaurl }}/{{ album.tracks[0].slug }}.jpeg)">
+    <p class="editor-link"><a href="cloudcannon:collections/_albums/{{ post.path }}" rel="nofollow"
+        class="btn"><strong>&#9998;</strong> Edit Posy</a></p>
+  </div>
+  <div class="description">
+    <div class="container">
+      <div>
+        <h2>{{ album.title }}</h2>
 
 
 
-    <p>{{ album.date | date: '%Y' }}</p>
+        <p>{{ album.date | date: '%Y' }}</p>
+        
+        {% for track in album.tracks %}
+        <p style="margin-bottom: 30px;font-size: 14px">
+          <strong>{{ track.common.track.no }}. {{ track.common.title }}</strong><br />
+          <span>{% assign round_seconds = track.format.duration | round %}{% assign minutes = round_seconds | divided_by: 60 %}{% assign leftover_seconds = minutes | times: 60 %}{{ minutes }}:{% assign seconds_without_zero = round_seconds | minus: leftover_seconds %}{% if seconds_without_zero < 10 %}0{% endif %}{{ seconds_without_zero }}</span> | 
+          <span style="font-size: 14px">{{ track.common.genre }} </span>
+        </p>
+       
     
-    {% for track in album.tracks %}
-    <p style="margin-bottom: 30px;font-size: 14px">
-      <strong>{{ track.common.track.no }}. {{ track.common.title }}</strong><br />
-      <span>{% assign round_seconds = track.format.duration | round %}{% assign minutes = round_seconds | divided_by: 60 %}{% assign leftover_seconds = minutes | times: 60 %}{{ minutes }}:{% assign seconds_without_zero = round_seconds | minus: leftover_seconds %}{% if seconds_without_zero < 10 %}0{% endif %}{{ seconds_without_zero }}</span> | 
-      <span style="font-size: 14px">{{ track.common.genre }} </span>
-    </p>
-   
-
-
-    {% endfor %}
-
-<br />
-    <ul class="actions stacked">
-      <li><a href="{{ album.url }}" class="button small icon solid fa-volume-up">Listen</a>
-      </li>
-    </ul>
+    
+        {% endfor %}
+      </div>
+     
+      <div>
+        <p><a class="button" href="{{ relBase }}{{ post.url }}">Read Highlight</a></p>
+      </div>
+  
+    </div>
   </div>
 
-  <div class="image">
-    <img src="{{ relBase }}{{ album.cover }}" alt="{{ album.title }}" title="{{ album.title }}" />
-
-  </div>
 </section>
+{% endif %}
+{% endfor %}
 
 {% endfor %}
 
-{% include streamer.html %}
+
 
 {% include footer.html %}

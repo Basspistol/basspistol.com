@@ -7,7 +7,7 @@ _paq.push(['enableLinkTracking']);
 (function() {
   var u="https://terminalnetwork.matomo.cloud/";
   _paq.push(['setTrackerUrl', u+'matomo.php']);
-  _paq.push(['setSiteId', '3']);
+  _paq.push(['setSiteId', '{{ site.matomo_site_id }}']);
   var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-  g.type='text/javascript'; g.async=true; g.defer=true; g.src='//cdn.matomo.cloud/terminalnetwork.matomo.cloud/matomo.js'; s.parentNode.insertBefore(g,s);
+  g.type='text/javascript'; g.async=true; g.defer=true; g.src='https://cdn.matomo.cloud/terminalnetwork.matomo.cloud/matomo.js'; s.parentNode.insertBefore(g,s);
 })();

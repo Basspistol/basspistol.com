@@ -11,9 +11,9 @@
   (function() {
     var u="https://terminalnetwork.matomo.cloud/";
     _paq.push(['setTrackerUrl', u+'matomo.php']);
-    _paq.push(['setSiteId', '3']);
+    _paq.push(['setSiteId', '{{ site.matomo_site_id }}']);
     var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-    g.type='text/javascript'; g.async=true; g.defer=true; g.src='//cdn.matomo.cloud/terminalnetwork.matomo.cloud/matomo.js'; s.parentNode.insertBefore(g,s);
+    g.type='text/javascript'; g.async=true; g.defer=true; g.src='https://cdn.matomo.cloud/terminalnetwork.matomo.cloud/matomo.js'; s.parentNode.insertBefore(g,s);
   })();
 
 //* End Matomo *//
@@ -26,7 +26,7 @@
   var _mtm = _mtm || [];
   _mtm.push({'mtm.startTime': (new Date().getTime()), 'event': 'mtm.Start'});
   var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-  g.type='text/javascript'; g.async=true; g.defer=true; g.src='https://cdn.matomo.cloud/terminalnetwork.matomo.cloud/container_fHO88MfH.js'; s.parentNode.insertBefore(g,s);
+  g.type='text/javascript'; g.async=true; g.defer=true; g.src='https://cdn.matomo.cloud/terminalnetwork.matomo.cloud/container_{{ site.matomo_container }}.js'; s.parentNode.insertBefore(g,s);
 
 //* End Matomo Tag Manager *//
 {% endif %}

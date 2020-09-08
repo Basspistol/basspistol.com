@@ -65,7 +65,7 @@ sitemap: false
 <h3>Blocking cookies</h3>
 <p>You can set most modern browsers to prevent any cookies being placed on your device, but you may then have to manually adjust some preferences every time you visit a site/page. And some services and functionalities may not work properly at all (e.g. profile logging-in).</p>
 <h3>Opting out of all of log-analytics</h3>
-<p>(if you can't see a dialogue box here, you are already opted out by your browser and/or any of it's add-ons)<br /><br /><iframe style="border: 0; height: 300px; width: 300px;" src="https://terminalnetwork.matomo.cloud/index.php?module=CoreAdminHome&amp;action=optOut&amp;language=en&amp;backgroundColor=000000&amp;fontColor=ffffff&amp;fontSize=&amp;fontFamily=sans-serif"></iframe></p>
+<p>(if you can't see a dialogue box here, you are already opted out by your browser and/or any of it's add-ons)<br /><br /><iframe style="border: 0; height: 420px; width: 240px;" src="https://terminalnetwork.matomo.cloud/index.php?module=CoreAdminHome&amp;action=optOut&amp;language=en&amp;backgroundColor=000000&amp;fontColor=ffffff&amp;fontSize=&amp;fontFamily=sans-serif"></iframe></p>
 
 
 <h2 id="privacythingy">Personal data protection</h2>

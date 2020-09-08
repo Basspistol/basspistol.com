@@ -13,7 +13,7 @@ description: >-
   Paperplattunes and the uncertain future of free publications implicating links
   to data in a semi-regulated data-market is kinda uncertain #SWOUP
 uid: sparktapeculrywolverine
-image: /assets/img/Screenshot at 2019-04-02 17-42-40.png
+image: '/assets/img/Screenshot-at-2019-04-02-17-42-40.png'
 download:
 link: 'https://smt.xxx/'
 album:

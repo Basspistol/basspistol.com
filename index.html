@@ -16,236 +16,96 @@ tags:
 video_path: /assets/vid/intro_loop_.mp4
 image: /assets/vid/intro_loop_.jpg
 logo_image: /siteicon.png
+layout: default
 ---
 {% include relBase.html %}
-<!-- Banner -->
-<section
-  class="banner onload-image-fade-in onload-content-fade-right style5 fullscreen content-align-center image-position-center;"
-  style="background-size:cover;background-repeat:no-repeat;background-position: center;min-height: 100vh;">
-  <div
-    style="z-index:0;position:absolute; top:0; left:0; width:100%;min-height:100%;background-color: rgba(13, 13 ,13, 0.5);">
-  </div>
-  <div class="content" style="z-index:1">
-    <h1 style="margin-top:80px">{{ page.title }}</h1>
 
+<header class="hero" id="top"
+  style="{% unless page.video_path %}background-image: url({{ page.image }});{% endunless %}">
+  <div class="imagecontainer">
+  </div>
+
+
+</header>
+<section class="splash">
+<div class="container">
+  <div class="splash-logo">
+    <img src="{{ site.logo }}" width="240px" alt="{{ site.title }} Logo" />
+  </div>
+  <div>
+
+    <h1>{{ site.title }}</h1>
     <p>{{ page.description }}</p>
-    <ul class="actions stacked">
-      <li><a href="#music" class="button small smooth-scroll">Gimme Music!</a></li>
-    </ul>
   </div>
-
-  <div class="image">
-    <img src="{{ relBase }}{{ page.logo_image }}" alt="{{ site.title }} logo" />
-  </div>
+</div>
 </section>
 
-<!-- Radio -->
-<section
-  id="music"
-  class="banner onload-image-fade-in onload-content-fade-right style3 fullscreen content-align-left image-position-center">
-  <div style="z-index:0;position:absolute; top:0; left:0; width:100%;min-height:100%;"></div>
+<section class="section-title">
+  <div class="container">
+    <h2>Latest News</h2>
+  </div>
+</section>
+{% for post in site.posts limit: 3 %}
+{% if post.category == 'ramblings' %}
+<section class="front-section">
+
+  <div style="background-image:url({{ post.image }})">
+    <p class="editor-link"><a href="cloudcannon:collections/_posts/{{ post.path }}" rel="nofollow"
+        class="btn"><strong>&#9998;</strong> Edit Posy</a></p>
+  </div>
+  <div class="description">
+    <div class="container">
+      <div class="">
+        <h3>{{ post.title }}</h3>
+        {{ post.description  }}
+      </div>
+     
+      <div>
+        <p><a class="button" href="{{ relBase }}{{ post.url }}">Read Highlight</a></p>
+      </div>
   
-  <div id="mainwrap" class="content" style="z-index:1">
-    <h1 style="margin-top:80px">Radio</h1>
-    <div id="radioPlaceholder"></div> 
-    <p><strong><span id="tracktime"></span></strong><br /></p>
-
-
- 
-    <ul class="actions stacked">
-      <li><button id="mu_pause" class="button small icon solid fa-play">Play!</button></li>
-    </ul>
+    </div>
   </div>
 
-  <div id="noJSalbum" style="z-index:1000;">
-    <h1 style="margin-top:80px">Radio</h1>
-    <div id="radioPlaceholder"></div> 
-    <p><strong><span id="tracktime"></span></strong><br /></p>
-
-
- 
-  <a href="https://radio.basspistol.com/radio.mp3" id="mu_pause" class="button smaller icon solid fa-play">MP3</a> <a href="https://radio.basspistol.com/radio.ogg" id="mu_pause" class="button smaller icon solid fa-play">OGG</a>
-
-
-
-
-  </div>
-
-  <div class="image">
-    <img src="{{ relBase }}/assets/vid/radio.jpg" alt="{{ page.title }} logo" id="coverart" />
-  </div>
 </section>
+{% endif %}
+{% endfor %}
 
+<section class="releases">
+  <h2>Releases</h2>
+  <div class="container">
+  {% assign sorted = site.albums | sort: 'date' | reverse %}
+  {% for album in sorted %}
+  {% for post in site.posts %}
+  {% if album.slug == post.album %}
 
+  <article>
+    <figure>
+      <a href="{{ post.url }}">
+        <img src="{{ site.mediaurl }}/{{ album.tracks[0].slug }}.jpeg" alt="Cover art for {{ post.title }}" /></a>
+      <figcaption>
+        <strong>{{ album.name }}</strong><br />
 
-<!-- Audio player-->
-
-<audio preload="none" data-matomo-title="Basspistol Radio">
-  <source src="https://radio.basspistol.com/radio.mp3" type="audio/mpeg" ontimeupdate='updateTrackTime(this);' />
-  <source src="https://radio.basspistol.com/radio.ogg" type="audio/ogg" ontimeupdate='updateTrackTime(this);' />
-  <h1>Your browser isn't ready for so much hotness. Use the download-link instead.</h1>.
-</audio>
-
-
-<script type="text/javascript">
-  function loadUrl(newLocation) {
-    window.location = newLocation;
-    return false;
-  }
-
-  var mu = document.getElementsByTagName("audio")[0];
-  var pauseButton = document.getElementById("mu_pause");
-  var spincover = document.getElementById("coverart");
-  var links = document.getElementsByTagName('a');
-
-  mu.addEventListener('ended', function () {
-    // only functional if "loop" is removed
-    mu.pause();
-    mu.currentTime = 0;
-    loadUrl("{{ relBase }}/{{ page.nextTrack.slug }}/"); return false;
-  });
-  mu.onplaying = function() {
-    pauseButton.innerHTML = "Pause";
-    pauseButton.classList.remove("fa-play");
-    pauseButton.classList.add("fa-pause");
-    spincover.classList.add("spinnit");
-    spincover.classList.remove("paused");
-    for (var i=0, len=links.length; i < len; i++) {
-      links[i].target = '_blank';
-    }
-  }; 
-
-  pauseButton.addEventListener("click", function () {
-    if (mu.paused) {
-      mu.play();
-
-    }
-    else {
-      mu.pause();
-      pauseButton.innerHTML = "Resume";
-      pauseButton.classList.add("fa-play");
-      pauseButton.classList.remove("fa-pause");
-      spincover.classList.add("paused");
-
-    }
-  });
-
-  mu.addEventListener('timeupdate', function () {
-    var timestamp = Math.floor(mu.currentTime);
-    var hours = Math.floor(timestamp / 60 / 60);
-    var minutes = Math.floor(timestamp / 60) - (hours * 60);
-    var seconds = timestamp % 60;
-    var formatted = hours.toString().padStart(2, '0') + ':' + minutes.toString().padStart(2, '0') + ':' + seconds.toString().padStart(2, '0');
-    var thecurrentSpan = document.getElementById("tracktime");
-    thecurrentSpan.innerHTML = formatted;
-  });
-
-</script>
-<!-- End Radio -->
-{% include streamer.html %}
-<!-- Posts -->
-
-{% for post in site.posts limit: '2' %}
-
-<section id="album{% increment var %}"
-  class="section-shadow banner style1 orient-{% cycle 'left', 'right' %} content-align-{% cycle 'right', 'left' %} image-position-center fullscreen onload-image-fade-in onload-content-fade-right">
-
-  <div class="content">
-    <h1>{{ post.title }}</h1>
-    <p>{{ post.description }}</p>
-    {% if post.category == 'releases' %}
-    {% capture album_name -%}
-    {{ post.album }}
-    {%- endcapture %}
-    {% for album in site.albums %}
-    {% capture name -%}
-    {{ album.relative_path | replace_first: album.collection, '' | replace_first: '_/', '' | replace_first: '.md', '' }}
-    {%- endcapture %}
-    {% if name == album_name %}
-    <p>{{ album.date | date: '%Y' }}</p>
+        {% assign total = 0 %}
+        {% for track in album.tracks %}
+          {% assign total = total | plus: track.format.duration %}
+        {% endfor %}
     
-    {% for track in album.tracks %}
-    <p style="margin-bottom: 30px;font-size: 14px">
-      <strong>{{ track.common.track.no }}. {{ track.common.title }}</strong><br />
-      <span id="{{ track.common.title | slugify | remove: '-'  }}"></span> | 
-      <span style="font-size: 14px">{{ track.common.genre }} </span>
-    </p>
-   
 
-    <script type="text/javascript">
-      var {{ track.common.title | slugify | remove: '-'  }}timestamp = {{ track.format.duration | round }};
-      var {{ track.common.title | slugify | remove: '-'  }}hours = Math.floor({{ track.common.title | slugify | remove: '-'  }}timestamp / 60 / 60);
-      var {{ track.common.title | slugify | remove: '-'  }}minutes = Math.floor({{ track.common.title | slugify | remove: '-'  }}timestamp / 60) - ({{ track.common.title | slugify | remove: '-' }}hours * 60);
-      var {{ track.common.title | slugify | remove: '-'  }}seconds = {{ track.common.title | slugify | remove: '-' }}timestamp % 60;
-      var {{ track.common.title | slugify | remove: '-'  }}formatted = {{ track.common.title | slugify | remove: '-' }}hours.toString().padStart(2, '0') + ':' + {{ track.common.title | slugify | remove: '-' }}minutes.toString().padStart(2, '0') + ':' + {{ track.common.title | slugify | remove: '-' }}seconds.toString().padStart(2, '0');
-      var theSpan = document.getElementById("{{ track.common.title | slugify | remove: '-'  }}");
-      theSpan.innerHTML = {{ track.common.title | slugify | remove: '-' }}formatted;
-    </script>
-    {% endfor %}
-    {% break %} {% endif %} {% endfor %}
-    {% endif %}
-    
+        {% assign round_seconds = total | round %}{% assign minutes = round_seconds | divided_by: 60 %}{% assign leftover_seconds = minutes | times: 60 %}{{ minutes }}:{% assign seconds_without_zero = round_seconds | minus: leftover_seconds %}{% if seconds_without_zero < 10 %}0{% endif %}{{ seconds_without_zero }}
+
 <br />
-    <ul class="actions stacked">
-      
-      <li><a href="{{ relBase }}{{ post.url }}"
-          class="button small {% if post.category == 'releases' %}icon solid fa-volume-up{% endif %}">{% if post.category == 'releases' %}Listen{% else %}Read more{% endif %}</a>
-      </li>
-    </ul>
-  </div>
-
-  <div class="image">
-    <img src="{{ relBase }}{{ post.image }}" alt="{{ post.title }}" title="{{ post.title }}" />
-
-  </div>
-</section>
-
-{% endfor %}
 
 
+        {{ album.date | date: '%Y' }}
+      </figcaption>
+    </figure>
+  </article>
 
-<!-- Releases -->
-
-
-
-
-
-
-<section class="wrapper style1 align-center">
-  <div class="inner" style="padding-top: 40px;">
-    <h2>Releases</h2>
-    <p>Collection of releases through time</p>
-  </div>
+  {% endif %}
+  {% endfor %}
+  {% endfor %}
+</div>
 </section>
 
 
-
-
-
-
-{% assign sorted = site.albums | sort: 'date' | reverse %}
-{% for album in sorted %}
-
-<section class="spotlight style5 orient-{% cycle 'left', 'right' %} content-align-{% cycle 'right', 'left' %} image-position-center onscroll-image-fade-in" {% if forloop.index == 1 %}style="box-shadow: none;" {% endif %}>
-
-
-  <div class="content">
-            <h3>{{ album.title }}</h3>
-        <p>{{ album.date | date: "%Y" }}</p>
-    <!-- <p>{{ artist.bio }}</p> -->
-
-    <ul class="actions stacked">
-      <li><a href="{{ album.url }}" style="text-decoration:none;" class="button small icon solid fa-volume-up">Listen</a></li>
-    </ul>
-  </div>
-  <div class="image">
-    <img src="{{ site.mediaurl }}/{{ album.slug }}/{{ album.tracks[0].trackSlug }}.jpeg" alt="{{ album.title | smartify }}" />
-  </div>
-
-</section>
-
-{% endfor %}
-
-<!-- END Insta -->
-
-{% include footer.html %}

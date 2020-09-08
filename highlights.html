@@ -12,40 +12,38 @@ tags:
 video_path: /assets/vid/highlights.mp4
 image: /assets/vid/highlights.jpg
 permalink: /highlights/
+layout: default
 ---
-
 {% include relBase.html %}
-<!-- Banner -->
-<section class="banner onload-image-fade-in onload-content-fade-right style2 fullscreen content-align-center image-position-center">
+{% include header.html %}
 
-  <div class="image">
-    <img src="{{ relBase }}{{ page.image }}" alt="{{ page.title | smartify }}" class="editable" />
-  </div>
-</section>
-<!-- NEWS -->
-<section id="news" class="wrapper style1 align-center">
-  <div class="inner" style="padding-top: 40px;">
-    <h1>{{ page.title }}</h1>
-    <p>{{ page.description }}</p>
-  </div>
-</section>
+
+
 {% for post in site.posts %}
+{% if post.category == 'ramblings' %}
+<section class="front-section">
 
-<section id="second" class="spotlight style4 orient-{% cycle 'left', 'right' %} content-align-left image-position-center onscroll-image-fade-in" {% if forloop.index == 1 %}style="box-shadow: none;" {% endif %}>
-  <div class="content">
-    <h2>{{ post.title }}</h2>
-    <p>{{ post.description }}</p>
-    <p class="editor-link"><a class="btn" rel="nofollow" href="cloudcannon:collections/{{ post.path }}">
-      <strong>&#9998;</strong> Edit Post
-    </a></p>
-    <ul class="actions stacked">
-      <li><a href="{{ relBase }}{{ post.url }}" class="button small">Read more</a></li>
-    </ul>
+  <div style="background-image:url({{ post.image }})">
+    <p class="editor-link"><a href="cloudcannon:collections/_posts/{{ post.path }}" rel="nofollow"
+        class="btn"><strong>&#9998;</strong> Edit Posy</a></p>
   </div>
-  <div class="image">
-    <img src="{{ relBase }}{{ post.image }}" alt="{{ page.title | smartify }}" />
+  <div class="description">
+    <div class="container">
+      <div class="">
+        <h3>{{ post.title }}</h3>
+        {{ post.description  }}
+      </div>
+     
+      <div>
+        <p><a class="button" href="{{ relBase }}{{ post.url }}">Read Highlight</a></p>
+      </div>
+  
+    </div>
   </div>
+
 </section>
-
+{% endif %}
 {% endfor %}
+
+
 {% include footer.html %}

@@ -1,43 +1,13 @@
 ---
 layout: default
 ---
-
 {% include relBase.html %}
-
-<!-- Banner -->
-<section class="banner onload-image-fade-in onload-content-fade-right style2 fullscreen content-align-center image-position-center" style="min-height:100vh;">
-
-  <div class="content">
-    <h1>{{ page.title }}</h1>
-    <p>{{ page.description }}</p>
-  </div>
-
-  <div class="image">
-    <img src="{{ page.image }}" alt="unfound page" />
+{% include header.html %}
+<section class="info" id="read">
+  <div class="info-pages">
+    {{ content }}
   </div>
 </section>
-<!-- Content -->
-<section class="wrapper style1 align-center">
-  <div class="inner">
-
-    <div class="index align-left">
-      <!-- Author -->
-      <section>
-        {% if page.url != '/cookies/' %}
-        {% if page.url != '/webcreds/' %}
-        {% include author.html %}
-        {% endif %}{% endif %}
-        <!-- Content -->
-        <div class="content">
-          {{ content }}
-
-        </div>
-      </section>
-    </div>
-  </div>
-</section>
-
-
-
-
-{% include footer.html %}
+{% if page.url == '/fr-fretag/' %}
+{% include contact.html %}
+{% endif %}

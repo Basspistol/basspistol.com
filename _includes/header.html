@@ -1,0 +1,26 @@
+{% include relBase.html %}
+<header class="hero" id="top"
+  style="{% unless page.video_path %}background-image: url({{ page.image }});{% endunless %}">
+  <div class="imagecontainer">
+  </div>
+
+
+</header>  {% unless page.collection == 'posts' %}
+<section class="splash">
+<div class="container">
+
+  <div class="splash-logo">
+    <img src="{{ site.logo }}" width="240px" alt="{{ site.title }} Logo" />
+  </div>
+
+  <div>
+    
+
+    <h1>{{ page.title }}</h1>
+    <p>{{ page.description }}</p>
+  </div>
+</div>
+</section>
+{% endunless %}
+
+

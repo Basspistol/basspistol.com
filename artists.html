@@ -18,45 +18,33 @@ video_path: /assets/vid/artists.mp4
 image: /assets/vid/artists.jpg
 ---
 
-
 {% include relBase.html %}
-<!-- Banner -->
-<section class="banner onload-image-fade-in onload-content-fade-right style2 fullscreen content-align-center image-position-center">
+{% include header.html %}
 
-  <div class="image">
-    <img src="{{ relBase }}{{ page.image }}" alt="{{ page.title | smartify }}" class="editable" />
-  </div>
-</section>
-<!-- NEWS -->
-<section id="news" class="wrapper style1 align-center">
-  <div class="inner" style="padding-top: 40px;">
-    <h1>{{ page.title }}</h1>
-    <p>{{ page.description }}</p>
-    <p>Our Artists are free and independent: We have no exclusivity deals. If you feel you can offer these Geniuses a better deal then <a href="https://github.com/Basspistol/Music-Syndicate" target="_blank" rel="noopener">ours,</a> you should contact them ASAP</p>
-  </div>
-</section>
+
 {% assign sorted = site.data.artists | sort: 'id' %}      
-{% for artist in sorted %}
+{% for post in sorted %}
 
-<section id="second" class="spotlight style2 orient-{% cycle 'left', 'right' %} content-align-{% cycle 'right', 'left' %} image-position-center onscroll-image-fade-in" {% if forloop.index == 1 %}style="box-shadow: none;" {% endif %}>
-  <div class="content">
-    <h2>{{ artist.display_name }}</h2>
-    <!-- <p>{{ artist.bio }}</p> -->
+<section class="front-section">
 
-    <ul class="actions stacked">
-      <li><a href="{{ artist.web }}?ref=TheOuternationalMusicSyndicate" target="_blank" rel="noopener" style="text-decoration:none;" class="button small icon solid fa-external-link-alt">Visit</a></li>
-    </ul>
+  <div style="background-image:url({{ post.image }})">
+    <p class="editor-link"><a href="cloudcannon:collections/_artists/{{ post.path }}" rel="nofollow"
+        class="btn"><strong>&#9998;</strong> Edit Posy</a></p>
   </div>
-  <div class="image">
-    <img src="{{ relBase }}{{ artist.image }}" alt="{{ artist.display_name | smartify }}" />
+  <div class="description">
+    <div class="container">
+      <div class="">
+        <h3></h3>
+        {{ post.description  }}
+      </div>
+     
+      <div>
+        <p><a class="button" href="{{ relBase }}{{ post.link }}">🌍 {{ post.display_name }}</a></p>
+      </div>
+  
+    </div>
   </div>
+
 </section>
 
 {% endfor %}
-{% include footer.html %}
-
-
-
-
-</body>
-</html>
