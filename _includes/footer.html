@@ -15,10 +15,18 @@
         {% endfor %}
       </ul>
     </div>
+
     <div><a href="#main-wrapper"><img src="{{ relBase }}{{ site.icon }}" alt="{{ site.title }} Logo" /></a></div>
 
     <small>
-
+      <div style="text-align: center;">
+        {% for nw in site.data.social %}
+        <a target="_blank" alt="{{ site.title }} on {{ nw.name }}" title="{{ site.title }} on {{ nw.name }}" rel="{% if nw.url contains 'mastodon.art' %}me {% endif %}noopener"
+          href="{{ nw.url }}" class="icon small fab {{ nw.icon }}"><span class="label">{{ nw.name }}</span></a>
+        {% endfor %}
+        <a target="_blank" alt="email" title="email" href="mailto:{{ site.social.mail }}" class="icon small fas fa-envelope-open-text"><span
+          class="label">Email</span></a>
+      </div>
       <p>&copy;{{ site.time | date: '%Y' }} {{ site.publisher.name }} | <a href="{{ relBase }}/webcreds/">Credits</a> |
         <a href="{{ relBase }}/cookies/">Cookies & Privacy</a>
         <br />This page was last updated on {{ page.last_modified_at | date: "%A, %b %d, %Y" }}</p>
