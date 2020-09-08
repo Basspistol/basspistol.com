@@ -18,17 +18,27 @@ image: /assets/vid/links.jpg
 
 {% assign sorted = site.data.links | sort: 'title' %}
 {% for post in sorted %}
-<section class="links" style="margin:0;">
+<section class="front-section">
 
-<!-- <div class=linksbg></div> -->
-<div class="description">
-  <h2>{{ post.title }}</h2>
-
-  <p>{{ post.description }}</p>
-<p><a href="{{ post.url }}?ref=ToSettoSetto" class="button" rel="noopener" target="_blank">Visit</a></p>
-</div>
-
+  <div style="background-image:url({{ post.image }})">
+    <p class="editor-link"><a href="cloudcannon:collections/_posts/{{ post.path }}" rel="nofollow"
+        class="btn"><strong>&#9998;</strong> Edit Posy</a></p>
+  </div>
+  <div class="description">
+    <div class="container">
+      <div class="">
+        <h3>
+        {{ post.banner  }}
+      </h3>
+      </div>
+     
+      <div>
+        <p><a class="button" href="{{ post.url }}" rel="noopener" target="_blank">{{ post.title }}</a></p>
+      </div>
   
+    </div>
+  </div>
+
 </section>
 
 {% endfor %}

@@ -85,12 +85,16 @@ body {
       height: auto; 
       min-height: 100px; 
       line-height: .85em;
-      letter-spacing: -0.11em;
+      letter-spacing: -0.08em;
       color: var(--bg-alt);
       font-size: 12vw; 
       display: inline;
       opacity: 1;
       border-radius: var(--border-radius);
+      position: absolute;
+      top: 0;
+      left: 0;
+
     }
   }
 }
