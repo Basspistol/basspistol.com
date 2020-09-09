@@ -11,7 +11,7 @@ layout:
 uid: ''
 image: ''
 download: ''
-link: ''
+link: 
 check_this_if_cannot_be_bought: false
 stores:
   - name:

@@ -41,9 +41,9 @@ title : The Basspistol RSS Feed
   {% for post in site.posts %}
       <item>
         <title>{{ post.title | xml_escape }}</title>
-        <link>{% if post.link != '' %}{{ post.link }}{% else %}{{ site.url }}{{ post.url }}{% endif %}</link>
+        <link>{% if post.link %}{{ post.link }}{% else %}{{ site.url }}{{ post.url }}{% endif %}</link>
         <guid isPermaLink="true">{{ site.url }}{{ post.url }}</guid>
-        <description> &lt;img src=&quot;{{ site.url }}{{ post.image }}&quot; /&gt; &lt;br /&gt;{{ post.description | truncate: 150 | xml_escape }} {% if post.link != '' %}&lt;br /&gt;Full article on: &lt;a href=&quot;{{ site.url }}{{ post.url }}&quot;&gt;{{ site.url }}{{ post.url }}&lt;/a&gt;{% endif %}</description>
+        <description> &lt;img src=&quot;{{ site.url }}{{ post.image }}&quot; /&gt; &lt;br /&gt;{{ post.description | truncate: 150 | xml_escape }} {% if post.link %}&lt;br /&gt;Full article on: &lt;a href=&quot;{{ site.url }}{{ post.url }}&quot;&gt;{{ site.url }}{{ post.url }}&lt;/a&gt;{% endif %}</description>
         <category>Hi-Lights</category>
         <author>{{ post.author | xml_escape }}</author>
         <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
