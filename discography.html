@@ -40,8 +40,8 @@ layout: default
         {% for track in album.tracks %}
         <p style="margin-bottom: 30px;font-size: 14px">
           <strong>{{ track.common.track.no }}. {{ track.common.title }}</strong><br />
-          <span>{% assign round_seconds = track.format.duration | round %}{% assign minutes = round_seconds | divided_by: 60 %}{% assign leftover_seconds = minutes | times: 60 %}{{ minutes }}:{% assign seconds_without_zero = round_seconds | minus: leftover_seconds %}{% if seconds_without_zero < 10 %}0{% endif %}{{ seconds_without_zero }}</span> | 
-          <span style="font-size: 14px">{{ track.common.genre }} </span>
+          <span>{% assign round_seconds = track.format.duration | round %}{% assign minutes = round_seconds | divided_by: 60 %}{% assign leftover_seconds = minutes | times: 60 %}{{ minutes }}:{% assign seconds_without_zero = round_seconds | minus: leftover_seconds %}{% if seconds_without_zero < 10 %}0{% endif %}{{ seconds_without_zero }}</span> 
+          {% if track.common.genre %} | <span style="font-size: 14px">{{ track.common.genre }} </span>{% endif %}
         </p>
        
     
