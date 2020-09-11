@@ -27,6 +27,7 @@ layout: default
 </div>
 <!-- Content -->
 <div id="trackInfo">
+
 <section>
   <h1 style="margin-top:80px;">{{ page.common.title }}</h1>
   <p>{% for style in page.common.genre %}{{ style }}{% endfor %} by <strong>{{ page.common.artist }}</strong></p>
@@ -38,7 +39,7 @@ layout: default
 
   <p><strong>{% assign round_seconds = page.format.duration | round %}{% assign minutes = round_seconds | divided_by: 60 %}{% assign leftover_seconds = minutes | times: 60 %}{{ minutes }}:{% assign seconds_without_zero = round_seconds | minus: leftover_seconds %}{% if seconds_without_zero < 10 %}0{% endif %}{{ seconds_without_zero }}</strong></p> 
    
-  {% include streamer.html %}
+  
   {% include author.html %}
 
 
@@ -72,11 +73,7 @@ layout: default
   <p>
     {{ page.all.Comment }}
   </p>
-  {% for albumurl in site.posts %}
-  {% if albumurl.album == page.albumSlug %}
-<p><a href="{{ relBase }}{{ albumurl.url }}" class="button">See release page</a></p>
-{% endif %}
-{% endfor %}
+
 </section>
 {% for post in site.posts %}
 {% if post.album == page.albumSlug %}
