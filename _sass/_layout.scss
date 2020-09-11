@@ -137,6 +137,13 @@ footer {
   background-position: top;
   box-sizing: border-box;
   z-index: 2;
+  a {
+    color: var(--bg);
+  }
+  .icon {
+    border: 1px solid var(--bg);
+
+  }
   .footframe {
     display: flex;
     flex-wrap: wrap;
