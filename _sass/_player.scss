@@ -12,8 +12,7 @@
   max-width: var(--max-width);
   margin: auto;
   > div {
-
-    margin: 20px;
+    margin: 20px 0;
   }
 }
 
@@ -117,7 +116,7 @@ audio {
 }
 
 .plTitle {
-  left: 75px;
+  left: 40px;
   overflow: hidden;
   position: absolute;
   right: 65px;
@@ -129,8 +128,8 @@ audio {
 }
 
 .plNum {
-  padding-left: 21px;
-  width: 65px;
+  padding-left: 20px;
+  width: 20px;
 }
 
 .plLength {
