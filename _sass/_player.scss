@@ -258,11 +258,11 @@ a[id^="btn"]::-moz-focus-inner {
   text-align: right;
   .button {
     background-color: var(--accent2);
-    color: var(--fg);
+
   }
   .button:hover{
     background-color: var(--accent1);
-    color: var(--bg);
+
   }
   > div {
     > h2, a, p {

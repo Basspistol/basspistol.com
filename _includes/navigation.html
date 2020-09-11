@@ -15,13 +15,13 @@
     <a href="#close" title="Close" onclick="removeBlur()" class="close-button">X</a>
     <ul>
       {% if page.url != '/' %}
-      <li><a href="{{ relBase }}/" onclick="removeBlur()" class="button">home</a></li>
+      <li><a href="{{ relBase }}/" onclick="removeBlur()" class="button">🏡 Home</a></li>
       {% endif %}
       {% for entry in site.data.navigation %}
       {% if entry.external_site == false %}
-      <li><a href="{{ relBase }}{{ entry.url }}" onclick="removeBlur()" class="button">{{ entry.name }}</a></li>
+      <li><a href="{{ relBase }}{{ entry.url }}" onclick="removeBlur()" class="button">{{ entry.icon }} {{ entry.name }}</a></li>
       {% else %}
-      <li><a href="{{ entry.url }}" target="_blank" rel="noopener" onclick="removeBlur()" class="button">{{ entry.name }}</a></li>
+      <li><a href="{{ entry.url }}" target="_blank" rel="noopener" onclick="removeBlur()" class="button">{{ entry.icon }} {{ entry.name }}</a></li>
       {% endif %}
       {% endfor %}
 

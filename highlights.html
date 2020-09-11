@@ -17,12 +17,9 @@ layout: default
 {% include relBase.html %}
 {% include header.html %}
 
-
-
 {% for post in site.posts %}
 {% if post.category == 'highlights' %}
 <section class="front-section">
-
   <div style="background-image:url({{ post.image }})">
     <p class="editor-link"><a href="cloudcannon:collections/_posts/{{ post.path }}" rel="nofollow"
         class="btn"><strong>&#9998;</strong> Edit Posy</a></p>
@@ -33,14 +30,11 @@ layout: default
         <h3>{{ post.title }}</h3>
         {{ post.description  }}
       </div>
-     
       <div>
         <p><a class="button" href="{{ relBase }}{{ post.url }}">📰 Read Highlight</a></p>
       </div>
-  
     </div>
   </div>
-
 </section>
 {% endif %}
 {% endfor %}
