@@ -130,7 +130,6 @@ layout: default
 
 <section class="track-picker">
   <div class="full-image" style="background-image:url({{ site.mediaurl }}/{{ track.albumSlug }}/{{ track.trackSlug }}.jpeg);">
-
   </div>
   <div>
     <h2>{{ track.common.title }}</h2>
@@ -139,11 +138,7 @@ layout: default
    | <strong>{{ track.common.genre }}</strong></p>
       <p>{{ track.common.year }}</p>
     <p><a href="{{ relBase }}/tracks/{{ track.slug }}/" class="button"><span class="fas fa-play"></span> Play</a></p>
-
-
-
   </div>
-
 </section>
 
 {% endfor %}
@@ -156,17 +151,13 @@ layout: default
 
 <!-- post Naviation -->
 <section class="post-navigation">
-
-
   {% if page.previous.url or page.next.url %}
-
-
-
-  <div class="post-nav">
-
+  <div class="container">
+    <div class="post-nav">
       {% if page.previous.url %}
-      <h4><a href="{{ relBase }}{{ page.previous.url }}" alt="Read {{ page.previous.title }}" title="Read {{ page.previous.title }}"><span
-            class="fas fa-arrow-left" style="font-size:3em;text-decoration: none;"></span></a></h4>
+      <h4><a href="{{ relBase }}{{ page.previous.url }}" alt="Read {{ page.previous.title }}"
+          title="Read {{ page.previous.title }}"><span class="fas fa-arrow-left"
+            style="font-size:3em;text-decoration: none;"></span></a></h4>
       <h3>{{ page.previous.title }}</h3>
       <p>{{ page.previous.description }}</p>
       {% endif %}
@@ -178,13 +169,8 @@ layout: default
       <p>{{ page.next.description }}</p>
       {% endif %}
     </div>
-
-
-
-{% endif %}
-
-
-
+  </div>
+  {% endif %}
 </section>
 <!-- End Post Navigation -->
 
@@ -315,41 +301,34 @@ layout: default
     <div class="info-pages">
       <h1>{{ page.title }}</h1>
       {{ content }}
+      {% if page.link %}
+      <p><a href="{{ page.link }}?ref=TheMusicSyndicateWashere" target="_bank" rel="noopener" class="button">👀 Check it out!</a></p>
+      {% endif %}
     </div>
   </section>
 
 
 
-  <!-- post Naviation -->
-  <section class="post-navigation">
-
-
-    {% if page.previous.url or page.next.url %}
-  
-  
-  
-    <div class="post-nav">
-  
-        {% if page.previous.url %}
-        <h4><a href="{{ relBase }}{{ page.previous.url }}" alt="Read {{ page.previous.title }}" title="Read {{ page.previous.title }}"><span
-              class="fas fa-arrow-left" style="font-size:3em;text-decoration: none;"></span></a></h4>
-        <h3>{{ page.previous.title }}</h3>
-        <p>{{ page.previous.description }}</p>
-        {% endif %}
-      </div>
-      <div class="post-nav-next">
-        {% if page.next.url%}
-        <h4><a href="{{ page.next.url }}"><span class="fas fa-arrow-right" style="font-size:3em;"></span></a></h4>
-        <h3>{{ page.next.title }}</h3>
-        <p>{{ page.next.description }}</p>
-        {% endif %}
-      </div>
-  
-  
-  
-  {% endif %}
-  
-  
-  
-  </section>
+<!-- post Naviation -->
+<section class="post-navigation">
+  {% if page.previous.url or page.next.url %}
+  <div class="container">
+  <div class="post-nav">
+    {% if page.previous.url %}
+    <h4><a href="{{ relBase }}{{ page.previous.url }}" alt="Read {{ page.previous.title }}" title="Read {{ page.previous.title }}"><span
+          class="fas fa-arrow-left" style="font-size:3em;text-decoration: none;"></span></a></h4>
+    <h3>{{ page.previous.title }}</h3>
+    <p>{{ page.previous.description }}</p>
+    {% endif %}
+  </div>
+  <div class="post-nav-next">
+    {% if page.next.url%}
+    <h4><a href="{{ page.next.url }}"><span class="fas fa-arrow-right" style="font-size:3em;"></span></a></h4>
+    <h3>{{ page.next.title }}</h3>
+    <p>{{ page.next.description }}</p>
+    {% endif %}
+  </div>
+</div>
+{% endif %}
+</section>
 {% endif %}
