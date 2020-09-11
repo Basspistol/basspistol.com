@@ -1,5 +1,5 @@
 bg_color: 'rgb(27, 34, 65)'
-bg-alt_color: 'rgba(27, 34, 65, 0.95)'
+bg-alt_color: 'rgba(27, 34, 65, 0.15)'
 fg_color: 'rgba(160, 178, 141, 1)'
 fg-alt_color: 'rgba(160, 178, 141, 0.75)'
 border_color: 'rgb(0, 25, 1)'

@@ -94,6 +94,10 @@ body {
       bottom: 0;
       transform: rotate(-3deg);
       overflow: hidden;
+      background: -webkit-linear-gradient(90deg, var(--bg) 0%, var(--bg) 56%, var(--bg-alt) 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      filter: blur(1px);
     }
   }
 }
