@@ -7,7 +7,9 @@ layout: default
 
 <section>
  <div class="album-player">
+
 <!-- HERE BEGINS MADNESS -->
+
 {% for album in site.albums %}
 {% if page.album == album.slug %}
 {% assign onetracker = album.tracks | size %}
@@ -299,7 +301,7 @@ layout: default
   
   <section class="info" id="read">
     <div class="info-pages">
-      <h1>{{ page.title }}</h1>
+      
       {{ content }}
       {% if page.link %}
       <p><a href="{{ page.link }}?ref=TheMusicSyndicateWashere" target="_bank" rel="noopener" class="button">👀 Check it out!</a></p>
