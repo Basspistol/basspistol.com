@@ -10262,7 +10262,7 @@
   name: Psykedelisk Pop
   artists: reSet Sakrecoer
   bitrate: 128000
-  trackCount: 14
+  trackCount: 10
   cover: /assets/albums/psykedelisk-pop/1-janne-i-min-hj-rna.jpeg
   date: 2010-1-1
   tracks:
@@ -10526,261 +10526,6 @@
           Tack vare det grona...<br /></em>
         WOAS: 'https://archive.org/details/BPIST001'
     - path: >-
-        /mnt/usb32gb/organized-basspistol.media/assets/albums/psykedelisk-pop/1-janne-i-min-hj-rna.mp3
-      audio: /assets/albums/psykedelisk-pop/1-janne-i-min-hj-rna.mp3
-      slug: psykedelisk-pop/1-janne-i-min-hj-rna
-      albumSlug: psykedelisk-pop
-      trackSlug: 1-janne-i-min-hj-rna
-      coverPath: >-
-        /mnt/usb32gb/organized-basspistol.media/assets/albums/psykedelisk-pop/1-janne-i-min-hj-rna.jpeg
-      cover: /assets/albums/psykedelisk-pop/1-janne-i-min-hj-rna.jpeg
-      format:
-        tagTypes:
-          - ID3v2.4
-        trackInfo: []
-        lossless: false
-        container: MPEG
-        codec: MPEG 1 Layer 3
-        sampleRate: 44100
-        numberOfChannels: 2
-        bitrate: 128000
-        codecProfile: CBR
-        numberOfSamples: 9077760
-        duration: 205.84489795918367
-      native:
-        ID3v2.4:
-          - id: TCON
-            value: Electro Pop
-          - id: COMM
-            value:
-              language: XXX
-              description: c0
-              text: www.sakrecoer.com - www.basspistol.com
-          - id: TIT2
-            value: Janne I Min Hjärna
-          - id: COMM
-            value:
-              language: XXX
-              description: RELEASECOUNTRY
-              text: SE
-          - id: COMM
-            value:
-              language: XXX
-              description: LABEL
-              text: Basspistol
-          - id: COMM
-            value:
-              language: XXX
-              description: MUSICBRAINZ_RELEASETRACKID
-              text: a9d8a4ea-8ac5-47a2-a05f-c9e6e8fb3974
-          - id: COMM
-            value:
-              language: XXX
-              description: ORIGINALDATE
-              text: '2010'
-          - id: COMM
-            value:
-              language: XXX
-              description: MUSICBRAINZ_RELEASEGROUPID
-              text: 2ab5cbaa-6818-4604-8070-26b81b860bfa
-          - id: COMM
-            value:
-              language: XXX
-              description: RELEASESTATUS
-              text: official
-          - id: COMM
-            value:
-              language: XXX
-              description: ACOUSTID_ID
-              text: d233834c-cfb4-4598-93ae-a308eb774dec
-          - id: COMM
-            value:
-              language: XXX
-              description: CATALOGNUMBER
-              text: BPIST001
-          - id: COMM
-            value:
-              language: XXX
-              description: MEDIA
-              text: Digital Media
-          - id: COMM
-            value:
-              language: XXX
-              description: RELEASETYPE
-              text: album
-          - id: COMM
-            value:
-              language: XXX
-              description: ORIGINALYEAR
-              text: '2010'
-          - id: COMM
-            value:
-              language: XXX
-              description: ARTISTS
-              text: reSet Sakrecoer
-          - id: 'TXXX:MusicBrainz Album Artist Id'
-            value: a2899399-d1d5-462f-9d56-ec1ea78cc4b6
-          - id: 'TXXX:musicbrainz_albumartistid'
-            value: a2899399-d1d5-462f-9d56-ec1ea78cc4b6
-          - id: TPOS
-            value: 1/1
-          - id: 'TXXX:MusicBrainz Album Id'
-            value: fda0a215-114f-4c4b-9220-3b2157368a3f
-          - id: 'TXXX:musicbrainz_albumid'
-            value: fda0a215-114f-4c4b-9220-3b2157368a3f
-          - id: TPE2
-            value: reSet Sakrecoer
-          - id: TALB
-            value: Psykedelisk Pop
-          - id: 'TXXX:MusicBrainz Artist Id'
-            value: a2899399-d1d5-462f-9d56-ec1ea78cc4b6
-          - id: 'TXXX:musicbrainz_artistid'
-            value: a2899399-d1d5-462f-9d56-ec1ea78cc4b6
-          - id: TPE1
-            value: reSet Sakrecoer
-          - id: UFID
-            value: &ref_56
-              owner_identifier: 'http://musicbrainz.org'
-              identifier: !<tag:yaml.org,2002:binary> OWRjMjY0NWEtYjBlYi00ODk3LTg2NTktZTY5MmE2OWM4NGI3
-          - id: TSOP
-            value: Sakrecoer
-          - id: TRCK
-            value: 1/10
-          - id: TDRC
-            value: '2010-01-01'
-          - id: USLT
-            value:
-              language: eng
-              description: lyrics
-              text: |-
-                Oh Marie,
-                Janne ar pa min hjarna.
-                Han vet precis,
-                Hur allting ska fungera.
-                Han satter mig i meditation.
-                Min sjal i levitation.
-                Jag svavar upp i det bla,
-                Tack vare det grona...
-      quality:
-        warnings: []
-      common:
-        track:
-          'no': 1
-          of: 10
-        disk:
-          'no': 1
-          of: 1
-        genre:
-          - Electro Pop
-        comment:
-          - www.sakrecoer.com - www.basspistol.com
-          - SE
-          - Basspistol
-          - a9d8a4ea-8ac5-47a2-a05f-c9e6e8fb3974
-          - '2010'
-          - 2ab5cbaa-6818-4604-8070-26b81b860bfa
-          - official
-          - d233834c-cfb4-4598-93ae-a308eb774dec
-          - BPIST001
-          - Digital Media
-          - album
-          - '2010'
-          - reSet Sakrecoer
-        title: Janne I Min Hjärna
-        musicbrainz_albumartistid:
-          - a2899399-d1d5-462f-9d56-ec1ea78cc4b6
-        musicbrainz_albumid: fda0a215-114f-4c4b-9220-3b2157368a3f
-        albumartist: reSet Sakrecoer
-        album: Psykedelisk Pop
-        musicbrainz_artistid:
-          - a2899399-d1d5-462f-9d56-ec1ea78cc4b6
-        artists:
-          - reSet Sakrecoer
-        artist: reSet Sakrecoer
-        musicbrainz_recordingid: 9dc2645a-b0eb-4897-8659-e692a69c84b7
-        artistsort: Sakrecoer
-        year: 2010
-        date: '2010-01-01'
-      transformed:
-        ID3v2.4:
-          TCON: Electro Pop
-          c0: www.sakrecoer.com - www.basspistol.com
-          TIT2: Janne I Min Hjärna
-          RELEASECOUNTRY: SE
-          LABEL: Basspistol
-          MUSICBRAINZ_RELEASETRACKID: a9d8a4ea-8ac5-47a2-a05f-c9e6e8fb3974
-          ORIGINALDATE: '2010'
-          MUSICBRAINZ_RELEASEGROUPID: 2ab5cbaa-6818-4604-8070-26b81b860bfa
-          RELEASESTATUS: official
-          ACOUSTID_ID: d233834c-cfb4-4598-93ae-a308eb774dec
-          CATALOGNUMBER: BPIST001
-          MEDIA: Digital Media
-          RELEASETYPE: album
-          ORIGINALYEAR: '2010'
-          ARTISTS: reSet Sakrecoer
-          'TXXX:MusicBrainz Album Artist Id': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
-          'TXXX:musicbrainz_albumartistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
-          TPOS: 1/1
-          'TXXX:MusicBrainz Album Id': fda0a215-114f-4c4b-9220-3b2157368a3f
-          'TXXX:musicbrainz_albumid': fda0a215-114f-4c4b-9220-3b2157368a3f
-          TPE2: reSet Sakrecoer
-          TALB: Psykedelisk Pop
-          'TXXX:MusicBrainz Artist Id': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
-          'TXXX:musicbrainz_artistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
-          TPE1: reSet Sakrecoer
-          UFID: *ref_56
-          TSOP: Sakrecoer
-          TRCK: 1/10
-          TDRC: '2010-01-01'
-          lyrics: |-
-            Oh Marie,
-            Janne ar pa min hjarna.
-            Han vet precis,
-            Hur allting ska fungera.
-            Han satter mig i meditation.
-            Min sjal i levitation.
-            Jag svavar upp i det bla,
-            Tack vare det grona...
-      all:
-        TCON: Electro Pop
-        c0: www.sakrecoer.com - www.basspistol.com
-        TIT2: Janne I Min Hjärna
-        RELEASECOUNTRY: SE
-        LABEL: Basspistol
-        MUSICBRAINZ_RELEASETRACKID: a9d8a4ea-8ac5-47a2-a05f-c9e6e8fb3974
-        ORIGINALDATE: '2010'
-        MUSICBRAINZ_RELEASEGROUPID: 2ab5cbaa-6818-4604-8070-26b81b860bfa
-        RELEASESTATUS: official
-        ACOUSTID_ID: d233834c-cfb4-4598-93ae-a308eb774dec
-        CATALOGNUMBER: BPIST001
-        MEDIA: Digital Media
-        RELEASETYPE: album
-        ORIGINALYEAR: '2010'
-        ARTISTS: reSet Sakrecoer
-        'TXXX:MusicBrainz Album Artist Id': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
-        'TXXX:musicbrainz_albumartistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
-        TPOS: 1/1
-        'TXXX:MusicBrainz Album Id': fda0a215-114f-4c4b-9220-3b2157368a3f
-        'TXXX:musicbrainz_albumid': fda0a215-114f-4c4b-9220-3b2157368a3f
-        TPE2: reSet Sakrecoer
-        TALB: Psykedelisk Pop
-        'TXXX:MusicBrainz Artist Id': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
-        'TXXX:musicbrainz_artistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
-        TPE1: reSet Sakrecoer
-        UFID: *ref_56
-        TSOP: Sakrecoer
-        TRCK: 1/10
-        TDRC: '2010-01-01'
-        lyrics: |-
-          Oh Marie,
-          Janne ar pa min hjarna.
-          Han vet precis,
-          Hur allting ska fungera.
-          Han satter mig i meditation.
-          Min sjal i levitation.
-          Jag svavar upp i det bla,
-          Tack vare det grona...
-    - path: >-
         /mnt/usb32gb/organized-basspistol.media/assets/albums/psykedelisk-pop/2-step-up.mp3
       audio: /assets/albums/psykedelisk-pop/2-step-up.mp3
       slug: psykedelisk-pop/2-step-up
@@ -10894,7 +10639,7 @@
           - id: TPE1
             value: reSet Sakrecoer
           - id: UFID
-            value: &ref_57
+            value: &ref_56
               owner_identifier: 'http://musicbrainz.org'
               identifier: !<tag:yaml.org,2002:binary> NjFlOGExODctZTZmMC00ODE5LTgyNDItNmI0NzEzMTRkZmZl
           - id: TSOP
@@ -11022,7 +10767,7 @@
           'TXXX:MusicBrainz Artist Id': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
           'TXXX:musicbrainz_artistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
           TPE1: reSet Sakrecoer
-          UFID: *ref_57
+          UFID: *ref_56
           TSOP: Sakrecoer
           TRCK: 2/10
           TDRC: '2010-01-01'
@@ -11099,7 +10844,7 @@
         'TXXX:MusicBrainz Artist Id': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
         'TXXX:musicbrainz_artistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
         TPE1: reSet Sakrecoer
-        UFID: *ref_57
+        UFID: *ref_56
         TSOP: Sakrecoer
         TRCK: 2/10
         TDRC: '2010-01-01'
@@ -11264,7 +11009,7 @@
           - id: TPE1
             value: reSet Sakrecoer
           - id: UFID
-            value: &ref_58
+            value: &ref_57
               owner_identifier: 'http://musicbrainz.org'
               identifier: !<tag:yaml.org,2002:binary> OGI1ZDFjOTUtNDRhZC00YzQ1LTkxODMtNzg0ODhjMmU0NTA3
           - id: TSOP
@@ -11399,7 +11144,7 @@
           'TXXX:MusicBrainz Artist Id': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
           'TXXX:musicbrainz_artistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
           TPE1: reSet Sakrecoer
-          UFID: *ref_58
+          UFID: *ref_57
           TSOP: Sakrecoer
           TRCK: 3/10
           TDRC: '2010-01-01'
@@ -11483,7 +11228,7 @@
         'TXXX:MusicBrainz Artist Id': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
         'TXXX:musicbrainz_artistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
         TPE1: reSet Sakrecoer
-        UFID: *ref_58
+        UFID: *ref_57
         TSOP: Sakrecoer
         TRCK: 3/10
         TDRC: '2010-01-01'
@@ -11541,673 +11286,6 @@
 
           Ta av dig rovhjalmen.<br /></em>
         WOAS: 'https://archive.org/details/BPIST001'
-    - path: >-
-        /mnt/usb32gb/organized-basspistol.media/assets/albums/psykedelisk-pop/3-r-vhj-lmen.mp3
-      audio: /assets/albums/psykedelisk-pop/3-r-vhj-lmen.mp3
-      slug: psykedelisk-pop/3-r-vhj-lmen
-      albumSlug: psykedelisk-pop
-      trackSlug: 3-r-vhj-lmen
-      coverPath: >-
-        /mnt/usb32gb/organized-basspistol.media/assets/albums/psykedelisk-pop/3-r-vhj-lmen.jpeg
-      cover: /assets/albums/psykedelisk-pop/3-r-vhj-lmen.jpeg
-      format:
-        tagTypes:
-          - ID3v2.4
-        trackInfo: []
-        lossless: false
-        container: MPEG
-        codec: MPEG 1 Layer 3
-        sampleRate: 44100
-        numberOfChannels: 2
-        bitrate: 128000
-        codecProfile: CBR
-        numberOfSamples: 11240064
-        duration: 254.87673469387755
-      native:
-        ID3v2.4:
-          - id: TCON
-            value: Electro Pop
-          - id: COMM
-            value:
-              language: XXX
-              description: c0
-              text: www.sakrecoer.com - www.basspistol.com
-          - id: TIT2
-            value: Rövhjälmen
-          - id: COMM
-            value:
-              language: XXX
-              description: RELEASECOUNTRY
-              text: SE
-          - id: COMM
-            value:
-              language: XXX
-              description: LABEL
-              text: Basspistol
-          - id: COMM
-            value:
-              language: XXX
-              description: MUSICBRAINZ_RELEASETRACKID
-              text: 09507e35-ba5c-4d3b-8a00-4900a28a28e6
-          - id: COMM
-            value:
-              language: XXX
-              description: ORIGINALDATE
-              text: '2010'
-          - id: COMM
-            value:
-              language: XXX
-              description: MUSICBRAINZ_RELEASEGROUPID
-              text: 2ab5cbaa-6818-4604-8070-26b81b860bfa
-          - id: COMM
-            value:
-              language: XXX
-              description: RELEASESTATUS
-              text: official
-          - id: COMM
-            value:
-              language: XXX
-              description: ACOUSTID_ID
-              text: 074712e2-5ccb-4ed6-bc8c-61fa52f8a850
-          - id: COMM
-            value:
-              language: XXX
-              description: CATALOGNUMBER
-              text: BPIST001
-          - id: COMM
-            value:
-              language: XXX
-              description: MEDIA
-              text: Digital Media
-          - id: COMM
-            value:
-              language: XXX
-              description: RELEASETYPE
-              text: album
-          - id: COMM
-            value:
-              language: XXX
-              description: ORIGINALYEAR
-              text: '2010'
-          - id: COMM
-            value:
-              language: XXX
-              description: ARTISTS
-              text: reSet Sakrecoer
-          - id: 'TXXX:MusicBrainz Album Artist Id'
-            value: a2899399-d1d5-462f-9d56-ec1ea78cc4b6
-          - id: 'TXXX:musicbrainz_albumartistid'
-            value: a2899399-d1d5-462f-9d56-ec1ea78cc4b6
-          - id: TPOS
-            value: 1/1
-          - id: 'TXXX:MusicBrainz Album Id'
-            value: fda0a215-114f-4c4b-9220-3b2157368a3f
-          - id: 'TXXX:musicbrainz_albumid'
-            value: fda0a215-114f-4c4b-9220-3b2157368a3f
-          - id: TPE2
-            value: reSet Sakrecoer
-          - id: TALB
-            value: Psykedelisk Pop
-          - id: 'TXXX:MusicBrainz Artist Id'
-            value: a2899399-d1d5-462f-9d56-ec1ea78cc4b6
-          - id: 'TXXX:musicbrainz_artistid'
-            value: a2899399-d1d5-462f-9d56-ec1ea78cc4b6
-          - id: TPE1
-            value: reSet Sakrecoer
-          - id: UFID
-            value: &ref_59
-              owner_identifier: 'http://musicbrainz.org'
-              identifier: !<tag:yaml.org,2002:binary> OGI1ZDFjOTUtNDRhZC00YzQ1LTkxODMtNzg0ODhjMmU0NTA3
-          - id: TSOP
-            value: Sakrecoer
-          - id: TRCK
-            value: 3/10
-          - id: TDRC
-            value: '2010-01-01'
-          - id: USLT
-            value:
-              language: eng
-              description: lyrics
-              text: >-
-                Varva ner, satt dig i soffan.
-
-                Morgonen ar ung, atminstande det ar du.
-
-                Vi har sprungit natten.
-
-                Som fisken och katten.
-
-                Vi har fangat tid, och dansat med Fan.
-
-
-                Sa Varva ner med mig
-
-                Varva ner.
-
-
-                Ta en macka, ingen lever pastej..?
-
-                Till Open Core och racka, Till kasorskan saga Hej!
-
-                Vad fin i haret hon var, ah hon sag sa himla gla', hon dansa sa
-                himla bra...
-
-                Oj! Ja, men dar star ju du och jag. He! Ah vad bra, du ser ju
-                annu lika bra, du ser ju forfan annu, annu mer bra, du ser sa
-                himmla bra.
-
-                Ut med dig vill jag ga
-
-                Kom ut med mig, sa kom ut med mig.
-
-
-                Kom och satt dig i soffan.
-
-                Natten har gatt over.
-
-                Vi har ost sa det blir over.
-
-                Ta av dig rovhjalmen nu for fan,
-
-                Det finns inte djavel forfan,
-
-                Det finns inte en djavels hjarta att bullta pa.
-
-                Vi lat dom alla ga, pa efter-for-efterfesten,
-
-                Dar som alla ingen var.
-
-                Ta av dig rovhjalmen.
-      quality:
-        warnings: []
-      common:
-        track:
-          'no': 3
-          of: 10
-        disk:
-          'no': 1
-          of: 1
-        genre:
-          - Electro Pop
-        comment:
-          - www.sakrecoer.com - www.basspistol.com
-          - SE
-          - Basspistol
-          - 09507e35-ba5c-4d3b-8a00-4900a28a28e6
-          - '2010'
-          - 2ab5cbaa-6818-4604-8070-26b81b860bfa
-          - official
-          - 074712e2-5ccb-4ed6-bc8c-61fa52f8a850
-          - BPIST001
-          - Digital Media
-          - album
-          - '2010'
-          - reSet Sakrecoer
-        title: Rövhjälmen
-        musicbrainz_albumartistid:
-          - a2899399-d1d5-462f-9d56-ec1ea78cc4b6
-        musicbrainz_albumid: fda0a215-114f-4c4b-9220-3b2157368a3f
-        albumartist: reSet Sakrecoer
-        album: Psykedelisk Pop
-        musicbrainz_artistid:
-          - a2899399-d1d5-462f-9d56-ec1ea78cc4b6
-        artists:
-          - reSet Sakrecoer
-        artist: reSet Sakrecoer
-        musicbrainz_recordingid: 8b5d1c95-44ad-4c45-9183-78488c2e4507
-        artistsort: Sakrecoer
-        year: 2010
-        date: '2010-01-01'
-      transformed:
-        ID3v2.4:
-          TCON: Electro Pop
-          c0: www.sakrecoer.com - www.basspistol.com
-          TIT2: Rövhjälmen
-          RELEASECOUNTRY: SE
-          LABEL: Basspistol
-          MUSICBRAINZ_RELEASETRACKID: 09507e35-ba5c-4d3b-8a00-4900a28a28e6
-          ORIGINALDATE: '2010'
-          MUSICBRAINZ_RELEASEGROUPID: 2ab5cbaa-6818-4604-8070-26b81b860bfa
-          RELEASESTATUS: official
-          ACOUSTID_ID: 074712e2-5ccb-4ed6-bc8c-61fa52f8a850
-          CATALOGNUMBER: BPIST001
-          MEDIA: Digital Media
-          RELEASETYPE: album
-          ORIGINALYEAR: '2010'
-          ARTISTS: reSet Sakrecoer
-          'TXXX:MusicBrainz Album Artist Id': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
-          'TXXX:musicbrainz_albumartistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
-          TPOS: 1/1
-          'TXXX:MusicBrainz Album Id': fda0a215-114f-4c4b-9220-3b2157368a3f
-          'TXXX:musicbrainz_albumid': fda0a215-114f-4c4b-9220-3b2157368a3f
-          TPE2: reSet Sakrecoer
-          TALB: Psykedelisk Pop
-          'TXXX:MusicBrainz Artist Id': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
-          'TXXX:musicbrainz_artistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
-          TPE1: reSet Sakrecoer
-          UFID: *ref_59
-          TSOP: Sakrecoer
-          TRCK: 3/10
-          TDRC: '2010-01-01'
-          lyrics: >-
-            Varva ner, satt dig i soffan.
-
-            Morgonen ar ung, atminstande det ar du.
-
-            Vi har sprungit natten.
-
-            Som fisken och katten.
-
-            Vi har fangat tid, och dansat med Fan.
-
-
-            Sa Varva ner med mig
-
-            Varva ner.
-
-
-            Ta en macka, ingen lever pastej..?
-
-            Till Open Core och racka, Till kasorskan saga Hej!
-
-            Vad fin i haret hon var, ah hon sag sa himla gla', hon dansa sa
-            himla bra...
-
-            Oj! Ja, men dar star ju du och jag. He! Ah vad bra, du ser ju annu
-            lika bra, du ser ju forfan annu, annu mer bra, du ser sa himmla bra.
-
-            Ut med dig vill jag ga
-
-            Kom ut med mig, sa kom ut med mig.
-
-
-            Kom och satt dig i soffan.
-
-            Natten har gatt over.
-
-            Vi har ost sa det blir over.
-
-            Ta av dig rovhjalmen nu for fan,
-
-            Det finns inte djavel forfan,
-
-            Det finns inte en djavels hjarta att bullta pa.
-
-            Vi lat dom alla ga, pa efter-for-efterfesten,
-
-            Dar som alla ingen var.
-
-            Ta av dig rovhjalmen.
-      all:
-        TCON: Electro Pop
-        c0: www.sakrecoer.com - www.basspistol.com
-        TIT2: Rövhjälmen
-        RELEASECOUNTRY: SE
-        LABEL: Basspistol
-        MUSICBRAINZ_RELEASETRACKID: 09507e35-ba5c-4d3b-8a00-4900a28a28e6
-        ORIGINALDATE: '2010'
-        MUSICBRAINZ_RELEASEGROUPID: 2ab5cbaa-6818-4604-8070-26b81b860bfa
-        RELEASESTATUS: official
-        ACOUSTID_ID: 074712e2-5ccb-4ed6-bc8c-61fa52f8a850
-        CATALOGNUMBER: BPIST001
-        MEDIA: Digital Media
-        RELEASETYPE: album
-        ORIGINALYEAR: '2010'
-        ARTISTS: reSet Sakrecoer
-        'TXXX:MusicBrainz Album Artist Id': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
-        'TXXX:musicbrainz_albumartistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
-        TPOS: 1/1
-        'TXXX:MusicBrainz Album Id': fda0a215-114f-4c4b-9220-3b2157368a3f
-        'TXXX:musicbrainz_albumid': fda0a215-114f-4c4b-9220-3b2157368a3f
-        TPE2: reSet Sakrecoer
-        TALB: Psykedelisk Pop
-        'TXXX:MusicBrainz Artist Id': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
-        'TXXX:musicbrainz_artistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
-        TPE1: reSet Sakrecoer
-        UFID: *ref_59
-        TSOP: Sakrecoer
-        TRCK: 3/10
-        TDRC: '2010-01-01'
-        lyrics: >-
-          Varva ner, satt dig i soffan.
-
-          Morgonen ar ung, atminstande det ar du.
-
-          Vi har sprungit natten.
-
-          Som fisken och katten.
-
-          Vi har fangat tid, och dansat med Fan.
-
-
-          Sa Varva ner med mig
-
-          Varva ner.
-
-
-          Ta en macka, ingen lever pastej..?
-
-          Till Open Core och racka, Till kasorskan saga Hej!
-
-          Vad fin i haret hon var, ah hon sag sa himla gla', hon dansa sa himla
-          bra...
-
-          Oj! Ja, men dar star ju du och jag. He! Ah vad bra, du ser ju annu
-          lika bra, du ser ju forfan annu, annu mer bra, du ser sa himmla bra.
-
-          Ut med dig vill jag ga
-
-          Kom ut med mig, sa kom ut med mig.
-
-
-          Kom och satt dig i soffan.
-
-          Natten har gatt over.
-
-          Vi har ost sa det blir over.
-
-          Ta av dig rovhjalmen nu for fan,
-
-          Det finns inte djavel forfan,
-
-          Det finns inte en djavels hjarta att bullta pa.
-
-          Vi lat dom alla ga, pa efter-for-efterfesten,
-
-          Dar som alla ingen var.
-
-          Ta av dig rovhjalmen.
-    - path: >-
-        /mnt/usb32gb/organized-basspistol.media/assets/albums/psykedelisk-pop/4-it-s-all-over.mp3
-      audio: /assets/albums/psykedelisk-pop/4-it-s-all-over.mp3
-      slug: psykedelisk-pop/4-it-s-all-over
-      albumSlug: psykedelisk-pop
-      trackSlug: 4-it-s-all-over
-      coverPath: >-
-        /mnt/usb32gb/organized-basspistol.media/assets/albums/psykedelisk-pop/4-it-s-all-over.jpeg
-      cover: /assets/albums/psykedelisk-pop/4-it-s-all-over.jpeg
-      format:
-        tagTypes:
-          - ID3v2.4
-        trackInfo: []
-        lossless: false
-        container: MPEG
-        codec: MPEG 1 Layer 3
-        sampleRate: 44100
-        numberOfChannels: 2
-        bitrate: 128000
-        codecProfile: CBR
-        numberOfSamples: 11698560
-        duration: 265.2734693877551
-      native:
-        ID3v2.4:
-          - id: TCON
-            value: Electro Pop
-          - id: COMM
-            value:
-              language: XXX
-              description: c0
-              text: www.sakrecoer.com - www.basspistol.com
-          - id: TIT2
-            value: It''s All Over
-          - id: COMM
-            value:
-              language: XXX
-              description: RELEASECOUNTRY
-              text: SE
-          - id: COMM
-            value:
-              language: XXX
-              description: LABEL
-              text: Basspistol
-          - id: COMM
-            value:
-              language: XXX
-              description: MUSICBRAINZ_RELEASETRACKID
-              text: c4e10b46-4555-458c-a82b-eb87f70d4c21
-          - id: COMM
-            value:
-              language: XXX
-              description: ORIGINALDATE
-              text: '2010'
-          - id: COMM
-            value:
-              language: XXX
-              description: MUSICBRAINZ_RELEASEGROUPID
-              text: 2ab5cbaa-6818-4604-8070-26b81b860bfa
-          - id: COMM
-            value:
-              language: XXX
-              description: RELEASESTATUS
-              text: official
-          - id: COMM
-            value:
-              language: XXX
-              description: ACOUSTID_ID
-              text: 16f07a06-8954-4c2e-8c57-3ad97b725ea1
-          - id: COMM
-            value:
-              language: XXX
-              description: CATALOGNUMBER
-              text: BPIST001
-          - id: COMM
-            value:
-              language: XXX
-              description: MEDIA
-              text: Digital Media
-          - id: COMM
-            value:
-              language: XXX
-              description: RELEASETYPE
-              text: album
-          - id: COMM
-            value:
-              language: XXX
-              description: ORIGINALYEAR
-              text: '2010'
-          - id: COMM
-            value:
-              language: XXX
-              description: ARTISTS
-              text: reSet Sakrecoer
-          - id: 'TXXX:MusicBrainz Album Artist Id'
-            value: a2899399-d1d5-462f-9d56-ec1ea78cc4b6
-          - id: 'TXXX:musicbrainz_albumartistid'
-            value: a2899399-d1d5-462f-9d56-ec1ea78cc4b6
-          - id: TPOS
-            value: 1/1
-          - id: 'TXXX:MusicBrainz Album Id'
-            value: fda0a215-114f-4c4b-9220-3b2157368a3f
-          - id: 'TXXX:musicbrainz_albumid'
-            value: fda0a215-114f-4c4b-9220-3b2157368a3f
-          - id: TPE2
-            value: reSet Sakrecoer
-          - id: TALB
-            value: Psykedelisk Pop
-          - id: 'TXXX:MusicBrainz Artist Id'
-            value: a2899399-d1d5-462f-9d56-ec1ea78cc4b6
-          - id: 'TXXX:musicbrainz_artistid'
-            value: a2899399-d1d5-462f-9d56-ec1ea78cc4b6
-          - id: TPE1
-            value: reSet Sakrecoer
-          - id: UFID
-            value: &ref_60
-              owner_identifier: 'http://musicbrainz.org'
-              identifier: !<tag:yaml.org,2002:binary> MjMxMGM4OWYtZTM5Mi00Mjg3LThkYTYtMmI3YjU5MmUzZWFi
-          - id: TSOP
-            value: Sakrecoer
-          - id: TRCK
-            value: 4/10
-          - id: TDRC
-            value: '2010-01-01'
-          - id: USLT
-            value:
-              language: eng
-              description: lyrics
-              text: |-
-                It's all too late now,
-                As you are screaming out my name.
-                Too late to change now,
-                Or change my way,
-                As it's time to say good bye.
-                Please won't you stay for just a while?
-                Never been broken hearted before!
-                Go ahead love,
-                Take my heart.
-                Like so many times you've done it before.
-
-                Shoe box of memories is all that i keep.
-                Can't even look at your face.
-                It's all to late now.
-                Do i have to change my way?
-                As you are screaming out my name...
-
-                I can see the stars, see them pass me by.
-                Another hopeless night, for ever hopeless now.
-                I can see the stars bass me by.
-      quality:
-        warnings: []
-      common:
-        track:
-          'no': 4
-          of: 10
-        disk:
-          'no': 1
-          of: 1
-        genre:
-          - Electro Pop
-        comment:
-          - www.sakrecoer.com - www.basspistol.com
-          - SE
-          - Basspistol
-          - c4e10b46-4555-458c-a82b-eb87f70d4c21
-          - '2010'
-          - 2ab5cbaa-6818-4604-8070-26b81b860bfa
-          - official
-          - 16f07a06-8954-4c2e-8c57-3ad97b725ea1
-          - BPIST001
-          - Digital Media
-          - album
-          - '2010'
-          - reSet Sakrecoer
-        title: It''s All Over
-        musicbrainz_albumartistid:
-          - a2899399-d1d5-462f-9d56-ec1ea78cc4b6
-        musicbrainz_albumid: fda0a215-114f-4c4b-9220-3b2157368a3f
-        albumartist: reSet Sakrecoer
-        album: Psykedelisk Pop
-        musicbrainz_artistid:
-          - a2899399-d1d5-462f-9d56-ec1ea78cc4b6
-        artists:
-          - reSet Sakrecoer
-        artist: reSet Sakrecoer
-        musicbrainz_recordingid: 2310c89f-e392-4287-8da6-2b7b592e3eab
-        artistsort: Sakrecoer
-        year: 2010
-        date: '2010-01-01'
-      transformed:
-        ID3v2.4:
-          TCON: Electro Pop
-          c0: www.sakrecoer.com - www.basspistol.com
-          TIT2: It''s All Over
-          RELEASECOUNTRY: SE
-          LABEL: Basspistol
-          MUSICBRAINZ_RELEASETRACKID: c4e10b46-4555-458c-a82b-eb87f70d4c21
-          ORIGINALDATE: '2010'
-          MUSICBRAINZ_RELEASEGROUPID: 2ab5cbaa-6818-4604-8070-26b81b860bfa
-          RELEASESTATUS: official
-          ACOUSTID_ID: 16f07a06-8954-4c2e-8c57-3ad97b725ea1
-          CATALOGNUMBER: BPIST001
-          MEDIA: Digital Media
-          RELEASETYPE: album
-          ORIGINALYEAR: '2010'
-          ARTISTS: reSet Sakrecoer
-          'TXXX:MusicBrainz Album Artist Id': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
-          'TXXX:musicbrainz_albumartistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
-          TPOS: 1/1
-          'TXXX:MusicBrainz Album Id': fda0a215-114f-4c4b-9220-3b2157368a3f
-          'TXXX:musicbrainz_albumid': fda0a215-114f-4c4b-9220-3b2157368a3f
-          TPE2: reSet Sakrecoer
-          TALB: Psykedelisk Pop
-          'TXXX:MusicBrainz Artist Id': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
-          'TXXX:musicbrainz_artistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
-          TPE1: reSet Sakrecoer
-          UFID: *ref_60
-          TSOP: Sakrecoer
-          TRCK: 4/10
-          TDRC: '2010-01-01'
-          lyrics: |-
-            It's all too late now,
-            As you are screaming out my name.
-            Too late to change now,
-            Or change my way,
-            As it's time to say good bye.
-            Please won't you stay for just a while?
-            Never been broken hearted before!
-            Go ahead love,
-            Take my heart.
-            Like so many times you've done it before.
-
-            Shoe box of memories is all that i keep.
-            Can't even look at your face.
-            It's all to late now.
-            Do i have to change my way?
-            As you are screaming out my name...
-
-            I can see the stars, see them pass me by.
-            Another hopeless night, for ever hopeless now.
-            I can see the stars bass me by.
-      all:
-        TCON: Electro Pop
-        c0: www.sakrecoer.com - www.basspistol.com
-        TIT2: It''s All Over
-        RELEASECOUNTRY: SE
-        LABEL: Basspistol
-        MUSICBRAINZ_RELEASETRACKID: c4e10b46-4555-458c-a82b-eb87f70d4c21
-        ORIGINALDATE: '2010'
-        MUSICBRAINZ_RELEASEGROUPID: 2ab5cbaa-6818-4604-8070-26b81b860bfa
-        RELEASESTATUS: official
-        ACOUSTID_ID: 16f07a06-8954-4c2e-8c57-3ad97b725ea1
-        CATALOGNUMBER: BPIST001
-        MEDIA: Digital Media
-        RELEASETYPE: album
-        ORIGINALYEAR: '2010'
-        ARTISTS: reSet Sakrecoer
-        'TXXX:MusicBrainz Album Artist Id': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
-        'TXXX:musicbrainz_albumartistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
-        TPOS: 1/1
-        'TXXX:MusicBrainz Album Id': fda0a215-114f-4c4b-9220-3b2157368a3f
-        'TXXX:musicbrainz_albumid': fda0a215-114f-4c4b-9220-3b2157368a3f
-        TPE2: reSet Sakrecoer
-        TALB: Psykedelisk Pop
-        'TXXX:MusicBrainz Artist Id': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
-        'TXXX:musicbrainz_artistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
-        TPE1: reSet Sakrecoer
-        UFID: *ref_60
-        TSOP: Sakrecoer
-        TRCK: 4/10
-        TDRC: '2010-01-01'
-        lyrics: |-
-          It's all too late now,
-          As you are screaming out my name.
-          Too late to change now,
-          Or change my way,
-          As it's time to say good bye.
-          Please won't you stay for just a while?
-          Never been broken hearted before!
-          Go ahead love,
-          Take my heart.
-          Like so many times you've done it before.
-
-          Shoe box of memories is all that i keep.
-          Can't even look at your face.
-          It's all to late now.
-          Do i have to change my way?
-          As you are screaming out my name...
-
-          I can see the stars, see them pass me by.
-          Another hopeless night, for ever hopeless now.
-          I can see the stars bass me by.
     - path: >-
         /mnt/usb32gb/organized-basspistol.media/assets/albums/psykedelisk-pop/4-it-s-all-over.mp3
       audio: /assets/albums/psykedelisk-pop/4-it-s-all-over.mp3
@@ -12322,7 +11400,7 @@
           - id: TPE1
             value: reSet Sakrecoer
           - id: UFID
-            value: &ref_61
+            value: &ref_58
               owner_identifier: 'http://musicbrainz.org'
               identifier: !<tag:yaml.org,2002:binary> MjMxMGM4OWYtZTM5Mi00Mjg3LThkYTYtMmI3YjU5MmUzZWFi
           - id: TSOP
@@ -12425,7 +11503,7 @@
           'TXXX:MusicBrainz Artist Id': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
           'TXXX:musicbrainz_artistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
           TPE1: reSet Sakrecoer
-          UFID: *ref_61
+          UFID: *ref_58
           TSOP: Sakrecoer
           TRCK: 4/10
           TDRC: '2010-01-01'
@@ -12477,7 +11555,7 @@
         'TXXX:MusicBrainz Artist Id': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
         'TXXX:musicbrainz_artistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
         TPE1: reSet Sakrecoer
-        UFID: *ref_61
+        UFID: *ref_58
         TSOP: Sakrecoer
         TRCK: 4/10
         TDRC: '2010-01-01'
@@ -12617,7 +11695,7 @@
           - id: TPE1
             value: reSet Sakrecoer
           - id: UFID
-            value: &ref_62
+            value: &ref_59
               owner_identifier: 'http://musicbrainz.org'
               identifier: !<tag:yaml.org,2002:binary> OWI0ODIxMTItNWQ5OC00ZGViLTlmMGUtN2NmYWZjZjQxYTk2
           - id: TSOP
@@ -12756,7 +11834,7 @@
           'TXXX:MusicBrainz Artist Id': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
           'TXXX:musicbrainz_artistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
           TPE1: reSet Sakrecoer
-          UFID: *ref_62
+          UFID: *ref_59
           TSOP: Sakrecoer
           TRCK: 5/10
           TDRC: '2010-01-01'
@@ -12844,7 +11922,7 @@
         'TXXX:MusicBrainz Artist Id': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
         'TXXX:musicbrainz_artistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
         TPE1: reSet Sakrecoer
-        UFID: *ref_62
+        UFID: *ref_59
         TSOP: Sakrecoer
         TRCK: 5/10
         TDRC: '2010-01-01'
@@ -12878,324 +11956,6 @@
           Oh oui,<br />
           En infra melodie.<br /></em>
         WOAS: 'https://archive.org/details/BPIST001'
-    - path: >-
-        /mnt/usb32gb/organized-basspistol.media/assets/albums/psykedelisk-pop/5-luftb-jning.mp3
-      audio: /assets/albums/psykedelisk-pop/5-luftb-jning.mp3
-      slug: psykedelisk-pop/5-luftb-jning
-      albumSlug: psykedelisk-pop
-      trackSlug: 5-luftb-jning
-      coverPath: >-
-        /mnt/usb32gb/organized-basspistol.media/assets/albums/psykedelisk-pop/5-luftb-jning.jpeg
-      cover: /assets/albums/psykedelisk-pop/5-luftb-jning.jpeg
-      format:
-        tagTypes:
-          - ID3v2.4
-        trackInfo: []
-        lossless: false
-        container: MPEG
-        codec: MPEG 1 Layer 3
-        sampleRate: 44100
-        numberOfChannels: 2
-        bitrate: 128000
-        codecProfile: CBR
-        numberOfSamples: 19201536
-        duration: 435.4089795918367
-      native:
-        ID3v2.4:
-          - id: TCON
-            value: Electro Pop
-          - id: COMM
-            value:
-              language: XXX
-              description: c0
-              text: www.sakrecoer.com - www.basspistol.com
-          - id: TIT2
-            value: Luftböjning
-          - id: COMM
-            value:
-              language: XXX
-              description: RELEASECOUNTRY
-              text: SE
-          - id: COMM
-            value:
-              language: XXX
-              description: LABEL
-              text: Basspistol
-          - id: COMM
-            value:
-              language: XXX
-              description: MUSICBRAINZ_RELEASETRACKID
-              text: 1a9c7ee7-a418-4d1f-bcdf-7a9e018a3d07
-          - id: COMM
-            value:
-              language: XXX
-              description: ORIGINALDATE
-              text: '2010'
-          - id: COMM
-            value:
-              language: XXX
-              description: MUSICBRAINZ_RELEASEGROUPID
-              text: 2ab5cbaa-6818-4604-8070-26b81b860bfa
-          - id: COMM
-            value:
-              language: XXX
-              description: RELEASESTATUS
-              text: official
-          - id: COMM
-            value:
-              language: XXX
-              description: ACOUSTID_ID
-              text: a7e81db1-42b6-4297-9d1a-d7990e2dd9dc
-          - id: COMM
-            value:
-              language: XXX
-              description: CATALOGNUMBER
-              text: BPIST001
-          - id: COMM
-            value:
-              language: XXX
-              description: MEDIA
-              text: Digital Media
-          - id: COMM
-            value:
-              language: XXX
-              description: RELEASETYPE
-              text: album
-          - id: COMM
-            value:
-              language: XXX
-              description: ORIGINALYEAR
-              text: '2010'
-          - id: COMM
-            value:
-              language: XXX
-              description: ARTISTS
-              text: reSet Sakrecoer
-          - id: 'TXXX:MusicBrainz Album Artist Id'
-            value: a2899399-d1d5-462f-9d56-ec1ea78cc4b6
-          - id: 'TXXX:musicbrainz_albumartistid'
-            value: a2899399-d1d5-462f-9d56-ec1ea78cc4b6
-          - id: TPOS
-            value: 1/1
-          - id: 'TXXX:MusicBrainz Album Id'
-            value: fda0a215-114f-4c4b-9220-3b2157368a3f
-          - id: 'TXXX:musicbrainz_albumid'
-            value: fda0a215-114f-4c4b-9220-3b2157368a3f
-          - id: TPE2
-            value: reSet Sakrecoer
-          - id: TALB
-            value: Psykedelisk Pop
-          - id: 'TXXX:MusicBrainz Artist Id'
-            value: a2899399-d1d5-462f-9d56-ec1ea78cc4b6
-          - id: 'TXXX:musicbrainz_artistid'
-            value: a2899399-d1d5-462f-9d56-ec1ea78cc4b6
-          - id: TPE1
-            value: reSet Sakrecoer
-          - id: UFID
-            value: &ref_63
-              owner_identifier: 'http://musicbrainz.org'
-              identifier: !<tag:yaml.org,2002:binary> OWI0ODIxMTItNWQ5OC00ZGViLTlmMGUtN2NmYWZjZjQxYTk2
-          - id: TSOP
-            value: Sakrecoer
-          - id: TRCK
-            value: 5/10
-          - id: TDRC
-            value: '2010-01-01'
-          - id: USLT
-            value:
-              language: eng
-              description: lyrics
-              text: |
-                Oh oui, vad ar det for melodie?
-                Som glider forbi.
-                Oh oui, vad ar det for melodie
-                Som glider sig i.
-                Oh oui, vad ar denna melodie?
-                Som tranger sig i.
-                Oh oui.
-
-                Luften bojer sig for sin gang,
-                Och hela kroppen kanns som trang.
-                Ah oui, en inframelodie
-                Fanga traden lyft dig upp
-                Latta sjalen trilla ner
-                Metavagor kommer upp
-                Infrastruktur ar din sjal
-                Oh oui, en bass alegori
-                En bass trotoar.
-
-
-                Vara lag frekvens osciliatorer, vacktar over din val var.
-                Vara lag frekvens osciliatorer, vill bara att du ska ha det bra.
-                Ah oui, oh sjung denna melodie.
-
-                Vagen borjar likna minus,
-                Och allt som forut var minus.
-                Ror sig sakta positivt.
-                I ett vackert monster alternativt.
-                Oh oui,
-                En infra melodie.
-      quality:
-        warnings: []
-      common:
-        track:
-          'no': 5
-          of: 10
-        disk:
-          'no': 1
-          of: 1
-        genre:
-          - Electro Pop
-        comment:
-          - www.sakrecoer.com - www.basspistol.com
-          - SE
-          - Basspistol
-          - 1a9c7ee7-a418-4d1f-bcdf-7a9e018a3d07
-          - '2010'
-          - 2ab5cbaa-6818-4604-8070-26b81b860bfa
-          - official
-          - a7e81db1-42b6-4297-9d1a-d7990e2dd9dc
-          - BPIST001
-          - Digital Media
-          - album
-          - '2010'
-          - reSet Sakrecoer
-        title: Luftböjning
-        musicbrainz_albumartistid:
-          - a2899399-d1d5-462f-9d56-ec1ea78cc4b6
-        musicbrainz_albumid: fda0a215-114f-4c4b-9220-3b2157368a3f
-        albumartist: reSet Sakrecoer
-        album: Psykedelisk Pop
-        musicbrainz_artistid:
-          - a2899399-d1d5-462f-9d56-ec1ea78cc4b6
-        artists:
-          - reSet Sakrecoer
-        artist: reSet Sakrecoer
-        musicbrainz_recordingid: 9b482112-5d98-4deb-9f0e-7cfafcf41a96
-        artistsort: Sakrecoer
-        year: 2010
-        date: '2010-01-01'
-      transformed:
-        ID3v2.4:
-          TCON: Electro Pop
-          c0: www.sakrecoer.com - www.basspistol.com
-          TIT2: Luftböjning
-          RELEASECOUNTRY: SE
-          LABEL: Basspistol
-          MUSICBRAINZ_RELEASETRACKID: 1a9c7ee7-a418-4d1f-bcdf-7a9e018a3d07
-          ORIGINALDATE: '2010'
-          MUSICBRAINZ_RELEASEGROUPID: 2ab5cbaa-6818-4604-8070-26b81b860bfa
-          RELEASESTATUS: official
-          ACOUSTID_ID: a7e81db1-42b6-4297-9d1a-d7990e2dd9dc
-          CATALOGNUMBER: BPIST001
-          MEDIA: Digital Media
-          RELEASETYPE: album
-          ORIGINALYEAR: '2010'
-          ARTISTS: reSet Sakrecoer
-          'TXXX:MusicBrainz Album Artist Id': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
-          'TXXX:musicbrainz_albumartistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
-          TPOS: 1/1
-          'TXXX:MusicBrainz Album Id': fda0a215-114f-4c4b-9220-3b2157368a3f
-          'TXXX:musicbrainz_albumid': fda0a215-114f-4c4b-9220-3b2157368a3f
-          TPE2: reSet Sakrecoer
-          TALB: Psykedelisk Pop
-          'TXXX:MusicBrainz Artist Id': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
-          'TXXX:musicbrainz_artistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
-          TPE1: reSet Sakrecoer
-          UFID: *ref_63
-          TSOP: Sakrecoer
-          TRCK: 5/10
-          TDRC: '2010-01-01'
-          lyrics: |
-            Oh oui, vad ar det for melodie?
-            Som glider forbi.
-            Oh oui, vad ar det for melodie
-            Som glider sig i.
-            Oh oui, vad ar denna melodie?
-            Som tranger sig i.
-            Oh oui.
-
-            Luften bojer sig for sin gang,
-            Och hela kroppen kanns som trang.
-            Ah oui, en inframelodie
-            Fanga traden lyft dig upp
-            Latta sjalen trilla ner
-            Metavagor kommer upp
-            Infrastruktur ar din sjal
-            Oh oui, en bass alegori
-            En bass trotoar.
-
-
-            Vara lag frekvens osciliatorer, vacktar over din val var.
-            Vara lag frekvens osciliatorer, vill bara att du ska ha det bra.
-            Ah oui, oh sjung denna melodie.
-
-            Vagen borjar likna minus,
-            Och allt som forut var minus.
-            Ror sig sakta positivt.
-            I ett vackert monster alternativt.
-            Oh oui,
-            En infra melodie.
-      all:
-        TCON: Electro Pop
-        c0: www.sakrecoer.com - www.basspistol.com
-        TIT2: Luftböjning
-        RELEASECOUNTRY: SE
-        LABEL: Basspistol
-        MUSICBRAINZ_RELEASETRACKID: 1a9c7ee7-a418-4d1f-bcdf-7a9e018a3d07
-        ORIGINALDATE: '2010'
-        MUSICBRAINZ_RELEASEGROUPID: 2ab5cbaa-6818-4604-8070-26b81b860bfa
-        RELEASESTATUS: official
-        ACOUSTID_ID: a7e81db1-42b6-4297-9d1a-d7990e2dd9dc
-        CATALOGNUMBER: BPIST001
-        MEDIA: Digital Media
-        RELEASETYPE: album
-        ORIGINALYEAR: '2010'
-        ARTISTS: reSet Sakrecoer
-        'TXXX:MusicBrainz Album Artist Id': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
-        'TXXX:musicbrainz_albumartistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
-        TPOS: 1/1
-        'TXXX:MusicBrainz Album Id': fda0a215-114f-4c4b-9220-3b2157368a3f
-        'TXXX:musicbrainz_albumid': fda0a215-114f-4c4b-9220-3b2157368a3f
-        TPE2: reSet Sakrecoer
-        TALB: Psykedelisk Pop
-        'TXXX:MusicBrainz Artist Id': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
-        'TXXX:musicbrainz_artistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
-        TPE1: reSet Sakrecoer
-        UFID: *ref_63
-        TSOP: Sakrecoer
-        TRCK: 5/10
-        TDRC: '2010-01-01'
-        lyrics: |
-          Oh oui, vad ar det for melodie?
-          Som glider forbi.
-          Oh oui, vad ar det for melodie
-          Som glider sig i.
-          Oh oui, vad ar denna melodie?
-          Som tranger sig i.
-          Oh oui.
-
-          Luften bojer sig for sin gang,
-          Och hela kroppen kanns som trang.
-          Ah oui, en inframelodie
-          Fanga traden lyft dig upp
-          Latta sjalen trilla ner
-          Metavagor kommer upp
-          Infrastruktur ar din sjal
-          Oh oui, en bass alegori
-          En bass trotoar.
-
-
-          Vara lag frekvens osciliatorer, vacktar over din val var.
-          Vara lag frekvens osciliatorer, vill bara att du ska ha det bra.
-          Ah oui, oh sjung denna melodie.
-
-          Vagen borjar likna minus,
-          Och allt som forut var minus.
-          Ror sig sakta positivt.
-          I ett vackert monster alternativt.
-          Oh oui,
-          En infra melodie.
     - path: >-
         /mnt/usb32gb/organized-basspistol.media/assets/albums/psykedelisk-pop/6-intelligent-music.mp3
       audio: /assets/albums/psykedelisk-pop/6-intelligent-music.mp3
@@ -13310,7 +12070,7 @@
           - id: TPE1
             value: reSet Sakrecoer
           - id: UFID
-            value: &ref_64
+            value: &ref_60
               owner_identifier: 'http://musicbrainz.org'
               identifier: !<tag:yaml.org,2002:binary> ZDY2ZmQ3MzItZjQ1MC00NWE0LThiYjMtMzc2ZTQwYzIzYjNj
           - id: TSOP
@@ -13420,7 +12180,7 @@
           'TXXX:MusicBrainz Artist Id': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
           'TXXX:musicbrainz_artistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
           TPE1: reSet Sakrecoer
-          UFID: *ref_64
+          UFID: *ref_60
           TSOP: Sakrecoer
           TRCK: 6/10
           TDRC: '2010-01-01'
@@ -13479,7 +12239,7 @@
         'TXXX:MusicBrainz Artist Id': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
         'TXXX:musicbrainz_artistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
         TPE1: reSet Sakrecoer
-        UFID: *ref_64
+        UFID: *ref_60
         TSOP: Sakrecoer
         TRCK: 6/10
         TDRC: '2010-01-01'
@@ -13626,7 +12386,7 @@
           - id: TPE1
             value: reSet Sakrecoer
           - id: UFID
-            value: &ref_65
+            value: &ref_61
               owner_identifier: 'http://musicbrainz.org'
               identifier: !<tag:yaml.org,2002:binary> MDQ3YTc0OWItZTNkZC00NWI5LTg4YjQtN2UxZGU3NzAxNzBl
           - id: TSOP
@@ -13767,7 +12527,7 @@
           'TXXX:MusicBrainz Artist Id': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
           'TXXX:musicbrainz_artistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
           TPE1: reSet Sakrecoer
-          UFID: *ref_65
+          UFID: *ref_61
           TSOP: Sakrecoer
           TRCK: 7/10
           TDRC: '2010-01-01'
@@ -13856,7 +12616,7 @@
         'TXXX:MusicBrainz Artist Id': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
         'TXXX:musicbrainz_artistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
         TPE1: reSet Sakrecoer
-        UFID: *ref_65
+        UFID: *ref_61
         TSOP: Sakrecoer
         TRCK: 7/10
         TDRC: '2010-01-01'
@@ -14033,7 +12793,7 @@
           - id: TPE1
             value: reSet Sakrecoer
           - id: UFID
-            value: &ref_66
+            value: &ref_62
               owner_identifier: 'http://musicbrainz.org'
               identifier: !<tag:yaml.org,2002:binary> MmE5YWE4ZDktODY0YS00YzE0LWIwZDEtNGY4NmQ1NjBmNjA2
           - id: TSOP
@@ -14111,7 +12871,7 @@
           'TXXX:MusicBrainz Artist Id': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
           'TXXX:musicbrainz_artistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
           TPE1: reSet Sakrecoer
-          UFID: *ref_66
+          UFID: *ref_62
           TSOP: Sakrecoer
           TRCK: 8/10
           TDRC: '2010-01-01'
@@ -14142,7 +12902,7 @@
         'TXXX:MusicBrainz Artist Id': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
         'TXXX:musicbrainz_artistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
         TPE1: reSet Sakrecoer
-        UFID: *ref_66
+        UFID: *ref_62
         TSOP: Sakrecoer
         TRCK: 8/10
         TDRC: '2010-01-01'
@@ -14261,7 +13021,7 @@
           - id: TPE1
             value: reSet Sakrecoer
           - id: UFID
-            value: &ref_67
+            value: &ref_63
               owner_identifier: 'http://musicbrainz.org'
               identifier: !<tag:yaml.org,2002:binary> YzY5ZGQ1NGMtOTg0Mi00YTY4LTlhMTctZmE4MDYyNTY0YTUw
           - id: TSOP
@@ -14354,7 +13114,7 @@
           'TXXX:MusicBrainz Artist Id': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
           'TXXX:musicbrainz_artistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
           TPE1: reSet Sakrecoer
-          UFID: *ref_67
+          UFID: *ref_63
           TSOP: Sakrecoer
           TRCK: 9/10
           TDRC: '2010-01-01'
@@ -14396,7 +13156,7 @@
         'TXXX:MusicBrainz Artist Id': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
         'TXXX:musicbrainz_artistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
         TPE1: reSet Sakrecoer
-        UFID: *ref_67
+        UFID: *ref_63
         TSOP: Sakrecoer
         TRCK: 9/10
         TDRC: '2010-01-01'
@@ -14526,7 +13286,7 @@
           - id: TPE1
             value: reSet Sakrecoer
           - id: UFID
-            value: &ref_68
+            value: &ref_64
               owner_identifier: 'http://musicbrainz.org'
               identifier: !<tag:yaml.org,2002:binary> NDU4NTA0NjgtZjMxZC00OTUxLTk0NTgtOTJjNTJmZmM4N2Zl
           - id: TSOP
@@ -14604,7 +13364,7 @@
           'TXXX:MusicBrainz Artist Id': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
           'TXXX:musicbrainz_artistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
           TPE1: reSet Sakrecoer
-          UFID: *ref_68
+          UFID: *ref_64
           TSOP: Sakrecoer
           TRCK: 10/10
           TDRC: '2010-01-01'
@@ -14635,7 +13395,7 @@
         'TXXX:MusicBrainz Artist Id': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
         'TXXX:musicbrainz_artistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
         TPE1: reSet Sakrecoer
-        UFID: *ref_68
+        UFID: *ref_64
         TSOP: Sakrecoer
         TRCK: 10/10
         TDRC: '2010-01-01'
@@ -14678,7 +13438,7 @@
           - id: TPE1
             value: 徒 Setto セット
           - id: COMM
-            value: &ref_69
+            value: &ref_65
               language: XXX
               description: ''
               text: Cover art and music by To&nbsp;Setto&nbsp;Setto
@@ -14722,7 +13482,7 @@
         ID3v2.3:
           TIT2: K'as-tu fait de nous?
           TPE1: 徒 Setto セット
-          COMM: *ref_69
+          COMM: *ref_65
           TALB: Satoshi mon ami
           TRCK: '1'
           TPE2: 徒 Setto セット
@@ -14732,7 +13492,7 @@
       all:
         TIT2: K'as-tu fait de nous?
         TPE1: 徒 Setto セット
-        COMM: *ref_69
+        COMM: *ref_65
         TALB: Satoshi mon ami
         TRCK: '1'
         TPE2: 徒 Setto セット
@@ -14768,7 +13528,7 @@
           - id: TPE1
             value: 徒 Setto セット
           - id: COMM
-            value: &ref_70
+            value: &ref_66
               language: XXX
               description: ''
               text: Cover art and music by To&nbsp;Setto&nbsp;Setto
@@ -14812,7 +13572,7 @@
         ID3v2.3:
           TIT2: Rêve de toi
           TPE1: 徒 Setto セット
-          COMM: *ref_70
+          COMM: *ref_66
           TALB: Satoshi mon ami
           TRCK: '2'
           TPE2: 徒 Setto セット
@@ -14822,7 +13582,7 @@
       all:
         TIT2: Rêve de toi
         TPE1: 徒 Setto セット
-        COMM: *ref_70
+        COMM: *ref_66
         TALB: Satoshi mon ami
         TRCK: '2'
         TPE2: 徒 Setto セット
@@ -14947,7 +13707,7 @@
           - id: TPE1
             value: The Fraglebay
           - id: UFID
-            value: &ref_71
+            value: &ref_67
               owner_identifier: 'http://musicbrainz.org'
               identifier: !<tag:yaml.org,2002:binary> OTY2ZjI2ZGUtYjRjNC00YmRkLWEyY2MtODA1YWU2MDYxNGYx
           - id: TSOP
@@ -15023,7 +13783,7 @@
           'TXXX:MusicBrainz Artist Id': 3e250a22-ed45-41f7-ab07-ac8f7b4cf1c7
           'TXXX:musicbrainz_artistid': 3e250a22-ed45-41f7-ab07-ac8f7b4cf1c7
           TPE1: The Fraglebay
-          UFID: *ref_71
+          UFID: *ref_67
           TSOP: 'Fraglebay, The'
           TRCK: 1/10
           TDRC: '2013-01-01'
@@ -15053,7 +13813,7 @@
         'TXXX:MusicBrainz Artist Id': 3e250a22-ed45-41f7-ab07-ac8f7b4cf1c7
         'TXXX:musicbrainz_artistid': 3e250a22-ed45-41f7-ab07-ac8f7b4cf1c7
         TPE1: The Fraglebay
-        UFID: *ref_71
+        UFID: *ref_67
         TSOP: 'Fraglebay, The'
         TRCK: 1/10
         TDRC: '2013-01-01'
@@ -15172,7 +13932,7 @@
           - id: TPE1
             value: The Fraglebay
           - id: UFID
-            value: &ref_72
+            value: &ref_68
               owner_identifier: 'http://musicbrainz.org'
               identifier: !<tag:yaml.org,2002:binary> ZTgzMmJkNzItM2QzOS00NjdjLWI3ZWUtMWNiYWM1NGM2ZmQ4
           - id: TSOP
@@ -15250,7 +14010,7 @@
           'TXXX:MusicBrainz Artist Id': 3e250a22-ed45-41f7-ab07-ac8f7b4cf1c7
           'TXXX:musicbrainz_artistid': 3e250a22-ed45-41f7-ab07-ac8f7b4cf1c7
           TPE1: The Fraglebay
-          UFID: *ref_72
+          UFID: *ref_68
           TSOP: 'Fraglebay, The'
           TRCK: 2/10
           TDRC: '2013-01-01'
@@ -15281,7 +14041,7 @@
         'TXXX:MusicBrainz Artist Id': 3e250a22-ed45-41f7-ab07-ac8f7b4cf1c7
         'TXXX:musicbrainz_artistid': 3e250a22-ed45-41f7-ab07-ac8f7b4cf1c7
         TPE1: The Fraglebay
-        UFID: *ref_72
+        UFID: *ref_68
         TSOP: 'Fraglebay, The'
         TRCK: 2/10
         TDRC: '2013-01-01'
@@ -15400,7 +14160,7 @@
           - id: TPE1
             value: The Fraglebay
           - id: UFID
-            value: &ref_73
+            value: &ref_69
               owner_identifier: 'http://musicbrainz.org'
               identifier: !<tag:yaml.org,2002:binary> MTAzYTJhMGMtYTk1YS00NDRiLTgxYmEtN2QxZDA0NGI5NjAz
           - id: TSOP
@@ -15478,7 +14238,7 @@
           'TXXX:MusicBrainz Artist Id': 3e250a22-ed45-41f7-ab07-ac8f7b4cf1c7
           'TXXX:musicbrainz_artistid': 3e250a22-ed45-41f7-ab07-ac8f7b4cf1c7
           TPE1: The Fraglebay
-          UFID: *ref_73
+          UFID: *ref_69
           TSOP: 'Fraglebay, The'
           TRCK: 3/10
           TDRC: '2013-01-01'
@@ -15509,7 +14269,7 @@
         'TXXX:MusicBrainz Artist Id': 3e250a22-ed45-41f7-ab07-ac8f7b4cf1c7
         'TXXX:musicbrainz_artistid': 3e250a22-ed45-41f7-ab07-ac8f7b4cf1c7
         TPE1: The Fraglebay
-        UFID: *ref_73
+        UFID: *ref_69
         TSOP: 'Fraglebay, The'
         TRCK: 3/10
         TDRC: '2013-01-01'
@@ -15628,7 +14388,7 @@
           - id: TPE1
             value: The Fraglebay
           - id: UFID
-            value: &ref_74
+            value: &ref_70
               owner_identifier: 'http://musicbrainz.org'
               identifier: !<tag:yaml.org,2002:binary> ZDQ0ZTJkYWMtZDc5ZC00MTA5LWI1NWYtZGYwMDU5ZjFlOWMz
           - id: TSOP
@@ -15706,7 +14466,7 @@
           'TXXX:MusicBrainz Artist Id': 3e250a22-ed45-41f7-ab07-ac8f7b4cf1c7
           'TXXX:musicbrainz_artistid': 3e250a22-ed45-41f7-ab07-ac8f7b4cf1c7
           TPE1: The Fraglebay
-          UFID: *ref_74
+          UFID: *ref_70
           TSOP: 'Fraglebay, The'
           TRCK: 4/10
           TDRC: '2013-01-01'
@@ -15737,7 +14497,7 @@
         'TXXX:MusicBrainz Artist Id': 3e250a22-ed45-41f7-ab07-ac8f7b4cf1c7
         'TXXX:musicbrainz_artistid': 3e250a22-ed45-41f7-ab07-ac8f7b4cf1c7
         TPE1: The Fraglebay
-        UFID: *ref_74
+        UFID: *ref_70
         TSOP: 'Fraglebay, The'
         TRCK: 4/10
         TDRC: '2013-01-01'
@@ -15854,7 +14614,7 @@
           - id: TPE1
             value: The Fraglebay
           - id: UFID
-            value: &ref_75
+            value: &ref_71
               owner_identifier: 'http://musicbrainz.org'
               identifier: !<tag:yaml.org,2002:binary> NmE2OTg2MmEtMDk2Mi00ZDE2LWE4NGQtNzkzMjAzNTMyNDM5
           - id: TSOP
@@ -15929,7 +14689,7 @@
           'TXXX:MusicBrainz Artist Id': 3e250a22-ed45-41f7-ab07-ac8f7b4cf1c7
           'TXXX:musicbrainz_artistid': 3e250a22-ed45-41f7-ab07-ac8f7b4cf1c7
           TPE1: The Fraglebay
-          UFID: *ref_75
+          UFID: *ref_71
           TSOP: 'Fraglebay, The'
           TRCK: 5/10
           TDRC: '2013-01-01'
@@ -15959,7 +14719,7 @@
         'TXXX:MusicBrainz Artist Id': 3e250a22-ed45-41f7-ab07-ac8f7b4cf1c7
         'TXXX:musicbrainz_artistid': 3e250a22-ed45-41f7-ab07-ac8f7b4cf1c7
         TPE1: The Fraglebay
-        UFID: *ref_75
+        UFID: *ref_71
         TSOP: 'Fraglebay, The'
         TRCK: 5/10
         TDRC: '2013-01-01'
@@ -16076,7 +14836,7 @@
           - id: TPE1
             value: The Fraglebay
           - id: UFID
-            value: &ref_76
+            value: &ref_72
               owner_identifier: 'http://musicbrainz.org'
               identifier: !<tag:yaml.org,2002:binary> YTc4YmYzNzAtZjc5My00ZGQ1LWE1YzMtMmI5NTZmZjg0NDdj
           - id: TSOP
@@ -16151,7 +14911,7 @@
           'TXXX:MusicBrainz Artist Id': 3e250a22-ed45-41f7-ab07-ac8f7b4cf1c7
           'TXXX:musicbrainz_artistid': 3e250a22-ed45-41f7-ab07-ac8f7b4cf1c7
           TPE1: The Fraglebay
-          UFID: *ref_76
+          UFID: *ref_72
           TSOP: 'Fraglebay, The'
           TRCK: 6/10
           TDRC: '2013-01-01'
@@ -16181,7 +14941,7 @@
         'TXXX:MusicBrainz Artist Id': 3e250a22-ed45-41f7-ab07-ac8f7b4cf1c7
         'TXXX:musicbrainz_artistid': 3e250a22-ed45-41f7-ab07-ac8f7b4cf1c7
         TPE1: The Fraglebay
-        UFID: *ref_76
+        UFID: *ref_72
         TSOP: 'Fraglebay, The'
         TRCK: 6/10
         TDRC: '2013-01-01'
@@ -16298,7 +15058,7 @@
           - id: TPE1
             value: The Fraglebay
           - id: UFID
-            value: &ref_77
+            value: &ref_73
               owner_identifier: 'http://musicbrainz.org'
               identifier: !<tag:yaml.org,2002:binary> MGFhNzllMDMtY2FhNy00NDY4LTk4OTUtMzY2M2QzYmI0ZjNm
           - id: TSOP
@@ -16373,7 +15133,7 @@
           'TXXX:MusicBrainz Artist Id': 3e250a22-ed45-41f7-ab07-ac8f7b4cf1c7
           'TXXX:musicbrainz_artistid': 3e250a22-ed45-41f7-ab07-ac8f7b4cf1c7
           TPE1: The Fraglebay
-          UFID: *ref_77
+          UFID: *ref_73
           TSOP: 'Fraglebay, The'
           TRCK: 7/10
           TDRC: '2013-01-01'
@@ -16403,7 +15163,7 @@
         'TXXX:MusicBrainz Artist Id': 3e250a22-ed45-41f7-ab07-ac8f7b4cf1c7
         'TXXX:musicbrainz_artistid': 3e250a22-ed45-41f7-ab07-ac8f7b4cf1c7
         TPE1: The Fraglebay
-        UFID: *ref_77
+        UFID: *ref_73
         TSOP: 'Fraglebay, The'
         TRCK: 7/10
         TDRC: '2013-01-01'
@@ -16522,7 +15282,7 @@
           - id: TPE1
             value: The Fraglebay
           - id: UFID
-            value: &ref_78
+            value: &ref_74
               owner_identifier: 'http://musicbrainz.org'
               identifier: !<tag:yaml.org,2002:binary> ZjUzMjcxNjItMzAwNS00ZmMyLWFiNDItYTZjNTc5ODM5YzA2
           - id: TSOP
@@ -16600,7 +15360,7 @@
           'TXXX:MusicBrainz Artist Id': 3e250a22-ed45-41f7-ab07-ac8f7b4cf1c7
           'TXXX:musicbrainz_artistid': 3e250a22-ed45-41f7-ab07-ac8f7b4cf1c7
           TPE1: The Fraglebay
-          UFID: *ref_78
+          UFID: *ref_74
           TSOP: 'Fraglebay, The'
           TRCK: 8/10
           TDRC: '2013-01-01'
@@ -16631,7 +15391,7 @@
         'TXXX:MusicBrainz Artist Id': 3e250a22-ed45-41f7-ab07-ac8f7b4cf1c7
         'TXXX:musicbrainz_artistid': 3e250a22-ed45-41f7-ab07-ac8f7b4cf1c7
         TPE1: The Fraglebay
-        UFID: *ref_78
+        UFID: *ref_74
         TSOP: 'Fraglebay, The'
         TRCK: 8/10
         TDRC: '2013-01-01'
@@ -16750,7 +15510,7 @@
           - id: TPE1
             value: The Fraglebay
           - id: UFID
-            value: &ref_79
+            value: &ref_75
               owner_identifier: 'http://musicbrainz.org'
               identifier: !<tag:yaml.org,2002:binary> NjZjM2I5NjQtNDliZC00YTkxLWIwNzktNjZjOWMwYzE0Zjll
           - id: TSOP
@@ -16828,7 +15588,7 @@
           'TXXX:MusicBrainz Artist Id': 3e250a22-ed45-41f7-ab07-ac8f7b4cf1c7
           'TXXX:musicbrainz_artistid': 3e250a22-ed45-41f7-ab07-ac8f7b4cf1c7
           TPE1: The Fraglebay
-          UFID: *ref_79
+          UFID: *ref_75
           TSOP: 'Fraglebay, The'
           TRCK: 9/10
           TDRC: '2013-01-01'
@@ -16859,7 +15619,7 @@
         'TXXX:MusicBrainz Artist Id': 3e250a22-ed45-41f7-ab07-ac8f7b4cf1c7
         'TXXX:musicbrainz_artistid': 3e250a22-ed45-41f7-ab07-ac8f7b4cf1c7
         TPE1: The Fraglebay
-        UFID: *ref_79
+        UFID: *ref_75
         TSOP: 'Fraglebay, The'
         TRCK: 9/10
         TDRC: '2013-01-01'
@@ -16978,7 +15738,7 @@
           - id: TPE1
             value: The Fraglebay
           - id: UFID
-            value: &ref_80
+            value: &ref_76
               owner_identifier: 'http://musicbrainz.org'
               identifier: !<tag:yaml.org,2002:binary> ZGFjNDdkYzMtMTNhOC00ZGMwLThkNmUtMmI2MjRkZGU3MmRm
           - id: TSOP
@@ -17056,7 +15816,7 @@
           'TXXX:MusicBrainz Artist Id': 3e250a22-ed45-41f7-ab07-ac8f7b4cf1c7
           'TXXX:musicbrainz_artistid': 3e250a22-ed45-41f7-ab07-ac8f7b4cf1c7
           TPE1: The Fraglebay
-          UFID: *ref_80
+          UFID: *ref_76
           TSOP: 'Fraglebay, The'
           TRCK: 10/10
           TDRC: '2013-01-01'
@@ -17087,7 +15847,7 @@
         'TXXX:MusicBrainz Artist Id': 3e250a22-ed45-41f7-ab07-ac8f7b4cf1c7
         'TXXX:musicbrainz_artistid': 3e250a22-ed45-41f7-ab07-ac8f7b4cf1c7
         TPE1: The Fraglebay
-        UFID: *ref_80
+        UFID: *ref_76
         TSOP: 'Fraglebay, The'
         TRCK: 10/10
         TDRC: '2013-01-01'
@@ -17215,7 +15975,7 @@
           - id: TPE1
             value: Simio Sakrecoer
           - id: UFID
-            value: &ref_81
+            value: &ref_77
               owner_identifier: 'http://musicbrainz.org'
               identifier: !<tag:yaml.org,2002:binary> ZTAxNmYwMGYtZDkwOC00MmE2LTk4ZWMtZmQxMTE2YWY5YWUz
           - id: TSOP
@@ -17293,7 +16053,7 @@
           'TXXX:MusicBrainz Artist Id': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
           'TXXX:musicbrainz_artistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
           TPE1: Simio Sakrecoer
-          UFID: *ref_81
+          UFID: *ref_77
           TSOP: Sakrecoer
           TRCK: 1/8
           TDRC: '2012-09-06'
@@ -17324,7 +16084,7 @@
         'TXXX:MusicBrainz Artist Id': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
         'TXXX:musicbrainz_artistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
         TPE1: Simio Sakrecoer
-        UFID: *ref_81
+        UFID: *ref_77
         TSOP: Sakrecoer
         TRCK: 1/8
         TDRC: '2012-09-06'
@@ -17443,7 +16203,7 @@
           - id: TPE1
             value: Simio Sakrecoer
           - id: UFID
-            value: &ref_82
+            value: &ref_78
               owner_identifier: 'http://musicbrainz.org'
               identifier: !<tag:yaml.org,2002:binary> OTVjN2I5Y2EtNDlmMC00NjdhLWEzNDItZjdhZDZhNTE2MDM3
           - id: TSOP
@@ -17521,7 +16281,7 @@
           'TXXX:MusicBrainz Artist Id': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
           'TXXX:musicbrainz_artistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
           TPE1: Simio Sakrecoer
-          UFID: *ref_82
+          UFID: *ref_78
           TSOP: Sakrecoer
           TRCK: 2/8
           TDRC: '2012-09-06'
@@ -17552,7 +16312,7 @@
         'TXXX:MusicBrainz Artist Id': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
         'TXXX:musicbrainz_artistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
         TPE1: Simio Sakrecoer
-        UFID: *ref_82
+        UFID: *ref_78
         TSOP: Sakrecoer
         TRCK: 2/8
         TDRC: '2012-09-06'
@@ -17671,7 +16431,7 @@
           - id: TPE1
             value: Simio Sakrecoer
           - id: UFID
-            value: &ref_83
+            value: &ref_79
               owner_identifier: 'http://musicbrainz.org'
               identifier: !<tag:yaml.org,2002:binary> YWMwMGUyNmMtODFmNS00NmEzLWE5ZWMtODg2OTA0MmYwNWNi
           - id: TSOP
@@ -17749,7 +16509,7 @@
           'TXXX:MusicBrainz Artist Id': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
           'TXXX:musicbrainz_artistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
           TPE1: Simio Sakrecoer
-          UFID: *ref_83
+          UFID: *ref_79
           TSOP: Sakrecoer
           TRCK: 3/8
           TDRC: '2012-09-06'
@@ -17780,7 +16540,7 @@
         'TXXX:MusicBrainz Artist Id': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
         'TXXX:musicbrainz_artistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
         TPE1: Simio Sakrecoer
-        UFID: *ref_83
+        UFID: *ref_79
         TSOP: Sakrecoer
         TRCK: 3/8
         TDRC: '2012-09-06'
@@ -17899,7 +16659,7 @@
           - id: TPE1
             value: Simio Sakrecoer
           - id: UFID
-            value: &ref_84
+            value: &ref_80
               owner_identifier: 'http://musicbrainz.org'
               identifier: !<tag:yaml.org,2002:binary> ZjA5ZTY2OWItNmFiYy00YjJlLWJhNmEtNTczZThhYzg4MGEy
           - id: TSOP
@@ -17977,7 +16737,7 @@
           'TXXX:MusicBrainz Artist Id': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
           'TXXX:musicbrainz_artistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
           TPE1: Simio Sakrecoer
-          UFID: *ref_84
+          UFID: *ref_80
           TSOP: Sakrecoer
           TRCK: 4/8
           TDRC: '2012-09-06'
@@ -18008,7 +16768,7 @@
         'TXXX:MusicBrainz Artist Id': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
         'TXXX:musicbrainz_artistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
         TPE1: Simio Sakrecoer
-        UFID: *ref_84
+        UFID: *ref_80
         TSOP: Sakrecoer
         TRCK: 4/8
         TDRC: '2012-09-06'
@@ -18127,7 +16887,7 @@
           - id: TPE1
             value: Simio Sakrecoer
           - id: UFID
-            value: &ref_85
+            value: &ref_81
               owner_identifier: 'http://musicbrainz.org'
               identifier: !<tag:yaml.org,2002:binary> ZWJhNTcxODYtMTI3Ni00N2NlLTkzZjQtMmIyYzg2Y2ZjODIx
           - id: TSOP
@@ -18205,7 +16965,7 @@
           'TXXX:MusicBrainz Artist Id': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
           'TXXX:musicbrainz_artistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
           TPE1: Simio Sakrecoer
-          UFID: *ref_85
+          UFID: *ref_81
           TSOP: Sakrecoer
           TRCK: 5/8
           TDRC: '2012-09-06'
@@ -18236,7 +16996,7 @@
         'TXXX:MusicBrainz Artist Id': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
         'TXXX:musicbrainz_artistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
         TPE1: Simio Sakrecoer
-        UFID: *ref_85
+        UFID: *ref_81
         TSOP: Sakrecoer
         TRCK: 5/8
         TDRC: '2012-09-06'
@@ -18355,7 +17115,7 @@
           - id: TPE1
             value: Simio Sakrecoer
           - id: UFID
-            value: &ref_86
+            value: &ref_82
               owner_identifier: 'http://musicbrainz.org'
               identifier: !<tag:yaml.org,2002:binary> YWQ2OWI0YTktNWQzNi00ZDJhLTk4OWUtZjdhNzU1OGE4MjBl
           - id: TSOP
@@ -18433,7 +17193,7 @@
           'TXXX:MusicBrainz Artist Id': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
           'TXXX:musicbrainz_artistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
           TPE1: Simio Sakrecoer
-          UFID: *ref_86
+          UFID: *ref_82
           TSOP: Sakrecoer
           TRCK: 6/8
           TDRC: '2012-09-06'
@@ -18464,7 +17224,7 @@
         'TXXX:MusicBrainz Artist Id': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
         'TXXX:musicbrainz_artistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
         TPE1: Simio Sakrecoer
-        UFID: *ref_86
+        UFID: *ref_82
         TSOP: Sakrecoer
         TRCK: 6/8
         TDRC: '2012-09-06'
@@ -18583,7 +17343,7 @@
           - id: TPE1
             value: Simio Sakrecoer
           - id: UFID
-            value: &ref_87
+            value: &ref_83
               owner_identifier: 'http://musicbrainz.org'
               identifier: !<tag:yaml.org,2002:binary> ZTU4ODVkNTQtODhiYy00YjE0LTkxYWEtZGI0Nzk3YjJiZTQ0
           - id: TSOP
@@ -18661,7 +17421,7 @@
           'TXXX:MusicBrainz Artist Id': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
           'TXXX:musicbrainz_artistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
           TPE1: Simio Sakrecoer
-          UFID: *ref_87
+          UFID: *ref_83
           TSOP: Sakrecoer
           TRCK: 7/8
           TDRC: '2012-09-06'
@@ -18692,7 +17452,7 @@
         'TXXX:MusicBrainz Artist Id': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
         'TXXX:musicbrainz_artistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
         TPE1: Simio Sakrecoer
-        UFID: *ref_87
+        UFID: *ref_83
         TSOP: Sakrecoer
         TRCK: 7/8
         TDRC: '2012-09-06'
@@ -18811,7 +17571,7 @@
           - id: TPE1
             value: Simio Sakrecoer
           - id: UFID
-            value: &ref_88
+            value: &ref_84
               owner_identifier: 'http://musicbrainz.org'
               identifier: !<tag:yaml.org,2002:binary> ZDQ0ZTJkYWMtZDc5ZC00MTA5LWI1NWYtZGYwMDU5ZjFlOWMz
           - id: TSOP
@@ -18889,7 +17649,7 @@
           'TXXX:MusicBrainz Artist Id': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
           'TXXX:musicbrainz_artistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
           TPE1: Simio Sakrecoer
-          UFID: *ref_88
+          UFID: *ref_84
           TSOP: Sakrecoer
           TRCK: 8/8
           TDRC: '2012-09-06'
@@ -18920,7 +17680,7 @@
         'TXXX:MusicBrainz Artist Id': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
         'TXXX:musicbrainz_artistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
         TPE1: Simio Sakrecoer
-        UFID: *ref_88
+        UFID: *ref_84
         TSOP: Sakrecoer
         TRCK: 8/8
         TDRC: '2012-09-06'
@@ -18969,7 +17729,7 @@
           - id: TIT2
             value: Dependency Error
           - id: USLT
-            value: &ref_89
+            value: &ref_85
               language: eng
               description: ''
               text: |
@@ -19033,7 +17793,7 @@
           TRCK: '1'
           TCON: Cybersoul
           TIT2: Dependency Error
-          USLT: *ref_89
+          USLT: *ref_85
           TYER: '2020'
           TDAT: 0208
       all:
@@ -19042,7 +17802,7 @@
         TRCK: '1'
         TCON: Cybersoul
         TIT2: Dependency Error
-        USLT: *ref_89
+        USLT: *ref_85
         TYER: '2020'
         TDAT: 0208
     - path: >-
@@ -19080,7 +17840,7 @@
           - id: TIT2
             value: Pingnu
           - id: USLT
-            value: &ref_90
+            value: &ref_86
               language: eng
               description: ''
               text: |
@@ -19131,7 +17891,7 @@
           TRCK: '2'
           TCON: Cybersoul
           TIT2: Pingnu
-          USLT: *ref_90
+          USLT: *ref_86
           TYER: '2020'
           TDAT: 0208
       all:
@@ -19140,7 +17900,7 @@
         TRCK: '2'
         TCON: Cybersoul
         TIT2: Pingnu
-        USLT: *ref_90
+        USLT: *ref_86
         TYER: '2020'
         TDAT: 0208
 - layout: album
@@ -19246,7 +18006,7 @@
           - id: TPOS
             value: 1/1
           - id: UFID
-            value: &ref_91
+            value: &ref_87
               owner_identifier: 'http://musicbrainz.org'
               identifier: !<tag:yaml.org,2002:binary> OGJkNDAyNWItMGRlNS00MzljLWI2OWEtZjI2MTg2OTM0NDA4AA==
           - id: TIT2
@@ -19262,7 +18022,7 @@
           - id: TCON
             value: Electro Blues
           - id: USLT
-            value: &ref_92
+            value: &ref_88
               language: eng
               description: ''
               text: |
@@ -19341,14 +18101,14 @@
           'TXXX:musicbrainz_albumartistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
           TPE2: Sakrecoer
           TPOS: 1/1
-          UFID: *ref_91
+          UFID: *ref_87
           TIT2: Cafard Du Sonar
           'TXXX:MusicBrainz Artist Id': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
           'TXXX:musicbrainz_artistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
           TPE1: Sakrecoer
           TRCK: 1/24
           TCON: Electro Blues
-          USLT: *ref_92
+          USLT: *ref_88
           TYER: '2019'
       all:
         Comment: 'Visit http://shop.basspistol.com'
@@ -19369,14 +18129,14 @@
         'TXXX:musicbrainz_albumartistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
         TPE2: Sakrecoer
         TPOS: 1/1
-        UFID: *ref_91
+        UFID: *ref_87
         TIT2: Cafard Du Sonar
         'TXXX:MusicBrainz Artist Id': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
         'TXXX:musicbrainz_artistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
         TPE1: Sakrecoer
         TRCK: 1/24
         TCON: Electro Blues
-        USLT: *ref_92
+        USLT: *ref_88
         TYER: '2019'
     - path: >-
         /mnt/usb32gb/organized-basspistol.media/assets/albums/waiting-game/2-blackmail.mp3
@@ -19473,7 +18233,7 @@
           - id: TPOS
             value: 1/1
           - id: UFID
-            value: &ref_93
+            value: &ref_89
               owner_identifier: 'http://musicbrainz.org'
               identifier: !<tag:yaml.org,2002:binary> NDBmOGFiZWUtZTc4YS00NjNjLTgwODUtNWNjMjNlMzNjYTJhAA==
           - id: 'TXXX:MusicBrainz Artist Id'
@@ -19489,7 +18249,7 @@
           - id: TCON
             value: Electro
           - id: USLT
-            value: &ref_94
+            value: &ref_90
               language: eng
               description: ''
               text: |
@@ -19562,14 +18322,14 @@
           'TXXX:musicbrainz_albumartistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
           TPE2: Sakrecoer
           TPOS: 1/1
-          UFID: *ref_93
+          UFID: *ref_89
           'TXXX:MusicBrainz Artist Id': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
           'TXXX:musicbrainz_artistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
           TPE1: Sakrecoer
           TIT2: Blackmail
           TRCK: 2/24
           TCON: Electro
-          USLT: *ref_94
+          USLT: *ref_90
           TYER: '2019'
       all:
         Comment: 'Visit http://shop.basspistol.com'
@@ -19590,14 +18350,14 @@
         'TXXX:musicbrainz_albumartistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
         TPE2: Sakrecoer
         TPOS: 1/1
-        UFID: *ref_93
+        UFID: *ref_89
         'TXXX:MusicBrainz Artist Id': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
         'TXXX:musicbrainz_artistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
         TPE1: Sakrecoer
         TIT2: Blackmail
         TRCK: 2/24
         TCON: Electro
-        USLT: *ref_94
+        USLT: *ref_90
         TYER: '2019'
     - path: >-
         /mnt/usb32gb/organized-basspistol.media/assets/albums/waiting-game/3-dance-of-life.mp3
@@ -19694,7 +18454,7 @@
           - id: TPOS
             value: 1/1
           - id: UFID
-            value: &ref_95
+            value: &ref_91
               owner_identifier: 'http://musicbrainz.org'
               identifier: !<tag:yaml.org,2002:binary> MGY5Y2Y5OTgtMDQ4OS00ZjRkLWJhMTEtNTMwZGVlOGM0ZDU3AA==
           - id: 'TXXX:MusicBrainz Artist Id'
@@ -19710,7 +18470,7 @@
           - id: TCON
             value: Electro
           - id: USLT
-            value: &ref_96
+            value: &ref_92
               language: eng
               description: ''
               text: |-
@@ -19816,14 +18576,14 @@
           'TXXX:musicbrainz_albumartistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
           TPE2: Sakrecoer
           TPOS: 1/1
-          UFID: *ref_95
+          UFID: *ref_91
           'TXXX:MusicBrainz Artist Id': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
           'TXXX:musicbrainz_artistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
           TPE1: Sakrecoer
           TIT2: Dance Of Life
           TRCK: 3/24
           TCON: Electro
-          USLT: *ref_96
+          USLT: *ref_92
           TYER: '2019'
       all:
         Comment: 'Visit http://shop.basspistol.com'
@@ -19844,14 +18604,14 @@
         'TXXX:musicbrainz_albumartistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
         TPE2: Sakrecoer
         TPOS: 1/1
-        UFID: *ref_95
+        UFID: *ref_91
         'TXXX:MusicBrainz Artist Id': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
         'TXXX:musicbrainz_artistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
         TPE1: Sakrecoer
         TIT2: Dance Of Life
         TRCK: 3/24
         TCON: Electro
-        USLT: *ref_96
+        USLT: *ref_92
         TYER: '2019'
     - path: >-
         /mnt/usb32gb/organized-basspistol.media/assets/albums/waiting-game/4-dumb-bum.mp3
@@ -19947,7 +18707,7 @@
           - id: TPOS
             value: 1/1
           - id: UFID
-            value: &ref_97
+            value: &ref_93
               owner_identifier: 'http://musicbrainz.org'
               identifier: !<tag:yaml.org,2002:binary> ZGIxOWVmMWQtZTg5Ny00MWJiLWI2YzktNGQxNjMzN2M2NzkzAA==
           - id: TIT2
@@ -19963,7 +18723,7 @@
           - id: TCON
             value: Electro Blues
           - id: USLT
-            value: &ref_98
+            value: &ref_94
               language: eng
               description: ''
               text: |-
@@ -20043,14 +18803,14 @@
           'TXXX:musicbrainz_albumartistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
           TPE2: Sakrecoer
           TPOS: 1/1
-          UFID: *ref_97
+          UFID: *ref_93
           TIT2: Dumb Bum
           'TXXX:MusicBrainz Artist Id': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
           'TXXX:musicbrainz_artistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
           TPE1: Sakrecoer
           TRCK: 4/24
           TCON: Electro Blues
-          USLT: *ref_98
+          USLT: *ref_94
           TYER: '2019'
       all:
         Comment: 'Visit http://shop.basspistol.com'
@@ -20071,14 +18831,14 @@
         'TXXX:musicbrainz_albumartistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
         TPE2: Sakrecoer
         TPOS: 1/1
-        UFID: *ref_97
+        UFID: *ref_93
         TIT2: Dumb Bum
         'TXXX:MusicBrainz Artist Id': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
         'TXXX:musicbrainz_artistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
         TPE1: Sakrecoer
         TRCK: 4/24
         TCON: Electro Blues
-        USLT: *ref_98
+        USLT: *ref_94
         TYER: '2019'
     - path: >-
         /mnt/usb32gb/organized-basspistol.media/assets/albums/waiting-game/5-feeling-4-u.mp3
@@ -20174,7 +18934,7 @@
           - id: TPOS
             value: 1/1
           - id: UFID
-            value: &ref_99
+            value: &ref_95
               owner_identifier: 'http://musicbrainz.org'
               identifier: !<tag:yaml.org,2002:binary> MmU3MGIwOTYtN2I2Yy00MjE2LTkxZjgtNDAzYjUxYTE0Mzk3AA==
           - id: TIT2
@@ -20190,7 +18950,7 @@
           - id: TCON
             value: Soul
           - id: USLT
-            value: &ref_100
+            value: &ref_96
               language: eng
               description: ''
               text: |
@@ -20277,14 +19037,14 @@
           'TXXX:musicbrainz_albumartistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
           TPE2: Sakrecoer
           TPOS: 1/1
-          UFID: *ref_99
+          UFID: *ref_95
           TIT2: Feeling 4 U
           'TXXX:MusicBrainz Artist Id': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
           'TXXX:musicbrainz_artistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
           TPE1: Sakrecoer
           TRCK: 5/24
           TCON: Soul
-          USLT: *ref_100
+          USLT: *ref_96
           TYER: '2019'
       all:
         Comment: 'Visit http://shop.basspistol.com'
@@ -20305,14 +19065,14 @@
         'TXXX:musicbrainz_albumartistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
         TPE2: Sakrecoer
         TPOS: 1/1
-        UFID: *ref_99
+        UFID: *ref_95
         TIT2: Feeling 4 U
         'TXXX:MusicBrainz Artist Id': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
         'TXXX:musicbrainz_artistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
         TPE1: Sakrecoer
         TRCK: 5/24
         TCON: Soul
-        USLT: *ref_100
+        USLT: *ref_96
         TYER: '2019'
     - path: >-
         /mnt/usb32gb/organized-basspistol.media/assets/albums/waiting-game/6-fly-feat-jordi-funkmasta.mp3
@@ -20408,7 +19168,7 @@
           - id: TPOS
             value: 1/1
           - id: UFID
-            value: &ref_101
+            value: &ref_97
               owner_identifier: 'http://musicbrainz.org'
               identifier: !<tag:yaml.org,2002:binary> NjI5ZTNhNzQtYzc2Yy00YzI0LWE4NjQtY2NiZmY3YTgyY2I4AA==
           - id: TIT2
@@ -20481,7 +19241,7 @@
           'TXXX:musicbrainz_albumartistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
           TPE2: Sakrecoer
           TPOS: 1/1
-          UFID: *ref_101
+          UFID: *ref_97
           TIT2: Fly Feat. Jordi Funkmasta
           'TXXX:MusicBrainz Artist Id': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
           'TXXX:musicbrainz_artistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
@@ -20508,7 +19268,7 @@
         'TXXX:musicbrainz_albumartistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
         TPE2: Sakrecoer
         TPOS: 1/1
-        UFID: *ref_101
+        UFID: *ref_97
         TIT2: Fly Feat. Jordi Funkmasta
         'TXXX:MusicBrainz Artist Id': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
         'TXXX:musicbrainz_artistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
@@ -20610,7 +19370,7 @@
           - id: TPOS
             value: 1/1
           - id: UFID
-            value: &ref_102
+            value: &ref_98
               owner_identifier: 'http://musicbrainz.org'
               identifier: !<tag:yaml.org,2002:binary> YTYyYmU3OTMtOTBmMi00ZmQxLWJmOWQtYzI5ZTNkZTM2N2Q5AA==
           - id: 'TXXX:MusicBrainz Artist Id'
@@ -20626,7 +19386,7 @@
           - id: TCON
             value: House
           - id: USLT
-            value: &ref_103
+            value: &ref_99
               language: eng
               description: ''
               text: |
@@ -20704,14 +19464,14 @@
           'TXXX:musicbrainz_albumartistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
           TPE2: Sakrecoer
           TPOS: 1/1
-          UFID: *ref_102
+          UFID: *ref_98
           'TXXX:MusicBrainz Artist Id': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
           'TXXX:musicbrainz_artistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
           TPE1: Sakrecoer
           TIT2: Fresh Root
           TRCK: 7/24
           TCON: House
-          USLT: *ref_103
+          USLT: *ref_99
           TYER: '2019'
       all:
         Comment: 'Visit http://shop.basspistol.com'
@@ -20732,14 +19492,14 @@
         'TXXX:musicbrainz_albumartistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
         TPE2: Sakrecoer
         TPOS: 1/1
-        UFID: *ref_102
+        UFID: *ref_98
         'TXXX:MusicBrainz Artist Id': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
         'TXXX:musicbrainz_artistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
         TPE1: Sakrecoer
         TIT2: Fresh Root
         TRCK: 7/24
         TCON: House
-        USLT: *ref_103
+        USLT: *ref_99
         TYER: '2019'
     - path: >-
         /mnt/usb32gb/organized-basspistol.media/assets/albums/waiting-game/8-getting-to-the-club.mp3
@@ -20835,7 +19595,7 @@
           - id: TPOS
             value: 1/1
           - id: UFID
-            value: &ref_104
+            value: &ref_100
               owner_identifier: 'http://musicbrainz.org'
               identifier: !<tag:yaml.org,2002:binary> Y2ZiOTA0YmUtZjViNy00MjcxLTlkMDktMDE5NWQ4ZTBhYWM4AA==
           - id: TIT2
@@ -20851,7 +19611,7 @@
           - id: TCON
             value: Crunk
           - id: USLT
-            value: &ref_105
+            value: &ref_101
               language: eng
               description: ''
               text: |
@@ -21013,14 +19773,14 @@
           'TXXX:musicbrainz_albumartistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
           TPE2: Sakrecoer
           TPOS: 1/1
-          UFID: *ref_104
+          UFID: *ref_100
           TIT2: Getting to the Club
           'TXXX:MusicBrainz Artist Id': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
           'TXXX:musicbrainz_artistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
           TPE1: Sakrecoer
           TRCK: 8/24
           TCON: Crunk
-          USLT: *ref_105
+          USLT: *ref_101
           TYER: '2019'
       all:
         Comment: 'Visit http://shop.basspistol.com'
@@ -21041,14 +19801,14 @@
         'TXXX:musicbrainz_albumartistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
         TPE2: Sakrecoer
         TPOS: 1/1
-        UFID: *ref_104
+        UFID: *ref_100
         TIT2: Getting to the Club
         'TXXX:MusicBrainz Artist Id': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
         'TXXX:musicbrainz_artistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
         TPE1: Sakrecoer
         TRCK: 8/24
         TCON: Crunk
-        USLT: *ref_105
+        USLT: *ref_101
         TYER: '2019'
     - path: >-
         /mnt/usb32gb/organized-basspistol.media/assets/albums/waiting-game/9-fragle-mudge.mp3
@@ -21144,7 +19904,7 @@
           - id: TPOS
             value: 1/1
           - id: UFID
-            value: &ref_106
+            value: &ref_102
               owner_identifier: 'http://musicbrainz.org'
               identifier: !<tag:yaml.org,2002:binary> NGJlOWM3MDEtMzcyOS00NmVmLTgxYTItNmE0NGFjMmRiZTMyAA==
           - id: 'TXXX:MusicBrainz Artist Id'
@@ -21217,7 +19977,7 @@
           'TXXX:musicbrainz_albumartistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
           TPE2: Sakrecoer
           TPOS: 1/1
-          UFID: *ref_106
+          UFID: *ref_102
           'TXXX:MusicBrainz Artist Id': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
           'TXXX:musicbrainz_artistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
           TPE1: Sakrecoer
@@ -21244,7 +20004,7 @@
         'TXXX:musicbrainz_albumartistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
         TPE2: Sakrecoer
         TPOS: 1/1
-        UFID: *ref_106
+        UFID: *ref_102
         'TXXX:MusicBrainz Artist Id': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
         'TXXX:musicbrainz_artistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
         TPE1: Sakrecoer
@@ -21347,7 +20107,7 @@
           - id: TPOS
             value: 1/1
           - id: UFID
-            value: &ref_107
+            value: &ref_103
               owner_identifier: 'http://musicbrainz.org'
               identifier: !<tag:yaml.org,2002:binary> ZmUwMTBkMTMtMmY1My00NjQxLTgzZDktZTU1OTYwZjhjZmIyAA==
           - id: 'TXXX:MusicBrainz Artist Id'
@@ -21363,7 +20123,7 @@
           - id: TCON
             value: Soul
           - id: USLT
-            value: &ref_108
+            value: &ref_104
               language: eng
               description: ''
               text: |-
@@ -21442,14 +20202,14 @@
           'TXXX:musicbrainz_albumartistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
           TPE2: Sakrecoer
           TPOS: 1/1
-          UFID: *ref_107
+          UFID: *ref_103
           'TXXX:MusicBrainz Artist Id': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
           'TXXX:musicbrainz_artistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
           TPE1: Sakrecoer
           TIT2: Now Future
           TRCK: 10/24
           TCON: Soul
-          USLT: *ref_108
+          USLT: *ref_104
           TYER: '2019'
       all:
         Comment: 'Visit http://shop.basspistol.com'
@@ -21470,14 +20230,14 @@
         'TXXX:musicbrainz_albumartistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
         TPE2: Sakrecoer
         TPOS: 1/1
-        UFID: *ref_107
+        UFID: *ref_103
         'TXXX:MusicBrainz Artist Id': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
         'TXXX:musicbrainz_artistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
         TPE1: Sakrecoer
         TIT2: Now Future
         TRCK: 10/24
         TCON: Soul
-        USLT: *ref_108
+        USLT: *ref_104
         TYER: '2019'
     - path: >-
         /mnt/usb32gb/organized-basspistol.media/assets/albums/waiting-game/11-petit-coeur-feat-lorcan-mak.mp3
@@ -21573,7 +20333,7 @@
           - id: TPOS
             value: 1/1
           - id: UFID
-            value: &ref_109
+            value: &ref_105
               owner_identifier: 'http://musicbrainz.org'
               identifier: !<tag:yaml.org,2002:binary> YTNmMzE4NzMtYjMyMC00MzUzLWEyZDctMjIxMDg5ZWRmYmVlAA==
           - id: 'TXXX:MusicBrainz Artist Id'
@@ -21589,7 +20349,7 @@
           - id: TCON
             value: Alternative Pop
           - id: USLT
-            value: &ref_110
+            value: &ref_106
               language: eng
               description: ''
               text: |
@@ -21664,14 +20424,14 @@
           'TXXX:musicbrainz_albumartistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
           TPE2: Sakrecoer
           TPOS: 1/1
-          UFID: *ref_109
+          UFID: *ref_105
           'TXXX:MusicBrainz Artist Id': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
           'TXXX:musicbrainz_artistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
           TPE1: Sakrecoer
           TIT2: Petit Coeur Feat. Lorcan Mak
           TRCK: 11/24
           TCON: Alternative Pop
-          USLT: *ref_110
+          USLT: *ref_106
           TYER: '2019'
       all:
         Comment: 'Visit http://shop.basspistol.com'
@@ -21692,14 +20452,14 @@
         'TXXX:musicbrainz_albumartistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
         TPE2: Sakrecoer
         TPOS: 1/1
-        UFID: *ref_109
+        UFID: *ref_105
         'TXXX:MusicBrainz Artist Id': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
         'TXXX:musicbrainz_artistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
         TPE1: Sakrecoer
         TIT2: Petit Coeur Feat. Lorcan Mak
         TRCK: 11/24
         TCON: Alternative Pop
-        USLT: *ref_110
+        USLT: *ref_106
         TYER: '2019'
     - path: >-
         /mnt/usb32gb/organized-basspistol.media/assets/albums/waiting-game/12-mes-sentiments-pour-toi.mp3
@@ -21795,7 +20555,7 @@
           - id: TPOS
             value: 1/1
           - id: UFID
-            value: &ref_111
+            value: &ref_107
               owner_identifier: 'http://musicbrainz.org'
               identifier: !<tag:yaml.org,2002:binary> NjQ2N2I0NDItYWYzYS00YWIyLTk2ZjYtY2E0ZWUwYzdkNDFjAA==
           - id: 'TXXX:MusicBrainz Artist Id'
@@ -21811,7 +20571,7 @@
           - id: TCON
             value: Electro
           - id: USLT
-            value: &ref_112
+            value: &ref_108
               language: eng
               description: ''
               text: |-
@@ -21899,14 +20659,14 @@
           'TXXX:musicbrainz_albumartistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
           TPE2: Sakrecoer
           TPOS: 1/1
-          UFID: *ref_111
+          UFID: *ref_107
           'TXXX:MusicBrainz Artist Id': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
           'TXXX:musicbrainz_artistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
           TPE1: Sakrecoer
           TIT2: Mes Sentiments Pour Toi
           TRCK: 12/24
           TCON: Electro
-          USLT: *ref_112
+          USLT: *ref_108
           TYER: '2019'
       all:
         Comment: 'Visit http://shop.basspistol.com'
@@ -21927,14 +20687,14 @@
         'TXXX:musicbrainz_albumartistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
         TPE2: Sakrecoer
         TPOS: 1/1
-        UFID: *ref_111
+        UFID: *ref_107
         'TXXX:MusicBrainz Artist Id': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
         'TXXX:musicbrainz_artistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
         TPE1: Sakrecoer
         TIT2: Mes Sentiments Pour Toi
         TRCK: 12/24
         TCON: Electro
-        USLT: *ref_112
+        USLT: *ref_108
         TYER: '2019'
     - path: >-
         /mnt/usb32gb/organized-basspistol.media/assets/albums/waiting-game/13-reset-the-dance.mp3
@@ -22030,7 +20790,7 @@
           - id: TPOS
             value: 1/1
           - id: UFID
-            value: &ref_113
+            value: &ref_109
               owner_identifier: 'http://musicbrainz.org'
               identifier: !<tag:yaml.org,2002:binary> MTJiMGIxYzItZmRkNS00OWIxLTljOTEtMGE4NmJiNjFkZDllAA==
           - id: 'TXXX:MusicBrainz Artist Id'
@@ -22046,7 +20806,7 @@
           - id: TCON
             value: Balade
           - id: USLT
-            value: &ref_114
+            value: &ref_110
               language: eng
               description: ''
               text: |
@@ -22133,14 +20893,14 @@
           'TXXX:musicbrainz_albumartistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
           TPE2: Sakrecoer
           TPOS: 1/1
-          UFID: *ref_113
+          UFID: *ref_109
           'TXXX:MusicBrainz Artist Id': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
           'TXXX:musicbrainz_artistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
           TPE1: Sakrecoer
           TIT2: Reset the Dance
           TRCK: 13/24
           TCON: Balade
-          USLT: *ref_114
+          USLT: *ref_110
           TYER: '2019'
       all:
         Comment: 'Visit http://shop.basspistol.com'
@@ -22161,14 +20921,14 @@
         'TXXX:musicbrainz_albumartistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
         TPE2: Sakrecoer
         TPOS: 1/1
-        UFID: *ref_113
+        UFID: *ref_109
         'TXXX:MusicBrainz Artist Id': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
         'TXXX:musicbrainz_artistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
         TPE1: Sakrecoer
         TIT2: Reset the Dance
         TRCK: 13/24
         TCON: Balade
-        USLT: *ref_114
+        USLT: *ref_110
         TYER: '2019'
     - path: >-
         /mnt/usb32gb/organized-basspistol.media/assets/albums/waiting-game/14-siii-pola.mp3
@@ -22264,7 +21024,7 @@
           - id: TPOS
             value: 1/1
           - id: UFID
-            value: &ref_115
+            value: &ref_111
               owner_identifier: 'http://musicbrainz.org'
               identifier: !<tag:yaml.org,2002:binary> ZjIwNDc0MWMtMjQxMi00YzhlLTkwNjEtOTllZmIzNWYyNmM3AA==
           - id: 'TXXX:MusicBrainz Artist Id'
@@ -22337,7 +21097,7 @@
           'TXXX:musicbrainz_albumartistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
           TPE2: Sakrecoer
           TPOS: 1/1
-          UFID: *ref_115
+          UFID: *ref_111
           'TXXX:MusicBrainz Artist Id': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
           'TXXX:musicbrainz_artistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
           TPE1: Sakrecoer
@@ -22364,7 +21124,7 @@
         'TXXX:musicbrainz_albumartistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
         TPE2: Sakrecoer
         TPOS: 1/1
-        UFID: *ref_115
+        UFID: *ref_111
         'TXXX:MusicBrainz Artist Id': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
         'TXXX:musicbrainz_artistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
         TPE1: Sakrecoer
@@ -22467,7 +21227,7 @@
           - id: TPOS
             value: 1/1
           - id: UFID
-            value: &ref_116
+            value: &ref_112
               owner_identifier: 'http://musicbrainz.org'
               identifier: !<tag:yaml.org,2002:binary> YzQ3ZTE5ZWEtNTk1OC00NTRhLWFkMTktNGU3MjJmMGQ1NzE0AA==
           - id: TIT2
@@ -22483,7 +21243,7 @@
           - id: TCON
             value: Electro
           - id: USLT
-            value: &ref_117
+            value: &ref_113
               language: eng
               description: ''
               text: |
@@ -22570,14 +21330,14 @@
           'TXXX:musicbrainz_albumartistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
           TPE2: Sakrecoer
           TPOS: 1/1
-          UFID: *ref_116
+          UFID: *ref_112
           TIT2: Secrets
           'TXXX:MusicBrainz Artist Id': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
           'TXXX:musicbrainz_artistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
           TPE1: Sakrecoer
           TRCK: 15/24
           TCON: Electro
-          USLT: *ref_117
+          USLT: *ref_113
           TYER: '2019'
       all:
         Comment: 'Visit http://shop.basspistol.com'
@@ -22598,14 +21358,14 @@
         'TXXX:musicbrainz_albumartistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
         TPE2: Sakrecoer
         TPOS: 1/1
-        UFID: *ref_116
+        UFID: *ref_112
         TIT2: Secrets
         'TXXX:MusicBrainz Artist Id': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
         'TXXX:musicbrainz_artistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
         TPE1: Sakrecoer
         TRCK: 15/24
         TCON: Electro
-        USLT: *ref_117
+        USLT: *ref_113
         TYER: '2019'
     - path: >-
         /mnt/usb32gb/organized-basspistol.media/assets/albums/waiting-game/16-sueka-de-puta.mp3
@@ -22701,7 +21461,7 @@
           - id: TPOS
             value: 1/1
           - id: UFID
-            value: &ref_118
+            value: &ref_114
               owner_identifier: 'http://musicbrainz.org'
               identifier: !<tag:yaml.org,2002:binary> NDViODBhYTgtYzExNi00ZGY5LTg2ZDAtYzY0M2ZiYzJjNGM4AA==
           - id: 'TXXX:MusicBrainz Artist Id'
@@ -22774,7 +21534,7 @@
           'TXXX:musicbrainz_albumartistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
           TPE2: Sakrecoer
           TPOS: 1/1
-          UFID: *ref_118
+          UFID: *ref_114
           'TXXX:MusicBrainz Artist Id': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
           'TXXX:musicbrainz_artistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
           TPE1: Sakrecoer
@@ -22801,7 +21561,7 @@
         'TXXX:musicbrainz_albumartistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
         TPE2: Sakrecoer
         TPOS: 1/1
-        UFID: *ref_118
+        UFID: *ref_114
         'TXXX:MusicBrainz Artist Id': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
         'TXXX:musicbrainz_artistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
         TPE1: Sakrecoer
@@ -22903,7 +21663,7 @@
           - id: TPOS
             value: 1/1
           - id: UFID
-            value: &ref_119
+            value: &ref_115
               owner_identifier: 'http://musicbrainz.org'
               identifier: !<tag:yaml.org,2002:binary> MzJjM2VhOTctMTFjZC00NDFlLWI5ZWQtNDNiNzE2M2Q0Nzk1AA==
           - id: 'TXXX:MusicBrainz Artist Id'
@@ -22919,7 +21679,7 @@
           - id: TCON
             value: Crooner
           - id: USLT
-            value: &ref_120
+            value: &ref_116
               language: eng
               description: ''
               text: |
@@ -23017,14 +21777,14 @@
           'TXXX:musicbrainz_albumartistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
           TPE2: Sakrecoer
           TPOS: 1/1
-          UFID: *ref_119
+          UFID: *ref_115
           'TXXX:MusicBrainz Artist Id': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
           'TXXX:musicbrainz_artistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
           TPE1: Sakrecoer
           TIT2: Battlezoo
           TRCK: 17/24
           TCON: Crooner
-          USLT: *ref_120
+          USLT: *ref_116
           TYER: '2019'
       all:
         Comment: 'Visit http://shop.basspistol.com'
@@ -23045,14 +21805,14 @@
         'TXXX:musicbrainz_albumartistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
         TPE2: Sakrecoer
         TPOS: 1/1
-        UFID: *ref_119
+        UFID: *ref_115
         'TXXX:MusicBrainz Artist Id': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
         'TXXX:musicbrainz_artistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
         TPE1: Sakrecoer
         TIT2: Battlezoo
         TRCK: 17/24
         TCON: Crooner
-        USLT: *ref_120
+        USLT: *ref_116
         TYER: '2019'
     - path: >-
         /mnt/usb32gb/organized-basspistol.media/assets/albums/waiting-game/18-waiting-game.mp3
@@ -23148,7 +21908,7 @@
           - id: TPOS
             value: 1/1
           - id: UFID
-            value: &ref_121
+            value: &ref_117
               owner_identifier: 'http://musicbrainz.org'
               identifier: !<tag:yaml.org,2002:binary> YWFkNTUwNTItODNkNy00NmM2LTlhN2QtZWVlZWM1ODk5YzUzAA==
           - id: TIT2
@@ -23164,7 +21924,7 @@
           - id: TCON
             value: Punk
           - id: USLT
-            value: &ref_122
+            value: &ref_118
               language: eng
               description: ''
               text: |
@@ -23279,14 +22039,14 @@
           'TXXX:musicbrainz_albumartistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
           TPE2: Sakrecoer
           TPOS: 1/1
-          UFID: *ref_121
+          UFID: *ref_117
           TIT2: Waiting Game
           'TXXX:MusicBrainz Artist Id': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
           'TXXX:musicbrainz_artistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
           TPE1: Sakrecoer
           TRCK: 18/24
           TCON: Punk
-          USLT: *ref_122
+          USLT: *ref_118
           TYER: '2019'
       all:
         Comment: 'Visit http://shop.basspistol.com'
@@ -23307,14 +22067,14 @@
         'TXXX:musicbrainz_albumartistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
         TPE2: Sakrecoer
         TPOS: 1/1
-        UFID: *ref_121
+        UFID: *ref_117
         TIT2: Waiting Game
         'TXXX:MusicBrainz Artist Id': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
         'TXXX:musicbrainz_artistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
         TPE1: Sakrecoer
         TRCK: 18/24
         TCON: Punk
-        USLT: *ref_122
+        USLT: *ref_118
         TYER: '2019'
     - path: >-
         /mnt/usb32gb/organized-basspistol.media/assets/albums/waiting-game/19-where-is-your-antenna.mp3
@@ -23410,7 +22170,7 @@
           - id: TPOS
             value: 1/1
           - id: UFID
-            value: &ref_123
+            value: &ref_119
               owner_identifier: 'http://musicbrainz.org'
               identifier: !<tag:yaml.org,2002:binary> MGU1OGM5OWYtOGIwMi00NjE2LTkzMzYtMTBhZTQ2ODdhZjA3AA==
           - id: TIT2
@@ -23426,7 +22186,7 @@
           - id: TCON
             value: Electro Pop
           - id: USLT
-            value: &ref_124
+            value: &ref_120
               language: eng
               description: ''
               text: |-
@@ -23502,14 +22262,14 @@
           'TXXX:musicbrainz_albumartistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
           TPE2: Sakrecoer
           TPOS: 1/1
-          UFID: *ref_123
+          UFID: *ref_119
           TIT2: Where Is Your Antenna
           'TXXX:MusicBrainz Artist Id': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
           'TXXX:musicbrainz_artistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
           TPE1: Sakrecoer
           TRCK: 19/24
           TCON: Electro Pop
-          USLT: *ref_124
+          USLT: *ref_120
           TYER: '2019'
       all:
         Comment: 'Visit http://shop.basspistol.com'
@@ -23530,14 +22290,14 @@
         'TXXX:musicbrainz_albumartistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
         TPE2: Sakrecoer
         TPOS: 1/1
-        UFID: *ref_123
+        UFID: *ref_119
         TIT2: Where Is Your Antenna
         'TXXX:MusicBrainz Artist Id': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
         'TXXX:musicbrainz_artistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
         TPE1: Sakrecoer
         TRCK: 19/24
         TCON: Electro Pop
-        USLT: *ref_124
+        USLT: *ref_120
         TYER: '2019'
     - path: >-
         /mnt/usb32gb/organized-basspistol.media/assets/albums/waiting-game/20-avide-du-tempo.mp3
@@ -23633,7 +22393,7 @@
           - id: TPOS
             value: 1/1
           - id: UFID
-            value: &ref_125
+            value: &ref_121
               owner_identifier: 'http://musicbrainz.org'
               identifier: !<tag:yaml.org,2002:binary> ZWYwN2Y3NzgtMWY1NS00MTk5LWFjYjItYTNmNDY3YmQyMzdhAA==
           - id: TIT2
@@ -23649,7 +22409,7 @@
           - id: TCON
             value: 3Step
           - id: USLT
-            value: &ref_126
+            value: &ref_122
               language: eng
               description: ''
               text: |
@@ -23732,14 +22492,14 @@
           'TXXX:musicbrainz_albumartistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
           TPE2: Sakrecoer
           TPOS: 1/1
-          UFID: *ref_125
+          UFID: *ref_121
           TIT2: Avide Du Tempo
           'TXXX:MusicBrainz Artist Id': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
           'TXXX:musicbrainz_artistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
           TPE1: Sakrecoer
           TRCK: 20/24
           TCON: 3Step
-          USLT: *ref_126
+          USLT: *ref_122
           TYER: '2019'
       all:
         Comment: 'Visit http://shop.basspistol.com'
@@ -23760,14 +22520,14 @@
         'TXXX:musicbrainz_albumartistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
         TPE2: Sakrecoer
         TPOS: 1/1
-        UFID: *ref_125
+        UFID: *ref_121
         TIT2: Avide Du Tempo
         'TXXX:MusicBrainz Artist Id': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
         'TXXX:musicbrainz_artistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
         TPE1: Sakrecoer
         TRCK: 20/24
         TCON: 3Step
-        USLT: *ref_126
+        USLT: *ref_122
         TYER: '2019'
     - path: >-
         /mnt/usb32gb/organized-basspistol.media/assets/albums/waiting-game/21-contemple-le-temps.mp3
@@ -23863,7 +22623,7 @@
           - id: TPOS
             value: 1/1
           - id: UFID
-            value: &ref_127
+            value: &ref_123
               owner_identifier: 'http://musicbrainz.org'
               identifier: !<tag:yaml.org,2002:binary> ZmFjODFhYjktMzAyMS00MTA1LWFkZjYtMTExODRjYmE3ZDNkAA==
           - id: TIT2
@@ -23879,7 +22639,7 @@
           - id: TCON
             value: Meditative
           - id: USLT
-            value: &ref_128
+            value: &ref_124
               language: eng
               description: ''
               text: |
@@ -23952,14 +22712,14 @@
           'TXXX:musicbrainz_albumartistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
           TPE2: Sakrecoer
           TPOS: 1/1
-          UFID: *ref_127
+          UFID: *ref_123
           TIT2: Contemple Le Temps
           'TXXX:MusicBrainz Artist Id': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
           'TXXX:musicbrainz_artistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
           TPE1: Sakrecoer
           TRCK: 21/24
           TCON: Meditative
-          USLT: *ref_128
+          USLT: *ref_124
           TYER: '2019'
       all:
         Comment: 'Visit http://shop.basspistol.com'
@@ -23980,14 +22740,14 @@
         'TXXX:musicbrainz_albumartistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
         TPE2: Sakrecoer
         TPOS: 1/1
-        UFID: *ref_127
+        UFID: *ref_123
         TIT2: Contemple Le Temps
         'TXXX:MusicBrainz Artist Id': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
         'TXXX:musicbrainz_artistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
         TPE1: Sakrecoer
         TRCK: 21/24
         TCON: Meditative
-        USLT: *ref_128
+        USLT: *ref_124
         TYER: '2019'
     - path: >-
         /mnt/usb32gb/organized-basspistol.media/assets/albums/waiting-game/22-supernova.mp3
@@ -24083,7 +22843,7 @@
           - id: TPOS
             value: 1/1
           - id: UFID
-            value: &ref_129
+            value: &ref_125
               owner_identifier: 'http://musicbrainz.org'
               identifier: !<tag:yaml.org,2002:binary> OGFjMmJkYjUtMjc1MC00NDFiLWFmMTgtOGYyYmE3YTRiNWUzAA==
           - id: 'TXXX:MusicBrainz Artist Id'
@@ -24156,7 +22916,7 @@
           'TXXX:musicbrainz_albumartistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
           TPE2: Sakrecoer
           TPOS: 1/1
-          UFID: *ref_129
+          UFID: *ref_125
           'TXXX:MusicBrainz Artist Id': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
           'TXXX:musicbrainz_artistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
           TPE1: Sakrecoer
@@ -24183,7 +22943,7 @@
         'TXXX:musicbrainz_albumartistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
         TPE2: Sakrecoer
         TPOS: 1/1
-        UFID: *ref_129
+        UFID: *ref_125
         'TXXX:MusicBrainz Artist Id': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
         'TXXX:musicbrainz_artistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
         TPE1: Sakrecoer
@@ -24285,7 +23045,7 @@
           - id: TPOS
             value: 1/1
           - id: UFID
-            value: &ref_130
+            value: &ref_126
               owner_identifier: 'http://musicbrainz.org'
               identifier: !<tag:yaml.org,2002:binary> MjY4NzUyMGItYjE2Yi00MDE3LTgxNTctZjdiM2YwYjMzNDg2AA==
           - id: 'TXXX:MusicBrainz Artist Id'
@@ -24301,7 +23061,7 @@
           - id: TCON
             value: Electro Pop
           - id: USLT
-            value: &ref_131
+            value: &ref_127
               language: eng
               description: ''
               text: |
@@ -24395,14 +23155,14 @@
           'TXXX:musicbrainz_albumartistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
           TPE2: Sakrecoer
           TPOS: 1/1
-          UFID: *ref_130
+          UFID: *ref_126
           'TXXX:MusicBrainz Artist Id': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
           'TXXX:musicbrainz_artistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
           TPE1: Sakrecoer
           TIT2: Syndrom 99
           TRCK: 23/24
           TCON: Electro Pop
-          USLT: *ref_131
+          USLT: *ref_127
           TYER: '2019'
       all:
         Comment: 'Visit http://shop.basspistol.com'
@@ -24423,14 +23183,14 @@
         'TXXX:musicbrainz_albumartistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
         TPE2: Sakrecoer
         TPOS: 1/1
-        UFID: *ref_130
+        UFID: *ref_126
         'TXXX:MusicBrainz Artist Id': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
         'TXXX:musicbrainz_artistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
         TPE1: Sakrecoer
         TIT2: Syndrom 99
         TRCK: 23/24
         TCON: Electro Pop
-        USLT: *ref_131
+        USLT: *ref_127
         TYER: '2019'
     - path: >-
         /mnt/usb32gb/organized-basspistol.media/assets/albums/waiting-game/24-un-barcelones-en-carib-malm-.mp3
@@ -24526,7 +23286,7 @@
           - id: TPOS
             value: 1/1
           - id: UFID
-            value: &ref_132
+            value: &ref_128
               owner_identifier: 'http://musicbrainz.org'
               identifier: !<tag:yaml.org,2002:binary> MjlhNTc0YTAtZjRmNy00OGJjLTgxYTMtMmFkZWM1ZTBjMGM4AA==
           - id: 'TXXX:MusicBrainz Artist Id'
@@ -24599,7 +23359,7 @@
           'TXXX:musicbrainz_albumartistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
           TPE2: Sakrecoer
           TPOS: 1/1
-          UFID: *ref_132
+          UFID: *ref_128
           'TXXX:MusicBrainz Artist Id': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
           'TXXX:musicbrainz_artistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
           TPE1: Sakrecoer
@@ -24626,7 +23386,7 @@
         'TXXX:musicbrainz_albumartistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
         TPE2: Sakrecoer
         TPOS: 1/1
-        UFID: *ref_132
+        UFID: *ref_128
         'TXXX:MusicBrainz Artist Id': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
         'TXXX:musicbrainz_artistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
         TPE1: Sakrecoer

@@ -851,36 +851,65 @@ previousTrack:
         value:
           language: eng
           description: lyrics
-          text: |
-            Oh oui, vad ar det for melodie?
-            Som glider forbi.
-            Oh oui, vad ar det for melodie
-            Som glider sig i.
-            Oh oui, vad ar denna melodie?
-            Som tranger sig i.
-            Oh oui.
+          text: >
+            <em>Oh oui, vad ar det for melodie?<br />
 
-            Luften bojer sig for sin gang,
-            Och hela kroppen kanns som trang.
-            Ah oui, en inframelodie
-            Fanga traden lyft dig upp
-            Latta sjalen trilla ner
-            Metavagor kommer upp
-            Infrastruktur ar din sjal
-            Oh oui, en bass alegori
-            En bass trotoar.
+            Som glider forbi.<br />
 
+            Oh oui, vad ar det for melodie<br />
 
-            Vara lag frekvens osciliatorer, vacktar over din val var.
-            Vara lag frekvens osciliatorer, vill bara att du ska ha det bra.
-            Ah oui, oh sjung denna melodie.
+            Som glider sig i.<br />
 
-            Vagen borjar likna minus,
-            Och allt som forut var minus.
-            Ror sig sakta positivt.
-            I ett vackert monster alternativt.
-            Oh oui,
-            En infra melodie.
+            Oh oui, vad ar denna melodie?<br />
+
+            Som tranger sig i.<br />
+
+            Oh oui.<br />
+
+            <br />
+
+            Luften bojer sig for sin gang,<br />
+
+            Och hela kroppen kanns som trang.<br />
+
+            Ah oui, en inframelodie<br />
+
+            Fanga traden lyft dig upp<br />
+
+            Latta sjalen trilla ner<br />
+
+            Metavagor kommer upp<br />
+
+            Infrastruktur ar din sjal<br />
+
+            Oh oui, en bass alegori<br />
+
+            En bass trotoar.<br />
+
+            <br />
+
+            Vara lag frekvens osciliatorer, vacktar over din val var.<br />
+
+            Vara lag frekvens osciliatorer, vill bara att du ska ha det bra.<br
+            />
+
+            Ah oui, oh sjung denna melodie.<br />
+
+            <br />
+
+            Vagen borjar likna minus,<br />
+
+            Och allt som forut var minus.<br />
+
+            Ror sig sakta positivt.<br />
+
+            I ett vackert monster alternativt.<br />
+
+            Oh oui,<br />
+
+            En infra melodie.<br /></em>
+      - id: WOAS
+        value: 'https://archive.org/details/BPIST001'
   quality:
     warnings: []
   common:
@@ -953,35 +982,35 @@ previousTrack:
       TRCK: 5/10
       TDRC: '2010-01-01'
       lyrics: |
-        Oh oui, vad ar det for melodie?
-        Som glider forbi.
-        Oh oui, vad ar det for melodie
-        Som glider sig i.
-        Oh oui, vad ar denna melodie?
-        Som tranger sig i.
-        Oh oui.
-
-        Luften bojer sig for sin gang,
-        Och hela kroppen kanns som trang.
-        Ah oui, en inframelodie
-        Fanga traden lyft dig upp
-        Latta sjalen trilla ner
-        Metavagor kommer upp
-        Infrastruktur ar din sjal
-        Oh oui, en bass alegori
-        En bass trotoar.
-
-
-        Vara lag frekvens osciliatorer, vacktar over din val var.
-        Vara lag frekvens osciliatorer, vill bara att du ska ha det bra.
-        Ah oui, oh sjung denna melodie.
-
-        Vagen borjar likna minus,
-        Och allt som forut var minus.
-        Ror sig sakta positivt.
-        I ett vackert monster alternativt.
-        Oh oui,
-        En infra melodie.
+        <em>Oh oui, vad ar det for melodie?<br />
+        Som glider forbi.<br />
+        Oh oui, vad ar det for melodie<br />
+        Som glider sig i.<br />
+        Oh oui, vad ar denna melodie?<br />
+        Som tranger sig i.<br />
+        Oh oui.<br />
+        <br />
+        Luften bojer sig for sin gang,<br />
+        Och hela kroppen kanns som trang.<br />
+        Ah oui, en inframelodie<br />
+        Fanga traden lyft dig upp<br />
+        Latta sjalen trilla ner<br />
+        Metavagor kommer upp<br />
+        Infrastruktur ar din sjal<br />
+        Oh oui, en bass alegori<br />
+        En bass trotoar.<br />
+        <br />
+        Vara lag frekvens osciliatorer, vacktar over din val var.<br />
+        Vara lag frekvens osciliatorer, vill bara att du ska ha det bra.<br />
+        Ah oui, oh sjung denna melodie.<br />
+        <br />
+        Vagen borjar likna minus,<br />
+        Och allt som forut var minus.<br />
+        Ror sig sakta positivt.<br />
+        I ett vackert monster alternativt.<br />
+        Oh oui,<br />
+        En infra melodie.<br /></em>
+      WOAS: 'https://archive.org/details/BPIST001'
   all:
     TCON: Electro Pop
     c0: www.sakrecoer.com - www.basspistol.com
@@ -1013,33 +1042,33 @@ previousTrack:
     TRCK: 5/10
     TDRC: '2010-01-01'
     lyrics: |
-      Oh oui, vad ar det for melodie?
-      Som glider forbi.
-      Oh oui, vad ar det for melodie
-      Som glider sig i.
-      Oh oui, vad ar denna melodie?
-      Som tranger sig i.
-      Oh oui.
-
-      Luften bojer sig for sin gang,
-      Och hela kroppen kanns som trang.
-      Ah oui, en inframelodie
-      Fanga traden lyft dig upp
-      Latta sjalen trilla ner
-      Metavagor kommer upp
-      Infrastruktur ar din sjal
-      Oh oui, en bass alegori
-      En bass trotoar.
-
-
-      Vara lag frekvens osciliatorer, vacktar over din val var.
-      Vara lag frekvens osciliatorer, vill bara att du ska ha det bra.
-      Ah oui, oh sjung denna melodie.
-
-      Vagen borjar likna minus,
-      Och allt som forut var minus.
-      Ror sig sakta positivt.
-      I ett vackert monster alternativt.
-      Oh oui,
-      En infra melodie.
+      <em>Oh oui, vad ar det for melodie?<br />
+      Som glider forbi.<br />
+      Oh oui, vad ar det for melodie<br />
+      Som glider sig i.<br />
+      Oh oui, vad ar denna melodie?<br />
+      Som tranger sig i.<br />
+      Oh oui.<br />
+      <br />
+      Luften bojer sig for sin gang,<br />
+      Och hela kroppen kanns som trang.<br />
+      Ah oui, en inframelodie<br />
+      Fanga traden lyft dig upp<br />
+      Latta sjalen trilla ner<br />
+      Metavagor kommer upp<br />
+      Infrastruktur ar din sjal<br />
+      Oh oui, en bass alegori<br />
+      En bass trotoar.<br />
+      <br />
+      Vara lag frekvens osciliatorer, vacktar over din val var.<br />
+      Vara lag frekvens osciliatorer, vill bara att du ska ha det bra.<br />
+      Ah oui, oh sjung denna melodie.<br />
+      <br />
+      Vagen borjar likna minus,<br />
+      Och allt som forut var minus.<br />
+      Ror sig sakta positivt.<br />
+      I ett vackert monster alternativt.<br />
+      Oh oui,<br />
+      En infra melodie.<br /></em>
+    WOAS: 'https://archive.org/details/BPIST001'
 ---

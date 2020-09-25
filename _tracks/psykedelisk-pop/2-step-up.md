@@ -889,14 +889,16 @@ previousTrack:
           language: eng
           description: lyrics
           text: |-
-            Oh Marie,
-            Janne ar pa min hjarna.
-            Han vet precis,
-            Hur allting ska fungera.
-            Han satter mig i meditation.
-            Min sjal i levitation.
-            Jag svavar upp i det bla,
-            Tack vare det grona...
+            <em>Oh Marie,<br />
+            Janne ar pa min hjarna.<br />
+            Han vet precis,<br />
+            Hur allting ska fungera.<br />
+            Han satter mig i meditation.<br />
+            Min sjal i levitation.<br />
+            Jag svavar upp i det bla,<br />
+            Tack vare det grona...<br /></em>
+      - id: WOAS
+        value: 'https://archive.org/details/BPIST001'
   quality:
     warnings: []
   common:
@@ -969,14 +971,15 @@ previousTrack:
       TRCK: 1/10
       TDRC: '2010-01-01'
       lyrics: |-
-        Oh Marie,
-        Janne ar pa min hjarna.
-        Han vet precis,
-        Hur allting ska fungera.
-        Han satter mig i meditation.
-        Min sjal i levitation.
-        Jag svavar upp i det bla,
-        Tack vare det grona...
+        <em>Oh Marie,<br />
+        Janne ar pa min hjarna.<br />
+        Han vet precis,<br />
+        Hur allting ska fungera.<br />
+        Han satter mig i meditation.<br />
+        Min sjal i levitation.<br />
+        Jag svavar upp i det bla,<br />
+        Tack vare det grona...<br /></em>
+      WOAS: 'https://archive.org/details/BPIST001'
   all:
     TCON: Electro Pop
     c0: www.sakrecoer.com - www.basspistol.com
@@ -1008,12 +1011,13 @@ previousTrack:
     TRCK: 1/10
     TDRC: '2010-01-01'
     lyrics: |-
-      Oh Marie,
-      Janne ar pa min hjarna.
-      Han vet precis,
-      Hur allting ska fungera.
-      Han satter mig i meditation.
-      Min sjal i levitation.
-      Jag svavar upp i det bla,
-      Tack vare det grona...
+      <em>Oh Marie,<br />
+      Janne ar pa min hjarna.<br />
+      Han vet precis,<br />
+      Hur allting ska fungera.<br />
+      Han satter mig i meditation.<br />
+      Min sjal i levitation.<br />
+      Jag svavar upp i det bla,<br />
+      Tack vare det grona...<br /></em>
+    WOAS: 'https://archive.org/details/BPIST001'
 ---
