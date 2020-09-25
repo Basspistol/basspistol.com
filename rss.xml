@@ -29,7 +29,7 @@ title : The Basspistol RSS Feed
       <itunes:name>{{ site.publisher.name | xml_escape }}</itunes:name>
       <itunes:email>info@basspitol.com</itunes:email>
     </itunes:owner>
-    <managingEditor>{{ site.publisher.name }} <{{ site.publisher.mail }}></managingEditor>
+    <managingEditor>{{ site.publisher.name }} {{ site.publisher.mail }}</managingEditor>
     <copyright>Anti-Copyright 2018 {{ site.title }}</copyright>
     <itunes:subtitle>{{ site.title }}</itunes:subtitle>
     <itunes:category text="Music">
