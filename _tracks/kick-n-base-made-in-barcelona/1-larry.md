@@ -1,18 +1,17 @@
 ---
 layout: track
 path: >-
-  /home/set/git/basspistol/basspistol.com/assets/albums/kick-n-base-made-in-barcelona/1-larry.mp3
+  /mnt/usb32gb/organized-basspistol.media/assets/albums/kick-n-base-made-in-barcelona/1-larry.mp3
 audio: /assets/albums/kick-n-base-made-in-barcelona/1-larry.mp3
 slug: kick-n-base-made-in-barcelona/1-larry
 albumSlug: kick-n-base-made-in-barcelona
 trackSlug: 1-larry
 coverPath: >-
-  /home/set/git/basspistol/basspistol.com/assets/albums/kick-n-base-made-in-barcelona/1-larry.jpeg
+  /mnt/usb32gb/organized-basspistol.media/assets/albums/kick-n-base-made-in-barcelona/1-larry.jpeg
 cover: /assets/albums/kick-n-base-made-in-barcelona/1-larry.jpeg
 format:
   tagTypes:
-    - ID3v2.3
-    - ID3v1
+    - ID3v2.4
   trackInfo: []
   lossless: false
   container: MPEG
@@ -25,56 +24,16 @@ format:
   numberOfSamples: 22610304
   duration: 512.705306122449
 native:
-  ID3v2.3:
-    - id: TIT2
-      value: Larry
-    - id: TPE1
-      value: Holyhertz
-    - id: TRCK
-      value: 1/11
-    - id: TALB
-      value: Kick'N'Base Made In Barcelona
-    - id: TPOS
-      value: 1/1
+  ID3v2.4:
+    - id: COMM
+      value:
+        language: XXX
+        description: c0
+        text: www.holyhertz.com www.basspistol.com
     - id: TCON
       value: KickNBase
-    - id: TDAT
-      value: '0103'
-    - id: TORY
-      value: '2010'
-    - id: TYER
-      value: '2010'
-    - id: TPE2
-      value: Holyhertz
-    - id: TSO2
-      value: Holyhertz
-    - id: TSOP
-      value: Holyhertz
-    - id: TPUB
-      value: Basspistol
-    - id: TMED
-      value: Digital Media
-    - id: WOAS
-      value: "https://archive.org/details/BPIST003\0"
-    - id: 'TXXX:ARTISTS'
-      value: Holyhertz
-    - id: 'TXXX:originalyear'
-      value: '2010'
-    - id: COMM
-      value:
-        language: XXX
-        description: LABEL
-        text: Basspistol
-    - id: COMM
-      value:
-        language: XXX
-        description: ARTISTS
-        text: Holyhertz
-    - id: COMM
-      value:
-        language: XXX
-        description: ORIGINALYEAR
-        text: '2010'
+    - id: TIT2
+      value: Larry
     - id: COMM
       value:
         language: XXX
@@ -83,62 +42,18 @@ native:
     - id: COMM
       value:
         language: XXX
-        description: RELEASETYPE
-        text: album
+        description: LABEL
+        text: Basspistol
     - id: COMM
       value:
         language: XXX
-        description: MEDIA
-        text: Digital Media
-    - id: 'TXXX:CATALOGNUMBER'
-      value: BPIST003
-    - id: COMM
-      value:
-        language: XXX
-        description: CATALOGNUMBER
-        text: BPIST003
-    - id: COMM
-      value:
-        language: XXX
-        description: RELEASESTATUS
-        text: official
+        description: MUSICBRAINZ_RELEASETRACKID
+        text: 3003b08c-fecf-41e0-923b-d485419a6097
     - id: COMM
       value:
         language: XXX
         description: ORIGINALDATE
         text: '2010-03-01'
-    - id: 'TXXX:musicbrainz_albumid'
-      value: c3b95529-e0b3-400e-a5a7-804c07a11baf
-    - id: 'TXXX:musicbrainz_artistid'
-      value: 89d471b5-88a6-4330-a76c-6c3d7ca98e33
-    - id: UFID
-      value: &ref_0
-        owner_identifier: 'http://musicbrainz.org'
-        identifier: !<tag:yaml.org,2002:binary> ZDRmODI3OGYtYTBjMi00ZTljLTg3YWYtYWQ5OTZhYTlhODBk
-    - id: 'TXXX:MusicBrainz Album Type'
-      value: album
-    - id: 'TXXX:musicbrainz_albumartistid'
-      value: 89d471b5-88a6-4330-a76c-6c3d7ca98e33
-    - id: 'TXXX:MusicBrainz Album Status'
-      value: official
-    - id: 'TXXX:MusicBrainz Album Release Country'
-      value: XW
-    - id: COMM
-      value:
-        language: XXX
-        description: c0
-        text: www.holyhertz.com www.basspistol.com
-    - id: COMM
-      value:
-        language: XXX
-        description: ACOUSTID_ID
-        text: 293f825f-d458-478a-9aa7-417bebed2396
-    - id: 'TXXX:MusicBrainz Album Id'
-      value: c3b95529-e0b3-400e-a5a7-804c07a11baf
-    - id: 'TXXX:MusicBrainz Artist Id'
-      value: 89d471b5-88a6-4330-a76c-6c3d7ca98e33
-    - id: 'TXXX:MusicBrainz Album Artist Id'
-      value: 89d471b5-88a6-4330-a76c-6c3d7ca98e33
     - id: COMM
       value:
         language: XXX
@@ -147,23 +62,70 @@ native:
     - id: COMM
       value:
         language: XXX
-        description: MUSICBRAINZ_RELEASETRACKID
-        text: 3003b08c-fecf-41e0-923b-d485419a6097
-    - id: 'TXXX:MusicBrainz Release Group Id'
-      value: 14de5336-23ea-4f2a-98fb-a5f7b6b8a2bc
-    - id: 'TXXX:MusicBrainz Release Track Id'
-      value: 3003b08c-fecf-41e0-923b-d485419a6097
-  ID3v1:
-    - id: title
-      value: Larry
-    - id: artist
+        description: RELEASESTATUS
+        text: official
+    - id: COMM
+      value:
+        language: XXX
+        description: ACOUSTID_ID
+        text: 293f825f-d458-478a-9aa7-417bebed2396
+    - id: COMM
+      value:
+        language: XXX
+        description: CATALOGNUMBER
+        text: BPIST003
+    - id: COMM
+      value:
+        language: XXX
+        description: MEDIA
+        text: Digital Media
+    - id: COMM
+      value:
+        language: XXX
+        description: RELEASETYPE
+        text: album
+    - id: COMM
+      value:
+        language: XXX
+        description: ORIGINALYEAR
+        text: '2010'
+    - id: COMM
+      value:
+        language: XXX
+        description: ARTISTS
+        text: Holyhertz
+    - id: 'TXXX:MusicBrainz Album Artist Id'
+      value: 89d471b5-88a6-4330-a76c-6c3d7ca98e33
+    - id: 'TXXX:musicbrainz_albumartistid'
+      value: 89d471b5-88a6-4330-a76c-6c3d7ca98e33
+    - id: TPOS
+      value: 1/1
+    - id: 'TXXX:MusicBrainz Album Id'
+      value: c3b95529-e0b3-400e-a5a7-804c07a11baf
+    - id: 'TXXX:musicbrainz_albumid'
+      value: c3b95529-e0b3-400e-a5a7-804c07a11baf
+    - id: TPE2
       value: Holyhertz
-    - id: album
-      value: Kick'N'Base Made In Barcelona
-    - id: track
-      value: 1
-    - id: year
-      value: '2010'
+    - id: TALB
+      value: Kick-N-Base Made In Barcelona
+    - id: 'TXXX:MusicBrainz Artist Id'
+      value: 89d471b5-88a6-4330-a76c-6c3d7ca98e33
+    - id: 'TXXX:musicbrainz_artistid'
+      value: 89d471b5-88a6-4330-a76c-6c3d7ca98e33
+    - id: TPE1
+      value: Holyhertz
+    - id: UFID
+      value: &ref_0
+        owner_identifier: 'http://musicbrainz.org'
+        identifier: !<tag:yaml.org,2002:binary> ZDRmODI3OGYtYTBjMi00ZTljLTg3YWYtYWQ5OTZhYTlhODBk
+    - id: TSOP
+      value: Holyhertz
+    - id: TRCK
+      value: 1/11
+    - id: TDRC
+      value: '2010-03-01'
+    - id: WOAS
+      value: 'https://archive.org/details/BPIST003'
 quality:
   warnings: []
 common:
@@ -173,163 +135,113 @@ common:
   disk:
     'no': 1
     of: 1
+  comment:
+    - www.holyhertz.com www.basspistol.com
+    - XW
+    - Basspistol
+    - 3003b08c-fecf-41e0-923b-d485419a6097
+    - '2010-03-01'
+    - 14de5336-23ea-4f2a-98fb-a5f7b6b8a2bc
+    - official
+    - 293f825f-d458-478a-9aa7-417bebed2396
+    - BPIST003
+    - Digital Media
+    - album
+    - '2010'
+    - Holyhertz
+  genre:
+    - KickNBase
   title: Larry
+  musicbrainz_albumartistid:
+    - 89d471b5-88a6-4330-a76c-6c3d7ca98e33
+  musicbrainz_albumid: c3b95529-e0b3-400e-a5a7-804c07a11baf
+  albumartist: Holyhertz
+  album: Kick-N-Base Made In Barcelona
+  musicbrainz_artistid:
+    - 89d471b5-88a6-4330-a76c-6c3d7ca98e33
   artists:
     - Holyhertz
   artist: Holyhertz
-  album: Kick'N'Base Made In Barcelona
-  genre:
-    - KickNBase
-  originalyear: 2010
-  year: 2010
-  albumartist: Holyhertz
-  albumartistsort: Holyhertz
-  artistsort: Holyhertz
-  label:
-    - Basspistol
-  media: Digital Media
-  comment:
-    - Basspistol
-    - Holyhertz
-    - '2010'
-    - XW
-    - album
-    - Digital Media
-    - BPIST003
-    - official
-    - '2010-03-01'
-    - www.holyhertz.com www.basspistol.com
-    - 293f825f-d458-478a-9aa7-417bebed2396
-    - 14de5336-23ea-4f2a-98fb-a5f7b6b8a2bc
-    - 3003b08c-fecf-41e0-923b-d485419a6097
-  catalognumber:
-    - BPIST003
   musicbrainz_recordingid: d4f8278f-a0c2-4e9c-87af-ad996aa9a80d
-  releasetype:
-    - album
-  releasestatus: official
-  releasecountry: XW
-  musicbrainz_albumid: c3b95529-e0b3-400e-a5a7-804c07a11baf
-  musicbrainz_artistid:
-    - 89d471b5-88a6-4330-a76c-6c3d7ca98e33
-  musicbrainz_albumartistid:
-    - 89d471b5-88a6-4330-a76c-6c3d7ca98e33
-  musicbrainz_releasegroupid: 14de5336-23ea-4f2a-98fb-a5f7b6b8a2bc
-  musicbrainz_trackid: 3003b08c-fecf-41e0-923b-d485419a6097
+  artistsort: Holyhertz
+  year: 2010
+  date: '2010-03-01'
 transformed:
-  ID3v2.3:
-    TIT2: Larry
-    TPE1: Holyhertz
-    TRCK: 1/11
-    TALB: Kick'N'Base Made In Barcelona
-    TPOS: 1/1
-    TCON: KickNBase
-    TDAT: '0103'
-    TORY: '2010'
-    TYER: '2010'
-    TPE2: Holyhertz
-    TSO2: Holyhertz
-    TSOP: Holyhertz
-    TPUB: Basspistol
-    TMED: Digital Media
-    WOAS: "https://archive.org/details/BPIST003\0"
-    'TXXX:ARTISTS': Holyhertz
-    'TXXX:originalyear': '2010'
-    LABEL: Basspistol
-    ARTISTS: Holyhertz
-    ORIGINALYEAR: '2010'
-    RELEASECOUNTRY: XW
-    RELEASETYPE: album
-    MEDIA: Digital Media
-    'TXXX:CATALOGNUMBER': BPIST003
-    CATALOGNUMBER: BPIST003
-    RELEASESTATUS: official
-    ORIGINALDATE: '2010-03-01'
-    'TXXX:musicbrainz_albumid': c3b95529-e0b3-400e-a5a7-804c07a11baf
-    'TXXX:musicbrainz_artistid': 89d471b5-88a6-4330-a76c-6c3d7ca98e33
-    UFID: *ref_0
-    'TXXX:MusicBrainz Album Type': album
-    'TXXX:musicbrainz_albumartistid': 89d471b5-88a6-4330-a76c-6c3d7ca98e33
-    'TXXX:MusicBrainz Album Status': official
-    'TXXX:MusicBrainz Album Release Country': XW
+  ID3v2.4:
     c0: www.holyhertz.com www.basspistol.com
-    ACOUSTID_ID: 293f825f-d458-478a-9aa7-417bebed2396
-    'TXXX:MusicBrainz Album Id': c3b95529-e0b3-400e-a5a7-804c07a11baf
-    'TXXX:MusicBrainz Artist Id': 89d471b5-88a6-4330-a76c-6c3d7ca98e33
-    'TXXX:MusicBrainz Album Artist Id': 89d471b5-88a6-4330-a76c-6c3d7ca98e33
-    MUSICBRAINZ_RELEASEGROUPID: 14de5336-23ea-4f2a-98fb-a5f7b6b8a2bc
+    TCON: KickNBase
+    TIT2: Larry
+    RELEASECOUNTRY: XW
+    LABEL: Basspistol
     MUSICBRAINZ_RELEASETRACKID: 3003b08c-fecf-41e0-923b-d485419a6097
-    'TXXX:MusicBrainz Release Group Id': 14de5336-23ea-4f2a-98fb-a5f7b6b8a2bc
-    'TXXX:MusicBrainz Release Track Id': 3003b08c-fecf-41e0-923b-d485419a6097
-  ID3v1:
-    title: Larry
-    artist: Holyhertz
-    album: Kick'N'Base Made In Barcelona
-    track: 1
-    year: '2010'
+    ORIGINALDATE: '2010-03-01'
+    MUSICBRAINZ_RELEASEGROUPID: 14de5336-23ea-4f2a-98fb-a5f7b6b8a2bc
+    RELEASESTATUS: official
+    ACOUSTID_ID: 293f825f-d458-478a-9aa7-417bebed2396
+    CATALOGNUMBER: BPIST003
+    MEDIA: Digital Media
+    RELEASETYPE: album
+    ORIGINALYEAR: '2010'
+    ARTISTS: Holyhertz
+    'TXXX:MusicBrainz Album Artist Id': 89d471b5-88a6-4330-a76c-6c3d7ca98e33
+    'TXXX:musicbrainz_albumartistid': 89d471b5-88a6-4330-a76c-6c3d7ca98e33
+    TPOS: 1/1
+    'TXXX:MusicBrainz Album Id': c3b95529-e0b3-400e-a5a7-804c07a11baf
+    'TXXX:musicbrainz_albumid': c3b95529-e0b3-400e-a5a7-804c07a11baf
+    TPE2: Holyhertz
+    TALB: Kick-N-Base Made In Barcelona
+    'TXXX:MusicBrainz Artist Id': 89d471b5-88a6-4330-a76c-6c3d7ca98e33
+    'TXXX:musicbrainz_artistid': 89d471b5-88a6-4330-a76c-6c3d7ca98e33
+    TPE1: Holyhertz
+    UFID: *ref_0
+    TSOP: Holyhertz
+    TRCK: 1/11
+    TDRC: '2010-03-01'
+    WOAS: 'https://archive.org/details/BPIST003'
 all:
-  TIT2: Larry
-  TPE1: Holyhertz
-  TRCK: 1/11
-  TALB: Kick'N'Base Made In Barcelona
-  TPOS: 1/1
-  TCON: KickNBase
-  TDAT: '0103'
-  TORY: '2010'
-  TYER: '2010'
-  TPE2: Holyhertz
-  TSO2: Holyhertz
-  TSOP: Holyhertz
-  TPUB: Basspistol
-  TMED: Digital Media
-  WOAS: "https://archive.org/details/BPIST003\0"
-  'TXXX:ARTISTS': Holyhertz
-  'TXXX:originalyear': '2010'
-  LABEL: Basspistol
-  ARTISTS: Holyhertz
-  ORIGINALYEAR: '2010'
-  RELEASECOUNTRY: XW
-  RELEASETYPE: album
-  MEDIA: Digital Media
-  'TXXX:CATALOGNUMBER': BPIST003
-  CATALOGNUMBER: BPIST003
-  RELEASESTATUS: official
-  ORIGINALDATE: '2010-03-01'
-  'TXXX:musicbrainz_albumid': c3b95529-e0b3-400e-a5a7-804c07a11baf
-  'TXXX:musicbrainz_artistid': 89d471b5-88a6-4330-a76c-6c3d7ca98e33
-  UFID: *ref_0
-  'TXXX:MusicBrainz Album Type': album
-  'TXXX:musicbrainz_albumartistid': 89d471b5-88a6-4330-a76c-6c3d7ca98e33
-  'TXXX:MusicBrainz Album Status': official
-  'TXXX:MusicBrainz Album Release Country': XW
   c0: www.holyhertz.com www.basspistol.com
-  ACOUSTID_ID: 293f825f-d458-478a-9aa7-417bebed2396
-  'TXXX:MusicBrainz Album Id': c3b95529-e0b3-400e-a5a7-804c07a11baf
-  'TXXX:MusicBrainz Artist Id': 89d471b5-88a6-4330-a76c-6c3d7ca98e33
-  'TXXX:MusicBrainz Album Artist Id': 89d471b5-88a6-4330-a76c-6c3d7ca98e33
-  MUSICBRAINZ_RELEASEGROUPID: 14de5336-23ea-4f2a-98fb-a5f7b6b8a2bc
+  TCON: KickNBase
+  TIT2: Larry
+  RELEASECOUNTRY: XW
+  LABEL: Basspistol
   MUSICBRAINZ_RELEASETRACKID: 3003b08c-fecf-41e0-923b-d485419a6097
-  'TXXX:MusicBrainz Release Group Id': 14de5336-23ea-4f2a-98fb-a5f7b6b8a2bc
-  'TXXX:MusicBrainz Release Track Id': 3003b08c-fecf-41e0-923b-d485419a6097
-  title: Larry
-  artist: Holyhertz
-  album: Kick'N'Base Made In Barcelona
-  track: 1
-  year: '2010'
+  ORIGINALDATE: '2010-03-01'
+  MUSICBRAINZ_RELEASEGROUPID: 14de5336-23ea-4f2a-98fb-a5f7b6b8a2bc
+  RELEASESTATUS: official
+  ACOUSTID_ID: 293f825f-d458-478a-9aa7-417bebed2396
+  CATALOGNUMBER: BPIST003
+  MEDIA: Digital Media
+  RELEASETYPE: album
+  ORIGINALYEAR: '2010'
+  ARTISTS: Holyhertz
+  'TXXX:MusicBrainz Album Artist Id': 89d471b5-88a6-4330-a76c-6c3d7ca98e33
+  'TXXX:musicbrainz_albumartistid': 89d471b5-88a6-4330-a76c-6c3d7ca98e33
+  TPOS: 1/1
+  'TXXX:MusicBrainz Album Id': c3b95529-e0b3-400e-a5a7-804c07a11baf
+  'TXXX:musicbrainz_albumid': c3b95529-e0b3-400e-a5a7-804c07a11baf
+  TPE2: Holyhertz
+  TALB: Kick-N-Base Made In Barcelona
+  'TXXX:MusicBrainz Artist Id': 89d471b5-88a6-4330-a76c-6c3d7ca98e33
+  'TXXX:musicbrainz_artistid': 89d471b5-88a6-4330-a76c-6c3d7ca98e33
+  TPE1: Holyhertz
+  UFID: *ref_0
+  TSOP: Holyhertz
+  TRCK: 1/11
+  TDRC: '2010-03-01'
+  WOAS: 'https://archive.org/details/BPIST003'
 nextTrack:
   path: >-
-    /home/set/git/basspistol/basspistol.com/assets/albums/kick-n-base-made-in-barcelona/2-night-ride.mp3
+    /mnt/usb32gb/organized-basspistol.media/assets/albums/kick-n-base-made-in-barcelona/2-night-ride.mp3
   audio: /assets/albums/kick-n-base-made-in-barcelona/2-night-ride.mp3
   slug: kick-n-base-made-in-barcelona/2-night-ride
   albumSlug: kick-n-base-made-in-barcelona
   trackSlug: 2-night-ride
   coverPath: >-
-    /home/set/git/basspistol/basspistol.com/assets/albums/kick-n-base-made-in-barcelona/2-night-ride.jpeg
+    /mnt/usb32gb/organized-basspistol.media/assets/albums/kick-n-base-made-in-barcelona/2-night-ride.jpeg
   cover: /assets/albums/kick-n-base-made-in-barcelona/2-night-ride.jpeg
   format:
     tagTypes:
-      - ID3v2.3
-      - ID3v1
+      - ID3v2.4
     trackInfo: []
     lossless: false
     container: MPEG
@@ -341,56 +253,16 @@ nextTrack:
     numberOfSamples: 20407680
     duration: 462.7591836734694
   native:
-    ID3v2.3:
-      - id: TIT2
-        value: Night Ride
-      - id: TPE1
-        value: Holyhertz
-      - id: TRCK
-        value: 2/11
-      - id: TALB
-        value: Kick'N'Base Made In Barcelona
-      - id: TPOS
-        value: 1/1
+    ID3v2.4:
+      - id: COMM
+        value:
+          language: XXX
+          description: c0
+          text: www.holyhertz.com www.basspistol.com
       - id: TCON
         value: KickNBase
-      - id: TDAT
-        value: '0103'
-      - id: TORY
-        value: '2010'
-      - id: TYER
-        value: '2010'
-      - id: TPE2
-        value: Holyhertz
-      - id: TSO2
-        value: Holyhertz
-      - id: TSOP
-        value: Holyhertz
-      - id: TPUB
-        value: Basspistol
-      - id: TMED
-        value: Digital Media
-      - id: WOAS
-        value: "https://archive.org/details/BPIST003\0"
-      - id: 'TXXX:ARTISTS'
-        value: Holyhertz
-      - id: 'TXXX:originalyear'
-        value: '2010'
-      - id: COMM
-        value:
-          language: XXX
-          description: LABEL
-          text: Basspistol
-      - id: COMM
-        value:
-          language: XXX
-          description: ARTISTS
-          text: Holyhertz
-      - id: COMM
-        value:
-          language: XXX
-          description: ORIGINALYEAR
-          text: '2010'
+      - id: TIT2
+        value: Night Ride
       - id: COMM
         value:
           language: XXX
@@ -399,62 +271,18 @@ nextTrack:
       - id: COMM
         value:
           language: XXX
-          description: RELEASETYPE
-          text: album
+          description: LABEL
+          text: Basspistol
       - id: COMM
         value:
           language: XXX
-          description: MEDIA
-          text: Digital Media
-      - id: 'TXXX:CATALOGNUMBER'
-        value: BPIST003
-      - id: COMM
-        value:
-          language: XXX
-          description: CATALOGNUMBER
-          text: BPIST003
-      - id: COMM
-        value:
-          language: XXX
-          description: RELEASESTATUS
-          text: official
+          description: MUSICBRAINZ_RELEASETRACKID
+          text: f56b007e-379f-4108-8412-edb710ca7d24
       - id: COMM
         value:
           language: XXX
           description: ORIGINALDATE
           text: '2010-03-01'
-      - id: 'TXXX:musicbrainz_albumid'
-        value: c3b95529-e0b3-400e-a5a7-804c07a11baf
-      - id: 'TXXX:musicbrainz_artistid'
-        value: 89d471b5-88a6-4330-a76c-6c3d7ca98e33
-      - id: UFID
-        value: &ref_1
-          owner_identifier: 'http://musicbrainz.org'
-          identifier: !<tag:yaml.org,2002:binary> YzRhNjNlYmUtYmYzOC00YzdiLWE2YWItMDliOGRmMmJmMjMw
-      - id: 'TXXX:MusicBrainz Album Type'
-        value: album
-      - id: 'TXXX:musicbrainz_albumartistid'
-        value: 89d471b5-88a6-4330-a76c-6c3d7ca98e33
-      - id: 'TXXX:MusicBrainz Album Status'
-        value: official
-      - id: 'TXXX:MusicBrainz Album Release Country'
-        value: XW
-      - id: COMM
-        value:
-          language: XXX
-          description: c0
-          text: www.holyhertz.com www.basspistol.com
-      - id: COMM
-        value:
-          language: XXX
-          description: ACOUSTID_ID
-          text: 2524e2c5-b151-4e53-aed3-532dc1d3adad
-      - id: 'TXXX:MusicBrainz Album Id'
-        value: c3b95529-e0b3-400e-a5a7-804c07a11baf
-      - id: 'TXXX:MusicBrainz Artist Id'
-        value: 89d471b5-88a6-4330-a76c-6c3d7ca98e33
-      - id: 'TXXX:MusicBrainz Album Artist Id'
-        value: 89d471b5-88a6-4330-a76c-6c3d7ca98e33
       - id: COMM
         value:
           language: XXX
@@ -463,23 +291,70 @@ nextTrack:
       - id: COMM
         value:
           language: XXX
-          description: MUSICBRAINZ_RELEASETRACKID
-          text: f56b007e-379f-4108-8412-edb710ca7d24
-      - id: 'TXXX:MusicBrainz Release Group Id'
-        value: 14de5336-23ea-4f2a-98fb-a5f7b6b8a2bc
-      - id: 'TXXX:MusicBrainz Release Track Id'
-        value: f56b007e-379f-4108-8412-edb710ca7d24
-    ID3v1:
-      - id: title
-        value: Night Ride
-      - id: artist
+          description: RELEASESTATUS
+          text: official
+      - id: COMM
+        value:
+          language: XXX
+          description: ACOUSTID_ID
+          text: 2524e2c5-b151-4e53-aed3-532dc1d3adad
+      - id: COMM
+        value:
+          language: XXX
+          description: CATALOGNUMBER
+          text: BPIST003
+      - id: COMM
+        value:
+          language: XXX
+          description: MEDIA
+          text: Digital Media
+      - id: COMM
+        value:
+          language: XXX
+          description: RELEASETYPE
+          text: album
+      - id: COMM
+        value:
+          language: XXX
+          description: ORIGINALYEAR
+          text: '2010'
+      - id: COMM
+        value:
+          language: XXX
+          description: ARTISTS
+          text: Holyhertz
+      - id: 'TXXX:MusicBrainz Album Artist Id'
+        value: 89d471b5-88a6-4330-a76c-6c3d7ca98e33
+      - id: 'TXXX:musicbrainz_albumartistid'
+        value: 89d471b5-88a6-4330-a76c-6c3d7ca98e33
+      - id: TPOS
+        value: 1/1
+      - id: 'TXXX:MusicBrainz Album Id'
+        value: c3b95529-e0b3-400e-a5a7-804c07a11baf
+      - id: 'TXXX:musicbrainz_albumid'
+        value: c3b95529-e0b3-400e-a5a7-804c07a11baf
+      - id: TPE2
         value: Holyhertz
-      - id: album
-        value: Kick'N'Base Made In Barcelona
-      - id: track
-        value: 2
-      - id: year
-        value: '2010'
+      - id: TALB
+        value: Kick-N-Base Made In Barcelona
+      - id: 'TXXX:MusicBrainz Artist Id'
+        value: 89d471b5-88a6-4330-a76c-6c3d7ca98e33
+      - id: 'TXXX:musicbrainz_artistid'
+        value: 89d471b5-88a6-4330-a76c-6c3d7ca98e33
+      - id: TPE1
+        value: Holyhertz
+      - id: UFID
+        value: &ref_1
+          owner_identifier: 'http://musicbrainz.org'
+          identifier: !<tag:yaml.org,2002:binary> YzRhNjNlYmUtYmYzOC00YzdiLWE2YWItMDliOGRmMmJmMjMw
+      - id: TSOP
+        value: Holyhertz
+      - id: TRCK
+        value: 2/11
+      - id: TDRC
+        value: '2010-03-01'
+      - id: WOAS
+        value: 'https://archive.org/details/BPIST003'
   quality:
     warnings: []
   common:
@@ -489,163 +364,113 @@ nextTrack:
     disk:
       'no': 1
       of: 1
+    comment:
+      - www.holyhertz.com www.basspistol.com
+      - XW
+      - Basspistol
+      - f56b007e-379f-4108-8412-edb710ca7d24
+      - '2010-03-01'
+      - 14de5336-23ea-4f2a-98fb-a5f7b6b8a2bc
+      - official
+      - 2524e2c5-b151-4e53-aed3-532dc1d3adad
+      - BPIST003
+      - Digital Media
+      - album
+      - '2010'
+      - Holyhertz
+    genre:
+      - KickNBase
     title: Night Ride
+    musicbrainz_albumartistid:
+      - 89d471b5-88a6-4330-a76c-6c3d7ca98e33
+    musicbrainz_albumid: c3b95529-e0b3-400e-a5a7-804c07a11baf
+    albumartist: Holyhertz
+    album: Kick-N-Base Made In Barcelona
+    musicbrainz_artistid:
+      - 89d471b5-88a6-4330-a76c-6c3d7ca98e33
     artists:
       - Holyhertz
     artist: Holyhertz
-    album: Kick'N'Base Made In Barcelona
-    genre:
-      - KickNBase
-    originalyear: 2010
-    year: 2010
-    albumartist: Holyhertz
-    albumartistsort: Holyhertz
-    artistsort: Holyhertz
-    label:
-      - Basspistol
-    media: Digital Media
-    comment:
-      - Basspistol
-      - Holyhertz
-      - '2010'
-      - XW
-      - album
-      - Digital Media
-      - BPIST003
-      - official
-      - '2010-03-01'
-      - www.holyhertz.com www.basspistol.com
-      - 2524e2c5-b151-4e53-aed3-532dc1d3adad
-      - 14de5336-23ea-4f2a-98fb-a5f7b6b8a2bc
-      - f56b007e-379f-4108-8412-edb710ca7d24
-    catalognumber:
-      - BPIST003
     musicbrainz_recordingid: c4a63ebe-bf38-4c7b-a6ab-09b8df2bf230
-    releasetype:
-      - album
-    releasestatus: official
-    releasecountry: XW
-    musicbrainz_albumid: c3b95529-e0b3-400e-a5a7-804c07a11baf
-    musicbrainz_artistid:
-      - 89d471b5-88a6-4330-a76c-6c3d7ca98e33
-    musicbrainz_albumartistid:
-      - 89d471b5-88a6-4330-a76c-6c3d7ca98e33
-    musicbrainz_releasegroupid: 14de5336-23ea-4f2a-98fb-a5f7b6b8a2bc
-    musicbrainz_trackid: f56b007e-379f-4108-8412-edb710ca7d24
+    artistsort: Holyhertz
+    year: 2010
+    date: '2010-03-01'
   transformed:
-    ID3v2.3:
-      TIT2: Night Ride
-      TPE1: Holyhertz
-      TRCK: 2/11
-      TALB: Kick'N'Base Made In Barcelona
-      TPOS: 1/1
-      TCON: KickNBase
-      TDAT: '0103'
-      TORY: '2010'
-      TYER: '2010'
-      TPE2: Holyhertz
-      TSO2: Holyhertz
-      TSOP: Holyhertz
-      TPUB: Basspistol
-      TMED: Digital Media
-      WOAS: "https://archive.org/details/BPIST003\0"
-      'TXXX:ARTISTS': Holyhertz
-      'TXXX:originalyear': '2010'
-      LABEL: Basspistol
-      ARTISTS: Holyhertz
-      ORIGINALYEAR: '2010'
-      RELEASECOUNTRY: XW
-      RELEASETYPE: album
-      MEDIA: Digital Media
-      'TXXX:CATALOGNUMBER': BPIST003
-      CATALOGNUMBER: BPIST003
-      RELEASESTATUS: official
-      ORIGINALDATE: '2010-03-01'
-      'TXXX:musicbrainz_albumid': c3b95529-e0b3-400e-a5a7-804c07a11baf
-      'TXXX:musicbrainz_artistid': 89d471b5-88a6-4330-a76c-6c3d7ca98e33
-      UFID: *ref_1
-      'TXXX:MusicBrainz Album Type': album
-      'TXXX:musicbrainz_albumartistid': 89d471b5-88a6-4330-a76c-6c3d7ca98e33
-      'TXXX:MusicBrainz Album Status': official
-      'TXXX:MusicBrainz Album Release Country': XW
+    ID3v2.4:
       c0: www.holyhertz.com www.basspistol.com
-      ACOUSTID_ID: 2524e2c5-b151-4e53-aed3-532dc1d3adad
-      'TXXX:MusicBrainz Album Id': c3b95529-e0b3-400e-a5a7-804c07a11baf
-      'TXXX:MusicBrainz Artist Id': 89d471b5-88a6-4330-a76c-6c3d7ca98e33
-      'TXXX:MusicBrainz Album Artist Id': 89d471b5-88a6-4330-a76c-6c3d7ca98e33
-      MUSICBRAINZ_RELEASEGROUPID: 14de5336-23ea-4f2a-98fb-a5f7b6b8a2bc
+      TCON: KickNBase
+      TIT2: Night Ride
+      RELEASECOUNTRY: XW
+      LABEL: Basspistol
       MUSICBRAINZ_RELEASETRACKID: f56b007e-379f-4108-8412-edb710ca7d24
-      'TXXX:MusicBrainz Release Group Id': 14de5336-23ea-4f2a-98fb-a5f7b6b8a2bc
-      'TXXX:MusicBrainz Release Track Id': f56b007e-379f-4108-8412-edb710ca7d24
-    ID3v1:
-      title: Night Ride
-      artist: Holyhertz
-      album: Kick'N'Base Made In Barcelona
-      track: 2
-      year: '2010'
+      ORIGINALDATE: '2010-03-01'
+      MUSICBRAINZ_RELEASEGROUPID: 14de5336-23ea-4f2a-98fb-a5f7b6b8a2bc
+      RELEASESTATUS: official
+      ACOUSTID_ID: 2524e2c5-b151-4e53-aed3-532dc1d3adad
+      CATALOGNUMBER: BPIST003
+      MEDIA: Digital Media
+      RELEASETYPE: album
+      ORIGINALYEAR: '2010'
+      ARTISTS: Holyhertz
+      'TXXX:MusicBrainz Album Artist Id': 89d471b5-88a6-4330-a76c-6c3d7ca98e33
+      'TXXX:musicbrainz_albumartistid': 89d471b5-88a6-4330-a76c-6c3d7ca98e33
+      TPOS: 1/1
+      'TXXX:MusicBrainz Album Id': c3b95529-e0b3-400e-a5a7-804c07a11baf
+      'TXXX:musicbrainz_albumid': c3b95529-e0b3-400e-a5a7-804c07a11baf
+      TPE2: Holyhertz
+      TALB: Kick-N-Base Made In Barcelona
+      'TXXX:MusicBrainz Artist Id': 89d471b5-88a6-4330-a76c-6c3d7ca98e33
+      'TXXX:musicbrainz_artistid': 89d471b5-88a6-4330-a76c-6c3d7ca98e33
+      TPE1: Holyhertz
+      UFID: *ref_1
+      TSOP: Holyhertz
+      TRCK: 2/11
+      TDRC: '2010-03-01'
+      WOAS: 'https://archive.org/details/BPIST003'
   all:
-    TIT2: Night Ride
-    TPE1: Holyhertz
-    TRCK: 2/11
-    TALB: Kick'N'Base Made In Barcelona
-    TPOS: 1/1
-    TCON: KickNBase
-    TDAT: '0103'
-    TORY: '2010'
-    TYER: '2010'
-    TPE2: Holyhertz
-    TSO2: Holyhertz
-    TSOP: Holyhertz
-    TPUB: Basspistol
-    TMED: Digital Media
-    WOAS: "https://archive.org/details/BPIST003\0"
-    'TXXX:ARTISTS': Holyhertz
-    'TXXX:originalyear': '2010'
-    LABEL: Basspistol
-    ARTISTS: Holyhertz
-    ORIGINALYEAR: '2010'
-    RELEASECOUNTRY: XW
-    RELEASETYPE: album
-    MEDIA: Digital Media
-    'TXXX:CATALOGNUMBER': BPIST003
-    CATALOGNUMBER: BPIST003
-    RELEASESTATUS: official
-    ORIGINALDATE: '2010-03-01'
-    'TXXX:musicbrainz_albumid': c3b95529-e0b3-400e-a5a7-804c07a11baf
-    'TXXX:musicbrainz_artistid': 89d471b5-88a6-4330-a76c-6c3d7ca98e33
-    UFID: *ref_1
-    'TXXX:MusicBrainz Album Type': album
-    'TXXX:musicbrainz_albumartistid': 89d471b5-88a6-4330-a76c-6c3d7ca98e33
-    'TXXX:MusicBrainz Album Status': official
-    'TXXX:MusicBrainz Album Release Country': XW
     c0: www.holyhertz.com www.basspistol.com
-    ACOUSTID_ID: 2524e2c5-b151-4e53-aed3-532dc1d3adad
-    'TXXX:MusicBrainz Album Id': c3b95529-e0b3-400e-a5a7-804c07a11baf
-    'TXXX:MusicBrainz Artist Id': 89d471b5-88a6-4330-a76c-6c3d7ca98e33
-    'TXXX:MusicBrainz Album Artist Id': 89d471b5-88a6-4330-a76c-6c3d7ca98e33
-    MUSICBRAINZ_RELEASEGROUPID: 14de5336-23ea-4f2a-98fb-a5f7b6b8a2bc
+    TCON: KickNBase
+    TIT2: Night Ride
+    RELEASECOUNTRY: XW
+    LABEL: Basspistol
     MUSICBRAINZ_RELEASETRACKID: f56b007e-379f-4108-8412-edb710ca7d24
-    'TXXX:MusicBrainz Release Group Id': 14de5336-23ea-4f2a-98fb-a5f7b6b8a2bc
-    'TXXX:MusicBrainz Release Track Id': f56b007e-379f-4108-8412-edb710ca7d24
-    title: Night Ride
-    artist: Holyhertz
-    album: Kick'N'Base Made In Barcelona
-    track: 2
-    year: '2010'
+    ORIGINALDATE: '2010-03-01'
+    MUSICBRAINZ_RELEASEGROUPID: 14de5336-23ea-4f2a-98fb-a5f7b6b8a2bc
+    RELEASESTATUS: official
+    ACOUSTID_ID: 2524e2c5-b151-4e53-aed3-532dc1d3adad
+    CATALOGNUMBER: BPIST003
+    MEDIA: Digital Media
+    RELEASETYPE: album
+    ORIGINALYEAR: '2010'
+    ARTISTS: Holyhertz
+    'TXXX:MusicBrainz Album Artist Id': 89d471b5-88a6-4330-a76c-6c3d7ca98e33
+    'TXXX:musicbrainz_albumartistid': 89d471b5-88a6-4330-a76c-6c3d7ca98e33
+    TPOS: 1/1
+    'TXXX:MusicBrainz Album Id': c3b95529-e0b3-400e-a5a7-804c07a11baf
+    'TXXX:musicbrainz_albumid': c3b95529-e0b3-400e-a5a7-804c07a11baf
+    TPE2: Holyhertz
+    TALB: Kick-N-Base Made In Barcelona
+    'TXXX:MusicBrainz Artist Id': 89d471b5-88a6-4330-a76c-6c3d7ca98e33
+    'TXXX:musicbrainz_artistid': 89d471b5-88a6-4330-a76c-6c3d7ca98e33
+    TPE1: Holyhertz
+    UFID: *ref_1
+    TSOP: Holyhertz
+    TRCK: 2/11
+    TDRC: '2010-03-01'
+    WOAS: 'https://archive.org/details/BPIST003'
 previousTrack:
   path: >-
-    /home/set/git/basspistol/basspistol.com/assets/albums/kick-n-base-made-in-barcelona/11-butterfly.mp3
+    /mnt/usb32gb/organized-basspistol.media/assets/albums/kick-n-base-made-in-barcelona/11-butterfly.mp3
   audio: /assets/albums/kick-n-base-made-in-barcelona/11-butterfly.mp3
   slug: kick-n-base-made-in-barcelona/11-butterfly
   albumSlug: kick-n-base-made-in-barcelona
   trackSlug: 11-butterfly
   coverPath: >-
-    /home/set/git/basspistol/basspistol.com/assets/albums/kick-n-base-made-in-barcelona/11-butterfly.jpeg
+    /mnt/usb32gb/organized-basspistol.media/assets/albums/kick-n-base-made-in-barcelona/11-butterfly.jpeg
   cover: /assets/albums/kick-n-base-made-in-barcelona/11-butterfly.jpeg
   format:
     tagTypes:
-      - ID3v2.3
-      - ID3v1
+      - ID3v2.4
     trackInfo: []
     lossless: false
     container: MPEG
@@ -658,57 +483,16 @@ previousTrack:
     numberOfSamples: 13411584
     duration: 304.11755102040814
   native:
-    ID3v2.3:
-      - id: TIT2
-        value: Butterfly
-      - id: TPE1
-        value: Holyhertz feat. David Aphel
-      - id: TRCK
-        value: 11/11
-      - id: TALB
-        value: Kick'N'Base Made In Barcelona
-      - id: TPOS
-        value: 1/1
+    ID3v2.4:
+      - id: COMM
+        value:
+          language: XXX
+          description: c0
+          text: www.holyhertz.com www.basspistol.com
       - id: TCON
         value: KickNBase
-      - id: TDAT
-        value: '0103'
-      - id: TORY
-        value: '2010'
-      - id: TYER
-        value: '2010'
-      - id: COMM
-        value: &ref_2
-          language: eng
-          description: ''
-          text: feat. David Aphel
-      - id: TPE2
-        value: Holyhertz
-      - id: TSO2
-        value: Holyhertz
-      - id: TPUB
-        value: Basspistol
-      - id: TMED
-        value: Digital Media
-      - id: WOAS
-        value: "https://archive.org/details/BPIST003\0"
-      - id: COMM
-        value:
-          language: XXX
-          description: ARTISTS
-          text: Holyhertz Feat. David Aphel
-      - id: 'TXXX:originalyear'
-        value: '2010'
-      - id: COMM
-        value:
-          language: XXX
-          description: LABEL
-          text: Basspistol
-      - id: COMM
-        value:
-          language: XXX
-          description: ORIGINALYEAR
-          text: '2010'
+      - id: TIT2
+        value: Butterfly
       - id: COMM
         value:
           language: XXX
@@ -717,66 +501,18 @@ previousTrack:
       - id: COMM
         value:
           language: XXX
-          description: RELEASETYPE
-          text: album
+          description: LABEL
+          text: Basspistol
       - id: COMM
         value:
           language: XXX
-          description: MEDIA
-          text: Digital Media
-      - id: 'TXXX:CATALOGNUMBER'
-        value: BPIST003
-      - id: COMM
-        value:
-          language: XXX
-          description: CATALOGNUMBER
-          text: BPIST003
-      - id: COMM
-        value:
-          language: XXX
-          description: RELEASESTATUS
-          text: official
+          description: MUSICBRAINZ_RELEASETRACKID
+          text: 8348bc42-5999-4118-a523-4bb2d350b298
       - id: COMM
         value:
           language: XXX
           description: ORIGINALDATE
           text: '2010-03-01'
-      - id: 'TXXX:musicbrainz_albumid'
-        value: c3b95529-e0b3-400e-a5a7-804c07a11baf
-      - id: 'TXXX:musicbrainz_artistid'
-        value: 89d471b5-88a6-4330-a76c-6c3d7ca98e33
-      - id: UFID
-        value: &ref_3
-          owner_identifier: 'http://musicbrainz.org'
-          identifier: !<tag:yaml.org,2002:binary> N2RjZmNhYjgtMmU2NS00NTYyLWIxMDMtZGYxMDY4NzA5MTUz
-      - id: TSOP
-        value: 'Holyhertz feat. Aphel, David'
-      - id: 'TXXX:MusicBrainz Album Type'
-        value: album
-      - id: 'TXXX:musicbrainz_albumartistid'
-        value: 89d471b5-88a6-4330-a76c-6c3d7ca98e33
-      - id: 'TXXX:ARTISTS'
-        value: Holyhertz
-      - id: 'TXXX:ARTISTS'
-        value: David Aphel
-      - id: 'TXXX:MusicBrainz Album Status'
-        value: official
-      - id: 'TXXX:MusicBrainz Album Release Country'
-        value: XW
-      - id: COMM
-        value:
-          language: XXX
-          description: c0
-          text: www.holyhertz.com www.basspistol.com
-      - id: COMM
-        value:
-          language: XXX
-          description: ACOUSTID_ID
-          text: 50fa14a3-1b1b-4e16-92d1-4bd390fa4ed6
-      - id: 'TXXX:MusicBrainz Album Id'
-        value: c3b95529-e0b3-400e-a5a7-804c07a11baf
-      - id: 'TXXX:MusicBrainz Album Artist Id'
-        value: 89d471b5-88a6-4330-a76c-6c3d7ca98e33
       - id: COMM
         value:
           language: XXX
@@ -785,27 +521,75 @@ previousTrack:
       - id: COMM
         value:
           language: XXX
-          description: MUSICBRAINZ_RELEASETRACKID
-          text: 8348bc42-5999-4118-a523-4bb2d350b298
-      - id: 'TXXX:MusicBrainz Release Group Id'
-        value: 14de5336-23ea-4f2a-98fb-a5f7b6b8a2bc
-      - id: 'TXXX:MusicBrainz Release Track Id'
-        value: 8348bc42-5999-4118-a523-4bb2d350b298
+          description: RELEASESTATUS
+          text: official
+      - id: COMM
+        value:
+          language: XXX
+          description: ACOUSTID_ID
+          text: 50fa14a3-1b1b-4e16-92d1-4bd390fa4ed6
+      - id: COMM
+        value:
+          language: XXX
+          description: CATALOGNUMBER
+          text: BPIST003
+      - id: COMM
+        value:
+          language: XXX
+          description: MEDIA
+          text: Digital Media
+      - id: COMM
+        value:
+          language: XXX
+          description: RELEASETYPE
+          text: album
+      - id: COMM
+        value:
+          language: XXX
+          description: ORIGINALYEAR
+          text: '2010'
+      - id: COMM
+        value:
+          language: XXX
+          description: ARTISTS
+          text: Holyhertz Feat. David Aphel
+      - id: 'TXXX:MusicBrainz Album Artist Id'
+        value: 89d471b5-88a6-4330-a76c-6c3d7ca98e33
+      - id: 'TXXX:musicbrainz_albumartistid'
+        value: 89d471b5-88a6-4330-a76c-6c3d7ca98e33
+      - id: TPOS
+        value: 1/1
+      - id: 'TXXX:MusicBrainz Album Id'
+        value: c3b95529-e0b3-400e-a5a7-804c07a11baf
+      - id: 'TXXX:musicbrainz_albumid'
+        value: c3b95529-e0b3-400e-a5a7-804c07a11baf
+      - id: TPE2
+        value: Holyhertz
+      - id: TALB
+        value: Kick-N-Base Made In Barcelona
       - id: 'TXXX:MusicBrainz Artist Id'
         value: 89d471b5-88a6-4330-a76c-6c3d7ca98e33
-      - id: 'TXXX:MusicBrainz Artist Id'
-        value: 992ca77e-8d89-4331-b005-2941c805a72c
-    ID3v1:
-      - id: title
-        value: Butterfly
-      - id: artist
-        value: Holyhertz feat. David Aphel
-      - id: album
-        value: Kick'N'Base Made In Barcelona
-      - id: track
-        value: 11
-      - id: year
-        value: '2010'
+      - id: 'TXXX:musicbrainz_artistid'
+        value: 89d471b5-88a6-4330-a76c-6c3d7ca98e33
+      - id: TPE1
+        value: Holyhertz
+      - id: UFID
+        value: &ref_2
+          owner_identifier: 'http://musicbrainz.org'
+          identifier: !<tag:yaml.org,2002:binary> N2RjZmNhYjgtMmU2NS00NTYyLWIxMDMtZGYxMDY4NzA5MTUz
+      - id: TSOP
+        value: 'Holyhertz feat. Aphel, David'
+      - id: TRCK
+        value: 11/11
+      - id: TDRC
+        value: '2010-03-01'
+      - id: COMM
+        value: &ref_3
+          language: eng
+          description: ''
+          text: feat. David Aphel
+      - id: WOAS
+        value: 'https://archive.org/details/BPIST003'
   quality:
     warnings: []
   common:
@@ -815,152 +599,101 @@ previousTrack:
     disk:
       'no': 1
       of: 1
-    title: Butterfly
-    artists:
-      - Holyhertz
-      - David Aphel
-    artist: Holyhertz feat. David Aphel
-    album: Kick'N'Base Made In Barcelona
+    comment:
+      - www.holyhertz.com www.basspistol.com
+      - XW
+      - Basspistol
+      - 8348bc42-5999-4118-a523-4bb2d350b298
+      - '2010-03-01'
+      - 14de5336-23ea-4f2a-98fb-a5f7b6b8a2bc
+      - official
+      - 50fa14a3-1b1b-4e16-92d1-4bd390fa4ed6
+      - BPIST003
+      - Digital Media
+      - album
+      - '2010'
+      - Holyhertz Feat. David Aphel
+      - feat. David Aphel
     genre:
       - KickNBase
-    originalyear: 2010
-    year: 2010
-    comment:
-      - feat. David Aphel
-      - Holyhertz Feat. David Aphel
-      - Basspistol
-      - '2010'
-      - XW
-      - album
-      - Digital Media
-      - BPIST003
-      - official
-      - '2010-03-01'
-      - www.holyhertz.com www.basspistol.com
-      - 50fa14a3-1b1b-4e16-92d1-4bd390fa4ed6
-      - 14de5336-23ea-4f2a-98fb-a5f7b6b8a2bc
-      - 8348bc42-5999-4118-a523-4bb2d350b298
-    albumartist: Holyhertz
-    albumartistsort: Holyhertz
-    label:
-      - Basspistol
-    media: Digital Media
-    catalognumber:
-      - BPIST003
-    musicbrainz_recordingid: 7dcfcab8-2e65-4562-b103-df1068709153
-    artistsort: 'Holyhertz feat. Aphel, David'
-    releasetype:
-      - album
-    releasestatus: official
-    releasecountry: XW
-    musicbrainz_albumid: c3b95529-e0b3-400e-a5a7-804c07a11baf
+    title: Butterfly
     musicbrainz_albumartistid:
       - 89d471b5-88a6-4330-a76c-6c3d7ca98e33
-    musicbrainz_releasegroupid: 14de5336-23ea-4f2a-98fb-a5f7b6b8a2bc
-    musicbrainz_trackid: 8348bc42-5999-4118-a523-4bb2d350b298
+    musicbrainz_albumid: c3b95529-e0b3-400e-a5a7-804c07a11baf
+    albumartist: Holyhertz
+    album: Kick-N-Base Made In Barcelona
     musicbrainz_artistid:
       - 89d471b5-88a6-4330-a76c-6c3d7ca98e33
-      - 992ca77e-8d89-4331-b005-2941c805a72c
+    artists:
+      - Holyhertz
+    artist: Holyhertz
+    musicbrainz_recordingid: 7dcfcab8-2e65-4562-b103-df1068709153
+    artistsort: 'Holyhertz feat. Aphel, David'
+    year: 2010
+    date: '2010-03-01'
   transformed:
-    ID3v2.3:
-      TIT2: Butterfly
-      TPE1: Holyhertz feat. David Aphel
-      TRCK: 11/11
-      TALB: Kick'N'Base Made In Barcelona
-      TPOS: 1/1
-      TCON: KickNBase
-      TDAT: '0103'
-      TORY: '2010'
-      TYER: '2010'
-      COMM: *ref_2
-      TPE2: Holyhertz
-      TSO2: Holyhertz
-      TPUB: Basspistol
-      TMED: Digital Media
-      WOAS: "https://archive.org/details/BPIST003\0"
-      ARTISTS: Holyhertz Feat. David Aphel
-      'TXXX:originalyear': '2010'
-      LABEL: Basspistol
-      ORIGINALYEAR: '2010'
-      RELEASECOUNTRY: XW
-      RELEASETYPE: album
-      MEDIA: Digital Media
-      'TXXX:CATALOGNUMBER': BPIST003
-      CATALOGNUMBER: BPIST003
-      RELEASESTATUS: official
-      ORIGINALDATE: '2010-03-01'
-      'TXXX:musicbrainz_albumid': c3b95529-e0b3-400e-a5a7-804c07a11baf
-      'TXXX:musicbrainz_artistid': 89d471b5-88a6-4330-a76c-6c3d7ca98e33
-      UFID: *ref_3
-      TSOP: 'Holyhertz feat. Aphel, David'
-      'TXXX:MusicBrainz Album Type': album
-      'TXXX:musicbrainz_albumartistid': 89d471b5-88a6-4330-a76c-6c3d7ca98e33
-      'TXXX:ARTISTS': David Aphel
-      'TXXX:MusicBrainz Album Status': official
-      'TXXX:MusicBrainz Album Release Country': XW
+    ID3v2.4:
       c0: www.holyhertz.com www.basspistol.com
-      ACOUSTID_ID: 50fa14a3-1b1b-4e16-92d1-4bd390fa4ed6
-      'TXXX:MusicBrainz Album Id': c3b95529-e0b3-400e-a5a7-804c07a11baf
-      'TXXX:MusicBrainz Album Artist Id': 89d471b5-88a6-4330-a76c-6c3d7ca98e33
-      MUSICBRAINZ_RELEASEGROUPID: 14de5336-23ea-4f2a-98fb-a5f7b6b8a2bc
+      TCON: KickNBase
+      TIT2: Butterfly
+      RELEASECOUNTRY: XW
+      LABEL: Basspistol
       MUSICBRAINZ_RELEASETRACKID: 8348bc42-5999-4118-a523-4bb2d350b298
-      'TXXX:MusicBrainz Release Group Id': 14de5336-23ea-4f2a-98fb-a5f7b6b8a2bc
-      'TXXX:MusicBrainz Release Track Id': 8348bc42-5999-4118-a523-4bb2d350b298
-      'TXXX:MusicBrainz Artist Id': 992ca77e-8d89-4331-b005-2941c805a72c
-    ID3v1:
-      title: Butterfly
-      artist: Holyhertz feat. David Aphel
-      album: Kick'N'Base Made In Barcelona
-      track: 11
-      year: '2010'
+      ORIGINALDATE: '2010-03-01'
+      MUSICBRAINZ_RELEASEGROUPID: 14de5336-23ea-4f2a-98fb-a5f7b6b8a2bc
+      RELEASESTATUS: official
+      ACOUSTID_ID: 50fa14a3-1b1b-4e16-92d1-4bd390fa4ed6
+      CATALOGNUMBER: BPIST003
+      MEDIA: Digital Media
+      RELEASETYPE: album
+      ORIGINALYEAR: '2010'
+      ARTISTS: Holyhertz Feat. David Aphel
+      'TXXX:MusicBrainz Album Artist Id': 89d471b5-88a6-4330-a76c-6c3d7ca98e33
+      'TXXX:musicbrainz_albumartistid': 89d471b5-88a6-4330-a76c-6c3d7ca98e33
+      TPOS: 1/1
+      'TXXX:MusicBrainz Album Id': c3b95529-e0b3-400e-a5a7-804c07a11baf
+      'TXXX:musicbrainz_albumid': c3b95529-e0b3-400e-a5a7-804c07a11baf
+      TPE2: Holyhertz
+      TALB: Kick-N-Base Made In Barcelona
+      'TXXX:MusicBrainz Artist Id': 89d471b5-88a6-4330-a76c-6c3d7ca98e33
+      'TXXX:musicbrainz_artistid': 89d471b5-88a6-4330-a76c-6c3d7ca98e33
+      TPE1: Holyhertz
+      UFID: *ref_2
+      TSOP: 'Holyhertz feat. Aphel, David'
+      TRCK: 11/11
+      TDRC: '2010-03-01'
+      COMM: *ref_3
+      WOAS: 'https://archive.org/details/BPIST003'
   all:
-    TIT2: Butterfly
-    TPE1: Holyhertz feat. David Aphel
-    TRCK: 11/11
-    TALB: Kick'N'Base Made In Barcelona
-    TPOS: 1/1
-    TCON: KickNBase
-    TDAT: '0103'
-    TORY: '2010'
-    TYER: '2010'
-    COMM: *ref_2
-    TPE2: Holyhertz
-    TSO2: Holyhertz
-    TPUB: Basspistol
-    TMED: Digital Media
-    WOAS: "https://archive.org/details/BPIST003\0"
-    ARTISTS: Holyhertz Feat. David Aphel
-    'TXXX:originalyear': '2010'
-    LABEL: Basspistol
-    ORIGINALYEAR: '2010'
-    RELEASECOUNTRY: XW
-    RELEASETYPE: album
-    MEDIA: Digital Media
-    'TXXX:CATALOGNUMBER': BPIST003
-    CATALOGNUMBER: BPIST003
-    RELEASESTATUS: official
-    ORIGINALDATE: '2010-03-01'
-    'TXXX:musicbrainz_albumid': c3b95529-e0b3-400e-a5a7-804c07a11baf
-    'TXXX:musicbrainz_artistid': 89d471b5-88a6-4330-a76c-6c3d7ca98e33
-    UFID: *ref_3
-    TSOP: 'Holyhertz feat. Aphel, David'
-    'TXXX:MusicBrainz Album Type': album
-    'TXXX:musicbrainz_albumartistid': 89d471b5-88a6-4330-a76c-6c3d7ca98e33
-    'TXXX:ARTISTS': David Aphel
-    'TXXX:MusicBrainz Album Status': official
-    'TXXX:MusicBrainz Album Release Country': XW
     c0: www.holyhertz.com www.basspistol.com
-    ACOUSTID_ID: 50fa14a3-1b1b-4e16-92d1-4bd390fa4ed6
-    'TXXX:MusicBrainz Album Id': c3b95529-e0b3-400e-a5a7-804c07a11baf
-    'TXXX:MusicBrainz Album Artist Id': 89d471b5-88a6-4330-a76c-6c3d7ca98e33
-    MUSICBRAINZ_RELEASEGROUPID: 14de5336-23ea-4f2a-98fb-a5f7b6b8a2bc
+    TCON: KickNBase
+    TIT2: Butterfly
+    RELEASECOUNTRY: XW
+    LABEL: Basspistol
     MUSICBRAINZ_RELEASETRACKID: 8348bc42-5999-4118-a523-4bb2d350b298
-    'TXXX:MusicBrainz Release Group Id': 14de5336-23ea-4f2a-98fb-a5f7b6b8a2bc
-    'TXXX:MusicBrainz Release Track Id': 8348bc42-5999-4118-a523-4bb2d350b298
-    'TXXX:MusicBrainz Artist Id': 992ca77e-8d89-4331-b005-2941c805a72c
-    title: Butterfly
-    artist: Holyhertz feat. David Aphel
-    album: Kick'N'Base Made In Barcelona
-    track: 11
-    year: '2010'
+    ORIGINALDATE: '2010-03-01'
+    MUSICBRAINZ_RELEASEGROUPID: 14de5336-23ea-4f2a-98fb-a5f7b6b8a2bc
+    RELEASESTATUS: official
+    ACOUSTID_ID: 50fa14a3-1b1b-4e16-92d1-4bd390fa4ed6
+    CATALOGNUMBER: BPIST003
+    MEDIA: Digital Media
+    RELEASETYPE: album
+    ORIGINALYEAR: '2010'
+    ARTISTS: Holyhertz Feat. David Aphel
+    'TXXX:MusicBrainz Album Artist Id': 89d471b5-88a6-4330-a76c-6c3d7ca98e33
+    'TXXX:musicbrainz_albumartistid': 89d471b5-88a6-4330-a76c-6c3d7ca98e33
+    TPOS: 1/1
+    'TXXX:MusicBrainz Album Id': c3b95529-e0b3-400e-a5a7-804c07a11baf
+    'TXXX:musicbrainz_albumid': c3b95529-e0b3-400e-a5a7-804c07a11baf
+    TPE2: Holyhertz
+    TALB: Kick-N-Base Made In Barcelona
+    'TXXX:MusicBrainz Artist Id': 89d471b5-88a6-4330-a76c-6c3d7ca98e33
+    'TXXX:musicbrainz_artistid': 89d471b5-88a6-4330-a76c-6c3d7ca98e33
+    TPE1: Holyhertz
+    UFID: *ref_2
+    TSOP: 'Holyhertz feat. Aphel, David'
+    TRCK: 11/11
+    TDRC: '2010-03-01'
+    COMM: *ref_3
+    WOAS: 'https://archive.org/details/BPIST003'
 ---
