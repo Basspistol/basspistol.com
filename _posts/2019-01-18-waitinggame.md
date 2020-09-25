@@ -1,7 +1,7 @@
 ---
 title: 'Waiting Game'
 artist: 'Sakrecoer'
-category: highlights
+category: releases
 date: 2019-01-18 19:07:00 +0200
 author: bassBot
 tags: [internal,album]
@@ -10,7 +10,7 @@ uid: 'waitinggamesakrecoer2019'
 image: '/assets/img/waitinggame.jpg'
 download: ''
 link: 'https://sakrecoer.com/waitinggame/'
-album: 
+album: waiting-game
 check_this_if_cannot_be_bought: true
 stores:
   - name:

@@ -47,8 +47,9 @@ layout: default
     <h2>Latest News</h2>
   </div>
 </section>
-{% for post in site.posts limit: 3 %}
-{% if post.category == 'highlights' %}
+{% for post in site.categories.highlights limit: 3 %}
+
+
 <section class="front-section">
 
   <div style="background-image:url({{ post.image }})">
@@ -63,14 +64,14 @@ layout: default
       </div>
      
       <div>
-        <p><a class="button" href="{{ relBase }}{{ post.url }}">📰 Read Highlight</a></p>
+        <p><a class="button" href="{{ relBase }}{{ post.url }}">✨ Read Highlight</a></p>
       </div>
   
     </div>
   </div>
 
 </section>
-{% endif %}
+
 {% endfor %}
 
 <section class="releases">

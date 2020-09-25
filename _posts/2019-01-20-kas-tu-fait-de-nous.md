@@ -1,7 +1,7 @@
 ---
 title: K'as-tu fait de nous?
 artist: 徒 Setto セット
-category: highlights
+category: releases
 date: 2019-01-20 19:07:00 +0200
 author: bassBot
 tags:
@@ -14,7 +14,7 @@ uid: kas tu fais de nous 2019
 image: /assets/img/2018-setto-single-003-reve_de_toi-117bpm_sqaure_FINAL.jpg
 download:
 link: 'https://shop.basspistol.com/album/satoshi-mon-ami'
-album: 
+album: satoshi-mon-ami
 check_this_if_cannot_be_bought: false
 stores:
   - name: Bandcamp
