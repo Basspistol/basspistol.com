@@ -20,27 +20,27 @@ layout: default
 ---
 {% include relBase.html %}
 
+{% include relBase.html %}
 <header class="hero" id="top"
-  style="{% unless page.video_path %}background-image: url({{ page.image }});{% endunless %}">
+  style="background-image: url({{ page.image }});">
   <div class="imagecontainer">
     <h4>{{ page.title }}</h4>
   </div>
 
+    <div class="splash">
+      <div class="splash-logo">
+        <a href="#read"><img src="{{ site.icon }}" width="240px" alt="{{ site.title }} Logo" /></a>
+      </div>
+      <div class="description">
+    
+        <h1>{{ site.title }}</h1>
+        <p>{{ page.description }}</p>
+        <p><a href="#read" class="button">🔥 Boom</a></p>
+      </div>
+    </div>
+
 
 </header>
-<section class="splash">
-<div class="container">
-  <div class="splash-logo">
-    <img src="{{ site.logo }}" width="240px" alt="{{ site.title }} Logo" />
-  </div>
-  <div>
-
-    <h1>{{ site.title }}</h1>
-    <p>{{ page.description }}</p>
-    <p><a href="/radio/" class="button">📻 Radio App</a></p>
-  </div>
-</div>
-</section>
 
 <section class="section-title">
   <div class="container">

@@ -18,7 +18,7 @@ image: /assets/vid/links.jpg
 
 {% assign sorted = site.data.links | sort: 'title' %}
 {% for post in sorted %}
-<section class="front-section">
+<section class="front-section" id="read">
 
   <div style="background-image:url({{ post.image }})">
     <p class="editor-link"><a href="cloudcannon:collections/_posts/{{ post.path }}" rel="nofollow"

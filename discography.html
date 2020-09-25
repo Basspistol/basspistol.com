@@ -22,7 +22,7 @@ layout: default
 {% for post in site.posts %}
 {% if album.slug == post.album %}
 
-<section class="front-section">
+<section class="front-section" id="read">
 
   <div style="background-image:url({{ site.mediaurl }}/{{ album.tracks[0].slug }}.jpeg)">
     <p class="editor-link"><a href="cloudcannon:collections/_albums/{{ post.path }}" rel="nofollow"

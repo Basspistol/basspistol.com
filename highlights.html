@@ -19,7 +19,7 @@ layout: default
 
 {% for post in site.posts %}
 {% if post.category == 'highlights' %}
-<section class="front-section">
+<section class="front-section" id="read">
   <div style="background-image:url({{ post.image }})">
     <p class="editor-link"><a href="cloudcannon:collections/_posts/{{ post.path }}" rel="nofollow"
         class="btn"><strong>&#9998;</strong> Edit Posy</a></p>
