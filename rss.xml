@@ -35,7 +35,7 @@ title : The Basspistol RSS Feed
     <itunes:category text="Music">
     </itunes:category>
 
-  {% for post in site.posts %}
+  {% for post in site.posts limit: 7 %}
       <item>
         <title>{{ post.title | xml_escape }}</title>
         <link>{% if post.link %}{{ post.link }}{% else %}{{ site.url }}{{ post.url }}{% endif %}</link>
