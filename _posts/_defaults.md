@@ -7,9 +7,8 @@ author: ''
 category: ''
 album:
 tags: []
-layout: 
-uid: ''
 image: ''
+video_path: 
 download: ''
 link: 
 check_this_if_cannot_be_bought: false
