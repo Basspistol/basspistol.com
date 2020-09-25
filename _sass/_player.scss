@@ -8,7 +8,7 @@
   padding: 80px 40px 0 40px;
   justify-content: space-evenly;
   flex-direction: row-reverse;
-  align-items: center;
+  align-items: flex-start;
   max-width: var(--max-width);
   margin: auto;
   > div {
