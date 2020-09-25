@@ -17,7 +17,7 @@ title : The Basspistol RSS Feed
     <generator>https://jekyllrb.com/</generator>
 
     <image>
-      <url>{{ site.url }}{{ site.banner }}</url>
+      <url>{{ site.url }}/siteicon.png</url>
       <title>{{ site.title | xml_escape }}</title>
       <link>{{ site.url }}</link>
     </image> 
