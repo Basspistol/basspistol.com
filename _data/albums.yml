@@ -1,4 +1,658 @@
 - layout: album
+  slug: darkweb
+  name: Darkweb
+  artists: 徒 Setto セット
+  bitrate: 128000
+  trackCount: 4
+  cover: /assets/albums/darkweb/1-swipe.jpeg
+  date: 2019-1-1
+  tracks:
+    - path: >-
+        /mnt/usb32gb/organized-basspistol.media/assets/albums/darkweb/1-swipe.mp3
+      audio: /assets/albums/darkweb/1-swipe.mp3
+      slug: darkweb/1-swipe
+      albumSlug: darkweb
+      trackSlug: 1-swipe
+      coverPath: >-
+        /mnt/usb32gb/organized-basspistol.media/assets/albums/darkweb/1-swipe.jpeg
+      cover: /assets/albums/darkweb/1-swipe.jpeg
+      format:
+        tagTypes:
+          - ID3v2.3
+        trackInfo: []
+        lossless: false
+        container: MPEG
+        codec: MPEG 1 Layer 3
+        sampleRate: 44100
+        numberOfChannels: 2
+        bitrate: 128000
+        codecProfile: CBR
+        numberOfSamples: 12388608
+        duration: 280.9208163265306
+      native:
+        ID3v2.3:
+          - id: TIT2
+            value: Swipe
+          - id: TPE1
+            value: 徒 Setto セット
+          - id: COMM
+            value:
+              language: XXX
+              description: Comment
+              text: >-
+                Cover art by Mattias Ritarn Lindström, Music by
+                To&nbsp;Setto&nbsp;Setto
+          - id: TALB
+            value: Darkweb
+          - id: TRCK
+            value: '1'
+          - id: TPE2
+            value: 徒 Setto セット
+          - id: COMM
+            value:
+              language: XXX
+              description: UNSYNCEDLYRICS
+              text: >-
+                Comme tous les après-midis, Assis dans le tram en face d'une
+                jolie vie,
+
+                Sur mon écran elles sont encore plus sexy. 
+
+                Swipe à gauche swipe à droite, 
+
+                Celle-ci a l'aire plutôt maladroite, 
+
+                Ça m'irait bien ça.
+
+                Mais la personne en face de moi, 
+
+                Elle me matte, elle me mire. 
+
+                Je ne sais pas quoi faire, 
+
+                Qu'est-ce que je vais lui dire? 
+
+                Elle a de belles dents! 
+
+                Je vais retourner a mon écran.
+
+                je n'ai simplement, 
+
+                Pas assez de cran.
+
+
+                Je swipe à droite, 
+
+                Je swipe à gauche, 
+
+                Je yeuxt vers l'avant de temps en temps. 
+
+
+                Si seulement elle voyait mon flux, 
+
+                Je suis sur qu'elle n'en pourrait plus! 
+
+                Comment je fais pour l'ajouter? 
+
+                Est-ce que Google pourrait la trouver? 
+
+                Hashtag jolitram, 
+
+                Faudrait que ça devienne viral sur Instagram. 
+
+                Ensemble on aurait peut-être un avenir! 
+
+                Mais comment coño vais-je lui dire? 
+
+                Merde elle appuie sur arrêt! 
+
+                Je lui tend mon casque ça le fait! 
+
+                Elle donne le siens truc de ouf?! 
+
+                Hésitations je m'immisce. 
+
+                Cette personne écoute de la bonne musique de glisse. 
+
+
+                Je swipe à droite, 
+
+                Je swipe à gauche, 
+
+                Je yeuxt vers l'avant de temps en temps.
+          - id: TCON
+            value: Cyber Soul
+          - id: TYER
+            value: '2019'
+      quality:
+        warnings: []
+      common:
+        track:
+          'no': 1
+          of: null
+        disk:
+          'no': null
+          of: null
+        title: Swipe
+        artists:
+          - 徒 Setto セット
+        artist: 徒 Setto セット
+        comment:
+          - >-
+            Cover art by Mattias Ritarn Lindström, Music by
+            To&nbsp;Setto&nbsp;Setto
+          - >-
+            Comme tous les après-midis, Assis dans le tram en face d'une jolie
+            vie,
+
+            Sur mon écran elles sont encore plus sexy. 
+
+            Swipe à gauche swipe à droite, 
+
+            Celle-ci a l'aire plutôt maladroite, 
+
+            Ça m'irait bien ça.
+
+            Mais la personne en face de moi, 
+
+            Elle me matte, elle me mire. 
+
+            Je ne sais pas quoi faire, 
+
+            Qu'est-ce que je vais lui dire? 
+
+            Elle a de belles dents! 
+
+            Je vais retourner a mon écran.
+
+            je n'ai simplement, 
+
+            Pas assez de cran.
+
+
+            Je swipe à droite, 
+
+            Je swipe à gauche, 
+
+            Je yeuxt vers l'avant de temps en temps. 
+
+
+            Si seulement elle voyait mon flux, 
+
+            Je suis sur qu'elle n'en pourrait plus! 
+
+            Comment je fais pour l'ajouter? 
+
+            Est-ce que Google pourrait la trouver? 
+
+            Hashtag jolitram, 
+
+            Faudrait que ça devienne viral sur Instagram. 
+
+            Ensemble on aurait peut-être un avenir! 
+
+            Mais comment coño vais-je lui dire? 
+
+            Merde elle appuie sur arrêt! 
+
+            Je lui tend mon casque ça le fait! 
+
+            Elle donne le siens truc de ouf?! 
+
+            Hésitations je m'immisce. 
+
+            Cette personne écoute de la bonne musique de glisse. 
+
+
+            Je swipe à droite, 
+
+            Je swipe à gauche, 
+
+            Je yeuxt vers l'avant de temps en temps.
+        album: Darkweb
+        albumartist: 徒 Setto セット
+        genre:
+          - Cyber Soul
+        year: 2019
+      transformed:
+        ID3v2.3:
+          TIT2: Swipe
+          TPE1: 徒 Setto セット
+          Comment: >-
+            Cover art by Mattias Ritarn Lindström, Music by
+            To&nbsp;Setto&nbsp;Setto
+          TALB: Darkweb
+          TRCK: '1'
+          TPE2: 徒 Setto セット
+          UNSYNCEDLYRICS: >-
+            Comme tous les après-midis, Assis dans le tram en face d'une jolie
+            vie,
+
+            Sur mon écran elles sont encore plus sexy. 
+
+            Swipe à gauche swipe à droite, 
+
+            Celle-ci a l'aire plutôt maladroite, 
+
+            Ça m'irait bien ça.
+
+            Mais la personne en face de moi, 
+
+            Elle me matte, elle me mire. 
+
+            Je ne sais pas quoi faire, 
+
+            Qu'est-ce que je vais lui dire? 
+
+            Elle a de belles dents! 
+
+            Je vais retourner a mon écran.
+
+            je n'ai simplement, 
+
+            Pas assez de cran.
+
+
+            Je swipe à droite, 
+
+            Je swipe à gauche, 
+
+            Je yeuxt vers l'avant de temps en temps. 
+
+
+            Si seulement elle voyait mon flux, 
+
+            Je suis sur qu'elle n'en pourrait plus! 
+
+            Comment je fais pour l'ajouter? 
+
+            Est-ce que Google pourrait la trouver? 
+
+            Hashtag jolitram, 
+
+            Faudrait que ça devienne viral sur Instagram. 
+
+            Ensemble on aurait peut-être un avenir! 
+
+            Mais comment coño vais-je lui dire? 
+
+            Merde elle appuie sur arrêt! 
+
+            Je lui tend mon casque ça le fait! 
+
+            Elle donne le siens truc de ouf?! 
+
+            Hésitations je m'immisce. 
+
+            Cette personne écoute de la bonne musique de glisse. 
+
+
+            Je swipe à droite, 
+
+            Je swipe à gauche, 
+
+            Je yeuxt vers l'avant de temps en temps.
+          TCON: Cyber Soul
+          TYER: '2019'
+      all:
+        TIT2: Swipe
+        TPE1: 徒 Setto セット
+        Comment: >-
+          Cover art by Mattias Ritarn Lindström, Music by
+          To&nbsp;Setto&nbsp;Setto
+        TALB: Darkweb
+        TRCK: '1'
+        TPE2: 徒 Setto セット
+        UNSYNCEDLYRICS: >-
+          Comme tous les après-midis, Assis dans le tram en face d'une jolie
+          vie,
+
+          Sur mon écran elles sont encore plus sexy. 
+
+          Swipe à gauche swipe à droite, 
+
+          Celle-ci a l'aire plutôt maladroite, 
+
+          Ça m'irait bien ça.
+
+          Mais la personne en face de moi, 
+
+          Elle me matte, elle me mire. 
+
+          Je ne sais pas quoi faire, 
+
+          Qu'est-ce que je vais lui dire? 
+
+          Elle a de belles dents! 
+
+          Je vais retourner a mon écran.
+
+          je n'ai simplement, 
+
+          Pas assez de cran.
+
+
+          Je swipe à droite, 
+
+          Je swipe à gauche, 
+
+          Je yeuxt vers l'avant de temps en temps. 
+
+
+          Si seulement elle voyait mon flux, 
+
+          Je suis sur qu'elle n'en pourrait plus! 
+
+          Comment je fais pour l'ajouter? 
+
+          Est-ce que Google pourrait la trouver? 
+
+          Hashtag jolitram, 
+
+          Faudrait que ça devienne viral sur Instagram. 
+
+          Ensemble on aurait peut-être un avenir! 
+
+          Mais comment coño vais-je lui dire? 
+
+          Merde elle appuie sur arrêt! 
+
+          Je lui tend mon casque ça le fait! 
+
+          Elle donne le siens truc de ouf?! 
+
+          Hésitations je m'immisce. 
+
+          Cette personne écoute de la bonne musique de glisse. 
+
+
+          Je swipe à droite, 
+
+          Je swipe à gauche, 
+
+          Je yeuxt vers l'avant de temps en temps.
+        TCON: Cyber Soul
+        TYER: '2019'
+    - path: >-
+        /mnt/usb32gb/organized-basspistol.media/assets/albums/darkweb/2-darkweb.mp3
+      audio: /assets/albums/darkweb/2-darkweb.mp3
+      slug: darkweb/2-darkweb
+      albumSlug: darkweb
+      trackSlug: 2-darkweb
+      coverPath: >-
+        /mnt/usb32gb/organized-basspistol.media/assets/albums/darkweb/2-darkweb.jpeg
+      cover: /assets/albums/darkweb/2-darkweb.jpeg
+      format:
+        tagTypes:
+          - ID3v2.3
+        trackInfo: []
+        lossless: false
+        container: MPEG
+        codec: MPEG 1 Layer 3
+        sampleRate: 44100
+        numberOfChannels: 2
+        bitrate: 128000
+        codecProfile: CBR
+        numberOfSamples: 12566016
+        duration: 284.94367346938776
+      native:
+        ID3v2.3:
+          - id: TIT2
+            value: Darkweb
+          - id: TPE1
+            value: 徒 Setto セット
+          - id: COMM
+            value:
+              language: XXX
+              description: Comment
+              text: >-
+                Cover art by Mattias Ritarn Lindström, Music by
+                To&nbsp;Setto&nbsp;Setto
+          - id: TALB
+            value: Darkweb
+          - id: TRCK
+            value: '2'
+          - id: TPE2
+            value: 徒 Setto セット
+          - id: COMM
+            value:
+              language: XXX
+              description: UNSYNCEDLYRICS
+              text: "Y'en a mare de ce web\r\nIl est tout pourri\r\nOn peu plus rien y faire\r\nSeulement pousser des cris\r\nQue personne va entendre\r\nSi t'as pas mille amis\r\nTa home-page va se pendre\r\nPerdu le goût de la vie\r\nEnvois ton Paypal\r\nJ'vais lui faire un refus\r\nAjoute-moi en ami\r\nTu vas kiffer mon flux\r\nViens pas faire ton vieux troll\r\nRien a foutre de toi\r\nT’écris de belles paroles\r\nRien à foutre de toi\r\nPuis au fond de ce noire\r\nJe vois un rayon\r\nUn programme provisoire\r\nPour poser mes sillons\r\nY a une communauté\r\nDe gens mal intégrés\r\nIl sont tous comme moi\r\nMais encore plus tarés\r\nProtocole anonyme\r\nConnexion en chiffré\r\nP2P solidaire\r\nConnexion certifiée\r\nLittéraire digital\r\nTu vas aussi kiffer\r\nÇa s'appelle le Darkweb\r\nTu vas aussi kiffer\r\n\r\nFacegoogle aux gogues\r\nY a plus que des conneries\r\nPropagande démagogue\r\nPetits chats tous mimis\r\nMais c'est quoi cette shit\r\nÇa veut plus rien dire\r\nLes keums envoient leurs bites\r\nComme si elles allaient applaudir\r\nNon! C'est trop con\r\nJe veux pas participer\r\nMais si je joue pas le jeux\r\nJe vais être abandonné\r\nPlus personne entendra\r\nTout ce que j'ai à crier\r\nPlus personne ne lira\r\nTout ce que j'ai à crier\r\nPuis au bout du tunnel\r\nJe vois une lueur étrange\r\nCelle d'un réseau fermé\r\nQui reste ouvert au strange\r\nUn lieu virtuel\r\nUne cité idéelle\r\nUne banque de données\r\nPour les mal intégrés\r\nJe peux y être qui je veux\r\nUn antichrist bien pleb\r\nAvoir beaucoup de cheveux\r\nUn intello du Zagreb\r\nT'as besoin d'faire entendre\r\nTu vas aussi kiffer\r\nLa clef tu peux la prendre\r\nTu vas aussi kiffer"
+          - id: TCON
+            value: Cypher Rap
+          - id: TYER
+            value: '2019'
+      quality:
+        warnings: []
+      common:
+        track:
+          'no': 2
+          of: null
+        disk:
+          'no': null
+          of: null
+        title: Darkweb
+        artists:
+          - 徒 Setto セット
+        artist: 徒 Setto セット
+        comment:
+          - >-
+            Cover art by Mattias Ritarn Lindström, Music by
+            To&nbsp;Setto&nbsp;Setto
+          - "Y'en a mare de ce web\r\nIl est tout pourri\r\nOn peu plus rien y faire\r\nSeulement pousser des cris\r\nQue personne va entendre\r\nSi t'as pas mille amis\r\nTa home-page va se pendre\r\nPerdu le goût de la vie\r\nEnvois ton Paypal\r\nJ'vais lui faire un refus\r\nAjoute-moi en ami\r\nTu vas kiffer mon flux\r\nViens pas faire ton vieux troll\r\nRien a foutre de toi\r\nT’écris de belles paroles\r\nRien à foutre de toi\r\nPuis au fond de ce noire\r\nJe vois un rayon\r\nUn programme provisoire\r\nPour poser mes sillons\r\nY a une communauté\r\nDe gens mal intégrés\r\nIl sont tous comme moi\r\nMais encore plus tarés\r\nProtocole anonyme\r\nConnexion en chiffré\r\nP2P solidaire\r\nConnexion certifiée\r\nLittéraire digital\r\nTu vas aussi kiffer\r\nÇa s'appelle le Darkweb\r\nTu vas aussi kiffer\r\n\r\nFacegoogle aux gogues\r\nY a plus que des conneries\r\nPropagande démagogue\r\nPetits chats tous mimis\r\nMais c'est quoi cette shit\r\nÇa veut plus rien dire\r\nLes keums envoient leurs bites\r\nComme si elles allaient applaudir\r\nNon! C'est trop con\r\nJe veux pas participer\r\nMais si je joue pas le jeux\r\nJe vais être abandonné\r\nPlus personne entendra\r\nTout ce que j'ai à crier\r\nPlus personne ne lira\r\nTout ce que j'ai à crier\r\nPuis au bout du tunnel\r\nJe vois une lueur étrange\r\nCelle d'un réseau fermé\r\nQui reste ouvert au strange\r\nUn lieu virtuel\r\nUne cité idéelle\r\nUne banque de données\r\nPour les mal intégrés\r\nJe peux y être qui je veux\r\nUn antichrist bien pleb\r\nAvoir beaucoup de cheveux\r\nUn intello du Zagreb\r\nT'as besoin d'faire entendre\r\nTu vas aussi kiffer\r\nLa clef tu peux la prendre\r\nTu vas aussi kiffer"
+        album: Darkweb
+        albumartist: 徒 Setto セット
+        genre:
+          - Cypher Rap
+        year: 2019
+      transformed:
+        ID3v2.3:
+          TIT2: Darkweb
+          TPE1: 徒 Setto セット
+          Comment: >-
+            Cover art by Mattias Ritarn Lindström, Music by
+            To&nbsp;Setto&nbsp;Setto
+          TALB: Darkweb
+          TRCK: '2'
+          TPE2: 徒 Setto セット
+          UNSYNCEDLYRICS: "Y'en a mare de ce web\r\nIl est tout pourri\r\nOn peu plus rien y faire\r\nSeulement pousser des cris\r\nQue personne va entendre\r\nSi t'as pas mille amis\r\nTa home-page va se pendre\r\nPerdu le goût de la vie\r\nEnvois ton Paypal\r\nJ'vais lui faire un refus\r\nAjoute-moi en ami\r\nTu vas kiffer mon flux\r\nViens pas faire ton vieux troll\r\nRien a foutre de toi\r\nT’écris de belles paroles\r\nRien à foutre de toi\r\nPuis au fond de ce noire\r\nJe vois un rayon\r\nUn programme provisoire\r\nPour poser mes sillons\r\nY a une communauté\r\nDe gens mal intégrés\r\nIl sont tous comme moi\r\nMais encore plus tarés\r\nProtocole anonyme\r\nConnexion en chiffré\r\nP2P solidaire\r\nConnexion certifiée\r\nLittéraire digital\r\nTu vas aussi kiffer\r\nÇa s'appelle le Darkweb\r\nTu vas aussi kiffer\r\n\r\nFacegoogle aux gogues\r\nY a plus que des conneries\r\nPropagande démagogue\r\nPetits chats tous mimis\r\nMais c'est quoi cette shit\r\nÇa veut plus rien dire\r\nLes keums envoient leurs bites\r\nComme si elles allaient applaudir\r\nNon! C'est trop con\r\nJe veux pas participer\r\nMais si je joue pas le jeux\r\nJe vais être abandonné\r\nPlus personne entendra\r\nTout ce que j'ai à crier\r\nPlus personne ne lira\r\nTout ce que j'ai à crier\r\nPuis au bout du tunnel\r\nJe vois une lueur étrange\r\nCelle d'un réseau fermé\r\nQui reste ouvert au strange\r\nUn lieu virtuel\r\nUne cité idéelle\r\nUne banque de données\r\nPour les mal intégrés\r\nJe peux y être qui je veux\r\nUn antichrist bien pleb\r\nAvoir beaucoup de cheveux\r\nUn intello du Zagreb\r\nT'as besoin d'faire entendre\r\nTu vas aussi kiffer\r\nLa clef tu peux la prendre\r\nTu vas aussi kiffer"
+          TCON: Cypher Rap
+          TYER: '2019'
+      all:
+        TIT2: Darkweb
+        TPE1: 徒 Setto セット
+        Comment: >-
+          Cover art by Mattias Ritarn Lindström, Music by
+          To&nbsp;Setto&nbsp;Setto
+        TALB: Darkweb
+        TRCK: '2'
+        TPE2: 徒 Setto セット
+        UNSYNCEDLYRICS: "Y'en a mare de ce web\r\nIl est tout pourri\r\nOn peu plus rien y faire\r\nSeulement pousser des cris\r\nQue personne va entendre\r\nSi t'as pas mille amis\r\nTa home-page va se pendre\r\nPerdu le goût de la vie\r\nEnvois ton Paypal\r\nJ'vais lui faire un refus\r\nAjoute-moi en ami\r\nTu vas kiffer mon flux\r\nViens pas faire ton vieux troll\r\nRien a foutre de toi\r\nT’écris de belles paroles\r\nRien à foutre de toi\r\nPuis au fond de ce noire\r\nJe vois un rayon\r\nUn programme provisoire\r\nPour poser mes sillons\r\nY a une communauté\r\nDe gens mal intégrés\r\nIl sont tous comme moi\r\nMais encore plus tarés\r\nProtocole anonyme\r\nConnexion en chiffré\r\nP2P solidaire\r\nConnexion certifiée\r\nLittéraire digital\r\nTu vas aussi kiffer\r\nÇa s'appelle le Darkweb\r\nTu vas aussi kiffer\r\n\r\nFacegoogle aux gogues\r\nY a plus que des conneries\r\nPropagande démagogue\r\nPetits chats tous mimis\r\nMais c'est quoi cette shit\r\nÇa veut plus rien dire\r\nLes keums envoient leurs bites\r\nComme si elles allaient applaudir\r\nNon! C'est trop con\r\nJe veux pas participer\r\nMais si je joue pas le jeux\r\nJe vais être abandonné\r\nPlus personne entendra\r\nTout ce que j'ai à crier\r\nPlus personne ne lira\r\nTout ce que j'ai à crier\r\nPuis au bout du tunnel\r\nJe vois une lueur étrange\r\nCelle d'un réseau fermé\r\nQui reste ouvert au strange\r\nUn lieu virtuel\r\nUne cité idéelle\r\nUne banque de données\r\nPour les mal intégrés\r\nJe peux y être qui je veux\r\nUn antichrist bien pleb\r\nAvoir beaucoup de cheveux\r\nUn intello du Zagreb\r\nT'as besoin d'faire entendre\r\nTu vas aussi kiffer\r\nLa clef tu peux la prendre\r\nTu vas aussi kiffer"
+        TCON: Cypher Rap
+        TYER: '2019'
+    - path: >-
+        /mnt/usb32gb/organized-basspistol.media/assets/albums/darkweb/3-swipe-instrumental-.mp3
+      audio: /assets/albums/darkweb/3-swipe-instrumental-.mp3
+      slug: darkweb/3-swipe-instrumental-
+      albumSlug: darkweb
+      trackSlug: 3-swipe-instrumental-
+      coverPath: >-
+        /mnt/usb32gb/organized-basspistol.media/assets/albums/darkweb/3-swipe-instrumental-.jpeg
+      cover: /assets/albums/darkweb/3-swipe-instrumental-.jpeg
+      format:
+        tagTypes:
+          - ID3v2.3
+        trackInfo: []
+        lossless: false
+        container: MPEG
+        codec: MPEG 1 Layer 3
+        sampleRate: 44100
+        numberOfChannels: 2
+        bitrate: 128000
+        codecProfile: CBR
+        numberOfSamples: 12436992
+        duration: 282.0179591836735
+      native:
+        ID3v2.3:
+          - id: TIT2
+            value: Swipe (Instrumental)
+          - id: TPE1
+            value: 徒 Setto セット
+          - id: COMM
+            value:
+              language: XXX
+              description: Comment
+              text: >-
+                Cover art by Mattias Ritarn Lindström, Music by
+                To&nbsp;Setto&nbsp;Setto
+          - id: TALB
+            value: Darkweb
+          - id: TRCK
+            value: '3'
+          - id: TPE2
+            value: 徒 Setto セット
+          - id: TCON
+            value: Cyber Soul
+          - id: TYER
+            value: '2019'
+      quality:
+        warnings:
+          - message: Illegal ID3v2 tag length
+      common:
+        track:
+          'no': 3
+          of: null
+        disk:
+          'no': null
+          of: null
+        title: Swipe (Instrumental)
+        artists:
+          - 徒 Setto セット
+        artist: 徒 Setto セット
+        comment:
+          - >-
+            Cover art by Mattias Ritarn Lindström, Music by
+            To&nbsp;Setto&nbsp;Setto
+        album: Darkweb
+        albumartist: 徒 Setto セット
+        genre:
+          - Cyber Soul
+        year: 2019
+      transformed:
+        ID3v2.3:
+          TIT2: Swipe (Instrumental)
+          TPE1: 徒 Setto セット
+          Comment: >-
+            Cover art by Mattias Ritarn Lindström, Music by
+            To&nbsp;Setto&nbsp;Setto
+          TALB: Darkweb
+          TRCK: '3'
+          TPE2: 徒 Setto セット
+          TCON: Cyber Soul
+          TYER: '2019'
+      all:
+        TIT2: Swipe (Instrumental)
+        TPE1: 徒 Setto セット
+        Comment: >-
+          Cover art by Mattias Ritarn Lindström, Music by
+          To&nbsp;Setto&nbsp;Setto
+        TALB: Darkweb
+        TRCK: '3'
+        TPE2: 徒 Setto セット
+        TCON: Cyber Soul
+        TYER: '2019'
+    - path: >-
+        /mnt/usb32gb/organized-basspistol.media/assets/albums/darkweb/4-darkweb-instrumental-.mp3
+      audio: /assets/albums/darkweb/4-darkweb-instrumental-.mp3
+      slug: darkweb/4-darkweb-instrumental-
+      albumSlug: darkweb
+      trackSlug: 4-darkweb-instrumental-
+      coverPath: >-
+        /mnt/usb32gb/organized-basspistol.media/assets/albums/darkweb/4-darkweb-instrumental-.jpeg
+      cover: /assets/albums/darkweb/4-darkweb-instrumental-.jpeg
+      format:
+        tagTypes:
+          - ID3v2.3
+        trackInfo: []
+        lossless: false
+        container: MPEG
+        codec: MPEG 1 Layer 3
+        sampleRate: 44100
+        numberOfChannels: 2
+        bitrate: 128000
+        codecProfile: CBR
+        numberOfSamples: 12526848
+        duration: 284.05551020408166
+      native:
+        ID3v2.3:
+          - id: TIT2
+            value: Darkweb (Instrumental)
+          - id: TPE1
+            value: 徒 Setto セット
+          - id: COMM
+            value: &ref_0
+              language: XXX
+              description: ''
+              text: ''
+          - id: TALB
+            value: Darkweb
+          - id: TPE2
+            value: 徒 Setto セット
+          - id: TCON
+            value: Cypher Rap
+          - id: TRCK
+            value: '4'
+          - id: COMM
+            value:
+              language: XXX
+              description: Comment
+              text: Cover art and music by To&nbsp;Setto&nbsp;Setto
+          - id: TYER
+            value: '2019'
+      quality:
+        warnings: []
+      common:
+        track:
+          'no': 4
+          of: null
+        disk:
+          'no': null
+          of: null
+        title: Darkweb (Instrumental)
+        artists:
+          - 徒 Setto セット
+        artist: 徒 Setto セット
+        comment:
+          - ''
+          - Cover art and music by To&nbsp;Setto&nbsp;Setto
+        album: Darkweb
+        albumartist: 徒 Setto セット
+        genre:
+          - Cypher Rap
+        year: 2019
+      transformed:
+        ID3v2.3:
+          TIT2: Darkweb (Instrumental)
+          TPE1: 徒 Setto セット
+          COMM: *ref_0
+          TALB: Darkweb
+          TPE2: 徒 Setto セット
+          TCON: Cypher Rap
+          TRCK: '4'
+          Comment: Cover art and music by To&nbsp;Setto&nbsp;Setto
+          TYER: '2019'
+      all:
+        TIT2: Darkweb (Instrumental)
+        TPE1: 徒 Setto セット
+        COMM: *ref_0
+        TALB: Darkweb
+        TPE2: 徒 Setto セット
+        TCON: Cypher Rap
+        TRCK: '4'
+        Comment: Cover art and music by To&nbsp;Setto&nbsp;Setto
+        TYER: '2019'
+- layout: album
   slug: dust-and-soda
   name: Dust And Soda
   artists: Franky Fresco
@@ -121,7 +775,7 @@
           - id: TPE1
             value: Franky Fresco
           - id: UFID
-            value: &ref_0
+            value: &ref_1
               owner_identifier: 'http://musicbrainz.org'
               identifier: !<tag:yaml.org,2002:binary> NGJhNzA5MjktNjAyMS00Y2I2LWI2MjktNDZiYWVjNzk5YWRl
           - id: TSOP
@@ -129,7 +783,7 @@
           - id: TRCK
             value: 1/12
           - id: USLT
-            value: &ref_1
+            value: &ref_2
               language: eng
               description: ''
               text: '&nbsp;'
@@ -204,10 +858,10 @@
           'TXXX:MusicBrainz Artist Id': de2a996e-513c-4474-b03c-63b9566f1475
           'TXXX:musicbrainz_artistid': de2a996e-513c-4474-b03c-63b9566f1475
           TPE1: Franky Fresco
-          UFID: *ref_0
+          UFID: *ref_1
           TSOP: Franky Fresco
           TRCK: 1/12
-          USLT: *ref_1
+          USLT: *ref_2
           TDRC: '2012-11-07'
           WOAS: 'https://archive.org/details/BPIST011'
       all:
@@ -236,10 +890,10 @@
         'TXXX:MusicBrainz Artist Id': de2a996e-513c-4474-b03c-63b9566f1475
         'TXXX:musicbrainz_artistid': de2a996e-513c-4474-b03c-63b9566f1475
         TPE1: Franky Fresco
-        UFID: *ref_0
+        UFID: *ref_1
         TSOP: Franky Fresco
         TRCK: 1/12
-        USLT: *ref_1
+        USLT: *ref_2
         TDRC: '2012-11-07'
         WOAS: 'https://archive.org/details/BPIST011'
     - path: >-
@@ -356,7 +1010,7 @@
           - id: TPE1
             value: Franky Fresco
           - id: UFID
-            value: &ref_2
+            value: &ref_3
               owner_identifier: 'http://musicbrainz.org'
               identifier: !<tag:yaml.org,2002:binary> OTYwNmVhOGQtYWM2MS00OTQ0LWFlMzAtOGU4MmMyYTkzZWNk
           - id: TSOP
@@ -364,7 +1018,7 @@
           - id: TRCK
             value: 2/12
           - id: USLT
-            value: &ref_3
+            value: &ref_4
               language: eng
               description: ''
               text: '&nbsp;'
@@ -439,10 +1093,10 @@
           'TXXX:MusicBrainz Artist Id': de2a996e-513c-4474-b03c-63b9566f1475
           'TXXX:musicbrainz_artistid': de2a996e-513c-4474-b03c-63b9566f1475
           TPE1: Franky Fresco
-          UFID: *ref_2
+          UFID: *ref_3
           TSOP: Franky Fresco
           TRCK: 2/12
-          USLT: *ref_3
+          USLT: *ref_4
           TDRC: '2012-11-07'
           WOAS: 'https://archive.org/details/BPIST011'
       all:
@@ -471,10 +1125,10 @@
         'TXXX:MusicBrainz Artist Id': de2a996e-513c-4474-b03c-63b9566f1475
         'TXXX:musicbrainz_artistid': de2a996e-513c-4474-b03c-63b9566f1475
         TPE1: Franky Fresco
-        UFID: *ref_2
+        UFID: *ref_3
         TSOP: Franky Fresco
         TRCK: 2/12
-        USLT: *ref_3
+        USLT: *ref_4
         TDRC: '2012-11-07'
         WOAS: 'https://archive.org/details/BPIST011'
     - path: >-
@@ -591,7 +1245,7 @@
           - id: TPE1
             value: Franky Fresco
           - id: UFID
-            value: &ref_4
+            value: &ref_5
               owner_identifier: 'http://musicbrainz.org'
               identifier: !<tag:yaml.org,2002:binary> ZmQxYWU3MDYtZjU5Yi00MjBjLTgwYWEtYjkwZjE4ZDEwYmEz
           - id: TSOP
@@ -599,7 +1253,7 @@
           - id: TRCK
             value: 3/12
           - id: USLT
-            value: &ref_5
+            value: &ref_6
               language: eng
               description: ''
               text: '&nbsp;'
@@ -674,10 +1328,10 @@
           'TXXX:MusicBrainz Artist Id': de2a996e-513c-4474-b03c-63b9566f1475
           'TXXX:musicbrainz_artistid': de2a996e-513c-4474-b03c-63b9566f1475
           TPE1: Franky Fresco
-          UFID: *ref_4
+          UFID: *ref_5
           TSOP: Franky Fresco
           TRCK: 3/12
-          USLT: *ref_5
+          USLT: *ref_6
           TDRC: '2012-11-07'
           WOAS: 'https://archive.org/details/BPIST011'
       all:
@@ -706,10 +1360,10 @@
         'TXXX:MusicBrainz Artist Id': de2a996e-513c-4474-b03c-63b9566f1475
         'TXXX:musicbrainz_artistid': de2a996e-513c-4474-b03c-63b9566f1475
         TPE1: Franky Fresco
-        UFID: *ref_4
+        UFID: *ref_5
         TSOP: Franky Fresco
         TRCK: 3/12
-        USLT: *ref_5
+        USLT: *ref_6
         TDRC: '2012-11-07'
         WOAS: 'https://archive.org/details/BPIST011'
     - path: >-
@@ -826,7 +1480,7 @@
           - id: TPE1
             value: Franky Fresco
           - id: UFID
-            value: &ref_6
+            value: &ref_7
               owner_identifier: 'http://musicbrainz.org'
               identifier: !<tag:yaml.org,2002:binary> MjU0ZDc1MjYtOWY0Yy00ODBlLWIzZjItMDc0ZmVjY2Q5Zjk3
           - id: TSOP
@@ -834,7 +1488,7 @@
           - id: TRCK
             value: 4/12
           - id: USLT
-            value: &ref_7
+            value: &ref_8
               language: eng
               description: ''
               text: '&nbsp;'
@@ -909,10 +1563,10 @@
           'TXXX:MusicBrainz Artist Id': de2a996e-513c-4474-b03c-63b9566f1475
           'TXXX:musicbrainz_artistid': de2a996e-513c-4474-b03c-63b9566f1475
           TPE1: Franky Fresco
-          UFID: *ref_6
+          UFID: *ref_7
           TSOP: Franky Fresco
           TRCK: 4/12
-          USLT: *ref_7
+          USLT: *ref_8
           TDRC: '2012-11-07'
           WOAS: 'https://archive.org/details/BPIST011'
       all:
@@ -941,10 +1595,10 @@
         'TXXX:MusicBrainz Artist Id': de2a996e-513c-4474-b03c-63b9566f1475
         'TXXX:musicbrainz_artistid': de2a996e-513c-4474-b03c-63b9566f1475
         TPE1: Franky Fresco
-        UFID: *ref_6
+        UFID: *ref_7
         TSOP: Franky Fresco
         TRCK: 4/12
-        USLT: *ref_7
+        USLT: *ref_8
         TDRC: '2012-11-07'
         WOAS: 'https://archive.org/details/BPIST011'
     - path: >-
@@ -1061,7 +1715,7 @@
           - id: TPE1
             value: Franky Fresco
           - id: UFID
-            value: &ref_8
+            value: &ref_9
               owner_identifier: 'http://musicbrainz.org'
               identifier: !<tag:yaml.org,2002:binary> NDcyNDkwZDctODIwZC00M2IzLWJhNmUtMDhhN2Y3MTgwNTEz
           - id: TSOP
@@ -1069,7 +1723,7 @@
           - id: TRCK
             value: 5/12
           - id: USLT
-            value: &ref_9
+            value: &ref_10
               language: eng
               description: ''
               text: '&nbsp;'
@@ -1144,10 +1798,10 @@
           'TXXX:MusicBrainz Artist Id': de2a996e-513c-4474-b03c-63b9566f1475
           'TXXX:musicbrainz_artistid': de2a996e-513c-4474-b03c-63b9566f1475
           TPE1: Franky Fresco
-          UFID: *ref_8
+          UFID: *ref_9
           TSOP: Franky Fresco
           TRCK: 5/12
-          USLT: *ref_9
+          USLT: *ref_10
           TDRC: '2012-11-07'
           WOAS: 'https://archive.org/details/BPIST011'
       all:
@@ -1176,10 +1830,10 @@
         'TXXX:MusicBrainz Artist Id': de2a996e-513c-4474-b03c-63b9566f1475
         'TXXX:musicbrainz_artistid': de2a996e-513c-4474-b03c-63b9566f1475
         TPE1: Franky Fresco
-        UFID: *ref_8
+        UFID: *ref_9
         TSOP: Franky Fresco
         TRCK: 5/12
-        USLT: *ref_9
+        USLT: *ref_10
         TDRC: '2012-11-07'
         WOAS: 'https://archive.org/details/BPIST011'
     - path: >-
@@ -1296,7 +1950,7 @@
           - id: TPE1
             value: Franky Fresco
           - id: UFID
-            value: &ref_10
+            value: &ref_11
               owner_identifier: 'http://musicbrainz.org'
               identifier: !<tag:yaml.org,2002:binary> NzI2YWVkNzktNzJjZi00MmUzLWEyNTgtMzQyM2I4ZGZiYjlk
           - id: TSOP
@@ -1304,7 +1958,7 @@
           - id: TRCK
             value: 6/12
           - id: USLT
-            value: &ref_11
+            value: &ref_12
               language: eng
               description: ''
               text: '&nbsp;'
@@ -1379,10 +2033,10 @@
           'TXXX:MusicBrainz Artist Id': de2a996e-513c-4474-b03c-63b9566f1475
           'TXXX:musicbrainz_artistid': de2a996e-513c-4474-b03c-63b9566f1475
           TPE1: Franky Fresco
-          UFID: *ref_10
+          UFID: *ref_11
           TSOP: Franky Fresco
           TRCK: 6/12
-          USLT: *ref_11
+          USLT: *ref_12
           TDRC: '2012-11-07'
           WOAS: 'https://archive.org/details/BPIST011'
       all:
@@ -1411,10 +2065,10 @@
         'TXXX:MusicBrainz Artist Id': de2a996e-513c-4474-b03c-63b9566f1475
         'TXXX:musicbrainz_artistid': de2a996e-513c-4474-b03c-63b9566f1475
         TPE1: Franky Fresco
-        UFID: *ref_10
+        UFID: *ref_11
         TSOP: Franky Fresco
         TRCK: 6/12
-        USLT: *ref_11
+        USLT: *ref_12
         TDRC: '2012-11-07'
         WOAS: 'https://archive.org/details/BPIST011'
     - path: >-
@@ -1531,7 +2185,7 @@
           - id: TPE1
             value: Franky Fresco
           - id: UFID
-            value: &ref_12
+            value: &ref_13
               owner_identifier: 'http://musicbrainz.org'
               identifier: !<tag:yaml.org,2002:binary> YzRhMzQ5MWUtYjIxMy00N2Q4LWFjY2YtNGVjYTk1NDgxYjVh
           - id: TSOP
@@ -1539,7 +2193,7 @@
           - id: TRCK
             value: 7/12
           - id: USLT
-            value: &ref_13
+            value: &ref_14
               language: eng
               description: ''
               text: '&nbsp;'
@@ -1614,10 +2268,10 @@
           'TXXX:MusicBrainz Artist Id': de2a996e-513c-4474-b03c-63b9566f1475
           'TXXX:musicbrainz_artistid': de2a996e-513c-4474-b03c-63b9566f1475
           TPE1: Franky Fresco
-          UFID: *ref_12
+          UFID: *ref_13
           TSOP: Franky Fresco
           TRCK: 7/12
-          USLT: *ref_13
+          USLT: *ref_14
           TDRC: '2012-11-07'
           WOAS: 'https://archive.org/details/BPIST011'
       all:
@@ -1646,10 +2300,10 @@
         'TXXX:MusicBrainz Artist Id': de2a996e-513c-4474-b03c-63b9566f1475
         'TXXX:musicbrainz_artistid': de2a996e-513c-4474-b03c-63b9566f1475
         TPE1: Franky Fresco
-        UFID: *ref_12
+        UFID: *ref_13
         TSOP: Franky Fresco
         TRCK: 7/12
-        USLT: *ref_13
+        USLT: *ref_14
         TDRC: '2012-11-07'
         WOAS: 'https://archive.org/details/BPIST011'
     - path: >-
@@ -1766,7 +2420,7 @@
           - id: TPE1
             value: Franky Fresco
           - id: UFID
-            value: &ref_14
+            value: &ref_15
               owner_identifier: 'http://musicbrainz.org'
               identifier: !<tag:yaml.org,2002:binary> MWFmMTY2MWUtYzA5OS00ZDAwLWE3MTgtMTFhNzAwMGZhZDM2
           - id: TSOP
@@ -1774,7 +2428,7 @@
           - id: TRCK
             value: 8/12
           - id: USLT
-            value: &ref_15
+            value: &ref_16
               language: eng
               description: ''
               text: '&nbsp;'
@@ -1849,10 +2503,10 @@
           'TXXX:MusicBrainz Artist Id': de2a996e-513c-4474-b03c-63b9566f1475
           'TXXX:musicbrainz_artistid': de2a996e-513c-4474-b03c-63b9566f1475
           TPE1: Franky Fresco
-          UFID: *ref_14
+          UFID: *ref_15
           TSOP: Franky Fresco
           TRCK: 8/12
-          USLT: *ref_15
+          USLT: *ref_16
           TDRC: '2012-11-07'
           WOAS: 'https://archive.org/details/BPIST011'
       all:
@@ -1881,10 +2535,10 @@
         'TXXX:MusicBrainz Artist Id': de2a996e-513c-4474-b03c-63b9566f1475
         'TXXX:musicbrainz_artistid': de2a996e-513c-4474-b03c-63b9566f1475
         TPE1: Franky Fresco
-        UFID: *ref_14
+        UFID: *ref_15
         TSOP: Franky Fresco
         TRCK: 8/12
-        USLT: *ref_15
+        USLT: *ref_16
         TDRC: '2012-11-07'
         WOAS: 'https://archive.org/details/BPIST011'
     - path: >-
@@ -2001,7 +2655,7 @@
           - id: TPE1
             value: Franky Fresco
           - id: UFID
-            value: &ref_16
+            value: &ref_17
               owner_identifier: 'http://musicbrainz.org'
               identifier: !<tag:yaml.org,2002:binary> YTA0NWMzNTMtMWYyNi00YWZiLTllODYtNTk4ZTVkMzEzOWFj
           - id: TSOP
@@ -2009,7 +2663,7 @@
           - id: TRCK
             value: 9/12
           - id: USLT
-            value: &ref_17
+            value: &ref_18
               language: eng
               description: ''
               text: '&nbsp;'
@@ -2084,10 +2738,10 @@
           'TXXX:MusicBrainz Artist Id': de2a996e-513c-4474-b03c-63b9566f1475
           'TXXX:musicbrainz_artistid': de2a996e-513c-4474-b03c-63b9566f1475
           TPE1: Franky Fresco
-          UFID: *ref_16
+          UFID: *ref_17
           TSOP: Franky Fresco
           TRCK: 9/12
-          USLT: *ref_17
+          USLT: *ref_18
           TDRC: '2012-11-07'
           WOAS: 'https://archive.org/details/BPIST011'
       all:
@@ -2116,10 +2770,10 @@
         'TXXX:MusicBrainz Artist Id': de2a996e-513c-4474-b03c-63b9566f1475
         'TXXX:musicbrainz_artistid': de2a996e-513c-4474-b03c-63b9566f1475
         TPE1: Franky Fresco
-        UFID: *ref_16
+        UFID: *ref_17
         TSOP: Franky Fresco
         TRCK: 9/12
-        USLT: *ref_17
+        USLT: *ref_18
         TDRC: '2012-11-07'
         WOAS: 'https://archive.org/details/BPIST011'
     - path: >-
@@ -2236,7 +2890,7 @@
           - id: TPE1
             value: Franky Fresco
           - id: UFID
-            value: &ref_18
+            value: &ref_19
               owner_identifier: 'http://musicbrainz.org'
               identifier: !<tag:yaml.org,2002:binary> ZTc2NmE1YjUtZWUzYy00YmVkLWJkNWItZjMzM2YwZTNkZjk3
           - id: TSOP
@@ -2244,7 +2898,7 @@
           - id: TRCK
             value: 10/12
           - id: USLT
-            value: &ref_19
+            value: &ref_20
               language: eng
               description: ''
               text: '&nbsp;'
@@ -2319,10 +2973,10 @@
           'TXXX:MusicBrainz Artist Id': de2a996e-513c-4474-b03c-63b9566f1475
           'TXXX:musicbrainz_artistid': de2a996e-513c-4474-b03c-63b9566f1475
           TPE1: Franky Fresco
-          UFID: *ref_18
+          UFID: *ref_19
           TSOP: Franky Fresco
           TRCK: 10/12
-          USLT: *ref_19
+          USLT: *ref_20
           TDRC: '2012-11-07'
           WOAS: 'https://archive.org/details/BPIST011'
       all:
@@ -2351,10 +3005,10 @@
         'TXXX:MusicBrainz Artist Id': de2a996e-513c-4474-b03c-63b9566f1475
         'TXXX:musicbrainz_artistid': de2a996e-513c-4474-b03c-63b9566f1475
         TPE1: Franky Fresco
-        UFID: *ref_18
+        UFID: *ref_19
         TSOP: Franky Fresco
         TRCK: 10/12
-        USLT: *ref_19
+        USLT: *ref_20
         TDRC: '2012-11-07'
         WOAS: 'https://archive.org/details/BPIST011'
     - path: >-
@@ -2471,7 +3125,7 @@
           - id: TPE1
             value: Franky Fresco
           - id: UFID
-            value: &ref_20
+            value: &ref_21
               owner_identifier: 'http://musicbrainz.org'
               identifier: !<tag:yaml.org,2002:binary> NTQwMTZmNGQtODRhOS00NDBkLWJiNzctZDdhODg2ODhkMGI4
           - id: TSOP
@@ -2479,7 +3133,7 @@
           - id: TRCK
             value: 11/12
           - id: USLT
-            value: &ref_21
+            value: &ref_22
               language: eng
               description: ''
               text: '&nbsp;'
@@ -2554,10 +3208,10 @@
           'TXXX:MusicBrainz Artist Id': de2a996e-513c-4474-b03c-63b9566f1475
           'TXXX:musicbrainz_artistid': de2a996e-513c-4474-b03c-63b9566f1475
           TPE1: Franky Fresco
-          UFID: *ref_20
+          UFID: *ref_21
           TSOP: Franky Fresco
           TRCK: 11/12
-          USLT: *ref_21
+          USLT: *ref_22
           TDRC: '2012-11-07'
           WOAS: 'https://archive.org/details/BPIST011'
       all:
@@ -2586,10 +3240,10 @@
         'TXXX:MusicBrainz Artist Id': de2a996e-513c-4474-b03c-63b9566f1475
         'TXXX:musicbrainz_artistid': de2a996e-513c-4474-b03c-63b9566f1475
         TPE1: Franky Fresco
-        UFID: *ref_20
+        UFID: *ref_21
         TSOP: Franky Fresco
         TRCK: 11/12
-        USLT: *ref_21
+        USLT: *ref_22
         TDRC: '2012-11-07'
         WOAS: 'https://archive.org/details/BPIST011'
     - path: >-
@@ -2706,7 +3360,7 @@
           - id: TPE1
             value: Franky Fresco
           - id: UFID
-            value: &ref_22
+            value: &ref_23
               owner_identifier: 'http://musicbrainz.org'
               identifier: !<tag:yaml.org,2002:binary> ZTYyZTdlYzMtMWMyMC00ZTYyLWFjZTItMzI5MjEwZDQwZDRl
           - id: TSOP
@@ -2714,7 +3368,7 @@
           - id: TRCK
             value: 12/12
           - id: USLT
-            value: &ref_23
+            value: &ref_24
               language: eng
               description: ''
               text: '&nbsp;'
@@ -2789,10 +3443,10 @@
           'TXXX:MusicBrainz Artist Id': de2a996e-513c-4474-b03c-63b9566f1475
           'TXXX:musicbrainz_artistid': de2a996e-513c-4474-b03c-63b9566f1475
           TPE1: Franky Fresco
-          UFID: *ref_22
+          UFID: *ref_23
           TSOP: Franky Fresco
           TRCK: 12/12
-          USLT: *ref_23
+          USLT: *ref_24
           TDRC: '2012-11-07'
           WOAS: 'https://archive.org/details/BPIST011'
       all:
@@ -2821,10 +3475,10 @@
         'TXXX:MusicBrainz Artist Id': de2a996e-513c-4474-b03c-63b9566f1475
         'TXXX:musicbrainz_artistid': de2a996e-513c-4474-b03c-63b9566f1475
         TPE1: Franky Fresco
-        UFID: *ref_22
+        UFID: *ref_23
         TSOP: Franky Fresco
         TRCK: 12/12
-        USLT: *ref_23
+        USLT: *ref_24
         TDRC: '2012-11-07'
         WOAS: 'https://archive.org/details/BPIST011'
 - layout: album
@@ -2950,7 +3604,7 @@
           - id: TPE1
             value: Dr. Tikov
           - id: UFID
-            value: &ref_24
+            value: &ref_25
               owner_identifier: 'http://musicbrainz.org'
               identifier: !<tag:yaml.org,2002:binary> YTdkMmJiZWItM2U0Ni00ZTBmLWE3NTAtNGU3YWU4MDBjYjEy
           - id: TSOP
@@ -3028,7 +3682,7 @@
           'TXXX:MusicBrainz Artist Id': 1313ee01-590c-4fcf-a149-7f4d2a16d550
           'TXXX:musicbrainz_artistid': 1313ee01-590c-4fcf-a149-7f4d2a16d550
           TPE1: Dr. Tikov
-          UFID: *ref_24
+          UFID: *ref_25
           TSOP: 'Tikov, Dr.'
           TRCK: 1/9
           TDRC: '2011-10-01'
@@ -3059,7 +3713,7 @@
         'TXXX:MusicBrainz Artist Id': 1313ee01-590c-4fcf-a149-7f4d2a16d550
         'TXXX:musicbrainz_artistid': 1313ee01-590c-4fcf-a149-7f4d2a16d550
         TPE1: Dr. Tikov
-        UFID: *ref_24
+        UFID: *ref_25
         TSOP: 'Tikov, Dr.'
         TRCK: 1/9
         TDRC: '2011-10-01'
@@ -3179,7 +3833,7 @@
           - id: TPE1
             value: Dr. Tikov
           - id: UFID
-            value: &ref_25
+            value: &ref_26
               owner_identifier: 'http://musicbrainz.org'
               identifier: !<tag:yaml.org,2002:binary> ZjVhMzZmOGUtZDkwNS00MGI3LWFiNzAtMjRlZTliOTE2ZTY3
           - id: TSOP
@@ -3257,7 +3911,7 @@
           'TXXX:MusicBrainz Artist Id': 1313ee01-590c-4fcf-a149-7f4d2a16d550
           'TXXX:musicbrainz_artistid': 1313ee01-590c-4fcf-a149-7f4d2a16d550
           TPE1: Dr. Tikov
-          UFID: *ref_25
+          UFID: *ref_26
           TSOP: 'Tikov, Dr.'
           TRCK: 2/9
           TDRC: '2011-10-01'
@@ -3288,7 +3942,7 @@
         'TXXX:MusicBrainz Artist Id': 1313ee01-590c-4fcf-a149-7f4d2a16d550
         'TXXX:musicbrainz_artistid': 1313ee01-590c-4fcf-a149-7f4d2a16d550
         TPE1: Dr. Tikov
-        UFID: *ref_25
+        UFID: *ref_26
         TSOP: 'Tikov, Dr.'
         TRCK: 2/9
         TDRC: '2011-10-01'
@@ -3408,7 +4062,7 @@
           - id: TPE1
             value: Dr. Tikov
           - id: UFID
-            value: &ref_26
+            value: &ref_27
               owner_identifier: 'http://musicbrainz.org'
               identifier: !<tag:yaml.org,2002:binary> MGFjNTJkODgtNWJiYy00OWFlLTgyNjMtNmMyNzhiNWQ5MjBj
           - id: TSOP
@@ -3486,7 +4140,7 @@
           'TXXX:MusicBrainz Artist Id': 1313ee01-590c-4fcf-a149-7f4d2a16d550
           'TXXX:musicbrainz_artistid': 1313ee01-590c-4fcf-a149-7f4d2a16d550
           TPE1: Dr. Tikov
-          UFID: *ref_26
+          UFID: *ref_27
           TSOP: 'Tikov, Dr.'
           TRCK: 3/9
           TDRC: '2011-10-01'
@@ -3517,7 +4171,7 @@
         'TXXX:MusicBrainz Artist Id': 1313ee01-590c-4fcf-a149-7f4d2a16d550
         'TXXX:musicbrainz_artistid': 1313ee01-590c-4fcf-a149-7f4d2a16d550
         TPE1: Dr. Tikov
-        UFID: *ref_26
+        UFID: *ref_27
         TSOP: 'Tikov, Dr.'
         TRCK: 3/9
         TDRC: '2011-10-01'
@@ -3637,7 +4291,7 @@
           - id: TPE1
             value: Dr. Tikov
           - id: UFID
-            value: &ref_27
+            value: &ref_28
               owner_identifier: 'http://musicbrainz.org'
               identifier: !<tag:yaml.org,2002:binary> Y2M2YTI4ZmItZWQxNi00MTcxLTlmZWQtMDhjYzk3YjI1NzZl
           - id: TSOP
@@ -3715,7 +4369,7 @@
           'TXXX:MusicBrainz Artist Id': 1313ee01-590c-4fcf-a149-7f4d2a16d550
           'TXXX:musicbrainz_artistid': 1313ee01-590c-4fcf-a149-7f4d2a16d550
           TPE1: Dr. Tikov
-          UFID: *ref_27
+          UFID: *ref_28
           TSOP: 'Tikov, Dr.'
           TRCK: 4/9
           TDRC: '2011-10-01'
@@ -3746,7 +4400,7 @@
         'TXXX:MusicBrainz Artist Id': 1313ee01-590c-4fcf-a149-7f4d2a16d550
         'TXXX:musicbrainz_artistid': 1313ee01-590c-4fcf-a149-7f4d2a16d550
         TPE1: Dr. Tikov
-        UFID: *ref_27
+        UFID: *ref_28
         TSOP: 'Tikov, Dr.'
         TRCK: 4/9
         TDRC: '2011-10-01'
@@ -3866,7 +4520,7 @@
           - id: TPE1
             value: Dr. Tikov
           - id: UFID
-            value: &ref_28
+            value: &ref_29
               owner_identifier: 'http://musicbrainz.org'
               identifier: !<tag:yaml.org,2002:binary> NjQ3N2FjZTYtMjlmMy00YjBiLWJhYWItNDYzYWZmMmU1ZjEx
           - id: TSOP
@@ -3944,7 +4598,7 @@
           'TXXX:MusicBrainz Artist Id': 1313ee01-590c-4fcf-a149-7f4d2a16d550
           'TXXX:musicbrainz_artistid': 1313ee01-590c-4fcf-a149-7f4d2a16d550
           TPE1: Dr. Tikov
-          UFID: *ref_28
+          UFID: *ref_29
           TSOP: 'Tikov, Dr.'
           TRCK: 5/9
           TDRC: '2011-10-01'
@@ -3975,7 +4629,7 @@
         'TXXX:MusicBrainz Artist Id': 1313ee01-590c-4fcf-a149-7f4d2a16d550
         'TXXX:musicbrainz_artistid': 1313ee01-590c-4fcf-a149-7f4d2a16d550
         TPE1: Dr. Tikov
-        UFID: *ref_28
+        UFID: *ref_29
         TSOP: 'Tikov, Dr.'
         TRCK: 5/9
         TDRC: '2011-10-01'
@@ -4095,7 +4749,7 @@
           - id: TPE1
             value: Dr. Tikov
           - id: UFID
-            value: &ref_29
+            value: &ref_30
               owner_identifier: 'http://musicbrainz.org'
               identifier: !<tag:yaml.org,2002:binary> MjI4MDljMDAtNjZlNy00MTVlLThhYmYtNTg4Mjg3MWIwMTQx
           - id: TSOP
@@ -4173,7 +4827,7 @@
           'TXXX:MusicBrainz Artist Id': 1313ee01-590c-4fcf-a149-7f4d2a16d550
           'TXXX:musicbrainz_artistid': 1313ee01-590c-4fcf-a149-7f4d2a16d550
           TPE1: Dr. Tikov
-          UFID: *ref_29
+          UFID: *ref_30
           TSOP: 'Tikov, Dr.'
           TRCK: 6/9
           TDRC: '2011-10-01'
@@ -4204,7 +4858,7 @@
         'TXXX:MusicBrainz Artist Id': 1313ee01-590c-4fcf-a149-7f4d2a16d550
         'TXXX:musicbrainz_artistid': 1313ee01-590c-4fcf-a149-7f4d2a16d550
         TPE1: Dr. Tikov
-        UFID: *ref_29
+        UFID: *ref_30
         TSOP: 'Tikov, Dr.'
         TRCK: 6/9
         TDRC: '2011-10-01'
@@ -4324,7 +4978,7 @@
           - id: TPE1
             value: Dr. Tikov
           - id: UFID
-            value: &ref_30
+            value: &ref_31
               owner_identifier: 'http://musicbrainz.org'
               identifier: !<tag:yaml.org,2002:binary> MTZlZGU0NzYtNzFiOC00NTYyLTg3MjctNmVhMjVmMzBmOWZm
           - id: TSOP
@@ -4402,7 +5056,7 @@
           'TXXX:MusicBrainz Artist Id': 1313ee01-590c-4fcf-a149-7f4d2a16d550
           'TXXX:musicbrainz_artistid': 1313ee01-590c-4fcf-a149-7f4d2a16d550
           TPE1: Dr. Tikov
-          UFID: *ref_30
+          UFID: *ref_31
           TSOP: 'Tikov, Dr.'
           TRCK: 7/9
           TDRC: '2011-10-01'
@@ -4433,7 +5087,7 @@
         'TXXX:MusicBrainz Artist Id': 1313ee01-590c-4fcf-a149-7f4d2a16d550
         'TXXX:musicbrainz_artistid': 1313ee01-590c-4fcf-a149-7f4d2a16d550
         TPE1: Dr. Tikov
-        UFID: *ref_30
+        UFID: *ref_31
         TSOP: 'Tikov, Dr.'
         TRCK: 7/9
         TDRC: '2011-10-01'
@@ -4553,7 +5207,7 @@
           - id: TPE1
             value: Dr. Tikov
           - id: UFID
-            value: &ref_31
+            value: &ref_32
               owner_identifier: 'http://musicbrainz.org'
               identifier: !<tag:yaml.org,2002:binary> NDlhODczYmYtYzY2ZS00NzljLWJiZTMtOGFkYWZjOTA4MzJm
           - id: TSOP
@@ -4631,7 +5285,7 @@
           'TXXX:MusicBrainz Artist Id': 1313ee01-590c-4fcf-a149-7f4d2a16d550
           'TXXX:musicbrainz_artistid': 1313ee01-590c-4fcf-a149-7f4d2a16d550
           TPE1: Dr. Tikov
-          UFID: *ref_31
+          UFID: *ref_32
           TSOP: 'Tikov, Dr.'
           TRCK: 8/9
           TDRC: '2011-10-01'
@@ -4662,7 +5316,7 @@
         'TXXX:MusicBrainz Artist Id': 1313ee01-590c-4fcf-a149-7f4d2a16d550
         'TXXX:musicbrainz_artistid': 1313ee01-590c-4fcf-a149-7f4d2a16d550
         TPE1: Dr. Tikov
-        UFID: *ref_31
+        UFID: *ref_32
         TSOP: 'Tikov, Dr.'
         TRCK: 8/9
         TDRC: '2011-10-01'
@@ -4776,7 +5430,7 @@
           - id: TPE1
             value: Dr. Tikov
           - id: UFID
-            value: &ref_32
+            value: &ref_33
               owner_identifier: 'http://musicbrainz.org'
               identifier: !<tag:yaml.org,2002:binary> NDQxMWQxMzgtNjAxNi00MzMxLWIyNWQtZjIyODUwYjgxNDg4
           - id: TSOP
@@ -4852,7 +5506,7 @@
           'TXXX:MusicBrainz Artist Id': 1313ee01-590c-4fcf-a149-7f4d2a16d550
           'TXXX:musicbrainz_artistid': 1313ee01-590c-4fcf-a149-7f4d2a16d550
           TPE1: Dr. Tikov
-          UFID: *ref_32
+          UFID: *ref_33
           TSOP: 'Tikov, Dr.'
           TRCK: 9/9
           TDRC: '2011-10-01'
@@ -4882,7 +5536,7 @@
         'TXXX:MusicBrainz Artist Id': 1313ee01-590c-4fcf-a149-7f4d2a16d550
         'TXXX:musicbrainz_artistid': 1313ee01-590c-4fcf-a149-7f4d2a16d550
         TPE1: Dr. Tikov
-        UFID: *ref_32
+        UFID: *ref_33
         TSOP: 'Tikov, Dr.'
         TRCK: 9/9
         TDRC: '2011-10-01'
@@ -5011,7 +5665,7 @@
           - id: TPE1
             value: Holyhertz
           - id: UFID
-            value: &ref_33
+            value: &ref_34
               owner_identifier: 'http://musicbrainz.org'
               identifier: !<tag:yaml.org,2002:binary> ZDRmODI3OGYtYTBjMi00ZTljLTg3YWYtYWQ5OTZhYTlhODBk
           - id: TSOP
@@ -5089,7 +5743,7 @@
           'TXXX:MusicBrainz Artist Id': 89d471b5-88a6-4330-a76c-6c3d7ca98e33
           'TXXX:musicbrainz_artistid': 89d471b5-88a6-4330-a76c-6c3d7ca98e33
           TPE1: Holyhertz
-          UFID: *ref_33
+          UFID: *ref_34
           TSOP: Holyhertz
           TRCK: 1/11
           TDRC: '2010-03-01'
@@ -5120,7 +5774,7 @@
         'TXXX:MusicBrainz Artist Id': 89d471b5-88a6-4330-a76c-6c3d7ca98e33
         'TXXX:musicbrainz_artistid': 89d471b5-88a6-4330-a76c-6c3d7ca98e33
         TPE1: Holyhertz
-        UFID: *ref_33
+        UFID: *ref_34
         TSOP: Holyhertz
         TRCK: 1/11
         TDRC: '2010-03-01'
@@ -5239,7 +5893,7 @@
           - id: TPE1
             value: Holyhertz
           - id: UFID
-            value: &ref_34
+            value: &ref_35
               owner_identifier: 'http://musicbrainz.org'
               identifier: !<tag:yaml.org,2002:binary> YzRhNjNlYmUtYmYzOC00YzdiLWE2YWItMDliOGRmMmJmMjMw
           - id: TSOP
@@ -5317,7 +5971,7 @@
           'TXXX:MusicBrainz Artist Id': 89d471b5-88a6-4330-a76c-6c3d7ca98e33
           'TXXX:musicbrainz_artistid': 89d471b5-88a6-4330-a76c-6c3d7ca98e33
           TPE1: Holyhertz
-          UFID: *ref_34
+          UFID: *ref_35
           TSOP: Holyhertz
           TRCK: 2/11
           TDRC: '2010-03-01'
@@ -5348,7 +6002,7 @@
         'TXXX:MusicBrainz Artist Id': 89d471b5-88a6-4330-a76c-6c3d7ca98e33
         'TXXX:musicbrainz_artistid': 89d471b5-88a6-4330-a76c-6c3d7ca98e33
         TPE1: Holyhertz
-        UFID: *ref_34
+        UFID: *ref_35
         TSOP: Holyhertz
         TRCK: 2/11
         TDRC: '2010-03-01'
@@ -5467,7 +6121,7 @@
           - id: TPE1
             value: Holyhertz
           - id: UFID
-            value: &ref_35
+            value: &ref_36
               owner_identifier: 'http://musicbrainz.org'
               identifier: !<tag:yaml.org,2002:binary> YjAwYWNlYmQtNzFjNC00MzEyLTg1MTgtOWYwMWRmMmZiM2Iy
           - id: TSOP
@@ -5545,7 +6199,7 @@
           'TXXX:MusicBrainz Artist Id': 89d471b5-88a6-4330-a76c-6c3d7ca98e33
           'TXXX:musicbrainz_artistid': 89d471b5-88a6-4330-a76c-6c3d7ca98e33
           TPE1: Holyhertz
-          UFID: *ref_35
+          UFID: *ref_36
           TSOP: Holyhertz
           TRCK: 3/11
           TDRC: '2010-03-01'
@@ -5576,7 +6230,7 @@
         'TXXX:MusicBrainz Artist Id': 89d471b5-88a6-4330-a76c-6c3d7ca98e33
         'TXXX:musicbrainz_artistid': 89d471b5-88a6-4330-a76c-6c3d7ca98e33
         TPE1: Holyhertz
-        UFID: *ref_35
+        UFID: *ref_36
         TSOP: Holyhertz
         TRCK: 3/11
         TDRC: '2010-03-01'
@@ -5695,7 +6349,7 @@
           - id: TPE1
             value: Holyhertz
           - id: UFID
-            value: &ref_36
+            value: &ref_37
               owner_identifier: 'http://musicbrainz.org'
               identifier: !<tag:yaml.org,2002:binary> ZmM5OWIxM2UtMzI0NC00Mzk2LTk3OTktZGRhNmI2YTgwY2M0
           - id: TSOP
@@ -5773,7 +6427,7 @@
           'TXXX:MusicBrainz Artist Id': 89d471b5-88a6-4330-a76c-6c3d7ca98e33
           'TXXX:musicbrainz_artistid': 89d471b5-88a6-4330-a76c-6c3d7ca98e33
           TPE1: Holyhertz
-          UFID: *ref_36
+          UFID: *ref_37
           TSOP: Holyhertz
           TRCK: 4/11
           TDRC: '2010-03-01'
@@ -5804,7 +6458,7 @@
         'TXXX:MusicBrainz Artist Id': 89d471b5-88a6-4330-a76c-6c3d7ca98e33
         'TXXX:musicbrainz_artistid': 89d471b5-88a6-4330-a76c-6c3d7ca98e33
         TPE1: Holyhertz
-        UFID: *ref_36
+        UFID: *ref_37
         TSOP: Holyhertz
         TRCK: 4/11
         TDRC: '2010-03-01'
@@ -5923,7 +6577,7 @@
           - id: TPE1
             value: Holyhertz
           - id: UFID
-            value: &ref_37
+            value: &ref_38
               owner_identifier: 'http://musicbrainz.org'
               identifier: !<tag:yaml.org,2002:binary> ZTE0NGE5YmUtNjc1Ni00NmFmLWEyNjItOGJjMzk5ZDc3Mjg1
           - id: TSOP
@@ -6001,7 +6655,7 @@
           'TXXX:MusicBrainz Artist Id': 89d471b5-88a6-4330-a76c-6c3d7ca98e33
           'TXXX:musicbrainz_artistid': 89d471b5-88a6-4330-a76c-6c3d7ca98e33
           TPE1: Holyhertz
-          UFID: *ref_37
+          UFID: *ref_38
           TSOP: Holyhertz
           TRCK: 5/11
           TDRC: '2010-03-01'
@@ -6032,7 +6686,7 @@
         'TXXX:MusicBrainz Artist Id': 89d471b5-88a6-4330-a76c-6c3d7ca98e33
         'TXXX:musicbrainz_artistid': 89d471b5-88a6-4330-a76c-6c3d7ca98e33
         TPE1: Holyhertz
-        UFID: *ref_37
+        UFID: *ref_38
         TSOP: Holyhertz
         TRCK: 5/11
         TDRC: '2010-03-01'
@@ -6152,7 +6806,7 @@
           - id: TPE1
             value: Holyhertz
           - id: UFID
-            value: &ref_38
+            value: &ref_39
               owner_identifier: 'http://musicbrainz.org'
               identifier: !<tag:yaml.org,2002:binary> NTQyNGRkZjYtMjA4Yy00NjJmLThlZGMtYWRmZmM1NGVlNzMx
           - id: TSOP
@@ -6230,7 +6884,7 @@
           'TXXX:MusicBrainz Artist Id': 89d471b5-88a6-4330-a76c-6c3d7ca98e33
           'TXXX:musicbrainz_artistid': 89d471b5-88a6-4330-a76c-6c3d7ca98e33
           TPE1: Holyhertz
-          UFID: *ref_38
+          UFID: *ref_39
           TSOP: Holyhertz
           TRCK: 6/11
           TDRC: '2010-03-01'
@@ -6261,7 +6915,7 @@
         'TXXX:MusicBrainz Artist Id': 89d471b5-88a6-4330-a76c-6c3d7ca98e33
         'TXXX:musicbrainz_artistid': 89d471b5-88a6-4330-a76c-6c3d7ca98e33
         TPE1: Holyhertz
-        UFID: *ref_38
+        UFID: *ref_39
         TSOP: Holyhertz
         TRCK: 6/11
         TDRC: '2010-03-01'
@@ -6380,7 +7034,7 @@
           - id: TPE1
             value: Holyhertz
           - id: UFID
-            value: &ref_39
+            value: &ref_40
               owner_identifier: 'http://musicbrainz.org'
               identifier: !<tag:yaml.org,2002:binary> YTgwZjliZGEtMmQzZi00NzZjLWIwZDYtNjBkODAwMmI3MzJm
           - id: TSOP
@@ -6458,7 +7112,7 @@
           'TXXX:MusicBrainz Artist Id': 89d471b5-88a6-4330-a76c-6c3d7ca98e33
           'TXXX:musicbrainz_artistid': 89d471b5-88a6-4330-a76c-6c3d7ca98e33
           TPE1: Holyhertz
-          UFID: *ref_39
+          UFID: *ref_40
           TSOP: Holyhertz
           TRCK: 7/11
           TDRC: '2010-03-01'
@@ -6489,7 +7143,7 @@
         'TXXX:MusicBrainz Artist Id': 89d471b5-88a6-4330-a76c-6c3d7ca98e33
         'TXXX:musicbrainz_artistid': 89d471b5-88a6-4330-a76c-6c3d7ca98e33
         TPE1: Holyhertz
-        UFID: *ref_39
+        UFID: *ref_40
         TSOP: Holyhertz
         TRCK: 7/11
         TDRC: '2010-03-01'
@@ -6610,7 +7264,7 @@
           - id: TPE1
             value: Holyhertz
           - id: UFID
-            value: &ref_40
+            value: &ref_41
               owner_identifier: 'http://musicbrainz.org'
               identifier: !<tag:yaml.org,2002:binary> NzVkNzJlYzktMjAxZS00ZDYzLWJkNmUtNjg4N2MxODIyY2M0
           - id: TSOP
@@ -6688,7 +7342,7 @@
           'TXXX:MusicBrainz Artist Id': 89d471b5-88a6-4330-a76c-6c3d7ca98e33
           'TXXX:musicbrainz_artistid': 89d471b5-88a6-4330-a76c-6c3d7ca98e33
           TPE1: Holyhertz
-          UFID: *ref_40
+          UFID: *ref_41
           TSOP: Holyhertz
           TRCK: 8/11
           TDRC: '2010-03-01'
@@ -6719,7 +7373,7 @@
         'TXXX:MusicBrainz Artist Id': 89d471b5-88a6-4330-a76c-6c3d7ca98e33
         'TXXX:musicbrainz_artistid': 89d471b5-88a6-4330-a76c-6c3d7ca98e33
         TPE1: Holyhertz
-        UFID: *ref_40
+        UFID: *ref_41
         TSOP: Holyhertz
         TRCK: 8/11
         TDRC: '2010-03-01'
@@ -6838,7 +7492,7 @@
           - id: TPE1
             value: Holyhertz
           - id: UFID
-            value: &ref_41
+            value: &ref_42
               owner_identifier: 'http://musicbrainz.org'
               identifier: !<tag:yaml.org,2002:binary> MTE4YjJlNWUtOTllYS00NTA5LTg2NDUtNWJmMTEyMTlhNTRk
           - id: TSOP
@@ -6916,7 +7570,7 @@
           'TXXX:MusicBrainz Artist Id': 89d471b5-88a6-4330-a76c-6c3d7ca98e33
           'TXXX:musicbrainz_artistid': 89d471b5-88a6-4330-a76c-6c3d7ca98e33
           TPE1: Holyhertz
-          UFID: *ref_41
+          UFID: *ref_42
           TSOP: Holyhertz
           TRCK: 9/11
           TDRC: '2010-03-01'
@@ -6947,7 +7601,7 @@
         'TXXX:MusicBrainz Artist Id': 89d471b5-88a6-4330-a76c-6c3d7ca98e33
         'TXXX:musicbrainz_artistid': 89d471b5-88a6-4330-a76c-6c3d7ca98e33
         TPE1: Holyhertz
-        UFID: *ref_41
+        UFID: *ref_42
         TSOP: Holyhertz
         TRCK: 9/11
         TDRC: '2010-03-01'
@@ -7067,7 +7721,7 @@
           - id: TPE1
             value: Holyhertz
           - id: UFID
-            value: &ref_42
+            value: &ref_43
               owner_identifier: 'http://musicbrainz.org'
               identifier: !<tag:yaml.org,2002:binary> YzFhZDcyODItOTc0OC00ZWY3LWEyNDEtMjkxZTNmOWY0N2Q5
           - id: TSOP
@@ -7145,7 +7799,7 @@
           'TXXX:MusicBrainz Artist Id': 89d471b5-88a6-4330-a76c-6c3d7ca98e33
           'TXXX:musicbrainz_artistid': 89d471b5-88a6-4330-a76c-6c3d7ca98e33
           TPE1: Holyhertz
-          UFID: *ref_42
+          UFID: *ref_43
           TSOP: Holyhertz
           TRCK: 10/11
           TDRC: '2010-03-01'
@@ -7176,7 +7830,7 @@
         'TXXX:MusicBrainz Artist Id': 89d471b5-88a6-4330-a76c-6c3d7ca98e33
         'TXXX:musicbrainz_artistid': 89d471b5-88a6-4330-a76c-6c3d7ca98e33
         TPE1: Holyhertz
-        UFID: *ref_42
+        UFID: *ref_43
         TSOP: Holyhertz
         TRCK: 10/11
         TDRC: '2010-03-01'
@@ -7296,7 +7950,7 @@
           - id: TPE1
             value: Holyhertz
           - id: UFID
-            value: &ref_43
+            value: &ref_44
               owner_identifier: 'http://musicbrainz.org'
               identifier: !<tag:yaml.org,2002:binary> N2RjZmNhYjgtMmU2NS00NTYyLWIxMDMtZGYxMDY4NzA5MTUz
           - id: TSOP
@@ -7306,7 +7960,7 @@
           - id: TDRC
             value: '2010-03-01'
           - id: COMM
-            value: &ref_44
+            value: &ref_45
               language: eng
               description: ''
               text: feat. David Aphel
@@ -7380,11 +8034,11 @@
           'TXXX:MusicBrainz Artist Id': 89d471b5-88a6-4330-a76c-6c3d7ca98e33
           'TXXX:musicbrainz_artistid': 89d471b5-88a6-4330-a76c-6c3d7ca98e33
           TPE1: Holyhertz
-          UFID: *ref_43
+          UFID: *ref_44
           TSOP: 'Holyhertz feat. Aphel, David'
           TRCK: 11/11
           TDRC: '2010-03-01'
-          COMM: *ref_44
+          COMM: *ref_45
           WOAS: 'https://archive.org/details/BPIST003'
       all:
         c0: www.holyhertz.com www.basspistol.com
@@ -7412,11 +8066,11 @@
         'TXXX:MusicBrainz Artist Id': 89d471b5-88a6-4330-a76c-6c3d7ca98e33
         'TXXX:musicbrainz_artistid': 89d471b5-88a6-4330-a76c-6c3d7ca98e33
         TPE1: Holyhertz
-        UFID: *ref_43
+        UFID: *ref_44
         TSOP: 'Holyhertz feat. Aphel, David'
         TRCK: 11/11
         TDRC: '2010-03-01'
-        COMM: *ref_44
+        COMM: *ref_45
         WOAS: 'https://archive.org/details/BPIST003'
 - layout: album
   slug: musical-tourism
@@ -7580,7 +8234,7 @@
           - id: TPE1
             value: Synapset
           - id: UFID
-            value: &ref_45
+            value: &ref_46
               owner_identifier: 'http://musicbrainz.org'
               identifier: !<tag:yaml.org,2002:binary> YjQzOWMwOGMtYjE1Mi00ZWVkLTg1NjQtMGUzMTFmOWE3Zjlk
           - id: TSOP
@@ -7724,7 +8378,7 @@
           'TXXX:MusicBrainz Artist Id': a0dd2f36-1681-4bc0-970e-06a0450e16ec
           'TXXX:musicbrainz_artistid': a0dd2f36-1681-4bc0-970e-06a0450e16ec
           TPE1: Synapset
-          UFID: *ref_45
+          UFID: *ref_46
           TSOP: Synapset
           TRCK: 1/9
           TDRC: '2010-02-01'
@@ -7772,7 +8426,7 @@
         'TXXX:MusicBrainz Artist Id': a0dd2f36-1681-4bc0-970e-06a0450e16ec
         'TXXX:musicbrainz_artistid': a0dd2f36-1681-4bc0-970e-06a0450e16ec
         TPE1: Synapset
-        UFID: *ref_45
+        UFID: *ref_46
         TSOP: Synapset
         TRCK: 1/9
         TDRC: '2010-02-01'
@@ -7891,7 +8545,7 @@
           - id: TPE1
             value: Synapset
           - id: UFID
-            value: &ref_46
+            value: &ref_47
               owner_identifier: 'http://musicbrainz.org'
               identifier: !<tag:yaml.org,2002:binary> YTUwNDhmNWQtMmE3OS00MGYwLThhN2QtMjdiYTdlYzliOWRl
           - id: TSOP
@@ -7969,7 +8623,7 @@
           'TXXX:MusicBrainz Artist Id': a0dd2f36-1681-4bc0-970e-06a0450e16ec
           'TXXX:musicbrainz_artistid': a0dd2f36-1681-4bc0-970e-06a0450e16ec
           TPE1: Synapset
-          UFID: *ref_46
+          UFID: *ref_47
           TSOP: Synapset
           TRCK: 2/9
           TDRC: '2010-02-01'
@@ -8000,7 +8654,7 @@
         'TXXX:MusicBrainz Artist Id': a0dd2f36-1681-4bc0-970e-06a0450e16ec
         'TXXX:musicbrainz_artistid': a0dd2f36-1681-4bc0-970e-06a0450e16ec
         TPE1: Synapset
-        UFID: *ref_46
+        UFID: *ref_47
         TSOP: Synapset
         TRCK: 2/9
         TDRC: '2010-02-01'
@@ -8119,7 +8773,7 @@
           - id: TPE1
             value: Synapset
           - id: UFID
-            value: &ref_47
+            value: &ref_48
               owner_identifier: 'http://musicbrainz.org'
               identifier: !<tag:yaml.org,2002:binary> NDQ1ODM3NTUtMTYwNS00NjcwLWJmYWYtNWQzZDM1YzUwNmRi
           - id: TSOP
@@ -8197,7 +8851,7 @@
           'TXXX:MusicBrainz Artist Id': a0dd2f36-1681-4bc0-970e-06a0450e16ec
           'TXXX:musicbrainz_artistid': a0dd2f36-1681-4bc0-970e-06a0450e16ec
           TPE1: Synapset
-          UFID: *ref_47
+          UFID: *ref_48
           TSOP: Synapset
           TRCK: 3/9
           TDRC: '2010-02-01'
@@ -8228,7 +8882,7 @@
         'TXXX:MusicBrainz Artist Id': a0dd2f36-1681-4bc0-970e-06a0450e16ec
         'TXXX:musicbrainz_artistid': a0dd2f36-1681-4bc0-970e-06a0450e16ec
         TPE1: Synapset
-        UFID: *ref_47
+        UFID: *ref_48
         TSOP: Synapset
         TRCK: 3/9
         TDRC: '2010-02-01'
@@ -8348,7 +9002,7 @@
           - id: TPE1
             value: Synapset
           - id: UFID
-            value: &ref_48
+            value: &ref_49
               owner_identifier: 'http://musicbrainz.org'
               identifier: !<tag:yaml.org,2002:binary> NTYyNjIwYjctODJmZi00ZmYyLThjZjctYmE1ZTBkYmU3NTg4
           - id: TSOP
@@ -8426,7 +9080,7 @@
           'TXXX:MusicBrainz Artist Id': a0dd2f36-1681-4bc0-970e-06a0450e16ec
           'TXXX:musicbrainz_artistid': a0dd2f36-1681-4bc0-970e-06a0450e16ec
           TPE1: Synapset
-          UFID: *ref_48
+          UFID: *ref_49
           TSOP: Synapset
           TRCK: 4/9
           TDRC: '2010-02-01'
@@ -8457,7 +9111,7 @@
         'TXXX:MusicBrainz Artist Id': a0dd2f36-1681-4bc0-970e-06a0450e16ec
         'TXXX:musicbrainz_artistid': a0dd2f36-1681-4bc0-970e-06a0450e16ec
         TPE1: Synapset
-        UFID: *ref_48
+        UFID: *ref_49
         TSOP: Synapset
         TRCK: 4/9
         TDRC: '2010-02-01'
@@ -8576,7 +9230,7 @@
           - id: TPE1
             value: Synapset
           - id: UFID
-            value: &ref_49
+            value: &ref_50
               owner_identifier: 'http://musicbrainz.org'
               identifier: !<tag:yaml.org,2002:binary> ODQ4MWFkNjQtMzZmZi00M2VmLTg2ZDMtZGJiYjY0ZDY5NTAw
           - id: TSOP
@@ -8654,7 +9308,7 @@
           'TXXX:MusicBrainz Artist Id': a0dd2f36-1681-4bc0-970e-06a0450e16ec
           'TXXX:musicbrainz_artistid': a0dd2f36-1681-4bc0-970e-06a0450e16ec
           TPE1: Synapset
-          UFID: *ref_49
+          UFID: *ref_50
           TSOP: Synapset
           TRCK: 5/9
           TDRC: '2010-02-01'
@@ -8685,7 +9339,7 @@
         'TXXX:MusicBrainz Artist Id': a0dd2f36-1681-4bc0-970e-06a0450e16ec
         'TXXX:musicbrainz_artistid': a0dd2f36-1681-4bc0-970e-06a0450e16ec
         TPE1: Synapset
-        UFID: *ref_49
+        UFID: *ref_50
         TSOP: Synapset
         TRCK: 5/9
         TDRC: '2010-02-01'
@@ -8805,7 +9459,7 @@
           - id: TPE1
             value: Synapset
           - id: UFID
-            value: &ref_50
+            value: &ref_51
               owner_identifier: 'http://musicbrainz.org'
               identifier: !<tag:yaml.org,2002:binary> NTZjYjgyOTItY2I2MS00OTA0LWI1NmQtNDFjYjU2NmUyMGEz
           - id: TSOP
@@ -8883,7 +9537,7 @@
           'TXXX:MusicBrainz Artist Id': a0dd2f36-1681-4bc0-970e-06a0450e16ec
           'TXXX:musicbrainz_artistid': a0dd2f36-1681-4bc0-970e-06a0450e16ec
           TPE1: Synapset
-          UFID: *ref_50
+          UFID: *ref_51
           TSOP: Synapset
           TRCK: 6/9
           TDRC: '2010-02-01'
@@ -8914,7 +9568,7 @@
         'TXXX:MusicBrainz Artist Id': a0dd2f36-1681-4bc0-970e-06a0450e16ec
         'TXXX:musicbrainz_artistid': a0dd2f36-1681-4bc0-970e-06a0450e16ec
         TPE1: Synapset
-        UFID: *ref_50
+        UFID: *ref_51
         TSOP: Synapset
         TRCK: 6/9
         TDRC: '2010-02-01'
@@ -9033,7 +9687,7 @@
           - id: TPE1
             value: Synapset
           - id: UFID
-            value: &ref_51
+            value: &ref_52
               owner_identifier: 'http://musicbrainz.org'
               identifier: !<tag:yaml.org,2002:binary> ZDY0YmE5YzMtZmYwNy00N2IwLWE3ODYtOTcwNzQ3NWI5NDU1
           - id: TSOP
@@ -9111,7 +9765,7 @@
           'TXXX:MusicBrainz Artist Id': a0dd2f36-1681-4bc0-970e-06a0450e16ec
           'TXXX:musicbrainz_artistid': a0dd2f36-1681-4bc0-970e-06a0450e16ec
           TPE1: Synapset
-          UFID: *ref_51
+          UFID: *ref_52
           TSOP: Synapset
           TRCK: 7/9
           TDRC: '2010-02-01'
@@ -9142,7 +9796,7 @@
         'TXXX:MusicBrainz Artist Id': a0dd2f36-1681-4bc0-970e-06a0450e16ec
         'TXXX:musicbrainz_artistid': a0dd2f36-1681-4bc0-970e-06a0450e16ec
         TPE1: Synapset
-        UFID: *ref_51
+        UFID: *ref_52
         TSOP: Synapset
         TRCK: 7/9
         TDRC: '2010-02-01'
@@ -9261,7 +9915,7 @@
           - id: TPE1
             value: Synapset
           - id: UFID
-            value: &ref_52
+            value: &ref_53
               owner_identifier: 'http://musicbrainz.org'
               identifier: !<tag:yaml.org,2002:binary> ZGI2ZjQwN2YtODUwZS00MTE1LWExN2QtODFlMzk3NDk1NmM3
           - id: TSOP
@@ -9339,7 +9993,7 @@
           'TXXX:MusicBrainz Artist Id': a0dd2f36-1681-4bc0-970e-06a0450e16ec
           'TXXX:musicbrainz_artistid': a0dd2f36-1681-4bc0-970e-06a0450e16ec
           TPE1: Synapset
-          UFID: *ref_52
+          UFID: *ref_53
           TSOP: Synapset
           TRCK: 8/9
           TDRC: '2010-02-01'
@@ -9370,7 +10024,7 @@
         'TXXX:MusicBrainz Artist Id': a0dd2f36-1681-4bc0-970e-06a0450e16ec
         'TXXX:musicbrainz_artistid': a0dd2f36-1681-4bc0-970e-06a0450e16ec
         TPE1: Synapset
-        UFID: *ref_52
+        UFID: *ref_53
         TSOP: Synapset
         TRCK: 8/9
         TDRC: '2010-02-01'
@@ -9489,7 +10143,7 @@
           - id: TPE1
             value: Synapset
           - id: UFID
-            value: &ref_53
+            value: &ref_54
               owner_identifier: 'http://musicbrainz.org'
               identifier: !<tag:yaml.org,2002:binary> ZmI4M2IzZDktM2FiOS00ZDY4LThjNTEtZGFhMzE0OGRlMTQ1
           - id: TSOP
@@ -9567,7 +10221,7 @@
           'TXXX:MusicBrainz Artist Id': a0dd2f36-1681-4bc0-970e-06a0450e16ec
           'TXXX:musicbrainz_artistid': a0dd2f36-1681-4bc0-970e-06a0450e16ec
           TPE1: Synapset
-          UFID: *ref_53
+          UFID: *ref_54
           TSOP: Synapset
           TRCK: 9/9
           TDRC: '2010-02-01'
@@ -9598,7 +10252,7 @@
         'TXXX:MusicBrainz Artist Id': a0dd2f36-1681-4bc0-970e-06a0450e16ec
         'TXXX:musicbrainz_artistid': a0dd2f36-1681-4bc0-970e-06a0450e16ec
         TPE1: Synapset
-        UFID: *ref_53
+        UFID: *ref_54
         TSOP: Synapset
         TRCK: 9/9
         TDRC: '2010-02-01'
@@ -9612,265 +10266,6 @@
   cover: /assets/albums/psykedelisk-pop/1-janne-i-min-hj-rna.jpeg
   date: 2010-1-1
   tracks:
-    - path: >-
-        /mnt/usb32gb/organized-basspistol.media/assets/albums/psykedelisk-pop/1-janne-i-min-hj-rna.mp3
-      audio: /assets/albums/psykedelisk-pop/1-janne-i-min-hj-rna.mp3
-      slug: psykedelisk-pop/1-janne-i-min-hj-rna
-      albumSlug: psykedelisk-pop
-      trackSlug: 1-janne-i-min-hj-rna
-      coverPath: >-
-        /mnt/usb32gb/organized-basspistol.media/assets/albums/psykedelisk-pop/1-janne-i-min-hj-rna.jpeg
-      cover: /assets/albums/psykedelisk-pop/1-janne-i-min-hj-rna.jpeg
-      format:
-        tagTypes:
-          - ID3v2.4
-        trackInfo: []
-        lossless: false
-        container: MPEG
-        codec: MPEG 1 Layer 3
-        sampleRate: 44100
-        numberOfChannels: 2
-        bitrate: 128000
-        codecProfile: CBR
-        numberOfSamples: 9077760
-        duration: 205.84489795918367
-      native:
-        ID3v2.4:
-          - id: TCON
-            value: Electro Pop
-          - id: COMM
-            value:
-              language: XXX
-              description: c0
-              text: www.sakrecoer.com - www.basspistol.com
-          - id: TIT2
-            value: Janne I Min Hjärna
-          - id: COMM
-            value:
-              language: XXX
-              description: RELEASECOUNTRY
-              text: SE
-          - id: COMM
-            value:
-              language: XXX
-              description: LABEL
-              text: Basspistol
-          - id: COMM
-            value:
-              language: XXX
-              description: MUSICBRAINZ_RELEASETRACKID
-              text: a9d8a4ea-8ac5-47a2-a05f-c9e6e8fb3974
-          - id: COMM
-            value:
-              language: XXX
-              description: ORIGINALDATE
-              text: '2010'
-          - id: COMM
-            value:
-              language: XXX
-              description: MUSICBRAINZ_RELEASEGROUPID
-              text: 2ab5cbaa-6818-4604-8070-26b81b860bfa
-          - id: COMM
-            value:
-              language: XXX
-              description: RELEASESTATUS
-              text: official
-          - id: COMM
-            value:
-              language: XXX
-              description: ACOUSTID_ID
-              text: d233834c-cfb4-4598-93ae-a308eb774dec
-          - id: COMM
-            value:
-              language: XXX
-              description: CATALOGNUMBER
-              text: BPIST001
-          - id: COMM
-            value:
-              language: XXX
-              description: MEDIA
-              text: Digital Media
-          - id: COMM
-            value:
-              language: XXX
-              description: RELEASETYPE
-              text: album
-          - id: COMM
-            value:
-              language: XXX
-              description: ORIGINALYEAR
-              text: '2010'
-          - id: COMM
-            value:
-              language: XXX
-              description: ARTISTS
-              text: reSet Sakrecoer
-          - id: 'TXXX:MusicBrainz Album Artist Id'
-            value: a2899399-d1d5-462f-9d56-ec1ea78cc4b6
-          - id: 'TXXX:musicbrainz_albumartistid'
-            value: a2899399-d1d5-462f-9d56-ec1ea78cc4b6
-          - id: TPOS
-            value: 1/1
-          - id: 'TXXX:MusicBrainz Album Id'
-            value: fda0a215-114f-4c4b-9220-3b2157368a3f
-          - id: 'TXXX:musicbrainz_albumid'
-            value: fda0a215-114f-4c4b-9220-3b2157368a3f
-          - id: TPE2
-            value: reSet Sakrecoer
-          - id: TALB
-            value: Psykedelisk Pop
-          - id: 'TXXX:MusicBrainz Artist Id'
-            value: a2899399-d1d5-462f-9d56-ec1ea78cc4b6
-          - id: 'TXXX:musicbrainz_artistid'
-            value: a2899399-d1d5-462f-9d56-ec1ea78cc4b6
-          - id: TPE1
-            value: reSet Sakrecoer
-          - id: UFID
-            value: &ref_54
-              owner_identifier: 'http://musicbrainz.org'
-              identifier: !<tag:yaml.org,2002:binary> OWRjMjY0NWEtYjBlYi00ODk3LTg2NTktZTY5MmE2OWM4NGI3
-          - id: TSOP
-            value: Sakrecoer
-          - id: TRCK
-            value: 1/10
-          - id: TDRC
-            value: '2010-01-01'
-          - id: USLT
-            value:
-              language: eng
-              description: lyrics
-              text: |-
-                <em>Oh Marie,<br />
-                Janne ar pa min hjarna.<br />
-                Han vet precis,<br />
-                Hur allting ska fungera.<br />
-                Han satter mig i meditation.<br />
-                Min sjal i levitation.<br />
-                Jag svavar upp i det bla,<br />
-                Tack vare det grona...<br /></em>
-          - id: WOAS
-            value: 'https://archive.org/details/BPIST001'
-      quality:
-        warnings: []
-      common:
-        track:
-          'no': 1
-          of: 10
-        disk:
-          'no': 1
-          of: 1
-        genre:
-          - Electro Pop
-        comment:
-          - www.sakrecoer.com - www.basspistol.com
-          - SE
-          - Basspistol
-          - a9d8a4ea-8ac5-47a2-a05f-c9e6e8fb3974
-          - '2010'
-          - 2ab5cbaa-6818-4604-8070-26b81b860bfa
-          - official
-          - d233834c-cfb4-4598-93ae-a308eb774dec
-          - BPIST001
-          - Digital Media
-          - album
-          - '2010'
-          - reSet Sakrecoer
-        title: Janne I Min Hjärna
-        musicbrainz_albumartistid:
-          - a2899399-d1d5-462f-9d56-ec1ea78cc4b6
-        musicbrainz_albumid: fda0a215-114f-4c4b-9220-3b2157368a3f
-        albumartist: reSet Sakrecoer
-        album: Psykedelisk Pop
-        musicbrainz_artistid:
-          - a2899399-d1d5-462f-9d56-ec1ea78cc4b6
-        artists:
-          - reSet Sakrecoer
-        artist: reSet Sakrecoer
-        musicbrainz_recordingid: 9dc2645a-b0eb-4897-8659-e692a69c84b7
-        artistsort: Sakrecoer
-        year: 2010
-        date: '2010-01-01'
-      transformed:
-        ID3v2.4:
-          TCON: Electro Pop
-          c0: www.sakrecoer.com - www.basspistol.com
-          TIT2: Janne I Min Hjärna
-          RELEASECOUNTRY: SE
-          LABEL: Basspistol
-          MUSICBRAINZ_RELEASETRACKID: a9d8a4ea-8ac5-47a2-a05f-c9e6e8fb3974
-          ORIGINALDATE: '2010'
-          MUSICBRAINZ_RELEASEGROUPID: 2ab5cbaa-6818-4604-8070-26b81b860bfa
-          RELEASESTATUS: official
-          ACOUSTID_ID: d233834c-cfb4-4598-93ae-a308eb774dec
-          CATALOGNUMBER: BPIST001
-          MEDIA: Digital Media
-          RELEASETYPE: album
-          ORIGINALYEAR: '2010'
-          ARTISTS: reSet Sakrecoer
-          'TXXX:MusicBrainz Album Artist Id': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
-          'TXXX:musicbrainz_albumartistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
-          TPOS: 1/1
-          'TXXX:MusicBrainz Album Id': fda0a215-114f-4c4b-9220-3b2157368a3f
-          'TXXX:musicbrainz_albumid': fda0a215-114f-4c4b-9220-3b2157368a3f
-          TPE2: reSet Sakrecoer
-          TALB: Psykedelisk Pop
-          'TXXX:MusicBrainz Artist Id': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
-          'TXXX:musicbrainz_artistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
-          TPE1: reSet Sakrecoer
-          UFID: *ref_54
-          TSOP: Sakrecoer
-          TRCK: 1/10
-          TDRC: '2010-01-01'
-          lyrics: |-
-            <em>Oh Marie,<br />
-            Janne ar pa min hjarna.<br />
-            Han vet precis,<br />
-            Hur allting ska fungera.<br />
-            Han satter mig i meditation.<br />
-            Min sjal i levitation.<br />
-            Jag svavar upp i det bla,<br />
-            Tack vare det grona...<br /></em>
-          WOAS: 'https://archive.org/details/BPIST001'
-      all:
-        TCON: Electro Pop
-        c0: www.sakrecoer.com - www.basspistol.com
-        TIT2: Janne I Min Hjärna
-        RELEASECOUNTRY: SE
-        LABEL: Basspistol
-        MUSICBRAINZ_RELEASETRACKID: a9d8a4ea-8ac5-47a2-a05f-c9e6e8fb3974
-        ORIGINALDATE: '2010'
-        MUSICBRAINZ_RELEASEGROUPID: 2ab5cbaa-6818-4604-8070-26b81b860bfa
-        RELEASESTATUS: official
-        ACOUSTID_ID: d233834c-cfb4-4598-93ae-a308eb774dec
-        CATALOGNUMBER: BPIST001
-        MEDIA: Digital Media
-        RELEASETYPE: album
-        ORIGINALYEAR: '2010'
-        ARTISTS: reSet Sakrecoer
-        'TXXX:MusicBrainz Album Artist Id': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
-        'TXXX:musicbrainz_albumartistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
-        TPOS: 1/1
-        'TXXX:MusicBrainz Album Id': fda0a215-114f-4c4b-9220-3b2157368a3f
-        'TXXX:musicbrainz_albumid': fda0a215-114f-4c4b-9220-3b2157368a3f
-        TPE2: reSet Sakrecoer
-        TALB: Psykedelisk Pop
-        'TXXX:MusicBrainz Artist Id': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
-        'TXXX:musicbrainz_artistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
-        TPE1: reSet Sakrecoer
-        UFID: *ref_54
-        TSOP: Sakrecoer
-        TRCK: 1/10
-        TDRC: '2010-01-01'
-        lyrics: |-
-          <em>Oh Marie,<br />
-          Janne ar pa min hjarna.<br />
-          Han vet precis,<br />
-          Hur allting ska fungera.<br />
-          Han satter mig i meditation.<br />
-          Min sjal i levitation.<br />
-          Jag svavar upp i det bla,<br />
-          Tack vare det grona...<br /></em>
-        WOAS: 'https://archive.org/details/BPIST001'
     - path: >-
         /mnt/usb32gb/organized-basspistol.media/assets/albums/psykedelisk-pop/1-janne-i-min-hj-rna.mp3
       audio: /assets/albums/psykedelisk-pop/1-janne-i-min-hj-rna.mp3
@@ -9999,6 +10394,265 @@
               language: eng
               description: lyrics
               text: |-
+                <em>Oh Marie,<br />
+                Janne ar pa min hjarna.<br />
+                Han vet precis,<br />
+                Hur allting ska fungera.<br />
+                Han satter mig i meditation.<br />
+                Min sjal i levitation.<br />
+                Jag svavar upp i det bla,<br />
+                Tack vare det grona...<br /></em>
+          - id: WOAS
+            value: 'https://archive.org/details/BPIST001'
+      quality:
+        warnings: []
+      common:
+        track:
+          'no': 1
+          of: 10
+        disk:
+          'no': 1
+          of: 1
+        genre:
+          - Electro Pop
+        comment:
+          - www.sakrecoer.com - www.basspistol.com
+          - SE
+          - Basspistol
+          - a9d8a4ea-8ac5-47a2-a05f-c9e6e8fb3974
+          - '2010'
+          - 2ab5cbaa-6818-4604-8070-26b81b860bfa
+          - official
+          - d233834c-cfb4-4598-93ae-a308eb774dec
+          - BPIST001
+          - Digital Media
+          - album
+          - '2010'
+          - reSet Sakrecoer
+        title: Janne I Min Hjärna
+        musicbrainz_albumartistid:
+          - a2899399-d1d5-462f-9d56-ec1ea78cc4b6
+        musicbrainz_albumid: fda0a215-114f-4c4b-9220-3b2157368a3f
+        albumartist: reSet Sakrecoer
+        album: Psykedelisk Pop
+        musicbrainz_artistid:
+          - a2899399-d1d5-462f-9d56-ec1ea78cc4b6
+        artists:
+          - reSet Sakrecoer
+        artist: reSet Sakrecoer
+        musicbrainz_recordingid: 9dc2645a-b0eb-4897-8659-e692a69c84b7
+        artistsort: Sakrecoer
+        year: 2010
+        date: '2010-01-01'
+      transformed:
+        ID3v2.4:
+          TCON: Electro Pop
+          c0: www.sakrecoer.com - www.basspistol.com
+          TIT2: Janne I Min Hjärna
+          RELEASECOUNTRY: SE
+          LABEL: Basspistol
+          MUSICBRAINZ_RELEASETRACKID: a9d8a4ea-8ac5-47a2-a05f-c9e6e8fb3974
+          ORIGINALDATE: '2010'
+          MUSICBRAINZ_RELEASEGROUPID: 2ab5cbaa-6818-4604-8070-26b81b860bfa
+          RELEASESTATUS: official
+          ACOUSTID_ID: d233834c-cfb4-4598-93ae-a308eb774dec
+          CATALOGNUMBER: BPIST001
+          MEDIA: Digital Media
+          RELEASETYPE: album
+          ORIGINALYEAR: '2010'
+          ARTISTS: reSet Sakrecoer
+          'TXXX:MusicBrainz Album Artist Id': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
+          'TXXX:musicbrainz_albumartistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
+          TPOS: 1/1
+          'TXXX:MusicBrainz Album Id': fda0a215-114f-4c4b-9220-3b2157368a3f
+          'TXXX:musicbrainz_albumid': fda0a215-114f-4c4b-9220-3b2157368a3f
+          TPE2: reSet Sakrecoer
+          TALB: Psykedelisk Pop
+          'TXXX:MusicBrainz Artist Id': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
+          'TXXX:musicbrainz_artistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
+          TPE1: reSet Sakrecoer
+          UFID: *ref_55
+          TSOP: Sakrecoer
+          TRCK: 1/10
+          TDRC: '2010-01-01'
+          lyrics: |-
+            <em>Oh Marie,<br />
+            Janne ar pa min hjarna.<br />
+            Han vet precis,<br />
+            Hur allting ska fungera.<br />
+            Han satter mig i meditation.<br />
+            Min sjal i levitation.<br />
+            Jag svavar upp i det bla,<br />
+            Tack vare det grona...<br /></em>
+          WOAS: 'https://archive.org/details/BPIST001'
+      all:
+        TCON: Electro Pop
+        c0: www.sakrecoer.com - www.basspistol.com
+        TIT2: Janne I Min Hjärna
+        RELEASECOUNTRY: SE
+        LABEL: Basspistol
+        MUSICBRAINZ_RELEASETRACKID: a9d8a4ea-8ac5-47a2-a05f-c9e6e8fb3974
+        ORIGINALDATE: '2010'
+        MUSICBRAINZ_RELEASEGROUPID: 2ab5cbaa-6818-4604-8070-26b81b860bfa
+        RELEASESTATUS: official
+        ACOUSTID_ID: d233834c-cfb4-4598-93ae-a308eb774dec
+        CATALOGNUMBER: BPIST001
+        MEDIA: Digital Media
+        RELEASETYPE: album
+        ORIGINALYEAR: '2010'
+        ARTISTS: reSet Sakrecoer
+        'TXXX:MusicBrainz Album Artist Id': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
+        'TXXX:musicbrainz_albumartistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
+        TPOS: 1/1
+        'TXXX:MusicBrainz Album Id': fda0a215-114f-4c4b-9220-3b2157368a3f
+        'TXXX:musicbrainz_albumid': fda0a215-114f-4c4b-9220-3b2157368a3f
+        TPE2: reSet Sakrecoer
+        TALB: Psykedelisk Pop
+        'TXXX:MusicBrainz Artist Id': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
+        'TXXX:musicbrainz_artistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
+        TPE1: reSet Sakrecoer
+        UFID: *ref_55
+        TSOP: Sakrecoer
+        TRCK: 1/10
+        TDRC: '2010-01-01'
+        lyrics: |-
+          <em>Oh Marie,<br />
+          Janne ar pa min hjarna.<br />
+          Han vet precis,<br />
+          Hur allting ska fungera.<br />
+          Han satter mig i meditation.<br />
+          Min sjal i levitation.<br />
+          Jag svavar upp i det bla,<br />
+          Tack vare det grona...<br /></em>
+        WOAS: 'https://archive.org/details/BPIST001'
+    - path: >-
+        /mnt/usb32gb/organized-basspistol.media/assets/albums/psykedelisk-pop/1-janne-i-min-hj-rna.mp3
+      audio: /assets/albums/psykedelisk-pop/1-janne-i-min-hj-rna.mp3
+      slug: psykedelisk-pop/1-janne-i-min-hj-rna
+      albumSlug: psykedelisk-pop
+      trackSlug: 1-janne-i-min-hj-rna
+      coverPath: >-
+        /mnt/usb32gb/organized-basspistol.media/assets/albums/psykedelisk-pop/1-janne-i-min-hj-rna.jpeg
+      cover: /assets/albums/psykedelisk-pop/1-janne-i-min-hj-rna.jpeg
+      format:
+        tagTypes:
+          - ID3v2.4
+        trackInfo: []
+        lossless: false
+        container: MPEG
+        codec: MPEG 1 Layer 3
+        sampleRate: 44100
+        numberOfChannels: 2
+        bitrate: 128000
+        codecProfile: CBR
+        numberOfSamples: 9077760
+        duration: 205.84489795918367
+      native:
+        ID3v2.4:
+          - id: TCON
+            value: Electro Pop
+          - id: COMM
+            value:
+              language: XXX
+              description: c0
+              text: www.sakrecoer.com - www.basspistol.com
+          - id: TIT2
+            value: Janne I Min Hjärna
+          - id: COMM
+            value:
+              language: XXX
+              description: RELEASECOUNTRY
+              text: SE
+          - id: COMM
+            value:
+              language: XXX
+              description: LABEL
+              text: Basspistol
+          - id: COMM
+            value:
+              language: XXX
+              description: MUSICBRAINZ_RELEASETRACKID
+              text: a9d8a4ea-8ac5-47a2-a05f-c9e6e8fb3974
+          - id: COMM
+            value:
+              language: XXX
+              description: ORIGINALDATE
+              text: '2010'
+          - id: COMM
+            value:
+              language: XXX
+              description: MUSICBRAINZ_RELEASEGROUPID
+              text: 2ab5cbaa-6818-4604-8070-26b81b860bfa
+          - id: COMM
+            value:
+              language: XXX
+              description: RELEASESTATUS
+              text: official
+          - id: COMM
+            value:
+              language: XXX
+              description: ACOUSTID_ID
+              text: d233834c-cfb4-4598-93ae-a308eb774dec
+          - id: COMM
+            value:
+              language: XXX
+              description: CATALOGNUMBER
+              text: BPIST001
+          - id: COMM
+            value:
+              language: XXX
+              description: MEDIA
+              text: Digital Media
+          - id: COMM
+            value:
+              language: XXX
+              description: RELEASETYPE
+              text: album
+          - id: COMM
+            value:
+              language: XXX
+              description: ORIGINALYEAR
+              text: '2010'
+          - id: COMM
+            value:
+              language: XXX
+              description: ARTISTS
+              text: reSet Sakrecoer
+          - id: 'TXXX:MusicBrainz Album Artist Id'
+            value: a2899399-d1d5-462f-9d56-ec1ea78cc4b6
+          - id: 'TXXX:musicbrainz_albumartistid'
+            value: a2899399-d1d5-462f-9d56-ec1ea78cc4b6
+          - id: TPOS
+            value: 1/1
+          - id: 'TXXX:MusicBrainz Album Id'
+            value: fda0a215-114f-4c4b-9220-3b2157368a3f
+          - id: 'TXXX:musicbrainz_albumid'
+            value: fda0a215-114f-4c4b-9220-3b2157368a3f
+          - id: TPE2
+            value: reSet Sakrecoer
+          - id: TALB
+            value: Psykedelisk Pop
+          - id: 'TXXX:MusicBrainz Artist Id'
+            value: a2899399-d1d5-462f-9d56-ec1ea78cc4b6
+          - id: 'TXXX:musicbrainz_artistid'
+            value: a2899399-d1d5-462f-9d56-ec1ea78cc4b6
+          - id: TPE1
+            value: reSet Sakrecoer
+          - id: UFID
+            value: &ref_56
+              owner_identifier: 'http://musicbrainz.org'
+              identifier: !<tag:yaml.org,2002:binary> OWRjMjY0NWEtYjBlYi00ODk3LTg2NTktZTY5MmE2OWM4NGI3
+          - id: TSOP
+            value: Sakrecoer
+          - id: TRCK
+            value: 1/10
+          - id: TDRC
+            value: '2010-01-01'
+          - id: USLT
+            value:
+              language: eng
+              description: lyrics
+              text: |-
                 Oh Marie,
                 Janne ar pa min hjarna.
                 Han vet precis,
@@ -10074,7 +10728,7 @@
           'TXXX:MusicBrainz Artist Id': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
           'TXXX:musicbrainz_artistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
           TPE1: reSet Sakrecoer
-          UFID: *ref_55
+          UFID: *ref_56
           TSOP: Sakrecoer
           TRCK: 1/10
           TDRC: '2010-01-01'
@@ -10113,7 +10767,7 @@
         'TXXX:MusicBrainz Artist Id': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
         'TXXX:musicbrainz_artistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
         TPE1: reSet Sakrecoer
-        UFID: *ref_55
+        UFID: *ref_56
         TSOP: Sakrecoer
         TRCK: 1/10
         TDRC: '2010-01-01'
@@ -10240,7 +10894,7 @@
           - id: TPE1
             value: reSet Sakrecoer
           - id: UFID
-            value: &ref_56
+            value: &ref_57
               owner_identifier: 'http://musicbrainz.org'
               identifier: !<tag:yaml.org,2002:binary> NjFlOGExODctZTZmMC00ODE5LTgyNDItNmI0NzEzMTRkZmZl
           - id: TSOP
@@ -10368,7 +11022,7 @@
           'TXXX:MusicBrainz Artist Id': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
           'TXXX:musicbrainz_artistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
           TPE1: reSet Sakrecoer
-          UFID: *ref_56
+          UFID: *ref_57
           TSOP: Sakrecoer
           TRCK: 2/10
           TDRC: '2010-01-01'
@@ -10445,7 +11099,7 @@
         'TXXX:MusicBrainz Artist Id': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
         'TXXX:musicbrainz_artistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
         TPE1: reSet Sakrecoer
-        UFID: *ref_56
+        UFID: *ref_57
         TSOP: Sakrecoer
         TRCK: 2/10
         TDRC: '2010-01-01'
@@ -10610,7 +11264,7 @@
           - id: TPE1
             value: reSet Sakrecoer
           - id: UFID
-            value: &ref_57
+            value: &ref_58
               owner_identifier: 'http://musicbrainz.org'
               identifier: !<tag:yaml.org,2002:binary> OGI1ZDFjOTUtNDRhZC00YzQ1LTkxODMtNzg0ODhjMmU0NTA3
           - id: TSOP
@@ -10745,7 +11399,7 @@
           'TXXX:MusicBrainz Artist Id': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
           'TXXX:musicbrainz_artistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
           TPE1: reSet Sakrecoer
-          UFID: *ref_57
+          UFID: *ref_58
           TSOP: Sakrecoer
           TRCK: 3/10
           TDRC: '2010-01-01'
@@ -10829,7 +11483,7 @@
         'TXXX:MusicBrainz Artist Id': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
         'TXXX:musicbrainz_artistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
         TPE1: reSet Sakrecoer
-        UFID: *ref_57
+        UFID: *ref_58
         TSOP: Sakrecoer
         TRCK: 3/10
         TDRC: '2010-01-01'
@@ -11001,7 +11655,7 @@
           - id: TPE1
             value: reSet Sakrecoer
           - id: UFID
-            value: &ref_58
+            value: &ref_59
               owner_identifier: 'http://musicbrainz.org'
               identifier: !<tag:yaml.org,2002:binary> OGI1ZDFjOTUtNDRhZC00YzQ1LTkxODMtNzg0ODhjMmU0NTA3
           - id: TSOP
@@ -11131,7 +11785,7 @@
           'TXXX:MusicBrainz Artist Id': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
           'TXXX:musicbrainz_artistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
           TPE1: reSet Sakrecoer
-          UFID: *ref_58
+          UFID: *ref_59
           TSOP: Sakrecoer
           TRCK: 3/10
           TDRC: '2010-01-01'
@@ -11210,7 +11864,7 @@
         'TXXX:MusicBrainz Artist Id': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
         'TXXX:musicbrainz_artistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
         TPE1: reSet Sakrecoer
-        UFID: *ref_58
+        UFID: *ref_59
         TSOP: Sakrecoer
         TRCK: 3/10
         TDRC: '2010-01-01'
@@ -11377,7 +12031,7 @@
           - id: TPE1
             value: reSet Sakrecoer
           - id: UFID
-            value: &ref_59
+            value: &ref_60
               owner_identifier: 'http://musicbrainz.org'
               identifier: !<tag:yaml.org,2002:binary> MjMxMGM4OWYtZTM5Mi00Mjg3LThkYTYtMmI3YjU5MmUzZWFi
           - id: TSOP
@@ -11478,7 +12132,7 @@
           'TXXX:MusicBrainz Artist Id': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
           'TXXX:musicbrainz_artistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
           TPE1: reSet Sakrecoer
-          UFID: *ref_59
+          UFID: *ref_60
           TSOP: Sakrecoer
           TRCK: 4/10
           TDRC: '2010-01-01'
@@ -11529,7 +12183,7 @@
         'TXXX:MusicBrainz Artist Id': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
         'TXXX:musicbrainz_artistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
         TPE1: reSet Sakrecoer
-        UFID: *ref_59
+        UFID: *ref_60
         TSOP: Sakrecoer
         TRCK: 4/10
         TDRC: '2010-01-01'
@@ -11668,7 +12322,7 @@
           - id: TPE1
             value: reSet Sakrecoer
           - id: UFID
-            value: &ref_60
+            value: &ref_61
               owner_identifier: 'http://musicbrainz.org'
               identifier: !<tag:yaml.org,2002:binary> MjMxMGM4OWYtZTM5Mi00Mjg3LThkYTYtMmI3YjU5MmUzZWFi
           - id: TSOP
@@ -11771,7 +12425,7 @@
           'TXXX:MusicBrainz Artist Id': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
           'TXXX:musicbrainz_artistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
           TPE1: reSet Sakrecoer
-          UFID: *ref_60
+          UFID: *ref_61
           TSOP: Sakrecoer
           TRCK: 4/10
           TDRC: '2010-01-01'
@@ -11823,7 +12477,7 @@
         'TXXX:MusicBrainz Artist Id': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
         'TXXX:musicbrainz_artistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
         TPE1: reSet Sakrecoer
-        UFID: *ref_60
+        UFID: *ref_61
         TSOP: Sakrecoer
         TRCK: 4/10
         TDRC: '2010-01-01'
@@ -11963,7 +12617,7 @@
           - id: TPE1
             value: reSet Sakrecoer
           - id: UFID
-            value: &ref_61
+            value: &ref_62
               owner_identifier: 'http://musicbrainz.org'
               identifier: !<tag:yaml.org,2002:binary> OWI0ODIxMTItNWQ5OC00ZGViLTlmMGUtN2NmYWZjZjQxYTk2
           - id: TSOP
@@ -12102,7 +12756,7 @@
           'TXXX:MusicBrainz Artist Id': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
           'TXXX:musicbrainz_artistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
           TPE1: reSet Sakrecoer
-          UFID: *ref_61
+          UFID: *ref_62
           TSOP: Sakrecoer
           TRCK: 5/10
           TDRC: '2010-01-01'
@@ -12190,7 +12844,7 @@
         'TXXX:MusicBrainz Artist Id': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
         'TXXX:musicbrainz_artistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
         TPE1: reSet Sakrecoer
-        UFID: *ref_61
+        UFID: *ref_62
         TSOP: Sakrecoer
         TRCK: 5/10
         TDRC: '2010-01-01'
@@ -12338,7 +12992,7 @@
           - id: TPE1
             value: reSet Sakrecoer
           - id: UFID
-            value: &ref_62
+            value: &ref_63
               owner_identifier: 'http://musicbrainz.org'
               identifier: !<tag:yaml.org,2002:binary> OWI0ODIxMTItNWQ5OC00ZGViLTlmMGUtN2NmYWZjZjQxYTk2
           - id: TSOP
@@ -12448,7 +13102,7 @@
           'TXXX:MusicBrainz Artist Id': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
           'TXXX:musicbrainz_artistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
           TPE1: reSet Sakrecoer
-          UFID: *ref_62
+          UFID: *ref_63
           TSOP: Sakrecoer
           TRCK: 5/10
           TDRC: '2010-01-01'
@@ -12508,7 +13162,7 @@
         'TXXX:MusicBrainz Artist Id': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
         'TXXX:musicbrainz_artistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
         TPE1: reSet Sakrecoer
-        UFID: *ref_62
+        UFID: *ref_63
         TSOP: Sakrecoer
         TRCK: 5/10
         TDRC: '2010-01-01'
@@ -12656,7 +13310,7 @@
           - id: TPE1
             value: reSet Sakrecoer
           - id: UFID
-            value: &ref_63
+            value: &ref_64
               owner_identifier: 'http://musicbrainz.org'
               identifier: !<tag:yaml.org,2002:binary> ZDY2ZmQ3MzItZjQ1MC00NWE0LThiYjMtMzc2ZTQwYzIzYjNj
           - id: TSOP
@@ -12766,7 +13420,7 @@
           'TXXX:MusicBrainz Artist Id': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
           'TXXX:musicbrainz_artistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
           TPE1: reSet Sakrecoer
-          UFID: *ref_63
+          UFID: *ref_64
           TSOP: Sakrecoer
           TRCK: 6/10
           TDRC: '2010-01-01'
@@ -12825,7 +13479,7 @@
         'TXXX:MusicBrainz Artist Id': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
         'TXXX:musicbrainz_artistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
         TPE1: reSet Sakrecoer
-        UFID: *ref_63
+        UFID: *ref_64
         TSOP: Sakrecoer
         TRCK: 6/10
         TDRC: '2010-01-01'
@@ -12972,7 +13626,7 @@
           - id: TPE1
             value: reSet Sakrecoer
           - id: UFID
-            value: &ref_64
+            value: &ref_65
               owner_identifier: 'http://musicbrainz.org'
               identifier: !<tag:yaml.org,2002:binary> MDQ3YTc0OWItZTNkZC00NWI5LTg4YjQtN2UxZGU3NzAxNzBl
           - id: TSOP
@@ -13113,7 +13767,7 @@
           'TXXX:MusicBrainz Artist Id': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
           'TXXX:musicbrainz_artistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
           TPE1: reSet Sakrecoer
-          UFID: *ref_64
+          UFID: *ref_65
           TSOP: Sakrecoer
           TRCK: 7/10
           TDRC: '2010-01-01'
@@ -13202,7 +13856,7 @@
         'TXXX:MusicBrainz Artist Id': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
         'TXXX:musicbrainz_artistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
         TPE1: reSet Sakrecoer
-        UFID: *ref_64
+        UFID: *ref_65
         TSOP: Sakrecoer
         TRCK: 7/10
         TDRC: '2010-01-01'
@@ -13379,7 +14033,7 @@
           - id: TPE1
             value: reSet Sakrecoer
           - id: UFID
-            value: &ref_65
+            value: &ref_66
               owner_identifier: 'http://musicbrainz.org'
               identifier: !<tag:yaml.org,2002:binary> MmE5YWE4ZDktODY0YS00YzE0LWIwZDEtNGY4NmQ1NjBmNjA2
           - id: TSOP
@@ -13457,7 +14111,7 @@
           'TXXX:MusicBrainz Artist Id': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
           'TXXX:musicbrainz_artistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
           TPE1: reSet Sakrecoer
-          UFID: *ref_65
+          UFID: *ref_66
           TSOP: Sakrecoer
           TRCK: 8/10
           TDRC: '2010-01-01'
@@ -13488,7 +14142,7 @@
         'TXXX:MusicBrainz Artist Id': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
         'TXXX:musicbrainz_artistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
         TPE1: reSet Sakrecoer
-        UFID: *ref_65
+        UFID: *ref_66
         TSOP: Sakrecoer
         TRCK: 8/10
         TDRC: '2010-01-01'
@@ -13607,7 +14261,7 @@
           - id: TPE1
             value: reSet Sakrecoer
           - id: UFID
-            value: &ref_66
+            value: &ref_67
               owner_identifier: 'http://musicbrainz.org'
               identifier: !<tag:yaml.org,2002:binary> YzY5ZGQ1NGMtOTg0Mi00YTY4LTlhMTctZmE4MDYyNTY0YTUw
           - id: TSOP
@@ -13700,7 +14354,7 @@
           'TXXX:MusicBrainz Artist Id': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
           'TXXX:musicbrainz_artistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
           TPE1: reSet Sakrecoer
-          UFID: *ref_66
+          UFID: *ref_67
           TSOP: Sakrecoer
           TRCK: 9/10
           TDRC: '2010-01-01'
@@ -13742,7 +14396,7 @@
         'TXXX:MusicBrainz Artist Id': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
         'TXXX:musicbrainz_artistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
         TPE1: reSet Sakrecoer
-        UFID: *ref_66
+        UFID: *ref_67
         TSOP: Sakrecoer
         TRCK: 9/10
         TDRC: '2010-01-01'
@@ -13872,7 +14526,7 @@
           - id: TPE1
             value: reSet Sakrecoer
           - id: UFID
-            value: &ref_67
+            value: &ref_68
               owner_identifier: 'http://musicbrainz.org'
               identifier: !<tag:yaml.org,2002:binary> NDU4NTA0NjgtZjMxZC00OTUxLTk0NTgtOTJjNTJmZmM4N2Zl
           - id: TSOP
@@ -13950,7 +14604,7 @@
           'TXXX:MusicBrainz Artist Id': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
           'TXXX:musicbrainz_artistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
           TPE1: reSet Sakrecoer
-          UFID: *ref_67
+          UFID: *ref_68
           TSOP: Sakrecoer
           TRCK: 10/10
           TDRC: '2010-01-01'
@@ -13981,11 +14635,200 @@
         'TXXX:MusicBrainz Artist Id': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
         'TXXX:musicbrainz_artistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
         TPE1: reSet Sakrecoer
-        UFID: *ref_67
+        UFID: *ref_68
         TSOP: Sakrecoer
         TRCK: 10/10
         TDRC: '2010-01-01'
         WOAS: 'https://archive.org/details/BPIST001'
+- layout: album
+  slug: satoshi-mon-ami
+  name: Satoshi mon ami
+  artists: 徒 Setto セット
+  bitrate: 128000
+  trackCount: 2
+  cover: /assets/albums/satoshi-mon-ami/1-k-as-tu-fait-de-nous-.jpeg
+  date: 2018-1-1
+  tracks:
+    - path: >-
+        /mnt/usb32gb/organized-basspistol.media/assets/albums/satoshi-mon-ami/1-k-as-tu-fait-de-nous-.mp3
+      audio: /assets/albums/satoshi-mon-ami/1-k-as-tu-fait-de-nous-.mp3
+      slug: satoshi-mon-ami/1-k-as-tu-fait-de-nous-
+      albumSlug: satoshi-mon-ami
+      trackSlug: 1-k-as-tu-fait-de-nous-
+      coverPath: >-
+        /mnt/usb32gb/organized-basspistol.media/assets/albums/satoshi-mon-ami/1-k-as-tu-fait-de-nous-.jpeg
+      cover: /assets/albums/satoshi-mon-ami/1-k-as-tu-fait-de-nous-.jpeg
+      format:
+        tagTypes:
+          - ID3v2.3
+        trackInfo: []
+        lossless: false
+        container: MPEG
+        codec: MPEG 1 Layer 3
+        sampleRate: 44100
+        numberOfChannels: 2
+        bitrate: 128000
+        codecProfile: CBR
+        numberOfSamples: 13433472
+        duration: 304.6138775510204
+      native:
+        ID3v2.3:
+          - id: TIT2
+            value: K'as-tu fait de nous?
+          - id: TPE1
+            value: 徒 Setto セット
+          - id: COMM
+            value: &ref_69
+              language: XXX
+              description: ''
+              text: Cover art and music by To&nbsp;Setto&nbsp;Setto
+          - id: TALB
+            value: Satoshi mon ami
+          - id: TRCK
+            value: '1'
+          - id: TPE2
+            value: 徒 Setto セット
+          - id: COMM
+            value:
+              language: XXX
+              description: UNSYNCEDLYRICS
+              text: "Qu'as-tu fais de nous\r\nWTF coucou\r\nQu'as tu fais de nous\r\nWTF coucou\r\n\r\nAcid est la tribe\r\nCyberpunk le game\r\nSur des reseau de bribe\r\non fait monter le fame\r\nMeme pas besoin de files\r\nIsole sur l'iles\r\non fait un tour au grotte\r\npour pas que la story capotte\r\n\r\nQu'as-tu fais de nous\r\nWTF coucou\r\nQu'as-tu fais de nous\r\nWTF coucou\r\n\r\nSi la police nous ajoute\r\nNouvelle vie nouveau compte\r\nOn tourne le dos au toute\r\non delete sans honte\r\nMeme pas besoin d'ecrire\r\ntu peux mäentendre rire\r\nen tour de face a face\r\nQui brise la glace\r\n\r\nQu'as-tu fais de nous\r\nWTF coucou\r\nQu'as tu fais de nous\r\nWTF coucou\r\n\r\n24 heures pour dechiffre\r\nOn dirait une invitation\r\nLa story que t'as balancer\r\nCryptokids une seul nation\r\ncelle des rave et du reve\r\nHilife a plein poumons\r\nLe flux n'as pas de treve\r\nEt en suede il mange du saumon\r\n\r\nQu'as-tu fais de nous\r\nWTF coucou\r\nQu'as tu fais de nous\r\nWTF coucou\r\nQu'as-tu fais de nous\r\nWTF coucou\r\nQu'as tu fais de nous\r\nWTF coucou\r\nQu'as-tu fais de nous\r\nWTF coucou\r\nQu'as tu fais de nous\r\nWTF coucou"
+          - id: TCON
+            value: Cyber Soul
+          - id: TYER
+            value: '2018'
+      quality:
+        warnings: []
+      common:
+        track:
+          'no': 1
+          of: null
+        disk:
+          'no': null
+          of: null
+        title: K'as-tu fait de nous?
+        artists:
+          - 徒 Setto セット
+        artist: 徒 Setto セット
+        comment:
+          - Cover art and music by To&nbsp;Setto&nbsp;Setto
+          - "Qu'as-tu fais de nous\r\nWTF coucou\r\nQu'as tu fais de nous\r\nWTF coucou\r\n\r\nAcid est la tribe\r\nCyberpunk le game\r\nSur des reseau de bribe\r\non fait monter le fame\r\nMeme pas besoin de files\r\nIsole sur l'iles\r\non fait un tour au grotte\r\npour pas que la story capotte\r\n\r\nQu'as-tu fais de nous\r\nWTF coucou\r\nQu'as-tu fais de nous\r\nWTF coucou\r\n\r\nSi la police nous ajoute\r\nNouvelle vie nouveau compte\r\nOn tourne le dos au toute\r\non delete sans honte\r\nMeme pas besoin d'ecrire\r\ntu peux mäentendre rire\r\nen tour de face a face\r\nQui brise la glace\r\n\r\nQu'as-tu fais de nous\r\nWTF coucou\r\nQu'as tu fais de nous\r\nWTF coucou\r\n\r\n24 heures pour dechiffre\r\nOn dirait une invitation\r\nLa story que t'as balancer\r\nCryptokids une seul nation\r\ncelle des rave et du reve\r\nHilife a plein poumons\r\nLe flux n'as pas de treve\r\nEt en suede il mange du saumon\r\n\r\nQu'as-tu fais de nous\r\nWTF coucou\r\nQu'as tu fais de nous\r\nWTF coucou\r\nQu'as-tu fais de nous\r\nWTF coucou\r\nQu'as tu fais de nous\r\nWTF coucou\r\nQu'as-tu fais de nous\r\nWTF coucou\r\nQu'as tu fais de nous\r\nWTF coucou"
+        album: Satoshi mon ami
+        albumartist: 徒 Setto セット
+        genre:
+          - Cyber Soul
+        year: 2018
+      transformed:
+        ID3v2.3:
+          TIT2: K'as-tu fait de nous?
+          TPE1: 徒 Setto セット
+          COMM: *ref_69
+          TALB: Satoshi mon ami
+          TRCK: '1'
+          TPE2: 徒 Setto セット
+          UNSYNCEDLYRICS: "Qu'as-tu fais de nous\r\nWTF coucou\r\nQu'as tu fais de nous\r\nWTF coucou\r\n\r\nAcid est la tribe\r\nCyberpunk le game\r\nSur des reseau de bribe\r\non fait monter le fame\r\nMeme pas besoin de files\r\nIsole sur l'iles\r\non fait un tour au grotte\r\npour pas que la story capotte\r\n\r\nQu'as-tu fais de nous\r\nWTF coucou\r\nQu'as-tu fais de nous\r\nWTF coucou\r\n\r\nSi la police nous ajoute\r\nNouvelle vie nouveau compte\r\nOn tourne le dos au toute\r\non delete sans honte\r\nMeme pas besoin d'ecrire\r\ntu peux mäentendre rire\r\nen tour de face a face\r\nQui brise la glace\r\n\r\nQu'as-tu fais de nous\r\nWTF coucou\r\nQu'as tu fais de nous\r\nWTF coucou\r\n\r\n24 heures pour dechiffre\r\nOn dirait une invitation\r\nLa story que t'as balancer\r\nCryptokids une seul nation\r\ncelle des rave et du reve\r\nHilife a plein poumons\r\nLe flux n'as pas de treve\r\nEt en suede il mange du saumon\r\n\r\nQu'as-tu fais de nous\r\nWTF coucou\r\nQu'as tu fais de nous\r\nWTF coucou\r\nQu'as-tu fais de nous\r\nWTF coucou\r\nQu'as tu fais de nous\r\nWTF coucou\r\nQu'as-tu fais de nous\r\nWTF coucou\r\nQu'as tu fais de nous\r\nWTF coucou"
+          TCON: Cyber Soul
+          TYER: '2018'
+      all:
+        TIT2: K'as-tu fait de nous?
+        TPE1: 徒 Setto セット
+        COMM: *ref_69
+        TALB: Satoshi mon ami
+        TRCK: '1'
+        TPE2: 徒 Setto セット
+        UNSYNCEDLYRICS: "Qu'as-tu fais de nous\r\nWTF coucou\r\nQu'as tu fais de nous\r\nWTF coucou\r\n\r\nAcid est la tribe\r\nCyberpunk le game\r\nSur des reseau de bribe\r\non fait monter le fame\r\nMeme pas besoin de files\r\nIsole sur l'iles\r\non fait un tour au grotte\r\npour pas que la story capotte\r\n\r\nQu'as-tu fais de nous\r\nWTF coucou\r\nQu'as-tu fais de nous\r\nWTF coucou\r\n\r\nSi la police nous ajoute\r\nNouvelle vie nouveau compte\r\nOn tourne le dos au toute\r\non delete sans honte\r\nMeme pas besoin d'ecrire\r\ntu peux mäentendre rire\r\nen tour de face a face\r\nQui brise la glace\r\n\r\nQu'as-tu fais de nous\r\nWTF coucou\r\nQu'as tu fais de nous\r\nWTF coucou\r\n\r\n24 heures pour dechiffre\r\nOn dirait une invitation\r\nLa story que t'as balancer\r\nCryptokids une seul nation\r\ncelle des rave et du reve\r\nHilife a plein poumons\r\nLe flux n'as pas de treve\r\nEt en suede il mange du saumon\r\n\r\nQu'as-tu fais de nous\r\nWTF coucou\r\nQu'as tu fais de nous\r\nWTF coucou\r\nQu'as-tu fais de nous\r\nWTF coucou\r\nQu'as tu fais de nous\r\nWTF coucou\r\nQu'as-tu fais de nous\r\nWTF coucou\r\nQu'as tu fais de nous\r\nWTF coucou"
+        TCON: Cyber Soul
+        TYER: '2018'
+    - path: >-
+        /mnt/usb32gb/organized-basspistol.media/assets/albums/satoshi-mon-ami/2-r-ve-de-toi.mp3
+      audio: /assets/albums/satoshi-mon-ami/2-r-ve-de-toi.mp3
+      slug: satoshi-mon-ami/2-r-ve-de-toi
+      albumSlug: satoshi-mon-ami
+      trackSlug: 2-r-ve-de-toi
+      coverPath: >-
+        /mnt/usb32gb/organized-basspistol.media/assets/albums/satoshi-mon-ami/2-r-ve-de-toi.jpeg
+      cover: /assets/albums/satoshi-mon-ami/2-r-ve-de-toi.jpeg
+      format:
+        tagTypes:
+          - ID3v2.3
+        trackInfo: []
+        lossless: false
+        container: MPEG
+        codec: MPEG 1 Layer 3
+        sampleRate: 44100
+        numberOfChannels: 2
+        bitrate: 128000
+        codecProfile: CBR
+        numberOfSamples: 8195328
+        duration: 185.83510204081634
+      native:
+        ID3v2.3:
+          - id: TIT2
+            value: Rêve de toi
+          - id: TPE1
+            value: 徒 Setto セット
+          - id: COMM
+            value: &ref_70
+              language: XXX
+              description: ''
+              text: Cover art and music by To&nbsp;Setto&nbsp;Setto
+          - id: TALB
+            value: Satoshi mon ami
+          - id: TRCK
+            value: '2'
+          - id: TPE2
+            value: 徒 Setto セット
+          - id: COMM
+            value:
+              language: XXX
+              description: UNSYNCEDLYRICS
+              text: "Je rêve de toi\r\nChaque jour je te vois\r\nJe fais pas de faux pas\r\nToujours des commentaires sympas\r\n\r\nTa vie est belle\r\nÇa se voit sur les cocotiers\r\nMais mon label\r\nNe pourras pas me déployer\r\n\r\nUne fois, chaque fois, que mon téléphone\r\nS’allume, s’éclaire, sonne le vibraphone\r\nJ’espère, c'est claire, que c'est la bonne\r\nFois en moi, mais cette fois, ce n'est pas toi\r\n\r\nJ'ajoute des cœurs\r\nA tous les poste que tu publies\r\nJ’envoie des merdes\r\nA tous les cons qui t'humilient\r\n\r\nTa vie radieuse\r\nIllumine mes après-midi\r\nQuand je me lève\r\nAprès avoir perdu encore une nuit\r\n\r\nUne fois, chaque fois, que mon téléphone\r\nS’allume, s’éclaire, sonne le vibraphone\r\nJ’espère, c'est claire, que c'est la bonne\r\nFois en moi, mais cette fois, toujours pas toi"
+          - id: TCON
+            value: Cyber Soul
+          - id: TYER
+            value: '2018'
+      quality:
+        warnings: []
+      common:
+        track:
+          'no': 2
+          of: null
+        disk:
+          'no': null
+          of: null
+        title: Rêve de toi
+        artists:
+          - 徒 Setto セット
+        artist: 徒 Setto セット
+        comment:
+          - Cover art and music by To&nbsp;Setto&nbsp;Setto
+          - "Je rêve de toi\r\nChaque jour je te vois\r\nJe fais pas de faux pas\r\nToujours des commentaires sympas\r\n\r\nTa vie est belle\r\nÇa se voit sur les cocotiers\r\nMais mon label\r\nNe pourras pas me déployer\r\n\r\nUne fois, chaque fois, que mon téléphone\r\nS’allume, s’éclaire, sonne le vibraphone\r\nJ’espère, c'est claire, que c'est la bonne\r\nFois en moi, mais cette fois, ce n'est pas toi\r\n\r\nJ'ajoute des cœurs\r\nA tous les poste que tu publies\r\nJ’envoie des merdes\r\nA tous les cons qui t'humilient\r\n\r\nTa vie radieuse\r\nIllumine mes après-midi\r\nQuand je me lève\r\nAprès avoir perdu encore une nuit\r\n\r\nUne fois, chaque fois, que mon téléphone\r\nS’allume, s’éclaire, sonne le vibraphone\r\nJ’espère, c'est claire, que c'est la bonne\r\nFois en moi, mais cette fois, toujours pas toi"
+        album: Satoshi mon ami
+        albumartist: 徒 Setto セット
+        genre:
+          - Cyber Soul
+        year: 2018
+      transformed:
+        ID3v2.3:
+          TIT2: Rêve de toi
+          TPE1: 徒 Setto セット
+          COMM: *ref_70
+          TALB: Satoshi mon ami
+          TRCK: '2'
+          TPE2: 徒 Setto セット
+          UNSYNCEDLYRICS: "Je rêve de toi\r\nChaque jour je te vois\r\nJe fais pas de faux pas\r\nToujours des commentaires sympas\r\n\r\nTa vie est belle\r\nÇa se voit sur les cocotiers\r\nMais mon label\r\nNe pourras pas me déployer\r\n\r\nUne fois, chaque fois, que mon téléphone\r\nS’allume, s’éclaire, sonne le vibraphone\r\nJ’espère, c'est claire, que c'est la bonne\r\nFois en moi, mais cette fois, ce n'est pas toi\r\n\r\nJ'ajoute des cœurs\r\nA tous les poste que tu publies\r\nJ’envoie des merdes\r\nA tous les cons qui t'humilient\r\n\r\nTa vie radieuse\r\nIllumine mes après-midi\r\nQuand je me lève\r\nAprès avoir perdu encore une nuit\r\n\r\nUne fois, chaque fois, que mon téléphone\r\nS’allume, s’éclaire, sonne le vibraphone\r\nJ’espère, c'est claire, que c'est la bonne\r\nFois en moi, mais cette fois, toujours pas toi"
+          TCON: Cyber Soul
+          TYER: '2018'
+      all:
+        TIT2: Rêve de toi
+        TPE1: 徒 Setto セット
+        COMM: *ref_70
+        TALB: Satoshi mon ami
+        TRCK: '2'
+        TPE2: 徒 Setto セット
+        UNSYNCEDLYRICS: "Je rêve de toi\r\nChaque jour je te vois\r\nJe fais pas de faux pas\r\nToujours des commentaires sympas\r\n\r\nTa vie est belle\r\nÇa se voit sur les cocotiers\r\nMais mon label\r\nNe pourras pas me déployer\r\n\r\nUne fois, chaque fois, que mon téléphone\r\nS’allume, s’éclaire, sonne le vibraphone\r\nJ’espère, c'est claire, que c'est la bonne\r\nFois en moi, mais cette fois, ce n'est pas toi\r\n\r\nJ'ajoute des cœurs\r\nA tous les poste que tu publies\r\nJ’envoie des merdes\r\nA tous les cons qui t'humilient\r\n\r\nTa vie radieuse\r\nIllumine mes après-midi\r\nQuand je me lève\r\nAprès avoir perdu encore une nuit\r\n\r\nUne fois, chaque fois, que mon téléphone\r\nS’allume, s’éclaire, sonne le vibraphone\r\nJ’espère, c'est claire, que c'est la bonne\r\nFois en moi, mais cette fois, toujours pas toi"
+        TCON: Cyber Soul
+        TYER: '2018'
 - layout: album
   slug: tfb-otk
   name: TFB-OTK
@@ -14104,7 +14947,7 @@
           - id: TPE1
             value: The Fraglebay
           - id: UFID
-            value: &ref_68
+            value: &ref_71
               owner_identifier: 'http://musicbrainz.org'
               identifier: !<tag:yaml.org,2002:binary> OTY2ZjI2ZGUtYjRjNC00YmRkLWEyY2MtODA1YWU2MDYxNGYx
           - id: TSOP
@@ -14180,7 +15023,7 @@
           'TXXX:MusicBrainz Artist Id': 3e250a22-ed45-41f7-ab07-ac8f7b4cf1c7
           'TXXX:musicbrainz_artistid': 3e250a22-ed45-41f7-ab07-ac8f7b4cf1c7
           TPE1: The Fraglebay
-          UFID: *ref_68
+          UFID: *ref_71
           TSOP: 'Fraglebay, The'
           TRCK: 1/10
           TDRC: '2013-01-01'
@@ -14210,7 +15053,7 @@
         'TXXX:MusicBrainz Artist Id': 3e250a22-ed45-41f7-ab07-ac8f7b4cf1c7
         'TXXX:musicbrainz_artistid': 3e250a22-ed45-41f7-ab07-ac8f7b4cf1c7
         TPE1: The Fraglebay
-        UFID: *ref_68
+        UFID: *ref_71
         TSOP: 'Fraglebay, The'
         TRCK: 1/10
         TDRC: '2013-01-01'
@@ -14329,7 +15172,7 @@
           - id: TPE1
             value: The Fraglebay
           - id: UFID
-            value: &ref_69
+            value: &ref_72
               owner_identifier: 'http://musicbrainz.org'
               identifier: !<tag:yaml.org,2002:binary> ZTgzMmJkNzItM2QzOS00NjdjLWI3ZWUtMWNiYWM1NGM2ZmQ4
           - id: TSOP
@@ -14407,7 +15250,7 @@
           'TXXX:MusicBrainz Artist Id': 3e250a22-ed45-41f7-ab07-ac8f7b4cf1c7
           'TXXX:musicbrainz_artistid': 3e250a22-ed45-41f7-ab07-ac8f7b4cf1c7
           TPE1: The Fraglebay
-          UFID: *ref_69
+          UFID: *ref_72
           TSOP: 'Fraglebay, The'
           TRCK: 2/10
           TDRC: '2013-01-01'
@@ -14438,7 +15281,7 @@
         'TXXX:MusicBrainz Artist Id': 3e250a22-ed45-41f7-ab07-ac8f7b4cf1c7
         'TXXX:musicbrainz_artistid': 3e250a22-ed45-41f7-ab07-ac8f7b4cf1c7
         TPE1: The Fraglebay
-        UFID: *ref_69
+        UFID: *ref_72
         TSOP: 'Fraglebay, The'
         TRCK: 2/10
         TDRC: '2013-01-01'
@@ -14557,7 +15400,7 @@
           - id: TPE1
             value: The Fraglebay
           - id: UFID
-            value: &ref_70
+            value: &ref_73
               owner_identifier: 'http://musicbrainz.org'
               identifier: !<tag:yaml.org,2002:binary> MTAzYTJhMGMtYTk1YS00NDRiLTgxYmEtN2QxZDA0NGI5NjAz
           - id: TSOP
@@ -14635,7 +15478,7 @@
           'TXXX:MusicBrainz Artist Id': 3e250a22-ed45-41f7-ab07-ac8f7b4cf1c7
           'TXXX:musicbrainz_artistid': 3e250a22-ed45-41f7-ab07-ac8f7b4cf1c7
           TPE1: The Fraglebay
-          UFID: *ref_70
+          UFID: *ref_73
           TSOP: 'Fraglebay, The'
           TRCK: 3/10
           TDRC: '2013-01-01'
@@ -14666,7 +15509,7 @@
         'TXXX:MusicBrainz Artist Id': 3e250a22-ed45-41f7-ab07-ac8f7b4cf1c7
         'TXXX:musicbrainz_artistid': 3e250a22-ed45-41f7-ab07-ac8f7b4cf1c7
         TPE1: The Fraglebay
-        UFID: *ref_70
+        UFID: *ref_73
         TSOP: 'Fraglebay, The'
         TRCK: 3/10
         TDRC: '2013-01-01'
@@ -14785,7 +15628,7 @@
           - id: TPE1
             value: The Fraglebay
           - id: UFID
-            value: &ref_71
+            value: &ref_74
               owner_identifier: 'http://musicbrainz.org'
               identifier: !<tag:yaml.org,2002:binary> ZDQ0ZTJkYWMtZDc5ZC00MTA5LWI1NWYtZGYwMDU5ZjFlOWMz
           - id: TSOP
@@ -14863,7 +15706,7 @@
           'TXXX:MusicBrainz Artist Id': 3e250a22-ed45-41f7-ab07-ac8f7b4cf1c7
           'TXXX:musicbrainz_artistid': 3e250a22-ed45-41f7-ab07-ac8f7b4cf1c7
           TPE1: The Fraglebay
-          UFID: *ref_71
+          UFID: *ref_74
           TSOP: 'Fraglebay, The'
           TRCK: 4/10
           TDRC: '2013-01-01'
@@ -14894,7 +15737,7 @@
         'TXXX:MusicBrainz Artist Id': 3e250a22-ed45-41f7-ab07-ac8f7b4cf1c7
         'TXXX:musicbrainz_artistid': 3e250a22-ed45-41f7-ab07-ac8f7b4cf1c7
         TPE1: The Fraglebay
-        UFID: *ref_71
+        UFID: *ref_74
         TSOP: 'Fraglebay, The'
         TRCK: 4/10
         TDRC: '2013-01-01'
@@ -15011,7 +15854,7 @@
           - id: TPE1
             value: The Fraglebay
           - id: UFID
-            value: &ref_72
+            value: &ref_75
               owner_identifier: 'http://musicbrainz.org'
               identifier: !<tag:yaml.org,2002:binary> NmE2OTg2MmEtMDk2Mi00ZDE2LWE4NGQtNzkzMjAzNTMyNDM5
           - id: TSOP
@@ -15086,7 +15929,7 @@
           'TXXX:MusicBrainz Artist Id': 3e250a22-ed45-41f7-ab07-ac8f7b4cf1c7
           'TXXX:musicbrainz_artistid': 3e250a22-ed45-41f7-ab07-ac8f7b4cf1c7
           TPE1: The Fraglebay
-          UFID: *ref_72
+          UFID: *ref_75
           TSOP: 'Fraglebay, The'
           TRCK: 5/10
           TDRC: '2013-01-01'
@@ -15116,7 +15959,7 @@
         'TXXX:MusicBrainz Artist Id': 3e250a22-ed45-41f7-ab07-ac8f7b4cf1c7
         'TXXX:musicbrainz_artistid': 3e250a22-ed45-41f7-ab07-ac8f7b4cf1c7
         TPE1: The Fraglebay
-        UFID: *ref_72
+        UFID: *ref_75
         TSOP: 'Fraglebay, The'
         TRCK: 5/10
         TDRC: '2013-01-01'
@@ -15233,7 +16076,7 @@
           - id: TPE1
             value: The Fraglebay
           - id: UFID
-            value: &ref_73
+            value: &ref_76
               owner_identifier: 'http://musicbrainz.org'
               identifier: !<tag:yaml.org,2002:binary> YTc4YmYzNzAtZjc5My00ZGQ1LWE1YzMtMmI5NTZmZjg0NDdj
           - id: TSOP
@@ -15308,7 +16151,7 @@
           'TXXX:MusicBrainz Artist Id': 3e250a22-ed45-41f7-ab07-ac8f7b4cf1c7
           'TXXX:musicbrainz_artistid': 3e250a22-ed45-41f7-ab07-ac8f7b4cf1c7
           TPE1: The Fraglebay
-          UFID: *ref_73
+          UFID: *ref_76
           TSOP: 'Fraglebay, The'
           TRCK: 6/10
           TDRC: '2013-01-01'
@@ -15338,7 +16181,7 @@
         'TXXX:MusicBrainz Artist Id': 3e250a22-ed45-41f7-ab07-ac8f7b4cf1c7
         'TXXX:musicbrainz_artistid': 3e250a22-ed45-41f7-ab07-ac8f7b4cf1c7
         TPE1: The Fraglebay
-        UFID: *ref_73
+        UFID: *ref_76
         TSOP: 'Fraglebay, The'
         TRCK: 6/10
         TDRC: '2013-01-01'
@@ -15455,7 +16298,7 @@
           - id: TPE1
             value: The Fraglebay
           - id: UFID
-            value: &ref_74
+            value: &ref_77
               owner_identifier: 'http://musicbrainz.org'
               identifier: !<tag:yaml.org,2002:binary> MGFhNzllMDMtY2FhNy00NDY4LTk4OTUtMzY2M2QzYmI0ZjNm
           - id: TSOP
@@ -15530,7 +16373,7 @@
           'TXXX:MusicBrainz Artist Id': 3e250a22-ed45-41f7-ab07-ac8f7b4cf1c7
           'TXXX:musicbrainz_artistid': 3e250a22-ed45-41f7-ab07-ac8f7b4cf1c7
           TPE1: The Fraglebay
-          UFID: *ref_74
+          UFID: *ref_77
           TSOP: 'Fraglebay, The'
           TRCK: 7/10
           TDRC: '2013-01-01'
@@ -15560,7 +16403,7 @@
         'TXXX:MusicBrainz Artist Id': 3e250a22-ed45-41f7-ab07-ac8f7b4cf1c7
         'TXXX:musicbrainz_artistid': 3e250a22-ed45-41f7-ab07-ac8f7b4cf1c7
         TPE1: The Fraglebay
-        UFID: *ref_74
+        UFID: *ref_77
         TSOP: 'Fraglebay, The'
         TRCK: 7/10
         TDRC: '2013-01-01'
@@ -15679,7 +16522,7 @@
           - id: TPE1
             value: The Fraglebay
           - id: UFID
-            value: &ref_75
+            value: &ref_78
               owner_identifier: 'http://musicbrainz.org'
               identifier: !<tag:yaml.org,2002:binary> ZjUzMjcxNjItMzAwNS00ZmMyLWFiNDItYTZjNTc5ODM5YzA2
           - id: TSOP
@@ -15757,7 +16600,7 @@
           'TXXX:MusicBrainz Artist Id': 3e250a22-ed45-41f7-ab07-ac8f7b4cf1c7
           'TXXX:musicbrainz_artistid': 3e250a22-ed45-41f7-ab07-ac8f7b4cf1c7
           TPE1: The Fraglebay
-          UFID: *ref_75
+          UFID: *ref_78
           TSOP: 'Fraglebay, The'
           TRCK: 8/10
           TDRC: '2013-01-01'
@@ -15788,7 +16631,7 @@
         'TXXX:MusicBrainz Artist Id': 3e250a22-ed45-41f7-ab07-ac8f7b4cf1c7
         'TXXX:musicbrainz_artistid': 3e250a22-ed45-41f7-ab07-ac8f7b4cf1c7
         TPE1: The Fraglebay
-        UFID: *ref_75
+        UFID: *ref_78
         TSOP: 'Fraglebay, The'
         TRCK: 8/10
         TDRC: '2013-01-01'
@@ -15907,7 +16750,7 @@
           - id: TPE1
             value: The Fraglebay
           - id: UFID
-            value: &ref_76
+            value: &ref_79
               owner_identifier: 'http://musicbrainz.org'
               identifier: !<tag:yaml.org,2002:binary> NjZjM2I5NjQtNDliZC00YTkxLWIwNzktNjZjOWMwYzE0Zjll
           - id: TSOP
@@ -15985,7 +16828,7 @@
           'TXXX:MusicBrainz Artist Id': 3e250a22-ed45-41f7-ab07-ac8f7b4cf1c7
           'TXXX:musicbrainz_artistid': 3e250a22-ed45-41f7-ab07-ac8f7b4cf1c7
           TPE1: The Fraglebay
-          UFID: *ref_76
+          UFID: *ref_79
           TSOP: 'Fraglebay, The'
           TRCK: 9/10
           TDRC: '2013-01-01'
@@ -16016,7 +16859,7 @@
         'TXXX:MusicBrainz Artist Id': 3e250a22-ed45-41f7-ab07-ac8f7b4cf1c7
         'TXXX:musicbrainz_artistid': 3e250a22-ed45-41f7-ab07-ac8f7b4cf1c7
         TPE1: The Fraglebay
-        UFID: *ref_76
+        UFID: *ref_79
         TSOP: 'Fraglebay, The'
         TRCK: 9/10
         TDRC: '2013-01-01'
@@ -16135,7 +16978,7 @@
           - id: TPE1
             value: The Fraglebay
           - id: UFID
-            value: &ref_77
+            value: &ref_80
               owner_identifier: 'http://musicbrainz.org'
               identifier: !<tag:yaml.org,2002:binary> ZGFjNDdkYzMtMTNhOC00ZGMwLThkNmUtMmI2MjRkZGU3MmRm
           - id: TSOP
@@ -16213,7 +17056,7 @@
           'TXXX:MusicBrainz Artist Id': 3e250a22-ed45-41f7-ab07-ac8f7b4cf1c7
           'TXXX:musicbrainz_artistid': 3e250a22-ed45-41f7-ab07-ac8f7b4cf1c7
           TPE1: The Fraglebay
-          UFID: *ref_77
+          UFID: *ref_80
           TSOP: 'Fraglebay, The'
           TRCK: 10/10
           TDRC: '2013-01-01'
@@ -16244,7 +17087,7 @@
         'TXXX:MusicBrainz Artist Id': 3e250a22-ed45-41f7-ab07-ac8f7b4cf1c7
         'TXXX:musicbrainz_artistid': 3e250a22-ed45-41f7-ab07-ac8f7b4cf1c7
         TPE1: The Fraglebay
-        UFID: *ref_77
+        UFID: *ref_80
         TSOP: 'Fraglebay, The'
         TRCK: 10/10
         TDRC: '2013-01-01'
@@ -16372,7 +17215,7 @@
           - id: TPE1
             value: Simio Sakrecoer
           - id: UFID
-            value: &ref_78
+            value: &ref_81
               owner_identifier: 'http://musicbrainz.org'
               identifier: !<tag:yaml.org,2002:binary> ZTAxNmYwMGYtZDkwOC00MmE2LTk4ZWMtZmQxMTE2YWY5YWUz
           - id: TSOP
@@ -16450,7 +17293,7 @@
           'TXXX:MusicBrainz Artist Id': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
           'TXXX:musicbrainz_artistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
           TPE1: Simio Sakrecoer
-          UFID: *ref_78
+          UFID: *ref_81
           TSOP: Sakrecoer
           TRCK: 1/8
           TDRC: '2012-09-06'
@@ -16481,7 +17324,7 @@
         'TXXX:MusicBrainz Artist Id': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
         'TXXX:musicbrainz_artistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
         TPE1: Simio Sakrecoer
-        UFID: *ref_78
+        UFID: *ref_81
         TSOP: Sakrecoer
         TRCK: 1/8
         TDRC: '2012-09-06'
@@ -16600,7 +17443,7 @@
           - id: TPE1
             value: Simio Sakrecoer
           - id: UFID
-            value: &ref_79
+            value: &ref_82
               owner_identifier: 'http://musicbrainz.org'
               identifier: !<tag:yaml.org,2002:binary> OTVjN2I5Y2EtNDlmMC00NjdhLWEzNDItZjdhZDZhNTE2MDM3
           - id: TSOP
@@ -16678,7 +17521,7 @@
           'TXXX:MusicBrainz Artist Id': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
           'TXXX:musicbrainz_artistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
           TPE1: Simio Sakrecoer
-          UFID: *ref_79
+          UFID: *ref_82
           TSOP: Sakrecoer
           TRCK: 2/8
           TDRC: '2012-09-06'
@@ -16709,7 +17552,7 @@
         'TXXX:MusicBrainz Artist Id': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
         'TXXX:musicbrainz_artistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
         TPE1: Simio Sakrecoer
-        UFID: *ref_79
+        UFID: *ref_82
         TSOP: Sakrecoer
         TRCK: 2/8
         TDRC: '2012-09-06'
@@ -16828,7 +17671,7 @@
           - id: TPE1
             value: Simio Sakrecoer
           - id: UFID
-            value: &ref_80
+            value: &ref_83
               owner_identifier: 'http://musicbrainz.org'
               identifier: !<tag:yaml.org,2002:binary> YWMwMGUyNmMtODFmNS00NmEzLWE5ZWMtODg2OTA0MmYwNWNi
           - id: TSOP
@@ -16906,7 +17749,7 @@
           'TXXX:MusicBrainz Artist Id': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
           'TXXX:musicbrainz_artistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
           TPE1: Simio Sakrecoer
-          UFID: *ref_80
+          UFID: *ref_83
           TSOP: Sakrecoer
           TRCK: 3/8
           TDRC: '2012-09-06'
@@ -16937,7 +17780,7 @@
         'TXXX:MusicBrainz Artist Id': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
         'TXXX:musicbrainz_artistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
         TPE1: Simio Sakrecoer
-        UFID: *ref_80
+        UFID: *ref_83
         TSOP: Sakrecoer
         TRCK: 3/8
         TDRC: '2012-09-06'
@@ -17056,7 +17899,7 @@
           - id: TPE1
             value: Simio Sakrecoer
           - id: UFID
-            value: &ref_81
+            value: &ref_84
               owner_identifier: 'http://musicbrainz.org'
               identifier: !<tag:yaml.org,2002:binary> ZjA5ZTY2OWItNmFiYy00YjJlLWJhNmEtNTczZThhYzg4MGEy
           - id: TSOP
@@ -17134,7 +17977,7 @@
           'TXXX:MusicBrainz Artist Id': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
           'TXXX:musicbrainz_artistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
           TPE1: Simio Sakrecoer
-          UFID: *ref_81
+          UFID: *ref_84
           TSOP: Sakrecoer
           TRCK: 4/8
           TDRC: '2012-09-06'
@@ -17165,7 +18008,7 @@
         'TXXX:MusicBrainz Artist Id': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
         'TXXX:musicbrainz_artistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
         TPE1: Simio Sakrecoer
-        UFID: *ref_81
+        UFID: *ref_84
         TSOP: Sakrecoer
         TRCK: 4/8
         TDRC: '2012-09-06'
@@ -17284,7 +18127,7 @@
           - id: TPE1
             value: Simio Sakrecoer
           - id: UFID
-            value: &ref_82
+            value: &ref_85
               owner_identifier: 'http://musicbrainz.org'
               identifier: !<tag:yaml.org,2002:binary> ZWJhNTcxODYtMTI3Ni00N2NlLTkzZjQtMmIyYzg2Y2ZjODIx
           - id: TSOP
@@ -17362,7 +18205,7 @@
           'TXXX:MusicBrainz Artist Id': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
           'TXXX:musicbrainz_artistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
           TPE1: Simio Sakrecoer
-          UFID: *ref_82
+          UFID: *ref_85
           TSOP: Sakrecoer
           TRCK: 5/8
           TDRC: '2012-09-06'
@@ -17393,7 +18236,7 @@
         'TXXX:MusicBrainz Artist Id': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
         'TXXX:musicbrainz_artistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
         TPE1: Simio Sakrecoer
-        UFID: *ref_82
+        UFID: *ref_85
         TSOP: Sakrecoer
         TRCK: 5/8
         TDRC: '2012-09-06'
@@ -17512,7 +18355,7 @@
           - id: TPE1
             value: Simio Sakrecoer
           - id: UFID
-            value: &ref_83
+            value: &ref_86
               owner_identifier: 'http://musicbrainz.org'
               identifier: !<tag:yaml.org,2002:binary> YWQ2OWI0YTktNWQzNi00ZDJhLTk4OWUtZjdhNzU1OGE4MjBl
           - id: TSOP
@@ -17590,7 +18433,7 @@
           'TXXX:MusicBrainz Artist Id': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
           'TXXX:musicbrainz_artistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
           TPE1: Simio Sakrecoer
-          UFID: *ref_83
+          UFID: *ref_86
           TSOP: Sakrecoer
           TRCK: 6/8
           TDRC: '2012-09-06'
@@ -17621,7 +18464,7 @@
         'TXXX:MusicBrainz Artist Id': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
         'TXXX:musicbrainz_artistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
         TPE1: Simio Sakrecoer
-        UFID: *ref_83
+        UFID: *ref_86
         TSOP: Sakrecoer
         TRCK: 6/8
         TDRC: '2012-09-06'
@@ -17740,7 +18583,7 @@
           - id: TPE1
             value: Simio Sakrecoer
           - id: UFID
-            value: &ref_84
+            value: &ref_87
               owner_identifier: 'http://musicbrainz.org'
               identifier: !<tag:yaml.org,2002:binary> ZTU4ODVkNTQtODhiYy00YjE0LTkxYWEtZGI0Nzk3YjJiZTQ0
           - id: TSOP
@@ -17818,7 +18661,7 @@
           'TXXX:MusicBrainz Artist Id': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
           'TXXX:musicbrainz_artistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
           TPE1: Simio Sakrecoer
-          UFID: *ref_84
+          UFID: *ref_87
           TSOP: Sakrecoer
           TRCK: 7/8
           TDRC: '2012-09-06'
@@ -17849,7 +18692,7 @@
         'TXXX:MusicBrainz Artist Id': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
         'TXXX:musicbrainz_artistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
         TPE1: Simio Sakrecoer
-        UFID: *ref_84
+        UFID: *ref_87
         TSOP: Sakrecoer
         TRCK: 7/8
         TDRC: '2012-09-06'
@@ -17968,7 +18811,7 @@
           - id: TPE1
             value: Simio Sakrecoer
           - id: UFID
-            value: &ref_85
+            value: &ref_88
               owner_identifier: 'http://musicbrainz.org'
               identifier: !<tag:yaml.org,2002:binary> ZDQ0ZTJkYWMtZDc5ZC00MTA5LWI1NWYtZGYwMDU5ZjFlOWMz
           - id: TSOP
@@ -18046,7 +18889,7 @@
           'TXXX:MusicBrainz Artist Id': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
           'TXXX:musicbrainz_artistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
           TPE1: Simio Sakrecoer
-          UFID: *ref_85
+          UFID: *ref_88
           TSOP: Sakrecoer
           TRCK: 8/8
           TDRC: '2012-09-06'
@@ -18077,8 +18920,226 @@
         'TXXX:MusicBrainz Artist Id': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
         'TXXX:musicbrainz_artistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
         TPE1: Simio Sakrecoer
-        UFID: *ref_85
+        UFID: *ref_88
         TSOP: Sakrecoer
         TRCK: 8/8
         TDRC: '2012-09-06'
         WOAS: 'https://archive.org/details/BPIST007'
+- layout: album
+  slug: unmet-dependencies
+  name: Unmet Dependencies
+  artists: 徒 setto セット
+  bitrate: 128000
+  trackCount: 2
+  cover: /assets/albums/unmet-dependencies/1-dependency-error.jpeg
+  date: 2020-1-1
+  tracks:
+    - path: >-
+        /mnt/usb32gb/organized-basspistol.media/assets/albums/unmet-dependencies/1-dependency-error.mp3
+      audio: /assets/albums/unmet-dependencies/1-dependency-error.mp3
+      slug: unmet-dependencies/1-dependency-error
+      albumSlug: unmet-dependencies
+      trackSlug: 1-dependency-error
+      coverPath: >-
+        /mnt/usb32gb/organized-basspistol.media/assets/albums/unmet-dependencies/1-dependency-error.jpeg
+      cover: /assets/albums/unmet-dependencies/1-dependency-error.jpeg
+      format:
+        tagTypes:
+          - ID3v2.3
+        trackInfo: []
+        lossless: false
+        container: MPEG
+        codec: MPEG 1 Layer 3
+        sampleRate: 44100
+        numberOfChannels: 2
+        bitrate: 128000
+        codecProfile: CBR
+        numberOfSamples: 13817088
+        duration: 313.31265306122447
+      native:
+        ID3v2.3:
+          - id: TPE1
+            value: 徒 setto セット
+          - id: TALB
+            value: Unmet Dependencies
+          - id: TRCK
+            value: '1'
+          - id: TCON
+            value: Cybersoul
+          - id: TIT2
+            value: Dependency Error
+          - id: USLT
+            value: &ref_89
+              language: eng
+              description: ''
+              text: |
+                Sudo apt update
+                Sudo apt upgrade
+                Sudo apt update
+                Sudo apt upgrade
+
+                There is an error with my dependencies
+                Consultd 1.2 and emplyomentd 1.70
+                I cannot pay my rent without their libraries
+                And to install I need to share my salary
+                Where do I fit in this society
+                The more I look and the less I see
+                They want no robots nor do they want me
+                Because work is a point in the agenda of the party
+
+                Sudo apt update
+                Sudo apt upgrade
+                Sudo apt update
+                Sudo apt upgrade
+
+                My liver isn't black market worthy
+                And my master degree from a street university
+                My ambitions are low and I am debt free
+                There is no room in the industry for robots like me
+                Don't get me wrong I would also like to be
+                Installed and running and compatible with society
+                But I am running a different library
+                Because my kernel is still libre and free
+
+                Sudo apt update
+                Sudo apt upgrade
+                Sudo apt update
+                Sudo apt upgrade
+          - id: TYER
+            value: '2020'
+          - id: TDAT
+            value: 0208
+      quality:
+        warnings: []
+      common:
+        track:
+          'no': 1
+          of: null
+        disk:
+          'no': null
+          of: null
+        artists:
+          - 徒 setto セット
+        artist: 徒 setto セット
+        album: Unmet Dependencies
+        genre:
+          - Cybersoul
+        title: Dependency Error
+        year: 2020
+      transformed:
+        ID3v2.3:
+          TPE1: 徒 setto セット
+          TALB: Unmet Dependencies
+          TRCK: '1'
+          TCON: Cybersoul
+          TIT2: Dependency Error
+          USLT: *ref_89
+          TYER: '2020'
+          TDAT: 0208
+      all:
+        TPE1: 徒 setto セット
+        TALB: Unmet Dependencies
+        TRCK: '1'
+        TCON: Cybersoul
+        TIT2: Dependency Error
+        USLT: *ref_89
+        TYER: '2020'
+        TDAT: 0208
+    - path: >-
+        /mnt/usb32gb/organized-basspistol.media/assets/albums/unmet-dependencies/2-pingnu.mp3
+      audio: /assets/albums/unmet-dependencies/2-pingnu.mp3
+      slug: unmet-dependencies/2-pingnu
+      albumSlug: unmet-dependencies
+      trackSlug: 2-pingnu
+      coverPath: >-
+        /mnt/usb32gb/organized-basspistol.media/assets/albums/unmet-dependencies/2-pingnu.jpeg
+      cover: /assets/albums/unmet-dependencies/2-pingnu.jpeg
+      format:
+        tagTypes:
+          - ID3v2.3
+        trackInfo: []
+        lossless: false
+        container: MPEG
+        codec: MPEG 1 Layer 3
+        sampleRate: 44100
+        numberOfChannels: 2
+        bitrate: 128000
+        codecProfile: CBR
+        numberOfSamples: 9795456
+        duration: 222.1191836734694
+      native:
+        ID3v2.3:
+          - id: TPE1
+            value: 徒 setto セット
+          - id: TALB
+            value: Unmet Dependencies
+          - id: TRCK
+            value: '2'
+          - id: TCON
+            value: Cybersoul
+          - id: TIT2
+            value: Pingnu
+          - id: USLT
+            value: &ref_90
+              language: eng
+              description: ''
+              text: |
+                I’m a little Pingu, riding on a GNU.
+                Looking at the world, looking at you.
+                Free at the core, i wonder why don’t you,
+                Look at me the way i look at you.
+
+                It would be so nice, if you could take me in.
+                Your computer and i could change the world we’re in.
+                Your freedom is being diluted.
+                And your code is being polluted.
+
+                I’m a big GNU with my little Pingu,
+                Looking at the world, looking at you.
+                Free at the core, i wonder why don’t you,
+                Look at me the way i look at you.
+
+                It would be so nice, if you could compute.
+                Your freedom is not to dilute,
+                Someone has taken your tool into dispute,
+                This is what together we should refute.
+          - id: TYER
+            value: '2020'
+          - id: TDAT
+            value: 0208
+      quality:
+        warnings: []
+      common:
+        track:
+          'no': 2
+          of: null
+        disk:
+          'no': null
+          of: null
+        artists:
+          - 徒 setto セット
+        artist: 徒 setto セット
+        album: Unmet Dependencies
+        genre:
+          - Cybersoul
+        title: Pingnu
+        year: 2020
+      transformed:
+        ID3v2.3:
+          TPE1: 徒 setto セット
+          TALB: Unmet Dependencies
+          TRCK: '2'
+          TCON: Cybersoul
+          TIT2: Pingnu
+          USLT: *ref_90
+          TYER: '2020'
+          TDAT: 0208
+      all:
+        TPE1: 徒 setto セット
+        TALB: Unmet Dependencies
+        TRCK: '2'
+        TCON: Cybersoul
+        TIT2: Pingnu
+        USLT: *ref_90
+        TYER: '2020'
+        TDAT: 0208
