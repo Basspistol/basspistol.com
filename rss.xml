@@ -43,8 +43,8 @@ title : The Basspistol RSS Feed
         <description> &lt;img src=&quot;{{ site.url }}{{ post.image }}&quot; /&gt; &lt;br /&gt;{{ post.description | truncate: 150 | xml_escape }} {% if post.link %}&lt;br /&gt;Full article on: &lt;a href=&quot;{{ site.url }}{{ post.url }}&quot;&gt;{{ site.url }}{{ post.url }}&lt;/a&gt;{% endif %}</description>
         <category>Hi-Lights</category>
         <author>{{ site.publisher.mail | xml_escape }} ({{ site.publisher.name }})</author>
-        <pubDate>{{ post.date | date: "%Y-%m-%dT%H:%M:%SZ" }}</pubDate>
-        <updated>{{ post.last_modified_at | date: "%Y-%m-%dT%H:%M:%SZ" }}</updated>
+        <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
+        <updated>{{ post.last_modified_at | date_to_rfc822 }}</updated>
         <itunes:author>{{ site.publisher.mail }}</itunes:author>
         <itunes:explicit>No</itunes:explicit>
         <itunes:subtitle>{{ post.description | truncate: 252 | xml_escape }}</itunes:subtitle>
