@@ -29,7 +29,7 @@ title : The Basspistol RSS Feed
       <itunes:name>{{ site.publisher.name | xml_escape }}</itunes:name>
       <itunes:email>info@basspitol.com</itunes:email>
     </itunes:owner>
-    <managingEditor>{{ site.publisher.name }} {{ site.publisher.mail }}</managingEditor>
+    <managingEditor>{{ site.publisher.mail }} ({{ site.publisher.name }})</managingEditor>
     <copyright>Anti-Copyright 2018 {{ site.title }}</copyright>
     <itunes:subtitle>{{ site.title }}</itunes:subtitle>
     <itunes:category text="Music">
@@ -42,7 +42,7 @@ title : The Basspistol RSS Feed
         <guid isPermaLink="true">{{ site.url }}{{ post.url }}</guid>
         <description> &lt;img src=&quot;{{ site.url }}{{ post.image }}&quot; /&gt; &lt;br /&gt;{{ post.description | truncate: 150 | xml_escape }} {% if post.link %}&lt;br /&gt;Full article on: &lt;a href=&quot;{{ site.url }}{{ post.url }}&quot;&gt;{{ site.url }}{{ post.url }}&lt;/a&gt;{% endif %}</description>
         <category>Hi-Lights</category>
-        <author>{{ site.publisher.name }} {{ site.publisher.mail }}</author>
+        <author>{{ site.publisher.mail | xml_escape }} ({{ site.publisher.name }})</author>
         <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
         <itunes:author>{{ site.publisher.mail }}</itunes:author>
         <itunes:explicit>No</itunes:explicit>
