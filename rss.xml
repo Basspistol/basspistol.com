@@ -38,7 +38,7 @@ title : The Basspistol RSS Feed
   {% for post in site.posts limit: 7 %}
       <item>
         <title>{{ post.title | xml_escape }}</title>
-        <link>{% if post.link %}{{ post.link }}/?utm_source=RSS&amp;utm_medium=RSS&amp;utm_campaign={{ post.title | replace: ',','-' | replace: ' ', '-' | xml_escape }}{% else %}{{ site.url }}{{ post.url }}/?utm_source=RSS&amp;utm_medium=RSS&amp;utm_campaign={{ post.title | replace: ',','-' | replace: ' ', '-' | xml_escape }}{% endif %}</link>
+        <link>{% if post.link %}{{ post.link }}?utm_source=RSS&amp;utm_medium=RSS&amp;utm_campaign={{ post.title | replace: ',','-' | replace: ' ', '-' | xml_escape }}{% else %}{{ site.url }}{{ post.url }}?utm_source=RSS&amp;utm_medium=RSS&amp;utm_campaign={{ post.title | replace: ',','-' | replace: ' ', '-' | xml_escape }}{% endif %}</link>
         <guid isPermaLink="true">{{ site.url }}{{ post.url }}</guid>
         <description> &lt;img src=&quot;{{ site.url }}{{ post.image }}&quot; /&gt; &lt;br /&gt;{{ post.description | truncate: 150 | xml_escape }} {% if post.link %}&lt;br /&gt;Full article on: &lt;a href=&quot;{{ site.url }}{{ post.url }}&quot;&gt;{{ site.url }}{{ post.url }}&lt;/a&gt;{% endif %}</description>
         <category>Hi-Lights</category>
