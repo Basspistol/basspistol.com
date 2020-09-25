@@ -99,6 +99,9 @@ layout: default
 <section class="info">
   <div class="container">
   {{ content }}
+  {% if page.link %}
+  <p class="center"><a href="{{ page.link }}?ref=TheMusicSyndicateWashere" target="_bank" rel="noopener" class="button">👀 Check it out!</a></p>
+  {% endif %}
   </div>
 </section>
 <div id="fixedPlayer" class="showplayer hideplayer">
@@ -303,7 +306,7 @@ layout: default
     <div class="info-pages">
         {{ content }}
       {% if page.link %}
-      <p><a href="{{ page.link }}?ref=TheMusicSyndicateWashere" target="_bank" rel="noopener" class="button">👀 Check it out!</a></p>
+      <p class="center"><a href="{{ page.link }}?ref=TheMusicSyndicateWashere" target="_bank" rel="noopener" class="button">👀 Check it out!</a></p>
       {% endif %}
     </div>
   </section>
