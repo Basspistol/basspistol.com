@@ -128,34 +128,34 @@ native:
         language: eng
         description: lyrics
         text: |
-          <em>Oh oui, vad ar det for melodie?<br />
-          Som glider forbi.<br />
-          Oh oui, vad ar det for melodie<br />
-          Som glider sig i.<br />
-          Oh oui, vad ar denna melodie?<br />
-          Som tranger sig i.<br />
-          Oh oui.<br />
-          <br />
-          Luften bojer sig for sin gang,<br />
-          Och hela kroppen kanns som trang.<br />
-          Ah oui, en inframelodie<br />
-          Fanga traden lyft dig upp<br />
-          Latta sjalen trilla ner<br />
-          Metavagor kommer upp<br />
-          Infrastruktur ar din sjal<br />
-          Oh oui, en bass alegori<br />
-          En bass trotoar.<br />
-          <br />
-          Vara lag frekvens osciliatorer, vacktar over din val var.<br />
-          Vara lag frekvens osciliatorer, vill bara att du ska ha det bra.<br />
-          Ah oui, oh sjung denna melodie.<br />
-          <br />
-          Vagen borjar likna minus,<br />
-          Och allt som forut var minus.<br />
-          Ror sig sakta positivt.<br />
-          I ett vackert monster alternativt.<br />
-          Oh oui,<br />
-          En infra melodie.<br /></em>
+          Oh oui, vad ar det for melodie?
+          Som glider forbi.
+          Oh oui, vad ar det for melodie
+          Som glider sig i.
+          Oh oui, vad ar denna melodie?
+          Som tranger sig i.
+          Oh oui.
+
+          Luften bojer sig for sin gang,
+          Och hela kroppen kanns som trang.
+          Ah oui, en inframelodie
+          Fanga traden lyft dig upp
+          Latta sjalen trilla ner
+          Metavagor kommer upp
+          Infrastruktur ar din sjal
+          Oh oui, en bass alegori
+          En bass trotoar.
+
+          Vara lag frekvens osciliatorer, vacktar over din val var.
+          Vara lag frekvens osciliatorer, vill bara att du ska ha det bra.
+          Ah oui, oh sjung denna melodie.
+
+          Vagen borjar likna minus,
+          Och allt som forut var minus.
+          Ror sig sakta positivt.
+          I ett vackert monster alternativt.
+          Oh oui,
+          En infra melodie.
     - id: WOAS
       value: 'https://archive.org/details/BPIST001'
 quality:
@@ -230,34 +230,34 @@ transformed:
     TRCK: 5/10
     TDRC: '2010-01-01'
     lyrics: |
-      <em>Oh oui, vad ar det for melodie?<br />
-      Som glider forbi.<br />
-      Oh oui, vad ar det for melodie<br />
-      Som glider sig i.<br />
-      Oh oui, vad ar denna melodie?<br />
-      Som tranger sig i.<br />
-      Oh oui.<br />
-      <br />
-      Luften bojer sig for sin gang,<br />
-      Och hela kroppen kanns som trang.<br />
-      Ah oui, en inframelodie<br />
-      Fanga traden lyft dig upp<br />
-      Latta sjalen trilla ner<br />
-      Metavagor kommer upp<br />
-      Infrastruktur ar din sjal<br />
-      Oh oui, en bass alegori<br />
-      En bass trotoar.<br />
-      <br />
-      Vara lag frekvens osciliatorer, vacktar over din val var.<br />
-      Vara lag frekvens osciliatorer, vill bara att du ska ha det bra.<br />
-      Ah oui, oh sjung denna melodie.<br />
-      <br />
-      Vagen borjar likna minus,<br />
-      Och allt som forut var minus.<br />
-      Ror sig sakta positivt.<br />
-      I ett vackert monster alternativt.<br />
-      Oh oui,<br />
-      En infra melodie.<br /></em>
+      Oh oui, vad ar det for melodie?
+      Som glider forbi.
+      Oh oui, vad ar det for melodie
+      Som glider sig i.
+      Oh oui, vad ar denna melodie?
+      Som tranger sig i.
+      Oh oui.
+
+      Luften bojer sig for sin gang,
+      Och hela kroppen kanns som trang.
+      Ah oui, en inframelodie
+      Fanga traden lyft dig upp
+      Latta sjalen trilla ner
+      Metavagor kommer upp
+      Infrastruktur ar din sjal
+      Oh oui, en bass alegori
+      En bass trotoar.
+
+      Vara lag frekvens osciliatorer, vacktar over din val var.
+      Vara lag frekvens osciliatorer, vill bara att du ska ha det bra.
+      Ah oui, oh sjung denna melodie.
+
+      Vagen borjar likna minus,
+      Och allt som forut var minus.
+      Ror sig sakta positivt.
+      I ett vackert monster alternativt.
+      Oh oui,
+      En infra melodie.
     WOAS: 'https://archive.org/details/BPIST001'
 all:
   TCON: Electro Pop
@@ -290,34 +290,34 @@ all:
   TRCK: 5/10
   TDRC: '2010-01-01'
   lyrics: |
-    <em>Oh oui, vad ar det for melodie?<br />
-    Som glider forbi.<br />
-    Oh oui, vad ar det for melodie<br />
-    Som glider sig i.<br />
-    Oh oui, vad ar denna melodie?<br />
-    Som tranger sig i.<br />
-    Oh oui.<br />
-    <br />
-    Luften bojer sig for sin gang,<br />
-    Och hela kroppen kanns som trang.<br />
-    Ah oui, en inframelodie<br />
-    Fanga traden lyft dig upp<br />
-    Latta sjalen trilla ner<br />
-    Metavagor kommer upp<br />
-    Infrastruktur ar din sjal<br />
-    Oh oui, en bass alegori<br />
-    En bass trotoar.<br />
-    <br />
-    Vara lag frekvens osciliatorer, vacktar over din val var.<br />
-    Vara lag frekvens osciliatorer, vill bara att du ska ha det bra.<br />
-    Ah oui, oh sjung denna melodie.<br />
-    <br />
-    Vagen borjar likna minus,<br />
-    Och allt som forut var minus.<br />
-    Ror sig sakta positivt.<br />
-    I ett vackert monster alternativt.<br />
-    Oh oui,<br />
-    En infra melodie.<br /></em>
+    Oh oui, vad ar det for melodie?
+    Som glider forbi.
+    Oh oui, vad ar det for melodie
+    Som glider sig i.
+    Oh oui, vad ar denna melodie?
+    Som tranger sig i.
+    Oh oui.
+
+    Luften bojer sig for sin gang,
+    Och hela kroppen kanns som trang.
+    Ah oui, en inframelodie
+    Fanga traden lyft dig upp
+    Latta sjalen trilla ner
+    Metavagor kommer upp
+    Infrastruktur ar din sjal
+    Oh oui, en bass alegori
+    En bass trotoar.
+
+    Vara lag frekvens osciliatorer, vacktar over din val var.
+    Vara lag frekvens osciliatorer, vill bara att du ska ha det bra.
+    Ah oui, oh sjung denna melodie.
+
+    Vagen borjar likna minus,
+    Och allt som forut var minus.
+    Ror sig sakta positivt.
+    I ett vackert monster alternativt.
+    Oh oui,
+    En infra melodie.
   WOAS: 'https://archive.org/details/BPIST001'
 nextTrack:
   path: >-
@@ -448,33 +448,33 @@ nextTrack:
           language: eng
           description: lyrics
           text: |
-            <em>REF:<br />
-            Kadnamn Intelligent musik!<br />
-            Greppar i dig hjartat, med hjarn gymnastik!<br />
-            Kadnamn Intelligent musik!<br />
-            Du vet precis som jag, vad du vill ha!<br />
-            Kadnamn Intelligent musik!<br />
-            Du vill att det svanger, du vill att det tanker!<br />
-            Kadnamn Intelligent musik!<br />
-            Sa att livslusten hojs, mot ett billigt projs!<br />
-            Kadnamn Intelligent musik!<br />
-            Du och jag bajby, vi vet vart vi ska!<br />
-            Kadnamn Intelligent musik!<br />
-            Vi tanker oss for och vi vet vad vi gor!<br />
-            <br />
-            Det ar nagonting som saknas i mina alster,<br />
-            Som ett for tidigt foster.<br />
-            Problemet ater upp mig som ett monster.<br />
-            Lyssna pa ditt hjarta, du vet vad du gor.<br />
-            Unga mann sin framtid hor.<br />
-            E-E-E-E-ar D D D#-det-du C# BBBBB BEJBY?<br />
-            <br />
-            REF<br />
-            <br />
-            Om det ar nagonting som jag litar pa,<br />
-            sa ar det kanslan du kann fa,<br />
-            Mig att kanna, mig att uppleva,<br />
-            Mig att dela, med mig till alla dom andra.<br /></em>
+            REF:
+            Kadnamn Intelligent musik!
+            Greppar i dig hjartat, med hjarn gymnastik!
+            Kadnamn Intelligent musik!
+            Du vet precis som jag, vad du vill ha!
+            Kadnamn Intelligent musik!
+            Du vill att det svanger, du vill att det tanker!
+            Kadnamn Intelligent musik!
+            Sa att livslusten hojs, mot ett billigt projs!
+            Kadnamn Intelligent musik!
+            Du och jag bajby, vi vet vart vi ska!
+            Kadnamn Intelligent musik!
+            Vi tanker oss for och vi vet vad vi gor!
+
+            Det ar nagonting som saknas i mina alster,
+            Som ett for tidigt foster.
+            Problemet ater upp mig som ett monster.
+            Lyssna pa ditt hjarta, du vet vad du gor.
+            Unga mann sin framtid hor.
+            E-E-E-E-ar D D D#-det-du C# BBBBB BEJBY?
+
+            REF
+
+            Om det ar nagonting som jag litar pa,
+            sa ar det kanslan du kann fa,
+            Mig att kanna, mig att uppleva,
+            Mig att dela, med mig till alla dom andra.
       - id: WOAS
         value: 'https://archive.org/details/BPIST001'
   quality:
@@ -549,33 +549,33 @@ nextTrack:
       TRCK: 6/10
       TDRC: '2010-01-01'
       lyrics: |
-        <em>REF:<br />
-        Kadnamn Intelligent musik!<br />
-        Greppar i dig hjartat, med hjarn gymnastik!<br />
-        Kadnamn Intelligent musik!<br />
-        Du vet precis som jag, vad du vill ha!<br />
-        Kadnamn Intelligent musik!<br />
-        Du vill att det svanger, du vill att det tanker!<br />
-        Kadnamn Intelligent musik!<br />
-        Sa att livslusten hojs, mot ett billigt projs!<br />
-        Kadnamn Intelligent musik!<br />
-        Du och jag bajby, vi vet vart vi ska!<br />
-        Kadnamn Intelligent musik!<br />
-        Vi tanker oss for och vi vet vad vi gor!<br />
-        <br />
-        Det ar nagonting som saknas i mina alster,<br />
-        Som ett for tidigt foster.<br />
-        Problemet ater upp mig som ett monster.<br />
-        Lyssna pa ditt hjarta, du vet vad du gor.<br />
-        Unga mann sin framtid hor.<br />
-        E-E-E-E-ar D D D#-det-du C# BBBBB BEJBY?<br />
-        <br />
-        REF<br />
-        <br />
-        Om det ar nagonting som jag litar pa,<br />
-        sa ar det kanslan du kann fa,<br />
-        Mig att kanna, mig att uppleva,<br />
-        Mig att dela, med mig till alla dom andra.<br /></em>
+        REF:
+        Kadnamn Intelligent musik!
+        Greppar i dig hjartat, med hjarn gymnastik!
+        Kadnamn Intelligent musik!
+        Du vet precis som jag, vad du vill ha!
+        Kadnamn Intelligent musik!
+        Du vill att det svanger, du vill att det tanker!
+        Kadnamn Intelligent musik!
+        Sa att livslusten hojs, mot ett billigt projs!
+        Kadnamn Intelligent musik!
+        Du och jag bajby, vi vet vart vi ska!
+        Kadnamn Intelligent musik!
+        Vi tanker oss for och vi vet vad vi gor!
+
+        Det ar nagonting som saknas i mina alster,
+        Som ett for tidigt foster.
+        Problemet ater upp mig som ett monster.
+        Lyssna pa ditt hjarta, du vet vad du gor.
+        Unga mann sin framtid hor.
+        E-E-E-E-ar D D D#-det-du C# BBBBB BEJBY?
+
+        REF
+
+        Om det ar nagonting som jag litar pa,
+        sa ar det kanslan du kann fa,
+        Mig att kanna, mig att uppleva,
+        Mig att dela, med mig till alla dom andra.
       WOAS: 'https://archive.org/details/BPIST001'
   all:
     TCON: Electro Pop
@@ -608,33 +608,33 @@ nextTrack:
     TRCK: 6/10
     TDRC: '2010-01-01'
     lyrics: |
-      <em>REF:<br />
-      Kadnamn Intelligent musik!<br />
-      Greppar i dig hjartat, med hjarn gymnastik!<br />
-      Kadnamn Intelligent musik!<br />
-      Du vet precis som jag, vad du vill ha!<br />
-      Kadnamn Intelligent musik!<br />
-      Du vill att det svanger, du vill att det tanker!<br />
-      Kadnamn Intelligent musik!<br />
-      Sa att livslusten hojs, mot ett billigt projs!<br />
-      Kadnamn Intelligent musik!<br />
-      Du och jag bajby, vi vet vart vi ska!<br />
-      Kadnamn Intelligent musik!<br />
-      Vi tanker oss for och vi vet vad vi gor!<br />
-      <br />
-      Det ar nagonting som saknas i mina alster,<br />
-      Som ett for tidigt foster.<br />
-      Problemet ater upp mig som ett monster.<br />
-      Lyssna pa ditt hjarta, du vet vad du gor.<br />
-      Unga mann sin framtid hor.<br />
-      E-E-E-E-ar D D D#-det-du C# BBBBB BEJBY?<br />
-      <br />
-      REF<br />
-      <br />
-      Om det ar nagonting som jag litar pa,<br />
-      sa ar det kanslan du kann fa,<br />
-      Mig att kanna, mig att uppleva,<br />
-      Mig att dela, med mig till alla dom andra.<br /></em>
+      REF:
+      Kadnamn Intelligent musik!
+      Greppar i dig hjartat, med hjarn gymnastik!
+      Kadnamn Intelligent musik!
+      Du vet precis som jag, vad du vill ha!
+      Kadnamn Intelligent musik!
+      Du vill att det svanger, du vill att det tanker!
+      Kadnamn Intelligent musik!
+      Sa att livslusten hojs, mot ett billigt projs!
+      Kadnamn Intelligent musik!
+      Du och jag bajby, vi vet vart vi ska!
+      Kadnamn Intelligent musik!
+      Vi tanker oss for och vi vet vad vi gor!
+
+      Det ar nagonting som saknas i mina alster,
+      Som ett for tidigt foster.
+      Problemet ater upp mig som ett monster.
+      Lyssna pa ditt hjarta, du vet vad du gor.
+      Unga mann sin framtid hor.
+      E-E-E-E-ar D D D#-det-du C# BBBBB BEJBY?
+
+      REF
+
+      Om det ar nagonting som jag litar pa,
+      sa ar det kanslan du kann fa,
+      Mig att kanna, mig att uppleva,
+      Mig att dela, med mig till alla dom andra.
     WOAS: 'https://archive.org/details/BPIST001'
 previousTrack:
   path: >-
@@ -765,26 +765,26 @@ previousTrack:
           language: eng
           description: lyrics
           text: |-
-            <em>It's all too late now,<br />
-            As you are screaming out my name.<br />
-            Too late to change now,<br />
-            Or change my way,<br />
-            As it's time to say good bye.<br />
-            Please won't you stay for just a while?<br />
-            Never been broken hearted before!<br />
-            Go ahead love,<br />
-            Take my heart.<br />
-            Like so many times you've done it before.<br />
-            <br />
-            Shoe box of memories is all that i keep.<br />
-            Can't even look at your face.<br />
-            It's all to late now.<br />
-            Do i have to change my way?<br />
-            As you are screaming out my name...<br />
-            <br />
-            I can see the stars, see them pass me by.<br />
-            Another hopeless night, for ever hopeless now.<br />
-            I can see the stars bass me by.<br /></em>
+            It's all too late now,
+            As you are screaming out my name.
+            Too late to change now,
+            Or change my way,
+            As it's time to say good bye.
+            Please won't you stay for just a while?
+            Never been broken hearted before!
+            Go ahead love,
+            Take my heart.
+            Like so many times you've done it before.
+
+            Shoe box of memories is all that i keep.
+            Can't even look at your face.
+            It's all to late now.
+            Do i have to change my way?
+            As you are screaming out my name...
+
+            I can see the stars, see them pass me by.
+            Another hopeless night, for ever hopeless now.
+            I can see the stars bass me by.
       - id: WOAS
         value: 'https://archive.org/details/BPIST001'
   quality:
@@ -859,26 +859,26 @@ previousTrack:
       TRCK: 4/10
       TDRC: '2010-01-01'
       lyrics: |-
-        <em>It's all too late now,<br />
-        As you are screaming out my name.<br />
-        Too late to change now,<br />
-        Or change my way,<br />
-        As it's time to say good bye.<br />
-        Please won't you stay for just a while?<br />
-        Never been broken hearted before!<br />
-        Go ahead love,<br />
-        Take my heart.<br />
-        Like so many times you've done it before.<br />
-        <br />
-        Shoe box of memories is all that i keep.<br />
-        Can't even look at your face.<br />
-        It's all to late now.<br />
-        Do i have to change my way?<br />
-        As you are screaming out my name...<br />
-        <br />
-        I can see the stars, see them pass me by.<br />
-        Another hopeless night, for ever hopeless now.<br />
-        I can see the stars bass me by.<br /></em>
+        It's all too late now,
+        As you are screaming out my name.
+        Too late to change now,
+        Or change my way,
+        As it's time to say good bye.
+        Please won't you stay for just a while?
+        Never been broken hearted before!
+        Go ahead love,
+        Take my heart.
+        Like so many times you've done it before.
+
+        Shoe box of memories is all that i keep.
+        Can't even look at your face.
+        It's all to late now.
+        Do i have to change my way?
+        As you are screaming out my name...
+
+        I can see the stars, see them pass me by.
+        Another hopeless night, for ever hopeless now.
+        I can see the stars bass me by.
       WOAS: 'https://archive.org/details/BPIST001'
   all:
     TCON: Electro Pop
@@ -911,25 +911,25 @@ previousTrack:
     TRCK: 4/10
     TDRC: '2010-01-01'
     lyrics: |-
-      <em>It's all too late now,<br />
-      As you are screaming out my name.<br />
-      Too late to change now,<br />
-      Or change my way,<br />
-      As it's time to say good bye.<br />
-      Please won't you stay for just a while?<br />
-      Never been broken hearted before!<br />
-      Go ahead love,<br />
-      Take my heart.<br />
-      Like so many times you've done it before.<br />
-      <br />
-      Shoe box of memories is all that i keep.<br />
-      Can't even look at your face.<br />
-      It's all to late now.<br />
-      Do i have to change my way?<br />
-      As you are screaming out my name...<br />
-      <br />
-      I can see the stars, see them pass me by.<br />
-      Another hopeless night, for ever hopeless now.<br />
-      I can see the stars bass me by.<br /></em>
+      It's all too late now,
+      As you are screaming out my name.
+      Too late to change now,
+      Or change my way,
+      As it's time to say good bye.
+      Please won't you stay for just a while?
+      Never been broken hearted before!
+      Go ahead love,
+      Take my heart.
+      Like so many times you've done it before.
+
+      Shoe box of memories is all that i keep.
+      Can't even look at your face.
+      It's all to late now.
+      Do i have to change my way?
+      As you are screaming out my name...
+
+      I can see the stars, see them pass me by.
+      Another hopeless night, for ever hopeless now.
+      I can see the stars bass me by.
     WOAS: 'https://archive.org/details/BPIST001'
 ---

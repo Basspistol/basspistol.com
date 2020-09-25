@@ -357,14 +357,13 @@ nextTrack:
           language: eng
           description: lyrics
           text: |-
-            <em>Oh Marie,<br />
-            Janne ar pa min hjarna.<br />
-            Han vet precis,<br />
-            Hur allting ska fungera.<br />
-            Han satter mig i meditation.<br />
-            Min sjal i levitation.<br />
-            Jag svavar upp i det bla,<br />
-            Tack vare det grona...<br /></em>
+            Oh Marie, Janne är på min hjärna.
+            Han vet precis,
+            Hur allting ska fungera.
+            Han sätter mig i meditation.
+            Min själ i levitation
+            Jag svävar upp i det blå
+            Tack vare det gröna...
       - id: WOAS
         value: 'https://archive.org/details/BPIST001'
   quality:
@@ -439,14 +438,13 @@ nextTrack:
       TRCK: 1/10
       TDRC: '2010-01-01'
       lyrics: |-
-        <em>Oh Marie,<br />
-        Janne ar pa min hjarna.<br />
-        Han vet precis,<br />
-        Hur allting ska fungera.<br />
-        Han satter mig i meditation.<br />
-        Min sjal i levitation.<br />
-        Jag svavar upp i det bla,<br />
-        Tack vare det grona...<br /></em>
+        Oh Marie, Janne är på min hjärna.
+        Han vet precis,
+        Hur allting ska fungera.
+        Han sätter mig i meditation.
+        Min själ i levitation
+        Jag svävar upp i det blå
+        Tack vare det gröna...
       WOAS: 'https://archive.org/details/BPIST001'
   all:
     TCON: Electro Pop
@@ -479,14 +477,13 @@ nextTrack:
     TRCK: 1/10
     TDRC: '2010-01-01'
     lyrics: |-
-      <em>Oh Marie,<br />
-      Janne ar pa min hjarna.<br />
-      Han vet precis,<br />
-      Hur allting ska fungera.<br />
-      Han satter mig i meditation.<br />
-      Min sjal i levitation.<br />
-      Jag svavar upp i det bla,<br />
-      Tack vare det grona...<br /></em>
+      Oh Marie, Janne är på min hjärna.
+      Han vet precis,
+      Hur allting ska fungera.
+      Han sätter mig i meditation.
+      Min själ i levitation
+      Jag svävar upp i det blå
+      Tack vare det gröna...
     WOAS: 'https://archive.org/details/BPIST001'
 previousTrack:
   path: >-
@@ -617,16 +614,16 @@ previousTrack:
           language: eng
           description: lyrics
           text: |-
-            <em>Och jag vill garna trippa,<br />
-            Och slappa sjalen fri.<br />
-            Och jag vill garna flippa,<br />
-            Och sluta lata bli.<br />
-            Och jag vill garna resa,<br />
-            Med sjalens luft som fri.<br />
-            <br />
-            Sluta upp med allt,<br />
-            Och ha dig har brevid.<br />
-            At minstande narmare i mitt revir.<br /></em>
+            Och jag vill garna trippa,
+            Och slappa sjalen fri.
+            Och jag vill garna flippa,
+            Och sluta lata bli.
+            Och jag vill garna resa,
+            Med sjalens luft som fri.
+
+            Sluta upp med allt,
+            Och ha dig har brevid.
+            At minstande narmare i mitt revir.
       - id: WOAS
         value: 'https://archive.org/details/BPIST001'
   quality:
@@ -701,16 +698,16 @@ previousTrack:
       TRCK: 9/10
       TDRC: '2010-01-01'
       lyrics: |-
-        <em>Och jag vill garna trippa,<br />
-        Och slappa sjalen fri.<br />
-        Och jag vill garna flippa,<br />
-        Och sluta lata bli.<br />
-        Och jag vill garna resa,<br />
-        Med sjalens luft som fri.<br />
-        <br />
-        Sluta upp med allt,<br />
-        Och ha dig har brevid.<br />
-        At minstande narmare i mitt revir.<br /></em>
+        Och jag vill garna trippa,
+        Och slappa sjalen fri.
+        Och jag vill garna flippa,
+        Och sluta lata bli.
+        Och jag vill garna resa,
+        Med sjalens luft som fri.
+
+        Sluta upp med allt,
+        Och ha dig har brevid.
+        At minstande narmare i mitt revir.
       WOAS: 'https://archive.org/details/BPIST001'
   all:
     TCON: Electro Pop
@@ -743,15 +740,15 @@ previousTrack:
     TRCK: 9/10
     TDRC: '2010-01-01'
     lyrics: |-
-      <em>Och jag vill garna trippa,<br />
-      Och slappa sjalen fri.<br />
-      Och jag vill garna flippa,<br />
-      Och sluta lata bli.<br />
-      Och jag vill garna resa,<br />
-      Med sjalens luft som fri.<br />
-      <br />
-      Sluta upp med allt,<br />
-      Och ha dig har brevid.<br />
-      At minstande narmare i mitt revir.<br /></em>
+      Och jag vill garna trippa,
+      Och slappa sjalen fri.
+      Och jag vill garna flippa,
+      Och sluta lata bli.
+      Och jag vill garna resa,
+      Med sjalens luft som fri.
+
+      Sluta upp med allt,
+      Och ha dig har brevid.
+      At minstande narmare i mitt revir.
     WOAS: 'https://archive.org/details/BPIST001'
 ---

@@ -136,14 +136,13 @@ tracks:
             language: eng
             description: lyrics
             text: |-
-              <em>Oh Marie,<br />
-              Janne ar pa min hjarna.<br />
-              Han vet precis,<br />
-              Hur allting ska fungera.<br />
-              Han satter mig i meditation.<br />
-              Min sjal i levitation.<br />
-              Jag svavar upp i det bla,<br />
-              Tack vare det grona...<br /></em>
+              Oh Marie, Janne är på min hjärna.
+              Han vet precis,
+              Hur allting ska fungera.
+              Han sätter mig i meditation.
+              Min själ i levitation
+              Jag svävar upp i det blå
+              Tack vare det gröna...
         - id: WOAS
           value: 'https://archive.org/details/BPIST001'
     quality:
@@ -218,14 +217,13 @@ tracks:
         TRCK: 1/10
         TDRC: '2010-01-01'
         lyrics: |-
-          <em>Oh Marie,<br />
-          Janne ar pa min hjarna.<br />
-          Han vet precis,<br />
-          Hur allting ska fungera.<br />
-          Han satter mig i meditation.<br />
-          Min sjal i levitation.<br />
-          Jag svavar upp i det bla,<br />
-          Tack vare det grona...<br /></em>
+          Oh Marie, Janne är på min hjärna.
+          Han vet precis,
+          Hur allting ska fungera.
+          Han sätter mig i meditation.
+          Min själ i levitation
+          Jag svävar upp i det blå
+          Tack vare det gröna...
         WOAS: 'https://archive.org/details/BPIST001'
     all:
       TCON: Electro Pop
@@ -258,14 +256,13 @@ tracks:
       TRCK: 1/10
       TDRC: '2010-01-01'
       lyrics: |-
-        <em>Oh Marie,<br />
-        Janne ar pa min hjarna.<br />
-        Han vet precis,<br />
-        Hur allting ska fungera.<br />
-        Han satter mig i meditation.<br />
-        Min sjal i levitation.<br />
-        Jag svavar upp i det bla,<br />
-        Tack vare det grona...<br /></em>
+        Oh Marie, Janne är på min hjärna.
+        Han vet precis,
+        Hur allting ska fungera.
+        Han sätter mig i meditation.
+        Min själ i levitation
+        Jag svävar upp i det blå
+        Tack vare det gröna...
       WOAS: 'https://archive.org/details/BPIST001'
   - path: >-
       /mnt/usb32gb/organized-basspistol.media/assets/albums/psykedelisk-pop/2-step-up.mp3
@@ -395,51 +392,51 @@ tracks:
             language: eng
             description: lyrics
             text: |-
-              <em>get down<br />
-              it's now or never<br />
-              are you like me do you feel the fever?<br />
-              do you also dream of the words all together?<br />
-              of colors , love and of happy for ever?<br />
-              <br />
-              it can't be that hard we just have to work<br />
-              the politicians are all an obvious set of jerks<br />
-              lets challange the nonsense just for a while<br />
-              and later you'll tell me it was worth to try<br />
-              <br />
-              step up<br />
-              take your time<br />
-              but don't be too long you don't want to waste mine<br />
-              and if you don't want to, to me its fine<br />
-              but the present situation wont be that kind<br />
-              <br />
-              they say to let you live they should produce your car<br />
-              but if you ask me i think they go too far<br />
-              if you need ten they'll make 4000 jars<br />
-              and this is the message of the following bars<br />
-              <br />
-              BRIDGE<br />
-              it's all about the money<br />
-              it's all about the flooz<br />
-              it's not about love<br />
-              and it's not about yous<br />
-              it'as all about mass production<br />
-              hyper corruption where your the one to lose<br />
-              so get down stand up<br />
-              lets fight them back<br />
-              we could blow them to hell in a heavy attack<br />
-              push them real hard out of their track<br />
-              brothers and sisters it's of you we lack<br />
-              <br />
-              stand up<br />
-              no time to loose<br />
-              the people of the world is having the blues<br />
-              they tired of being ruled by the everlasting fools<br />
-              it's time we get together on our own set of rules<br />
+              get down
+              it's now or never
+              are you like me do you feel the fever?
+              do you also dream of the words all together?
+              of colors , love and of happy for ever?
 
-              they say we have to bow to get allong with our lifes<br />
-              but that my brother is the fatest of lies<br />
-              they give us some shit and you play the fly<br />
-              do realy like that game of selling and buy?<br /></em>
+              it can't be that hard we just have to work
+              the politicians are all an obvious set of jerks
+              lets challange the nonsense just for a while
+              and later you'll tell me it was worth to try
+
+              step up
+              take your time
+              but don't be too long you don't want to waste mine
+              and if you don't want to, to me its fine
+              but the present situation wont be that kind
+
+              they say to let you live they should produce your car
+              but if you ask me i think they go too far
+              if you need ten they'll make 4000 jars
+              and this is the message of the following bars
+
+              BRIDGE
+              it's all about the money
+              it's all about the flooz
+              it's not about love
+              and it's not about yous
+              it'as all about mass production
+              hyper corruption where your the one to lose
+              so get down stand up
+              lets fight them back
+              we could blow them to hell in a heavy attack
+              push them real hard out of their track
+              brothers and sisters it's of you we lack
+
+              stand up
+              no time to loose
+              the people of the world is having the blues
+              they tired of being ruled by the everlasting fools
+              it's time we get together on our own set of rules
+
+              they say we have to bow to get allong with our lifes
+              but that my brother is the fatest of lies
+              they give us some shit and you play the fly
+              do realy like that game of selling and buy?
         - id: WOAS
           value: 'https://archive.org/details/BPIST001'
     quality:
@@ -514,51 +511,51 @@ tracks:
         TRCK: 2/10
         TDRC: '2010-01-01'
         lyrics: |-
-          <em>get down<br />
-          it's now or never<br />
-          are you like me do you feel the fever?<br />
-          do you also dream of the words all together?<br />
-          of colors , love and of happy for ever?<br />
-          <br />
-          it can't be that hard we just have to work<br />
-          the politicians are all an obvious set of jerks<br />
-          lets challange the nonsense just for a while<br />
-          and later you'll tell me it was worth to try<br />
-          <br />
-          step up<br />
-          take your time<br />
-          but don't be too long you don't want to waste mine<br />
-          and if you don't want to, to me its fine<br />
-          but the present situation wont be that kind<br />
-          <br />
-          they say to let you live they should produce your car<br />
-          but if you ask me i think they go too far<br />
-          if you need ten they'll make 4000 jars<br />
-          and this is the message of the following bars<br />
-          <br />
-          BRIDGE<br />
-          it's all about the money<br />
-          it's all about the flooz<br />
-          it's not about love<br />
-          and it's not about yous<br />
-          it'as all about mass production<br />
-          hyper corruption where your the one to lose<br />
-          so get down stand up<br />
-          lets fight them back<br />
-          we could blow them to hell in a heavy attack<br />
-          push them real hard out of their track<br />
-          brothers and sisters it's of you we lack<br />
-          <br />
-          stand up<br />
-          no time to loose<br />
-          the people of the world is having the blues<br />
-          they tired of being ruled by the everlasting fools<br />
-          it's time we get together on our own set of rules<br />
+          get down
+          it's now or never
+          are you like me do you feel the fever?
+          do you also dream of the words all together?
+          of colors , love and of happy for ever?
 
-          they say we have to bow to get allong with our lifes<br />
-          but that my brother is the fatest of lies<br />
-          they give us some shit and you play the fly<br />
-          do realy like that game of selling and buy?<br /></em>
+          it can't be that hard we just have to work
+          the politicians are all an obvious set of jerks
+          lets challange the nonsense just for a while
+          and later you'll tell me it was worth to try
+
+          step up
+          take your time
+          but don't be too long you don't want to waste mine
+          and if you don't want to, to me its fine
+          but the present situation wont be that kind
+
+          they say to let you live they should produce your car
+          but if you ask me i think they go too far
+          if you need ten they'll make 4000 jars
+          and this is the message of the following bars
+
+          BRIDGE
+          it's all about the money
+          it's all about the flooz
+          it's not about love
+          and it's not about yous
+          it'as all about mass production
+          hyper corruption where your the one to lose
+          so get down stand up
+          lets fight them back
+          we could blow them to hell in a heavy attack
+          push them real hard out of their track
+          brothers and sisters it's of you we lack
+
+          stand up
+          no time to loose
+          the people of the world is having the blues
+          they tired of being ruled by the everlasting fools
+          it's time we get together on our own set of rules
+
+          they say we have to bow to get allong with our lifes
+          but that my brother is the fatest of lies
+          they give us some shit and you play the fly
+          do realy like that game of selling and buy?
         WOAS: 'https://archive.org/details/BPIST001'
     all:
       TCON: Electro Pop
@@ -591,51 +588,51 @@ tracks:
       TRCK: 2/10
       TDRC: '2010-01-01'
       lyrics: |-
-        <em>get down<br />
-        it's now or never<br />
-        are you like me do you feel the fever?<br />
-        do you also dream of the words all together?<br />
-        of colors , love and of happy for ever?<br />
-        <br />
-        it can't be that hard we just have to work<br />
-        the politicians are all an obvious set of jerks<br />
-        lets challange the nonsense just for a while<br />
-        and later you'll tell me it was worth to try<br />
-        <br />
-        step up<br />
-        take your time<br />
-        but don't be too long you don't want to waste mine<br />
-        and if you don't want to, to me its fine<br />
-        but the present situation wont be that kind<br />
-        <br />
-        they say to let you live they should produce your car<br />
-        but if you ask me i think they go too far<br />
-        if you need ten they'll make 4000 jars<br />
-        and this is the message of the following bars<br />
-        <br />
-        BRIDGE<br />
-        it's all about the money<br />
-        it's all about the flooz<br />
-        it's not about love<br />
-        and it's not about yous<br />
-        it'as all about mass production<br />
-        hyper corruption where your the one to lose<br />
-        so get down stand up<br />
-        lets fight them back<br />
-        we could blow them to hell in a heavy attack<br />
-        push them real hard out of their track<br />
-        brothers and sisters it's of you we lack<br />
-        <br />
-        stand up<br />
-        no time to loose<br />
-        the people of the world is having the blues<br />
-        they tired of being ruled by the everlasting fools<br />
-        it's time we get together on our own set of rules<br />
+        get down
+        it's now or never
+        are you like me do you feel the fever?
+        do you also dream of the words all together?
+        of colors , love and of happy for ever?
 
-        they say we have to bow to get allong with our lifes<br />
-        but that my brother is the fatest of lies<br />
-        they give us some shit and you play the fly<br />
-        do realy like that game of selling and buy?<br /></em>
+        it can't be that hard we just have to work
+        the politicians are all an obvious set of jerks
+        lets challange the nonsense just for a while
+        and later you'll tell me it was worth to try
+
+        step up
+        take your time
+        but don't be too long you don't want to waste mine
+        and if you don't want to, to me its fine
+        but the present situation wont be that kind
+
+        they say to let you live they should produce your car
+        but if you ask me i think they go too far
+        if you need ten they'll make 4000 jars
+        and this is the message of the following bars
+
+        BRIDGE
+        it's all about the money
+        it's all about the flooz
+        it's not about love
+        and it's not about yous
+        it'as all about mass production
+        hyper corruption where your the one to lose
+        so get down stand up
+        lets fight them back
+        we could blow them to hell in a heavy attack
+        push them real hard out of their track
+        brothers and sisters it's of you we lack
+
+        stand up
+        no time to loose
+        the people of the world is having the blues
+        they tired of being ruled by the everlasting fools
+        it's time we get together on our own set of rules
+
+        they say we have to bow to get allong with our lifes
+        but that my brother is the fatest of lies
+        they give us some shit and you play the fly
+        do realy like that game of selling and buy?
       WOAS: 'https://archive.org/details/BPIST001'
   - path: >-
       /mnt/usb32gb/organized-basspistol.media/assets/albums/psykedelisk-pop/3-r-vhj-lmen.mp3
@@ -765,58 +762,55 @@ tracks:
             language: eng
             description: lyrics
             text: >-
-              <em>Varva ner, satt dig i soffan.<br />
+              Varva ner, satt dig i soffan.
 
-              Morgonen ar ung, atminstande det ar du.<br />
+              Morgonen ar ung, atminstande det ar du.
 
-              Vi har sprungit natten.<br />
+              Vi har sprungit natten.
 
-              Som fisken och katten.<br />
+              Som fisken och katten.
 
-              Vi har fangat tid, och dansat med Fan.<br />
+              Vi har fangat tid, och dansat med Fan.
 
-              <br />
 
-              Sa Varva ner med mig<br />
+              Sa Varva ner med mig
 
-              Varva ner.<br />
+              Varva ner.
 
-              <br />
 
-              Ta en macka, ingen lever pastej..?<br />
+              Ta en macka, ingen lever pastej..?
 
-              Till Open Core och racka, Till kasorskan saga Hej!<br />
+              Till Open Core och racka, Till kasorskan saga Hej!
 
               Vad fin i haret hon var, ah hon sag sa himla gla', hon dansa sa
-              himla bra...<br />
+              himla bra...
 
               Oj! Ja, men dar star ju du och jag. He! Ah vad bra, du ser ju annu
               lika bra, du ser ju forfan annu, annu mer bra, du ser sa himmla
-              bra.<br />
+              bra.
 
-              Ut med dig vill jag ga<br />
+              Ut med dig vill jag ga
 
-              Kom ut med mig, sa kom ut med mig.<br />
+              Kom ut med mig, sa kom ut med mig.
 
-              <br />
 
-              Kom och satt dig i soffan.<br />
+              Kom och satt dig i soffan.
 
-              Natten har gatt over.<br />
+              Natten har gatt over.
 
-              Vi har ost sa det blir over.<br />
+              Vi har ost sa det blir over.
 
-              Ta av dig rovhjalmen nu for fan,<br />
+              Ta av dig rovhjalmen nu for fan,
 
-              Det finns inte djavel forfan,<br />
+              Det finns inte djavel forfan,
 
-              Det finns inte en djavels hjarta att bullta pa.<br />
+              Det finns inte en djavels hjarta att bullta pa.
 
-              Vi lat dom alla ga, pa efter-for-efterfesten,<br />
+              Vi lat dom alla ga, pa efter-for-efterfesten,
 
-              Dar som alla ingen var.<br />
+              Dar som alla ingen var.
 
-              Ta av dig rovhjalmen.<br /></em>
+              Ta av dig rovhjalmen.
         - id: WOAS
           value: 'https://archive.org/details/BPIST001'
     quality:
@@ -891,58 +885,54 @@ tracks:
         TRCK: 3/10
         TDRC: '2010-01-01'
         lyrics: >-
-          <em>Varva ner, satt dig i soffan.<br />
+          Varva ner, satt dig i soffan.
 
-          Morgonen ar ung, atminstande det ar du.<br />
+          Morgonen ar ung, atminstande det ar du.
 
-          Vi har sprungit natten.<br />
+          Vi har sprungit natten.
 
-          Som fisken och katten.<br />
+          Som fisken och katten.
 
-          Vi har fangat tid, och dansat med Fan.<br />
+          Vi har fangat tid, och dansat med Fan.
 
-          <br />
 
-          Sa Varva ner med mig<br />
+          Sa Varva ner med mig
 
-          Varva ner.<br />
+          Varva ner.
 
-          <br />
 
-          Ta en macka, ingen lever pastej..?<br />
+          Ta en macka, ingen lever pastej..?
 
-          Till Open Core och racka, Till kasorskan saga Hej!<br />
+          Till Open Core och racka, Till kasorskan saga Hej!
 
           Vad fin i haret hon var, ah hon sag sa himla gla', hon dansa sa himla
-          bra...<br />
+          bra...
 
           Oj! Ja, men dar star ju du och jag. He! Ah vad bra, du ser ju annu
-          lika bra, du ser ju forfan annu, annu mer bra, du ser sa himmla
-          bra.<br />
+          lika bra, du ser ju forfan annu, annu mer bra, du ser sa himmla bra.
 
-          Ut med dig vill jag ga<br />
+          Ut med dig vill jag ga
 
-          Kom ut med mig, sa kom ut med mig.<br />
+          Kom ut med mig, sa kom ut med mig.
 
-          <br />
 
-          Kom och satt dig i soffan.<br />
+          Kom och satt dig i soffan.
 
-          Natten har gatt over.<br />
+          Natten har gatt over.
 
-          Vi har ost sa det blir over.<br />
+          Vi har ost sa det blir over.
 
-          Ta av dig rovhjalmen nu for fan,<br />
+          Ta av dig rovhjalmen nu for fan,
 
-          Det finns inte djavel forfan,<br />
+          Det finns inte djavel forfan,
 
-          Det finns inte en djavels hjarta att bullta pa.<br />
+          Det finns inte en djavels hjarta att bullta pa.
 
-          Vi lat dom alla ga, pa efter-for-efterfesten,<br />
+          Vi lat dom alla ga, pa efter-for-efterfesten,
 
-          Dar som alla ingen var.<br />
+          Dar som alla ingen var.
 
-          Ta av dig rovhjalmen.<br /></em>
+          Ta av dig rovhjalmen.
         WOAS: 'https://archive.org/details/BPIST001'
     all:
       TCON: Electro Pop
@@ -975,57 +965,54 @@ tracks:
       TRCK: 3/10
       TDRC: '2010-01-01'
       lyrics: >-
-        <em>Varva ner, satt dig i soffan.<br />
+        Varva ner, satt dig i soffan.
 
-        Morgonen ar ung, atminstande det ar du.<br />
+        Morgonen ar ung, atminstande det ar du.
 
-        Vi har sprungit natten.<br />
+        Vi har sprungit natten.
 
-        Som fisken och katten.<br />
+        Som fisken och katten.
 
-        Vi har fangat tid, och dansat med Fan.<br />
+        Vi har fangat tid, och dansat med Fan.
 
-        <br />
 
-        Sa Varva ner med mig<br />
+        Sa Varva ner med mig
 
-        Varva ner.<br />
+        Varva ner.
 
-        <br />
 
-        Ta en macka, ingen lever pastej..?<br />
+        Ta en macka, ingen lever pastej..?
 
-        Till Open Core och racka, Till kasorskan saga Hej!<br />
+        Till Open Core och racka, Till kasorskan saga Hej!
 
         Vad fin i haret hon var, ah hon sag sa himla gla', hon dansa sa himla
-        bra...<br />
+        bra...
 
         Oj! Ja, men dar star ju du och jag. He! Ah vad bra, du ser ju annu lika
-        bra, du ser ju forfan annu, annu mer bra, du ser sa himmla bra.<br />
+        bra, du ser ju forfan annu, annu mer bra, du ser sa himmla bra.
 
-        Ut med dig vill jag ga<br />
+        Ut med dig vill jag ga
 
-        Kom ut med mig, sa kom ut med mig.<br />
+        Kom ut med mig, sa kom ut med mig.
 
-        <br />
 
-        Kom och satt dig i soffan.<br />
+        Kom och satt dig i soffan.
 
-        Natten har gatt over.<br />
+        Natten har gatt over.
 
-        Vi har ost sa det blir over.<br />
+        Vi har ost sa det blir over.
 
-        Ta av dig rovhjalmen nu for fan,<br />
+        Ta av dig rovhjalmen nu for fan,
 
-        Det finns inte djavel forfan,<br />
+        Det finns inte djavel forfan,
 
-        Det finns inte en djavels hjarta att bullta pa.<br />
+        Det finns inte en djavels hjarta att bullta pa.
 
-        Vi lat dom alla ga, pa efter-for-efterfesten,<br />
+        Vi lat dom alla ga, pa efter-for-efterfesten,
 
-        Dar som alla ingen var.<br />
+        Dar som alla ingen var.
 
-        Ta av dig rovhjalmen.<br /></em>
+        Ta av dig rovhjalmen.
       WOAS: 'https://archive.org/details/BPIST001'
   - path: >-
       /mnt/usb32gb/organized-basspistol.media/assets/albums/psykedelisk-pop/4-it-s-all-over.mp3
@@ -1155,26 +1142,26 @@ tracks:
             language: eng
             description: lyrics
             text: |-
-              <em>It's all too late now,<br />
-              As you are screaming out my name.<br />
-              Too late to change now,<br />
-              Or change my way,<br />
-              As it's time to say good bye.<br />
-              Please won't you stay for just a while?<br />
-              Never been broken hearted before!<br />
-              Go ahead love,<br />
-              Take my heart.<br />
-              Like so many times you've done it before.<br />
-              <br />
-              Shoe box of memories is all that i keep.<br />
-              Can't even look at your face.<br />
-              It's all to late now.<br />
-              Do i have to change my way?<br />
-              As you are screaming out my name...<br />
-              <br />
-              I can see the stars, see them pass me by.<br />
-              Another hopeless night, for ever hopeless now.<br />
-              I can see the stars bass me by.<br /></em>
+              It's all too late now,
+              As you are screaming out my name.
+              Too late to change now,
+              Or change my way,
+              As it's time to say good bye.
+              Please won't you stay for just a while?
+              Never been broken hearted before!
+              Go ahead love,
+              Take my heart.
+              Like so many times you've done it before.
+
+              Shoe box of memories is all that i keep.
+              Can't even look at your face.
+              It's all to late now.
+              Do i have to change my way?
+              As you are screaming out my name...
+
+              I can see the stars, see them pass me by.
+              Another hopeless night, for ever hopeless now.
+              I can see the stars bass me by.
         - id: WOAS
           value: 'https://archive.org/details/BPIST001'
     quality:
@@ -1249,26 +1236,26 @@ tracks:
         TRCK: 4/10
         TDRC: '2010-01-01'
         lyrics: |-
-          <em>It's all too late now,<br />
-          As you are screaming out my name.<br />
-          Too late to change now,<br />
-          Or change my way,<br />
-          As it's time to say good bye.<br />
-          Please won't you stay for just a while?<br />
-          Never been broken hearted before!<br />
-          Go ahead love,<br />
-          Take my heart.<br />
-          Like so many times you've done it before.<br />
-          <br />
-          Shoe box of memories is all that i keep.<br />
-          Can't even look at your face.<br />
-          It's all to late now.<br />
-          Do i have to change my way?<br />
-          As you are screaming out my name...<br />
-          <br />
-          I can see the stars, see them pass me by.<br />
-          Another hopeless night, for ever hopeless now.<br />
-          I can see the stars bass me by.<br /></em>
+          It's all too late now,
+          As you are screaming out my name.
+          Too late to change now,
+          Or change my way,
+          As it's time to say good bye.
+          Please won't you stay for just a while?
+          Never been broken hearted before!
+          Go ahead love,
+          Take my heart.
+          Like so many times you've done it before.
+
+          Shoe box of memories is all that i keep.
+          Can't even look at your face.
+          It's all to late now.
+          Do i have to change my way?
+          As you are screaming out my name...
+
+          I can see the stars, see them pass me by.
+          Another hopeless night, for ever hopeless now.
+          I can see the stars bass me by.
         WOAS: 'https://archive.org/details/BPIST001'
     all:
       TCON: Electro Pop
@@ -1301,26 +1288,26 @@ tracks:
       TRCK: 4/10
       TDRC: '2010-01-01'
       lyrics: |-
-        <em>It's all too late now,<br />
-        As you are screaming out my name.<br />
-        Too late to change now,<br />
-        Or change my way,<br />
-        As it's time to say good bye.<br />
-        Please won't you stay for just a while?<br />
-        Never been broken hearted before!<br />
-        Go ahead love,<br />
-        Take my heart.<br />
-        Like so many times you've done it before.<br />
-        <br />
-        Shoe box of memories is all that i keep.<br />
-        Can't even look at your face.<br />
-        It's all to late now.<br />
-        Do i have to change my way?<br />
-        As you are screaming out my name...<br />
-        <br />
-        I can see the stars, see them pass me by.<br />
-        Another hopeless night, for ever hopeless now.<br />
-        I can see the stars bass me by.<br /></em>
+        It's all too late now,
+        As you are screaming out my name.
+        Too late to change now,
+        Or change my way,
+        As it's time to say good bye.
+        Please won't you stay for just a while?
+        Never been broken hearted before!
+        Go ahead love,
+        Take my heart.
+        Like so many times you've done it before.
+
+        Shoe box of memories is all that i keep.
+        Can't even look at your face.
+        It's all to late now.
+        Do i have to change my way?
+        As you are screaming out my name...
+
+        I can see the stars, see them pass me by.
+        Another hopeless night, for ever hopeless now.
+        I can see the stars bass me by.
       WOAS: 'https://archive.org/details/BPIST001'
   - path: >-
       /mnt/usb32gb/organized-basspistol.media/assets/albums/psykedelisk-pop/5-luftb-jning.mp3
@@ -1449,63 +1436,35 @@ tracks:
           value:
             language: eng
             description: lyrics
-            text: >
-              <em>Oh oui, vad ar det for melodie?<br />
+            text: |
+              Oh oui, vad ar det for melodie?
+              Som glider forbi.
+              Oh oui, vad ar det for melodie
+              Som glider sig i.
+              Oh oui, vad ar denna melodie?
+              Som tranger sig i.
+              Oh oui.
 
-              Som glider forbi.<br />
+              Luften bojer sig for sin gang,
+              Och hela kroppen kanns som trang.
+              Ah oui, en inframelodie
+              Fanga traden lyft dig upp
+              Latta sjalen trilla ner
+              Metavagor kommer upp
+              Infrastruktur ar din sjal
+              Oh oui, en bass alegori
+              En bass trotoar.
 
-              Oh oui, vad ar det for melodie<br />
+              Vara lag frekvens osciliatorer, vacktar over din val var.
+              Vara lag frekvens osciliatorer, vill bara att du ska ha det bra.
+              Ah oui, oh sjung denna melodie.
 
-              Som glider sig i.<br />
-
-              Oh oui, vad ar denna melodie?<br />
-
-              Som tranger sig i.<br />
-
-              Oh oui.<br />
-
-              <br />
-
-              Luften bojer sig for sin gang,<br />
-
-              Och hela kroppen kanns som trang.<br />
-
-              Ah oui, en inframelodie<br />
-
-              Fanga traden lyft dig upp<br />
-
-              Latta sjalen trilla ner<br />
-
-              Metavagor kommer upp<br />
-
-              Infrastruktur ar din sjal<br />
-
-              Oh oui, en bass alegori<br />
-
-              En bass trotoar.<br />
-
-              <br />
-
-              Vara lag frekvens osciliatorer, vacktar over din val var.<br />
-
-              Vara lag frekvens osciliatorer, vill bara att du ska ha det
-              bra.<br />
-
-              Ah oui, oh sjung denna melodie.<br />
-
-              <br />
-
-              Vagen borjar likna minus,<br />
-
-              Och allt som forut var minus.<br />
-
-              Ror sig sakta positivt.<br />
-
-              I ett vackert monster alternativt.<br />
-
-              Oh oui,<br />
-
-              En infra melodie.<br /></em>
+              Vagen borjar likna minus,
+              Och allt som forut var minus.
+              Ror sig sakta positivt.
+              I ett vackert monster alternativt.
+              Oh oui,
+              En infra melodie.
         - id: WOAS
           value: 'https://archive.org/details/BPIST001'
     quality:
@@ -1580,34 +1539,34 @@ tracks:
         TRCK: 5/10
         TDRC: '2010-01-01'
         lyrics: |
-          <em>Oh oui, vad ar det for melodie?<br />
-          Som glider forbi.<br />
-          Oh oui, vad ar det for melodie<br />
-          Som glider sig i.<br />
-          Oh oui, vad ar denna melodie?<br />
-          Som tranger sig i.<br />
-          Oh oui.<br />
-          <br />
-          Luften bojer sig for sin gang,<br />
-          Och hela kroppen kanns som trang.<br />
-          Ah oui, en inframelodie<br />
-          Fanga traden lyft dig upp<br />
-          Latta sjalen trilla ner<br />
-          Metavagor kommer upp<br />
-          Infrastruktur ar din sjal<br />
-          Oh oui, en bass alegori<br />
-          En bass trotoar.<br />
-          <br />
-          Vara lag frekvens osciliatorer, vacktar over din val var.<br />
-          Vara lag frekvens osciliatorer, vill bara att du ska ha det bra.<br />
-          Ah oui, oh sjung denna melodie.<br />
-          <br />
-          Vagen borjar likna minus,<br />
-          Och allt som forut var minus.<br />
-          Ror sig sakta positivt.<br />
-          I ett vackert monster alternativt.<br />
-          Oh oui,<br />
-          En infra melodie.<br /></em>
+          Oh oui, vad ar det for melodie?
+          Som glider forbi.
+          Oh oui, vad ar det for melodie
+          Som glider sig i.
+          Oh oui, vad ar denna melodie?
+          Som tranger sig i.
+          Oh oui.
+
+          Luften bojer sig for sin gang,
+          Och hela kroppen kanns som trang.
+          Ah oui, en inframelodie
+          Fanga traden lyft dig upp
+          Latta sjalen trilla ner
+          Metavagor kommer upp
+          Infrastruktur ar din sjal
+          Oh oui, en bass alegori
+          En bass trotoar.
+
+          Vara lag frekvens osciliatorer, vacktar over din val var.
+          Vara lag frekvens osciliatorer, vill bara att du ska ha det bra.
+          Ah oui, oh sjung denna melodie.
+
+          Vagen borjar likna minus,
+          Och allt som forut var minus.
+          Ror sig sakta positivt.
+          I ett vackert monster alternativt.
+          Oh oui,
+          En infra melodie.
         WOAS: 'https://archive.org/details/BPIST001'
     all:
       TCON: Electro Pop
@@ -1640,34 +1599,34 @@ tracks:
       TRCK: 5/10
       TDRC: '2010-01-01'
       lyrics: |
-        <em>Oh oui, vad ar det for melodie?<br />
-        Som glider forbi.<br />
-        Oh oui, vad ar det for melodie<br />
-        Som glider sig i.<br />
-        Oh oui, vad ar denna melodie?<br />
-        Som tranger sig i.<br />
-        Oh oui.<br />
-        <br />
-        Luften bojer sig for sin gang,<br />
-        Och hela kroppen kanns som trang.<br />
-        Ah oui, en inframelodie<br />
-        Fanga traden lyft dig upp<br />
-        Latta sjalen trilla ner<br />
-        Metavagor kommer upp<br />
-        Infrastruktur ar din sjal<br />
-        Oh oui, en bass alegori<br />
-        En bass trotoar.<br />
-        <br />
-        Vara lag frekvens osciliatorer, vacktar over din val var.<br />
-        Vara lag frekvens osciliatorer, vill bara att du ska ha det bra.<br />
-        Ah oui, oh sjung denna melodie.<br />
-        <br />
-        Vagen borjar likna minus,<br />
-        Och allt som forut var minus.<br />
-        Ror sig sakta positivt.<br />
-        I ett vackert monster alternativt.<br />
-        Oh oui,<br />
-        En infra melodie.<br /></em>
+        Oh oui, vad ar det for melodie?
+        Som glider forbi.
+        Oh oui, vad ar det for melodie
+        Som glider sig i.
+        Oh oui, vad ar denna melodie?
+        Som tranger sig i.
+        Oh oui.
+
+        Luften bojer sig for sin gang,
+        Och hela kroppen kanns som trang.
+        Ah oui, en inframelodie
+        Fanga traden lyft dig upp
+        Latta sjalen trilla ner
+        Metavagor kommer upp
+        Infrastruktur ar din sjal
+        Oh oui, en bass alegori
+        En bass trotoar.
+
+        Vara lag frekvens osciliatorer, vacktar over din val var.
+        Vara lag frekvens osciliatorer, vill bara att du ska ha det bra.
+        Ah oui, oh sjung denna melodie.
+
+        Vagen borjar likna minus,
+        Och allt som forut var minus.
+        Ror sig sakta positivt.
+        I ett vackert monster alternativt.
+        Oh oui,
+        En infra melodie.
       WOAS: 'https://archive.org/details/BPIST001'
   - path: >-
       /mnt/usb32gb/organized-basspistol.media/assets/albums/psykedelisk-pop/6-intelligent-music.mp3
@@ -1797,33 +1756,33 @@ tracks:
             language: eng
             description: lyrics
             text: |
-              <em>REF:<br />
-              Kadnamn Intelligent musik!<br />
-              Greppar i dig hjartat, med hjarn gymnastik!<br />
-              Kadnamn Intelligent musik!<br />
-              Du vet precis som jag, vad du vill ha!<br />
-              Kadnamn Intelligent musik!<br />
-              Du vill att det svanger, du vill att det tanker!<br />
-              Kadnamn Intelligent musik!<br />
-              Sa att livslusten hojs, mot ett billigt projs!<br />
-              Kadnamn Intelligent musik!<br />
-              Du och jag bajby, vi vet vart vi ska!<br />
-              Kadnamn Intelligent musik!<br />
-              Vi tanker oss for och vi vet vad vi gor!<br />
-              <br />
-              Det ar nagonting som saknas i mina alster,<br />
-              Som ett for tidigt foster.<br />
-              Problemet ater upp mig som ett monster.<br />
-              Lyssna pa ditt hjarta, du vet vad du gor.<br />
-              Unga mann sin framtid hor.<br />
-              E-E-E-E-ar D D D#-det-du C# BBBBB BEJBY?<br />
-              <br />
-              REF<br />
-              <br />
-              Om det ar nagonting som jag litar pa,<br />
-              sa ar det kanslan du kann fa,<br />
-              Mig att kanna, mig att uppleva,<br />
-              Mig att dela, med mig till alla dom andra.<br /></em>
+              REF:
+              Kadnamn Intelligent musik!
+              Greppar i dig hjartat, med hjarn gymnastik!
+              Kadnamn Intelligent musik!
+              Du vet precis som jag, vad du vill ha!
+              Kadnamn Intelligent musik!
+              Du vill att det svanger, du vill att det tanker!
+              Kadnamn Intelligent musik!
+              Sa att livslusten hojs, mot ett billigt projs!
+              Kadnamn Intelligent musik!
+              Du och jag bajby, vi vet vart vi ska!
+              Kadnamn Intelligent musik!
+              Vi tanker oss for och vi vet vad vi gor!
+
+              Det ar nagonting som saknas i mina alster,
+              Som ett for tidigt foster.
+              Problemet ater upp mig som ett monster.
+              Lyssna pa ditt hjarta, du vet vad du gor.
+              Unga mann sin framtid hor.
+              E-E-E-E-ar D D D#-det-du C# BBBBB BEJBY?
+
+              REF
+
+              Om det ar nagonting som jag litar pa,
+              sa ar det kanslan du kann fa,
+              Mig att kanna, mig att uppleva,
+              Mig att dela, med mig till alla dom andra.
         - id: WOAS
           value: 'https://archive.org/details/BPIST001'
     quality:
@@ -1898,33 +1857,33 @@ tracks:
         TRCK: 6/10
         TDRC: '2010-01-01'
         lyrics: |
-          <em>REF:<br />
-          Kadnamn Intelligent musik!<br />
-          Greppar i dig hjartat, med hjarn gymnastik!<br />
-          Kadnamn Intelligent musik!<br />
-          Du vet precis som jag, vad du vill ha!<br />
-          Kadnamn Intelligent musik!<br />
-          Du vill att det svanger, du vill att det tanker!<br />
-          Kadnamn Intelligent musik!<br />
-          Sa att livslusten hojs, mot ett billigt projs!<br />
-          Kadnamn Intelligent musik!<br />
-          Du och jag bajby, vi vet vart vi ska!<br />
-          Kadnamn Intelligent musik!<br />
-          Vi tanker oss for och vi vet vad vi gor!<br />
-          <br />
-          Det ar nagonting som saknas i mina alster,<br />
-          Som ett for tidigt foster.<br />
-          Problemet ater upp mig som ett monster.<br />
-          Lyssna pa ditt hjarta, du vet vad du gor.<br />
-          Unga mann sin framtid hor.<br />
-          E-E-E-E-ar D D D#-det-du C# BBBBB BEJBY?<br />
-          <br />
-          REF<br />
-          <br />
-          Om det ar nagonting som jag litar pa,<br />
-          sa ar det kanslan du kann fa,<br />
-          Mig att kanna, mig att uppleva,<br />
-          Mig att dela, med mig till alla dom andra.<br /></em>
+          REF:
+          Kadnamn Intelligent musik!
+          Greppar i dig hjartat, med hjarn gymnastik!
+          Kadnamn Intelligent musik!
+          Du vet precis som jag, vad du vill ha!
+          Kadnamn Intelligent musik!
+          Du vill att det svanger, du vill att det tanker!
+          Kadnamn Intelligent musik!
+          Sa att livslusten hojs, mot ett billigt projs!
+          Kadnamn Intelligent musik!
+          Du och jag bajby, vi vet vart vi ska!
+          Kadnamn Intelligent musik!
+          Vi tanker oss for och vi vet vad vi gor!
+
+          Det ar nagonting som saknas i mina alster,
+          Som ett for tidigt foster.
+          Problemet ater upp mig som ett monster.
+          Lyssna pa ditt hjarta, du vet vad du gor.
+          Unga mann sin framtid hor.
+          E-E-E-E-ar D D D#-det-du C# BBBBB BEJBY?
+
+          REF
+
+          Om det ar nagonting som jag litar pa,
+          sa ar det kanslan du kann fa,
+          Mig att kanna, mig att uppleva,
+          Mig att dela, med mig till alla dom andra.
         WOAS: 'https://archive.org/details/BPIST001'
     all:
       TCON: Electro Pop
@@ -1957,33 +1916,33 @@ tracks:
       TRCK: 6/10
       TDRC: '2010-01-01'
       lyrics: |
-        <em>REF:<br />
-        Kadnamn Intelligent musik!<br />
-        Greppar i dig hjartat, med hjarn gymnastik!<br />
-        Kadnamn Intelligent musik!<br />
-        Du vet precis som jag, vad du vill ha!<br />
-        Kadnamn Intelligent musik!<br />
-        Du vill att det svanger, du vill att det tanker!<br />
-        Kadnamn Intelligent musik!<br />
-        Sa att livslusten hojs, mot ett billigt projs!<br />
-        Kadnamn Intelligent musik!<br />
-        Du och jag bajby, vi vet vart vi ska!<br />
-        Kadnamn Intelligent musik!<br />
-        Vi tanker oss for och vi vet vad vi gor!<br />
-        <br />
-        Det ar nagonting som saknas i mina alster,<br />
-        Som ett for tidigt foster.<br />
-        Problemet ater upp mig som ett monster.<br />
-        Lyssna pa ditt hjarta, du vet vad du gor.<br />
-        Unga mann sin framtid hor.<br />
-        E-E-E-E-ar D D D#-det-du C# BBBBB BEJBY?<br />
-        <br />
-        REF<br />
-        <br />
-        Om det ar nagonting som jag litar pa,<br />
-        sa ar det kanslan du kann fa,<br />
-        Mig att kanna, mig att uppleva,<br />
-        Mig att dela, med mig till alla dom andra.<br /></em>
+        REF:
+        Kadnamn Intelligent musik!
+        Greppar i dig hjartat, med hjarn gymnastik!
+        Kadnamn Intelligent musik!
+        Du vet precis som jag, vad du vill ha!
+        Kadnamn Intelligent musik!
+        Du vill att det svanger, du vill att det tanker!
+        Kadnamn Intelligent musik!
+        Sa att livslusten hojs, mot ett billigt projs!
+        Kadnamn Intelligent musik!
+        Du och jag bajby, vi vet vart vi ska!
+        Kadnamn Intelligent musik!
+        Vi tanker oss for och vi vet vad vi gor!
+
+        Det ar nagonting som saknas i mina alster,
+        Som ett for tidigt foster.
+        Problemet ater upp mig som ett monster.
+        Lyssna pa ditt hjarta, du vet vad du gor.
+        Unga mann sin framtid hor.
+        E-E-E-E-ar D D D#-det-du C# BBBBB BEJBY?
+
+        REF
+
+        Om det ar nagonting som jag litar pa,
+        sa ar det kanslan du kann fa,
+        Mig att kanna, mig att uppleva,
+        Mig att dela, med mig till alla dom andra.
       WOAS: 'https://archive.org/details/BPIST001'
   - path: >-
       /mnt/usb32gb/organized-basspistol.media/assets/albums/psykedelisk-pop/7-alive.mp3
@@ -2113,64 +2072,57 @@ tracks:
             language: eng
             description: lyrics
             text: >
-              <em>Si seior, si.<br />
+              Si seior, si.
 
               See, it has come to my attention, that a lot of people, don't
-              believe in dreams. <br />
+              believe in dreams. 
 
               And see, it's like every morning, when they wake up, they step out
-              of bed empty. <br />
+              of bed empty. 
 
-              This phenomenon is rather sad. <br />
+              This phenomenon is rather sad. 
 
-              But coming to think of it, it has maybe always been like that.<br
-              />
+              But coming to think of it, it has maybe always been like that.
 
-              <br />
 
-              Coming to think about my last dream<br />
+              Coming to think about my last dream
 
-              how blurry it seems.<br />
+              how blurry it seems.
 
-              A lot of unknown shapes and feelings.<br />
+              A lot of unknown shapes and feelings.
 
-              Me and you dressed in jeans.<br />
+              Me and you dressed in jeans.
 
-              <br />
 
-              Stop!<br />
+              Stop!
 
-              <br />
 
-              If i had to define to perfect dream, <br />
+              If i had to define to perfect dream, 
 
-              it would be the one featuring you, you, yes you and you, <br />
+              it would be the one featuring you, you, yes you and you, 
 
-              and you, and you and you, and you and you and you and me! <br />
+              and you, and you and you, and you and you and you and me! 
 
-              The dream of the perfect unity. <br />
+              The dream of the perfect unity. 
 
-              The dream of interplanetary harmony.<br />
+              The dream of interplanetary harmony.
 
-              <br />
 
-              Coming to think about my last dream.<br />
+              Coming to think about my last dream.
 
-              I realize how clear and clean.<br />
+              I realize how clear and clean.
 
-              The souvenir taste like sugar and cream,<br />
+              The souvenir taste like sugar and cream,
 
-              My dream.<br />
+              My dream.
 
-              <br />
 
-              I know kid, i know: these ain't easy goals. <br />
+              I know kid, i know: these ain't easy goals. 
 
-              But there is no use, to loose your hope!<br />
+              But there is no use, to loose your hope!
 
-              <br />
 
-              Si senior, hola!<br /></em>
+              Si senior, hola!
         - id: WOAS
           value: 'https://archive.org/details/BPIST001'
     quality:
@@ -2245,63 +2197,57 @@ tracks:
         TRCK: 7/10
         TDRC: '2010-01-01'
         lyrics: >
-          <em>Si seior, si.<br />
+          Si seior, si.
 
           See, it has come to my attention, that a lot of people, don't believe
-          in dreams. <br />
+          in dreams. 
 
           And see, it's like every morning, when they wake up, they step out of
-          bed empty. <br />
+          bed empty. 
 
-          This phenomenon is rather sad. <br />
+          This phenomenon is rather sad. 
 
-          But coming to think of it, it has maybe always been like that.<br />
+          But coming to think of it, it has maybe always been like that.
 
-          <br />
 
-          Coming to think about my last dream<br />
+          Coming to think about my last dream
 
-          how blurry it seems.<br />
+          how blurry it seems.
 
-          A lot of unknown shapes and feelings.<br />
+          A lot of unknown shapes and feelings.
 
-          Me and you dressed in jeans.<br />
+          Me and you dressed in jeans.
 
-          <br />
 
-          Stop!<br />
+          Stop!
 
-          <br />
 
-          If i had to define to perfect dream, <br />
+          If i had to define to perfect dream, 
 
-          it would be the one featuring you, you, yes you and you, <br />
+          it would be the one featuring you, you, yes you and you, 
 
-          and you, and you and you, and you and you and you and me! <br />
+          and you, and you and you, and you and you and you and me! 
 
-          The dream of the perfect unity. <br />
+          The dream of the perfect unity. 
 
-          The dream of interplanetary harmony.<br />
+          The dream of interplanetary harmony.
 
-          <br />
 
-          Coming to think about my last dream.<br />
+          Coming to think about my last dream.
 
-          I realize how clear and clean.<br />
+          I realize how clear and clean.
 
-          The souvenir taste like sugar and cream,<br />
+          The souvenir taste like sugar and cream,
 
-          My dream.<br />
+          My dream.
 
-          <br />
 
-          I know kid, i know: these ain't easy goals. <br />
+          I know kid, i know: these ain't easy goals. 
 
-          But there is no use, to loose your hope!<br />
+          But there is no use, to loose your hope!
 
-          <br />
 
-          Si senior, hola!<br /></em>
+          Si senior, hola!
         WOAS: 'https://archive.org/details/BPIST001'
     all:
       TCON: Electro Pop
@@ -2334,63 +2280,57 @@ tracks:
       TRCK: 7/10
       TDRC: '2010-01-01'
       lyrics: >
-        <em>Si seior, si.<br />
+        Si seior, si.
 
         See, it has come to my attention, that a lot of people, don't believe in
-        dreams. <br />
+        dreams. 
 
         And see, it's like every morning, when they wake up, they step out of
-        bed empty. <br />
+        bed empty. 
 
-        This phenomenon is rather sad. <br />
+        This phenomenon is rather sad. 
 
-        But coming to think of it, it has maybe always been like that.<br />
+        But coming to think of it, it has maybe always been like that.
 
-        <br />
 
-        Coming to think about my last dream<br />
+        Coming to think about my last dream
 
-        how blurry it seems.<br />
+        how blurry it seems.
 
-        A lot of unknown shapes and feelings.<br />
+        A lot of unknown shapes and feelings.
 
-        Me and you dressed in jeans.<br />
+        Me and you dressed in jeans.
 
-        <br />
 
-        Stop!<br />
+        Stop!
 
-        <br />
 
-        If i had to define to perfect dream, <br />
+        If i had to define to perfect dream, 
 
-        it would be the one featuring you, you, yes you and you, <br />
+        it would be the one featuring you, you, yes you and you, 
 
-        and you, and you and you, and you and you and you and me! <br />
+        and you, and you and you, and you and you and you and me! 
 
-        The dream of the perfect unity. <br />
+        The dream of the perfect unity. 
 
-        The dream of interplanetary harmony.<br />
+        The dream of interplanetary harmony.
 
-        <br />
 
-        Coming to think about my last dream.<br />
+        Coming to think about my last dream.
 
-        I realize how clear and clean.<br />
+        I realize how clear and clean.
 
-        The souvenir taste like sugar and cream,<br />
+        The souvenir taste like sugar and cream,
 
-        My dream.<br />
+        My dream.
 
-        <br />
 
-        I know kid, i know: these ain't easy goals. <br />
+        I know kid, i know: these ain't easy goals. 
 
-        But there is no use, to loose your hope!<br />
+        But there is no use, to loose your hope!
 
-        <br />
 
-        Si senior, hola!<br /></em>
+        Si senior, hola!
       WOAS: 'https://archive.org/details/BPIST001'
   - path: >-
       /mnt/usb32gb/organized-basspistol.media/assets/albums/psykedelisk-pop/8-invitation-to-dance.mp3
@@ -2748,16 +2688,16 @@ tracks:
             language: eng
             description: lyrics
             text: |-
-              <em>Och jag vill garna trippa,<br />
-              Och slappa sjalen fri.<br />
-              Och jag vill garna flippa,<br />
-              Och sluta lata bli.<br />
-              Och jag vill garna resa,<br />
-              Med sjalens luft som fri.<br />
-              <br />
-              Sluta upp med allt,<br />
-              Och ha dig har brevid.<br />
-              At minstande narmare i mitt revir.<br /></em>
+              Och jag vill garna trippa,
+              Och slappa sjalen fri.
+              Och jag vill garna flippa,
+              Och sluta lata bli.
+              Och jag vill garna resa,
+              Med sjalens luft som fri.
+
+              Sluta upp med allt,
+              Och ha dig har brevid.
+              At minstande narmare i mitt revir.
         - id: WOAS
           value: 'https://archive.org/details/BPIST001'
     quality:
@@ -2832,16 +2772,16 @@ tracks:
         TRCK: 9/10
         TDRC: '2010-01-01'
         lyrics: |-
-          <em>Och jag vill garna trippa,<br />
-          Och slappa sjalen fri.<br />
-          Och jag vill garna flippa,<br />
-          Och sluta lata bli.<br />
-          Och jag vill garna resa,<br />
-          Med sjalens luft som fri.<br />
-          <br />
-          Sluta upp med allt,<br />
-          Och ha dig har brevid.<br />
-          At minstande narmare i mitt revir.<br /></em>
+          Och jag vill garna trippa,
+          Och slappa sjalen fri.
+          Och jag vill garna flippa,
+          Och sluta lata bli.
+          Och jag vill garna resa,
+          Med sjalens luft som fri.
+
+          Sluta upp med allt,
+          Och ha dig har brevid.
+          At minstande narmare i mitt revir.
         WOAS: 'https://archive.org/details/BPIST001'
     all:
       TCON: Electro Pop
@@ -2874,16 +2814,16 @@ tracks:
       TRCK: 9/10
       TDRC: '2010-01-01'
       lyrics: |-
-        <em>Och jag vill garna trippa,<br />
-        Och slappa sjalen fri.<br />
-        Och jag vill garna flippa,<br />
-        Och sluta lata bli.<br />
-        Och jag vill garna resa,<br />
-        Med sjalens luft som fri.<br />
-        <br />
-        Sluta upp med allt,<br />
-        Och ha dig har brevid.<br />
-        At minstande narmare i mitt revir.<br /></em>
+        Och jag vill garna trippa,
+        Och slappa sjalen fri.
+        Och jag vill garna flippa,
+        Och sluta lata bli.
+        Och jag vill garna resa,
+        Med sjalens luft som fri.
+
+        Sluta upp med allt,
+        Och ha dig har brevid.
+        At minstande narmare i mitt revir.
       WOAS: 'https://archive.org/details/BPIST001'
   - path: >-
       /mnt/usb32gb/organized-basspistol.media/assets/albums/psykedelisk-pop/10-hidden-track.mp3

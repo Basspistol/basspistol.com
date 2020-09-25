@@ -128,33 +128,33 @@ native:
         language: eng
         description: lyrics
         text: |
-          <em>REF:<br />
-          Kadnamn Intelligent musik!<br />
-          Greppar i dig hjartat, med hjarn gymnastik!<br />
-          Kadnamn Intelligent musik!<br />
-          Du vet precis som jag, vad du vill ha!<br />
-          Kadnamn Intelligent musik!<br />
-          Du vill att det svanger, du vill att det tanker!<br />
-          Kadnamn Intelligent musik!<br />
-          Sa att livslusten hojs, mot ett billigt projs!<br />
-          Kadnamn Intelligent musik!<br />
-          Du och jag bajby, vi vet vart vi ska!<br />
-          Kadnamn Intelligent musik!<br />
-          Vi tanker oss for och vi vet vad vi gor!<br />
-          <br />
-          Det ar nagonting som saknas i mina alster,<br />
-          Som ett for tidigt foster.<br />
-          Problemet ater upp mig som ett monster.<br />
-          Lyssna pa ditt hjarta, du vet vad du gor.<br />
-          Unga mann sin framtid hor.<br />
-          E-E-E-E-ar D D D#-det-du C# BBBBB BEJBY?<br />
-          <br />
-          REF<br />
-          <br />
-          Om det ar nagonting som jag litar pa,<br />
-          sa ar det kanslan du kann fa,<br />
-          Mig att kanna, mig att uppleva,<br />
-          Mig att dela, med mig till alla dom andra.<br /></em>
+          REF:
+          Kadnamn Intelligent musik!
+          Greppar i dig hjartat, med hjarn gymnastik!
+          Kadnamn Intelligent musik!
+          Du vet precis som jag, vad du vill ha!
+          Kadnamn Intelligent musik!
+          Du vill att det svanger, du vill att det tanker!
+          Kadnamn Intelligent musik!
+          Sa att livslusten hojs, mot ett billigt projs!
+          Kadnamn Intelligent musik!
+          Du och jag bajby, vi vet vart vi ska!
+          Kadnamn Intelligent musik!
+          Vi tanker oss for och vi vet vad vi gor!
+
+          Det ar nagonting som saknas i mina alster,
+          Som ett for tidigt foster.
+          Problemet ater upp mig som ett monster.
+          Lyssna pa ditt hjarta, du vet vad du gor.
+          Unga mann sin framtid hor.
+          E-E-E-E-ar D D D#-det-du C# BBBBB BEJBY?
+
+          REF
+
+          Om det ar nagonting som jag litar pa,
+          sa ar det kanslan du kann fa,
+          Mig att kanna, mig att uppleva,
+          Mig att dela, med mig till alla dom andra.
     - id: WOAS
       value: 'https://archive.org/details/BPIST001'
 quality:
@@ -229,33 +229,33 @@ transformed:
     TRCK: 6/10
     TDRC: '2010-01-01'
     lyrics: |
-      <em>REF:<br />
-      Kadnamn Intelligent musik!<br />
-      Greppar i dig hjartat, med hjarn gymnastik!<br />
-      Kadnamn Intelligent musik!<br />
-      Du vet precis som jag, vad du vill ha!<br />
-      Kadnamn Intelligent musik!<br />
-      Du vill att det svanger, du vill att det tanker!<br />
-      Kadnamn Intelligent musik!<br />
-      Sa att livslusten hojs, mot ett billigt projs!<br />
-      Kadnamn Intelligent musik!<br />
-      Du och jag bajby, vi vet vart vi ska!<br />
-      Kadnamn Intelligent musik!<br />
-      Vi tanker oss for och vi vet vad vi gor!<br />
-      <br />
-      Det ar nagonting som saknas i mina alster,<br />
-      Som ett for tidigt foster.<br />
-      Problemet ater upp mig som ett monster.<br />
-      Lyssna pa ditt hjarta, du vet vad du gor.<br />
-      Unga mann sin framtid hor.<br />
-      E-E-E-E-ar D D D#-det-du C# BBBBB BEJBY?<br />
-      <br />
-      REF<br />
-      <br />
-      Om det ar nagonting som jag litar pa,<br />
-      sa ar det kanslan du kann fa,<br />
-      Mig att kanna, mig att uppleva,<br />
-      Mig att dela, med mig till alla dom andra.<br /></em>
+      REF:
+      Kadnamn Intelligent musik!
+      Greppar i dig hjartat, med hjarn gymnastik!
+      Kadnamn Intelligent musik!
+      Du vet precis som jag, vad du vill ha!
+      Kadnamn Intelligent musik!
+      Du vill att det svanger, du vill att det tanker!
+      Kadnamn Intelligent musik!
+      Sa att livslusten hojs, mot ett billigt projs!
+      Kadnamn Intelligent musik!
+      Du och jag bajby, vi vet vart vi ska!
+      Kadnamn Intelligent musik!
+      Vi tanker oss for och vi vet vad vi gor!
+
+      Det ar nagonting som saknas i mina alster,
+      Som ett for tidigt foster.
+      Problemet ater upp mig som ett monster.
+      Lyssna pa ditt hjarta, du vet vad du gor.
+      Unga mann sin framtid hor.
+      E-E-E-E-ar D D D#-det-du C# BBBBB BEJBY?
+
+      REF
+
+      Om det ar nagonting som jag litar pa,
+      sa ar det kanslan du kann fa,
+      Mig att kanna, mig att uppleva,
+      Mig att dela, med mig till alla dom andra.
     WOAS: 'https://archive.org/details/BPIST001'
 all:
   TCON: Electro Pop
@@ -288,33 +288,33 @@ all:
   TRCK: 6/10
   TDRC: '2010-01-01'
   lyrics: |
-    <em>REF:<br />
-    Kadnamn Intelligent musik!<br />
-    Greppar i dig hjartat, med hjarn gymnastik!<br />
-    Kadnamn Intelligent musik!<br />
-    Du vet precis som jag, vad du vill ha!<br />
-    Kadnamn Intelligent musik!<br />
-    Du vill att det svanger, du vill att det tanker!<br />
-    Kadnamn Intelligent musik!<br />
-    Sa att livslusten hojs, mot ett billigt projs!<br />
-    Kadnamn Intelligent musik!<br />
-    Du och jag bajby, vi vet vart vi ska!<br />
-    Kadnamn Intelligent musik!<br />
-    Vi tanker oss for och vi vet vad vi gor!<br />
-    <br />
-    Det ar nagonting som saknas i mina alster,<br />
-    Som ett for tidigt foster.<br />
-    Problemet ater upp mig som ett monster.<br />
-    Lyssna pa ditt hjarta, du vet vad du gor.<br />
-    Unga mann sin framtid hor.<br />
-    E-E-E-E-ar D D D#-det-du C# BBBBB BEJBY?<br />
-    <br />
-    REF<br />
-    <br />
-    Om det ar nagonting som jag litar pa,<br />
-    sa ar det kanslan du kann fa,<br />
-    Mig att kanna, mig att uppleva,<br />
-    Mig att dela, med mig till alla dom andra.<br /></em>
+    REF:
+    Kadnamn Intelligent musik!
+    Greppar i dig hjartat, med hjarn gymnastik!
+    Kadnamn Intelligent musik!
+    Du vet precis som jag, vad du vill ha!
+    Kadnamn Intelligent musik!
+    Du vill att det svanger, du vill att det tanker!
+    Kadnamn Intelligent musik!
+    Sa att livslusten hojs, mot ett billigt projs!
+    Kadnamn Intelligent musik!
+    Du och jag bajby, vi vet vart vi ska!
+    Kadnamn Intelligent musik!
+    Vi tanker oss for och vi vet vad vi gor!
+
+    Det ar nagonting som saknas i mina alster,
+    Som ett for tidigt foster.
+    Problemet ater upp mig som ett monster.
+    Lyssna pa ditt hjarta, du vet vad du gor.
+    Unga mann sin framtid hor.
+    E-E-E-E-ar D D D#-det-du C# BBBBB BEJBY?
+
+    REF
+
+    Om det ar nagonting som jag litar pa,
+    sa ar det kanslan du kann fa,
+    Mig att kanna, mig att uppleva,
+    Mig att dela, med mig till alla dom andra.
   WOAS: 'https://archive.org/details/BPIST001'
 nextTrack:
   path: >-
@@ -445,63 +445,57 @@ nextTrack:
           language: eng
           description: lyrics
           text: >
-            <em>Si seior, si.<br />
+            Si seior, si.
 
             See, it has come to my attention, that a lot of people, don't
-            believe in dreams. <br />
+            believe in dreams. 
 
             And see, it's like every morning, when they wake up, they step out
-            of bed empty. <br />
+            of bed empty. 
 
-            This phenomenon is rather sad. <br />
+            This phenomenon is rather sad. 
 
-            But coming to think of it, it has maybe always been like that.<br />
+            But coming to think of it, it has maybe always been like that.
 
-            <br />
 
-            Coming to think about my last dream<br />
+            Coming to think about my last dream
 
-            how blurry it seems.<br />
+            how blurry it seems.
 
-            A lot of unknown shapes and feelings.<br />
+            A lot of unknown shapes and feelings.
 
-            Me and you dressed in jeans.<br />
+            Me and you dressed in jeans.
 
-            <br />
 
-            Stop!<br />
+            Stop!
 
-            <br />
 
-            If i had to define to perfect dream, <br />
+            If i had to define to perfect dream, 
 
-            it would be the one featuring you, you, yes you and you, <br />
+            it would be the one featuring you, you, yes you and you, 
 
-            and you, and you and you, and you and you and you and me! <br />
+            and you, and you and you, and you and you and you and me! 
 
-            The dream of the perfect unity. <br />
+            The dream of the perfect unity. 
 
-            The dream of interplanetary harmony.<br />
+            The dream of interplanetary harmony.
 
-            <br />
 
-            Coming to think about my last dream.<br />
+            Coming to think about my last dream.
 
-            I realize how clear and clean.<br />
+            I realize how clear and clean.
 
-            The souvenir taste like sugar and cream,<br />
+            The souvenir taste like sugar and cream,
 
-            My dream.<br />
+            My dream.
 
-            <br />
 
-            I know kid, i know: these ain't easy goals. <br />
+            I know kid, i know: these ain't easy goals. 
 
-            But there is no use, to loose your hope!<br />
+            But there is no use, to loose your hope!
 
-            <br />
 
-            Si senior, hola!<br /></em>
+            Si senior, hola!
       - id: WOAS
         value: 'https://archive.org/details/BPIST001'
   quality:
@@ -576,63 +570,57 @@ nextTrack:
       TRCK: 7/10
       TDRC: '2010-01-01'
       lyrics: >
-        <em>Si seior, si.<br />
+        Si seior, si.
 
         See, it has come to my attention, that a lot of people, don't believe in
-        dreams. <br />
+        dreams. 
 
         And see, it's like every morning, when they wake up, they step out of
-        bed empty. <br />
+        bed empty. 
 
-        This phenomenon is rather sad. <br />
+        This phenomenon is rather sad. 
 
-        But coming to think of it, it has maybe always been like that.<br />
+        But coming to think of it, it has maybe always been like that.
 
-        <br />
 
-        Coming to think about my last dream<br />
+        Coming to think about my last dream
 
-        how blurry it seems.<br />
+        how blurry it seems.
 
-        A lot of unknown shapes and feelings.<br />
+        A lot of unknown shapes and feelings.
 
-        Me and you dressed in jeans.<br />
+        Me and you dressed in jeans.
 
-        <br />
 
-        Stop!<br />
+        Stop!
 
-        <br />
 
-        If i had to define to perfect dream, <br />
+        If i had to define to perfect dream, 
 
-        it would be the one featuring you, you, yes you and you, <br />
+        it would be the one featuring you, you, yes you and you, 
 
-        and you, and you and you, and you and you and you and me! <br />
+        and you, and you and you, and you and you and you and me! 
 
-        The dream of the perfect unity. <br />
+        The dream of the perfect unity. 
 
-        The dream of interplanetary harmony.<br />
+        The dream of interplanetary harmony.
 
-        <br />
 
-        Coming to think about my last dream.<br />
+        Coming to think about my last dream.
 
-        I realize how clear and clean.<br />
+        I realize how clear and clean.
 
-        The souvenir taste like sugar and cream,<br />
+        The souvenir taste like sugar and cream,
 
-        My dream.<br />
+        My dream.
 
-        <br />
 
-        I know kid, i know: these ain't easy goals. <br />
+        I know kid, i know: these ain't easy goals. 
 
-        But there is no use, to loose your hope!<br />
+        But there is no use, to loose your hope!
 
-        <br />
 
-        Si senior, hola!<br /></em>
+        Si senior, hola!
       WOAS: 'https://archive.org/details/BPIST001'
   all:
     TCON: Electro Pop
@@ -665,63 +653,57 @@ nextTrack:
     TRCK: 7/10
     TDRC: '2010-01-01'
     lyrics: >
-      <em>Si seior, si.<br />
+      Si seior, si.
 
       See, it has come to my attention, that a lot of people, don't believe in
-      dreams. <br />
+      dreams. 
 
       And see, it's like every morning, when they wake up, they step out of bed
-      empty. <br />
+      empty. 
 
-      This phenomenon is rather sad. <br />
+      This phenomenon is rather sad. 
 
-      But coming to think of it, it has maybe always been like that.<br />
+      But coming to think of it, it has maybe always been like that.
 
-      <br />
 
-      Coming to think about my last dream<br />
+      Coming to think about my last dream
 
-      how blurry it seems.<br />
+      how blurry it seems.
 
-      A lot of unknown shapes and feelings.<br />
+      A lot of unknown shapes and feelings.
 
-      Me and you dressed in jeans.<br />
+      Me and you dressed in jeans.
 
-      <br />
 
-      Stop!<br />
+      Stop!
 
-      <br />
 
-      If i had to define to perfect dream, <br />
+      If i had to define to perfect dream, 
 
-      it would be the one featuring you, you, yes you and you, <br />
+      it would be the one featuring you, you, yes you and you, 
 
-      and you, and you and you, and you and you and you and me! <br />
+      and you, and you and you, and you and you and you and me! 
 
-      The dream of the perfect unity. <br />
+      The dream of the perfect unity. 
 
-      The dream of interplanetary harmony.<br />
+      The dream of interplanetary harmony.
 
-      <br />
 
-      Coming to think about my last dream.<br />
+      Coming to think about my last dream.
 
-      I realize how clear and clean.<br />
+      I realize how clear and clean.
 
-      The souvenir taste like sugar and cream,<br />
+      The souvenir taste like sugar and cream,
 
-      My dream.<br />
+      My dream.
 
-      <br />
 
-      I know kid, i know: these ain't easy goals. <br />
+      I know kid, i know: these ain't easy goals. 
 
-      But there is no use, to loose your hope!<br />
+      But there is no use, to loose your hope!
 
-      <br />
 
-      Si senior, hola!<br /></em>
+      Si senior, hola!
     WOAS: 'https://archive.org/details/BPIST001'
 previousTrack:
   path: >-
@@ -851,63 +833,35 @@ previousTrack:
         value:
           language: eng
           description: lyrics
-          text: >
-            <em>Oh oui, vad ar det for melodie?<br />
+          text: |
+            Oh oui, vad ar det for melodie?
+            Som glider forbi.
+            Oh oui, vad ar det for melodie
+            Som glider sig i.
+            Oh oui, vad ar denna melodie?
+            Som tranger sig i.
+            Oh oui.
 
-            Som glider forbi.<br />
+            Luften bojer sig for sin gang,
+            Och hela kroppen kanns som trang.
+            Ah oui, en inframelodie
+            Fanga traden lyft dig upp
+            Latta sjalen trilla ner
+            Metavagor kommer upp
+            Infrastruktur ar din sjal
+            Oh oui, en bass alegori
+            En bass trotoar.
 
-            Oh oui, vad ar det for melodie<br />
+            Vara lag frekvens osciliatorer, vacktar over din val var.
+            Vara lag frekvens osciliatorer, vill bara att du ska ha det bra.
+            Ah oui, oh sjung denna melodie.
 
-            Som glider sig i.<br />
-
-            Oh oui, vad ar denna melodie?<br />
-
-            Som tranger sig i.<br />
-
-            Oh oui.<br />
-
-            <br />
-
-            Luften bojer sig for sin gang,<br />
-
-            Och hela kroppen kanns som trang.<br />
-
-            Ah oui, en inframelodie<br />
-
-            Fanga traden lyft dig upp<br />
-
-            Latta sjalen trilla ner<br />
-
-            Metavagor kommer upp<br />
-
-            Infrastruktur ar din sjal<br />
-
-            Oh oui, en bass alegori<br />
-
-            En bass trotoar.<br />
-
-            <br />
-
-            Vara lag frekvens osciliatorer, vacktar over din val var.<br />
-
-            Vara lag frekvens osciliatorer, vill bara att du ska ha det bra.<br
-            />
-
-            Ah oui, oh sjung denna melodie.<br />
-
-            <br />
-
-            Vagen borjar likna minus,<br />
-
-            Och allt som forut var minus.<br />
-
-            Ror sig sakta positivt.<br />
-
-            I ett vackert monster alternativt.<br />
-
-            Oh oui,<br />
-
-            En infra melodie.<br /></em>
+            Vagen borjar likna minus,
+            Och allt som forut var minus.
+            Ror sig sakta positivt.
+            I ett vackert monster alternativt.
+            Oh oui,
+            En infra melodie.
       - id: WOAS
         value: 'https://archive.org/details/BPIST001'
   quality:
@@ -982,34 +936,34 @@ previousTrack:
       TRCK: 5/10
       TDRC: '2010-01-01'
       lyrics: |
-        <em>Oh oui, vad ar det for melodie?<br />
-        Som glider forbi.<br />
-        Oh oui, vad ar det for melodie<br />
-        Som glider sig i.<br />
-        Oh oui, vad ar denna melodie?<br />
-        Som tranger sig i.<br />
-        Oh oui.<br />
-        <br />
-        Luften bojer sig for sin gang,<br />
-        Och hela kroppen kanns som trang.<br />
-        Ah oui, en inframelodie<br />
-        Fanga traden lyft dig upp<br />
-        Latta sjalen trilla ner<br />
-        Metavagor kommer upp<br />
-        Infrastruktur ar din sjal<br />
-        Oh oui, en bass alegori<br />
-        En bass trotoar.<br />
-        <br />
-        Vara lag frekvens osciliatorer, vacktar over din val var.<br />
-        Vara lag frekvens osciliatorer, vill bara att du ska ha det bra.<br />
-        Ah oui, oh sjung denna melodie.<br />
-        <br />
-        Vagen borjar likna minus,<br />
-        Och allt som forut var minus.<br />
-        Ror sig sakta positivt.<br />
-        I ett vackert monster alternativt.<br />
-        Oh oui,<br />
-        En infra melodie.<br /></em>
+        Oh oui, vad ar det for melodie?
+        Som glider forbi.
+        Oh oui, vad ar det for melodie
+        Som glider sig i.
+        Oh oui, vad ar denna melodie?
+        Som tranger sig i.
+        Oh oui.
+
+        Luften bojer sig for sin gang,
+        Och hela kroppen kanns som trang.
+        Ah oui, en inframelodie
+        Fanga traden lyft dig upp
+        Latta sjalen trilla ner
+        Metavagor kommer upp
+        Infrastruktur ar din sjal
+        Oh oui, en bass alegori
+        En bass trotoar.
+
+        Vara lag frekvens osciliatorer, vacktar over din val var.
+        Vara lag frekvens osciliatorer, vill bara att du ska ha det bra.
+        Ah oui, oh sjung denna melodie.
+
+        Vagen borjar likna minus,
+        Och allt som forut var minus.
+        Ror sig sakta positivt.
+        I ett vackert monster alternativt.
+        Oh oui,
+        En infra melodie.
       WOAS: 'https://archive.org/details/BPIST001'
   all:
     TCON: Electro Pop
@@ -1042,33 +996,33 @@ previousTrack:
     TRCK: 5/10
     TDRC: '2010-01-01'
     lyrics: |
-      <em>Oh oui, vad ar det for melodie?<br />
-      Som glider forbi.<br />
-      Oh oui, vad ar det for melodie<br />
-      Som glider sig i.<br />
-      Oh oui, vad ar denna melodie?<br />
-      Som tranger sig i.<br />
-      Oh oui.<br />
-      <br />
-      Luften bojer sig for sin gang,<br />
-      Och hela kroppen kanns som trang.<br />
-      Ah oui, en inframelodie<br />
-      Fanga traden lyft dig upp<br />
-      Latta sjalen trilla ner<br />
-      Metavagor kommer upp<br />
-      Infrastruktur ar din sjal<br />
-      Oh oui, en bass alegori<br />
-      En bass trotoar.<br />
-      <br />
-      Vara lag frekvens osciliatorer, vacktar over din val var.<br />
-      Vara lag frekvens osciliatorer, vill bara att du ska ha det bra.<br />
-      Ah oui, oh sjung denna melodie.<br />
-      <br />
-      Vagen borjar likna minus,<br />
-      Och allt som forut var minus.<br />
-      Ror sig sakta positivt.<br />
-      I ett vackert monster alternativt.<br />
-      Oh oui,<br />
-      En infra melodie.<br /></em>
+      Oh oui, vad ar det for melodie?
+      Som glider forbi.
+      Oh oui, vad ar det for melodie
+      Som glider sig i.
+      Oh oui, vad ar denna melodie?
+      Som tranger sig i.
+      Oh oui.
+
+      Luften bojer sig for sin gang,
+      Och hela kroppen kanns som trang.
+      Ah oui, en inframelodie
+      Fanga traden lyft dig upp
+      Latta sjalen trilla ner
+      Metavagor kommer upp
+      Infrastruktur ar din sjal
+      Oh oui, en bass alegori
+      En bass trotoar.
+
+      Vara lag frekvens osciliatorer, vacktar over din val var.
+      Vara lag frekvens osciliatorer, vill bara att du ska ha det bra.
+      Ah oui, oh sjung denna melodie.
+
+      Vagen borjar likna minus,
+      Och allt som forut var minus.
+      Ror sig sakta positivt.
+      I ett vackert monster alternativt.
+      Oh oui,
+      En infra melodie.
     WOAS: 'https://archive.org/details/BPIST001'
 ---

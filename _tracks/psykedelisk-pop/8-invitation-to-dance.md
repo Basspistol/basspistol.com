@@ -357,16 +357,16 @@ nextTrack:
           language: eng
           description: lyrics
           text: |-
-            <em>Och jag vill garna trippa,<br />
-            Och slappa sjalen fri.<br />
-            Och jag vill garna flippa,<br />
-            Och sluta lata bli.<br />
-            Och jag vill garna resa,<br />
-            Med sjalens luft som fri.<br />
-            <br />
-            Sluta upp med allt,<br />
-            Och ha dig har brevid.<br />
-            At minstande narmare i mitt revir.<br /></em>
+            Och jag vill garna trippa,
+            Och slappa sjalen fri.
+            Och jag vill garna flippa,
+            Och sluta lata bli.
+            Och jag vill garna resa,
+            Med sjalens luft som fri.
+
+            Sluta upp med allt,
+            Och ha dig har brevid.
+            At minstande narmare i mitt revir.
       - id: WOAS
         value: 'https://archive.org/details/BPIST001'
   quality:
@@ -441,16 +441,16 @@ nextTrack:
       TRCK: 9/10
       TDRC: '2010-01-01'
       lyrics: |-
-        <em>Och jag vill garna trippa,<br />
-        Och slappa sjalen fri.<br />
-        Och jag vill garna flippa,<br />
-        Och sluta lata bli.<br />
-        Och jag vill garna resa,<br />
-        Med sjalens luft som fri.<br />
-        <br />
-        Sluta upp med allt,<br />
-        Och ha dig har brevid.<br />
-        At minstande narmare i mitt revir.<br /></em>
+        Och jag vill garna trippa,
+        Och slappa sjalen fri.
+        Och jag vill garna flippa,
+        Och sluta lata bli.
+        Och jag vill garna resa,
+        Med sjalens luft som fri.
+
+        Sluta upp med allt,
+        Och ha dig har brevid.
+        At minstande narmare i mitt revir.
       WOAS: 'https://archive.org/details/BPIST001'
   all:
     TCON: Electro Pop
@@ -483,16 +483,16 @@ nextTrack:
     TRCK: 9/10
     TDRC: '2010-01-01'
     lyrics: |-
-      <em>Och jag vill garna trippa,<br />
-      Och slappa sjalen fri.<br />
-      Och jag vill garna flippa,<br />
-      Och sluta lata bli.<br />
-      Och jag vill garna resa,<br />
-      Med sjalens luft som fri.<br />
-      <br />
-      Sluta upp med allt,<br />
-      Och ha dig har brevid.<br />
-      At minstande narmare i mitt revir.<br /></em>
+      Och jag vill garna trippa,
+      Och slappa sjalen fri.
+      Och jag vill garna flippa,
+      Och sluta lata bli.
+      Och jag vill garna resa,
+      Med sjalens luft som fri.
+
+      Sluta upp med allt,
+      Och ha dig har brevid.
+      At minstande narmare i mitt revir.
     WOAS: 'https://archive.org/details/BPIST001'
 previousTrack:
   path: >-
@@ -623,63 +623,57 @@ previousTrack:
           language: eng
           description: lyrics
           text: >
-            <em>Si seior, si.<br />
+            Si seior, si.
 
             See, it has come to my attention, that a lot of people, don't
-            believe in dreams. <br />
+            believe in dreams. 
 
             And see, it's like every morning, when they wake up, they step out
-            of bed empty. <br />
+            of bed empty. 
 
-            This phenomenon is rather sad. <br />
+            This phenomenon is rather sad. 
 
-            But coming to think of it, it has maybe always been like that.<br />
+            But coming to think of it, it has maybe always been like that.
 
-            <br />
 
-            Coming to think about my last dream<br />
+            Coming to think about my last dream
 
-            how blurry it seems.<br />
+            how blurry it seems.
 
-            A lot of unknown shapes and feelings.<br />
+            A lot of unknown shapes and feelings.
 
-            Me and you dressed in jeans.<br />
+            Me and you dressed in jeans.
 
-            <br />
 
-            Stop!<br />
+            Stop!
 
-            <br />
 
-            If i had to define to perfect dream, <br />
+            If i had to define to perfect dream, 
 
-            it would be the one featuring you, you, yes you and you, <br />
+            it would be the one featuring you, you, yes you and you, 
 
-            and you, and you and you, and you and you and you and me! <br />
+            and you, and you and you, and you and you and you and me! 
 
-            The dream of the perfect unity. <br />
+            The dream of the perfect unity. 
 
-            The dream of interplanetary harmony.<br />
+            The dream of interplanetary harmony.
 
-            <br />
 
-            Coming to think about my last dream.<br />
+            Coming to think about my last dream.
 
-            I realize how clear and clean.<br />
+            I realize how clear and clean.
 
-            The souvenir taste like sugar and cream,<br />
+            The souvenir taste like sugar and cream,
 
-            My dream.<br />
+            My dream.
 
-            <br />
 
-            I know kid, i know: these ain't easy goals. <br />
+            I know kid, i know: these ain't easy goals. 
 
-            But there is no use, to loose your hope!<br />
+            But there is no use, to loose your hope!
 
-            <br />
 
-            Si senior, hola!<br /></em>
+            Si senior, hola!
       - id: WOAS
         value: 'https://archive.org/details/BPIST001'
   quality:
@@ -754,63 +748,57 @@ previousTrack:
       TRCK: 7/10
       TDRC: '2010-01-01'
       lyrics: >
-        <em>Si seior, si.<br />
+        Si seior, si.
 
         See, it has come to my attention, that a lot of people, don't believe in
-        dreams. <br />
+        dreams. 
 
         And see, it's like every morning, when they wake up, they step out of
-        bed empty. <br />
+        bed empty. 
 
-        This phenomenon is rather sad. <br />
+        This phenomenon is rather sad. 
 
-        But coming to think of it, it has maybe always been like that.<br />
+        But coming to think of it, it has maybe always been like that.
 
-        <br />
 
-        Coming to think about my last dream<br />
+        Coming to think about my last dream
 
-        how blurry it seems.<br />
+        how blurry it seems.
 
-        A lot of unknown shapes and feelings.<br />
+        A lot of unknown shapes and feelings.
 
-        Me and you dressed in jeans.<br />
+        Me and you dressed in jeans.
 
-        <br />
 
-        Stop!<br />
+        Stop!
 
-        <br />
 
-        If i had to define to perfect dream, <br />
+        If i had to define to perfect dream, 
 
-        it would be the one featuring you, you, yes you and you, <br />
+        it would be the one featuring you, you, yes you and you, 
 
-        and you, and you and you, and you and you and you and me! <br />
+        and you, and you and you, and you and you and you and me! 
 
-        The dream of the perfect unity. <br />
+        The dream of the perfect unity. 
 
-        The dream of interplanetary harmony.<br />
+        The dream of interplanetary harmony.
 
-        <br />
 
-        Coming to think about my last dream.<br />
+        Coming to think about my last dream.
 
-        I realize how clear and clean.<br />
+        I realize how clear and clean.
 
-        The souvenir taste like sugar and cream,<br />
+        The souvenir taste like sugar and cream,
 
-        My dream.<br />
+        My dream.
 
-        <br />
 
-        I know kid, i know: these ain't easy goals. <br />
+        I know kid, i know: these ain't easy goals. 
 
-        But there is no use, to loose your hope!<br />
+        But there is no use, to loose your hope!
 
-        <br />
 
-        Si senior, hola!<br /></em>
+        Si senior, hola!
       WOAS: 'https://archive.org/details/BPIST001'
   all:
     TCON: Electro Pop
@@ -843,62 +831,56 @@ previousTrack:
     TRCK: 7/10
     TDRC: '2010-01-01'
     lyrics: >
-      <em>Si seior, si.<br />
+      Si seior, si.
 
       See, it has come to my attention, that a lot of people, don't believe in
-      dreams. <br />
+      dreams. 
 
       And see, it's like every morning, when they wake up, they step out of bed
-      empty. <br />
+      empty. 
 
-      This phenomenon is rather sad. <br />
+      This phenomenon is rather sad. 
 
-      But coming to think of it, it has maybe always been like that.<br />
+      But coming to think of it, it has maybe always been like that.
 
-      <br />
 
-      Coming to think about my last dream<br />
+      Coming to think about my last dream
 
-      how blurry it seems.<br />
+      how blurry it seems.
 
-      A lot of unknown shapes and feelings.<br />
+      A lot of unknown shapes and feelings.
 
-      Me and you dressed in jeans.<br />
+      Me and you dressed in jeans.
 
-      <br />
 
-      Stop!<br />
+      Stop!
 
-      <br />
 
-      If i had to define to perfect dream, <br />
+      If i had to define to perfect dream, 
 
-      it would be the one featuring you, you, yes you and you, <br />
+      it would be the one featuring you, you, yes you and you, 
 
-      and you, and you and you, and you and you and you and me! <br />
+      and you, and you and you, and you and you and you and me! 
 
-      The dream of the perfect unity. <br />
+      The dream of the perfect unity. 
 
-      The dream of interplanetary harmony.<br />
+      The dream of interplanetary harmony.
 
-      <br />
 
-      Coming to think about my last dream.<br />
+      Coming to think about my last dream.
 
-      I realize how clear and clean.<br />
+      I realize how clear and clean.
 
-      The souvenir taste like sugar and cream,<br />
+      The souvenir taste like sugar and cream,
 
-      My dream.<br />
+      My dream.
 
-      <br />
 
-      I know kid, i know: these ain't easy goals. <br />
+      I know kid, i know: these ain't easy goals. 
 
-      But there is no use, to loose your hope!<br />
+      But there is no use, to loose your hope!
 
-      <br />
 
-      Si senior, hola!<br /></em>
+      Si senior, hola!
     WOAS: 'https://archive.org/details/BPIST001'
 ---

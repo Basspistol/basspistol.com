@@ -128,14 +128,13 @@ native:
         language: eng
         description: lyrics
         text: |-
-          <em>Oh Marie,<br />
-          Janne ar pa min hjarna.<br />
-          Han vet precis,<br />
-          Hur allting ska fungera.<br />
-          Han satter mig i meditation.<br />
-          Min sjal i levitation.<br />
-          Jag svavar upp i det bla,<br />
-          Tack vare det grona...<br /></em>
+          Oh Marie, Janne är på min hjärna.
+          Han vet precis,
+          Hur allting ska fungera.
+          Han sätter mig i meditation.
+          Min själ i levitation
+          Jag svävar upp i det blå
+          Tack vare det gröna...
     - id: WOAS
       value: 'https://archive.org/details/BPIST001'
 quality:
@@ -210,14 +209,13 @@ transformed:
     TRCK: 1/10
     TDRC: '2010-01-01'
     lyrics: |-
-      <em>Oh Marie,<br />
-      Janne ar pa min hjarna.<br />
-      Han vet precis,<br />
-      Hur allting ska fungera.<br />
-      Han satter mig i meditation.<br />
-      Min sjal i levitation.<br />
-      Jag svavar upp i det bla,<br />
-      Tack vare det grona...<br /></em>
+      Oh Marie, Janne är på min hjärna.
+      Han vet precis,
+      Hur allting ska fungera.
+      Han sätter mig i meditation.
+      Min själ i levitation
+      Jag svävar upp i det blå
+      Tack vare det gröna...
     WOAS: 'https://archive.org/details/BPIST001'
 all:
   TCON: Electro Pop
@@ -250,14 +248,13 @@ all:
   TRCK: 1/10
   TDRC: '2010-01-01'
   lyrics: |-
-    <em>Oh Marie,<br />
-    Janne ar pa min hjarna.<br />
-    Han vet precis,<br />
-    Hur allting ska fungera.<br />
-    Han satter mig i meditation.<br />
-    Min sjal i levitation.<br />
-    Jag svavar upp i det bla,<br />
-    Tack vare det grona...<br /></em>
+    Oh Marie, Janne är på min hjärna.
+    Han vet precis,
+    Hur allting ska fungera.
+    Han sätter mig i meditation.
+    Min själ i levitation
+    Jag svävar upp i det blå
+    Tack vare det gröna...
   WOAS: 'https://archive.org/details/BPIST001'
 nextTrack:
   path: >-
@@ -388,51 +385,51 @@ nextTrack:
           language: eng
           description: lyrics
           text: |-
-            <em>get down<br />
-            it's now or never<br />
-            are you like me do you feel the fever?<br />
-            do you also dream of the words all together?<br />
-            of colors , love and of happy for ever?<br />
-            <br />
-            it can't be that hard we just have to work<br />
-            the politicians are all an obvious set of jerks<br />
-            lets challange the nonsense just for a while<br />
-            and later you'll tell me it was worth to try<br />
-            <br />
-            step up<br />
-            take your time<br />
-            but don't be too long you don't want to waste mine<br />
-            and if you don't want to, to me its fine<br />
-            but the present situation wont be that kind<br />
-            <br />
-            they say to let you live they should produce your car<br />
-            but if you ask me i think they go too far<br />
-            if you need ten they'll make 4000 jars<br />
-            and this is the message of the following bars<br />
-            <br />
-            BRIDGE<br />
-            it's all about the money<br />
-            it's all about the flooz<br />
-            it's not about love<br />
-            and it's not about yous<br />
-            it'as all about mass production<br />
-            hyper corruption where your the one to lose<br />
-            so get down stand up<br />
-            lets fight them back<br />
-            we could blow them to hell in a heavy attack<br />
-            push them real hard out of their track<br />
-            brothers and sisters it's of you we lack<br />
-            <br />
-            stand up<br />
-            no time to loose<br />
-            the people of the world is having the blues<br />
-            they tired of being ruled by the everlasting fools<br />
-            it's time we get together on our own set of rules<br />
+            get down
+            it's now or never
+            are you like me do you feel the fever?
+            do you also dream of the words all together?
+            of colors , love and of happy for ever?
 
-            they say we have to bow to get allong with our lifes<br />
-            but that my brother is the fatest of lies<br />
-            they give us some shit and you play the fly<br />
-            do realy like that game of selling and buy?<br /></em>
+            it can't be that hard we just have to work
+            the politicians are all an obvious set of jerks
+            lets challange the nonsense just for a while
+            and later you'll tell me it was worth to try
+
+            step up
+            take your time
+            but don't be too long you don't want to waste mine
+            and if you don't want to, to me its fine
+            but the present situation wont be that kind
+
+            they say to let you live they should produce your car
+            but if you ask me i think they go too far
+            if you need ten they'll make 4000 jars
+            and this is the message of the following bars
+
+            BRIDGE
+            it's all about the money
+            it's all about the flooz
+            it's not about love
+            and it's not about yous
+            it'as all about mass production
+            hyper corruption where your the one to lose
+            so get down stand up
+            lets fight them back
+            we could blow them to hell in a heavy attack
+            push them real hard out of their track
+            brothers and sisters it's of you we lack
+
+            stand up
+            no time to loose
+            the people of the world is having the blues
+            they tired of being ruled by the everlasting fools
+            it's time we get together on our own set of rules
+
+            they say we have to bow to get allong with our lifes
+            but that my brother is the fatest of lies
+            they give us some shit and you play the fly
+            do realy like that game of selling and buy?
       - id: WOAS
         value: 'https://archive.org/details/BPIST001'
   quality:
@@ -507,51 +504,51 @@ nextTrack:
       TRCK: 2/10
       TDRC: '2010-01-01'
       lyrics: |-
-        <em>get down<br />
-        it's now or never<br />
-        are you like me do you feel the fever?<br />
-        do you also dream of the words all together?<br />
-        of colors , love and of happy for ever?<br />
-        <br />
-        it can't be that hard we just have to work<br />
-        the politicians are all an obvious set of jerks<br />
-        lets challange the nonsense just for a while<br />
-        and later you'll tell me it was worth to try<br />
-        <br />
-        step up<br />
-        take your time<br />
-        but don't be too long you don't want to waste mine<br />
-        and if you don't want to, to me its fine<br />
-        but the present situation wont be that kind<br />
-        <br />
-        they say to let you live they should produce your car<br />
-        but if you ask me i think they go too far<br />
-        if you need ten they'll make 4000 jars<br />
-        and this is the message of the following bars<br />
-        <br />
-        BRIDGE<br />
-        it's all about the money<br />
-        it's all about the flooz<br />
-        it's not about love<br />
-        and it's not about yous<br />
-        it'as all about mass production<br />
-        hyper corruption where your the one to lose<br />
-        so get down stand up<br />
-        lets fight them back<br />
-        we could blow them to hell in a heavy attack<br />
-        push them real hard out of their track<br />
-        brothers and sisters it's of you we lack<br />
-        <br />
-        stand up<br />
-        no time to loose<br />
-        the people of the world is having the blues<br />
-        they tired of being ruled by the everlasting fools<br />
-        it's time we get together on our own set of rules<br />
+        get down
+        it's now or never
+        are you like me do you feel the fever?
+        do you also dream of the words all together?
+        of colors , love and of happy for ever?
 
-        they say we have to bow to get allong with our lifes<br />
-        but that my brother is the fatest of lies<br />
-        they give us some shit and you play the fly<br />
-        do realy like that game of selling and buy?<br /></em>
+        it can't be that hard we just have to work
+        the politicians are all an obvious set of jerks
+        lets challange the nonsense just for a while
+        and later you'll tell me it was worth to try
+
+        step up
+        take your time
+        but don't be too long you don't want to waste mine
+        and if you don't want to, to me its fine
+        but the present situation wont be that kind
+
+        they say to let you live they should produce your car
+        but if you ask me i think they go too far
+        if you need ten they'll make 4000 jars
+        and this is the message of the following bars
+
+        BRIDGE
+        it's all about the money
+        it's all about the flooz
+        it's not about love
+        and it's not about yous
+        it'as all about mass production
+        hyper corruption where your the one to lose
+        so get down stand up
+        lets fight them back
+        we could blow them to hell in a heavy attack
+        push them real hard out of their track
+        brothers and sisters it's of you we lack
+
+        stand up
+        no time to loose
+        the people of the world is having the blues
+        they tired of being ruled by the everlasting fools
+        it's time we get together on our own set of rules
+
+        they say we have to bow to get allong with our lifes
+        but that my brother is the fatest of lies
+        they give us some shit and you play the fly
+        do realy like that game of selling and buy?
       WOAS: 'https://archive.org/details/BPIST001'
   all:
     TCON: Electro Pop
@@ -584,51 +581,51 @@ nextTrack:
     TRCK: 2/10
     TDRC: '2010-01-01'
     lyrics: |-
-      <em>get down<br />
-      it's now or never<br />
-      are you like me do you feel the fever?<br />
-      do you also dream of the words all together?<br />
-      of colors , love and of happy for ever?<br />
-      <br />
-      it can't be that hard we just have to work<br />
-      the politicians are all an obvious set of jerks<br />
-      lets challange the nonsense just for a while<br />
-      and later you'll tell me it was worth to try<br />
-      <br />
-      step up<br />
-      take your time<br />
-      but don't be too long you don't want to waste mine<br />
-      and if you don't want to, to me its fine<br />
-      but the present situation wont be that kind<br />
-      <br />
-      they say to let you live they should produce your car<br />
-      but if you ask me i think they go too far<br />
-      if you need ten they'll make 4000 jars<br />
-      and this is the message of the following bars<br />
-      <br />
-      BRIDGE<br />
-      it's all about the money<br />
-      it's all about the flooz<br />
-      it's not about love<br />
-      and it's not about yous<br />
-      it'as all about mass production<br />
-      hyper corruption where your the one to lose<br />
-      so get down stand up<br />
-      lets fight them back<br />
-      we could blow them to hell in a heavy attack<br />
-      push them real hard out of their track<br />
-      brothers and sisters it's of you we lack<br />
-      <br />
-      stand up<br />
-      no time to loose<br />
-      the people of the world is having the blues<br />
-      they tired of being ruled by the everlasting fools<br />
-      it's time we get together on our own set of rules<br />
+      get down
+      it's now or never
+      are you like me do you feel the fever?
+      do you also dream of the words all together?
+      of colors , love and of happy for ever?
 
-      they say we have to bow to get allong with our lifes<br />
-      but that my brother is the fatest of lies<br />
-      they give us some shit and you play the fly<br />
-      do realy like that game of selling and buy?<br /></em>
+      it can't be that hard we just have to work
+      the politicians are all an obvious set of jerks
+      lets challange the nonsense just for a while
+      and later you'll tell me it was worth to try
+
+      step up
+      take your time
+      but don't be too long you don't want to waste mine
+      and if you don't want to, to me its fine
+      but the present situation wont be that kind
+
+      they say to let you live they should produce your car
+      but if you ask me i think they go too far
+      if you need ten they'll make 4000 jars
+      and this is the message of the following bars
+
+      BRIDGE
+      it's all about the money
+      it's all about the flooz
+      it's not about love
+      and it's not about yous
+      it'as all about mass production
+      hyper corruption where your the one to lose
+      so get down stand up
+      lets fight them back
+      we could blow them to hell in a heavy attack
+      push them real hard out of their track
+      brothers and sisters it's of you we lack
+
+      stand up
+      no time to loose
+      the people of the world is having the blues
+      they tired of being ruled by the everlasting fools
+      it's time we get together on our own set of rules
+
+      they say we have to bow to get allong with our lifes
+      but that my brother is the fatest of lies
+      they give us some shit and you play the fly
+      do realy like that game of selling and buy?
     WOAS: 'https://archive.org/details/BPIST001'
 previousTrack:
   path: >-

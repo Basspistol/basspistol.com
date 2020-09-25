@@ -128,63 +128,57 @@ native:
         language: eng
         description: lyrics
         text: >
-          <em>Si seior, si.<br />
+          Si seior, si.
 
           See, it has come to my attention, that a lot of people, don't believe
-          in dreams. <br />
+          in dreams. 
 
           And see, it's like every morning, when they wake up, they step out of
-          bed empty. <br />
+          bed empty. 
 
-          This phenomenon is rather sad. <br />
+          This phenomenon is rather sad. 
 
-          But coming to think of it, it has maybe always been like that.<br />
+          But coming to think of it, it has maybe always been like that.
 
-          <br />
 
-          Coming to think about my last dream<br />
+          Coming to think about my last dream
 
-          how blurry it seems.<br />
+          how blurry it seems.
 
-          A lot of unknown shapes and feelings.<br />
+          A lot of unknown shapes and feelings.
 
-          Me and you dressed in jeans.<br />
+          Me and you dressed in jeans.
 
-          <br />
 
-          Stop!<br />
+          Stop!
 
-          <br />
 
-          If i had to define to perfect dream, <br />
+          If i had to define to perfect dream, 
 
-          it would be the one featuring you, you, yes you and you, <br />
+          it would be the one featuring you, you, yes you and you, 
 
-          and you, and you and you, and you and you and you and me! <br />
+          and you, and you and you, and you and you and you and me! 
 
-          The dream of the perfect unity. <br />
+          The dream of the perfect unity. 
 
-          The dream of interplanetary harmony.<br />
+          The dream of interplanetary harmony.
 
-          <br />
 
-          Coming to think about my last dream.<br />
+          Coming to think about my last dream.
 
-          I realize how clear and clean.<br />
+          I realize how clear and clean.
 
-          The souvenir taste like sugar and cream,<br />
+          The souvenir taste like sugar and cream,
 
-          My dream.<br />
+          My dream.
 
-          <br />
 
-          I know kid, i know: these ain't easy goals. <br />
+          I know kid, i know: these ain't easy goals. 
 
-          But there is no use, to loose your hope!<br />
+          But there is no use, to loose your hope!
 
-          <br />
 
-          Si senior, hola!<br /></em>
+          Si senior, hola!
     - id: WOAS
       value: 'https://archive.org/details/BPIST001'
 quality:
@@ -259,63 +253,57 @@ transformed:
     TRCK: 7/10
     TDRC: '2010-01-01'
     lyrics: >
-      <em>Si seior, si.<br />
+      Si seior, si.
 
       See, it has come to my attention, that a lot of people, don't believe in
-      dreams. <br />
+      dreams. 
 
       And see, it's like every morning, when they wake up, they step out of bed
-      empty. <br />
+      empty. 
 
-      This phenomenon is rather sad. <br />
+      This phenomenon is rather sad. 
 
-      But coming to think of it, it has maybe always been like that.<br />
+      But coming to think of it, it has maybe always been like that.
 
-      <br />
 
-      Coming to think about my last dream<br />
+      Coming to think about my last dream
 
-      how blurry it seems.<br />
+      how blurry it seems.
 
-      A lot of unknown shapes and feelings.<br />
+      A lot of unknown shapes and feelings.
 
-      Me and you dressed in jeans.<br />
+      Me and you dressed in jeans.
 
-      <br />
 
-      Stop!<br />
+      Stop!
 
-      <br />
 
-      If i had to define to perfect dream, <br />
+      If i had to define to perfect dream, 
 
-      it would be the one featuring you, you, yes you and you, <br />
+      it would be the one featuring you, you, yes you and you, 
 
-      and you, and you and you, and you and you and you and me! <br />
+      and you, and you and you, and you and you and you and me! 
 
-      The dream of the perfect unity. <br />
+      The dream of the perfect unity. 
 
-      The dream of interplanetary harmony.<br />
+      The dream of interplanetary harmony.
 
-      <br />
 
-      Coming to think about my last dream.<br />
+      Coming to think about my last dream.
 
-      I realize how clear and clean.<br />
+      I realize how clear and clean.
 
-      The souvenir taste like sugar and cream,<br />
+      The souvenir taste like sugar and cream,
 
-      My dream.<br />
+      My dream.
 
-      <br />
 
-      I know kid, i know: these ain't easy goals. <br />
+      I know kid, i know: these ain't easy goals. 
 
-      But there is no use, to loose your hope!<br />
+      But there is no use, to loose your hope!
 
-      <br />
 
-      Si senior, hola!<br /></em>
+      Si senior, hola!
     WOAS: 'https://archive.org/details/BPIST001'
 all:
   TCON: Electro Pop
@@ -348,63 +336,57 @@ all:
   TRCK: 7/10
   TDRC: '2010-01-01'
   lyrics: >
-    <em>Si seior, si.<br />
+    Si seior, si.
 
     See, it has come to my attention, that a lot of people, don't believe in
-    dreams. <br />
+    dreams. 
 
     And see, it's like every morning, when they wake up, they step out of bed
-    empty. <br />
+    empty. 
 
-    This phenomenon is rather sad. <br />
+    This phenomenon is rather sad. 
 
-    But coming to think of it, it has maybe always been like that.<br />
+    But coming to think of it, it has maybe always been like that.
 
-    <br />
 
-    Coming to think about my last dream<br />
+    Coming to think about my last dream
 
-    how blurry it seems.<br />
+    how blurry it seems.
 
-    A lot of unknown shapes and feelings.<br />
+    A lot of unknown shapes and feelings.
 
-    Me and you dressed in jeans.<br />
+    Me and you dressed in jeans.
 
-    <br />
 
-    Stop!<br />
+    Stop!
 
-    <br />
 
-    If i had to define to perfect dream, <br />
+    If i had to define to perfect dream, 
 
-    it would be the one featuring you, you, yes you and you, <br />
+    it would be the one featuring you, you, yes you and you, 
 
-    and you, and you and you, and you and you and you and me! <br />
+    and you, and you and you, and you and you and you and me! 
 
-    The dream of the perfect unity. <br />
+    The dream of the perfect unity. 
 
-    The dream of interplanetary harmony.<br />
+    The dream of interplanetary harmony.
 
-    <br />
 
-    Coming to think about my last dream.<br />
+    Coming to think about my last dream.
 
-    I realize how clear and clean.<br />
+    I realize how clear and clean.
 
-    The souvenir taste like sugar and cream,<br />
+    The souvenir taste like sugar and cream,
 
-    My dream.<br />
+    My dream.
 
-    <br />
 
-    I know kid, i know: these ain't easy goals. <br />
+    I know kid, i know: these ain't easy goals. 
 
-    But there is no use, to loose your hope!<br />
+    But there is no use, to loose your hope!
 
-    <br />
 
-    Si senior, hola!<br /></em>
+    Si senior, hola!
   WOAS: 'https://archive.org/details/BPIST001'
 nextTrack:
   path: >-
@@ -764,33 +746,33 @@ previousTrack:
           language: eng
           description: lyrics
           text: |
-            <em>REF:<br />
-            Kadnamn Intelligent musik!<br />
-            Greppar i dig hjartat, med hjarn gymnastik!<br />
-            Kadnamn Intelligent musik!<br />
-            Du vet precis som jag, vad du vill ha!<br />
-            Kadnamn Intelligent musik!<br />
-            Du vill att det svanger, du vill att det tanker!<br />
-            Kadnamn Intelligent musik!<br />
-            Sa att livslusten hojs, mot ett billigt projs!<br />
-            Kadnamn Intelligent musik!<br />
-            Du och jag bajby, vi vet vart vi ska!<br />
-            Kadnamn Intelligent musik!<br />
-            Vi tanker oss for och vi vet vad vi gor!<br />
-            <br />
-            Det ar nagonting som saknas i mina alster,<br />
-            Som ett for tidigt foster.<br />
-            Problemet ater upp mig som ett monster.<br />
-            Lyssna pa ditt hjarta, du vet vad du gor.<br />
-            Unga mann sin framtid hor.<br />
-            E-E-E-E-ar D D D#-det-du C# BBBBB BEJBY?<br />
-            <br />
-            REF<br />
-            <br />
-            Om det ar nagonting som jag litar pa,<br />
-            sa ar det kanslan du kann fa,<br />
-            Mig att kanna, mig att uppleva,<br />
-            Mig att dela, med mig till alla dom andra.<br /></em>
+            REF:
+            Kadnamn Intelligent musik!
+            Greppar i dig hjartat, med hjarn gymnastik!
+            Kadnamn Intelligent musik!
+            Du vet precis som jag, vad du vill ha!
+            Kadnamn Intelligent musik!
+            Du vill att det svanger, du vill att det tanker!
+            Kadnamn Intelligent musik!
+            Sa att livslusten hojs, mot ett billigt projs!
+            Kadnamn Intelligent musik!
+            Du och jag bajby, vi vet vart vi ska!
+            Kadnamn Intelligent musik!
+            Vi tanker oss for och vi vet vad vi gor!
+
+            Det ar nagonting som saknas i mina alster,
+            Som ett for tidigt foster.
+            Problemet ater upp mig som ett monster.
+            Lyssna pa ditt hjarta, du vet vad du gor.
+            Unga mann sin framtid hor.
+            E-E-E-E-ar D D D#-det-du C# BBBBB BEJBY?
+
+            REF
+
+            Om det ar nagonting som jag litar pa,
+            sa ar det kanslan du kann fa,
+            Mig att kanna, mig att uppleva,
+            Mig att dela, med mig till alla dom andra.
       - id: WOAS
         value: 'https://archive.org/details/BPIST001'
   quality:
@@ -865,33 +847,33 @@ previousTrack:
       TRCK: 6/10
       TDRC: '2010-01-01'
       lyrics: |
-        <em>REF:<br />
-        Kadnamn Intelligent musik!<br />
-        Greppar i dig hjartat, med hjarn gymnastik!<br />
-        Kadnamn Intelligent musik!<br />
-        Du vet precis som jag, vad du vill ha!<br />
-        Kadnamn Intelligent musik!<br />
-        Du vill att det svanger, du vill att det tanker!<br />
-        Kadnamn Intelligent musik!<br />
-        Sa att livslusten hojs, mot ett billigt projs!<br />
-        Kadnamn Intelligent musik!<br />
-        Du och jag bajby, vi vet vart vi ska!<br />
-        Kadnamn Intelligent musik!<br />
-        Vi tanker oss for och vi vet vad vi gor!<br />
-        <br />
-        Det ar nagonting som saknas i mina alster,<br />
-        Som ett for tidigt foster.<br />
-        Problemet ater upp mig som ett monster.<br />
-        Lyssna pa ditt hjarta, du vet vad du gor.<br />
-        Unga mann sin framtid hor.<br />
-        E-E-E-E-ar D D D#-det-du C# BBBBB BEJBY?<br />
-        <br />
-        REF<br />
-        <br />
-        Om det ar nagonting som jag litar pa,<br />
-        sa ar det kanslan du kann fa,<br />
-        Mig att kanna, mig att uppleva,<br />
-        Mig att dela, med mig till alla dom andra.<br /></em>
+        REF:
+        Kadnamn Intelligent musik!
+        Greppar i dig hjartat, med hjarn gymnastik!
+        Kadnamn Intelligent musik!
+        Du vet precis som jag, vad du vill ha!
+        Kadnamn Intelligent musik!
+        Du vill att det svanger, du vill att det tanker!
+        Kadnamn Intelligent musik!
+        Sa att livslusten hojs, mot ett billigt projs!
+        Kadnamn Intelligent musik!
+        Du och jag bajby, vi vet vart vi ska!
+        Kadnamn Intelligent musik!
+        Vi tanker oss for och vi vet vad vi gor!
+
+        Det ar nagonting som saknas i mina alster,
+        Som ett for tidigt foster.
+        Problemet ater upp mig som ett monster.
+        Lyssna pa ditt hjarta, du vet vad du gor.
+        Unga mann sin framtid hor.
+        E-E-E-E-ar D D D#-det-du C# BBBBB BEJBY?
+
+        REF
+
+        Om det ar nagonting som jag litar pa,
+        sa ar det kanslan du kann fa,
+        Mig att kanna, mig att uppleva,
+        Mig att dela, med mig till alla dom andra.
       WOAS: 'https://archive.org/details/BPIST001'
   all:
     TCON: Electro Pop
@@ -924,32 +906,32 @@ previousTrack:
     TRCK: 6/10
     TDRC: '2010-01-01'
     lyrics: |
-      <em>REF:<br />
-      Kadnamn Intelligent musik!<br />
-      Greppar i dig hjartat, med hjarn gymnastik!<br />
-      Kadnamn Intelligent musik!<br />
-      Du vet precis som jag, vad du vill ha!<br />
-      Kadnamn Intelligent musik!<br />
-      Du vill att det svanger, du vill att det tanker!<br />
-      Kadnamn Intelligent musik!<br />
-      Sa att livslusten hojs, mot ett billigt projs!<br />
-      Kadnamn Intelligent musik!<br />
-      Du och jag bajby, vi vet vart vi ska!<br />
-      Kadnamn Intelligent musik!<br />
-      Vi tanker oss for och vi vet vad vi gor!<br />
-      <br />
-      Det ar nagonting som saknas i mina alster,<br />
-      Som ett for tidigt foster.<br />
-      Problemet ater upp mig som ett monster.<br />
-      Lyssna pa ditt hjarta, du vet vad du gor.<br />
-      Unga mann sin framtid hor.<br />
-      E-E-E-E-ar D D D#-det-du C# BBBBB BEJBY?<br />
-      <br />
-      REF<br />
-      <br />
-      Om det ar nagonting som jag litar pa,<br />
-      sa ar det kanslan du kann fa,<br />
-      Mig att kanna, mig att uppleva,<br />
-      Mig att dela, med mig till alla dom andra.<br /></em>
+      REF:
+      Kadnamn Intelligent musik!
+      Greppar i dig hjartat, med hjarn gymnastik!
+      Kadnamn Intelligent musik!
+      Du vet precis som jag, vad du vill ha!
+      Kadnamn Intelligent musik!
+      Du vill att det svanger, du vill att det tanker!
+      Kadnamn Intelligent musik!
+      Sa att livslusten hojs, mot ett billigt projs!
+      Kadnamn Intelligent musik!
+      Du och jag bajby, vi vet vart vi ska!
+      Kadnamn Intelligent musik!
+      Vi tanker oss for och vi vet vad vi gor!
+
+      Det ar nagonting som saknas i mina alster,
+      Som ett for tidigt foster.
+      Problemet ater upp mig som ett monster.
+      Lyssna pa ditt hjarta, du vet vad du gor.
+      Unga mann sin framtid hor.
+      E-E-E-E-ar D D D#-det-du C# BBBBB BEJBY?
+
+      REF
+
+      Om det ar nagonting som jag litar pa,
+      sa ar det kanslan du kann fa,
+      Mig att kanna, mig att uppleva,
+      Mig att dela, med mig till alla dom andra.
     WOAS: 'https://archive.org/details/BPIST001'
 ---

@@ -128,58 +128,54 @@ native:
         language: eng
         description: lyrics
         text: >-
-          <em>Varva ner, satt dig i soffan.<br />
+          Varva ner, satt dig i soffan.
 
-          Morgonen ar ung, atminstande det ar du.<br />
+          Morgonen ar ung, atminstande det ar du.
 
-          Vi har sprungit natten.<br />
+          Vi har sprungit natten.
 
-          Som fisken och katten.<br />
+          Som fisken och katten.
 
-          Vi har fangat tid, och dansat med Fan.<br />
+          Vi har fangat tid, och dansat med Fan.
 
-          <br />
 
-          Sa Varva ner med mig<br />
+          Sa Varva ner med mig
 
-          Varva ner.<br />
+          Varva ner.
 
-          <br />
 
-          Ta en macka, ingen lever pastej..?<br />
+          Ta en macka, ingen lever pastej..?
 
-          Till Open Core och racka, Till kasorskan saga Hej!<br />
+          Till Open Core och racka, Till kasorskan saga Hej!
 
           Vad fin i haret hon var, ah hon sag sa himla gla', hon dansa sa himla
-          bra...<br />
+          bra...
 
           Oj! Ja, men dar star ju du och jag. He! Ah vad bra, du ser ju annu
-          lika bra, du ser ju forfan annu, annu mer bra, du ser sa himmla
-          bra.<br />
+          lika bra, du ser ju forfan annu, annu mer bra, du ser sa himmla bra.
 
-          Ut med dig vill jag ga<br />
+          Ut med dig vill jag ga
 
-          Kom ut med mig, sa kom ut med mig.<br />
+          Kom ut med mig, sa kom ut med mig.
 
-          <br />
 
-          Kom och satt dig i soffan.<br />
+          Kom och satt dig i soffan.
 
-          Natten har gatt over.<br />
+          Natten har gatt over.
 
-          Vi har ost sa det blir over.<br />
+          Vi har ost sa det blir over.
 
-          Ta av dig rovhjalmen nu for fan,<br />
+          Ta av dig rovhjalmen nu for fan,
 
-          Det finns inte djavel forfan,<br />
+          Det finns inte djavel forfan,
 
-          Det finns inte en djavels hjarta att bullta pa.<br />
+          Det finns inte en djavels hjarta att bullta pa.
 
-          Vi lat dom alla ga, pa efter-for-efterfesten,<br />
+          Vi lat dom alla ga, pa efter-for-efterfesten,
 
-          Dar som alla ingen var.<br />
+          Dar som alla ingen var.
 
-          Ta av dig rovhjalmen.<br /></em>
+          Ta av dig rovhjalmen.
     - id: WOAS
       value: 'https://archive.org/details/BPIST001'
 quality:
@@ -254,57 +250,54 @@ transformed:
     TRCK: 3/10
     TDRC: '2010-01-01'
     lyrics: >-
-      <em>Varva ner, satt dig i soffan.<br />
+      Varva ner, satt dig i soffan.
 
-      Morgonen ar ung, atminstande det ar du.<br />
+      Morgonen ar ung, atminstande det ar du.
 
-      Vi har sprungit natten.<br />
+      Vi har sprungit natten.
 
-      Som fisken och katten.<br />
+      Som fisken och katten.
 
-      Vi har fangat tid, och dansat med Fan.<br />
+      Vi har fangat tid, och dansat med Fan.
 
-      <br />
 
-      Sa Varva ner med mig<br />
+      Sa Varva ner med mig
 
-      Varva ner.<br />
+      Varva ner.
 
-      <br />
 
-      Ta en macka, ingen lever pastej..?<br />
+      Ta en macka, ingen lever pastej..?
 
-      Till Open Core och racka, Till kasorskan saga Hej!<br />
+      Till Open Core och racka, Till kasorskan saga Hej!
 
       Vad fin i haret hon var, ah hon sag sa himla gla', hon dansa sa himla
-      bra...<br />
+      bra...
 
       Oj! Ja, men dar star ju du och jag. He! Ah vad bra, du ser ju annu lika
-      bra, du ser ju forfan annu, annu mer bra, du ser sa himmla bra.<br />
+      bra, du ser ju forfan annu, annu mer bra, du ser sa himmla bra.
 
-      Ut med dig vill jag ga<br />
+      Ut med dig vill jag ga
 
-      Kom ut med mig, sa kom ut med mig.<br />
+      Kom ut med mig, sa kom ut med mig.
 
-      <br />
 
-      Kom och satt dig i soffan.<br />
+      Kom och satt dig i soffan.
 
-      Natten har gatt over.<br />
+      Natten har gatt over.
 
-      Vi har ost sa det blir over.<br />
+      Vi har ost sa det blir over.
 
-      Ta av dig rovhjalmen nu for fan,<br />
+      Ta av dig rovhjalmen nu for fan,
 
-      Det finns inte djavel forfan,<br />
+      Det finns inte djavel forfan,
 
-      Det finns inte en djavels hjarta att bullta pa.<br />
+      Det finns inte en djavels hjarta att bullta pa.
 
-      Vi lat dom alla ga, pa efter-for-efterfesten,<br />
+      Vi lat dom alla ga, pa efter-for-efterfesten,
 
-      Dar som alla ingen var.<br />
+      Dar som alla ingen var.
 
-      Ta av dig rovhjalmen.<br /></em>
+      Ta av dig rovhjalmen.
     WOAS: 'https://archive.org/details/BPIST001'
 all:
   TCON: Electro Pop
@@ -337,57 +330,53 @@ all:
   TRCK: 3/10
   TDRC: '2010-01-01'
   lyrics: >-
-    <em>Varva ner, satt dig i soffan.<br />
+    Varva ner, satt dig i soffan.
 
-    Morgonen ar ung, atminstande det ar du.<br />
+    Morgonen ar ung, atminstande det ar du.
 
-    Vi har sprungit natten.<br />
+    Vi har sprungit natten.
 
-    Som fisken och katten.<br />
+    Som fisken och katten.
 
-    Vi har fangat tid, och dansat med Fan.<br />
+    Vi har fangat tid, och dansat med Fan.
 
-    <br />
 
-    Sa Varva ner med mig<br />
+    Sa Varva ner med mig
 
-    Varva ner.<br />
+    Varva ner.
 
-    <br />
 
-    Ta en macka, ingen lever pastej..?<br />
+    Ta en macka, ingen lever pastej..?
 
-    Till Open Core och racka, Till kasorskan saga Hej!<br />
+    Till Open Core och racka, Till kasorskan saga Hej!
 
-    Vad fin i haret hon var, ah hon sag sa himla gla', hon dansa sa himla
-    bra...<br />
+    Vad fin i haret hon var, ah hon sag sa himla gla', hon dansa sa himla bra...
 
     Oj! Ja, men dar star ju du och jag. He! Ah vad bra, du ser ju annu lika bra,
-    du ser ju forfan annu, annu mer bra, du ser sa himmla bra.<br />
+    du ser ju forfan annu, annu mer bra, du ser sa himmla bra.
 
-    Ut med dig vill jag ga<br />
+    Ut med dig vill jag ga
 
-    Kom ut med mig, sa kom ut med mig.<br />
+    Kom ut med mig, sa kom ut med mig.
 
-    <br />
 
-    Kom och satt dig i soffan.<br />
+    Kom och satt dig i soffan.
 
-    Natten har gatt over.<br />
+    Natten har gatt over.
 
-    Vi har ost sa det blir over.<br />
+    Vi har ost sa det blir over.
 
-    Ta av dig rovhjalmen nu for fan,<br />
+    Ta av dig rovhjalmen nu for fan,
 
-    Det finns inte djavel forfan,<br />
+    Det finns inte djavel forfan,
 
-    Det finns inte en djavels hjarta att bullta pa.<br />
+    Det finns inte en djavels hjarta att bullta pa.
 
-    Vi lat dom alla ga, pa efter-for-efterfesten,<br />
+    Vi lat dom alla ga, pa efter-for-efterfesten,
 
-    Dar som alla ingen var.<br />
+    Dar som alla ingen var.
 
-    Ta av dig rovhjalmen.<br /></em>
+    Ta av dig rovhjalmen.
   WOAS: 'https://archive.org/details/BPIST001'
 nextTrack:
   path: >-
@@ -518,26 +507,26 @@ nextTrack:
           language: eng
           description: lyrics
           text: |-
-            <em>It's all too late now,<br />
-            As you are screaming out my name.<br />
-            Too late to change now,<br />
-            Or change my way,<br />
-            As it's time to say good bye.<br />
-            Please won't you stay for just a while?<br />
-            Never been broken hearted before!<br />
-            Go ahead love,<br />
-            Take my heart.<br />
-            Like so many times you've done it before.<br />
-            <br />
-            Shoe box of memories is all that i keep.<br />
-            Can't even look at your face.<br />
-            It's all to late now.<br />
-            Do i have to change my way?<br />
-            As you are screaming out my name...<br />
-            <br />
-            I can see the stars, see them pass me by.<br />
-            Another hopeless night, for ever hopeless now.<br />
-            I can see the stars bass me by.<br /></em>
+            It's all too late now,
+            As you are screaming out my name.
+            Too late to change now,
+            Or change my way,
+            As it's time to say good bye.
+            Please won't you stay for just a while?
+            Never been broken hearted before!
+            Go ahead love,
+            Take my heart.
+            Like so many times you've done it before.
+
+            Shoe box of memories is all that i keep.
+            Can't even look at your face.
+            It's all to late now.
+            Do i have to change my way?
+            As you are screaming out my name...
+
+            I can see the stars, see them pass me by.
+            Another hopeless night, for ever hopeless now.
+            I can see the stars bass me by.
       - id: WOAS
         value: 'https://archive.org/details/BPIST001'
   quality:
@@ -612,26 +601,26 @@ nextTrack:
       TRCK: 4/10
       TDRC: '2010-01-01'
       lyrics: |-
-        <em>It's all too late now,<br />
-        As you are screaming out my name.<br />
-        Too late to change now,<br />
-        Or change my way,<br />
-        As it's time to say good bye.<br />
-        Please won't you stay for just a while?<br />
-        Never been broken hearted before!<br />
-        Go ahead love,<br />
-        Take my heart.<br />
-        Like so many times you've done it before.<br />
-        <br />
-        Shoe box of memories is all that i keep.<br />
-        Can't even look at your face.<br />
-        It's all to late now.<br />
-        Do i have to change my way?<br />
-        As you are screaming out my name...<br />
-        <br />
-        I can see the stars, see them pass me by.<br />
-        Another hopeless night, for ever hopeless now.<br />
-        I can see the stars bass me by.<br /></em>
+        It's all too late now,
+        As you are screaming out my name.
+        Too late to change now,
+        Or change my way,
+        As it's time to say good bye.
+        Please won't you stay for just a while?
+        Never been broken hearted before!
+        Go ahead love,
+        Take my heart.
+        Like so many times you've done it before.
+
+        Shoe box of memories is all that i keep.
+        Can't even look at your face.
+        It's all to late now.
+        Do i have to change my way?
+        As you are screaming out my name...
+
+        I can see the stars, see them pass me by.
+        Another hopeless night, for ever hopeless now.
+        I can see the stars bass me by.
       WOAS: 'https://archive.org/details/BPIST001'
   all:
     TCON: Electro Pop
@@ -664,26 +653,26 @@ nextTrack:
     TRCK: 4/10
     TDRC: '2010-01-01'
     lyrics: |-
-      <em>It's all too late now,<br />
-      As you are screaming out my name.<br />
-      Too late to change now,<br />
-      Or change my way,<br />
-      As it's time to say good bye.<br />
-      Please won't you stay for just a while?<br />
-      Never been broken hearted before!<br />
-      Go ahead love,<br />
-      Take my heart.<br />
-      Like so many times you've done it before.<br />
-      <br />
-      Shoe box of memories is all that i keep.<br />
-      Can't even look at your face.<br />
-      It's all to late now.<br />
-      Do i have to change my way?<br />
-      As you are screaming out my name...<br />
-      <br />
-      I can see the stars, see them pass me by.<br />
-      Another hopeless night, for ever hopeless now.<br />
-      I can see the stars bass me by.<br /></em>
+      It's all too late now,
+      As you are screaming out my name.
+      Too late to change now,
+      Or change my way,
+      As it's time to say good bye.
+      Please won't you stay for just a while?
+      Never been broken hearted before!
+      Go ahead love,
+      Take my heart.
+      Like so many times you've done it before.
+
+      Shoe box of memories is all that i keep.
+      Can't even look at your face.
+      It's all to late now.
+      Do i have to change my way?
+      As you are screaming out my name...
+
+      I can see the stars, see them pass me by.
+      Another hopeless night, for ever hopeless now.
+      I can see the stars bass me by.
     WOAS: 'https://archive.org/details/BPIST001'
 previousTrack:
   path: >-
@@ -814,51 +803,51 @@ previousTrack:
           language: eng
           description: lyrics
           text: |-
-            <em>get down<br />
-            it's now or never<br />
-            are you like me do you feel the fever?<br />
-            do you also dream of the words all together?<br />
-            of colors , love and of happy for ever?<br />
-            <br />
-            it can't be that hard we just have to work<br />
-            the politicians are all an obvious set of jerks<br />
-            lets challange the nonsense just for a while<br />
-            and later you'll tell me it was worth to try<br />
-            <br />
-            step up<br />
-            take your time<br />
-            but don't be too long you don't want to waste mine<br />
-            and if you don't want to, to me its fine<br />
-            but the present situation wont be that kind<br />
-            <br />
-            they say to let you live they should produce your car<br />
-            but if you ask me i think they go too far<br />
-            if you need ten they'll make 4000 jars<br />
-            and this is the message of the following bars<br />
-            <br />
-            BRIDGE<br />
-            it's all about the money<br />
-            it's all about the flooz<br />
-            it's not about love<br />
-            and it's not about yous<br />
-            it'as all about mass production<br />
-            hyper corruption where your the one to lose<br />
-            so get down stand up<br />
-            lets fight them back<br />
-            we could blow them to hell in a heavy attack<br />
-            push them real hard out of their track<br />
-            brothers and sisters it's of you we lack<br />
-            <br />
-            stand up<br />
-            no time to loose<br />
-            the people of the world is having the blues<br />
-            they tired of being ruled by the everlasting fools<br />
-            it's time we get together on our own set of rules<br />
+            get down
+            it's now or never
+            are you like me do you feel the fever?
+            do you also dream of the words all together?
+            of colors , love and of happy for ever?
 
-            they say we have to bow to get allong with our lifes<br />
-            but that my brother is the fatest of lies<br />
-            they give us some shit and you play the fly<br />
-            do realy like that game of selling and buy?<br /></em>
+            it can't be that hard we just have to work
+            the politicians are all an obvious set of jerks
+            lets challange the nonsense just for a while
+            and later you'll tell me it was worth to try
+
+            step up
+            take your time
+            but don't be too long you don't want to waste mine
+            and if you don't want to, to me its fine
+            but the present situation wont be that kind
+
+            they say to let you live they should produce your car
+            but if you ask me i think they go too far
+            if you need ten they'll make 4000 jars
+            and this is the message of the following bars
+
+            BRIDGE
+            it's all about the money
+            it's all about the flooz
+            it's not about love
+            and it's not about yous
+            it'as all about mass production
+            hyper corruption where your the one to lose
+            so get down stand up
+            lets fight them back
+            we could blow them to hell in a heavy attack
+            push them real hard out of their track
+            brothers and sisters it's of you we lack
+
+            stand up
+            no time to loose
+            the people of the world is having the blues
+            they tired of being ruled by the everlasting fools
+            it's time we get together on our own set of rules
+
+            they say we have to bow to get allong with our lifes
+            but that my brother is the fatest of lies
+            they give us some shit and you play the fly
+            do realy like that game of selling and buy?
       - id: WOAS
         value: 'https://archive.org/details/BPIST001'
   quality:
@@ -933,51 +922,51 @@ previousTrack:
       TRCK: 2/10
       TDRC: '2010-01-01'
       lyrics: |-
-        <em>get down<br />
-        it's now or never<br />
-        are you like me do you feel the fever?<br />
-        do you also dream of the words all together?<br />
-        of colors , love and of happy for ever?<br />
-        <br />
-        it can't be that hard we just have to work<br />
-        the politicians are all an obvious set of jerks<br />
-        lets challange the nonsense just for a while<br />
-        and later you'll tell me it was worth to try<br />
-        <br />
-        step up<br />
-        take your time<br />
-        but don't be too long you don't want to waste mine<br />
-        and if you don't want to, to me its fine<br />
-        but the present situation wont be that kind<br />
-        <br />
-        they say to let you live they should produce your car<br />
-        but if you ask me i think they go too far<br />
-        if you need ten they'll make 4000 jars<br />
-        and this is the message of the following bars<br />
-        <br />
-        BRIDGE<br />
-        it's all about the money<br />
-        it's all about the flooz<br />
-        it's not about love<br />
-        and it's not about yous<br />
-        it'as all about mass production<br />
-        hyper corruption where your the one to lose<br />
-        so get down stand up<br />
-        lets fight them back<br />
-        we could blow them to hell in a heavy attack<br />
-        push them real hard out of their track<br />
-        brothers and sisters it's of you we lack<br />
-        <br />
-        stand up<br />
-        no time to loose<br />
-        the people of the world is having the blues<br />
-        they tired of being ruled by the everlasting fools<br />
-        it's time we get together on our own set of rules<br />
+        get down
+        it's now or never
+        are you like me do you feel the fever?
+        do you also dream of the words all together?
+        of colors , love and of happy for ever?
 
-        they say we have to bow to get allong with our lifes<br />
-        but that my brother is the fatest of lies<br />
-        they give us some shit and you play the fly<br />
-        do realy like that game of selling and buy?<br /></em>
+        it can't be that hard we just have to work
+        the politicians are all an obvious set of jerks
+        lets challange the nonsense just for a while
+        and later you'll tell me it was worth to try
+
+        step up
+        take your time
+        but don't be too long you don't want to waste mine
+        and if you don't want to, to me its fine
+        but the present situation wont be that kind
+
+        they say to let you live they should produce your car
+        but if you ask me i think they go too far
+        if you need ten they'll make 4000 jars
+        and this is the message of the following bars
+
+        BRIDGE
+        it's all about the money
+        it's all about the flooz
+        it's not about love
+        and it's not about yous
+        it'as all about mass production
+        hyper corruption where your the one to lose
+        so get down stand up
+        lets fight them back
+        we could blow them to hell in a heavy attack
+        push them real hard out of their track
+        brothers and sisters it's of you we lack
+
+        stand up
+        no time to loose
+        the people of the world is having the blues
+        they tired of being ruled by the everlasting fools
+        it's time we get together on our own set of rules
+
+        they say we have to bow to get allong with our lifes
+        but that my brother is the fatest of lies
+        they give us some shit and you play the fly
+        do realy like that game of selling and buy?
       WOAS: 'https://archive.org/details/BPIST001'
   all:
     TCON: Electro Pop
@@ -1010,50 +999,50 @@ previousTrack:
     TRCK: 2/10
     TDRC: '2010-01-01'
     lyrics: |-
-      <em>get down<br />
-      it's now or never<br />
-      are you like me do you feel the fever?<br />
-      do you also dream of the words all together?<br />
-      of colors , love and of happy for ever?<br />
-      <br />
-      it can't be that hard we just have to work<br />
-      the politicians are all an obvious set of jerks<br />
-      lets challange the nonsense just for a while<br />
-      and later you'll tell me it was worth to try<br />
-      <br />
-      step up<br />
-      take your time<br />
-      but don't be too long you don't want to waste mine<br />
-      and if you don't want to, to me its fine<br />
-      but the present situation wont be that kind<br />
-      <br />
-      they say to let you live they should produce your car<br />
-      but if you ask me i think they go too far<br />
-      if you need ten they'll make 4000 jars<br />
-      and this is the message of the following bars<br />
-      <br />
-      BRIDGE<br />
-      it's all about the money<br />
-      it's all about the flooz<br />
-      it's not about love<br />
-      and it's not about yous<br />
-      it'as all about mass production<br />
-      hyper corruption where your the one to lose<br />
-      so get down stand up<br />
-      lets fight them back<br />
-      we could blow them to hell in a heavy attack<br />
-      push them real hard out of their track<br />
-      brothers and sisters it's of you we lack<br />
-      <br />
-      stand up<br />
-      no time to loose<br />
-      the people of the world is having the blues<br />
-      they tired of being ruled by the everlasting fools<br />
-      it's time we get together on our own set of rules<br />
+      get down
+      it's now or never
+      are you like me do you feel the fever?
+      do you also dream of the words all together?
+      of colors , love and of happy for ever?
 
-      they say we have to bow to get allong with our lifes<br />
-      but that my brother is the fatest of lies<br />
-      they give us some shit and you play the fly<br />
-      do realy like that game of selling and buy?<br /></em>
+      it can't be that hard we just have to work
+      the politicians are all an obvious set of jerks
+      lets challange the nonsense just for a while
+      and later you'll tell me it was worth to try
+
+      step up
+      take your time
+      but don't be too long you don't want to waste mine
+      and if you don't want to, to me its fine
+      but the present situation wont be that kind
+
+      they say to let you live they should produce your car
+      but if you ask me i think they go too far
+      if you need ten they'll make 4000 jars
+      and this is the message of the following bars
+
+      BRIDGE
+      it's all about the money
+      it's all about the flooz
+      it's not about love
+      and it's not about yous
+      it'as all about mass production
+      hyper corruption where your the one to lose
+      so get down stand up
+      lets fight them back
+      we could blow them to hell in a heavy attack
+      push them real hard out of their track
+      brothers and sisters it's of you we lack
+
+      stand up
+      no time to loose
+      the people of the world is having the blues
+      they tired of being ruled by the everlasting fools
+      it's time we get together on our own set of rules
+
+      they say we have to bow to get allong with our lifes
+      but that my brother is the fatest of lies
+      they give us some shit and you play the fly
+      do realy like that game of selling and buy?
     WOAS: 'https://archive.org/details/BPIST001'
 ---
