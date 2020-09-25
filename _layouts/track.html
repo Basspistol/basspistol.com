@@ -69,7 +69,14 @@ layout: default
       {{ page.all.UNSYNCEDLYRICS | newline_to_br }}
     </p>
   </div>
+  {% elsif page.all.lyrics %}
+  <div class="info">
+    <p>
+      {{ page.all.lyrics| newline_to_br }}
+    </p>
+  </div>
   {% endif %}
+  
   <p>
     {{ page.all.Comment }}
   </p>
