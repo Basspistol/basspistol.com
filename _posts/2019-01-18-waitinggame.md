@@ -11,11 +11,38 @@ image: '/assets/img/waitinggame.jpg'
 download: ''
 link: 'https://sakrecoer.com/waitinggame/'
 album: waiting-game
-check_this_if_cannot_be_bought: true
+check_this_if_cannot_be_bought: false
 stores:
-  - name:
-    url: 
-    icon: 
+  - name: Bandcamp
+    url: 'https://shop.basspistol.com/album/waiting-game'
+    icon: fa-bandcamp
+    download: true
+  - name: Spotify
+    url: 'https://open.spotify.com/album/0jmlTGAr76PIlUZ3NDBiuu'
+    icon: fa-spotify
+    download: false
+  - name: Apple Music
+    url: >-
+      https://itunes.apple.com/us/album/waiting-game/1448186695
+    img:
+    icon: fa-apple
+    download: false
+  - name: Google Play
+    url: >-
+      https://play.google.com/store/music/album/Sakrecoer_Waiting_Game?id=B3oqhumfkfsvetgjpbal7aktufq
+    icon: fa-google-play
+    download: false
+  - name: Deezer
+    url: 'https://www.deezer.com/us/album/83136922'
+    icon: fa-creative-commons-sampling
+    download: false
+  - name: Napster
+    url: 'https://us.napster.com/artist/sakrecoer/album/waiting-game-explicit'
+    icon: fa-napster
+    download: false
+  - name: Youtube
+    url: https://www.youtube.com/watch?v=GBdvlC46sto&list=OLAK5uy_kkijDlzTf-gqZHGoQ_iNK1sN01ALpsBNU
+    icon: fa-youtube
     download: false
 ---
 The shocking news this morning that Sakrecoer puts a record out on Spotofy and iFumes! 
