@@ -1,4 +1,10 @@
 ---
+title: 404
+description: >-
+  Wrong page.
+image: /images/frankyfresco-video.jpg
+layout: 404page
+sitemap: false
 ---
 <!DOCTYPE HTML>
 <!--
@@ -8,15 +14,15 @@
 <html lang="{{ site.lang }}">
 <head>
 {% include seo.html %}
-{% include relBase.html %}
+
 <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes" />
-<link rel="stylesheet" href="{{ relBase }}/assets/css/all.min.css" />
-<link rel="stylesheet" href="{{ relBase }}/assets/css/colors-20200925-r1.css" />
-<link rel="stylesheet" href="{{ relBase }}/assets/css/main-20200925-r1.css" />
+<link rel="stylesheet" href="/assets/css/all.min.css" />
+<link rel="stylesheet" href="/assets/css/colors-20200925-r1.css" />
+<link rel="stylesheet" href="/assets/css/main-20200925-r1.css" />
 <link rel="apple-touch-icon" href="{{ site.url }}/apple-touch-icon.png">
 <link rel="icon" type="image/png" href="{{ site.url }}/touch-icon.png" sizes="192x192">
 <link rel="shortcut icon" href="{{ site.url }}{{ site.icon }}" type="image/png" />
-<noscript><link rel="stylesheet" href="{{ relBase }}/assets/css/noscripts-20200925-r1.css" /></noscript>
+<noscript><link rel="stylesheet" href="/assets/css/noscripts-20200925-r1.css" /></noscript>
 
 <meta name="theme-color" content="{{ site.data.colors.bg }}"/>
 
@@ -29,7 +35,14 @@
 
 <div id="main-wrapper">
 
-{{ content }}
+
+  {% include header.html %}
+  <section class="info" id="read">
+    <div class="info-pages">
+      {{ content }}
+    </div>
+  </section>
+  
 <!-- Footer -->
 {% unless page.collection == 'tracks' or page.url == '/radio/' %}
 {% include footer.html %}
