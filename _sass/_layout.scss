@@ -30,6 +30,7 @@ body {
 .wrapper {
   margin: 20px 40px;
 }
+
 .hero {
   display: flex;
   flex-wrap: wrap;
@@ -40,16 +41,18 @@ body {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  padding: 40px;
+  padding: 0;
   position: relative;
-  min-height: 80vh;
+  min-height: 100vh;
   width: 100vw;
 
   .textcontainer {
-    background-color: var(--bg-alt);
+    background: var(--bg-alt);
+    background: linear-gradient(33deg, transparent 0%, var(--bg) 90%, transparent 90%);
     border-radius: var(--border-radius);
-    max-width: 700px;
-    padding: 20px 20px 40px 20px;
+    max-width: var(--max-width);
+    padding: 0px 40px 40px 40px;
+    
   }
 
   div {
@@ -57,7 +60,7 @@ body {
     h1,
     p {
       flex: 1 0 100%;
-      width: 100%;
+
       z-index: 10;
       color: var(--fg);
       max-width: var(--max-width);
@@ -75,16 +78,16 @@ body {
     width: 100%;
     height: 100%;
     background-image: url("../img/vignette.svg");
-    background-size: 240px;
+    background-size: 960px;
     background-repeat: repeat-x;
     background-position: bottom;
     z-index: 1;
     h4 {
       width: 90vw;
-      height: auto;
-      min-height: 100px;
-      line-height: 0.85em;
-      letter-spacing: -0.08em;
+      /* height: auto; */
+      /* min-height: 100px; */
+      line-height: 1.011em;
+      letter-spacing: -0em;
       color: var(--bg);
       font-size: 15vw;
       display: inline;
@@ -94,11 +97,67 @@ body {
       bottom: 0;
       transform: rotate(-3deg);
       overflow: hidden;
-      background: -webkit-linear-gradient(90deg, var(--bg) 0%, var(--bg) 56%, var(--bg-alt) 100%);
+      background: -webkit-linear-gradient(90deg, var(--bg) 0%,var(--bg-alt) 100%);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
       filter: blur(1px);
     }
+  }
+  .splash {
+    background-color: transparent;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 40px;
+    align-items: flex-start;
+    max-width: var(--max-width);
+    margin: auto;
+      .description {
+        border-radius: var(--border-radius);
+        background: var(--bg-alt);
+        background: linear-gradient(33deg, var(--bg-alt) 0%, var(--bg) 90%, transparent 90%);
+        > * {
+          margin: 40px !important;
+        }
+        .button {
+          background-image: linear-gradient(228deg, var(--accent1-alt), var(--accent2-alt));
+          background-size: 400% 400%;
+          -webkit-animation: backgroundBlink 2s ease infinite;
+          -moz-animation: backgroundBlink 2s ease infinite;
+          animation: backgroundBlink 2s ease infinite;
+        }
+      }
+    h1, h2 {
+      font-size: 2em;
+    }
+    p, h1, h2, h3, h4 {
+      text-align: left;
+      margin-top: 20px;
+  
+    }
+    h1:first-child {
+      margin-top: 0;
+    }
+    div {
+      max-width: unset;
+      margin: 0;
+      flex: 1 1 300px;
+
+  
+    }
+    .splash-logo {
+      padding: 0;
+      margin: 0;
+    }
+    @media only screen and (max-width: 759px) {
+      div {
+        min-width: 100%;
+        padding: 20px 0;
+      }
+      .splash-logo {
+        padding: 20px 0;
+      }
+    }
+  
   }
 }
 
@@ -109,9 +168,7 @@ section {
   }
   flex: 1 1 100%;
   background-color: var(--bg);
-  -webkit-box-shadow: inset 0px 12px 32px -25px var(--border-alt);
-  -moz-box-shadow: inset 0px 12px 32px -25px var(--border-alt);
-  box-shadow: inset 0px 12px 32px -25px var(--border-alt);
+
   z-index: 2;
   h2 {
     text-align: center;
@@ -134,7 +191,7 @@ footer {
   background-color: var(--fg);
   color: var(--bg);
   background-image: url("../img/vignette-footer.svg");
-  background-size: 400px;
+  background-size: 200px;
   background-repeat: repeat-x;
   background-position: top;
   box-sizing: border-box;
@@ -261,6 +318,7 @@ footer {
 .streambox {
   text-align: center;
   line-height: 2em;
+  padding: 0 40px;
 }
 .streamer {
   max-width: var(--max-width);

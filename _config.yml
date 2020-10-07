@@ -97,12 +97,12 @@ defaults:
           width: 1024
           height: 720
           resize_style: cover
-          uploads_dir: "/images"
+          uploads_dir: "/images/pages"
         content:
           width: 720
           height: 720
           resize_style: cover
-          uploads_dir: "/images"
+          uploads_dir: "/images/pages"
   - scope:
       path: ""
       type: "posts"
@@ -115,11 +115,11 @@ defaults:
           width: 1024
           height: 720
           resize_style: cover
-          uploads_dir: "/images"
+          uploads_dir: "/images/posts"
         content:
           width: 720
           height: 720
           resize_style: cover
-          uploads_dir: "/images"
+          uploads_dir: "/images/posts"
 
 

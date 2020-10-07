@@ -1,13 +1,13 @@
 ---
 layout: track
 path: >-
-  /home/set/git/basspistol/basspistol.com/assets/albums/musical-tourism/2-techno-session-number-1.mp3
+  /mnt/usb32gb/organized-basspistol.media/assets/albums/musical-tourism/2-techno-session-number-1.mp3
 audio: /assets/albums/musical-tourism/2-techno-session-number-1.mp3
 slug: musical-tourism/2-techno-session-number-1
 albumSlug: musical-tourism
 trackSlug: 2-techno-session-number-1
 coverPath: >-
-  /home/set/git/basspistol/basspistol.com/assets/albums/musical-tourism/2-techno-session-number-1.jpeg
+  /mnt/usb32gb/organized-basspistol.media/assets/albums/musical-tourism/2-techno-session-number-1.jpeg
 cover: /assets/albums/musical-tourism/2-techno-session-number-1.jpeg
 format:
   tagTypes:
@@ -230,13 +230,13 @@ all:
   WOAS: 'https://archive.org/details/BPIST002'
 nextTrack:
   path: >-
-    /home/set/git/basspistol/basspistol.com/assets/albums/musical-tourism/3-fasen.mp3
+    /mnt/usb32gb/organized-basspistol.media/assets/albums/musical-tourism/3-fasen.mp3
   audio: /assets/albums/musical-tourism/3-fasen.mp3
   slug: musical-tourism/3-fasen
   albumSlug: musical-tourism
   trackSlug: 3-fasen
   coverPath: >-
-    /home/set/git/basspistol/basspistol.com/assets/albums/musical-tourism/3-fasen.jpeg
+    /mnt/usb32gb/organized-basspistol.media/assets/albums/musical-tourism/3-fasen.jpeg
   cover: /assets/albums/musical-tourism/3-fasen.jpeg
   format:
     tagTypes:
@@ -459,13 +459,13 @@ nextTrack:
     WOAS: 'https://archive.org/details/BPIST002'
 previousTrack:
   path: >-
-    /home/set/git/basspistol/basspistol.com/assets/albums/musical-tourism/1-travel3.mp3
+    /mnt/usb32gb/organized-basspistol.media/assets/albums/musical-tourism/1-travel3.mp3
   audio: /assets/albums/musical-tourism/1-travel3.mp3
   slug: musical-tourism/1-travel3
   albumSlug: musical-tourism
   trackSlug: 1-travel3
   coverPath: >-
-    /home/set/git/basspistol/basspistol.com/assets/albums/musical-tourism/1-travel3.jpeg
+    /mnt/usb32gb/organized-basspistol.media/assets/albums/musical-tourism/1-travel3.jpeg
   cover: /assets/albums/musical-tourism/1-travel3.jpeg
   format:
     tagTypes:

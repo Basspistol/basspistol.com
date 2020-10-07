@@ -7,11 +7,10 @@ author: ''
 category: ''
 album:
 tags: []
-layout: 
-uid: ''
 image: ''
+video_path: 
 download: ''
-link: 
+link: https://setto.basspistol.com/unmet-dependencies/#play
 check_this_if_cannot_be_bought: false
 stores:
   - name:

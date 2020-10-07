@@ -31,7 +31,9 @@ a:hover {
   text-decoration-style: wavy;
   text-decoration-color: unset;
 }
-
+.center {
+  text-align: center;
+}
 // Buttons
 
 .button {
@@ -303,52 +305,9 @@ a:hover {
   }
 
 }
-.front-section:first-of-type {
-  margin-top: 40px;
 
-}
 
-.splash {
-  .container {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 40px;
-  align-items: flex-start;
-  max-width: var(--max-width);
-  margin: auto;
-  h1, h2 {
-    font-size: 2em;
-  }
-  p, h1, h2, h3, h4 {
-    text-align: left;
-    margin-top: 20px;
 
-  }
-  h1:first-child {
-    margin-top: 0;
-  }
-  div {
-    max-width: unset;
-    margin: 0;
-    flex: 1 1 300px;
-    padding: 0 0 0 80px;
-
-  }
-  .splash-logo {
-    padding: 0;
-    margin: 0;
-  }
-  @media only screen and (max-width: 759px) {
-    div {
-      min-width: 100%;
-      padding: 20px 0;
-    }
-    .splash-logo {
-      padding: 20px 0;
-    }
-  }
-}
-}
 
 #contact {
   padding: 20px;

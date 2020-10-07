@@ -12,7 +12,7 @@ Build with [Jekyll](https://jekyllrb.com/){: rel="noopener"}{: target="_blank"}<
 
 ## Framework
 
-Homebrewed by Setto
+Homebrewed by Sakrecoer
 
 ## Artwork
 

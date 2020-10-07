@@ -16,7 +16,7 @@ layout: default
     <div class="coverartwrapped" id="coverart" style="background-image: url({{ site.mediaurl }}/{{ page.slug }}.jpeg);"></div>
   </div>
   <div class="playbutton hideWhenNoJS">
-  <a id="mu_pause" class="button">Play!</a>
+  <a id="mu_pause" class="button">🔊 Play!</a>
   </div>
 
 
@@ -69,7 +69,14 @@ layout: default
       {{ page.all.UNSYNCEDLYRICS | newline_to_br }}
     </p>
   </div>
+  {% elsif page.all.lyrics %}
+  <div class="info">
+    <p>
+      {{ page.all.lyrics | newline_to_br }}
+    </p>
+  </div>
   {% endif %}
+  
   <p>
     {{ page.all.Comment }}
   </p>
@@ -82,23 +89,23 @@ layout: default
 {% endfor %}
 <!-- post Naviation -->
 <section class="post-navigation">
-  {% if page.previous.url or page.next.url %}
+
   <div class="post-nav">
-    {% if page.previous.url %}
-    <h4><a href="{{ relBase }}{{ page.previous.url }}" alt="Read {{ page.previous.title }}" title="Read {{ page.previous.title }}"><span
+
+    <h4><a href="{{ relBase }}/tracks/{{ page.previousTrack.slug }}/" alt="Read {{ page.previousTrack.common.title }}" title="Read {{ page.previousTrack.common.title }}"><span
           class="fas fa-arrow-left" style="font-size:3em;text-decoration: none;"></span></a></h4>
-    <h3>{{ page.previous.common.title }}</h3>
-    <p>{{ page.previous.description }}</p>
-    {% endif %}
+    <h3>{{ page.previousTrack.common.title }}</h3>
+    <p>{{ page.previousTrack.common.description }}</p>
+
   </div>
   <div class="post-nav-next">
-    {% if page.next.url%}
-    <h4><a href="{{ page.next.url }}"><span class="fas fa-arrow-right" style="font-size:3em;"></span></a></h4>
-    <h3>{{ page.next.common.title }}</h3>
-    <p>{{ page.next.description }}</p>
-    {% endif %}
+
+    <h4><a href="{{ relBase }}/tracks/{{ page.nextTrack.slug }}/" alt="Read {{ page.nextTrack.common.title }}" title="Read {{ page.nextTrack.common.title }}"><span class="fas fa-arrow-right" style="font-size:3em;"></span></a></h4>
+    <h3>{{ page.nextTrack.common.title }}</h3>
+    <p>{{ page.nextTrack.common.description }}</p>
+
   </div>
-{% endif %}
+
 </section>
 {% include footer.html %}
 <!-- End Post Navigation -->
@@ -123,13 +130,13 @@ layout: default
 
 
     <div id="tracks">
-      {% if page.previous.url %}
-      <a id="btnPrev" href="{{ relBase }}{{ page.previous.url }}"><span class="fas fa-fast-backward"></span></a>
-      {% endif %}
 
-      {% if page.next.url %}
-      <a id="btnNext" href="{{ relBase }}{{ page.next.url }}"><span class="fas fa-fast-forward"></span></a>
-      {% endif %}
+      <a id="btnPrev" href="{{ relBase }}/tracks/{{ page.previousTrack.slug }}/" alt="Previous track" title="Previous track"><span class="fas fa-fast-backward"></span></a>
+
+
+
+      <a id="btnNext" href="{{ relBase }}/tracks/{{ page.nextTrack.slug }}/" alt="Next track" title="Next track"><span class="fas fa-fast-forward"></span></a>
+
     </div>
     <p id="npTitle" style="font-weight: bold;">{{ page.common.title }} </p>
 
@@ -154,10 +161,10 @@ layout: default
     // only functional if "loop" is removed
     mu.pause();
     mu.currentTime = 0;
-    loadUrl("{{ relBase }}{{ page.next.url }}"); return false;
+    loadUrl("{{ relBase }}/tracks/{{ page.nextTrack.slug }}/"); return false;
   });
   mu.onplaying = function() {
-    pauseButton.innerHTML = "Pause";
+    pauseButton.innerHTML = "⏸️ Pause";
     fixedplayer.classList.remove("hideplayer");
 
   }; 
@@ -179,7 +186,7 @@ layout: default
   });
   mu.addEventListener('pause', function () {
     spincover.classList.add("paused");
-    pauseButton.innerHTML = "Resume";
+    pauseButton.innerHTML = "🔊 Resume";
   });
 
 
