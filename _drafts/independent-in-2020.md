@@ -9,7 +9,7 @@ author:
 category: highlights
 album:
 tags:
-image:
+image: /images/posts/william-warby-qjdm9e4miwo-unsplash.jpg
 video_path:
 download:
 link: 'https://nxt.basspistol.org/apps/forms/gH92FwA3doHiBHf6'
