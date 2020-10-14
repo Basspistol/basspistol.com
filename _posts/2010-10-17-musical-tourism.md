@@ -5,7 +5,7 @@ description: >-
 image: /assets/img/Synapset-MusicalTourism_Fro.jpg
 title: Musical Tourism
 date: 2010-10-17 17:07:00
-author:
+author: bassBot
 artist: synapset
 category: releases
 album: musical-tourism

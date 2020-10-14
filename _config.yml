@@ -20,9 +20,6 @@ logo: /siteicon.png
 mblabel: '0f83baf3-4f44-44db-9e30-d5c05d7b77b9'
 mediaurl: https://media.basspistol.com/basspistol.com
 
-author: 
-  name: Basspistol
-
 publisher:
   name: Basspistol
   domain: basspistol.com
@@ -57,7 +54,7 @@ collections:
   tracks:
     output: true
     permalink: /tracks/:path/
-  staff_members:
+  authors:
     _hide_content: 
       
 # defaults
