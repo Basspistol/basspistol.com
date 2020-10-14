@@ -8,7 +8,7 @@ layout: page
 
 ## CMS
 
-Build with [Jekyll](https://jekyllrb.com/){: target="_blank" rel="noopener"}<br>Using [Publikator](https://github.com/terminalnetwork/publikator){: target="_blank" rel="noopener"} the rusty metal heart of the Basspistol release machine developed by [aengl.](https://github.com/terminalnetwork/publikator/commits?author=aengl){: target="_blank" rel="noopener"}<br>Facilitated with [CloudCannon, the cloud CMS for Jekyll](https://cloudcannon.com/){: target="_blank" rel="noopener"}<br>Hosted and served by [Basspistol](https://basspistol.com){: target="_blank" rel="noopener"} and [Alsenet](https://www.alsenet.com){: target="_blank" rel="noopener"}
+Build with [Jekyll](https://jekyllrb.com/){: target="_blank" rel="noopener"}<br>Using [Publikator](https://github.com/terminalnetwork/publikator){: target="_blank" rel="noopener"} the rusty metal heart of the Basspistol release machine developed by [aengl.](https://github.com/terminalnetwork/publikator/commits?author=aengl){: target="_blank" rel="noopener"}<br>Facilitated with [CloudCannon, the cloud CMS for Jekyll](https://cloudcannon.com/){: target="_blank" rel="noopener"}<br>Hosted and served by [Basspistol](https://basspistol.com){: target="_blank" rel="noopener"} thanks to [Alsenet](https://www.alsenet.com){: target="_blank" rel="noopener"}
 
 ## Framework
 
