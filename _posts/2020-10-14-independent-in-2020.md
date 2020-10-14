@@ -5,7 +5,7 @@ description: >-
   independence without compromises. How does it looks 10 years later?
 date: 2020-10-14 07:07:00
 artist:
-author:
+author: set
 category: highlights
 album:
 tags:
@@ -13,7 +13,7 @@ image: /images/posts/william-warby-qjdm9e4miwo-unsplash.jpg
 video_path:
 download:
 link: 'https://nxt.basspistol.org/apps/forms/gH92FwA3doHiBHf6'
-check_this_if_cannot_be_bought: false
+check_this_if_cannot_be_bought: true
 stores:
   - name:
     url:
@@ -32,3 +32,7 @@ Inspired by the Free Open-Source Software communities and labor syndicates, it's
 🍬 Tools for digital-promotion circumventing the stigma of so-called "self-promotion".
 
 In ten years, so many things have changed in the industry. Therefore, in an effort to sharpen our toolbox to better help independent music thrive, we turn to you and the community at large to source some of the biggest pain-points for contemporary independent music-makers and practitioners. None of the questions are mandatory and you do not have to provide any information about yourself if you don't want to. The information collected with this form is stored and encrypted on a platform belonging to Basspistol. And the insights it might provide will be open-source intelligence.
+
+Please help us spread this survey as widely as possible\!
+
+For another ten years to come,<br>\*Set
