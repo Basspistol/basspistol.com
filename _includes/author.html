@@ -13,7 +13,7 @@
     <p class="date">
       Published the
 
-      {% include dates.html %}
+      <time datetime="{{ page.date }}">{% include dates.html %}</time>
     </p>
 
     {% endif %}

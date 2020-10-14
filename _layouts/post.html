@@ -61,13 +61,11 @@ layout: default
   {% assign author = site.authors | where: "url", author_id | first %}
   <div id="author">
     <div class="bio">
-      <p><a href="mailto:{{ author.email }}"><strong>{{ author.name }}</strong></a></p>
-      <p>{{ author.position }}{% if author.gpg != nil %} | <a target="_blank" rel="noopener"
-        href="{{ author.gpg }}">GPG</a>{% endif %}</p>
+      
       <p class="date">
         Published the
   
-        {% include dates.html %}
+        <time datetime="{{ page.date }}">{% include dates.html %}</time>
       </p>
   
   
