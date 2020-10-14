@@ -57,7 +57,7 @@ collections:
   tracks:
     output: true
     permalink: /tracks/:path/
-  staff_members:
+  authors:
     _hide_content: 
       
 # defaults
