@@ -33,4 +33,4 @@ In ten years, so many things have changed in the industry. Therefore, in an effo
 
 Please help us spread this survey as widely as possible\!
 
-For another ten years to come,<br>\*Set
+Click the button to access the survey\!
