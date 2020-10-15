@@ -8,7 +8,8 @@ description: 'Codes, idioms and how the Yungster redefined the notion of a band.
 uid: 'powerfullylean1unf13r9u1ruvbpeif'
 image: '/assets/img/clr.jpg'
 download: ''
-link: 'https://youtu.be/TmAvt5p6f8g'
+link: 
+  url: 'https://youtu.be/TmAvt5p6f8g'
 author: set
 album: 
 check_this_if_cannot_be_bought: true

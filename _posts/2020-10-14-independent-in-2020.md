@@ -12,7 +12,10 @@ tags:
 image: /images/posts/william-warby-qjdm9e4miwo-unsplash.jpg
 video_path:
 download:
-link: 'https://nxt.basspistol.org/apps/forms/gH92FwA3doHiBHf6'
+link: 
+  url: 'https://nxt.basspistol.org/apps/forms/gH92FwA3doHiBHf6'
+  buttontext: 👀 Access survey
+chat: https://nxt.basspistol.org/s/8dwAQN3bDybx78j
 check_this_if_cannot_be_bought: true
 stores:
   - name:

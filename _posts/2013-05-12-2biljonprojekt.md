@@ -9,7 +9,8 @@ description: 'In a dystopian future, will The Fraglebay survive on their 2billio
 uid: '2biljonprojekt'
 image: '/assets/img/2biljon.jpg'
 download: ''
-link: 'https://archive.org/details/BPIST-V003'
+link: 
+  url: 'https://archive.org/details/BPIST-V003'
 album: 
 check_this_if_cannot_be_bought: true
 stores:

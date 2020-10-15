@@ -89,8 +89,15 @@ layout: default
 <section class="info">
   <div class="container">
   {{ content }}
-  {% if page.link %}
-  <p class="center"><a href="{{ page.link }}?ref=TheMusicSyndicateWashere" target="_bank" rel="noopener" class="button">👀 Check it out!</a></p>
+  {% if page.link or page.chat %}
+  <p class="center">
+    {% if page.link %}
+    <a href="{{ page.link.url }}?ref=TheMusicSyndicateWashere" target="_bank" rel="noopener" class="button">{% if page.link.buttontext %}{{ page.link.buttontext }}{% else %}👀 check it out{% endif %}</a>
+    {% endif %}
+    {% if page.chat %}
+    <a href="{{ page.chat }}" target="_bank" rel="noopener" class="button">📢 Chat with us! (beta)</a>
+    {% endif %}
+  </p>
   {% endif %}
   </div>
 </section>
@@ -293,12 +300,19 @@ layout: default
   {% include header.html %}
   
   <section class="info" id="read">
-
+  
     <div class="info-pages">
-
-        {{ content }}
-      {% if page.link %}
-      <p class="center"><a href="{{ page.link }}?ref=TheMusicSyndicateWashere" target="_bank" rel="noopener" class="button">👀 Check it out!</a></p>
+  
+      {{ content }}
+      {% if page.link or page.chat %}
+      <p class="center">
+        {% if page.link %}
+        <a href="{{ page.link.url }}?ref=TheMusicSyndicateWashere" target="_bank" rel="noopener" class="button">{% if page.link.buttontext %}{{ page.link.buttontext }}{% else %}👀 check it out{% endif %}</a>
+        {% endif %}
+        {% if page.chat %}
+        <a href="{{ page.chat }}" target="_bank" rel="noopener" class="button">📢 Chat with us! (beta)</a>
+        {% endif %}
+      </p>
       {% endif %}
       {% include author.html %}
     </div>

@@ -13,7 +13,8 @@ description: Papi Crapy staring in a Sakrecoer video
 uid: kalsongsalong
 image: /assets/img/kalsongsalong.jpg
 download:
-link: 'https://archive.org/details/BPIST-V002'
+link: 
+  url: 'https://archive.org/details/BPIST-V002'
 album:
 check_this_if_cannot_be_bought: true
 stores:

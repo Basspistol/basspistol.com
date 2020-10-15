@@ -16,7 +16,9 @@ tags:
 image: /images/posts/final-pingnucover1220x1200.jpg
 video_path: /videos/pingu.mp4
 download: 
-link: https://setto.basspistol.com/unmet-dependencies/#play
+link: 
+  url: https://setto.basspistol.com/unmet-dependencies/#play
+  buttontext: 👀 Go to source
 check_this_if_cannot_be_bought: false
 stores:
   - name: Spotify

@@ -9,7 +9,8 @@ description: 'Chillean lean, straight out of Valpara&iacute;so'
 uid: 'birraweed'
 image: '/assets/img/birraweed.jpg'
 download: ''
-link: 'https://youtu.be/qsxGmA4frLA'
+link: 
+  url: 'https://youtu.be/qsxGmA4frLA'
 album: 
 check_this_if_cannot_be_bought: true
 stores:

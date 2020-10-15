@@ -9,7 +9,8 @@ description: 'PORC, or what happens when you conglomerate Punk, Techno, Rock and
 uid: 'losgangliosnomamesguey'
 image: '/assets/img/trnx_losganglios.jpg'
 download: ''
-link: 'http://losganglios.com/videos/'
+link: 
+  url: 'http://losganglios.com/videos/'
 album: 
 check_this_if_cannot_be_bought: true
 stores:

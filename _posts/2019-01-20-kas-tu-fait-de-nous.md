@@ -13,7 +13,8 @@ description: 'Satoshi Mon Ami EP, out now!'
 uid: kas tu fais de nous 2019
 image: /assets/img/2018-setto-single-003-reve_de_toi-117bpm_sqaure_FINAL.jpg
 download:
-link: 'https://shop.basspistol.com/album/satoshi-mon-ami/#play'
+link: 
+  url: 'https://shop.basspistol.com/album/satoshi-mon-ami/#play'
 album: satoshi-mon-ami
 check_this_if_cannot_be_bought: false
 stores:

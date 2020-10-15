@@ -9,7 +9,8 @@ description: 'A WA is a band formed by 3 sisters who combine Yemenite folk singi
 uid: 'awagalbi'
 image: '/assets/img/awgalbi.jpg'
 download: ''
-link: 'https://youtu.be/g3bjZlmsb4A'
+link: 
+  url: 'https://youtu.be/g3bjZlmsb4A'
 album: 
 check_this_if_cannot_be_bought: true
 stores:

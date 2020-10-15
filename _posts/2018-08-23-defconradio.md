@@ -9,7 +9,8 @@ description: 'Music for Hacking. The DEF CON Year-Round Channel. DEF CON is one 
 uid: 'defconradio'
 image: '/assets/img/dcsite-bg-ret.jpg'
 download: ''
-link: 'https://somafm.com/defcon/index.html'
+link: 
+  url: 'https://somafm.com/defcon/index.html'
 album: 
 check_this_if_cannot_be_bought: true
 stores:

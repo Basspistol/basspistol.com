@@ -9,7 +9,8 @@ description: '100% Vinyl mix of G-Funk'
 uid: 'gmixsummer'
 image: '/assets/img/cricket.summer.jpg'
 download: ''
-link: 'https://soundcloud.com/alexandrebertrand-1/dj-criket-g-funk-summer-mix-2018-100-vinyl'
+link: 
+  url: 'https://soundcloud.com/alexandrebertrand-1/dj-criket-g-funk-summer-mix-2018-100-vinyl'
 album: 
 check_this_if_cannot_be_bought: true
 stores:

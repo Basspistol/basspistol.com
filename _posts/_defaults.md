@@ -10,7 +10,10 @@ tags: []
 image: ''
 video_path: 
 download: ''
-link: https://setto.basspistol.com/unmet-dependencies/#play
+link: 
+  url: 
+  buttontext: 
+chat: 
 check_this_if_cannot_be_bought: false
 stores:
   - name:

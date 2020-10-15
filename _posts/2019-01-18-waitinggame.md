@@ -9,7 +9,8 @@ description: 'Sakrecoer Sells out!'
 uid: 'waitinggamesakrecoer2019'
 image: '/assets/img/waitinggame.jpg'
 download: ''
-link: 'https://sakrecoer.com/waitinggame/'
+link: 
+  url: 'https://sakrecoer.com/waitinggame/'
 album: waiting-game
 check_this_if_cannot_be_bought: false
 stores:
