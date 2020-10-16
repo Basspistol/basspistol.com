@@ -140,6 +140,31 @@ layout: default
    | <strong>{{ track.common.genre }}</strong></p>
       <p>{{ track.common.year }}</p>
     <p><a href="{{ relBase }}/tracks/{{ track.slug }}/" class="button">🔊 Play</a></p>
+    {% if track.all.UNSYNCEDLYRICS and track.all.USLT %}
+
+      <p>
+        {{ track.all.USLT.text | newline_to_br }}
+      </p>
+
+    {% elsif track.all.USLT and track.all.UNSYNCEDLYRICS == nil %}
+
+      <p>
+        {{ track.all.USLT.text | newline_to_br }}
+      </p>
+
+    {% elsif track.all.UNSYNCEDLYRICS and track.all.USLT == nil %}
+
+      <p>
+        {{ track.all.UNSYNCEDLYRICS | newline_to_br }}
+      </p>
+
+    {% elsif track.all.lyrics %}
+
+      <p>
+        {{ track.all.lyrics | newline_to_br }}
+      </p>
+
+    {% endif %}
   </div>
 </section>
 
