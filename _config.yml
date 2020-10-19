@@ -36,10 +36,10 @@ social:
     - https://archive.org/details/basspistol
     - https://mastodon.art/@basspistol
     - https://shop.basspistol.com/
-    usernames:
-      twitter: bpist
-      telegram: basspistol
-    hashtag: basspistol
+  usernames:
+    twitter: bpist
+    telegram: basspistol
+  hashtag: basspistol
 
 shop_url: https://shop.basspistol.com/?ref=basspistol.com
 
