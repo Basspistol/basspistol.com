@@ -15,7 +15,7 @@ download:
 link: 
   url: 'https://nxt.basspistol.org/apps/forms/gH92FwA3doHiBHf6'
   buttontext: 👀 Access survey
-chat: https://nxt.basspistol.org/s/8dwAQN3bDybx78j
+chat: https://basspistol.com/chat/#read
 check_this_if_cannot_be_bought: true
 stores:
   - name:
