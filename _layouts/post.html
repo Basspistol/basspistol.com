@@ -94,9 +94,9 @@ layout: default
     {% if page.link %}
     <a href="{{ page.link.url }}?ref=TheMusicSyndicateWashere" target="_bank" rel="noopener" class="button">{% if page.link.buttontext %}{{ page.link.buttontext }}{% else %}👀 check it out{% endif %}</a>
     {% endif %}
-    {% if page.chat %}
-    <a href="{{ page.chat }}" target="_bank" rel="noopener" class="button">📢 Chat with us!</a>
-    {% endif %}
+
+    <a href="{{ relBase }}/chat/#read" target="_bank" rel="noopener" class="button">📢 Chat with us!</a>
+
   </p>
   {% endif %}
   </div>
@@ -333,10 +333,10 @@ layout: default
       <p class="center">
         {% if page.link %}
         <a href="{{ page.link.url }}?ref=TheMusicSyndicateWashere" target="_bank" rel="noopener" class="button">{% if page.link.buttontext %}{{ page.link.buttontext }}{% else %}👀 check it out{% endif %}</a>
-        {% endif %}
+
         {% if page.chat %}
-        <a href="{{ page.chat }}" target="_bank" rel="noopener" class="button">📢 Chat with us!</a>
-        {% endif %}
+        <a href="{{ relBase }}/chat/#read" target="_bank" rel="noopener" class="button">📢 Chat with us!</a>
+
       </p>
       {% endif %}
       {% include author.html %}
