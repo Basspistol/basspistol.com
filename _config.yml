@@ -43,6 +43,7 @@ social:
   irc:
     channel: '#basspistol'
     guest-nick: carnalito
+    matrix: https://matrix.to/#/!DfJWlToHApOTIocqbz:matrix.org?via=matrix.org
 
 shop_url: https://shop.basspistol.com/?ref=basspistol.com
 
