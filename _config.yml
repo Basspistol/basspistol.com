@@ -40,6 +40,9 @@ social:
     twitter: bpist
     telegram: basspistol
   hashtag: basspistol
+  irc:
+    channel: '#basspistol'
+    guest-nick: carnalito
 
 shop_url: https://shop.basspistol.com/?ref=basspistol.com
 
