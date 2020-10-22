@@ -36,4 +36,8 @@ The music market is shady. But it's not the shadiness of the music market that s
 
 And the shadiness remained, worse it got amplified on the Internet. Now music isn't only a mean of motivating workers to produce, it also became a tool of surveillance. The industry abandoned sales and opted for [rentification](https://www.researchgate.net/profile/Giovanni_Dosi){: target="_blank" rel="noopener"}. Why sell an album for 9$ when you can rent it out for 9$ per month? Centralizing like this comes with added benefits: there is no need to risk capital in printing a bunch of packages that might end-up in a pile collecting dust. And the nature of the central source of the music being a database, it also enables for exact monitoring of what plays, when, by whom\! Better yet\! If we correlate that with social media profiles, we also know what age, gender and religion responds better to what.
 
+![](/images/posts/deathofadream.jpg){: width="1024" height="678"}
+
+Photo: ["August View"](https://www.flickr.com/photos/99804259@N00/20809008233){: target="_blank" rel="noopener noreferrer"} by [Rantz](https://www.flickr.com/photos/99804259@N00){: target="_blank" rel="noopener noreferrer"} is licensed under [CC BY-NC-SA 2.0](https://creativecommons.org/licenses/by-nc-sa/2.0/?ref=ccsearch&amp;atype=rich){: target="_blank" rel="noopener noreferrer"}
+
 ## But did the dream really die though?
