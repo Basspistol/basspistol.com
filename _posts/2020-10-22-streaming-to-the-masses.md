@@ -18,7 +18,7 @@ link:
   url:
   buttontext:
 chat:
-check_this_if_cannot_be_bought: false
+check_this_if_cannot_be_bought: true
 stores:
   - name:
     url:
