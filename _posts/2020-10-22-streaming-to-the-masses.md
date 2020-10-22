@@ -3,14 +3,14 @@ title: Streaming to the masses
 description: >-
   Most musicians carry a dream. In the beginning of the new millennium internet
   had an intrinsic promise: to liberate the market from the middle-hands.
-date: 2020-10-22 12:07:12
+date: 2020-10-22 12:07:00
 artist:
 author: set
 category: highlights
 album:
 tags:
   - article
-image:
+image: /images/posts/markus-spiske--cpu-nljxie-unsplash.jpg
 video_path:
 download:
 link:
@@ -25,7 +25,9 @@ stores:
     download: false
 ---
 
-What happened to our dreams? It's a fairly simple a common story. We thought our new tools would be a remedy to a social problem.
+## What happened to our dreams?
+
+It's a fairly simple a common story. We thought our new tools would be a remedy to a social problem.
 
 ![](/images/posts/photo-2020-10-22-13-59-23.jpg){: width="749" height="403"}
 
