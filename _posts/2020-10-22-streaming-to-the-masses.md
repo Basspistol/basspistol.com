@@ -28,7 +28,7 @@ stores:
 
 ## What happened to our dreams?
 
-It's a fairly simple and common story. It wasn't a dream but an illusion\! We thought that the music market operated differently from other markets. We thought our new tools would be a remedy to a social problem. At least i did. I was convinced that if Internet could put a [freshly grown into a global multi-billion industry](https://www.pbs.org/wgbh/pages/frontline/shows/music/inside/cron.html){: target="_blank" rel="noopener noreferrer"} could suddenly be on the brink of fall, Internet had to be bringing a new variable to the table. And it's almost true: music is a bit different. And while the variable internet brought to table was new, it wasn't any different. Maybe even worse.
+It's a fairly simple and common story. It wasn't a dream but an illusion\! We thought that the music market operated differently from other markets. We thought our new tools would be a remedy to a social problem. At least i did. I was convinced that if Internet could put a [freshly grown into a global multi-billion industry](https://www.pbs.org/wgbh/pages/frontline/shows/music/inside/cron.html){: target="_blank" rel="noopener noreferrer"} could suddenly be on the brink of fall, Internet had to be bringing a new variable to the table. And it's almost true: music is a bit different. And while the variable internet brought to the table was indeed new, it wasn't any different. Maybe even worse.
 
 ![](/images/posts/photo-2020-10-22-13-59-23.jpg){: width="749" height="403"}
 
