@@ -188,7 +188,16 @@ a:hover {
     padding-top: 40px;
     max-width: var(--max-width);
     margin: auto;
+    img {
+      margin-left: auto;
+      margin-right: auto;
+      width: 100%;
+      max-width: 600px;
+      height: auto;
+      display: block;
+    }
   }
+
   p {
     margin: 20px 0;
   }
