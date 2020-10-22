@@ -27,7 +27,7 @@
       <a target="_blank" rel="nofollow noopener" title="Share to telegram" alt="Share to telgram" href="https://telegram.me/share/url?url={{ site.url }}{{ page.url }}&quest;pk_campaign=homeshare&amp;text={{ page.description | xml_escape }}%20via%20&#64;{{ site.social.usernames.telegram }}" class="icon smaller fab fa-telegram"><span class="label ">Telegram</span></a>
       <a target="_blank" rel="nofollow noopener" title="Share to reddit" alt="Share to reddit" href="https://reddit.com/submit/?url={{ site.url }}{{ page.url }}&quest;pk_campaign=homeshare&amp;title={{ page.description | xml_escape }}%20By%20{{ site.title | xml_escape }}" class="icon smaller fab fa-reddit"><span class="label">Reddit</span></a>
     </ul>
-    {% unless page.url ='/radio/' %}
+    {% unless page.url == '/radio/' %}
     <a href="{{ relBase }}/chat/#read" target="_blank" class="button">📢 Chat</a>
     {% endunless %}
   </div>
