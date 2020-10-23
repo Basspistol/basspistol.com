@@ -26,7 +26,7 @@ stores:
     download: false
 ---
 
-## i saved What happened to our dreams?
+## What happened to our dreams?
 
 It's a fairly simple and common story. It wasn't a dream but an illusion\! We thought that the music market operated differently from other markets. We thought our new tools would be a remedy to a social problem. At least i did. I was convinced that if Internet could put a [freshly grown global multi-billion dollar industry](https://www.pbs.org/wgbh/pages/frontline/shows/music/inside/cron.html){: target="_blank" rel="noopener noreferrer"} could suddenly be on the brink of fall, Internet had to be bringing a new variable to the table. And it's almost true: music is a bit different. And while the variable internet brought to that table was indeed new, it wasn't any different. Was iteven worse?
 
@@ -47,9 +47,9 @@ Of course not\! Dreams don't die, silly. If anything adversity tends to sharpen 
 >
 > – [Bernard Lietaer](http://lietaer.com){: target="_blank" rel="noopener"}
 
-## Yeah, right\! Drop the bass already...
+## Yeah, right\! Drop the bass already…
 
-Now, i understand this is a lot to unpack and I'm doing my best not to devolve into details. In fact, I'm writing this shit because I'm trying to get clarity in my own ideas and you are just a guinea pig lol\! Not like that, but... OK sorry.
+Now, i understand this is a lot to unpack and I'm doing my best not to devolve into details. In fact, I'm writing this shit because I'm trying to get clarity in my own ideas and you are just a guinea pig lol\! Not like that, but… OK sorry.
 
 You see, all of the above super simplified geek shit is useful for this bomb: people have built tools combining all the ideas that emerged from the problems the silos got us into\!\!\!\!\!\! The lack of ownership over your own brand, the centralized nature of the data-base, the complexity of running your own service, how to incentives participation, how to distribute the revenue stream according the listeners choices. By combining decentralized Content Delivery Networks with the new means of communication of executive power (money) developed by the P2P foundation
 
