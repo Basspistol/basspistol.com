@@ -188,22 +188,28 @@ a:hover {
     padding-top: 40px;
     max-width: var(--max-width);
     margin: auto;
-    img {
-      margin-left: auto;
-      margin-right: auto;
-      width: 100%;
-      max-width: 600px;
-      height: auto;
-      display: block;
-    }
-    h6 {
-      font-size: 0.8em;
-      text-align: center;
-    }
-    blockquote {
-      font-weight: 700;
-      border-left: 3px dotted var(--fg);
-      padding-left: 40px;
+    .container {
+      img {
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        max-width: 600px;
+        height: auto;
+        display: block;
+      }
+      h6 {
+        font-size: 0.8em;
+        text-align: center;
+      }
+      blockquote {
+        font-weight: 700;
+        border-left: 3px dotted var(--fg);
+        padding-left: 40px;
+      }
+      ul {
+        list-style-type:circle;
+        padding-left:80px;
+      }
     }
   }
 
