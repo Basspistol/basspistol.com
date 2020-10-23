@@ -45,7 +45,7 @@ Of course not\! Dreams don't die, silly. If anything adversity tends to sharpen 
 > "We can’t imagine to enter the Information Age without changing the fundamental and most used communication tool: Money"
 >
 >
-> – [Bernard Lietaer](http://lietaer.com)
+> – [Bernard Lietaer](http://lietaer.com){: target="_blank" rel="noopener"}
 
 ## Yeah, right\! Drop the bass already...
 
