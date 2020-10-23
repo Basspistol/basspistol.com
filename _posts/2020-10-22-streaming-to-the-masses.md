@@ -51,7 +51,7 @@ Of course not\! Dreams don't die, silly. If anything adversity tends to sharpen 
 
 Now, i understand this is a lot to unpack and I'm doing my best not to devolve into details. In fact, I'm writing this shit because I'm trying to get clarity in my own ideas and you are just a guinea pig lol\! Not like that, but… OK sorry.
 
-You see, all of the above super simplified geek shit is useful for this bomb: **people have built tools the problems the silos got us into\!\!\!\!** The ones that comes to mind are:
+You see, all of the above super simplified geek shit is useful for this bomb: **people [have](https://ujomusic.com/){: target="_blank" rel="noopener"} [built](https://resonate.is/){: target="_blank" rel="noopener noreferrer"} [tools](https://audius.co/){: target="_blank" rel="noopener"} the problems the silos got us into\!\!\!\!** The ones that comes to mind are:
 
 * The lack of ownership over your own brand?
 * The centralized nature of the data-base?
