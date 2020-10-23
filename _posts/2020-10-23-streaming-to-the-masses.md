@@ -61,7 +61,7 @@ You see, all of the above quite vulgarly simplified stuff is useful for this tin
 * How to enable real time of this distribution of revenue?
 * …
 
-The list is much longer, of course but by combining decentralized Content Delivery Networks with the new means of communication of executive power (money) developed at the P2P foundation a new paradigm for the industry is possible. One where ownership isn't just about your master-tapes, but also the very platform where your work meets it's audience. Collective ownership, built into technology\! The promises aren't small and the whitepapers are spectacular.
+The list is much longer, of course but by combining decentralized Content Delivery Networks with the new means of circulating money (value) developed at the P2P foundation a new paradigm for the industry is possible. One where ownership isn't just about your master-tapes, but also the very platform where your work meets it's audience. Collective ownership, built into technology\! The promises aren't small and the whitepapers are spectacular.
 
 > You are what makes platforms valuable. So don't just own the masters. Own the platform.<br>– [Audius](https://twitter.com/AudiusProject/status/1316046645260214272){: target="_blank" rel="noopener noreferrer"}
 
