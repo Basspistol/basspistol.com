@@ -15,8 +15,8 @@ image: /images/posts/markus-spiske--cpu-nljxie-unsplash.jpg
 video_path:
 download:
 link:
-  url:
-  buttontext:
+  url: 'https://audius.streamlink.to/welcometomainnet'
+  buttontext: you comming?
 chat:
 check_this_if_cannot_be_bought: true
 stores:
@@ -73,4 +73,4 @@ Certainly, these up-and-comers have yet to prove their well meaning. None of the
 
 Thank you for reading.
 
-PS. Tonight there is a party [here](https://audius.streamlink.to/welcometomainnet){: target="_blank" rel="noopener"}. You coming?
+PS. Tonight there is a party [here](https://audius.streamlink.to/welcometomainnet){: target="_blank" rel="noopener"}.
