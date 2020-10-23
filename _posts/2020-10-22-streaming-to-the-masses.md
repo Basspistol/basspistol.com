@@ -26,7 +26,7 @@ stores:
     download: false
 ---
 
-## What happened to our dreams?
+## i saved What happened to our dreams?
 
 It's a fairly simple and common story. It wasn't a dream but an illusion\! We thought that the music market operated differently from other markets. We thought our new tools would be a remedy to a social problem. At least i did. I was convinced that if Internet could put a [freshly grown global multi-billion dollar industry](https://www.pbs.org/wgbh/pages/frontline/shows/music/inside/cron.html){: target="_blank" rel="noopener noreferrer"} could suddenly be on the brink of fall, Internet had to be bringing a new variable to the table. And it's almost true: music is a bit different. And while the variable internet brought to that table was indeed new, it wasn't any different. Was iteven worse?
 
@@ -39,3 +39,16 @@ And the shadiness remained while the transfer to the Internet went on, worse it 
 ###### ![](/images/posts/deathofadream.jpg){: width="1024" height="678"}Photo: ["August View"](https://www.flickr.com/photos/99804259@N00/20809008233){: target="_blank" rel="noopener noreferrer"} by [Rantz](https://www.flickr.com/photos/99804259@N00){: target="_blank" rel="noopener noreferrer"} is licensed under [CC BY-NC-SA 2.0](https://creativecommons.org/licenses/by-nc-sa/2.0/?ref=ccsearch&amp;atype=rich){: target="_blank" rel="noopener noreferrer"}
 
 ## But did the dream die though?
+
+Of course not\! Dreams don't die, silly. If anything adversity tends to sharpen the escapism they contain. As the corporation and government slowly catched up with the web. Huge silos where emerged, capturing the social essence of it into the well known services that have come to be almost familiar. (They certainly don't need another mention here). And the information flow halted. What was once a wild jungle of cross-pollinating ideas and wildfires became a massive apparatus of advertisement and monitoring. A wall was built around the general public. To most people joining internet after 2010, it quickly felt like technical progress was merely another button in their favorite app or a better way to weed out annoying acquaintances. But beyond those walls, passionate geeks kept on building. This time with the errors of the past in mind. Not aiming for perfection, but for alternatives. The silos had to be gone and to do this, protection from it had to built-in the tools, getting inspiration from century old techniques of power-shattering: decentralization and federation. Making it impossible for a single entity to control the network had to become an integral part of the system. The fediverse, the dweb, IPFS among others. There didn't just appear of course and while a majority had their eyes on social media, a forum was exploring new ways to approach one of out most fundamental tool of communication: money.
+
+> “*We can’t imagine to enter the Information Age without changing the fundamental and most used communication tool: Money*”
+>
+>
+> – [Bernard Lietaer](http://lietaer.com)
+
+## Yeah, right, whatever this got to do with music...
+
+Now, i understand this is a lot to unpack and i'm doing my best not to dewleve into details.
+
+&nbsp;
