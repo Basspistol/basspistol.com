@@ -63,8 +63,8 @@ You see, all of the above super simplified geek shit is useful for this bomb: **
 
 The list much longer, of course but by combining decentralized Content Delivery Networks with the new means of communication of executive power (money) developed at the P2P foundation a new paradigm for the industry is possible. One where owner ship isn't just about your masters, but also the very platform where an artist meets it's audience. Collective ownership, built into technology. And the promises aren't small and the whitepapers are spectacular.
 
-## If it sounds too good
+## If it sounds too good...
 
-Certainly, these up and comers have yet to prove their value.
+Certainly, these up and comers have yet to prove their well meaning. None of them are fully out of beta yet, so it's difficult to consider them in any absolutes. But damn, it feels good to know they exist. That somewhere, a group of someones, are trying to do something. And while i'm not sure this huge rambling is going to clarify anything for you, or if it even clarified anything to me. I couldn't just sit here on this humongous mountain of hope alone. I had channel to it into this odd web-log post...
 
-&nbsp;
+Thank you for reading.
