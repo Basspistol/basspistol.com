@@ -51,6 +51,15 @@ Of course not\! Dreams don't die, silly. If anything adversity tends to sharpen 
 
 Now, i understand this is a lot to unpack and I'm doing my best not to devolve into details. In fact, I'm writing this shit because I'm trying to get clarity in my own ideas and you are just a guinea pig lol\! Not like that, but… OK sorry.
 
-You see, all of the above super simplified geek shit is useful for this bomb: people have built tools combining all the ideas that emerged from the problems the silos got us into\!\!\!\!\!\! The lack of ownership over your own brand, the centralized nature of the data-base, the complexity of running your own service, how to incentives participation, how to distribute the revenue stream according the listeners choices. By combining decentralized Content Delivery Networks with the new means of communication of executive power (money) developed by the P2P foundation
+You see, all of the above super simplified geek shit is useful for this bomb: **people have built tools the problems the silos got us into\!\!\!\!** The ones that comes to mind are:
+
+* The lack of ownership over your own brand?
+* The centralized nature of the data-base?
+* The complexity of running your own service?
+* How to incentives participation?
+* How to distribute a revenue stream according the listeners choices instead of a platform average?
+* How to enamble realtime of this distribution of revenue?
+
+By combining decentralized Content Delivery Networks with the new means of communication of executive power (money) developed by the P2P foundation. And the promises aren't small nor are the whitepapers spectacular. But these up and comers have yet to prove their value.
 
 &nbsp;
