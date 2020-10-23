@@ -51,15 +51,20 @@ Of course not\! Dreams don't die, silly. If anything adversity tends to sharpen 
 
 Now, i understand this is a lot to unpack and I'm doing my best not to devolve into details. In fact, I'm writing this shit because I'm trying to get clarity in my own ideas and you are just a guinea pig lol\! Not like that, but… OK sorry.
 
-You see, all of the above super simplified geek shit is useful for this bomb: **people [have](https://ujomusic.com/){: target="_blank" rel="noopener"} [built](https://resonate.is/){: target="_blank" rel="noopener noreferrer"} [tools](https://audius.co/){: target="_blank" rel="noopener"} the problems the silos got us into\!\!\!\!** The ones that comes to mind are:
+You see, all of the above super simplified geek shit is useful for this bomb: **people [have](https://ujomusic.com/){: target="_blank" rel="noopener"} [built](https://resonate.is/){: target="_blank" rel="noopener noreferrer"} [tools](https://audius.co/){: target="_blank" rel="noopener"} to solve the problems the silos got us into\!\!\!\!**
 
 * The lack of ownership over your own brand?
 * The centralized nature of the data-base?
 * The complexity of running your own service?
 * How to incentives participation?
 * How to distribute a revenue stream according the listeners choices instead of a platform average?
-* How to enamble realtime of this distribution of revenue?
+* How to enable real time of this distribution of revenue?
+* ...
 
-By combining decentralized Content Delivery Networks with the new means of communication of executive power (money) developed by the P2P foundation. And the promises aren't small nor are the whitepapers spectacular. But these up and comers have yet to prove their value.
+The list much longer, of course but by combining decentralized Content Delivery Networks with the new means of communication of executive power (money) developed at the P2P foundation a new paradigm for the industry is possible. One where owner ship isn't just about your masters, but also the very platform where an artist meets it's audience. Collective ownership, built into technology. And the promises aren't small and the whitepapers are spectacular.
+
+## If it sounds too good
+
+Certainly, these up and comers have yet to prove their value.
 
 &nbsp;
