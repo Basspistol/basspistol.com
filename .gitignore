@@ -20,3 +20,4 @@ _data/.~lock.*.csv#
 
 # no heavy files in here
 *.mp3
+assets/albums/
