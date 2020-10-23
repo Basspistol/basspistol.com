@@ -72,3 +72,5 @@ By leveraging IPFS, it's technically possible for these platform to run with a b
 Certainly, these up-and-comers have yet to prove their well meaning. None of them are fully out of beta yet, so it's difficult to consider them in any absolutes. But damn, it feels good to know they exist. That somewhere, a group of someones, are trying to do something. And while i'm not sure this huge rambling is going to clarify anything for you, or if it even clarified anything to me. I couldn't just sit here on this humongous mountain of hope alone. I had channel to it into this odd web-log post...
 
 Thank you for reading.
+
+PS. Tonight there is a party [here](https://audius.streamlink.to/welcometomainnet){: target="_blank" rel="noopener"}. You coming?
