@@ -51,7 +51,7 @@ Of course not\! Dreams don't die, silly. If anything adversity tends to sharpen 
 
 Now, i understand this is a lot to unpack and I'm doing my best not to devolve into details. In fact, I'm writing this shit because I'm trying to get clarity in my own ideas and you are just a guinea pig lol\! Not like that, but… OK sorry.
 
-You see, all of the above super simplified geek shit is useful for this bomb: **people [have](https://ujomusic.com/){: target="_blank" rel="noopener"} [built](https://resonate.is/){: target="_blank" rel="noopener noreferrer"} [tools](https://audius.co/){: target="_blank" rel="noopener"} to solve the problems the silos got us into\!\!\!\!**
+You see, all of the above super simplified geek stuff is useful for this tinye BUT POWERFUL bomb: **people [have](https://ujomusic.com/){: target="_blank" rel="noopener"} [built](https://resonate.is/){: target="_blank" rel="noopener noreferrer"} [tools](https://audius.co/){: target="_blank" rel="noopener"} to solve the problems the silos got us into\!\!**
 
 * The lack of ownership over your own brand?
 * The centralized nature of the data-base?
@@ -65,8 +65,10 @@ The list much longer, of course but by combining decentralized Content Delivery 
 
 > You are what makes platforms valuable. So don't just own the masters. Own the platform.<br>– [Audius](https://twitter.com/AudiusProject/status/1316046645260214272){: target="_blank" rel="noopener noreferrer"}
 
+By leveraging IPFS, it's technically possible for these platform to run with a bare minimum of hosting costs, while offering unlimited upload and bandwidth to the users. Because these costs and requirements are distributed among anyone who wants participate\! [You can do it if you want to.](https://dappnode.io/){: target="_blank" rel="noopener"} You can even get payed for that. OF course depending on your infrastructure this might not be large amounts of money, but I'm sure you starting to see the potential here\! This things are opening up aspects of the business that were previously reserved to a very small amount of people. And you know what is crazy IPFS: it's pretty much unstoppable. If you want to make a song called "Fuck Trumputin" and publish it, there is absolutely no one that can stop that song from circulating.
+
 ## If it sounds too good...
 
-Certainly, these up and comers have yet to prove their well meaning. None of them are fully out of beta yet, so it's difficult to consider them in any absolutes. But damn, it feels good to know they exist. That somewhere, a group of someones, are trying to do something. And while i'm not sure this huge rambling is going to clarify anything for you, or if it even clarified anything to me. I couldn't just sit here on this humongous mountain of hope alone. I had channel to it into this odd web-log post...
+Certainly, these up-and-comers have yet to prove their well meaning. None of them are fully out of beta yet, so it's difficult to consider them in any absolutes. But damn, it feels good to know they exist. That somewhere, a group of someones, are trying to do something. And while i'm not sure this huge rambling is going to clarify anything for you, or if it even clarified anything to me. I couldn't just sit here on this humongous mountain of hope alone. I had channel to it into this odd web-log post...
 
 Thank you for reading.
