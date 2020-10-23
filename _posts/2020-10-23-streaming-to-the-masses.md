@@ -49,7 +49,7 @@ Of course not\! Dreams don't die, silly. If anything adversity tends to sharpen 
 
 ## Yeah, right\! Drop the bass already…
 
-Now, i understand this is a lot to unpack and I'm doing my best not to devolve into details. In fact, I'm writing this shit because I'm trying to get clarity in my own ideas and you are just a guinea pig lol\! Not like that, but… OK sorry.
+Now, i understand this is a lot to unpack and I'm doing my best not to devolve into details. In fact, I'm writing this because I'm trying to get clarity in my own ideas and you are just a guinea pig lol\! Not like that, but… OK sorry.
 
 You see, all of the above quite vulgarly simplified stuff is useful for this tiny BUT POWERFUL bomb: **people [have](https://ujomusic.com/){: target="_blank" rel="noopener"} [built](https://resonate.is/){: target="_blank" rel="noopener noreferrer"} [tools](https://audius.co/){: target="_blank" rel="noopener"} to solve the problems the silos got us into\!\!**
 
