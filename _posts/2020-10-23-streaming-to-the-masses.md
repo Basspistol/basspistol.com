@@ -4,7 +4,7 @@ description: >-
   Most musicians carry a dream. In the beginning of the new millennium internet
   had an intrinsic promise that spoke directly to that dream: to liberate the
   market from the middle-hands.
-date: 2020-10-22 12:07:00
+date: 2020-10-23 13:07:00
 artist:
 author: set
 category: highlights
@@ -73,4 +73,4 @@ Certainly, these up-and-comers have yet to prove their well meaning. None of the
 
 Thank you for reading.
 
-PS. Tonight there is a party [here](https://audius.streamlink.to/welcometomainnet){: target="_blank" rel="noopener"}.
+PS. Tonight (Friday 2020-10-23) there is a party online...
