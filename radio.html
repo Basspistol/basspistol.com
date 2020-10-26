@@ -22,9 +22,8 @@ layout: default
   function getData() {
     $.getJSON('https://radio.basspistol.com/status-json.xsl', function(json) {
         output = "<p>" + "<span style='font-size:14px;'>Now Playing:</span> " + "<br/>";
-        output += "<strong>" + json.icestats.source[1].title + "</strong> by <strong>" + json.icestats.source[1].artist + "</strong></p>";
-        output += "<p style='font-size:14px;'>" + json.icestats.source[0].listeners + " peers are listening in MP3 <br />";
-        output += json.icestats.source[1].listeners + " peers are listening in OGG</p>";
+        output += "<strong>" + json.icestats.source.title + "</strong></p>";
+        output += "<p style='font-size:14px;'>" + json.icestats.source.listeners + " peers are listening in MP3 <br />";
         document.getElementById("radioPlaceholder").innerHTML=output;
       });
   }
@@ -91,7 +90,6 @@ layout: default
     <div id="audio0">
       <audio controls autoplay preload="none" data-matomo-title="Basspistol Radio">
         <source src="https://radio.basspistol.com/radio.mp3" type="audio/mpeg" ontimeupdate='updateTrackTime(this);' />
-        <source src="https://radio.basspistol.com/radio.ogg" type="audio/ogg" ontimeupdate='updateTrackTime(this);' />
         <h1>Your browser isn't ready for so much hotness. Use the download-link instead.</h1>.
       </audio>
     </div>
