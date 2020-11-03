@@ -6,6 +6,10 @@
   url: /radio/
   name: Radio
   external_site: false
+- icon: 📺
+  url: https://v.basspistol.org
+  name: Video
+  external_site: true
 - icon: 📰
   url: /highlights/
   name: Hi-lights
