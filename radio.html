@@ -128,7 +128,7 @@ layout: default
     loadUrl("{{ relBase }}{{ page.next.url }}"); return false;
   });
   mu.onplaying = function () {
-    pauseButton.innerHTML = "Pause";
+    pauseButton.innerHTML = "⏯️ Pause";
     fixedplayer.classList.remove("hideplayer");
   };
 
@@ -147,7 +147,7 @@ layout: default
   });
   mu.addEventListener('pause', function () {
     spincover.classList.add("paused");
-    pauseButton.innerHTML = "Resume";
+    pauseButton.innerHTML = "⏯️ Resume";
   });
 
 </script>
