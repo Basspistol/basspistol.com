@@ -54,7 +54,11 @@ a:hover {
   -moz-transition: all var(--anim-speed) ease-in-out;
   -ms-transition: all var(--anim-speed) ease-in-out;
   transition: all var(--anim-speed) ease-in-out;
-
+  background-image: linear-gradient(228deg, var(--accent1-alt), var(--accent2-alt));
+  background-size: 400% 400%;
+  -webkit-animation: backgroundBlink 2s ease infinite;
+  -moz-animation: backgroundBlink 2s ease infinite;
+  animation: backgroundBlink 2s ease infinite;
 
   
 }
