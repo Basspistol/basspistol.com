@@ -66,7 +66,7 @@ layout: default
   {% assign sorted = site.data.radio | sort: 'name' %}
   {% for artist in sorted %}
   {% if artist.url %}
-  <a href="{{ artist.url }}" target="_blank" rel="noopener">{{ artist.name }} </a> {% unless forloop.last %}-{% endunless %}
+  <a href="{{ artist.url }}" target="_blank" rel="noopener">{{ artist.name }}</a> {% unless forloop.last %}-{% endunless %}
   {% else %}
   {{ artist.name }} {% unless forloop.last %}-{% endunless %}
   {% endif %}
