@@ -54,7 +54,6 @@ layout: default
         href='https://radio.basspistol.com/radio.mp3.m3u'>click here</a></p>
 
     <div id="radioPlaceholder"></div>
-    <p><strong><span id="tracktime"></span></strong></p>
     
     <p><strong>Bellow is the list of all the generous artists making this radio possible.</strong> Some of them simply have no crib on the
       internet. If you know that they now have a URL, if you somehow find a missing name or if you are featured on this
@@ -100,7 +99,7 @@ layout: default
   <div id="audiowrap">
     <div id="audio0">
       <audio controls autoplay preload="none" data-matomo-title="Basspistol Radio">
-        <source src="https://radio.basspistol.com/radio.mp3" type="audio/mpeg" ontimeupdate='updateTrackTime(this);' />
+        <source src="https://radio.basspistol.com/radio.mp3" type="audio/mpeg" />
         <h1>Your browser isn't ready for so much hotness. Use the download-link instead.</h1>.
       </audio>
     </div>
@@ -149,16 +148,6 @@ layout: default
   mu.addEventListener('pause', function () {
     spincover.classList.add("paused");
     pauseButton.innerHTML = "Resume";
-  });
-
-  mu.addEventListener('timeupdate', function () {
-    var timestamp = Math.floor(mu.currentTime);
-    var hours = Math.floor(timestamp / 60 / 60);
-    var minutes = Math.floor(timestamp / 60) - (hours * 60);
-    var seconds = timestamp % 60;
-    var formatted = hours.toString().padStart(2, '0') + ':' + minutes.toString().padStart(2, '0') + ':' + seconds.toString().padStart(2, '0');
-    var thecurrentSpan = document.getElementById("tracktime");
-    thecurrentSpan.innerHTML = formatted;
   });
 
 </script>
