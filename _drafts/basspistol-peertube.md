@@ -1,5 +1,5 @@
 ---
-title: Basspistol PeerTube
+title: Introducing Basspistol PeerTube
 description: >-
   Achieving data-sovereignty is a difficult job, but someone's got to do it.
   Introducing our next step: PeerTube
@@ -15,7 +15,7 @@ tags:
   - platform
   - indenpendence
   - sovereignity
-image:
+image: /images/posts/basspistol-peertube.jpg
 video_path:
 download:
 link:
@@ -29,3 +29,4 @@ stores:
     download: false
 ---
 
+This project has always been about self-sustainability and independence.
