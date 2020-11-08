@@ -21,8 +21,7 @@ download:
 link:
   url: 'https://v.basspistol.org'
   buttontext: "\U0001F4FA Watch it!"
-chat:
-check_this_if_cannot_be_bought: false
+check_this_if_cannot_be_bought: true
 stores:
   - name:
     url:
