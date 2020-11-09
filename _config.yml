@@ -127,4 +127,7 @@ defaults:
           resize_style: cover
           uploads_dir: "/images/posts"
 
-
+feed:
+  path: rss.xml
+  posts_limit: 10
+  excerpt_only: true
