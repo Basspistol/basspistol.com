@@ -29,12 +29,14 @@ stores:
     download: false
 ---
 
-This project has always been about independence and auto-sufficiency. And it may seem like a strange quest in a world where publication is free of charge. But is it freedom? The platform we have come to rely on have repeatedly shown us that they aren't at our disposal. We are at theirs. They dictate what we can share and to whom, effectively creating a form of racketeering. Everyone who runs a fascbook page has seen the indecent messages: *"Boost this post for 34 DeadPresidents to reach 3.5 robot accounts", "Sponsor this video to get more like from disengaged people."* Does it work? Hardly. Is it worth it? Hell know\! Who wants to be a mere data-tax collector for global corporations?
+This project has always been about independence and auto-sufficiency. And it may seem like a strange quest in a world where publication is free of charge. But is it freedom that we are offered? The platforms we have come to rely on have repeatedly shown us that they aren't at our disposal: we're at theirs. First they made us gather everyone in their system, then they started dictate what we can share and to whom, effectively creating a form of racketeering. Everyone who runs a fascbook page has seen the indecent messages: *"Boost this post for 34 DeadPresidents to reach 3.5 robot accounts", "Sponsor this video to get more likes from disengaged people."* Does it work to engage with those practices? Hardly. Is it worth it? Hell know\! Who wants to be a mere data-tax collector for global corporations? Worse: who'd want to pay for that?
 
-Basspistol has long disposed of tools to publish multimedia, but not so much the means to allow you to interact with it. But it's being addressed\! Recently I [introduce a chat,](/chat/#read){: target="_blank"} (which to be fair hasn't been too popular… yet :) ) To run it we leverage the fair and trust worthy IRC via a platform that doesn't require any of your personal data. Bridged via matrix we are able to respond almost immediately to queries. But this article is about our latest piece to this puzzle: Peertube\!
+Way too many, sadly, yes.
 
-PeerTube is a free and open-source, decentralized, federated video platform powered by ActivityPub and WebTorrent, This does not only mean we can distribute video across the [fediverse network,](https://fediverse.party/){: target="_blank"} anyone with an account on these fair, empowering and federated services can interact with our content\!
+Basspistol has long disposed of tools to publish multimedia, but not so much the means to allow you to interact with it. But it's being addressed\! A[chat](/chat/#read){: target="_blank"} was introduced. (which to be fair hasn't been too popular… yet :) ) To run it we leverage the fair and trust worthy IRC via a platform that doesn't require any of your personal data. Bridged via matrix we are able to respond almost immediately to queries. **But this article is about our latest piece to this puzzle: our very own Peertube\!**
 
-But don't just take our word for it\!
+PeerTube is a free and open-source, decentralized, federated video platform powered by ActivityPub and WebTorrent. This does not only mean we can distribute video across the [fediverse network,](https://fediverse.party/){: target="_blank"} anyone with an account on these fair, empowering and federated services can interact with our content\! And because it is peer-to-peer, if we would happen to release something that y'all would want at once our servers wouldn't immediately choke\!
+
+Explore the medium\! Read about the Fediverse\! Get involved\! Subscribe to channels, share because you care\! Don't just take our word for it\!
 
 &nbsp;
