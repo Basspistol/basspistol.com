@@ -3,7 +3,7 @@ title: Introducing Basspistol PeerTube
 description: >-
   Achieving data-sovereignty is a dirty job, but someone's got to do it.
   Introducing our next step: PeerTube
-date: 2020-11-08 22:20:00
+date: 2020-11-08 21:20:00
 artist:
 author: set
 category: highlights
