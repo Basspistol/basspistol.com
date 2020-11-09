@@ -3,7 +3,7 @@ title: Introducing Basspistol PeerTube
 description: >-
   Achieving data-sovereignty is a dirty job, but someone's got to do it.
   Introducing our next step: PeerTube
-date: 2020-11-09 16:20:00
+date: 2020-11-08 22:20:00
 artist:
 author: set
 category: highlights
@@ -29,7 +29,7 @@ stores:
     download: false
 ---
 
-This project has always been about independence and auto-sufficiency. And it may seem like a strange quest in a world where publication is free of charge. But is it freedom that we are offered? The platforms we have come to rely on have repeatedly shown us that they aren't at our disposal: we're at theirs. First they made us gather everyone in their system, then they started dictating what we can share and to whom, effectively creating a form of racketeering. Everyone who runs a fascbook page has seen the indecent messages: *"Boost this post for 34 DeadPresidents to reach 3.5 robot accounts", "Sponsor this video to get more likes from disengaged people."* Does it work to engage with those practices? Hardly. Is it worth it? Hell know\! Who wants to be a mere data-tax collector for global corporations and pay for that?
+Basspistol as a project has always been about independence and auto-sufficiency. And it may seem like a strange quest in a world where publication is more or less free of charge. But is it freedom that we are offered? The platforms we have come to rely on have repeatedly shown us that they aren't at our disposal: we're at theirs. First they made us gather everyone in their system, promising us reach. Then they started dictating what we can share and to whom, effectively creating a form of racketeering. Everyone who runs a fascbook page has seen the indecent messages: *"Boost this post for 34 DeadPresidents to reach 3.5 robot accounts", "Sponsor this video to get more likes from disengaged people."* Does it work to engage with those practices? Hardly. Is it worth it? Hell know\! Who wants to be a mere data-tax collector for global corporations and pay for that?
 
 Waaaaaay too many, sadly, yes.
 
