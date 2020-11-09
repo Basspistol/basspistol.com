@@ -38,15 +38,15 @@ title : The Basspistol RSS Feed
   {% for post in site.posts limit: 7 %}
       <item>
         <title>{{ post.title | xml_escape }}</title>
-        <link>{% if post.link.url %}{{ post.link.url }}?pk_campaign=rss{% else %}{{ site.url }}{{ post.url }}?pk_campaign=rss{% endif %}</link>
+        <link>{{ site.url }}{{ post.url }}?pk_campaign=rss</link>
         <guid isPermaLink="true">{{ site.url }}{{ post.url }}</guid>
-        <description> &lt;img src=&quot;{{ site.url }}{{ post.image }}&quot; /&gt; &lt;br /&gt;{{ post.description | truncate: 150 | xml_escape }} {% if post.link %}&lt;br /&gt;Full article on: &lt;a href=&quot;{{ site.url }}{{ post.url }}&quot;&gt;{{ site.url }}{{ post.url }}&lt;/a&gt;{% endif %}</description>
+        <description>{{ post.description | truncate: 200 | xml_escape }}</description>
         <category>Hi-Lights</category>
         <author>{{ site.publisher.mail | xml_escape }} ({{ site.publisher.name }})</author>
         <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
         <itunes:author>{{ site.publisher.mail }}</itunes:author>
         <itunes:explicit>No</itunes:explicit>
-        <itunes:subtitle>{{ post.description | truncate: 252 | xml_escape }}</itunes:subtitle>
+        <itunes:subtitle>{{ post.description | truncate: 200 | xml_escape }}</itunes:subtitle>
         <itunes:summary>{{ post.description | xml_escape }}</itunes:summary>
         <itunes:keywords>{% for tags in post.tags %}{{ tags | xml_escape | strip_html }}{% unless forloop.last %}, {% endunless %}{% endfor %}</itunes:keywords>
         <itunes:image href="{{ site.url }}{{ post.image }}"/>
