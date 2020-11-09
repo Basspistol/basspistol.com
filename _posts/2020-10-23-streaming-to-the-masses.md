@@ -17,7 +17,6 @@ download:
 link:
   url: 'https://audius.streamlink.to/welcometomainnet'
   buttontext: you coming?
-chat:
 check_this_if_cannot_be_bought: true
 stores:
   - name:
