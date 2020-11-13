@@ -14,7 +14,7 @@ tags:
   - Virtual Night Club
   - indenpendence
   - Glance-Floor
-image: /images/posts/glancefloor.gif
+image: /images/posts/glancefloor-1.gif
 video_path:
 download:
 link:
