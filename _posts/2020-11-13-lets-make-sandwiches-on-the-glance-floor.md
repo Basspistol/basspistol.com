@@ -4,7 +4,7 @@ description: >-
   Confined again? No Problem: stay home and have fun! Following the success of
   the first edition and seeing how the server survived, we are forced to
   reiterate this damage happy ritual!
-date: 2020-11-13 16:20:00
+date: 2020-11-13 15:20:00
 artist:
 author: set
 category: highlights
