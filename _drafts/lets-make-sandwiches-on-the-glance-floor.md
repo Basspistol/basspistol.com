@@ -31,11 +31,11 @@ stores:
 
 On the 29th of November we're having a little virtual party with a Glance-Floor and everything cool one has come to expect from a virtual night club. We'll be leveraging the sweet [Mozilla hubs](https://hubs.mozilla.com/) and of course the Radio for optimal sound.
 
-#### For the occasion we're looking for people who might be interested in DJ-ing/performing? To make it interesting, we're paying DJs/performers 200 $audio.
+### For the occasion we're looking for people who might be interested in DJ-ing/performing? To make it interesting, we're paying DJs/performers 200 $audio.
 
 It's basically shameless p-nuts, but there is no sales what so ever during the event, hence no revenue to split. Just some funky crypto out of my own pocket that may or may not be worth the effort. (200 $audio ~= 20 dollars today, could be 0 or 200 tomorrow)
 
-#### [Contact us here if you're interested in performing](mailto:info+glancefloor@basspistol.com)
+### [Contact us here if you're interested in performing](mailto:info+glancefloor@basspistol.com)
 
 There are few technicalities that needs to be met in order to achieve get you streaming, so if you are interested, please let us know a little in advance so we can set you up. But in the broader lines all you need is a decent internet connection, a sound card and your usual DJ-rig
 
