@@ -29,7 +29,7 @@ stores:
     download: false
 ---
 
-On the 29th of November we're having a little virtual party with a Glance-Floor and everything cool one has come to expect from a virtual night club. We'll be leveraging the sweet [Mozilla hubs](https://hubs.mozilla.com/) and of course the Radio for optimal sound.
+On the 27th of November we're having a little virtual party with a Glance-Floor and everything cool one has come to expect from a virtual night club. We'll be leveraging the sweet [Mozilla hubs](https://hubs.mozilla.com/) and of course the Radio for optimal sound.
 
 ### For the occasion we're looking for people who might be interested in DJ-ing/performing? To make it interesting, I'm paying DJs/performers 200 $audio.
 
