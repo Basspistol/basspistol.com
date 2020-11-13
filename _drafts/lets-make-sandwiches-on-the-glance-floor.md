@@ -1,13 +1,20 @@
 ---
 title: Let's make sandwiches on the Glance-Floor
-description:
-date: 2020-11-13 13:50:27
+description: >-
+  Confined again? No Problem: stay home and have fun! Following the success of
+  the first edition and seeing how the server survived, we are forced to
+  reiterate this damage happy ritual!
+date: 2020-11-13 13:50:00
 artist:
-author:
-category:
+author: set
+category: highlights
 album:
 tags:
-image:
+  - Party
+  - Virtual Night Club
+  - indenpendence
+  - Glance-Floor
+image: /images/posts/glancefloor.gif
 video_path:
 download:
 link:
