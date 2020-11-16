@@ -13,6 +13,7 @@ geo:
   town: 'Geneva'
   country: 'Switzerland'
   postalcode: '1201'
+timezone: CET
 
 banner: '/assets/img/basspistol_est_2010_square_bluegreen.jpg'
 icon: /siteicon.png
@@ -126,6 +127,23 @@ defaults:
           height: 720
           resize_style: cover
           uploads_dir: "/images/posts"
+
+## Cloud Cannon
+_explore:
+  groups:
+    - heading: Content
+      collections:
+        - posts
+        - drafts
+        - pages
+    - heading: Other
+      collections:
+        - data
+        - authors
+
+## plugins
+plugins:
+  - jekyll-image-size
 
 # feed:
 #   path: rss.xml
