@@ -1,0 +1,35 @@
+# - id: franky
+#   mbrainz: 'de2a996e-513c-4474-b03c-63b9566f1475'
+#   image: /assets/img/frankyfresco.jpg
+#   display_name: 'Franky Fresco'
+#   link: https://frankyfresco.com
+#   bio: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque bibendum ornare luctus. Nullam a mi risus. Nulla sit amet facilisis neque. In a urna a massa iaculis pharetra. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aenean at semper orci. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. '
+#   email: frankyfresco@basspistol.com
+# - id: jokko
+#   mb:
+#   image: /assets/img/jokko.jpg
+#   display_name: 'Jokko'
+#   link: https://soundcloud.com/jokkomusic
+#   bio: 'Aenean nec libero gravida, vestibulum ex eu, fermentum erat. Nulla facilisi. Nam tempus augue vitae vestibulum viverra. Ut eleifend dui semper eros porttitor molestie. Quisque eget blandit justo. Aliquam velit orci, mattis sed justo et, fringilla sagittis tellus. Etiam fermentum ullamcorper dolor at scelerisque. Duis dolor diam, placerat id porttitor placerat, fermentum tempus elit. Nulla lectus libero, tincidunt vitae rhoncus consequat, luctus aliquam dui.'
+#   email: jokko@basspistol.com
+# - id: max
+#   mbrainz: 'd12105e6-ec94-48bd-bbd9-39786208f231'
+#   image: /assets/img/max.jpg
+#   display_name: 'Max Park'
+#   link: 
+#   bio: 'Phasellus vitae tortor a metus blandit gravida ut ac eros. Nullam eu metus a metus tempor laoreet. Aenean vel eleifend elit. Maecenas massa mi, posuere eu augue quis, finibus sollicitudin ante. Mauris mi dolor, interdum a consectetur id, cursus et neque. Vivamus aliquam augue ac dui pretium scelerisque. Pellentesque pretium magna vel metus vulputate, vitae porta nisl posuere. Ut suscipit urna a ante malesuada tempus. Proin venenatis nisi sit amet elit fermentum porta. Nullam volutpat ultrices purus, a tempus lorem congue a. Sed euismod eleifend nulla, ut porttitor orci efficitur eget. '
+#   email: max@basspistol.com
+# - id: publicservice
+#   mb:
+#   image: /assets/img/publicservice.jpg
+#   display_name: 'Public Service'
+#   link: 
+#   bio: 'Phasellus a malesuada felis. Nullam maximus libero ac blandit imperdiet. Nulla eget pretium dolor, ac fringilla tortor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Integer vulputate posuere ultricies. Duis commodo lobortis elit, sed tempus nulla euismod tempus. Aenean in tellus ut dui ullamcorper porta sed scelerisque lacus. Mauris quis venenatis nulla. Vivamus non posuere tortor, id euismod augue. Sed eu mollis nunc. '
+#   email: publicservice@basspistol.com
+# - id: sweatsky
+#   mb:
+#   image: /assets/img/sweatsky.jpg
+#   display_name: 'Sweatsky'
+#   link: https://soundcloud.com/sweatsky
+#   bio: 'Quisque bibendum ornare luctus. Nullam a mi risus. Nulla sit amet facilisis neque. In a urna a massa iaculis pharetra. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aenean at semper orci.'
+#   email: sweatsky@basspistol.com
