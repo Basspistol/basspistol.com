@@ -65,6 +65,8 @@ collections:
     permalink: /tracks/:path/
   authors:
     _hide_content: 
+  artists:
+    output: false
       
 # defaults
 
@@ -136,6 +138,10 @@ _explore:
         - posts
         - drafts
         - pages
+    - heading: Other
+      collections:
+        - data
+        - authors
     - heading: Other
       collections:
         - data

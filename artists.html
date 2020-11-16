@@ -22,7 +22,7 @@ image: /assets/vid/artists.jpg
 {% include header.html %}
 
 
-{% assign sorted = site.data.artists | sort: 'id' %}      
+{% assign sorted = site.artists | sort: 'id' %}      
 {% for post in sorted %}
 
 <section class="front-section" id="read">
