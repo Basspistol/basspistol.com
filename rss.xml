@@ -2,38 +2,25 @@
 layout: nil
 title : The Basspistol RSS Feed
 ---
-<?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:slash="http://purl.org/rss/1.0/modules/slash/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:georss="http://www.georss.org/georss" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" >
-
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:media="http://search.yahoo.com/mrss/">
+    
   <channel>
     <title>{{ site.title | xml_escape  }}</title>
-    <atom:link href="{{ site.url }}/rss.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="{{ site.url }}/atom.xml" rel="self" type="application/rss+xml" />
     <link>{{ site.url }}</link>
     <description>{{ site.description | xml_escape }}</description>
     <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
     <language>en-US</language>
-    <sy:updatePeriod>hourly</sy:updatePeriod>
-    <sy:updateFrequency>1</sy:updateFrequency>
     <generator>https://jekyllrb.com/</generator>
-
     <image>
       <url>{{ site.url }}/siteicon.png</url>
       <title>{{ site.title | xml_escape }}</title>
       <link>{{ site.url }}</link>
     </image> 
-    <itunes:summary><![CDATA[Rare contemporary music, Founded in 2010, Basspistol is the Outernational Music Syndicate]]></itunes:summary>
-    <itunes:author>{{ site.publisher.mail }}</itunes:author>
-    <itunes:explicit>yes</itunes:explicit>
-    <itunes:image href="{{ site.url }}{{ site.banner }}" />
-    <itunes:owner>
-      <itunes:name>{{ site.publisher.name | xml_escape }}</itunes:name>
-      <itunes:email>info@basspitol.com</itunes:email>
-    </itunes:owner>
     <managingEditor>{{ site.publisher.mail }} ({{ site.publisher.name }})</managingEditor>
     <copyright>Anti-Copyright 2018 {{ site.title }}</copyright>
-    <itunes:subtitle>{{ site.title }}</itunes:subtitle>
-    <itunes:category text="Music">
-    </itunes:category>
+
 
   {% for post in site.posts limit: 7 %}
       <item>
@@ -42,14 +29,13 @@ title : The Basspistol RSS Feed
         <guid isPermaLink="true">{{ site.url }}{{ post.url }}</guid>
         <description>{{ post.description | truncate: 200 | xml_escape }}</description>
         <category>Hi-Lights</category>
-        <author>{{ site.publisher.mail | xml_escape }} ({{ site.publisher.name }})</author>
+        {% assign author_id = post.author | prepend: "/authors/" | append: "/" %}
+        {% assign author = site.authors | where: "url", author_id | first %}
+        <dc:creator>{{ author.name }}</dc:creator>
+        <author>{{ author.email }} ({{ author.name }})</author>
         <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
-        <itunes:author>{{ site.publisher.mail }}</itunes:author>
-        <itunes:explicit>No</itunes:explicit>
-        <itunes:subtitle>{{ post.description | truncate: 200 | xml_escape }}</itunes:subtitle>
-        <itunes:summary>{{ post.description | xml_escape }}</itunes:summary>
-        <itunes:keywords>{% for tags in post.tags %}{{ tags | xml_escape | strip_html }}{% unless forloop.last %}, {% endunless %}{% endfor %}</itunes:keywords>
-        <itunes:image href="{{ site.url }}{{ post.image }}"/>
+        <media:thumbnail url="{{ site.url }}{{ post.image }}" {% imagesize {{ post.image }}:props %}></media:thumbnail>
+        <media:title type="pl ain">{{ post.title | xml_escape }}</media:title>
       </item>
   {% endfor %}
   </channel>

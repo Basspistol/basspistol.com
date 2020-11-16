@@ -1,0 +1,38 @@
+---
+layout: nil
+---
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title type="text" xml:lang="en">{{ site.title }}</title>
+  <subtitle>{{ site.description | xml_escape }}</subtitle>
+  <link type="application/atom+xml" href="{{ site.url }}/atom.xml" rel="self"/>
+  <link type="text/html" href="{{ site.url }}/" rel="alternate"/>
+  <updated>{{ site.time | date_to_xmlschema }}</updated>
+  <id>{{ site.url }}/atom.xml</id>
+  <author>
+    <name>{{ site.publisher.name }}</name>
+    <email>{{ site.publisher.mail }}</email>
+  </author>
+  <rights>Copyleft {{ site.time | date: '%Y' }} {{ site.publisher.name }}</rights>
+  <icon>{{ site.url }}{{ site.icon }}</icon>
+  <logo>{{ site.url }}{{ site.icon }}</logo>
+
+  {% for post in site.posts limit:10 %}
+  <entry>
+    <title>{{ post.title }}</title>
+    <link href="{{ site.url }}{{ post.url }}"/>
+    <published>{{ post.date | date_to_xmlschema }}</published>
+    <updated>{{ post.last_modified_at | date_to_xmlschema }}</updated>
+    <id>{{ site.url }}{{ post.url }}</id>
+    <content type="html">{{ post.content | strip_html | truncate: 220 | xml_escape }}</content>
+    <summary>{{ post.description }}</summary>
+    <author>
+{% assign author_id = post.author | prepend: "/authors/" | append: "/" %}
+{% assign author = site.authors | where: "url", author_id | first %}
+      <name>{{ author.name }}</name>
+      <email>{{ author.email }}</email>
+      <uri>{{ author.url_staff }}</uri>
+    </author>
+  </entry>
+  {% endfor %}
+</feed>

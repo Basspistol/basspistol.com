@@ -44,3 +44,19 @@
   50%{background-size:150% 100%}
   100%{background-size:100% 150%}
 }
+
+@-webkit-keyframes moirage {
+  0%{background-size:110%}
+  50%{background-size:120%}
+  100%{background-size:110%}
+}
+@-moz-keyframes moirage {
+  0%{background-size:110%}
+  50%{background-size:120%}
+  100%{background-size:110%}
+}
+@keyframes moirage {
+  0%{background-size:110%}
+  50%{background-size:120%}
+  100%{background-size:110%}
+}

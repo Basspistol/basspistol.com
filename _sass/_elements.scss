@@ -304,7 +304,9 @@ a:hover {
     padding: 20px;
     box-sizing: border-box;
     text-align: left;
-
+    -webkit-animation: moirage 20s ease infinite;
+    -moz-animation: moirage 20s ease infinite;
+    animation: moirage 20s ease infinite;
   }
   .description {
     min-height: unset;
