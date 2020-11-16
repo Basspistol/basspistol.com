@@ -138,14 +138,11 @@ _explore:
         - posts
         - drafts
         - pages
-    - heading: Other
+    - heading: 'People and data'
       collections:
         - data
         - authors
-    - heading: Other
-      collections:
-        - data
-        - authors
+        - artists
 
 ## plugins
 plugins:
