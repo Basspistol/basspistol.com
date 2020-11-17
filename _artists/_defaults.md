@@ -4,6 +4,6 @@ mbrainz:
 image: 
 display_name: 
 link: 
-bio: 
+bio_html: 
 email: 
 ---
