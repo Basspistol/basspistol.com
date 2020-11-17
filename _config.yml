@@ -64,9 +64,10 @@ collections:
     output: true
     permalink: /tracks/:path/
   authors:
-    _hide_content: 
+    _hide_content: true
   artists:
     output: false
+    _hide_content: true
       
 # defaults
 
