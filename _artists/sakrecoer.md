@@ -1,10 +1,16 @@
 ---
 id: sakrecoer
-mbrainz: 'a2899399-d1d5-462f-9d56-ec1ea78cc4b6'
+mbrainz: a2899399-d1d5-462f-9d56-ec1ea78cc4b6
 image: /assets/img/sakrecoer.jpg
-display_name: 'Sakrecoer Fam'
-link: https://sakrecoer.com
+display_name: Sakrecoer Fam
+link: 'https://sakrecoer.com'
 bio_html: >-
-  'Aenean nec libero gravida, vestibulum ex eu, fermentum erat. Nulla facilisi. Nam tempus augue vitae vestibulum viverra. Ut eleifend dui semper eros porttitor molestie. Quisque eget blandit justo. Aliquam velit orci, mattis sed justo et, fringilla sagittis tellus. Etiam fermentum ullamcorper dolor at scelerisque. Duis dolor diam, placerat id porttitor placerat, fermentum tempus elit. Nulla lectus libero, tincidunt vitae rhoncus consequat, luctus aliquam dui.'
+  <p>Sakrecoer Uncorporated Stands for independent fun-loving Activism, Art
+  &amp; Music. If <a target="_blank"
+  href="https://en.wikipedia.org/wiki/Monica_Zetterlund">Monica Zetterlund</a>
+  was a cyberpunk making electronic music, Sakrecoer would probably be Her.
+  Aiming for questions rather than answers and at pushing your creativity.
+  Sakrecoer and their many alter-egos move by feet in the streets and value
+  their integrity.</p>
 email: sakrecoer@basspistol.com
 ---
