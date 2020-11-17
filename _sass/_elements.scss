@@ -20,14 +20,14 @@ strong {
 a {
   text-decoration-style: wavy;
   text-decoration-color: transparent;
-  color: var(--accent1);
+  color: var(--accent2);
   -moz-transition: all var(--anim-speed) ease-in-out, color var(--anim-speed) ease-in-out;
   -webkit-transition: all var(--anim-speed) ease-in-out, color var(--anim-speed) ease-in-out;
   -ms-transition: all var(--anim-speed) ease-in-out, color var(--anim-speed) ease-in-out;
   transition: all var(--anim-speed) ease-in-out, color var(--anim-speed) ease-in-out;
 }
 a:hover {
-  color: var(--accent2);
+  color: var(--accent1);
   text-decoration-style: wavy;
   text-decoration-color: unset;
 }
