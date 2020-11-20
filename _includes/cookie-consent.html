@@ -49,7 +49,7 @@
     {% include matomo.js %}
   }
   document.getElementById('cookie-notice-accept').addEventListener("click", function () {
-    createCookie('cookie-notice-dismissed', 'wantCookies', 93);
+    createCookie('cookie-notice-dismissed', 'wantCookies', 90);
     document.getElementById('cookie-notice').style.display = 'none';
     _paq.push(['trackEvent', 'Consent', 'wantCookie']);
     location.reload();
