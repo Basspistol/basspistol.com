@@ -49,14 +49,14 @@
     {% include matomo.js %}
   }
   document.getElementById('cookie-notice-accept').addEventListener("click", function () {
-    createCookie('cookie-notice-dismissed', 'wantCookies', 90);
+    createCookie('cookie-notice-dismissed', 'wantCookies', 365);
     document.getElementById('cookie-notice').style.display = 'none';
     _paq.push(['trackEvent', 'Consent', 'wantCookie']);
     
   });
 
   document.getElementById('cookie-notice-decline').addEventListener("click", function () {
-    createCookie('cookie-notice-dismissed', 'dontWantCookies', 90);
+    createCookie('cookie-notice-dismissed', 'dontWantCookies', 365);
     document.getElementById('cookie-notice').style.display = 'none';
     _paq.push(['trackEvent', 'Consent', 'dontWantCookie']);
     

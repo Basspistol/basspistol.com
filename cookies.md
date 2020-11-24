@@ -35,7 +35,7 @@ This one is set by us. It is only placed if you dismiss the cookie-banner by eit
 
 **Visitor preferences cookies** are:
 
-**Name**\: cookie-notice-dissmissed<br>**Services**\: Cookie consent kit<br>**Purpose**\: Stores your cookie preferences (so you will not be asked again) This cookie is only placed if you accept or decline to help improve our marketing via the cookie-banner buttons.<br>**Cookie type and duration:** First-party session cookie deleted after 90 days
+**Name**\: cookie-notice-dissmissed<br>**Services**\: Cookie consent kit<br>**Purpose**\: Stores your cookie preferences (so you will not be asked again) This cookie is only placed if you accept or decline to help improve our marketing via the cookie-banner buttons.<br>**Cookie type and duration:** First-party session cookie deleted after 12 months.
 
 ### 2\. Analytics cookies
 
