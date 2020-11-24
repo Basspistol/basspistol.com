@@ -8,6 +8,8 @@ layout: page
 ---
 To improve our marketing efforts, we at {{ site.publisher.name }} sometimes place small data files called cookies on your device. This site will work perfectly without them. We do however use anonymized analytics of the site-usage regardless of cookies (see bellow if you want to opt out of this too) This usage-data contain no identifiable information.
 
+#### If you were not prompted to consent to cookies when you entered this site, it means you either expressed consent for cookies or dismissed cookies on one of {{ site.publisher.name }}'s subdomain-websites.
+
 ## What are cookies?
 
 A cookie is a small text file that a website stores on your computer or mobile device when you visit the site.
