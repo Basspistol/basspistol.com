@@ -52,20 +52,20 @@
     createCookie('cookie-notice-dismissed', 'wantCookies', 90);
     document.getElementById('cookie-notice').style.display = 'none';
     _paq.push(['trackEvent', 'Consent', 'wantCookie']);
-    location.reload();
+    
   });
 
   document.getElementById('cookie-notice-decline').addEventListener("click", function () {
     createCookie('cookie-notice-dismissed', 'dontWantCookies', 90);
     document.getElementById('cookie-notice').style.display = 'none';
     _paq.push(['trackEvent', 'Consent', 'dontWantCookie']);
-    location.reload();
+    
   });
 
   // document.getElementById('cookie-notice-gimme').addEventListener("click", function () {
   //   createCookie('cookie-notice-dismissed', 'wantCookies', 31);
   //   document.getElementById('cookie-notice').style.display = 'none';
-  //   location.reload();
+  //   
   // });
 
 
