@@ -2,7 +2,7 @@
 title: Basspistol Glance Floor
 subtitle: Radio CrashParty
 description: >-
-  Welcome to the virtual Nightclub 🦄! To get the music in highquality, press the play button under the circular atomic bomb.
+  Welcome to the virtual Nightclub 🦄! Press the play button and pick a room!
 tags:
   - radio
   - basspistol
@@ -10,8 +10,8 @@ tags:
   - music
   - broadcast
   - stream
-video_path: /assets/vid/radio.mp4
-image: /assets/vid/radio.jpg
+video_path: https://media.giphy.com/media/g0kv2bTihoOZy/giphy.mp4
+image: https://media.giphy.com/media/xUPGGePcEyYvkS75ew/giphy.gif
 layout: default
 ---
 {% include relBase.html %}
@@ -39,9 +39,7 @@ layout: default
     <div class="coverartwrapper">
       <div class="coverartwrapped" id="coverart" style="background-image: url({{ page.image }});"></div>
     </div>
-    <div class="playbutton hideWhenNoJS">
-      <a id="mu_pause" class="button">🎶 Play!</a>
-    </div>
+
 
   </section>
 </div>
@@ -50,6 +48,9 @@ layout: default
   <section>
     <h1>{{ page.title }}</h1>
     <h2 style="text-align: left;">{{ page.description }} </h2>
+    <div class="playbutton hideWhenNoJS">
+      <a id="mu_pause" class="button">🎶 Play!</a>
+    </div>
     <p>To enjoy the stream in your favorite player <a target="_blank" rel="noopener noreferrer"
       href='https://radio.basspistol.com/radio.mp3.m3u'>click here</a></p>
 
@@ -105,7 +106,23 @@ layout: default
 </section>
 <section>
   <div id="radioPlaceholder"></div>
-    
+  <h2>Line-up</h2>  
+
+    <h3>🎉🎉 Opening of Glance Floor 🎉🎉</h3>
+    <p><strong>20:00 CET - Virtual Club URL TBA</strong></p>
+    <p>♫♪.ılılıll|̲̅̅●̲̅̅|̲̅̅=̲̅̅|̲̅̅●̲̅̅|llılılı.♫♪♫♪</p>
+    <h3>☕☕ Garcon de Café ☕☕</h3>
+    <p><strong>20:30 CET - https://audius.co/garcondecafe</strong></p>
+    <p>Mysterious electronic act from the Scandinavian France. Live and direct with hardware and spices!</p>
+    <p>♫♪.ılılıll|̲̅̅●̲̅̅|̲̅̅=̲̅̅|̲̅̅●̲̅̅|llılılı.♫♪♫♪</p>
+    <h3>🦄🦄 Jätten 🦄🦄</h3>
+    <p><strong>21:30 CET - https://il.ink/Jaetten</strong></p>
+    <p>Crate-digger of the 21st century with focus on the alternative, producer extraordinaire, full time giant and incredible selector.</p>
+    <p>♫♪.ılılıll|̲̅̅●̲̅̅|̲̅̅=̲̅̅|̲̅̅●̲̅̅|llılılı.♫♪♫♪</p>
+    <h3>🎩🎩 Dellarge 🎩🎩</h3>
+    <p><strong>23:30 CET - http://dellarge.com/</strong></p>
+    <p>Dellarge will play a very special and exclusive DJ-set, in tribute to the infamoua D2</p>
+    <p>♫♪.ılılıll|̲̅̅●̲̅̅|̲̅̅=̲̅̅|̲̅̅●̲̅̅|llılılı.♫♪♫♪</p>
   {% include author.html %}
 </section>
   {% include footer.html %}
@@ -170,3 +187,17 @@ layout: default
   });
 
 </script>
+<style>
+:root {
+    --bg: rgb(244, 200, 211);
+    --bg-alt: rgba(244, 200, 211, 0.75);
+    --fg: rgb(107, 108, 153);
+    --fg-alt: rgba(107, 108, 153, 0.5);
+    --border: rgb(89, 125, 69);
+    --border-alt: rgba(89, 125, 69, 0.75);
+    --accent1: rgb(255, 142, 34);
+    --accent1-alt: rgba(255, 142, 34, 0.75);
+    --accent2: rgb(111, 188, 195);
+    --accent2-alt: rgba(111, 188, 195, 0.75);
+}
+</style>
