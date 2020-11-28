@@ -1,0 +1,203 @@
+---
+title: Basspistol Glance Floor
+subtitle: Radio CrashParty
+description: >-
+  Welcome to the virtual Nightclub 🦄! Press the play button and pick a room!
+tags:
+  - radio
+  - basspistol
+  - live
+  - music
+  - broadcast
+  - stream
+video_path: https://media.giphy.com/media/g0kv2bTihoOZy/giphy.mp4
+image: https://media.giphy.com/media/xUPGGePcEyYvkS75ew/giphy.gif
+layout: default
+---
+{% include relBase.html %}
+<script src="{{ relBase }}/assets/js/jquery-3.5.1.min.js"></script>
+<script type="text/javascript">
+  function getData() {
+    $.getJSON('https://radio.basspistol.com/status-json.xsl', function (json) {
+      output = "<h4>Now Playing: </h4>";
+      output += "<h3>" + json.icestats.source.title + "</h3>";
+      output += "<p style='font-size:14px;'>" + json.icestats.source.listeners + " peers are listening<br />";
+      document.getElementById("radioPlaceholder").innerHTML = output;
+    });
+  }
+  setInterval(getData, 7000);
+
+  $(function () {
+    getData();
+  });
+</script>
+<!-- Banner -->
+
+
+<div id="trackArt">
+  <section>
+    <div class="coverartwrapper">
+      <div class="coverartwrapped" id="coverart" style="background-image: url({{ page.image }});"></div>
+    </div>
+
+
+  </section>
+</div>
+<!-- Content -->
+<div id="trackInfo">
+  <section>
+    <h1>{{ page.title }}</h1>
+    <h2 style="text-align: left;">{{ page.description }} </h2>
+    <div class="playbutton hideWhenNoJS">
+      <a id="mu_pause" class="button">🎶 Play!</a>
+    </div>
+    <p>To enjoy the stream in your favorite player <a target="_blank" rel="noopener noreferrer"
+      href='https://radio.basspistol.com/radio.mp3.m3u'>click here</a></p>
+
+    
+
+    <p class="noJSalbum"><a class="button" target="_blank" rel="noopener"
+        href="https://radio.basspistol.com/radio.mp3"><span class="fas fa-play"></span> Play!</a></p>
+
+  </section>
+
+<section class="releases">
+  <h2>Pick Your Room!</h2>
+  <div class="container" style="padding:0;">
+  <!-- Smokers Lounge-->
+  <article>
+    <figure>
+      <a href="https://meet.jit.si/Basspistol-Super-Chill-Smokers-Lounge-For-Coolt-Cats" target="_balnk" rel="noopener">
+        <img src="/images/pages/Logo_Jitsi.svg" alt="Enter The SMokers Lounge" /></a>
+      <figcaption>
+        <h3>Smoker's Lounge</h3>
+        <p>Chill-out, have a little talk with your peers face-to-face. Dress up be fancy, classy and respectfull</p>
+       
+      </figcaption>
+    </figure>
+  </article>
+  <!-- Hubs -->
+  <article>
+    <figure>
+      <a href="https://hubs.mozilla.com/SWHvjBj/euphoric-gifted-meetup/" target="_balnk" rel="noopener">
+        <img src="/images/pages/hubs.jpg" alt="Enter the Glance Floor" /></a>
+      <figcaption>
+        <h3>Glance Floor</h3>
+        <p>This is where the action is at! Take a spin on the dancefloor, enjoy the company of others, have a chat. Draw your tag on stuff! Place your drink on the DJ booth. Do everything you would in a nightclub plus some more!</p>
+      </figcaption>
+    </figure>
+  </article>
+  <!-- Leet -->
+  <article>
+    <figure>
+      <a href="/chat/#read" target="_balnk" rel="noopener">
+        <img src="/images/pages/irc_chat_logo.png" alt="Cover art for {{ post.title }}" /></a>
+      <figcaption>
+        <h3>Leet's lair</h3>
+        <p>Not so much for VR or showing your face on cam? This room is for you, Fren. Join a text-chat and do all of the things one can do in the other rooms. But do it the 1337 way!</p>
+       
+
+      </figcaption>
+    </figure>
+  </article>
+
+
+</div>
+</section>
+<section>
+  <div id="radioPlaceholder"></div>
+  <h2>Line-up</h2>  
+
+    <h3>🎉🎉 Opening of Glance Floor 🎉🎉</h3>
+    <p><strong>20:00 CET - Virtual Club URL TBA</strong></p>
+    <p>♫♪.ılılıll|̲̅̅●̲̅̅|̲̅̅=̲̅̅|̲̅̅●̲̅̅|llılılı.♫♪♫♪</p>
+    <h3>☕☕ Garcon de Café ☕☕</h3>
+    <p><strong>20:30 CET - https://audius.co/garcondecafe</strong></p>
+    <p>Mysterious electronic act from the Scandinavian France. Live and direct with hardware and spices!</p>
+    <p>♫♪.ılılıll|̲̅̅●̲̅̅|̲̅̅=̲̅̅|̲̅̅●̲̅̅|llılılı.♫♪♫♪</p>
+    <h3>🦄🦄 Jätten 🦄🦄</h3>
+    <p><strong>21:30 CET - https://il.ink/Jaetten</strong></p>
+    <p>Crate-digger of the 21st century with focus on the alternative, producer extraordinaire, full time giant and incredible selector.</p>
+    <p>♫♪.ılılıll|̲̅̅●̲̅̅|̲̅̅=̲̅̅|̲̅̅●̲̅̅|llılılı.♫♪♫♪</p>
+    <h3>🎩🎩 Dellarge 🎩🎩</h3>
+    <p><strong>23:30 CET - http://dellarge.com/</strong></p>
+    <p>Dellarge will play a very special and exclusive DJ-set, in tribute to the infamoua D2</p>
+    <p>♫♪.ılılıll|̲̅̅●̲̅̅|̲̅̅=̲̅̅|̲̅̅●̲̅̅|llılılı.♫♪♫♪</p>
+  {% include author.html %}
+</section>
+  {% include footer.html %}
+  <!-- End Post Navigation -->
+</div>
+
+<!-- Audio player-->
+
+<div id="fixedPlayer" class="showplayer hideplayer">
+  <div id="audiowrap">
+    <div id="audio0">
+      <audio controls autoplay preload="none" data-matomo-title="Basspistol Radio">
+        <source src="https://radio.basspistol.com/radio.mp3" type="audio/mpeg" />
+        <h1>Your browser isn't ready for so much hotness. Use the download-link instead.</h1>.
+      </audio>
+    </div>
+  </div>
+  <div id="nowPlay">
+
+  </div>
+</div>
+
+<script type="text/javascript">
+
+  function loadUrl(newLocation) {
+    window.location = newLocation;
+    return false;
+  }
+
+  var mu = document.getElementsByTagName("audio")[0];
+  var pauseButton = document.getElementById("mu_pause");
+  var spincover = document.getElementById("coverart");
+  var fixedplayer = document.getElementById("fixedPlayer");
+
+  mu.addEventListener('ended', function () {
+    // only functional if "loop" is removed
+    mu.pause();
+    mu.currentTime = 0;
+    loadUrl("{{ relBase }}{{ page.next.url }}"); return false;
+  });
+  mu.onplaying = function () {
+    pauseButton.innerHTML = "⏯️ Pause";
+    fixedplayer.classList.remove("hideplayer");
+  };
+
+  pauseButton.addEventListener("click", function () {
+    if (mu.paused) {
+      mu.play();
+    }
+    else {
+      mu.pause();
+    }
+  });
+
+  mu.addEventListener('playing', function () {
+    spincover.classList.add("spinnit");
+    spincover.classList.remove("paused");
+  });
+  mu.addEventListener('pause', function () {
+    spincover.classList.add("paused");
+    pauseButton.innerHTML = "⏯️ Resume";
+  });
+
+</script>
+<style>
+:root {
+    --bg: rgb(244, 200, 211);
+    --bg-alt: rgba(244, 200, 211, 0.75);
+    --fg: rgb(107, 108, 153);
+    --fg-alt: rgba(107, 108, 153, 0.5);
+    --border: rgb(89, 125, 69);
+    --border-alt: rgba(89, 125, 69, 0.75);
+    --accent1: rgb(255, 142, 34);
+    --accent1-alt: rgba(255, 142, 34, 0.75);
+    --accent2: rgb(111, 188, 195);
+    --accent2-alt: rgba(111, 188, 195, 0.75);
+}
+</style>

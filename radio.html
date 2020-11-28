@@ -1,8 +1,9 @@
 ---
-title: Basspistol Glance Floor
+title: Basspistol Libre Radio
 subtitle: Radio CrashParty
 description: >-
-  Welcome to the virtual Nightclub 🦄! Press the play button and pick a room!
+  Basspistol Radio Station! 777% without commercials! RobotDJ-sets and live
+  interventions! This is the sound of freedom.
 tags:
   - radio
   - basspistol
@@ -10,8 +11,8 @@ tags:
   - music
   - broadcast
   - stream
-video_path: https://media.giphy.com/media/g0kv2bTihoOZy/giphy.mp4
-image: https://media.giphy.com/media/xUPGGePcEyYvkS75ew/giphy.gif
+video_path: /assets/vid/radio.mp4
+image: /assets/vid/radio.jpg
 layout: default
 ---
 {% include relBase.html %}
@@ -39,7 +40,9 @@ layout: default
     <div class="coverartwrapper">
       <div class="coverartwrapped" id="coverart" style="background-image: url({{ page.image }});"></div>
     </div>
-
+    <div class="playbutton hideWhenNoJS">
+      <a id="mu_pause" class="button">🎶 Play!</a>
+    </div>
 
   </section>
 </div>
@@ -47,84 +50,45 @@ layout: default
 <div id="trackInfo">
   <section>
     <h1>{{ page.title }}</h1>
-    <h2 style="text-align: left;">{{ page.description }} </h2>
-    <div class="playbutton hideWhenNoJS">
-      <a id="mu_pause" class="button">🎶 Play!</a>
-    </div>
-    <p>To enjoy the stream in your favorite player <a target="_blank" rel="noopener noreferrer"
-      href='https://radio.basspistol.com/radio.mp3.m3u'>click here</a></p>
+    <p>{{ page.description }} To enjoy the stream in your favorite player <a target="_blank" rel="noopener noreferrer"
+        href='https://radio.basspistol.com/radio.mp3.m3u'>click here</a></p>
 
+    <div id="radioPlaceholder"></div>
     
+    <p><strong>Bellow is the list of all the generous artists making this radio possible.</strong> Some of them simply have no crib on the
+      internet. If you know that they now have a URL, if you somehow find a missing name or if you are featured on this
+      list but no longer wish to be, please <a href="/chat/#read">conact us ASAP.</a> Also feel free to contact us if
+      you think your music would fit in the radio!</p>
+    <h3>
+      {% assign sorted = site.data.radio | sort: 'name' %}
+      {% for artist in sorted %}
+      {% if artist.url %}
+      <a href="{{ artist.url }}" target="_blank" rel="noopener">{{ artist.name }}</a>
+      {% unless forloop.last %}-{% endunless %}
+      {% else %}
+      {{ artist.name }} {% unless forloop.last %}-{% endunless %}
+      {% endif %}
+      {% endfor %}
+    </h3>
+    <h2 style="text-align: left;">Chat with us!</h2>
+    <p><strong>Questions about the playlist? Requests? Want to submit tracks? Chat with us!<br /></strong>You do not
+      need to register to participate. This chat is public. <strong>We never ask you to submit credit-card (or any other
+        payment information) nor personal information.</strong> It is provided by kiwi via freenode. Read the privacy
+      policy of <a target="_blank" rel="noopener" href="https://kiwiirc.com/privacy">Kiwi</a> and <a target="_blank"
+        rel="noopener" href="https://freenode.net/policies">Freenode</a><br />Matrix user? <a
+        href="{{ site.social.irc.matrix }}" target="_blank" rel="noopener">Click here</a></p>
+    <div>
+    <iframe
+      src="https://kiwiirc.com/client/irc.freenode.net/?nick={{ site.social.irc.guest-nick }}|?&theme=cli{{ site.social.irc.channel }}"
+      style="border:0; width:100%; height:540px;"></iframe>
+    </div>
+
+    {% include author.html %}
 
     <p class="noJSalbum"><a class="button" target="_blank" rel="noopener"
         href="https://radio.basspistol.com/radio.mp3"><span class="fas fa-play"></span> Play!</a></p>
 
   </section>
-
-<section class="releases">
-  <h2>Pick Your Room!</h2>
-  <div class="container" style="padding:0;">
-  <!-- Smokers Lounge-->
-  <article>
-    <figure>
-      <a href="https://meet.jit.si/Basspistol-Super-Chill-Smokers-Lounge-For-Coolt-Cats" target="_balnk" rel="noopener">
-        <img src="/images/pages/Logo_Jitsi.svg" alt="Enter The SMokers Lounge" /></a>
-      <figcaption>
-        <h3>Smoker's Lounge</h3>
-        <p>Chill-out, have a little talk with your peers face-to-face. Dress up be fancy, classy and respectfull</p>
-       
-      </figcaption>
-    </figure>
-  </article>
-  <!-- Hubs -->
-  <article>
-    <figure>
-      <a href="https://hubs.mozilla.com/SWHvjBj/euphoric-gifted-meetup/" target="_balnk" rel="noopener">
-        <img src="/images/pages/hubs.jpg" alt="Enter the Glance Floor" /></a>
-      <figcaption>
-        <h3>Glance Floor</h3>
-        <p>This is where the action is at! Take a spin on the dancefloor, enjoy the company of others, have a chat. Draw your tag on stuff! Place your drink on the DJ booth. Do everything you would in a nightclub plus some more!</p>
-      </figcaption>
-    </figure>
-  </article>
-  <!-- Leet -->
-  <article>
-    <figure>
-      <a href="/chat/#read" target="_balnk" rel="noopener">
-        <img src="/images/pages/irc_chat_logo.png" alt="Cover art for {{ post.title }}" /></a>
-      <figcaption>
-        <h3>Leet's lair</h3>
-        <p>Not so much for VR or showing your face on cam? This room is for you, Fren. Join a text-chat and do all of the things one can do in the other rooms. But do it the 1337 way!</p>
-       
-
-      </figcaption>
-    </figure>
-  </article>
-
-
-</div>
-</section>
-<section>
-  <div id="radioPlaceholder"></div>
-  <h2>Line-up</h2>  
-
-    <h3>🎉🎉 Opening of Glance Floor 🎉🎉</h3>
-    <p><strong>20:00 CET - Virtual Club URL TBA</strong></p>
-    <p>♫♪.ılılıll|̲̅̅●̲̅̅|̲̅̅=̲̅̅|̲̅̅●̲̅̅|llılılı.♫♪♫♪</p>
-    <h3>☕☕ Garcon de Café ☕☕</h3>
-    <p><strong>20:30 CET - https://audius.co/garcondecafe</strong></p>
-    <p>Mysterious electronic act from the Scandinavian France. Live and direct with hardware and spices!</p>
-    <p>♫♪.ılılıll|̲̅̅●̲̅̅|̲̅̅=̲̅̅|̲̅̅●̲̅̅|llılılı.♫♪♫♪</p>
-    <h3>🦄🦄 Jätten 🦄🦄</h3>
-    <p><strong>21:30 CET - https://il.ink/Jaetten</strong></p>
-    <p>Crate-digger of the 21st century with focus on the alternative, producer extraordinaire, full time giant and incredible selector.</p>
-    <p>♫♪.ılılıll|̲̅̅●̲̅̅|̲̅̅=̲̅̅|̲̅̅●̲̅̅|llılılı.♫♪♫♪</p>
-    <h3>🎩🎩 Dellarge 🎩🎩</h3>
-    <p><strong>23:30 CET - http://dellarge.com/</strong></p>
-    <p>Dellarge will play a very special and exclusive DJ-set, in tribute to the infamoua D2</p>
-    <p>♫♪.ılılıll|̲̅̅●̲̅̅|̲̅̅=̲̅̅|̲̅̅●̲̅̅|llılılı.♫♪♫♪</p>
-  {% include author.html %}
-</section>
   {% include footer.html %}
   <!-- End Post Navigation -->
 </div>
@@ -187,17 +151,3 @@ layout: default
   });
 
 </script>
-<style>
-:root {
-    --bg: rgb(244, 200, 211);
-    --bg-alt: rgba(244, 200, 211, 0.75);
-    --fg: rgb(107, 108, 153);
-    --fg-alt: rgba(107, 108, 153, 0.5);
-    --border: rgb(89, 125, 69);
-    --border-alt: rgba(89, 125, 69, 0.75);
-    --accent1: rgb(255, 142, 34);
-    --accent1-alt: rgba(255, 142, 34, 0.75);
-    --accent2: rgb(111, 188, 195);
-    --accent2-alt: rgba(111, 188, 195, 0.75);
-}
-</style>
