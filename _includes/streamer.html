@@ -4,7 +4,7 @@
 {% if page.collection == 'posts' %}
   {% if page.category == 'releases' %}
   {% if page.check_this_if_cannot_be_bought == false %}
-  <section class="streambox">
+  <section class="streambox" id="support">
   <h2>Get this release</h2>
   <div class="streamer">
     {% for shop in page.stores %}
@@ -15,7 +15,7 @@
   </div>
   </section>
   {% else %}
-  <section class="streambox">
+  <section class="streambox" id="support">
   <h2>This release can't be obtained</h2>
   <p>Stream, follow, like and subscribe!</p>
   <div class="streamer">
@@ -29,7 +29,7 @@
   {% endif %}
   {% else %}
   {% if page.check_this_if_cannot_be_bought == false %}
-  <section class="streambox">
+  <section class="streambox" id="support">
     <h2>Get this release</h2>
     <div class="streamer">
       {% for shop in page.stores %}
@@ -40,10 +40,22 @@
     </div>
   </section>
   {% else %}
+  
+  <section class="streambox" id="support">
+    <h2>Support {{ site.title }}</h2>
+    <p>Stream, follow, like and subscribe!</p>
+    <div class="streamer">
+    {% for shop in site.data.stores %}
+  
+    <a onclick="_paq.push(['trackEvent', 'StoreLink', '{{ shop.name | remove: " " }}']);" target="_blank" rel="noopener" href="{{ shop.url }}" title="Stream from {{ shop.name }}" class="icon fab {{ shop.icon }}"><span class="label">{{ shop.name }}</span></a>
+  
+    {% endfor %}
+    </div>
+  </section>
   {% endif %}
   {% endif %}
 {% elsif page.collection == 'tracks' %}
-  <section class="streambox">
+  <section class="streambox" id="support">
 
   {% for post in site.posts %}
   {% if post.album == page.albumSlug %}
@@ -76,7 +88,7 @@
   </section>
 
 {% else %}
-  <section class="streambox">
+  <section class="streambox" id="support">
   <h2>Support {{ site.title }}</h2>
   <p>Stream, follow, like and subscribe!</p>
   <div class="streamer">
@@ -88,10 +100,13 @@
   </div>
   </section>
 {% endif %}
-<section class="streambox">
+<section class="streambox" id="support">
 <p>We take bitcoin donations!</p>
   <div class="streamer">
-    <script>if(!window.btcpay){    var head = document.getElementsByTagName('head')[0];   var script = document.createElement('script');   script.src='https://node.alsenet.com:49393/modal/btcpay.js';   script.type = 'text/javascript';   head.append(script);}function onBTCPayFormSubmit(event){    var xhttp = new XMLHttpRequest();    xhttp.onreadystatechange = function() {        if (this.readyState == 4 && this.status == 200) {            if(this.status == 200 && this.responseText){                var response = JSON.parse(this.responseText);                window.btcpay.showInvoice(response.invoiceId);            }        }    };    xhttp.open("POST", event.target.getAttribute('action'), true);    xhttp.send(new FormData( event.target ));}</script><style type="text/css"> .btcpay-form { display: inline-flex; align-items: center; justify-content: center; } .btcpay-form--inline { flex-direction: row; } .btcpay-form--block { flex-direction: column; } .btcpay-form--inline .submit { margin-left: 15px; } .btcpay-form--block select { margin-bottom: 10px; } .btcpay-form .btcpay-custom-container{ text-align: center; }.btcpay-custom { display: flex; align-items: center; justify-content: center; } .btcpay-form .plus-minus { cursor:pointer; font-size:25px; line-height: 25px; background: #DFE0E1; height: 30px; width: 45px; border:none; border-radius: 60px; margin: auto 5px; display: inline-flex; justify-content: center; } .btcpay-form select { -moz-appearance: none; -webkit-appearance: none; appearance: none; color: currentColor; background: transparent; border:1px solid transparent; display: block; padding: 1px; margin-left: auto; margin-right: auto; font-size: 11px; cursor: pointer; } .btcpay-form select:hover { border-color: #ccc; } #btcpay-input-price { -moz-appearance: none; -webkit-appearance: none; border: none; box-shadow: none; text-align: center; font-size: 25px; margin: auto; border-radius: 5px; line-height: 35px; background: #fff; } </style>
+<!-- BTC Pay -->
+    <script>if(!window.btcpay){    var head = document.getElementsByTagName('head')[0];   var script = document.createElement('script');   script.src='https://node.alsenet.com:49393/modal/btcpay.js';   script.type = 'text/javascript';   head.append(script);}function onBTCPayFormSubmit(event){    var xhttp = new XMLHttpRequest();    xhttp.onreadystatechange = function() {        if (this.readyState == 4 && this.status == 200) {            if(this.status == 200 && this.responseText){                var response = JSON.parse(this.responseText);                window.btcpay.showInvoice(response.invoiceId);            }        }    };    xhttp.open("POST", event.target.getAttribute('action'), true);    xhttp.send(new FormData( event.target ));}</script>
+    <style type="text/css"> .btcpay-form { display: inline-flex; align-items: center; justify-content: center; } .btcpay-form--inline { flex-direction: row; } .btcpay-form--block { flex-direction: column; } .btcpay-form--inline .submit { margin-left: 15px; } .btcpay-form--block select { margin-bottom: 10px; } .btcpay-form .btcpay-custom-container{ text-align: center; }.btcpay-custom { display: flex; align-items: center; justify-content: center; } .btcpay-form .plus-minus { cursor:pointer; font-size:25px; line-height: 25px; background: #DFE0E1; height: 30px; width: 45px; border:none; border-radius: 60px; margin: auto 5px; display: inline-flex; justify-content: center; } .btcpay-form select { -moz-appearance: none; -webkit-appearance: none; appearance: none; color: currentColor; background: transparent; border:1px solid transparent; display: block; padding: 1px; margin-left: auto; margin-right: auto; font-size: 11px; cursor: pointer; } .btcpay-form select:hover { border-color: #ccc; } #btcpay-input-price { -moz-appearance: none; -webkit-appearance: none; border: none; box-shadow: none; text-align: center; font-size: 25px; margin: auto; border-radius: 5px; line-height: 35px; background: #fff; } </style>
+    <!-- End BTC pay -->
     <form method="POST"  onsubmit="onBTCPayFormSubmit(event);return false"  action="https://node.alsenet.com:49393/api/v1/invoices" class="btcpay-form btcpay-form--block">
       <input type="hidden" name="storeId" value="FeM9np3QKxAB2PvLj3VeUcm6gV49hDyz8xz4DFceE41k" />
       <input type="hidden" name="jsonResponse" value="true" />
