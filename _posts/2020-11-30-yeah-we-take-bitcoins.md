@@ -36,6 +36,6 @@ While it doesn't change our position as a non-profit foundation, enabling our co
 
 <iframe src="https://www.youtube-nocookie.com/embed/b-Wwsm4ptw0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" width="100%" height="315" frameborder="0"></iframe>
 
-For now, tossing your Satoshies at us will not give you anything else than cosmic tokens of eternal gratitude from the entire Outernational Music Syndicate. (Basically just good old fashion karma from a few passionate music-makers, if you like.) However, we are exploring ways of rewarding supporters and to effectively and automatically distribute the donations equally among the Artists members of the musical syndicate. All in transparency, of course\!
+For now, tossing your Satoshies at us will not give you anything else than cosmic tokens of eternal gratitude from the entire Outernational Music Syndicate. (Basically just good old fashion karma from a few passionate music-makers, if you like.) However, we are exploring ways of rewarding supporters and to effectively and automatically distribute the donations equally among the Artists members of the musical syndicate.
 
 Watch this space\!
