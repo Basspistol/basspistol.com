@@ -21,30 +21,17 @@ link:
   buttontext: 👀 Go to source
 check_this_if_cannot_be_bought: false
 stores:
-  - name: Spotify
-    url: 'https://open.spotify.com/album/2UBSokWbYLy0JqrwoGRp0K'
-    icon: fa-spotify
-    download: false
-  - name: Tidal
-    url: 'https://listen.tidal.com/album/149706362'
-    icon: fa-creative-commons-sampling
-    download: false
-  - name: Apple
-    url: >-
-      https://music.apple.com/us/album/unmet-dependencies-single/1524841124?uo=4&app=music&at=1001lry3&ct=dashboard
-    icon: fa-apple
-    download: false
   - name: Bandcamp
     url: 'https://shop.basspistol.com/album/unmet-dependencies'
     icon: fa-bandcamp
     download: true
-  - name: Deezer
-    url: 'https://www.deezer.com/us/album/162768022'
-    icon: fa-deezer
+  - name: Audius
+    url: 'https://audius.co/tosettosetto/playlist/unmet-dependencies-11206'
+    icon: fa-creative-commons-sampling
     download: false
-  - name: Youtube
+  - name: PeerTube
     url: >-
-      https://www.youtube.com/playlist?list=OLAK5uy_nwAxqTcjZHW6XjNwHPkEd30jYsYcHJM_k
+      https://v.basspistol.org/videos/watch/playlist/e2e57ea1-5ed1-41a2-afd9-f8f9a0b7d1c6
     icon: fa-youtube
     download: false
 ---
