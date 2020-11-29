@@ -1,4 +1,6 @@
 
+
+
 {% if page.collection == 'posts' %}
   {% if page.category == 'releases' %}
   {% if page.check_this_if_cannot_be_bought == false %}
@@ -86,3 +88,28 @@
   </div>
   </section>
 {% endif %}
+<section class="streambox">
+<p>We take bitcoin donations!</p>
+  <div class="streamer">
+    <script>if(!window.btcpay){    var head = document.getElementsByTagName('head')[0];   var script = document.createElement('script');   script.src='https://node.alsenet.com:49393/modal/btcpay.js';   script.type = 'text/javascript';   head.append(script);}function onBTCPayFormSubmit(event){    var xhttp = new XMLHttpRequest();    xhttp.onreadystatechange = function() {        if (this.readyState == 4 && this.status == 200) {            if(this.status == 200 && this.responseText){                var response = JSON.parse(this.responseText);                window.btcpay.showInvoice(response.invoiceId);            }        }    };    xhttp.open("POST", event.target.getAttribute('action'), true);    xhttp.send(new FormData( event.target ));}</script><style type="text/css"> .btcpay-form { display: inline-flex; align-items: center; justify-content: center; } .btcpay-form--inline { flex-direction: row; } .btcpay-form--block { flex-direction: column; } .btcpay-form--inline .submit { margin-left: 15px; } .btcpay-form--block select { margin-bottom: 10px; } .btcpay-form .btcpay-custom-container{ text-align: center; }.btcpay-custom { display: flex; align-items: center; justify-content: center; } .btcpay-form .plus-minus { cursor:pointer; font-size:25px; line-height: 25px; background: #DFE0E1; height: 30px; width: 45px; border:none; border-radius: 60px; margin: auto 5px; display: inline-flex; justify-content: center; } .btcpay-form select { -moz-appearance: none; -webkit-appearance: none; appearance: none; color: currentColor; background: transparent; border:1px solid transparent; display: block; padding: 1px; margin-left: auto; margin-right: auto; font-size: 11px; cursor: pointer; } .btcpay-form select:hover { border-color: #ccc; } #btcpay-input-price { -moz-appearance: none; -webkit-appearance: none; border: none; box-shadow: none; text-align: center; font-size: 25px; margin: auto; border-radius: 5px; line-height: 35px; background: #fff; } </style>
+    <form method="POST"  onsubmit="onBTCPayFormSubmit(event);return false"  action="https://node.alsenet.com:49393/api/v1/invoices" class="btcpay-form btcpay-form--block">
+      <input type="hidden" name="storeId" value="FeM9np3QKxAB2PvLj3VeUcm6gV49hDyz8xz4DFceE41k" />
+      <input type="hidden" name="jsonResponse" value="true" />
+      <div class="btcpay-custom-container">
+        <div class="btcpay-custom">
+          <button class="plus-minus" onclick="event.preventDefault(); var price = parseInt(document.querySelector('#btcpay-input-price').value); if ('-' == '-' && (price - 1) < 1) { return; } document.querySelector('#btcpay-input-price').value = parseInt(document.querySelector('#btcpay-input-price').value) - 1;">-</button>
+          <input id="btcpay-input-price" name="price" type="text" min="1" max="100" step="1" value="10" style="width: 3em;" oninput="event.preventDefault();isNaN(event.target.value) || event.target.value <= 0 ? document.querySelector('#btcpay-input-price').value = 10 : event.target.value"  />
+          <button class="plus-minus" onclick="event.preventDefault(); var price = parseInt(document.querySelector('#btcpay-input-price').value); if ('+' == '-' && (price - 1) < 1) { return; } document.querySelector('#btcpay-input-price').value = parseInt(document.querySelector('#btcpay-input-price').value) + 1;">+</button>
+        </div>
+        <select name="currency" style="text-align:center">
+          <option value="EUR" selected>EUR</option>
+          <option value="CHF">CHF</option>
+          <option value="USD">USD</option>
+          <option value="GBP">GBP</option>
+          <option value="BTC">BTC</option>
+        </select>
+      </div>
+      <input type="image" class="submit" name="submit" src="https://node.alsenet.com:49393/img/paybutton/pay.svg" style="width:209px;border:none;" alt="Pay with BtcPay, Self-Hosted Bitcoin Payment Processor">
+    </form>
+  </div>
+</section>
