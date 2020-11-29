@@ -12,7 +12,7 @@ tags:
   - Future
   - internal
   - News
-image:
+image: /images/posts/bitcoinz.jpg
 video_path:
 download:
 link:
