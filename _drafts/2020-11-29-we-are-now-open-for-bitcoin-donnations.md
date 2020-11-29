@@ -1,5 +1,5 @@
 ---
-title: We are now open for bitcoin donnations!
+title: Yeah we take bitcoins
 description: >-
   &quot;We can’t imagine to enter the Information Age without changing the
   fundamental and most used communication tool: Money&quot; – Bernard Lietaer
