@@ -38,6 +38,6 @@ If you are curious about how this is expressed, why reforming the way money circ
 
 <iframe src="https://www.youtube-nocookie.com/embed/b-Wwsm4ptw0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" width="100%" height="315" frameborder="0"></iframe>
 
-For now, tossing your Satoshies at us will not give you anything else than cosmic tokens of eternal gratitude from the entire Outernational Music Syndicate. (Basically just good old fashion karma from a few passionate music-makers, if you like.) However, we are exploring ways of rewarding supporters and to effectively and automatically distribute the donations equally among the Artists members of the musical syndicate.
+For now, tossing your Satoshies at us will not give you anything else than cosmic tokens of eternal gratitude from the entire Outernational Music Syndicate. (Basically just good old fashion thanks from a few passionate music-makers, if you like.) However, we are exploring ways of rewarding supporters and to effectively and automatically distribute the donations equally among the Artists members of the musical syndicate.
 
 Watch this space\!
