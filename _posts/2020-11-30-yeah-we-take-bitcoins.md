@@ -32,6 +32,8 @@ Without the good services of [Alsenet.com](http://www.alsenet.com/){: target="_b
 
 While it doesn't change our position as a non-profit foundation, enabling our community to support us financially in ways that align with our vision of self-governance, data-sovereignty and autonomy is a move we have long been waiting to make. Longing for it. Simply because non of the existing systems have met our ethical requirements. While there are plenty of tools for Artists and Performers to ask for support, these tools all leverage traditional banks and stake-holders that we consider on a path of obsolescence in the 21st century. Basspistol strives for societal change and decentralization. Nothing express these goals better than the concept of Cryptocurrencies.
 
+> "We can’t imagine to enter the Information Age without changing the fundamental and most used communication tool: Money" – Bernard Lietaer
+
 <iframe src="https://www.youtube-nocookie.com/embed/b-Wwsm4ptw0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" width="100%" height="315" frameborder="0"></iframe>
 
 For now, tossing your Satoshies at us will not give you anything else than cosmic tokens of eternal gratitude from the Outernational Music Syndicate. (Basically just good old fashion karma, if you like.) However, we are exploring ways of rewarding supporters and to effectively and automatically distribute the donations equally among the Artists members of the musical syndicate.
