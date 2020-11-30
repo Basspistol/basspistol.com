@@ -88,7 +88,7 @@ layout: default
       <a href="{{ post.url }}">
         <img src="{{ site.mediaurl }}/{{ album.tracks[0].slug }}.jpeg" alt="Cover art for {{ post.title }}" /></a>
       <figcaption>
-        <strong>{{ album.name }}</strong><br />
+        <strong>{{ album.name }}</strong> ({{ album.date | date: '%Y' }})<br />
 
         {% assign total = 0 %}
         {% for track in album.tracks %}
@@ -96,12 +96,12 @@ layout: default
         {% endfor %}
     
 
-        {% assign round_seconds = total | round %}{% assign minutes = round_seconds | divided_by: 60 %}{% assign leftover_seconds = minutes | times: 60 %}{{ minutes }}:{% assign seconds_without_zero = round_seconds | minus: leftover_seconds %}{% if seconds_without_zero < 10 %}0{% endif %}{{ seconds_without_zero }}
+        {% assign round_seconds = total | round %}{% assign minutes = round_seconds | divided_by: 60 %}{% assign leftover_seconds = minutes | times: 60 %}{{ minutes }}m{% assign seconds_without_zero = round_seconds | minus: leftover_seconds %}{% if seconds_without_zero < 10 %}0{% endif %}{{ seconds_without_zero }}s
+        
 
-<br />
 
 
-        {{ album.date | date: '%Y' }}
+        
       </figcaption>
     </figure>
   </article>
