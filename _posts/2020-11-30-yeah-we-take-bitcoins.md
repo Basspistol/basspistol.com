@@ -18,6 +18,7 @@ download:
 link:
   url: '#support'
   buttontext: Satoshis this way!
+  internal: true
 check_this_if_cannot_be_bought: true
 stores:
   - name:

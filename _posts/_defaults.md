@@ -13,6 +13,7 @@ download: ''
 link: 
   url: 
   buttontext: 
+  internal: false
 check_this_if_cannot_be_bought: true
 stores:
   - name:

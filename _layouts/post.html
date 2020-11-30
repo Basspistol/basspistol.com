@@ -87,7 +87,7 @@ layout: default
   {% if page.link.url %}
   <p class="center">
 
-    <a href="{{ page.link.url }}?ref=TheMusicSyndicateWashere" target="_bank" rel="noopener" class="button">{% if page.link.buttontext %}{{ page.link.buttontext }}{% else %}👀 check it out{% endif %}</a>
+    <a href="{{ page.link.url }}{% unless page.link.internal == true %}?ref=TheMusicSyndicateWashere{% endunless %}" {% unless page.link.internal == true %}target="_bank" rel="noopener"{% endunless %} class="button">{% if page.link.buttontext %}{{ page.link.buttontext }}{% else %}👀 check it out{% endif %}</a>
 
   </p>
   {% endif %}
@@ -325,7 +325,7 @@ layout: default
       {% if page.link.url %}
       <p class="center">
  
-        <a href="{{ page.link.url }}?ref=TheMusicSyndicateWashere" target="_bank" rel="noopener" class="button">{% if page.link.buttontext %}{{ page.link.buttontext }}{% else %}👀 check it out{% endif %}</a>
+        <a href="{{ page.link.url }}{% unless page.link.internal == true %}?ref=TheMusicSyndicateWashere{% endunless %}" {% unless page.link.internal == true %}target="_bank" rel="noopener"{% endunless %} class="button">{% if page.link.buttontext %}{{ page.link.buttontext }}{% else %}👀 check it out{% endif %}</a>
 
     
       </p>
