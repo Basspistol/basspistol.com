@@ -31,7 +31,6 @@ title : The Basspistol RSS Feed
         <category>Hi-Lights</category>
         {% assign author_id = post.author | prepend: "/authors/" | append: "/" %}
         {% assign author = site.authors | where: "url", author_id | first %}
-        <dc:creator>{{ author.name }}</dc:creator>
         <author>{{ author.email }} ({{ author.name }})</author>
         <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
         <media:thumbnail url="{{ site.url }}{{ post.image }}" {% imagesize {{ post.image }}:props %}></media:thumbnail>
