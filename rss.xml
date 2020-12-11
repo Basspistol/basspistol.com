@@ -35,7 +35,7 @@ title : The Basspistol RSS Feed
         <author>{{ author.email }} ({{ author.name }})</author>
         <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
         <media:thumbnail url="{{ site.url }}{{ post.image }}" {% imagesize {{ post.image }}:props %}></media:thumbnail>
-        <media:title type="pl ain">{{ post.title | xml_escape }}</media:title>
+        <media:title type="plain">{{ post.title | xml_escape }}</media:title>
       </item>
   {% endfor %}
   </channel>
