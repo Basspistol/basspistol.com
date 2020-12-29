@@ -21,7 +21,7 @@
     <small>
       <div style="text-align: center;">
         {% for nw in site.data.social %}
-        <a target="_blank" alt="{{ site.title }} on {{ nw.name }}" title="{{ site.title }} on {{ nw.name }}" rel="{% if nw.url contains 'mastodon.art' %}me {% endif %}noopener"
+        <a target="_blank" alt="{{ site.title }} on {{ nw.name }}" title="{{ site.title }} on {{ nw.name }}" rel="{% if nw.url contains 't.basspistol.org' %}me {% endif %}noopener"
           href="{{ nw.url }}" class="icon small fab {{ nw.icon }}"><span class="label">{{ nw.name }}</span></a>
         {% endfor %}
         <a target="_blank" alt="email" title="email" href="mailto:{{ site.social.mail }}" class="icon small fas fa-envelope-open-text"><span

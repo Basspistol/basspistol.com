@@ -1,5 +1,5 @@
-- name: Mastodon
-  url: https://mastodon.art/@basspistol
+- name: Pleroma
+  url: https://t.basspistol.org/basspistol
   icon: fa-mastodon
   share_link: 
   we_have_account: true
