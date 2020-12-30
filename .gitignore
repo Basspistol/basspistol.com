@@ -21,3 +21,7 @@ _data/.~lock.*.csv#
 # no heavy files in here
 *.mp3
 assets/albums/
+
+# KDE crap not allowed
+basspistol.com.kdev4
+.kdev4
