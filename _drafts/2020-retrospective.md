@@ -1,7 +1,7 @@
 ---
-title: 2020 Retrospective
+title: 2021 Futrospective
 description:
-date: 2020-12-30 14:01:36 +0100
+date: 2021-01-18 16:39:49 +0100
 artist:
 author: set
 category: highlights
@@ -29,4 +29,4 @@ stores:
     download: false
 ---
 
-The best way to write a retrospective is probably just to get started with it. Looking back to 2020 is a weird trip: feels like nothing happened while everything happened. Gloomy feeling at first, misery at the doorstep, death... It's hard to cut through the anxiety. But
+As every year in January the web turns into retrospective lists of accomplishment. Understandably, looking back to 2020 is a weird trip for anyone. On this end 2020 feels like nothing happened, while everything was happening. Gloomy, misery at the doorstep, death… It's hard to cut through the anxiety. But
