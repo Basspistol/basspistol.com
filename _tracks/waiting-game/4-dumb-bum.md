@@ -464,14 +464,14 @@ nextTrack:
     TYER: '2019'
 previousTrack:
   path: >-
-    /mnt/usb32gb/organized-basspistol.media/assets/albums/waiting-game/3-dance-of-life.mp3
-  audio: /assets/albums/waiting-game/3-dance-of-life.mp3
-  slug: waiting-game/3-dance-of-life
+    /mnt/usb32gb/organized-basspistol.media/assets/albums/waiting-game/2-blackmail.mp3
+  audio: /assets/albums/waiting-game/2-blackmail.mp3
+  slug: waiting-game/2-blackmail
   albumSlug: waiting-game
-  trackSlug: 3-dance-of-life
+  trackSlug: 2-blackmail
   coverPath: >-
-    /mnt/usb32gb/organized-basspistol.media/assets/albums/waiting-game/3-dance-of-life.jpeg
-  cover: /assets/albums/waiting-game/3-dance-of-life.jpeg
+    /mnt/usb32gb/organized-basspistol.media/assets/albums/waiting-game/2-blackmail.jpeg
+  cover: /assets/albums/waiting-game/2-blackmail.jpeg
   format:
     tagTypes:
       - ID3v2.3
@@ -484,8 +484,8 @@ previousTrack:
     bitrate: 128000
     tool: LAME 3.100U
     codecProfile: CBR
-    numberOfSamples: 10187136
-    duration: 231.0008163265306
+    numberOfSamples: 17186688
+    duration: 389.7208163265306
   native:
     ID3v2.3:
       - id: COMM
@@ -542,7 +542,7 @@ previousTrack:
         value:
           language: XXX
           description: MUSICBRAINZ_RELEASETRACKID
-          text: b0206477-57f7-4021-83e0-4d06ca6e3485
+          text: 99b4e54f-44b4-4481-8b31-b708697ef522
       - id: 'TXXX:MusicBrainz Album Id'
         value: c9c09759-c30b-406f-bb6a-57dce0047d29
       - id: 'TXXX:musicbrainz_albumid'
@@ -560,7 +560,7 @@ previousTrack:
       - id: UFID
         value: &ref_4
           owner_identifier: 'http://musicbrainz.org'
-          identifier: !<tag:yaml.org,2002:binary> MGY5Y2Y5OTgtMDQ4OS00ZjRkLWJhMTEtNTMwZGVlOGM0ZDU3AA==
+          identifier: !<tag:yaml.org,2002:binary> NDBmOGFiZWUtZTc4YS00NjNjLTgwODUtNWNjMjNlMzNjYTJhAA==
       - id: 'TXXX:MusicBrainz Artist Id'
         value: a2899399-d1d5-462f-9d56-ec1ea78cc4b6
       - id: 'TXXX:musicbrainz_artistid'
@@ -568,67 +568,34 @@ previousTrack:
       - id: TPE1
         value: Sakrecoer
       - id: TIT2
-        value: Dance Of Life
+        value: Blackmail
       - id: TRCK
-        value: 3/24
+        value: 2/24
       - id: TCON
         value: Electro
       - id: USLT
         value: &ref_5
           language: eng
           description: ''
-          text: |-
-            It's a dance between you and me
-            I can show you if you want to see
-            It's about a step or three
-            You can do it easily
-
-            It's a dance between you and me
-            I can show you if you want to see
-            It's about a step or three
-            You can do it easily
-
-            It's a dance between you and me
-            I can show you if you want to see
-            It's about a step or three
-            You can do it easily
-
-            Come join the dance of life
-            Come join the dance of life
-            Come join the dance of life
-            Come join the dance of life
-
-            Check it
-            You know it's time
-            You know it's right
-            Grab it
-
-            It's a dance between you and me
-            I can show you if you want to see
-            It's about a step or three
-            You can do it easily
-
-            It's a dance between you and me
-            I can show you if you want to see
-            It's about a step or three
-            You can do it easily
-
-            It's a dance between you and me
-            I can show you if you want to see
-            It's about a step or three
-            You can do it easily
-
-            Come join the dance of life
-            Come join the dance of life
-            Come join the dance of life
-            Come join the dance of life
+          text: |
+            I've been watching you
+            For a while now
+            I don't know how to approach you
+            You're so high above
+            From down here
+            All the glittering
+            Sets the tone of your atmosphere
+            From down here
+            From down here
+            From down here
+            From down here
       - id: TYER
         value: '2019'
   quality:
     warnings: []
   common:
     track:
-      'no': 3
+      'no': 2
       of: 24
     disk:
       'no': 1
@@ -644,19 +611,19 @@ previousTrack:
       - BPIST017
       - Digital Media
       - Sakrecoer
-      - b0206477-57f7-4021-83e0-4d06ca6e3485
+      - 99b4e54f-44b4-4481-8b31-b708697ef522
     musicbrainz_albumid: c9c09759-c30b-406f-bb6a-57dce0047d29
     album: Waiting Game
     musicbrainz_albumartistid:
       - a2899399-d1d5-462f-9d56-ec1ea78cc4b6
     albumartist: Sakrecoer
-    musicbrainz_recordingid: "0f9cf998-0489-4f4d-ba11-530dee8c4d57\0"
+    musicbrainz_recordingid: "40f8abee-e78a-463c-8085-5cc23e33ca2a\0"
     musicbrainz_artistid:
       - a2899399-d1d5-462f-9d56-ec1ea78cc4b6
     artists:
       - Sakrecoer
     artist: Sakrecoer
-    title: Dance Of Life
+    title: Blackmail
     genre:
       - Electro
     year: 2019
@@ -672,7 +639,7 @@ previousTrack:
       CATALOGNUMBER: BPIST017
       MEDIA: Digital Media
       ARTISTS: Sakrecoer
-      MUSICBRAINZ_RELEASETRACKID: b0206477-57f7-4021-83e0-4d06ca6e3485
+      MUSICBRAINZ_RELEASETRACKID: 99b4e54f-44b4-4481-8b31-b708697ef522
       'TXXX:MusicBrainz Album Id': c9c09759-c30b-406f-bb6a-57dce0047d29
       'TXXX:musicbrainz_albumid': c9c09759-c30b-406f-bb6a-57dce0047d29
       TALB: Waiting Game
@@ -684,8 +651,8 @@ previousTrack:
       'TXXX:MusicBrainz Artist Id': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
       'TXXX:musicbrainz_artistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
       TPE1: Sakrecoer
-      TIT2: Dance Of Life
-      TRCK: 3/24
+      TIT2: Blackmail
+      TRCK: 2/24
       TCON: Electro
       USLT: *ref_5
       TYER: '2019'
@@ -700,7 +667,7 @@ previousTrack:
     CATALOGNUMBER: BPIST017
     MEDIA: Digital Media
     ARTISTS: Sakrecoer
-    MUSICBRAINZ_RELEASETRACKID: b0206477-57f7-4021-83e0-4d06ca6e3485
+    MUSICBRAINZ_RELEASETRACKID: 99b4e54f-44b4-4481-8b31-b708697ef522
     'TXXX:MusicBrainz Album Id': c9c09759-c30b-406f-bb6a-57dce0047d29
     'TXXX:musicbrainz_albumid': c9c09759-c30b-406f-bb6a-57dce0047d29
     TALB: Waiting Game
@@ -712,8 +679,8 @@ previousTrack:
     'TXXX:MusicBrainz Artist Id': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
     'TXXX:musicbrainz_artistid': a2899399-d1d5-462f-9d56-ec1ea78cc4b6
     TPE1: Sakrecoer
-    TIT2: Dance Of Life
-    TRCK: 3/24
+    TIT2: Blackmail
+    TRCK: 2/24
     TCON: Electro
     USLT: *ref_5
     TYER: '2019'
