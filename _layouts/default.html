@@ -44,7 +44,7 @@
 {% include cookie-consent.html %}
 {% include scripts.html %}
 {% if page.video_path %}
-<div class="fullscreen-bg">
+<div class="fullscreen-bg" style="opacity: 0.1;">
 <video data-matomo-ignore autoplay muted loop poster="{{ page.image }}" class="fullscreen-bg__video">
   <source src="{{ page.video_path }}" type="video/mp4">
 </video>

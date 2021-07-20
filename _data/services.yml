@@ -1,0 +1,40 @@
+- title: Website Hosting
+  icon: /images/icons/spider.svg
+  description: We provide hosting for your website. You may use your own domain-name but we can provide also provide you with s subdomain (such as yourname.basspistol.org)
+  url: 
+- title: Peertube
+  icon: /images/icons/peertube.svg
+  description: Peertube is an alternative to Youtube that implements ActivityPub and offer streaming of pre-recorded and live-video using Peer-to-Peer technology
+  url: https://v.basspistol.org
+- title: Pleroma
+  icon: /images/icons/pleroma.svg
+  description: Pleroma is a micro-blogging system implementing ActivityPub that enables a hybrid form of social interaction situated somewhere between Facebuck, Twatter and Instaframe
+  url: https://t.basspistol.org
+- title: Mobililzon
+  icon: /images/icons/mobilizon.svg
+  description: Mobilizon is a federated software comprizing of a multitude of interconnected Mobilizon websites that helps you find, create and organise events. An ethical alternative to Facebook events, groups and pages, Mobilizon is a tool designed to serve you. Period. 
+  url: https://events.basspistol.org
+- title: Matrix
+  icon: /images/icons/matrix.svg
+  description: Matrix is a federated end-to-end encrypted chat-service permitting secure Audio/Video-chat with a large network, beyond any prying eyes.
+  url: https://basspistol.org
+- title: Web Radio
+  icon: /images/icons/radio.svg
+  description: We operate a 365/24/7 audio-stream playing freedom music to the masses. It has been on-line 98% of the time since 2010.
+  url: https://basspistol.com/radio
+- title: Write Freely
+  icon: /images/icons/writefreely.svg
+  description: Write Freely is an ActivityPub enabled blogging system with a minimal layout and strong focus on writing.
+  url: https://txt.basspistol.org
+- title: Next Cloud
+  icon: /images/icons/nextcloud.svg
+  description: Very much like dropbox or your usual filesharing and cloud-collaboration suspect, but on steroids. Our Nextcloud is enhanced with tools to synchronize your contacts, organize your tasks, conduct surveys or polls and much more
+  url: https://nxt.basspistol.org
+- title: Mautic
+  icon: /images/icons/mautic.svg
+  description: The ethical alternative to MailChimp, an open source marketing-automation tool to engage the visitors of your website, send out Newsletters and more.
+  url: https://pr.basspistol.com
+- title: Alternative Distribution
+  icon: /images/icons/archive.svg
+  description: We are an official curator and NetLabel on the Internet Archive. We can guarantee your art will travel through time for as long as the internet exists. provide hosting for all your releases paired with a bitcoin donation/crowdfunding-tool.
+  url: https://archive.org/details/basspistol
