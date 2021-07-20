@@ -38,3 +38,7 @@
   icon: /images/icons/archive.svg
   description: We are an official curator and NetLabel on the Internet Archive. We can guarantee your art will travel through time for as long as the internet exists. provide hosting for all your releases paired with a bitcoin donation/crowdfunding-tool.
   url: https://archive.org/details/basspistol
+- title: Shop
+  icon: /images/icons/bitcoin.svg
+  description: We help you set-up your bandcamp or let you leverage ours. Bandcamp is the last platform allowing custom domain names for this reason it is the one exception to the rule that we are comfortable endorsing.
+  url: https://shop.basspistol.com

@@ -97,7 +97,7 @@ body {
       bottom: 0;
       transform: rotate(-3deg);
       overflow: hidden;
-      background: -webkit-linear-gradient(90deg, var(--bg) 25%,var(--fg-alt) 100%);
+      background: -webkit-linear-gradient(90deg, var(--bg) 25%,transparent 100%);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
       filter: blur(2px);
