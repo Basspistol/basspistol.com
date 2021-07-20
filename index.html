@@ -2,7 +2,7 @@
 title: Music Syndicate
 subtitle: Basspistol
 description: >-
-  Homepage of Basspistol, The Outernational Music Syndicate established in 2010.
+  Central node of Basspistol, The Outernational Music Syndicate established in 2010.
   The underground is dead, Long Live the Underground!
 tags: 
   - basspistol
@@ -29,6 +29,7 @@ layout: default
   <div class="splash">
     <div style="padding: 10px;flex: 0 0 100%">
       <svg version="1.1" viewBox="0 0 1008.3 179.51" xmlns="http://www.w3.org/2000/svg">
+        <title>Basspistol</title>
         <g transform="translate(308.15 -79.611)">
          <g transform="translate(39.823 223.38)">
           <g transform="matrix(44.085 0 0 44.085 -1137 -1768.2)" fill="#dce2e2" style="shape-inside:url(#rect835);white-space:pre" aria-label="𝕭𝖆𝖘𝖘𝖕𝖎𝖘𝖙𝖔𝖑">
@@ -51,35 +52,39 @@ layout: default
         </g>
        </svg>
     </div>
-    <div style="padding: 10px;">
-  
-      <h3>The outernational music syndicate.</h3>
-
-      <p>Established in 2010 as a pro-active reaction to everything that is broken in the music-industry. Basspistol is an endlessly evolving union for the Underground Artists of the third millenium. We believe in Music. The underground is dead, Long Live the Underground!</p>
-    </div>
-    <div style="padding: 10px;">
-  
-      <h3>Together we are stronger.</h3>
-        
-      <p>Combine your will-power with others' to take back the control of your expression. Artists should own their means of outreach. Your fanbase loves You because You are You, keep it that way! Foster a contagious precedent and inspire other Musicians to be the change they want to see.</p>
-    </div>
-    <div style="padding: 10px;">
-  
-      <h3>We help you help yourself.</h3>
-        
-      <p>We provide the tools, the services and the braintrust to enable true independence for the rare musicians brave enough to stand up against the big-tech narrative. We are the invisible air under your wings, the maintainer of the Underground, your guide down into the decentralized rabbit-hole.</p>
-    </div>
-    <div style="padding: 10px;flex: 0 0 100%; text-align: center;">
-      <a href="https://pr.basspistol.com/join-the-crew" target="_blank" class="button">Join the crew</a>
-    </div>
+    <div style="text-align: center;"><a href="#read" class="button">Bass what now?</a></div>
     
   </div>
 
 
 </header>
 
-<section class="releases">
-  <h2>What we offer our members</h2>
+<section class="releases" id="read">
+  <h2>Who, What, How?</h2>
+  <div class="container" style="display: flex; flex-wrap: wrap;">
+  <div style="padding: 10px; flex: 1 1 300px">
+  
+    <h3>The Outernational Music Syndicate.</h3>
+
+    <p>Established in 2010 as a pro-active reaction to everything that is broken in the music-industry. Basspistol is an endlessly evolving union for the Underground Artists of the third millenium <strong>carrying the values of the Creative Commons.</strong> We believe in Music. The underground is dead, Long Live the Underground!</p>
+  </div>
+  <div style="padding: 10px; flex: 1 1 300px">
+
+    <h3>Together we are stronger.</h3>
+      
+    <p>Combine your will-power with others' to take back the control of your expression. Artists should own their means of outreach. Your fanbase loves You because You are You, keep it that way! <strong>Foster a contagious precedent and inspire other Musicians to be the change they want to see.</strong></p>
+  </div>
+  <div style="padding: 10px; flex: 1 1 300px">
+
+    <h3>We help you help yourself.</h3>
+      
+    <p>We provide the tools, the services and the braintrust to enable <strong>true independence for the rare musicians brave enough to stand up against the big-tech narrative.</strong> We are the invisible air under your wings, the maintainer of the Underground, your guide down into the decentralized rabbit-hole.</p>
+  </div>
+  <div style="padding: 10px;flex: 0 0 100%; text-align: center;">
+    <a href="https://pr.basspistol.com/join-the-crew" target="_blank" class="button">Join the crew</a>
+  </div>
+  </div>
+  <h2>What you can get from us</h2>
   <div class="container">
 
   {% for service in site.data.services %}
@@ -87,10 +92,12 @@ layout: default
 
   <article>
     <figure>
-      <a href="{{ service.url }}" target="_blank">
-        <img src="{{ service.icon }}" alt="{{ service.title }}" /></a>
+      {% if service.url != nil %}<a href="{{ service.url }}" target="_blank">{% endif %}
+        <img src="{{ service.icon }}" alt="{{ service.title }}" />
+      {% if service.url != "" %}</a>{% endif %}
       <figcaption>
-        <p><strong>{{ service.title }}</strong><br />
+        <h3>{{ service.title }}</h3>
+        <p>
         {{ service.description }}
         </p>
       </figcaption>
@@ -109,38 +116,7 @@ layout: default
   </div>
 </section>
 
-<section class="section-title" id="read">
-  <div class="container">
-    <h2>Latest News</h2>
-  </div>
-</section>
-{% for post in site.categories.highlights limit: 3 %}
 
-
-<section class="front-section">
-
-  <div style="background-image:url({{ post.image }})">
-    <p class="editor-link"><a href="cloudcannon:collections/_posts/{{ post.path }}" rel="nofollow"
-        class="btn"><strong>&#9998;</strong> Edit Post</a></p>
-  </div>
-  <div class="description">
-    <div class="container">
-      <div class="">
-        <h3>{{ post.title }}</h3>
-        <p><time datetime="{{ post.date }}">{% include forloop-dates.html %}</time></p>
-        {{ post.description  }}
-      </div>
-     
-      <div>
-        <p><a class="button" href="{{ relBase }}{{ post.url }}">✨ Read Highlight</a></p>
-      </div>
-  
-    </div>
-  </div>
-
-</section>
-
-{% endfor %}
 
 <section class="releases">
   <h2>Releases</h2>

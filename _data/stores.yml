@@ -2,18 +2,6 @@
   url: https://shop.basspistol.com
   icon: fa-bandcamp
   download: true
-- name: Spotify
-  url: https://open.spotify.com/playlist/5daDKmJZ2aG54MzKO2FxLc
-  icon: fa-spotify
-  download: false
-- name: YouTube
-  url: https://www.youtube.com/TheBasspistol
-  icon: fa-youtube
-  download: false
-- name: Soundcloud
-  url: https://soundcloud.com/basspistol
-  icon: fa-soundcloud
-  download: false
 - name: Archive.org
   url: https://archive.org/details/basspistol
   icon: fa-creative-commons-sampling
