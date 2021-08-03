@@ -1,13 +1,18 @@
-
 <div id="cookie-notice">
 
   <p>
-    We only use cookies if you consent to it. They don't contain any identifiable info: they just let us know if you enjoyed this enough to come back.
-    <br /><a href="#" id="cookie-notice-decline">Click here</a> if you want this to go away without cookies.
+    We only use cookies if you consent to it, or if you fill out one of our forms so we can remember you next time you come by. 
+    <br />These cookies are all placed by us. No big tech involved.
+  
     <br />Read more about <a href="/cookies/"> how {{ site.title }} use cookies</a>
   </p>
-  <button class="button yes"
-    id="cookie-notice-accept">Ok</button>
+
+    <button class="button no" id="cookie-notice-decline">
+      Nah     
+    </button>
+    <button class="button yes" id="cookie-notice-accept">
+    Ok
+  </button>
 
 </div>
 
@@ -37,7 +42,7 @@
 
   if (readCookie('cookie-notice-dismissed') == 'wantCookies') {
     {% include analytics.js %}
-    
+    {% include mautic-tracker.js %}
   } else {
     document.getElementById('cookie-notice').style.display = 'flex';
 
