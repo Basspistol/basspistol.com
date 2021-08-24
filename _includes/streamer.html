@@ -101,12 +101,15 @@
   </section>
 {% endif %}
 <section class="streambox" id="support">
-  <h2>We take bitcoin donations!</h2>
+  <script src="https://liberapay.com/Basspistol/widgets/receiving.js"></script>
+  <br /><br />
+    <!-- BTC Pay -->
+  <!-- <h2>We take bitcoin donations!</h2>
     <div class="streamer" style="margin-top:0;">
-  <!-- BTC Pay -->
+
       <script>if(!window.btcpay){    var head = document.getElementsByTagName('head')[0];   var script = document.createElement('script');   script.src='https://node1.terminalb.tc/modal/btcpay.js';   script.type = 'text/javascript';   head.append(script);}function onBTCPayFormSubmit(event){    var xhttp = new XMLHttpRequest();    xhttp.onreadystatechange = function() {        if (this.readyState == 4 && this.status == 200) {            if(this.status == 200 && this.responseText){                var response = JSON.parse(this.responseText);                window.btcpay.showInvoice(response.invoiceId);            }        }    };    xhttp.open("POST", event.target.getAttribute('action'), true);    xhttp.send(new FormData( event.target ));}</script>
       <style type="text/css"> .btcpay-form { display: inline-flex; align-items: center; justify-content: center; } .btcpay-form--inline { flex-direction: row; } .btcpay-form--block { flex-direction: column; background-color: var(--fg); padding-top: 20px; border-radius: var(--border-radius); } .btcpay-form--inline .submit { margin-left: 15px; } .btcpay-form--block select { margin-bottom: 10px; } .btcpay-form .btcpay-custom-container{ text-align: center; }.btcpay-custom { display: flex; align-items: center; justify-content: center; } .btcpay-form .plus-minus { cursor:pointer; font-size:25px; line-height: 25px; background: var(--bg);color:var(--fg); height: 30px; width: 45px; border:none; border-radius: 60px; margin: auto 5px; display: inline-flex; justify-content: center; } .btcpay-form select { -moz-appearance: none; -webkit-appearance: none; appearance: none; color: var(--bg); background: transparent; border:1px solid transparent; display: block; padding: 1px; margin-left: auto; margin-right: auto; font-size: 1em; cursor: pointer; } .btcpay-form select:hover { border-color: #ccc; } #btcpay-input-price { -moz-appearance: none; -webkit-appearance: none; border: none; box-shadow: none; text-align: center; font-size: 25px; margin: auto; border-radius: 5px; line-height: 35px; background: #fff; } </style>
-      <!-- End BTC pay -->
+
       <form method="POST"  onsubmit="onBTCPayFormSubmit(event);return false"  action="https://node1.terminalb.tc/api/v1/invoices" class="btcpay-form btcpay-form--block">
         <input type="hidden" name="storeId" value="FeM9np3QKxAB2PvLj3VeUcm6gV49hDyz8xz4DFceE41k" />
         <input type="hidden" name="jsonResponse" value="true" />
@@ -126,5 +129,6 @@
         </div>
         <input type="image" class="submit" name="submit" src="https://node1.terminalb.tc/img/paybutton/pay.svg" style="width:209px;border:none;" alt="Pay with BtcPay, Self-Hosted Bitcoin Payment Processor">
       </form>
-    </div>
+    </div> -->
+          <!-- End BTC pay -->
   </section>
