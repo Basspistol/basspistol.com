@@ -11,15 +11,15 @@
   name: Video
   external_site: true
 - icon: 📰
-  url: /highlights/
+  url: https://txt.basspistol.org
   name: Hi-lights
-  external_site: false
+  external_site: true
 - icon: 🧑🏾‍🤝‍🧑🏼
-  url: /artists/
+  url: https://liberapay.com/Basspistol/
   name: Artists
-  external_site: false
+  external_site: true
 - icon: ☔
-  url: /about/
+  url: /#read
   name: About
   external_site: false
 - icon: 🔗
