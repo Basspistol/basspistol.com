@@ -1,0 +1,36 @@
+---
+title: Thank you!
+description: >-
+  So good to have you on board! Made a mistake?
+image: /images/frankyfresco-video.jpg
+layout: default
+sitemap: false
+---
+{% include relBase.html %}
+<header class="hero" style="background-image: url({{ relBase }}{{ page.image }});">
+  <div class="imagecontainer">
+    <h4>{{ page.title }}</h4>
+  </div>
+  <div class="splash">
+    <div class="splash-logo">
+      {% if page.category == 'releases' or page.category == 'highlights' %}
+
+      {% else %}
+      <a href="/"><img src="{{ site.icon }}" width="240px" alt="{{ site.title }} Logo" /></a>
+      {% endif %}
+      
+    </div>
+    <div class="description">
+  
+      <h1>{{ page.title }}</h1>
+      <p>{{ page.description }}</p>
+
+      <p><a href="#play" class="button">✍️ Back to form</a></p>
+
+    </div>
+  </div>
+ 
+
+
+
+</header>
